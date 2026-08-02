@@ -132,6 +132,10 @@ function reviewName(review: FreelancerReviewRecord): string | null {
   return name || null;
 }
 
+function squish(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
 function parseReview(value: unknown): FreelancerReviewRecord | null {
   const review = objectValue(value);
   const assignmentTitle = stringValue(review?.assignmentTitle);
@@ -320,8 +324,10 @@ export async function recoverClientName(
 
 export function applyRecoveredName(identity: Identity, match: RecoveredName): Identity {
   const people = [...new Set([match.clientName, ...identity.people])];
+  const reviewSupportsName = Boolean(match.reviewText && squish(match.reviewText).includes(squish(match.clientName)));
+  const evidenceQuote = reviewSupportsName ? match.reviewText : match.clientName;
   if (identity.kind === "identified") {
-    return { ...identity, name: match.clientName, people, evidenceQuote: identity.evidenceQuote || match.reviewText || match.clientName };
+    return { ...identity, name: match.clientName, people, evidenceQuote: evidenceQuote || identity.evidenceQuote || match.clientName };
   }
   return {
     kind: "identified",
@@ -332,6 +338,6 @@ export function applyRecoveredName(identity: Identity, match: RecoveredName): Id
     website: null,
     industry: null,
     confidence: "medium",
-    evidenceQuote: match.reviewText || match.clientName,
+    evidenceQuote,
   };
 }

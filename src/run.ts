@@ -288,7 +288,7 @@ function evidenceFor(
     jobId: null,
     freelancerId: freelancerId(recovery.freelancerId),
     title: recovery.reviewTitle,
-    text: recovery.reviewText || recovery.clientName,
+    text: [recovery.clientName, recovery.reviewText].filter(Boolean).join(" — "),
   });
   return evidence;
 }
