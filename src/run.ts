@@ -436,10 +436,13 @@ async function processRecords(
         const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
         const client: Client = { buyerId: buyer, jobs, evidence, identity, webPresence: emptyWebPresence() };
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
+        const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
         try {
-          client.webPresence = (await enrichClient(client)).presence;
+          const presence = (await enrichClient(client)).presence;
+          client.webPresence = { ...presence, verifiedSite: presence.verifiedSite || evidenceBackedWebsite };
         } catch (error) {
           past.failures.push(error instanceof Error ? error.message : String(error));
+          if (evidenceBackedWebsite) client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
         }
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
         clients.push(client);
@@ -560,8 +563,18 @@ export async function rerunClient(
     await report(progress, { kind: "feed-loaded", feed: session.selection, jobCount: session.jobs.length });
     const root = options.root || "runs";
     const runDirectory = await createRunFolder(previous.feed, root);
-    const records = await loadStoredRecords(sourceRunDirectory, client);
-    for (const record of records) {
+    const storedRecords = await loadStoredRecords(sourceRunDirectory, client);
+    const records: LoadedRecord[] = [];
+    for (const stored of storedRecords) {
+      const refreshed = await collectAttachmentTexts(session.page, stored.details);
+      const freshByName = new Map(refreshed.items.map((item) => [item.fileName, item]));
+      const oldByName = new Map(stored.attachmentsText.map((item) => [item.fileName, item]));
+      const attachmentsText = attachmentMetadata(stored.details).flatMap((metadata) => {
+        const item = freshByName.get(metadata.fileName) || oldByName.get(metadata.fileName);
+        return item ? [item] : [];
+      });
+      const record = { ...stored, attachmentsText, attachmentFailures: refreshed.failures };
+      records.push(record);
       await writeRawJobRecord(runDirectory, record.job, record.rawFeed, record.details, record.attachmentsText, record.attachmentFailures);
     }
     const processed = await processRecords(session, runDirectory, records, { ...options, onlyBuyerId: buyer }, progress);

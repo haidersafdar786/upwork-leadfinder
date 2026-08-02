@@ -93,14 +93,22 @@ function isLikelyReviewPerson(candidate: IdentitySignals["candidates"][number], 
   });
 }
 
+function isExplicitPastTitleBrand(candidate: IdentitySignals["candidates"][number]): boolean {
+  if (candidate.source !== "past-title") return false;
+  const value = squish(candidate.value);
+  const parenthetical = [...candidate.quote.matchAll(/\(([^)]*)\)/g)].some((match) => squish(match[1] || "") === value);
+  return parenthetical && /\b(?:brand|company|business|organization)\b/i.test(candidate.quote);
+}
+
 function isStrongCandidate(candidate: IdentitySignals["candidates"][number], signals: IdentitySignals): boolean {
   if (GENERIC_LABELS.has(squish(candidate.value))) return false;
   if (isRoleOnly(candidate.value)) return false;
   if (isLikelyReviewPerson(candidate, signals)) return false;
   if (candidate.source === "past-title") {
     // A bare all-caps product/brand such as PRDXN can be present only in a
-    // title. Ordinary title prose is not enough.
-    return /^[A-Z][A-Z0-9]{2,}$/.test(candidate.value);
+    // title. A parenthesized value after an explicit brand/company noun is
+    // another precise title signal; ordinary title prose is not enough.
+    return /^[A-Z][A-Z0-9]{2,}$/.test(candidate.value) || isExplicitPastTitleBrand(candidate);
   }
   if (candidate.ownershipScore >= 7) return true;
   if (candidate.source === "job-title" && /[A-Z].*[A-Z]/.test(candidate.value) && candidate.value.split(/\s+/).length <= 3) return true;

@@ -233,6 +233,38 @@ function candidateFromTail(text: string, start: number): { value: string; length
   return isAllowedIdentityCandidate(value) ? { value, length: match[1].length } : null;
 }
 
+const LABEL_BOUNDARY = /\s+(?:payment\s+gateway|document\s+version|date|website|url|industry|location|project|purpose|scope|description|technology|platform|product)\s*:/i;
+
+function labeledCandidate(text: string, start: number): string | null {
+  const tail = text.slice(start);
+  const boundary = tail.search(LABEL_BOUNDARY);
+  const sentence = tail.search(/[.!?\n]/);
+  const ends = [boundary, sentence].filter((index) => index >= 0);
+  const end = ends.length ? Math.min(...ends) : tail.length;
+  const value = trimCandidate(tail.slice(0, end).replace(/[;,]+$/, ""));
+  return isAllowedIdentityCandidate(value) ? value : null;
+}
+
+function addLabeledCandidates(text: IdentityText, candidates: IdentityCandidate[]): void {
+  const pattern = /\b(?:client|customer|brand|company|organization|product)\s*:\s*/gi;
+  for (const match of text.text.matchAll(pattern)) {
+    const start = (match.index ?? 0) + match[0].length;
+    const value = labeledCandidate(text.text, start);
+    if (value) addCandidate(candidates, text, value, start, "high");
+  }
+}
+
+function addPastTitleBrandCandidates(text: IdentityText, candidates: IdentityCandidate[]): void {
+  if (text.source !== "past-title") return;
+  const pattern = /\(\s*([^()]{3,80}?)\s*\)/g;
+  for (const match of text.text.matchAll(pattern)) {
+    const before = text.text.slice(Math.max(0, match.index ?? 0) - 120, match.index ?? 0);
+    if (!/\b(?:brand|company|business|organization)\b/i.test(before)) continue;
+    const value = trimCandidate(match[1].replace(/\s+/g, " "));
+    if (isAllowedIdentityCandidate(value)) addCandidate(candidates, text, value, (match.index ?? 0) + match[0].indexOf(match[1]), "high");
+  }
+}
+
 function addCandidate(
   candidates: IdentityCandidate[],
   text: IdentityText,
@@ -328,11 +360,13 @@ function extractCandidates(text: IdentityText): IdentityCandidate[] {
     /\b(?:founder\s+of|working\s+for|built\s+for|website\s+for|brand\s+called|platform\s+called|app\s+called)\s+/gi,
     /\b(?:my|our)\s+(?:mobile\s+)?(?:app|platform|brand|company)[,\s]+/gi,
     /\b(?:brand|company|app|platform),\s+/gi,
-    /\b(?:client|customer|brand|company)\s*:\s*/gi,
   ];
   for (const pattern of direct) {
     for (const match of textValue.matchAll(pattern)) addTail(match, "high");
   }
+
+  addLabeledCandidates(text, candidates);
+  addPastTitleBrandCandidates(text, candidates);
 
   const preceding = new RegExp(`(?:[.!?:\\)\\]}]\\s+|\\b(?:[Aa]bout|[Oo]verview|[Bb]rand|[Cc]ompany|[Pp]latform|[Tt]itle|[Dd]escription)\\s+)(${WORD_SEQUENCE})\\s+(?:is|makes|helps|owns|runs|was|has|looking|hiring|seeking)\\b`, "g");
   for (const match of textValue.matchAll(preceding)) {

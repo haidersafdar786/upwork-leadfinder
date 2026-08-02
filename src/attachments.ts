@@ -68,14 +68,41 @@ export function attachmentMetadata(details: unknown): AttachmentMetadata[] {
 }
 
 export async function downloadAttachment(page: Page, url: HttpUrl): Promise<Buffer> {
-  const response = await page.context().request.get(url, {
-    failOnStatusCode: false,
-    timeout: 60_000,
-  });
-  if (!response.ok()) throw new Error(`attachment download failed with HTTP ${response.status()}`);
-  const bytes = await response.body();
-  if (bytes.length > MAX_ATTACHMENT_BYTES) throw new Error("attachment exceeds 32 MiB download limit");
-  return bytes;
+  const cdp = await page.context().newCDPSession(page);
+  let stream: string | null = null;
+  try {
+    await cdp.send("Network.enable");
+    const frameTree = (await cdp.send("Page.getFrameTree")).frameTree;
+    const frameId = frameTree.frame.id;
+
+    const loaded = await cdp.send("Network.loadNetworkResource", {
+      frameId,
+      url,
+      options: { disableCache: false, includeCredentials: true },
+    });
+    const resource = loaded.resource;
+    stream = resource.stream || null;
+    if (!resource.success || !stream) {
+      throw new Error(`attachment download failed with HTTP ${resource.httpStatusCode ?? "?"}`);
+    }
+
+    const chunks: Buffer[] = [];
+    let downloaded = 0;
+    for (let reads = 0; reads < 5_000; reads++) {
+      const chunk = await cdp.send("IO.read", { handle: stream, size: 1 << 20 });
+      if (chunk.data) {
+        const bytes = Buffer.from(chunk.data, chunk.base64Encoded ? "base64" : "utf8");
+        downloaded += bytes.length;
+        if (downloaded > MAX_ATTACHMENT_BYTES) throw new Error("attachment exceeds 32 MiB download limit");
+        chunks.push(bytes);
+      }
+      if (chunk.eof) break;
+    }
+    return Buffer.concat(chunks);
+  } finally {
+    if (stream) await cdp.send("IO.close", { handle: stream }).catch(() => {});
+    await cdp.detach().catch(() => {});
+  }
 }
 
 function htmlToText(bytes: Buffer): string {
