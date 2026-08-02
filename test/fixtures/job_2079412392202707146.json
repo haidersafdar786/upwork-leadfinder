@@ -1,0 +1,712 @@
+{
+  "uid": "2079412392202707146",
+  "ciphertext": "~022079412392202707146",
+  "title": "LearnPress Expert - Word Press Site",
+  "url": "https://www.upwork.com/jobs/~022079412392202707146",
+  "scrapedAt": "2026-07-21T04:08:58.763Z",
+  "feed": {
+    "uid": "2079412392202707146",
+    "ciphertext": "~022079412392202707146",
+    "title": "Learn<span class=\"highlight\">Press</span> Expert - <span class=\"highlight\">Word</span> <span class=\"highlight\">Press</span> Site",
+    "description": "I have a client who runs a consultancy firm. They are setting up some E-Learning via Learn <span class=\"highlight\">Press</span> on a <span class=\"highlight\">Wordpress</span> site. \nWe are a looking for an expert to \n1) Provide guidance on best practice\n2) Complete set up (50% done)\n3) Conduct QA on it\n\nThe starting point would be to review the current set up and provide a clear plan to launch.",
+    "createdOn": "2026-07-21T03:45:22.874Z",
+    "publishedOn": "2026-07-21T03:47:56.894Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "1 to 3 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "AUS"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "2526.77",
+      "totalReviews": 5,
+      "totalFeedback": 4.7,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"8\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.15to20",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1052162208999198724",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "highlighted": true
+      }
+    ],
+    "hourlyBudget": {
+      "min": 5,
+      "max": 27
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T03:45:22.874Z",
+        "publishTime": "2026-07-21T03:47:56.894Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "I have a client who runs a consultancy firm. They are setting up some E-Learning via Learn Press on a Wordpress site. \nWe are a looking for an expert to \n1) Provide guidance on best practice\n2) Complete set up (50% done)\n3) Conduct QA on it\n\nThe starting point would be to review the current set up and provide a clear plan to launch.",
+        "info": {
+          "ciphertext": "~022079412392202707146",
+          "id": "2079412392202707146",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "LearnPress Expert - Word Press Site",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T03:45:22.874Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:ecommercedevelopment",
+            "prefLabel": "Ecommerce Website Development",
+            "id": "1017484851352698949",
+            "uid": "1017484851352698949"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "learnpress",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Ecommerce Development",
+          "urlSlug": "ecommerce-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-21T03:47:56.894Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Edge",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 5,
+          "hourlyBudgetMax": 27,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-21T03:45:22.848Z",
+          "totalApplicants": 17,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 36000000,
+          "countryTimezone": "Australia/Sydney (UTC+10:00)",
+          "city": "Camberwell",
+          "country": "AUS"
+        },
+        "stats": {
+          "totalAssignments": 13,
+          "activeAssignmentsCount": 4,
+          "hoursCount": 172.5,
+          "feedbackCount": 5,
+          "score": 4.7,
+          "totalJobsWithHires": 10,
+          "totalCharges": {
+            "amount": 2526.77
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1890497629221198813",
+          "isEDCReplicated": null,
+          "contractDate": "2025-02-14T00:00:00.000Z",
+          "profile": {
+            "industry": "",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 17,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 12.201623188405799
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-28T00:28:24.292Z",
+          "endDate": null,
+          "totalCharge": 268.47,
+          "totalHours": 25.666667,
+          "jobInfo": {
+            "title": "Mailchimp Set up and Management",
+            "id": "2059392403435565993",
+            "uid": "2059392403435565993",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022059392403435565993"
+          },
+          "contractorInfo": {
+            "contractorName": "Jheayanne C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01daf50ca8101da24b"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-03T07:56:44.725Z",
+          "endDate": null,
+          "totalCharge": 160.58,
+          "totalHours": 9.166667,
+          "jobInfo": {
+            "title": "Finance Model for Technology Consulting business",
+            "id": "1994550757041443240",
+            "uid": "1994550757041443240",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021994550757041443240"
+          },
+          "contractorInfo": {
+            "contractorName": "Mirza B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011521061e77c9abd9"
+          },
+          "rate": {
+            "amount": 16.54
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-14T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 1396.42,
+          "totalHours": 102.500002,
+          "jobInfo": {
+            "title": "Virtual Assistant - Google Proficient, Xero, Design",
+            "id": "1987448936937591089",
+            "uid": "1987448936937591089",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021987448936937591089"
+          },
+          "contractorInfo": {
+            "contractorName": "Andrea Joyce E.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01cd9251dbdf7039bb"
+          },
+          "rate": {
+            "amount": 13.13
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-04T03:15:07.817Z",
+          "endDate": null,
+          "totalCharge": 70,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Football/Soccer Competitor Reviews",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Victorsam Gichuhi N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0137c3a556df2f10a9"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-05T22:04:45.067Z",
+          "endDate": "2025-12-13T05:06:26.960Z",
+          "totalCharge": 43.57,
+          "totalHours": 2.333333,
+          "jobInfo": {
+            "title": "Graphic Design - Small Edits",
+            "id": "1997045275354205202",
+            "uid": "1997045275354205202",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021997045275354205202"
+          },
+          "contractorInfo": {
+            "contractorName": "Ximena A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~010c688b4e98c5822e"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great worker and very fast"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-01T05:20:02.922Z",
+          "endDate": "2025-11-30T18:34:53.222Z",
+          "totalCharge": 181.38,
+          "totalHours": 16.166667,
+          "jobInfo": {
+            "title": "Graphic Design",
+            "id": "1983716992827139504",
+            "uid": "1983716992827139504",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021983716992827139504"
+          },
+          "contractorInfo": {
+            "contractorName": "Suraj S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d8153b4ffd8f589d"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-10T10:04:57.745Z",
+          "endDate": "2025-04-13T22:34:14.748Z",
+          "totalCharge": 80,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Market Research / Competitor Review",
+            "id": "1910161123645254569",
+            "uid": "1910161123645254569",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021910161123645254569"
+          },
+          "contractorInfo": {
+            "contractorName": "Victorsam Gichuhi N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0137c3a556df2f10a9"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great work as usual"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-08T00:00:00.000Z",
+          "endDate": "2025-03-29T05:31:00.742Z",
+          "totalCharge": 181.42,
+          "totalHours": 7.833333,
+          "jobInfo": {
+            "title": "Omnisend Email Marketing",
+            "id": "1896473527833669430",
+            "uid": "1896473527833669430",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021896473527833669430"
+          },
+          "contractorInfo": {
+            "contractorName": "Toluwanimi O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01164bfd913c3c28be"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.25,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-05T08:31:20.202Z",
+          "endDate": "2025-03-07T21:04:39.618Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Google Sheets Presentation",
+            "id": "1897155224809177925",
+            "uid": "1897155224809177925",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021897155224809177925"
+          },
+          "contractorInfo": {
+            "contractorName": "Victorsam Gichuhi N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0137c3a556df2f10a9"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great team member - would re-hire"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-27T00:00:00.000Z",
+          "endDate": "2025-03-03T05:49:06.353Z",
+          "totalCharge": 0,
+          "totalHours": 8.833334,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1893169934700000529",
+            "uid": "1893169934700000529",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021893169934700000529"
+          },
+          "contractorInfo": {
+            "contractorName": "Glaiza L.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012e3b7bbd2ca6b324"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great team member"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 15.594117647058825,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 11,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 25,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1017484851352698949",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [],
+  "pastJobsText": [
+    {
+      "ciphertext": "~022059392403435565993",
+      "title": "Mailchimp Set up and Management",
+      "description": "I am requiring support for the setup of a Mailchimp and a small amount of ongoing reporting. A small brief - We have 5500 contacts that we want to set into 8-12 segments (note that we dont require Zapier etc to be set up as this will only be to market to colder leads) - We want to do A/B testing - We want someone who can support with the design side (AI is fine) - Ongoing reporting of what is working / what isn't so that we can adjust The account is set up, we have full data and a basic design",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021994550757041443240",
+      "title": "Finance Model for Technology Consulting business",
+      "description": "I want to create a finance model for a Technology Consulting business. The business wins work on fixed quotes associated with hourly rate items and I want a finance model that can - Project Future Profit and Loss (including as variables change such as onboarding new staff, utilisation) - Map and Manage Pipeline and workflow - Track profitability (eg what we quoted in hours vs what we completed in hours) I want someone that has done this before and ideally is 1. Replicating a SIMPLE but proven model 2. Scenario planning - allows all key variables to be adjusted to work with different scenarios (eg if charge out rate changes, utilisation) 2. On google sheets that I can then white label.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021987448936937591089",
+      "title": "Virtual Assistant - Google Proficient, Xero, Design",
+      "description": "We run a Business Coaching business in Australia. We need a VA to support with a number of general tasks including - General research (such as researching on the web for a competitor analysis) - Google sheets - creating and maintaining google sheets - Google slides - creating presentations based off a brief - Xero experience- reviewing monthly performance and creating dashboards. - Graphic design skills would be advantageous but not required We are looking for someone with good attention for detail and strong comprehension. This will not be a client facing role. We anticipate the hours will be 5-15 per week with the possibility to grow.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021997045275354205202",
+      "title": "Graphic Design - Small Edits",
+      "description": "Hello, I have a simple task. I have an information booklet that is 95% complete but just needs some small Edits. Find attached the booklet and changes required. If you are interested, please provide a time estimate.",
+      "attachments": [
+        {
+          "fileName": "Final 2026 Energetic Minds Welcome Pack.pdf",
+          "chars": 160730,
+          "text": "\u0000a \u0001\u000e \u0001\u000e \u0001\u0000 \u0001\\ \u0000* \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0000i \u00013 \u0001S \u0001\b \u0000] \u0001\u0001 \u0001F \u0000] \u00013 \u0001I \u0001I \u0001 \u0000\u001c \u0001\u000e \u0000I \u00013 \u0001I \u0001I \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\\ \u0001\u000e \u00013 \u0001\\ \u0001S \u0001. \u0001\\ \u0003\u0006 \u0003_ \u0001\\ \u0001\u000e \u0000I \u0001S \u0001\b \u0001\\ \u0000\u001c \u0001\u000e \u0001\u0001 \u0001\\ \u0001Q \u00013 \u0001S \u0001' \u0000i \u0001\u000e \u0003\\ \u00013 \u0001. \u0000i \u00013 \u0000A \u0001\u000e \u0001. \u0001\u000e \u0001\u0000 \u0001\u000e \u0001\u000e \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0001. \u0001\\ \u0003\u0007 \u0003_ \u0001\\ \u0001\u000e \u0001. \u0001\\ \u0000I \u0001S \u0001\b \u0001\\ \u0000I \u0001Q \u0001 \u0000$ \u0001Q \u0001 \u0000N \u0001S \u0001\u0001 \u0001Q \u0001\u0000 \u0001I \u0001\u000e \u0001\b \u0000i \u0001\u000e \u0001& \u0001\u000e \u0000\u0001 \u0001\u000e \u0001S \u0001\u000e \u0001. \u0001\\ \u0001\\ \u0001\u000e \u0001. \u0001\\ \u0000I \u0001S \u0001\b \u0001\\ \u0000\u0001 \u0001\b \u0001\b \u0001\\ \u0001\b \u0001 \u0001\\ \u0001\u000e \u0003Y \u0000t \u0001I \u0001\b \u0000i \u0001\u0001 \u0001\b \u0001\\ \u0001S \u0001I \u0001\b \u0001. \u0001\u000e \u0000B \u0001\u000e \u0000\u001c \u0001S \u0001\b \u0000i \u0001\u000e \u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0001. \u0001\\ \u0001\\ \u0001\u000e \u0000I \u0001S \u0001\b \u0001\\ \u0000\u0001 \u0001\u0001 \u0001\\ \u0001. \u0001\u000e \u0000\u001d \u0003c \u00013 \u0001. \u00013 \u0001I \u0001\\ \u0000i \u0001\u0001 \u0000B \u0001\u000e \u0001\u000e \u0001\\ \u0001\u0001\u00013 \u0001I \u0000$ \u0001\u000e \u0001\u000e \u0001I \u0001\\ \u0001 \u0001Q \u0001\u000e \u0001S \u0001. \u0001\\ \u0001\\ \u0001\u000e \u0000I \u0001S \u0001\b \u0001\\ \u0001\u000e \u0001\u000e \u0001F \u0001I \u0000N \u0001S \u0001\u0001 \u00013 \u0001\\ \u0001S \u0000N \u0001S \u0001& \u0001\\ \u0001Q \u00013 \u0001\\ \u0001S \u0001\\ \u0001\u000e \u0003_ \u0001\u000e \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0001Q \u00013 \u0001S \u0001\b \u0003_ \u0001\u0001 \u0001\\ \u0001Q \u0003_ \u0000s \u0000\u0003 \u0000V \u0000+ \u0002P \u0001\b \u00013 \u0001\u000e \u0001\u0001 \u0001\\ \u0001\u000e \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0001Q \u00013 \u0001S \u0001\b \u0003_ \u0001\u0001 \u0001\\ \u0001Q \u0003_\n\u0000$ \u0000* \u0000\u0001 \u0000\u001d \u0000* \u0000k \u0000* \u0000t \u0000k \u0000* \u0003Z \u0000$ \u0000N \u0000* \u0000\u001d \u0000t \u0000\u0001 \u0000k \u0000$ \u0000* \u0000$ \u0000\u001d \u0000\u0001 \u0000t \u0003Z \u0000N \u0001\\ \u0001I \u0001\b \u0001I \u00013 \u0001F \u0001\u000e \u0001\\ \u0001F \u0001\u000e \u0001. \u00013 \u0001\\ \u0001 \u0001 \u0001\\ \u0001S \u00013 \u0001\\ \u00013 \u0001S \u0001\\ \u0001\b \u0001\u0001 \u0001\u000e \u0001\\ \u0001\u0000 \u00013 \u0001S \u0001\u000e \u0000* \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0000i \u00013 \u0001S \u0001\b \u0001S \u0001\b \u0001\\ \u0001& \u0001\u0000 \u0001I \u0001\\ \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0003Z \u0001& \u0001\u000e \u0000\u0001 \u0001\u000e \u0001S \u0001\u000e \u0001S \u0001\b \u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0001. \u0001\\ \u0001S \u0001\b \u0000* \u0001\b \u0001\u0001 \u00013 \u0001\\ \u0001S \u0001I \u0000N \u0001S \u0001\u0001 \u00013 \u0001\\ \u0001S \u0001\\ \u0001\\ \u0003_ \u0000* \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0000i \u00013 \u0001S \u0001\b \u0001\b \u0001\u000e \u0001I \u00013 \u0001\u000e \u00013 \u0001S \u0001\u0001 \u0001I \u00013 \u0001\u000e \u0001\u0001 \u0001. \u00013 \u0001I \u0001\b \u0001 \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0003e \u0001& \u0001\u000e \u0001\u000e \u0001S \u0001\u000e \u0001. \u0001\\ \u0001S \u0001\b \u0001\u000e \u0001\u000e \u0001F \u0001I \u00013 \u0001S \u0001\u0001 \u00013 \u0001\\ \u0001S \u0001& \u0001\\ \u0001 \u0001\u000e \u0001\u0001 \u0001. \u0001\\ \u0001\\ \u0001I \u0001' \u0001\u000e \u0001\b \u0001\u0001 \u0001. \u00013 \u0001I \u0001\b \u0001\u000e \u0001S \u0001. \u0001 \u0001\\ \u0001Q \u0001\\ \u0001\u000e \u0001. \u0001\u000e \u0001I \u0001. \u0001S \u0001\b \u0001\u0001 \u00013 \u0001\u000e \u0001I \u00013 \u0001& \u0001\u000e \u0001I \u0001\u000e \u0001. \u0001\u000e \u0001\u000e \u0001 \u0001I \u0001& \u0001\\ \u0001Q \u0001& \u0001\\ \u0001\\ \u0001\u0001 \u00013 \u0001I \u0001\b \u0001\u000e \u0001\u000e \u0001I \u0001\\ \u0001 \u0001Q \u0001\u000e \u0001S \u0001S \u0001\b \u00013 \u0001S \u0001\u0001 \u0001I \u00013 \u0001\\ \u0001S \u0003_ \u0000\u0001 \u0000* \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0000i \u00013 \u0001S \u0001\b \u0001\u000e \u0001\u0000 \u0001\u000e \u0001I \u00013 \u0001\u000e \u0001\u000e \u0001 \u0001\u000e \u0001\u000e \u0001S \u00013 \u0001\\ \u0001S \u00013 \u0001\u0000 \u0001\u000e \u0001\u000e \u0001. \u0001S \u0001\u0001 \u0001\u000e \u0001S \u0001\b \u0001\u000e \u0001\u000e \u0001\u0001 \u0001\\ \u0001' \u0001S \u00013 \u0001\u000e \u0001. \u0001\u000e \u00013 \u0001Q \u0001 \u0001\\ \u0001S \u0001\u0001 \u0001\u000e \u0001\\ \u0001& \u0001\u000e \u0001\b \u0001\u0001 \u00013 \u0001S \u0001' \u0001S \u0001\b \u00013 \u0001S \u0001\u000e \u0001\u0001 \u0001\u000e \u0001 \u00013 \u0001S \u0001' \u0001\u0001 \u0001. \u00013 \u0001I \u0001\b \u0001\u000e \u0001S \u0001\\ \u0001S \u0001' \u0001' \u0001\u000e \u0001\\ \u0001\u000e \u0001S \u0001\u000e \u0001. \u0001\u000e \u00013 \u0001 \u0001 \u0001\u000e \u0001\b \u00013 \u0001. \u0001. \u0001\u000e \u0001\\ \u0001\\ \u0001I \u0001S \u0001\b \u0001\u0000 \u00013 \u0001I \u0001\b \u00013 \u0001S \u0001' \u0001\u0000 \u0001I \u0001\\ \u0001\u0001 \u0001F \u0001& \u0001\\ \u0001\u0001 \u0001\\ \u0001S \u0001& \u00013 \u0001\b \u0001\u000e \u0001S \u0003Z \u0001. \u0001 \u0001 \u0003Z \u0001S \u0001\b \u0001. \u0001\u000e \u0001I \u0001. \u0001I \u00013 \u0001& \u0001\u000e \u0003_ \u0000\u0001 \u0001I \u0001I \u0000* \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0000i \u00013 \u0001S \u0001\b \u0001. \u0001\\ \u0001S \u0001\b \u0001\u000e \u0001\u000e \u0001F \u0001I \u0001 \u0001\\ \u0001' \u0001Q \u00013 \u0001S \u0001\u0001 \u00013 \u0001\\ \u0001S \u0003l \u0000A \u00013 \u0001S \u0001\u000e \u0003e \u0001 \u0001\\ \u0003e \u0000_ \u0001\u000e \u0003Z \u0000\u001d \u0001I \u0001I \u0000$ \u0001S \u0001\u0001 \u0001\u000e \u0003Z \u0001\\ \u0001' \u0001S \u0001\b \u0000i \u00013 \u0001S \u0001\b \u0001& \u0001I \u0001S \u0001\u000e \u0001S \u0001\b \u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u0001S \u0001\b \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0003m \u0003Z \u0001I \u0001I \u0001\u000e \u0001Q \u0001 \u0001I \u0001\\ \u00013 \u0001S \u0001\u000e \u0001\u0001 \u00013 \u0001\u000e \u0001 \u0001 \u0001 \u0001\u000e \u00013 \u0001. \u0001\u0001 \u0001\\ \u0001Q \u0001\u0000 \u00013 \u0001S \u00013 \u0001\\ \u0001S \u0001\\ \u0001& \u0001\\ \u0001\u000e \u0001I \u0001I \u00013 \u0001S \u0001' \u0003Z \u0001\\ \u0001I \u0001\u000e \u0001 \u0001I \u00013 \u0001S \u0001' \u0003Z \u0001\\ \u0001S \u0001' \u0001S \u0001\b \u0001\b \u0001S \u0001\u0001 \u0001\u000e \u0001\\ \u0001\b \u0001\u000e \u0001I \u00013 \u0001\u000e \u0001& \u0001\u000e \u0003Z \u0001\u000e \u0001I \u0001I \u0001\u0000 \u0001\u000e \u00013 \u0001S \u0001' \u0003Z \u0001S \u0001\b \u0001\u000e \u0001S \u0001\u000e \u0001I \u0001\u000e \u0001\\ \u0001S \u00013 \u0001S \u0001& \u0001S \u0001S \u0001\b \u0001\u000e \u0001S \u0001' \u0001' \u00013 \u0001S \u0001' \u0001I \u0001\u000e \u0001S \u00013 \u0001S \u0001' \u0001\u000e \u0001S \u00013 \u0001\\ \u0001S \u0001Q \u0001\u000e \u0001S \u0003_ \u0000t \u0001 \u0001\\ \u0001' \u0001Q \u0001\u000e \u0001\b \u0001\u000e \u0001I \u00013 \u0001\u000e \u0001\u000e \u0001\b \u0001\u0000 \u0001\u000e \u0001 \u0001\u000e \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u0001\b \u0003Z \u0001\u0001 \u0001\u0001 \u0001\u000e \u0001\b \u00013 \u0001\u000e \u0001\b \u0003Z \u0001S \u0001\b \u0001 \u00013 \u0001\\ \u0001S \u0001\u000e \u00013 \u0001S \u0001\b \u0001 \u0001\\ \u0001& \u0001\u000e \u00013 \u0001\\ \u0001S \u0001I \u0001. \u0001\\ \u0001. \u0001\u000e \u0001. \u0001\u000e \u0001Q \u0001\u000e \u00013 \u0001\b \u0001\u000e \u0001\\ \u0001I \u0001\\ \u0001' \u00013 \u0001\u000e \u0001S \u0001\b \u0001\u0000 \u0001\u000e \u0001I \u00013 \u0001\u000e \u0001& \u0001\u000e \u0001\b \u0001\\ \u0003_ \u0000i \u0001F \u0000A \u0001\\ \u0001Q \u0001S \u0000* \u0001S \u0001\u000e \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0000i \u00013 \u0001S \u0001\b \u0000$ \u00013 \u0001\u000e \u0001\u0001 \u0001\\ \u0000t \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0003Z \u0001& \u0001\u000e \u0000\u0001 \u0001\u000e \u0001S \u0001\u000e \u0003Z \u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0001S \u0001\b \u0001\\ \u0001\u0001 \u00013 \u0001I \u0000$ \u0001\u000e \u0001\u000e \u0001I \u0001\\ \u0001 \u0001Q \u0001\u000e \u0001S \u0001. \u0001\\ \u0000N \u0001S \u0001\u0001 \u0001I \u0001\b \u0001\u000e \u0003Y \u0001. \u0001\u000e \u0000] \u0001\u0001 \u0001F \u0001S \u0001\b \u0000] \u00013 \u0001I \u0001I \u0001 \u0000\u001c \u0001\u000e \u0000I \u00013 \u0001I \u0001I \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0001. \u0001\\ \u0003\u0006 \u0003Y \u0001\\ \u0001 \u00013 \u0001\u0001 \u0003Y \u0001& \u0001\u000e \u0003d \u0000\u001c \u0001\\ \u0001\b \u0000t \u0001S \u0001\u000e \u0001. \u00013 \u0001 \u0003d \u0001S \u00013 \u0001S \u0001' \u00013 \u0001' \u0001S \u0003d \u00013 \u0001\u0001 \u0001F \u0001\u000e \u0001\\ \u0001 \u0001I \u0001\u000e \u0001S \u0001\b \u0000k \u0001\\ \u0001\u000e \u0001\u0001 \u0001\u000e \u0000t \u0001S \u0001I \u0001 \u00013 \u0001\u000e \u0003_ \u0000\u001c \u0001\u000e \u0001\u0001 \u0001\\ \u0001Q \u00013 \u0001S \u0001' \u0000i \u0001\u000e \u0003\\ \u00013 \u0001. \u0000i \u00013 \u0000A \u0001\u000e \u0001. \u0001\u000e \u0001\u0000 \u0001\u000e \u0001\u000e \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0001. \u0001\\ \u0003\u0007 \u0003_ \u0001\\ \u0001 \u00013 \u0001\u0001 \u0003Y \u0000N \u0001\b \u0001\u000e \u0001S \u00013 \u0003Z \u0001& \u0001\u000e \u0001\\ \u0001\u0001 \u0001. \u0003Z \u0000\u001c \u0001I \u0001I \u00013 \u0001S \u0001' \u0003Z \u0001& \u0001\u000e \u0000k \u0001\u000e \u0001\\ \u0001F \u0003Z \u0000\u001c \u0001\u000e \u00013 \u0001S \u0001' \u0003Z \u0000\u001c \u0001\u000e \u0001I \u0001\\ \u0001S \u0001' \u00013 \u0001S \u0001' \u0001S \u0001\b \u0000\u001c \u0001\u000e \u0001\u0001 \u0001\\ \u0001Q \u00013 \u0001S \u0001' \u0003_ \u0000I \u0001Q \u0001 \u0000$ \u0001Q \u0001 \u0000N \u0001S \u0000\u0001 \u0001\u0001 \u0001Q \u0001\u0000 \u0001I \u0001\u000e \u0001\b \u0000i \u0001\u000e \u0001& \u0001\u000e \u0000\u0001 \u0001\u000e \u0001S \u0001\u000e \u0000* \u0001Q \u0001\u000e \u0001' \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u0001 \u0001\\ \u0001S \u0001\u000e \u0001. \u0001\\ \u0003_ \u0001\\ \u0001 \u00013 \u0001\u0001 \u0003Y \u0001\u000e \u0000\u001c \u0001\u000e \u0001\u0001 \u0001. \u0001& \u0001\u000e \u0003Z \u0001\\ \u0001\b \u0001& \u0001\u000e \u0003Z \u0000A \u00013 \u0001\u000e \u0001& \u0001\u000e \u0003Z \u0000* \u0001Q \u0001\u000e \u0001' \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u0001 \u0001\\ \u0001S \u0001\u000e \u0000\u001d \u0001I \u0001I \u00013 \u0001S \u0001' \u0003\u0005 \u0003\u0005 \u0003\u0005 \u0000t \u0001I \u0001\b \u0000i \u0001\u0001 \u0001\b \u0001\\ \u0001S \u0001I \u0001\b \u0001. \u0001\u000e \u0000B \u0001\u000e \u0000\u001c \u0001S \u0001\b \u0000i \u0001\u000e \u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0001. \u0001\\ \u0003_ \u0001\\ \u0001 \u00013 \u0001\u0001 \u0003Y \u0001\u000e \u0001\u0001 \u0001\u0001 \u0001I \u00013 \u0001S \u0001' \u0003Z \u0001\u000e \u0000\u001d \u0001\\ \u0001S \u0001\u000e \u00013 \u0001\\ \u0001S \u0003Z \u0000\u0001 \u00013 \u0001\\ \u0001I \u0001I \u00013 \u0001\\ \u0001S \u0003Z \u0000t \u0001' \u0001S \u00013 \u0001\u0001 \u0000A \u0001Q \u00013 \u0001S \u0001' \u0001S \u0001\b \u0000\u0001 \u0001S \u00013 \u0001Q \u0001I \u0001\\ \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0003_ \u0000\u0001 \u0001\u0001 \u0001\\ \u0001. \u0001\u000e \u0000\u001d \u0003c \u00013 \u0001. \u00013 \u0001I \u0001\\ \u0000i \u0001\u0001 \u0000B \u0001\u000e \u0001\u000e \u0003_ \u0000\u0001 \u0001\\ \u0001\u0001 \u00013 \u0001I \u0000$ \u0001\u000e \u0001\u000e \u0001I \u0001\\ \u0001 \u0001Q \u0001\u000e \u0001S \u0001. \u0001\\ \u0000A \u0001\\ \u0001. \u0001\u000e \u0001I \u00013 \u0001I \u0001\u000e \u0000t \u0001S \u0001\u000e \u0003_ \u0001\\ \u0001 \u00013 \u0001\u0001 \u0003Y \u0000\u001d \u0001\u000e \u0003Z \u0000\u001d \u0001\\ \u0001\\ \u0001 \u0001\u000e \u00013 \u0001\\ \u0001S \u0003Z \u0000\u001d \u0001\\ \u0001S \u0001S \u0001\u000e \u0001\u0001 \u00013 \u0001\\ \u0001S \u0003_ \u0003l \u0003b \u0001. \u0001\\ \u0001& \u0001\\ \u0003\u0006 \u0003_ \u0003r \u0003\b \u0000t \u0001S \u0001I \u0003m\n\u0001. \u0001\\ \u0001\u0001 \u0001F \u0001' \u0001\u000e \u0001. \u0001\\ \u00013 \u0001Q \u0001\u000e \u0003Y \u0003\u000e \u0003Y \u0003 \u0001Q \u0003Z \u0003\u0006 \u0003\u0006 \u0003Y \u0003\u0006 \u0001Q \u0003Z \u0003\u0006 \u0003Y \u0003\b \u0003\u0005 \u0001 \u0001Q \u0003\u0007 \u0003Y \u0003\b \u0003\u0005 \u0001 \u0001Q \u0000\u0010 \u0000\u0003 \u0000C \u0002I \u0000\u0003 \u0000s \u0000\u0003 \u0000C \u0000\u0003 \u0000% \u0002L \u0000\u0011 \u0000\u0003 \u0000V \u0000\u0003 \u0000] \u0000\u0003 \u0002L \u0000J \u0000\u0003 \u0000C \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000& \u0000\u0003 \u0000\u0010 \u0000C \u0002L \u0000\u0003 \u0000] \u0000\u0003 \u0000] \u0000\u0003 \u0000] \u0002L \u0000\u0004 \u0000\u0003 \u0000\u0003 \u0000\u0011 \u0002P \u0000\u0003 \u0000s \u0000\u0003 \u0000] \u0000\u0003 \u0000C \u0000& \u0002L \u0000] \u0000\u0003 \u0000\u0017 \u0000\u0003 \u0000] \u0002L \u00009 \u0000\u0003 \u0000\u0003 \u00009 \u0000\u0003 \u0000g \u0000\u0003 \u0000\u0010 \u0000\u0003 \u0000+ \u0002L \u0000\u0003 \u0000\u0011 \u0000V \u0000\u0003 \u0000] \u0000\u0003 \u0002L \u0001& \u0001\u000e \u0003Z \u0000\u001c \u0001\\ \u0001\b \u0000t \u0001S \u0001\u000e \u0001. \u00013 \u0001 \u0003Z \u0001S \u00013 \u0001S \u0001' \u00013 \u0001' \u0001S \u0003Z \u00013 \u0001\u0001 \u0001F \u0001\u000e \u0001\\ \u0001 \u0001I \u0001\u000e \u0003d \u0000k \u0001\\ \u0001\u000e \u0001\u0001 \u0001\u000e \u0000t \u0001S \u0001I \u0001 \u00013 \u0001\u000e \u0003_ \u0000\u0001 \u0001' \u0001\u000e \u0003Y \u0003\u0007 \u0003r \u0003\u000b \u0001\u000e \u0000t \u0001I \u0001\b \u0003 \u0001Q \u00013 \u0001S \u0001. \u0001\\ \u0000+ \u0000\u0003 \u0000\u0017 \u0000\u0003 \u0000. \u0000\u0003 \u0000\u0004 \u0000\u0003 \u0000] \u0000\u0003 \u0000C \u0002L \u0000] \u0000\u0003 \u0000\u0004 \u0000\u0003 \u0000] \u0002L \u0000\u0001\u0000\u0001 \u0000\u0001\u0000\u0001 \u0000# \u0001\u0014\u0001\u0014 \u0000S \u0000S \u0001\u001b \u0001\u0018\u0001\u0014 \u0000\u000e \u0000\u0001 \u0000\u000f \u0000\u0001 \u0000\u000e \u0000 \u0000 \u0000/ \u0000\u0001 \u0000\u0015 \u0000# \u0000 \u0000\u0001 \u0000\u0015 \u0000 \u0000\u001c \u0000(\n\u0002 \u0001 \u0014 v c \u0001 B c M \u0001 \u000f } K X u X c U \u000b W X ` M \u0001 - p e u O K u X e c \u0001 1 W e | \u0000\u0002 \u0000\u0001 \u0000\u0014 \u0000v \u0000c \u0000\u0001 \u0000B \u0000c \u0000M \u0000\u0001 \u0000\u000f \u0000} \u0000K \u0000X \u0000u \u0000X \u0000c \u0000U \u0000\u000b \u0000W \u0000X \u0000` \u0000M \u0000\u0001 \u0000- \u0000p \u0000e \u0000u \u0000O \u0000K \u0000u \u0000X \u0000e \u0000c \u0000\u0001 \u00001 \u0000W \u0000e \u0000| \u0000\u001e \u0000B \u0000K \u0000_ \u0000\u0001 \u0000B \u0000c \u0000M \u0000\u0001 \u0000\u001e \u0000X \u0000` \u0000` \u0000\u0001 \u00005 \u0000m \u0000\u0001 \u0000p \u0000B \u0000{ \u0000O \u0000p \u0000~ \u0000\u0001 \u0000\u0017 \u0000X \u0000` \u0000`\n\u0001\u000e \u0001\u0001 \u0001\u000e \u0001\u0001 \u0001S \u0001\u0001 \u0001\u000e \u0001 \u0001\u000e \u0001\\ \u0001 \u0001I \u0001\u000e \u0001\\ \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001\b \u0001\u0001 \u0001\u000e \u0001\b \u0001\\ \u0001\u0001 \u0001\\ \u0001S \u0001& \u0001\u000e \u0001\b \u0003_ \u0001 \u00013 \u0001\u000e \u0001\u000e \u0001& \u0001S \u0001. \u00013 \u0001S \u0001' \u0001. \u0001Q \u0001F \u0001\u000e \u0001\u000e \u0001\u000e \u0001\\ \u0001S \u0001\u000e \u0001. \u0001\\ \u0001F \u0001S \u0001\\ \u0001\u0000 \u0001\\ \u0001. \u0001\u000e \u0001Q \u0001. \u0001 \u0001 \u0003_ \u00005 \u0000H \u0000P \u0000H \u0000P \u0000E \u0000H \u0000U \u0000\u001d \u0000N \u0001& \u0001\u0001 \u0001. \u00013 \u0001I \u0001\b \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001S \u0001& \u0001\u000e \u0001. \u0001\u000e \u0001. \u0001\u000e \u0001. \u0001\u000e \u00013 \u0001' \u0001. \u0001\\ \u0000k \u0000t \u0003\\ \u0000N \u0001& \u0000N \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001& \u00013 \u0001' \u0001. \u0001\u000e \u0001S \u0001\u000e \u0001\b \u0001\\ \u0001S \u0001& \u0001\u000e \u0000N \u0001Q \u0001\u000e \u0001I \u0001\\ \u0003Z \u0001' \u0001\u000e \u00013 \u0001\u0001 \u0001F \u0001Q \u0001Q \u0003Z \u0001\u0000 \u0001\u000e \u0001\u0001 \u0001\\ \u0001Q \u0001\u000e \u0001. \u0001F \u0001S \u0001\b \u0001Q \u0001. \u0001\u000e \u0001Q \u00013 \u0001' \u0001. \u0001\u0000 \u0001\u000e \u0001\u000e \u0001I \u0001I \u0001& \u0003_ \u0001. \u0001\u000e \u0001\u000e \u0001& \u0001\u000e \u0001\u000e \u0001I \u00013 \u0001S \u0001' \u0001\u000e \u0001\u0001 \u0001I \u0001I \u0001\u000e \u0001\b \u0001Q \u0000* \u0001I \u0001S \u00013 \u0001S \u0001' \u00013 \u0001' \u0001S \u0003_ \u0000N \u0001& \u0000N \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001. \u00013 \u0001\u0000 \u0001\\ \u0001S \u0001. \u00013 \u0001S \u0001' \u0003Z \u0000N \u0001Q \u0001\u000e \u0001I \u0001I \u0001S \u0001\b \u0001I \u0001\\ \u0001S \u0001Q \u0001& \u0001\u000e \u0000k \u0001\u000e \u0001\\ \u0001F \u00013 \u0001' \u0001. \u0003_ \u0000\u0001 \u00013 \u0001\u0001 \u0001F \u0001 \u0001\u000e \u0001\\ \u0001S \u0001\u0001 \u0001S \u0001\u0000 \u0001\u000e \u0001\\ \u0001Q \u0001\u000e \u0001\\ \u0001S \u0001\u000e \u0001\\ \u0001F \u0001S \u0001\\ \u0001\\ \u0001\b \u0001\\ \u0001S \u0003c \u0001F \u0001S \u0001\\ \u0001\u0000 \u00013 \u00013 \u0001\\ \u0001Q \u0001\u000e \u0001\\ \u0001S \u0001\u000e \u0001. \u0001\\ \u0001\u0000 \u0001\u000e \u0001F \u0001& \u0001\u000e \u0001I \u0001\u000e \u0001\\ \u0001F \u0001\\ \u0001\\ \u0001\b \u0001\\ \u0001\\ \u0001Q \u0001\u000e \u0001. \u00013 \u0001S \u0001' \u0001. \u0001Q \u0001F \u0001\u000e \u0001\\ \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001S \u0001\u0001 \u0001\\ \u0001Q \u0001& \u0001\\ \u0001\u0000 \u0001I \u0001\u000e \u0003_ \u0003b \u0000N \u0001& \u0001\\ \u0001Q \u0001\u000e \u0001\\ \u0001S \u0001\u000e \u0001\u000e \u0001I \u0001\u000e \u00013 \u0001 \u00013 \u0001\u0001 \u0001F \u00013 \u0001S \u0001' \u0001Q \u0001\u000e \u0001 \u0001. \u0001\u000e \u0001F \u0001S \u0001\\ \u0001Q \u0001 \u0001\\ \u0001\b \u0001. \u00013 \u0001\u0001 \u0001. \u00013 \u0003Y \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0003f \u0000k \u0001\\ \u0001\\ \u0001S \u0001\u000e \u00013 \u0001\\ \u0001\\ \u0001\u0001 \u0001. \u0001. \u0001\u000e \u0001Q \u00013 \u0001. \u0001\\ \u0001. \u0001\u000e \u00013 \u0001\u0001 \u0001\\ \u0001S \u0001\u000e \u0001S \u0003_ \u0000\u001d \u0001. \u00013 \u0001I \u0001\b \u0001\u000e \u0001S \u0001I \u0001\u000e \u0001S \u0001S \u0001\\ \u0001\\ \u0001F \u0001\u000e \u0001\u000e \u0001 \u0001\u000e \u0001\u0001 \u0001\u000e \u0001S \u0001\b \u0001I \u0001\u000e \u0001 \u0001\u000e \u0001\\ \u0001 \u0001I \u0001\u000e \u0001F \u0001S \u0001\\ \u00013 \u0001& \u0001. \u0001\u000e \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001\\ \u00013 \u0001\u000e \u0001\b \u0001\\ \u0001S \u0001& \u0001\u000e \u0001\u0001 \u0001. \u0003d \u0000A \u0001Q \u00013 \u0001I \u0001Q \u0001\u000e \u0001Q \u0001\u0000 \u0001\u000e \u0003Z \u0001\\ \u0001I \u00013 \u0001\u0001 \u0001\u000e \u0003Z \u0000$ \u0001\\ \u0001\u0001 \u0001\\ \u0001S \u0001\b \u0001\u000e \u0001\u0001 \u0001. \u0001\u000e \u00007 \u0000U \u0000L \u0000F \u0000N \u0000\\ \u0000\u0003 \u00003 \u0000H \u0000R \u0000S \u0000O \u0000H \u0000( \u0000D \u0000U \u0000O \u0000\\ \u0000\u0003 \u0000: \u0000D \u0000U \u0000Q \u0000L \u0000Q \u0000J \u00006 \u0000L \u0000J \u0000Q \u0000V \u0000) \u0000H \u0000H \u0000O \u0000L \u0000Q \u0000J \u0000\u0003 \u00006 \u0000D \u0000I \u0000H\n\u0000* \u0001 \u0001I \u0001\\ \u00013 \u0001S \u0001' \u0000\u001d \u0001\\ \u0001S \u0001\u0001 \u0001\u000e \u0001 \u0000t \u0001& \u0003Y \u0001& \u0001\u000e \u0001\\ \u0001\u0001 \u0001. \u0003Z \u0000\u001c \u0001I \u0001I \u00013 \u0001S \u0001' \u0003Z \u0001& \u0001\u000e \u0000k \u0001\u000e \u0001\\ \u0001F \u0003Z \u0000\u001c \u0001\u000e \u0001I \u0001\\ \u0001S \u0001' \u00013 \u0001S \u0001' \u0003Z \u0000\u001c \u0001\u000e \u0001\u0001 \u0001\\ \u0001Q \u00013 \u0001S \u0001' \u0001S \u0001\b \u0000\u001c \u0001\u000e \u00013 \u0001S \u0001' \u0003_\n\u0000A \u00013 \u0001I \u0001\u0001 \u0001\\ \u0001I \u0001\\ \u00013 \u0001S \u0001\\ \u0001. \u0001S \u0001\b \u00013 \u0001. \u0001\\ \u0001& \u0001\\ \u00013 \u0001\u000e \u0001\u0001 \u0001\\ \u0001I \u0001\\ \u0001. \u0001\u000e \u0001S \u0001\\ \u0001S \u0001\u000e \u0001\u0001 \u0001. \u0001& \u00013 \u0001S \u0001' \u0001\u000e \u0003l \u0001S \u0001\b \u0001. \u0001Q \u0001\u0000 \u0003m \u00013 \u0001\u000e \u0001\\ \u0001\b \u0001. \u0001\\ \u0001\\ \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001\u0001 \u0001\\ \u0001Q \u0001& \u0001\\ \u0001\u0000 \u0001I \u0001\u000e \u0001\\ \u0001 \u0001\u000e \u0001F \u0001\\ \u0001. \u0001\u000e \u0001S \u0001\\ \u0001& \u0001\u000e \u0001\u000e \u0001I \u0001\u0001 \u0001\u000e \u0001\b \u0003Z \u0001\\ \u00013 \u0001\u000e \u0001\b \u0001\\ \u0001 \u0001\u000e \u0003_ \u0000\u001d \u0001\\ \u0001\\ \u0001. \u0001S \u0001\b \u0001S \u0001\b \u0001F \u0001. \u0001\u000e \u0001\u000e \u0001\u0001 \u0001. \u0001\u000e \u0001\\ \u0001I \u0001Q \u00013 \u0001S \u0001\u000e \u0001\\ \u0001\u0001 \u0001\\ \u0001 \u00013 \u0001\u000e \u0000t \u0001S \u0001\u000e \u0001& \u0001\\ \u0001\\ \u0001S \u0001\b \u0001\\ \u0001S \u0001\u000e \u0001& \u0001\\ \u0001\\ \u0001\u000e \u0001\u0001 \u0001. \u0001\u000e \u0001\\ \u0001F \u0001\u000e \u0001\u000e \u0001\n\u0000+ \u00008 \u00000 \u00003 \u00007 \u0000< \u0000\u0003 \u0000' \u00008 \u00000 \u00003 \u00007 \u0000< \u0000\u0003 \u0000, \u00001 \u0000\u0003 \u0000$ \u0000\u0003 \u00006 \u0000& \u00005 \u0000$ \u00000 \u0000% \u0000/ \u0000( \u0000' \u0000\u0003 \u00000 \u0000( \u00006 \u00006 \u0000\u0003 \u00006 \u0000$ \u0000) \u0000( \u00007 \u0000< \u0000$ \u0000: \u0000$ \u00005 \u0000( \u00001 \u0000( \u00006 \u00006 \u0000\u0003 \u00006 \u0000+ \u00002 \u0000: \u0001\u000e \u0001& \u0001\u000e \u0001\\ \u0001\b \u0001& \u0001\u000e \u0000A \u00013 \u0001\u000e \u0001& \u0001\u000e \u0000* \u0001Q \u0001\u000e \u0001' \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u0001 \u0001\\ \u0001S \u0001\u000e\n\u0000I \u0001Q \u0001 \u0000$ \u0001Q \u0001 \u0000N \u0001S \u0000\u0001 \u0001\u0001 \u0001Q \u0001\u0000 \u0001I \u0001\u000e \u0001\b \u0000i \u0001\u000e \u0001& \u0001\u000e \u0000\u0001 \u0001\u000e \u0001S \u0001\u000e \u0001S \u0001\b \u0000* \u0001Q \u0001\u000e \u0001' \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u0001 \u0001\\ \u0001S \u0001\u000e \u0001. \u0001\\ \u0000t \u0000$ \u0000t \u0000\u0001 \u0000k \u0000$ \u0000t \u0000a \u0000a \u0003\\ \u0000B \u0000* \u0000t \u0000\u0001 \u0000k \u0000$ \u0000\u0001 \u0000t \u0003\\ \u0000A \u0000\u0001 \u0000a \u0000a \u0000\u0001 \u0000k \u0000$ \u0000\u001d \u0000\u0001 \u0000a \u0000N \u0003\\ \u0000A \u0000* \u0000* \u0000a \u0000I \u0000* \u0000$ \u0000t \u0000t \u0000\u001c \u0000* \u0000A \u0000t \u0000* \u0000t \u0000* \u0000k \u0000N \u0000k \u0000B \u0003\\ \u0000\u001d \u0000\u0001 \u0000a \u0000a \u0003\u0005 \u0003\u0005 \u0003\u0005 \u0000a \u0000\u0001 \u0000k \u0000\u0001 \u0000k \u0000$ \u0000\u0001 \u0000\u001d \u0000N \u0000\u001d \u0000* \u0000\u0001 \u0000k \u0000* \u0000\u001d \u0000\u0001 \u0000* \u0000) \u0000, \u00005 \u0000( \u0000\u0003 \u00006 \u0000$ \u0000) \u0000( \u00007 \u0000< \u00005 \u00008 \u0000/ \u0000( \u00006 \u00006 \u0000) \u0000( \u0000$\n\u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0001. \u0001\\ \u0000* \u0001S \u00013 \u0001\\ \u0001S \u0001Q \u0001\u000e \u0001S \u0001\\ \u0001I \u0001I \u00013 \u0001\\ \u0001S \u0001\u000e \u0001\b \u0001\u0001 \u0001\u000e \u0003Z \u0001\u000e \u0001\u000e \u0001\u000e \u0001\u0001 \u0001\u0001 \u0001I \u0001\u000e \u0000* \u0001S \u0001\u000e \u0001' \u0000\u001d \u0001\\ \u0001S \u0001\u000e \u00013 \u0001\\ \u0001S \u0000\u0001 \u0001S \u00013 \u0001Q \u0001I \u0000\u001d \u0001\\ \u0001S \u0001\u000e \u00013 \u0001\\ \u0001S \u0000% \u0000$ \u00005 \u00001 \u0000< \u0000$ \u00005 \u0000' \u0000\u0003 \u00000 \u0000< \u00006 \u00007 \u0000( \u00005 \u0000<\n\u0000( \u0000Q \u0000H \u0000U \u0000J \u0000H \u0000W \u0000L \u0000F \u0000\u0003 \u00000 \u0000L \u0000Q \u0000G \u0000V \u0000\u0003 \u00002 \u0000O \u0000G \u0000\u0003 \u00000 \u0000D \u0000F \u0000G \u0000R \u0000Q \u0000D \u0000O \u0000G \u0000\u0003 \u0000 \u0000\u0003 \u00007 \u0000K \u0000H \u0000\u0003 \u0000* \u0000U \u0000H \u0000D \u0000W \u0000% \u0000D \u0000U \u0000Q \u0000\\ \u0000D \u0000U \u0000G \u0000\u0003 \u00000 \u0000\\ \u0000V \u0000W \u0000H \u0000U \u0000\\ \u0000\u0003 \u0000\u0005 \u0000: \u0000K \u0000R \u0000\u0003 \u00006 \u0000W \u0000R \u0000O \u0000H \u0000\u0003 \u00007 \u0000K \u0000H \u0000\u0003 \u0000& \u0000R \u0000R \u0000N \u0000L \u0000H \u0000\u0003 \u00000 \u0000\\ \u0000V \u0000W \u0000H \u0000U \u0000\\ \u0000\u0011 \u0001\\ \u0000\u001c \u0001\u000e \u00013 \u0001S \u0001\u0000 \u0001I \u0001\u000e & O H D Q $ L U \u0001\u0001 \u00013 \u0001\u000e \u0001S \u0001\u0001 \u0001\u000e \u00013 \u0001S \u0001\u0000 \u00013 \u0001I \u00013 \u0001. \u0001\\ \u0003b \u0001. \u0001\\ \u0001\\ \u0001I \u0001\u000e \u0001. \u0001\u000e \u0000\u001d \u0001\\ \u0001\\ \u0001F \u00013 \u0001\u000e \u0000A \u0001\\ \u0001Q \u0001. \u0001\u000e \u0000\u001d \u0001\\ \u0001\\ \u0001F \u00013 \u0001\u000e \u0000] \u0003` \u0003b\n\u00006 \u0000D \u0000L \u0000O \u0000\u0003 \u0000$ \u0000F \u0000U \u0000R \u0000V \u0000V \u0000\u0003 \u00007 \u0000K \u0000H \u0000\u0003 \u0000& \u0000V \u0000: \u0000L \u0000W \u0000K \u0000\u0003 \u00006 \u0000D \u0000L \u0000O \u0000R \u0000U \u0000\u0003 \u00000 \u0000F \u0000J \u0000H \u0000H \u00006 \u0000D \u0000L \u0000O \u0000\u0003 \u0000$ \u0000F \u0000U \u0000R \u0000V \u0000V \u0000\u0003 \u00007 \u0000K \u0000H \u0000\u0003 \u0000& \u0000V \u0000: \u0000L \u0000W \u0000K \u0000\u0003 \u00006 \u0000D \u0000L \u0000O \u0000R \u0000U \u0000\u0003 \u00000 \u0000F \u0000J \u0000H \u0000H & D U H \u0000& \u0000D \u0000U \u0000H & R R S H U D W L R Q \u0000& \u0000R \u0000R \u0000S \u0000H \u0000U \u0000D \u0000W \u0000L \u0000R \u0000Q & R Q Q H F W L R Q \u0000& \u0000R \u0000Q \u0000Q \u0000H \u0000F \u0000W \u0000L \u0000R \u0000Q \u0002 \u0001 1 W e | \u0001 \u0014 e p \u0001 X u u ` O \u0001 1 B X ` e p q \u0001 = O B p q ~ p q \u0001 = O B p q \u0001 % ` M \u0000\u0002 \u0000\u0001 \u00001 \u0000W \u0000e \u0000| \u0000\u0001 \u0000\u0014 \u0000e \u0000p \u0000\u0001 \u0000 \u0000X \u0000u \u0000u \u0000` \u0000O \u0000\u0001 \u00001 \u0000B \u0000X \u0000` \u0000e \u0000p \u0000q \u0000\u0001 \u0000= \u0000O \u0000B \u0000p \u0000q \u0000~ \u0000p \u0000q \u0000\u0001 \u0000= \u0000O \u0000B \u0000p \u0000q \u0000\u0001 \u0000% \u0000` \u0000M \u0000( \u0000Q \u0000H \u0000U \u0000J \u0000H \u0000W \u0000L \u0000F \u00000 \u0000L \u0000Q \u0000G \u0000V\n\u0000$ \u00000 \u0000- \u00000 \u00006 \u00003 \u0000\u0003 \u0000. \u0000& \u0000\u0003 \u0000* \u0000/ \u0000\u0003 \u0000\u0004 \u0000\u0004 \u0000\u0004\n\u0000\u0006 \u0000) \u0000 \u0000- \u0000\" \u0000 \u0000/ \u0000$ \u0000\u001e \u0000\u0001 \u0000\u000e \u0000$ \u0000) \u0000\u001f \u0000. \u0000\u0001 \u00002 \u0000 \u0000 \u0000& \u0000' \u00004 \u0000\u0001 \u0000$ \u0000) \u0000\u001e \u00000 \u0000- \u0000. \u0000$ \u0000* \u0000) \u0000. \u0000\u0001 \u0000 \u00003 \u0000+ \u0000' \u0000* \u0000- \u0000 \u0000\u0001 \u0000/ \u0000# \u0000 \u0000\u0001 \u0000\u0006 \u0000\u001c \u0000- \u0000' \u00004 \u0000\u0001 \u0000\u001a \u0000 \u0000\u001c \u0000- \u0000. \u0000\u0001 \u0000 \u0000\u001c \u0000- \u0000) \u0000$ \u0000) \u0000\" \u0000\u0001 \u0000\u0007 \u0000- \u0000\u001c \u0000( \u0000 \u00002 \u0000* \u0000- \u0000& \u0000\u0001 \u0000S \u0000\u0006 \u0000\u001a \u0000\u0007 \u0000T \u0000\u0001 \u0000* \u00000 \u0000/ \u0000\u001e \u0000* \u0000( \u0000 \u0000. \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000$ \u0000/ \u0000. \u0000! \u00000 \u0000) \u0000\u001f \u0000\u001c \u0000( \u0000 \u0000) \u0000/ \u0000\u001c \u0000' \u0000\u0001 \u0000\u001e \u0000* \u0000) \u0000\u001e \u0000 \u0000+ \u0000/ \u0000. \u0000\u0001 \u0000* \u0000! \u0000\u0001 \u0000\u0003 \u0000 \u0000' \u0000* \u0000) \u0000\" \u0000$ \u0000) \u0000\" \u0000D \u0000\u0001 \u0000\u0003 \u0000 \u0000$ \u0000) \u0000\" \u0000D \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000\u0003 \u0000 \u0000\u001e \u0000* \u0000( \u0000$ \u0000) \u0000\" \u0000E \u0000\u0001 \u0000\u0015 \u0000# \u0000 \u0000\u0001 \u0000\u001e \u0000* \u0000) \u0000/ \u0000 \u0000) \u0000/ \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000' \u0000 \u0000. \u0000. \u0000* \u0000) \u0000\u0001 \u0000. \u0000/ \u0000- \u00000 \u0000\u001e \u0000/ \u00000 \u0000- \u0000 \u0000\u0001 \u0000* \u0000! \u0000\u0001 \u0000* \u00000 \u0000- \u0000\u0001 \u0000+ \u0000# \u00004 \u0000. \u0000$ \u0000\u001e \u0000\u001c \u0000' \u0000 \u0000\u001f \u00000 \u0000\u001e \u0000\u001c \u0000/ \u0000$ \u0000* \u0000) \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000. \u0000\u001c \u0000! \u0000 \u0000/ \u00004 \u0000\u0001 \u0000\u001c \u00002 \u0000\u001c \u0000- \u0000 \u0000) \u0000 \u0000. \u0000. \u0000\u0001 \u0000+ \u0000- \u0000* \u0000\" \u0000- \u0000\u001c \u0000( \u0000\u0001 \u0000\u001e \u0000* \u00001 \u0000 \u0000- \u0000. \u0000\u0001 \u0000/ \u0000# \u0000 \u0000\u0001 \u0000- \u0000 \u0000, \u00000 \u0000$ \u0000- \u0000 \u0000\u001f \u0000\u0001 \u0000 \u0000\u001c \u0000- \u0000) \u0000$ \u0000) \u0000\" \u0000\u0001 \u0000\u0010 \u00000 \u0000/ \u0000\u001e \u0000* \u0000( \u0000 \u0000. \u0000E \u0000\u0015 \u0000# \u0000 \u0000\u0001 \u0000/ \u0000 \u0000\u001c \u0000\u001e \u0000# \u0000 \u0000- \u0000. \u0000\u0001 \u0000\u001c \u0000- \u0000 \u0000\u0001 \u0000\u001c \u0000\u001e \u0000\u001e \u0000* \u0000( \u0000+ \u0000\u001c \u0000) \u0000$ \u0000 \u0000\u001f \u0000\u0001 \u0000\u001d \u00004 \u0000\u0001 \u0000* \u00000 \u0000- \u0000\u0001 \u0000! \u0000\u001c \u0000) \u0000/ \u0000\u001c \u0000. \u0000/ \u0000$ \u0000\u001e \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000$ \u0000) \u0000/ \u0000 \u0000- \u0000\u001c \u0000\u001e \u0000/ \u0000$ \u00001 \u0000 \u0000\u0001 \u0000+ \u00000 \u0000+ \u0000+ \u0000 \u0000/ \u0000. \u0000\u0001 \u00002 \u0000# \u0000$ \u0000\u001e \u0000# \u0000\u0001 \u0000/ \u0000# \u0000 \u0000\u0001 \u0000\u001e \u0000# \u0000$ \u0000' \u0000\u001f \u0000- \u0000 \u0000) \u0000\u0001 \u0000\" \u0000 \u0000/ \u0000\u0001 \u0000/ \u0000* \u0000\u0001 \u0000( \u0000 \u0000 \u0000/ \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000' \u0000 \u0000\u001c \u0000- \u0000) \u0000\u0001 \u0000\u001c \u0000\u0001 \u00001 \u0000\u001c \u0000- \u0000$ \u0000 \u0000/ \u00004 \u0000\u0001 \u0000* \u0000! \u0000\u0001 \u00002 \u0000 \u0000' \u0000' \u0000) \u0000 \u0000. \u0000. \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u00002 \u0000 \u0000' \u0000' \u0000\u001d \u0000 \u0000$ \u0000) \u0000\" \u0000\u0001 \u0000/ \u0000* \u0000+ \u0000$ \u0000\u001e \u0000. \u0000E \u0000J \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0000\u0003 \u0002F \u0000C \u0000\u0003 \u0000\u0010 \u0000\u0003 \u0000\u0004 \u0000\u0003 \u0000C \u0002I \u0000\u0002 \u0000\u0001 \u00002 \u0000\u001c \u0000\u001e \u0000& \u00004 \u0000\u0001 \u0000. \u0000\u001e \u0000$ \u0000 \u0000) \u0000\u001e \u0000 \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000. \u00000 \u0000. \u0000/ \u0000\u001c \u0000$ \u0000) \u0000\u001c \u0000\u001d \u0000$ \u0000' \u0000$ \u0000/ \u00004 \u0000\u0001 \u0000 \u00003 \u0000+ \u0000' \u0000* \u0000- \u0000\u001c \u0000/ \u0000$ \u0000* \u0000) \u0000\u0001 \u0000/ \u0000# \u0000- \u0000* \u00000 \u0000\" \u0000# \u0000\u0001 \u0000/ \u0000# \u0000 \u0000\u0001 \u0000 \u00004 \u0000 \u0000. \u0000\u0001 \u0000* \u0000! \u0000\u0001 \u0000\u0005 \u0000- \u0000E \u0000\u0001 \u0000\u0011 \u0000 \u0000\u001c \u0000\u001d \u0000* \u0000\u001f \u00004 \u0000\u0001 \u0000\u0014 \u0000/ \u00000 \u0000\u001f \u0000 \u0000) \u0000/ \u0000. \u0000\u0001 \u0000' \u0000 \u0000\u001c \u0000- \u0000) \u0000\u0001 \u0000\u001c \u0000\u001d \u0000* \u00000 \u0000/ \u0000- \u0000 \u0000\u001e \u00004 \u0000\u001e \u0000' \u0000$ \u0000) \u0000\" \u0000D \u0000\u0001 \u0000 \u0000) \u0000 \u0000- \u0000\" \u00004 \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u00002 \u0000\u001c \u0000/ \u0000 \u0000- \u0000\u0001 \u0000\u001e \u0000* \u0000) \u0000. \u0000 \u0000- \u00001 \u0000\u001c \u0000/ \u0000$ \u0000* \u0000) \u0000D \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000) \u0000\u001c \u0000/ \u00000 \u0000- \u0000 \u0000\u0001 \u0000+ \u0000- \u0000 \u0000. \u0000 \u0000- \u00001 \u0000\u001c \u0000/ \u0000$ \u0000* \u0000) \u0000\u0001 \u0000/ \u0000# \u0000- \u0000* \u00000 \u0000\" \u0000# \u0000\u0001 \u0000\u001c \u0000\u0001 \u00002 \u0000$ \u0000\u001f \u0000 \u0000\u0001 \u0000- \u0000\u001c \u0000) \u0000\" \u0000 \u0000\u0001 \u0000* \u0000! \u0000\u0001 \u0000\u001e \u0000- \u0000\u001c \u00005 \u00004 \u0000 \u00003 \u0000+ \u0000 \u0000- \u0000$ \u0000( \u0000 \u0000) \u0000/ \u0000. \u0000D \u0000\u0001 \u0000, \u00000 \u0000$ \u0000- \u0000& \u00004 \u0000\u0001 \u0000. \u0000/ \u0000* \u0000- \u00004 \u0000/ \u0000 \u0000' \u0000' \u0000$ \u0000) \u0000\" \u0000D \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000\" \u0000\u001c \u0000( \u0000 \u0000. \u0000\u0015 \u0000# \u0000 \u0000\u0001 \u0000! \u0000$ \u0000/ \u0000) \u0000 \u0000. \u0000. \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000( \u0000\u001c \u0000- \u0000/ \u0000$ \u0000\u001c \u0000' \u0000\u0001 \u0000\u001c \u0000- \u0000/ \u0000. \u0000\u0001 \u0000+ \u0000- \u0000* \u0000\" \u0000- \u0000\u001c \u0000( \u0000E \u0000\u0001 \u0000L \u0000\u0002 \u0000\u0001 \u0000\u0014 \u0000/ \u0000- \u0000* \u0000) \u0000\" \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000\u0014 \u0000\u001c \u0000! \u0000 \u0000\u0001 \u0000\u000e \u0000 \u0000@ \u0000\u0001 \u0000\u0018 \u0000$ \u0000/ \u0000# \u0000\u0001 \u0000\u0014 \u0000 \u0000) \u0000. \u0000 \u0000$ \u0000\u0001 \u0000 \u0000 \u0000K \u0000\u0001 \u0000\u001f \u0000 \u00001 \u0000 \u0000' \u0000* \u0000+ \u0000. \u0000\u0001 \u0000. \u0000/ \u0000- \u0000* \u0000) \u0000\" \u0000$ \u0000) \u0000/ \u0000 \u0000- \u0000+ \u0000 \u0000- \u0000. \u0000* \u0000) \u0000\u001c \u0000' \u0000\u0001 \u0000. \u0000& \u0000$ \u0000' \u0000' \u0000. \u0000\u0001 \u0000/ \u0000# \u0000\u001c \u0000/ \u0000\u0001 \u0000 \u0000) \u0000\u001c \u0000\u001d \u0000' \u0000 \u0000\u0001 \u0000. \u0000/ \u00000 \u0000\u001f \u0000 \u0000) \u0000/ \u0000. \u0000\u0001 \u0000/ \u0000* \u0000\u0001 \u0000\u001d \u00000 \u0000$ \u0000' \u0000\u001f \u0000\u0001 \u0000\u001c \u0000) \u0000\u001f \u0000\u0001 \u0000( \u0000\u001c \u0000$ \u0000) \u0000/ \u0000\u001c \u0000$ \u0000) \u0000\u0001 \u0000- \u0000 \u0000. \u0000+ \u0000 \u0000\u001e \u0000/ \u0000! \u00000 \u0000' \u0000\u0001 \u0000- \u0000 \u0000' \u0000\u001c \u0000/ \u0000$ \u0000* \u0000) \u0000. \u0000# \u0000$ \u0000+ \u0000. \u0000\u0001 \u00002 \u0000$ \u0000/ \u0000# \u0000\u0001 \u0000* \u0000/ \u0000# \u0000 \u0000- \u0000. \u0000/ \u0000# \u0000- \u0000* \u00000 \u0000\" \u0000# \u0000\u0001 \u0000\f \u0000\u001c \u0000- \u0000\u001c \u0000/ \u0000 \u0000D \u0000\u0001 \u0000\u0010 \u0000\u001d \u0000. \u0000/ \u0000\u001c \u0000\u001e \u0000' \u0000 \u0000\u0001 \u0000\u001e \u0000* \u00000 \u0000- \u0000. \u0000 \u0000. \u0000D \u0000\u0001 \u0000\u0014 \u0000/ \u0000- \u0000"
+        },
+        {
+          "fileName": "Changes to Welcome pack 2026.docx",
+          "chars": 787,
+          "text": "Page 1. ~ Line 5: ‘Add word Poster’ on Old Macdonald should not be there, please remove Page 4. ~ Replace photo of man with girl that is attached Page 12. Fire Safety Rules: the 5th dot point Call 000 (needs to be large font 000 so it stands out) Page 14. I said this on the last edits the layout needs to be changed as it doesn’t make sense. See the old pack and how it includes the entire title. Page 15. Change the title - Remove ‘Energetic Minds’ & ‘Who stole the Cookie Mystery’ so it just has the title of the show EG. ‘Old Macdonald & The Great Barnyard Mystery Science Sustainability Show’ Page 17. Across the Cs – Change age line to this : 1.5 yrs – 3 yrs old Page 18. Poster – Connection not connecting Page 19. A strong safe me with sensei lee – Space between ‘others through’"
+        }
+      ]
+    },
+    {
+      "ciphertext": "~021910161123645254569",
+      "title": "Market Research / Competitor Review",
+      "description": "We need a market research task done for a client. This involves assessing the competitive landscape for a Vehicle wrapping business based in Australia. We have 15 criteria that we want assessed across 10 different suppliers. It will be a desktop audit with no calling required. Good communication skills are required. Work will need to be complete within 5 days. Attached is the example of the work with 2 businesses partially complete. We require the work to be done and then presented in a way that can be delivered to a client (professional)",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021896473527833669430",
+      "title": "Omnisend Email Marketing",
+      "description": "We are looking for two tasks 1. To set up our first email marketing campaign using Omnisend. We have a series of basic emails created and have a database of 200 cold leads that we want to start sending that email sequence to. We need advice on how to make the emails as attractive to open and convert as possible and ensure they do not go to spam. 2. We would also like support on how to automate leads going from our lead source (Bark.com) to omnisend",
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,1973 @@
+{
+  "uid": "2079166523414214478",
+  "ciphertext": "~022079166523414214478",
+  "title": "Virtual Assistant",
+  "url": "https://www.upwork.com/jobs/~022079166523414214478",
+  "scrapedAt": "2026-07-21T04:20:02.414Z",
+  "feed": {
+    "uid": "2079166523414214478",
+    "ciphertext": "~022079166523414214478",
+    "title": "<span class=\"highlight\">Virtual</span> <span class=\"highlight\">Assistant</span>",
+    "description": "Newlane University is seeking a <span class=\"highlight\">Virtual</span> <span class=\"highlight\">Assistant</span> for Student and Faculty Support to provide reliable, detail-oriented administrative assistance in a fully remote role. Responsibilities include sending reminders to faculty for assessments, tracking student progress and engagement, assisting with onboarding and orientation processes, and ensuring accurate record-keeping. The ideal candidate is highly organized, thorough, and consistent in following protocols, with excellent communication skills and the ability to work independently. Experience in online education or student support is a plus. This role plays a key part in ensuring a smooth and supportive experience for both students and faculty.",
+    "createdOn": "2026-07-20T11:28:23.263Z",
+    "publishedOn": "2026-07-20T11:29:48.019Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "1 to 3 months",
+    "engagement": "usnuxt_Engagement_421.asNeeded",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "54733.66",
+      "totalReviews": 31,
+      "totalFeedback": 4.97,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 0,
+    "relevanceEncoded": "{\"position\":\"9\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.20to50",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1110580732286717952",
+        "parentSkillUid": null,
+        "prefLabel": "Virtual Assistance",
+        "prettyName": "Virtual Assistance",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1110580490657058816",
+        "parentSkillUid": null,
+        "prefLabel": "Assessment Activity",
+        "prettyName": "Assessment Activity",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580557883363328",
+        "parentSkillUid": null,
+        "prefLabel": "Email Communication",
+        "prettyName": "Email Communication",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626709379039232",
+        "parentSkillUid": null,
+        "prefLabel": "Administrative Support",
+        "prettyName": "Administrative Support",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580688930197504",
+        "parentSkillUid": null,
+        "prefLabel": "Scheduling",
+        "prettyName": "Scheduling",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626730136649728",
+        "parentSkillUid": null,
+        "prefLabel": "Data Entry",
+        "prettyName": "Data Entry",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 5,
+      "max": 6
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T11:28:23.263Z",
+        "publishTime": "2026-07-20T11:29:48.019Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Hours to be determined",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Newlane University is seeking a Virtual Assistant for Student and Faculty Support to provide reliable, detail-oriented administrative assistance in a fully remote role. Responsibilities include sending reminders to faculty for assessments, tracking student progress and engagement, assisting with onboarding and orientation processes, and ensuring accurate record-keeping. The ideal candidate is highly organized, thorough, and consistent in following protocols, with excellent communication skills and the ability to work independently. Experience in online education or student support is a plus. This role plays a key part in ensuring a smooth and supportive experience for both students and faculty.",
+        "info": {
+          "ciphertext": "~022079166523414214478",
+          "id": "2079166523414214478",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Virtual Assistant",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T11:28:23.263Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:personalvirtualassistance",
+            "prefLabel": "Personal Virtual Assistance",
+            "id": "1484275250881024000",
+            "uid": "1484275250881024000"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1110580490657058816",
+              "freeText": null,
+              "prefLabel": "Assessment Activity",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580732286717952",
+              "freeText": null,
+              "prefLabel": "Virtual Assistance",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580557883363328",
+              "freeText": null,
+              "prefLabel": "Email Communication",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626709379039232",
+              "freeText": null,
+              "prefLabel": "Administrative Support",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580688930197504",
+              "freeText": null,
+              "prefLabel": "Scheduling",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626730136649728",
+              "freeText": null,
+              "prefLabel": "Data Entry",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Virtual Assistance",
+          "urlSlug": "virtual-assistance"
+        },
+        "categoryGroup": {
+          "name": "Admin Support",
+          "urlSlug": "admin-support"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T11:29:48.019Z",
+            "reuse": "1904674865208624712",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 5,
+          "hourlyBudgetMax": 6,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T18:33:00.835Z",
+          "totalApplicants": 41,
+          "totalHired": 0,
+          "totalInvitedToInterview": 2,
+          "unansweredInvites": 1,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "NATIVE",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 0
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -10800000,
+          "countryTimezone": "America/Sao_Paulo (UTC-03:00)",
+          "city": "Oakland",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 101,
+          "activeAssignmentsCount": 58,
+          "hoursCount": 2621.5,
+          "feedbackCount": 31,
+          "score": 4.97,
+          "totalJobsWithHires": 58,
+          "totalCharges": {
+            "amount": 54733.66
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "895007192530370560",
+          "isEDCReplicated": null,
+          "contractDate": "2017-08-08T00:00:00.000Z",
+          "profile": {
+            "industry": "Education",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 58,
+          "openJobs": [
+            {
+              "id": "2079167869264380368",
+              "uid": "2079167869264380368",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079167869264380368",
+              "title": "Virtual Assistant: College Transfer Credit Evaluations Data Review and Entry",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2068330282816779946",
+              "uid": "2068330282816779946",
+              "isPtcPrivate": false,
+              "ciphertext": "~022068330282816779946",
+              "title": "Introduction to Astronomy Course Facilitator and Curriculum Reviewer",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 18.084669082586306
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-29T15:12:27.739Z",
+          "endDate": null,
+          "totalCharge": 561.32,
+          "totalHours": 56.999999,
+          "jobInfo": {
+            "title": "Video editor for instructional videos",
+            "id": "2049464213497170897",
+            "uid": "2049464213497170897",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022049464213497170897"
+          },
+          "contractorInfo": {
+            "contractorName": "Clark Kent S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0134f4fd951707c78c"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-31T14:51:48.378Z",
+          "endDate": null,
+          "totalCharge": 899.59,
+          "totalHours": 152,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1904674865208624712",
+            "uid": "1904674865208624712",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021904674865208624712"
+          },
+          "contractorInfo": {
+            "contractorName": "Nancy H.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01f7035c40a516bcba"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-28T00:05:45.072Z",
+          "endDate": null,
+          "totalCharge": 1551.64,
+          "totalHours": 255.499999,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1904674865208624712",
+            "uid": "1904674865208624712",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021904674865208624712"
+          },
+          "contractorInfo": {
+            "contractorName": "Katrina C.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~014da193ddd02470ba"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-04T10:25:41.062Z",
+          "endDate": null,
+          "totalCharge": 1478.14,
+          "totalHours": 243.833334,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1885256601560847274",
+            "uid": "1885256601560847274",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021885256601560847274"
+          },
+          "contractorInfo": {
+            "contractorName": "Gracielli Marie R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01999e39aba5d3a196"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-03T14:45:58.374Z",
+          "endDate": null,
+          "totalCharge": 1585.24,
+          "totalHours": 250.833336,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1885256601560847274",
+            "uid": "1885256601560847274",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021885256601560847274"
+          },
+          "contractorInfo": {
+            "contractorName": "Crystal Jane P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016cf6da2b7040a8d1"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-31T20:53:39.535Z",
+          "endDate": null,
+          "totalCharge": 656.86,
+          "totalHours": 24.833333,
+          "jobInfo": {
+            "title": "Assessment guru for online university",
+            "id": "1884988924843549334",
+            "uid": "1884988924843549334",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021884988924843549334"
+          },
+          "contractorInfo": {
+            "contractorName": "Monique B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012d1e51ceff308f45"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-31T20:53:27.899Z",
+          "endDate": null,
+          "totalCharge": 1636.87,
+          "totalHours": 62.166669,
+          "jobInfo": {
+            "title": "Student Support",
+            "id": "1884987471612994971",
+            "uid": "1884987471612994971",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021884987471612994971"
+          },
+          "contractorInfo": {
+            "contractorName": "Monique B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012d1e51ceff308f45"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-31T20:53:15.552Z",
+          "endDate": null,
+          "totalCharge": 888.75,
+          "totalHours": 33.666667,
+          "jobInfo": {
+            "title": "Transcript evaluation",
+            "id": "1884988355376644168",
+            "uid": "1884988355376644168",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021884988355376644168"
+          },
+          "contractorInfo": {
+            "contractorName": "Monique B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012d1e51ceff308f45"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-06-12T15:34:03.239Z",
+          "endDate": null,
+          "totalCharge": 1024.37,
+          "totalHours": 39.166665,
+          "jobInfo": {
+            "title": "Symbolic Logic Guided Course Facilitator",
+            "id": "1798740111983028393",
+            "uid": "1798740111983028393",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01601a209075408b15"
+          },
+          "contractorInfo": {
+            "contractorName": "Zachary G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01706388025f6f455c"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-04-05T13:18:45.296Z",
+          "endDate": null,
+          "totalCharge": 372.45,
+          "totalHours": 8.666667,
+          "jobInfo": {
+            "title": "Course Developer/Reviewer needed for undergraduate History Courses",
+            "id": "1774756872083578880",
+            "uid": "1774756872083578880",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01f083b416655aa552"
+          },
+          "contractorInfo": {
+            "contractorName": "Christine T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01da523c9cdcb145fe"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-18T21:02:55.000Z",
+          "endDate": null,
+          "totalCharge": 4881.07,
+          "totalHours": 186.83333,
+          "jobInfo": {
+            "title": "Introduction to Astronomy Guided Course Facilitator and Curriculum Reviewer",
+            "id": "1767691459108028416",
+            "uid": "1767691459108028416",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01f24dd512acba11a3"
+          },
+          "contractorInfo": {
+            "contractorName": "Madison Renee D.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01d62e0994e80d321f"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-12T14:17:07.000Z",
+          "endDate": null,
+          "totalCharge": 9125.38,
+          "totalHours": 349.833321,
+          "jobInfo": {
+            "title": "Philosophy Guided Course Facilitator",
+            "id": "1758139587358801920",
+            "uid": "1758139587358801920",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~016c41d020d1a0f353"
+          },
+          "contractorInfo": {
+            "contractorName": "Vladan D.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01afe70690dbc3d666"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-12T11:29:05.000Z",
+          "endDate": null,
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Philosophy Guided Course Facilitator",
+            "id": "1758139587358801920",
+            "uid": "1758139587358801920",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~016c41d020d1a0f353"
+          },
+          "contractorInfo": {
+            "contractorName": "Vladan D.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01afe70690dbc3d666"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-04T23:46:19.000Z",
+          "endDate": null,
+          "totalCharge": 160.44,
+          "totalHours": 6.666667,
+          "jobInfo": {
+            "title": "Philosophy Guided Course Facilitator",
+            "id": "1758139587358801920",
+            "uid": "1758139587358801920",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~016c41d020d1a0f353"
+          },
+          "contractorInfo": {
+            "contractorName": "Dalia Y.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ede0635d74a16337"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-01-12T17:07:03.000Z",
+          "endDate": null,
+          "totalCharge": 1722.35,
+          "totalHours": 65.500003,
+          "jobInfo": {
+            "title": "Course Developer/Reviewer needed for undergraduate Philosophy Courses",
+            "id": "1744432841333866496",
+            "uid": "1744432841333866496",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01386cef046afb068d"
+          },
+          "contractorInfo": {
+            "contractorName": "Veronica B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b20ca0765501b5b4"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-09-10T13:34:27.000Z",
+          "endDate": null,
+          "totalCharge": 378.32,
+          "totalHours": 5.5,
+          "jobInfo": {
+            "title": "Legal Support and filing for real estate lawsuit",
+            "id": "1700565337403265024",
+            "uid": "1700565337403265024",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e8fa24294dd50617"
+          },
+          "contractorInfo": {
+            "contractorName": "Desi P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f72779bdec9483e3"
+          },
+          "rate": {
+            "amount": 65
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-27T23:25:11.000Z",
+          "endDate": null,
+          "totalCharge": 577.5,
+          "totalHours": 18,
+          "jobInfo": {
+            "title": "Course Developer/Reviewer needed for undergraduate Philosophy Courses",
+            "id": "1638213508139270144",
+            "uid": "1638213508139270144",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01b08680b37861f05f"
+          },
+          "contractorInfo": {
+            "contractorName": "Katherine K.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~014ef2b16b92d658fa"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-02-08T10:42:55.000Z",
+          "endDate": null,
+          "totalCharge": 354.39,
+          "totalHours": 15.166668,
+          "jobInfo": {
+            "title": "College Intro to Astronomy Course Review + Assessment ",
+            "id": "1589581592079949824",
+            "uid": "1589581592079949824",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01037b43c3a51283bc"
+          },
+          "contractorInfo": {
+            "contractorName": "Fatma Salma B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01e3fbb165769f63f8"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-12-13T03:25:01.000Z",
+          "endDate": null,
+          "totalCharge": 813.76,
+          "totalHours": 32.5,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Review + Assessment ",
+            "id": "1600252923045203968",
+            "uid": "1600252923045203968",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01a6a612d057be09b4"
+          },
+          "contractorInfo": {
+            "contractorName": "Bibi  S.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01dc799f742f34445e"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-12-09T16:52:06.000Z",
+          "endDate": null,
+          "totalCharge": 9594.47,
+          "totalHours": 365.500009,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Review + Assessment ",
+            "id": "1600252923045203968",
+            "uid": "1600252923045203968",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01a6a612d057be09b4"
+          },
+          "contractorInfo": {
+            "contractorName": "Monique B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012d1e51ceff308f45"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-08-30T23:30:09.000Z",
+          "endDate": null,
+          "totalCharge": 332.52,
+          "totalHours": 14,
+          "jobInfo": {
+            "title": "College Intro to Molecular and Cellular Biology Course Review + Assessment ",
+            "id": "1559423256318758912",
+            "uid": "1559423256318758912",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016e6773bb05d499ac"
+          },
+          "contractorInfo": {
+            "contractorName": "Jessica M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0142c92add61c0d13c"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-08-16T16:02:15.000Z",
+          "endDate": null,
+          "totalCharge": 533.76,
+          "totalHours": 20.333333,
+          "jobInfo": {
+            "title": "College Intro to Molecular and Cellular Biology Course Review + Assessment ",
+            "id": "1559423256318758912",
+            "uid": "1559423256318758912",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016e6773bb05d499ac"
+          },
+          "contractorInfo": {
+            "contractorName": "Cathryn H.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~016274bca7a45d1eaa"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-10-11T14:53:12.000Z",
+          "endDate": null,
+          "totalCharge": 994.38,
+          "totalHours": 39.333332,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Review + Assessment ",
+            "id": "1445373068128698368",
+            "uid": "1445373068128698368",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0129d50a0eefb5b27c"
+          },
+          "contractorInfo": {
+            "contractorName": "Patricia S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fd26a3dfbd30ba28"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-07-10T11:39:51.000Z",
+          "endDate": null,
+          "totalCharge": 62.5,
+          "totalHours": 2.5,
+          "jobInfo": {
+            "title": "COLLEGE INTRO TO SOCIOLOGY COURSE REVIEWER",
+            "id": "1272921944191520768",
+            "uid": "1272921944191520768",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01b36ba091b1d012d4"
+          },
+          "contractorInfo": {
+            "contractorName": "Manon B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01b491366415a6de32"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-16T16:04:42.000Z",
+          "endDate": null,
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "COLLEGE INTRO TO SOCIOLOGY COURSE REVIEWER",
+            "id": "1272921944191520768",
+            "uid": "1272921944191520768",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01b36ba091b1d012d4"
+          },
+          "contractorInfo": {
+            "contractorName": "Manon B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01b491366415a6de32"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-03T16:56:12.000Z",
+          "endDate": null,
+          "totalCharge": 406.67,
+          "totalHours": 20.333333,
+          "jobInfo": {
+            "title": "Expert reviewer for Introduction to Business Course",
+            "id": "1265274635847766017",
+            "uid": "1265274635847766017",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01203b5f33a011b89d"
+          },
+          "contractorInfo": {
+            "contractorName": "Silas N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01925c2df59870cf22"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-04-30T19:54:28.000Z",
+          "endDate": null,
+          "totalCharge": 70,
+          "totalHours": 3.5,
+          "jobInfo": {
+            "title": "English Composition Course Reviewer",
+            "id": "1254733810424737792",
+            "uid": "1254733810424737792",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01647e8fe2611b1f04"
+          },
+          "contractorInfo": {
+            "contractorName": "Sun Young L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0135330f8d04325466"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-04-30T15:53:54.000Z",
+          "endDate": null,
+          "totalCharge": 125,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "English Composition Course Reviewer",
+            "id": "1254733810424737792",
+            "uid": "1254733810424737792",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01647e8fe2611b1f04"
+          },
+          "contractorInfo": {
+            "contractorName": "Walton W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01765b423203849877"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-13T08:52:41.000Z",
+          "endDate": "2025-12-30T13:53:46.513Z",
+          "totalCharge": 136.83,
+          "totalHours": 6.166667,
+          "jobInfo": {
+            "title": "Active Campaign Master",
+            "id": "1755332421204226048",
+            "uid": "1755332421204226048",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021755332421204226048"
+          },
+          "contractorInfo": {
+            "contractorName": "Nick Nichelle D.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0144d23b97a0868d51"
+          },
+          "rate": {
+            "amount": 23.15
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-29T16:15:23.000Z",
+          "endDate": "2025-09-05T20:14:33.686Z",
+          "totalCharge": 3857.39,
+          "totalHours": 146.833344,
+          "jobInfo": {
+            "title": "Newlane Curriculum and instruction",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kathryn B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f788436aa394af92"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Dr. Kathryn Burrows has been an absolute privilege. She is one of the most thoughtful, dependable, and skilled educators I’ve ever collaborated with. Dr. Burrows consistently brings creativity, professionalism, and genuine care for students to everything she does—from leading courses and designing curriculum to problem-solving in new situations. I value her contributions deeply and would hire her full time in a heartbeat if I could. I recommend her without hesitation."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-02-21T14:42:50.000Z",
+          "endDate": "2025-07-18T21:18:01.690Z",
+          "totalCharge": 21.87,
+          "totalHours": 0.833333,
+          "jobInfo": {
+            "title": "College Intro to Astronomy Course Review + Assessment ",
+            "id": "1589581592079949824",
+            "uid": "1589581592079949824",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01037b43c3a51283bc"
+          },
+          "contractorInfo": {
+            "contractorName": "Vardan A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016cdce74c62e525d8"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Ben is working on a very engaging project, and it was nice to be even a little involved. I wish him and his university all the best in achieving their goals and making a lasting impact."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-08-13T21:15:53.803Z",
+          "endDate": "2024-09-12T22:17:16.452Z",
+          "totalCharge": 2000,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "CPA to do Comparative Financial Review",
+            "id": "1818380451666654362",
+            "uid": "1818380451666654362",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01f5404abcce72ba92"
+          },
+          "contractorInfo": {
+            "contractorName": "Umair A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a90ed4186b30ef6e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "We hired Umair to do a comparative financial review with a tight turnaround. Umair was fantastic to work with. He communicated promptly and clearly, and did a fantastic job, all the more impressive that we had a tight turnaround. Umair was professional, thorough, and easy to reach and talk to throughout the process. We will definitely be hiring Umair in the future."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-26T00:00:00.000Z",
+          "endDate": "2024-06-05T18:07:08.829Z",
+          "totalCharge": 422.95,
+          "totalHours": 10,
+          "jobInfo": {
+            "title": "Accounting Help to Organize Quickbooks",
+            "id": "1760977626408488960",
+            "uid": "1760977626408488960",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~0125c99179bec8c2a1"
+          },
+          "contractorInfo": {
+            "contractorName": "Emina S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017028eef3e040cfcc"
+          },
+          "rate": {
+            "amount": 40
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-10-04T12:46:21.000Z",
+          "endDate": "2024-05-12T13:43:44.032Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Reviewer for Introduction to Astronomy Course",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Fernando B.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Fernando was great to work with! He has a very deep expertise in astronomy and physics and provided fantastic feedback to improve the curriculum--college-level courses in astronomy and physics. And students very much appreciated Fernando's feedback! Will definitely hire Fernando again for future projects!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It's always a pleasure to work with Ben!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-01-27T18:57:42.000Z",
+          "endDate": "2024-03-05T21:23:29.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "College Intro to Astronomy Course Review + Assessment ",
+            "id": "1589581592079949824",
+            "uid": "1589581592079949824",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01037b43c3a51283bc"
+          },
+          "contractorInfo": {
+            "contractorName": "Fernando B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0124a9b1e757c91195"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Ben is a wonderful client. This is the second or third time we've worked together and it has always been a pleasure."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-11-22T12:23:38.000Z",
+          "endDate": "2024-03-05T21:09:40.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "College Intro to Astronomy Course Review + Assessment ",
+            "id": "1589581592079949824",
+            "uid": "1589581592079949824",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01037b43c3a51283bc"
+          },
+          "contractorInfo": {
+            "contractorName": "Fernando B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0124a9b1e757c91195"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It's been wonderful to work with Ben! I'd highly recommend him!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-07T20:53:36.000Z",
+          "endDate": "2024-02-09T19:14:52.000Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "30 minute consultation",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mayank B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01d397c01cfc77c77e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Wow, Mayank brings amazing insight and expertise on Active Campaign. I had several tasks that I couldn't resolve for months and Mayank patiently walked me through exactly what to do in just a few minutes. Amazing value! Would highly recommend!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-05-21T12:25:54.000Z",
+          "endDate": "2024-01-07T16:47:35.000Z",
+          "totalCharge": 125,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Review Introduction to Mathematical Reasoning Course",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Iris Y.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-06T15:19:07.000Z",
+          "endDate": "2023-09-16T21:57:06.000Z",
+          "totalCharge": 275,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Intro to Sociology course reviewer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kathryn B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f788436aa394af92"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-12-01T15:52:01.000Z",
+          "endDate": "2023-03-23T13:57:16.000Z",
+          "totalCharge": 96,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Review + Assessment ",
+            "id": "1466063318749388800",
+            "uid": "1466063318749388800",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~0151e0802ebb4c0411"
+          },
+          "contractorInfo": {
+            "contractorName": "Dusan V.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~013d471bbd413ee53f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-03-25T13:47:35.000Z",
+          "endDate": "2022-05-03T10:08:54.000Z",
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Intro Videos and Cohort",
+            "id": "1507123126704005120",
+            "uid": "1507123126704005120",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01fa4981a5c239b6fa"
+          },
+          "contractorInfo": {
+            "contractorName": "Patricia S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fd26a3dfbd30ba28"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I am so thrilled to have found Dr. Sanchez! She brought incredible grounding and insight to every task given to her for this project. Dr. Sanchez is totally reliable, and an excellent communicator. She was extremely thoughtful in her interactions with students. And she was not afraid to try new things--this project was all new territory--creating introductory videos and leading a cohort of students through an Introduction to Psychology course, and she handled every task with expertise and grace. I will definitely be hiring Dr. Sanchez again!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Ben is great to work with. The requirements and timeline of the job were communicated well and he was prompt to respond to questions. He was also receptive to my feedback and input on how to best complete the job."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-11-02T14:56:34.000Z",
+          "endDate": "2022-04-08T12:13:42.000Z",
+          "totalCharge": 108.34,
+          "totalHours": 4.333335,
+          "jobInfo": {
+            "title": "College Introduction to Sociology Course Reviewer",
+            "id": "1451175681532338176",
+            "uid": "1451175681532338176",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01c68d9ba7842bb3aa"
+          },
+          "contractorInfo": {
+            "contractorName": "Kathryn B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f788436aa394af92"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Kathryn was fantastic to work with. Quality work, delivered on schedule, clear communication throughout. We will definitely be hiring Kathryn again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-02T10:44:45.000Z",
+          "endDate": "2021-11-29T18:54:55.000Z",
+          "totalCharge": 125,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Reviewer for Introduction to Astronomy Course",
+            "id": "1265934350500007936",
+            "uid": "1265934350500007936",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~0129bf3bab013c3e9b"
+          },
+          "contractorInfo": {
+            "contractorName": "Fatma Salma B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01e3fbb165769f63f8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Ben is a very good client. I highly recommend. I would definitely work again with him in the future."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-02-17T21:12:27.000Z",
+          "endDate": "2021-06-17T18:43:55.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Course Reviewer for College Intro to Political Science Course",
+            "id": "1361332486922706944",
+            "uid": "1361332486922706944",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01b1585d3fe9777ca2"
+          },
+          "contractorInfo": {
+            "contractorName": "Michelle B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c31f72f5dbbfb05e"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.35,
+            "comment": "."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-02-25T22:03:50.000Z",
+          "endDate": "2021-06-17T18:42:59.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Course Reviewer for College Intro to Feminist Philosophy Course",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Michelle B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c31f72f5dbbfb05e"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.35,
+            "comment": "."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-03-26T20:15:00.000Z",
+          "endDate": "2021-06-17T18:40:28.000Z",
+          "totalCharge": 16.66,
+          "totalHours": 0.666666,
+          "jobInfo": {
+            "title": "Course Reviewer for College Intro to Political Science Course",
+            "id": "1375454365980987392",
+            "uid": "1375454365980987392",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0188a045ee67572862"
+          },
+          "contractorInfo": {
+            "contractorName": "Michelle B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c31f72f5dbbfb05e"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.15,
+            "comment": "."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-03-08T12:40:47.000Z",
+          "endDate": "2021-05-13T09:49:24.000Z",
+          "totalCharge": 50,
+          "totalHours": 2,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Reviewer",
+            "id": "1367186859060334592",
+            "uid": "1367186859060334592",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016aff3c808fb651a8"
+          },
+          "contractorInfo": {
+            "contractorName": "Dusan V.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~013d471bbd413ee53f"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "It's been a pleasure working with Ben. He is clear in communication about the task and its requirements, and easy to cooperate with."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-03-11T00:37:42.000Z",
+          "endDate": "2021-03-20T18:10:09.000Z",
+          "totalCharge": 70.83,
+          "totalHours": 2.833333,
+          "jobInfo": {
+            "title": "College Intro to Psychology Course Reviewer",
+            "id": "1367186859060334592",
+            "uid": "1367186859060334592",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016aff3c808fb651a8"
+          },
+          "contractorInfo": {
+            "contractorName": "Jacqueline B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01eaf5f86ad9997336"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.75,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-23T10:20:28.000Z",
+          "endDate": "2020-07-17T21:11:02.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "COLLEGE INTRO TO SOCIOLOGY COURSE REVIEWER",
+            "id": "1272921944191520768",
+            "uid": "1272921944191520768",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01b36ba091b1d012d4"
+          },
+          "contractorInfo": {
+            "contractorName": "Manon B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01b491366415a6de32"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Manon was a delight to work with. She was rigorous, thorough, and flexible with our changing schedule. She brought great insights and recommendations that moved the course review forward in efficient and helpful ways. I would definitely hire Manon again!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Ben was a pleasure to work with. He was always clear about the work, was available for possible questions while completing the task and gave me reasonable deadlines so I could finish this contract successfully. This was a great experience and I am happy I could contribute to the sociology course. I'm looking forward to working together again!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-03T14:52:38.000Z",
+          "endDate": "2020-07-17T03:30:56.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Reviewer for Introduction to Astronomy Course",
+            "id": "1265934350500007936",
+            "uid": "1265934350500007936",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~0129bf3bab013c3e9b"
+          },
+          "contractorInfo": {
+            "contractorName": "Fernando B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0124a9b1e757c91195"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a great pleasure working with Ben! Everything went smoothly, goals were clear, and he was very responsive!"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "4",
+              "clientPreferredLabel": "Native",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 7.455365853658537,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 4,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 20,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1484275250881024000",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Virtual Assistant: College Transfer Credit Evaluations Data Review and Entry",
+      "ciphertext": "~022079167869264380368",
+      "description": "Newlane University is seeking a Virtual Assistant for data entry on transfer credit evaluations to provide reliable, detail-oriented administrative assistance in a fully remote role. Responsibilities include reviewing and update evaluations, inputting information into a form, updating communications. The ideal candidate is highly organized, thorough, and consistent in following protocols, with excellent communication skills and the ability to work independently. Experience in online education or student support is a plus. This role plays a key part in ensuring a smooth and supportive experience for students transferring credit."
+    },
+    {
+      "title": "Introduction to Astronomy Course Facilitator and Curriculum Reviewer",
+      "ciphertext": "~022068330282816779946",
+      "description": "Looking for an expert in astronomy to help facilitate an online course. Candidate must hold an advanced degree in astronomy, or similar discipline (prefer PhD), and be confident in their ability to teach introduction to astronomy concepts. We are an exciting startup with a powerful platform to make quality education available to everyone. We'll have curriculum development work, assessment work (e.g., reviewing projects, conducting oral exams), and synchronous session facilitator work available for the right candidate over the next few months."
+    }
+  ],
+  "pastJobsText": [
+    {
+      "ciphertext": "~022049464213497170897",
+      "title": "Video editor for instructional videos",
+      "description": "We are looking for a reliable Video Editor to help turn recorded lectures into clear, polished instructional videos. The role involves basic editing such as trimming pauses or mistakes, making simple audio or visual adjustments, and preparing videos for students to watch online. Responsibilities include editing provided lecture recordings, adding simple titles or transitions when needed, exporting videos in the correct format, and uploading and organizing videos on YouTube. The editor should be comfortable using YouTube Studio to add titles, descriptions, settings, and playlists as directed. Candidates should have basic experience with video editing software such as iMovie, Camtasia, Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve, or similar tools. Advanced editing skills are not required, but the candidate should be comfortable with the fundamentals of editing, organizing files, following directions, and making lecture videos clear and easy to watch.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021904674865208624712",
+      "title": "Virtual Assistant",
+      "description": "Newlane University is seeking a Virtual Assistant for Student and Faculty Support to provide reliable, detail-oriented administrative assistance in a fully remote role. Responsibilities include sending reminders to faculty for assessments, tracking student progress and engagement, assisting with onboarding and orientation processes, and ensuring accurate record-keeping. The ideal candidate is highly organized, thorough, and consistent in following protocols, with excellent communication skills and the ability to work independently. Experience in online education or student support is a plus. This role plays a key part in ensuring a smooth and supportive experience for both students and faculty.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021885256601560847274",
+      "title": "Virtual Assistant",
+      "description": "Newlane University is seeking a Virtual Assistant for Student and Faculty Support to provide reliable, detail-oriented administrative assistance in a fully remote role. Responsibilities include sending reminders to faculty for assessments, tracking student progress and engagement, assisting with onboarding and orientation processes, and ensuring accurate record-keeping. The ideal candidate is highly organized, thorough, and consistent in following protocols, with excellent communication skills and the ability to work independently. Experience in online education or student support is a plus. This role plays a key part in ensuring a smooth and supportive experience for both students and faculty.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021884988924843549334",
+      "title": "Assessment guru for online university",
+      "description": "I am so thrilled to have found Dr. Sanchez! She brought incredible grounding and insight to every task given to her for this project. Dr. Sanchez is totally reliable, and an excellent communicator. She was extremely thoughtful in her interactions with students. And she was not afraid to try new things--this project was all new territory--creating introductory videos and leading a cohort of students through an Introduction to Psychology course, and she handled every task with expertise and grace. I will definitely be hiring Dr. Sanchez again!",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~01fa4981a5c239b6fa",
+      "title": "College Intro to Psychology Course Intro Videos and Cohort",
+      "description": "Looking for an expert in Psychology to help host an Intro to Psychology cohort for an online Associate of Arts degree. And to prepare introductory videos for each lesson in the Introduction to Psychology course. Candidate must hold an advanced degree in Psychology, or similar discipline (prefer PhD), and be confident in their ability to develop or judge course structure and content for conventional undergraduate Intro to Psychology courses, and be able to assess in an oral exam, whether a student has mastered the course goals and objectives. The preferred candidate would bring lots of experience teaching Psychology at the college level. We are an exciting start up with a powerful platform to decentralize college. We'll have a good amount of curriculum development and assessment work available for the right candidate over the next few months.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~01b1585d3fe9777ca2",
+      "title": "Course Reviewer for College Intro to Political Science Course",
+      "description": "Looking for an expert in Political Science to help review an Intro to Political Science for an online Associate of Arts degree. Review includes reviewing learning objectives, and assessments (including multiple choice questions and project prompts), and reviewing instructional resources. Candidate must hold an advanced degree in Political Science, or similar discipline (prefer PhD), and be confident in their ability to develop or judge course structure and content for conventional undergraduate Intro to Political Science courses. The preferred candidate would bring lots of experience teaching Political Science at the college level. We are an exciting start up with a powerful platform to decentralize college. We'll have a good amount of curriculum development work available for the right candidate over the next few months.",
+      "attachments": []
+    }
+  ]
+}

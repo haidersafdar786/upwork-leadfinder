@@ -1,0 +1,523 @@
+{
+  "uid": "2079286842630120971",
+  "ciphertext": "~022079286842630120971",
+  "title": "Virtual Assistant for Scheduling",
+  "url": "https://www.upwork.com/jobs/~022079286842630120971",
+  "scrapedAt": "2026-07-21T04:19:58.895Z",
+  "feed": {
+    "uid": "2079286842630120971",
+    "ciphertext": "~022079286842630120971",
+    "title": "<span class=\"highlight\">Virtual</span> <span class=\"highlight\">Assistant</span> for Scheduling",
+    "description": "We are seeking a **proactive, detail-oriented <span class=\"highlight\">Virtual</span> <span class=\"highlight\">Assistant</span>** to support the owner of NextGenRx and his wife/business partner in both business and personal capacities. This is a remote position requiring someone who is **self-directed, highly organized, an exceptional communicator, and thrives in a fast-paced environment.**\n\nThis role is critical in freeing our owner to focus on **high level business strategy and growth** rather than being consumed by administrative and operational tasks.",
+    "createdOn": "2026-07-20T19:26:29.560Z",
+    "publishedOn": "2026-07-20T19:42:19.305Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "More than 6 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"7\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.20to50",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1110580732286717952",
+        "parentSkillUid": null,
+        "prefLabel": "Virtual Assistance",
+        "prettyName": "Virtual Assistance",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1110580557883363328",
+        "parentSkillUid": null,
+        "prefLabel": "Email Communication",
+        "prettyName": "Email Communication",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626759719075840",
+        "parentSkillUid": null,
+        "prefLabel": "Microsoft Word",
+        "prettyName": "Microsoft Word",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626709379039232",
+        "parentSkillUid": null,
+        "prefLabel": "Administrative Support",
+        "prettyName": "Administrative Support",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626729100656640",
+        "parentSkillUid": null,
+        "prefLabel": "Customer Service",
+        "prettyName": "Customer Service",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580564560695296",
+        "parentSkillUid": null,
+        "prefLabel": "Executive Support",
+        "prettyName": "Executive Support",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1045317674387668992",
+        "parentSkillUid": null,
+        "prefLabel": "Personal Administration",
+        "prettyName": "Personal Administration",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580688930197504",
+        "parentSkillUid": null,
+        "prefLabel": "Scheduling",
+        "prettyName": "Scheduling",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580571238027264",
+        "parentSkillUid": null,
+        "prefLabel": "File Maintenance",
+        "prettyName": "File Maintenance",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580571342884864",
+        "parentSkillUid": null,
+        "prefLabel": "File Management",
+        "prettyName": "File Management",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626791583203328",
+        "parentSkillUid": null,
+        "prefLabel": "Typing",
+        "prettyName": "Typing",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 5,
+      "max": 15
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T19:26:29.560Z",
+        "publishTime": "2026-07-20T19:42:19.305Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "We are seeking a **proactive, detail-oriented Virtual Assistant** to support the owner of NextGenRx and his wife/business partner in both business and personal capacities. This is a remote position requiring someone who is **self-directed, highly organized, an exceptional communicator, and thrives in a fast-paced environment.**\n\nThis role is critical in freeing our owner to focus on **high level business strategy and growth** rather than being consumed by administrative and operational tasks.",
+        "info": {
+          "ciphertext": "~022079286842630120971",
+          "id": "2079286842630120971",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Virtual Assistant for Scheduling",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T19:26:29.560Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:virtualadministrativeassistantservice",
+            "prefLabel": "General Virtual Assistance",
+            "id": "1110580768370315264",
+            "uid": "1110580768370315264"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580732303495168",
+              "id": "1110580557883363328",
+              "freeText": null,
+              "prefLabel": "Email Communication",
+              "groupPrefLabel": "General Virtual Assistance Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1737190622750224391",
+              "id": "1031626759719075840",
+              "freeText": null,
+              "prefLabel": "Microsoft Word",
+              "groupPrefLabel": "General Virtual Assistance Tools",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626709379039232",
+              "freeText": null,
+              "prefLabel": "Administrative Support",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626729100656640",
+              "freeText": null,
+              "prefLabel": "Customer Service",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": null,
+              "id": "1110580564560695296",
+              "freeText": null,
+              "prefLabel": "Executive Support",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1045317674387668992",
+              "freeText": null,
+              "prefLabel": "Personal Administration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580732286717952",
+              "freeText": null,
+              "prefLabel": "Virtual Assistance",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580688930197504",
+              "freeText": null,
+              "prefLabel": "Scheduling",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580571238027264",
+              "freeText": null,
+              "prefLabel": "File Maintenance",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580571342884864",
+              "freeText": null,
+              "prefLabel": "File Management",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626791583203328",
+              "freeText": null,
+              "prefLabel": "Typing",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Virtual Assistance",
+          "urlSlug": "virtual-assistance"
+        },
+        "categoryGroup": {
+          "name": "Admin Support",
+          "urlSlug": "admin-support"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "sourcingUpdateForbidden": "false",
+            "type": "FJP",
+            "urgency": "1",
+            "finalInputsAIv2": "{\"title\":\"Virtual Assistant for Scheduling\",\"skills\":[{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626709379039232\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626729100656640\"},{\"skillUid\":\"1110580564560695296\"},{\"skillUid\":\"1045317674387668992\"},{\"skillUid\":\"1110580732286717952\"},{\"skillUid\":\"1110580688930197504\"},{\"skillUid\":\"1110580571238027264\"},{\"skillUid\":\"1110580571342884864\"},{\"skillUid\":\"1031626791583203328\"}],\"scope\":{\"duration\":\"474250516458926080\",\"segmentation\":\"1136971402914283520\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":5,\"hourlyBudgetMax\":15,\"amount\":null}}",
+            "generatedInputsAIv2": "{\"title\":\"Virtual Assistant for Scheduling\",\"skills\":[{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626709379039232\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626729100656640\"}],\"scope\":{\"duration\":\"474250516458926080\",\"segmentation\":\"1136971402914283520\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":25}}",
+            "generate_prompt": "Virtual Assistant",
+            "browser": "Chrome",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"We are seeking a reliable Virtual Assistant to manage our calendar and schedule appointments. The ideal candidate will have experience in administrative support and be proficient in Microsoft Word and email communication. Responsibilities include coordinating meetings, managing schedules, and ensuring smooth day-to-day operations. This is a part-time role with a long-term engagement.\",\"editedDescription\":\"We are seeking a reliable Virtual Assistant to manage our calendar and schedule appointments. The ideal candidate will have experience in administrative support and be proficient in Microsoft Word and email communication. Responsibilities include coordinating meetings, managing schedules, and ensuring smooth day-to-day operations. This is a part-time role with a long-term engagement.\",\"similarityScore\":1}]",
+            "siteSource": "desktop_instant",
+            "publishTime": "2026-07-20T19:42:19.305Z",
+            "totalTimeJobPostFlowAIv2": "1427",
+            "sourcingUpdateCount": "0",
+            "totalTimeSpentOnReviewPageAIv2": "1380",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Virtual Assistant",
+            "device": "Windows",
+            "startTimeJobPostFlowAIv2": "1784574161457",
+            "retriesAIv2": "1",
+            "flowType": "FJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "reimagined",
+            "jpgV2Generated",
+            "firstJobPost",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 5,
+          "hourlyBudgetMax": 15,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [
+          {
+            "fileName": "NextGenRx_VA_Job Posting.docx",
+            "length": 160347,
+            "uri": "/att/download/openings/2079286842630120971/attachments/410ad008-3ba9-462f-8f8c-5b6ad228484a/download"
+          }
+        ],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T20:08:44.434Z",
+          "totalApplicants": 35,
+          "totalHired": 0,
+          "totalInvitedToInterview": 4,
+          "unansweredInvites": 2,
+          "invitationsSent": 6,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "FLUENT",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 0
+        },
+        {
+          "question": "How do you handle sensitive information or records?",
+          "position": 1
+        },
+        {
+          "question": "What office applications are you most familiar with?",
+          "position": 2
+        },
+        {
+          "question": "How do you ensure accuracy while typing?",
+          "position": 3
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2079280384906991359",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-20T00:00:00.000Z",
+          "profile": {
+            "industry": "Health & Fitness",
+            "size": 10
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "3",
+              "clientPreferredLabel": "Fluent",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 14.114285714285714,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 35,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580768370315264",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [
+    {
+      "fileName": "NextGenRx_VA_Job Posting.docx",
+      "chars": 4461,
+      "text": "VA Job Posting --- **Virtual Assistant — NextGenRx Compounding Pharmacy** **Location:** Remote **Hours:** Part-time to Full-time depending on fit **Compensation:** $5-$15/hour --- About Us NextGenRx Compounding Pharmacy is a growing independent compounding pharmacy with locations in Tulsa and Broken Arrow, Oklahoma. We are passionate about delivering personalized patient care through high quality compounded medications. Our team is dynamic, fast paced, and deeply committed to excellence. We are entering an exciting period of growth and consolidation and are looking for a highly organized virtual assistant to support our owner and leadership team. --- About the Role We are seeking a **proactive, detail-oriented Virtual Assistant** to support the owner of NextGenRx and his wife/business partner in both business and personal capacities. This is a remote position requiring someone who is **self-directed, highly organized, an exceptional communicator, and thrives in a fast-paced environment.** This role is critical in freeing our owner to focus on **high level business strategy and growth** rather than being consumed by administrative and operational tasks. --- Business Responsibilities **Email Management** - Daily triage and management of owner's Microsoft Outlook inbox - Prioritizing and flagging emails requiring owner's direct attention - Drafting and sending routine email responses - Developing and maintaining organizational rules and folder systems - Reducing inbox noise so nothing critical is missed **Pharmacist Scheduling** - Building and maintaining a master pharmacist scheduling calendar - Proactively identifying coverage gaps weeks in advance - Coordinating directly with pharmacists regarding scheduling needs and changes - Maintaining a shared, accessible calendar visible to all relevant parties - Communicating schedule updates clearly and promptly **General Business Administration** - Routing and managing routine staff communications - Preparing concise daily or weekly briefing summaries for owner review - Managing vendor follow-ups and routine correspondence - Scheduling meetings and preparing agendas - Supporting special projects as directed by ownership --- Personal & Family Responsibilities **Family Calendar Management** - Maintaining a master family calendar for a household with 5 children - Tracking and coordinating kids activities, appointments, and school events - Sending proactive reminders to owner and spouse - Identifying and flagging scheduling conflicts in advance **Personal Appointment Coordination** - Scheduling and managing owner's personal appointments - Coordinating appointments for older children as directed - Managing reminders and follow-ups **Support for Co-Owner/Spouse (Linsey)** - Administrative support for HR related tasks - Prescriber educator scheduling and communications support - Additional personal administrative tasks as needed --- What We're Looking For **Required:** - ✅ Minimum 2 years experience as a virtual assistant or executive assistant - ✅ Exceptional organizational and time management skills - ✅ Proficiency in Microsoft Outlook including rules, calendar and task management - ✅ Experience managing complex calendars for multiple people - ✅ Strong written communication skills - ✅ Ability to handle confidential information with complete discretion - ✅ Self-starter who anticipates needs rather than waiting for direction - ✅ Reliable internet connection and home office setup - ✅ Availability during core business hours (Central Time) **Preferred:** - ⭐ Experience supporting healthcare or medical practice owners - ⭐ Familiarity with pharmacy or healthcare industry terminology - ⭐ Experience with project management tools - ⭐ Experience supporting both business and personal/family scheduling simultaneously - ⭐ Familiarity with instant messaging platforms in a business setting --- What Success Looks Like in This Role - Owner's inbox is organized and only critical items require his attention - Pharmacist schedule is built proactively with zero surprise gaps - Owner rarely if ever needs to fill a pharmacist shift due to scheduling failures - Family calendar runs smoothly with no dropped balls - Owner and spouse spend less time on administration and more time on growth and family --- *NextGenRx Compounding Pharmacy is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all team members.*"
+    }
+  ],
+  "siblingJobs": []
+}

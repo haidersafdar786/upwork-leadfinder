@@ -1,0 +1,438 @@
+{
+  "uid": "2078984132679540938",
+  "ciphertext": "~022078984132679540938",
+  "title": "AI Full Stack Developer",
+  "url": "https://www.upwork.com/jobs/~022078984132679540938",
+  "scrapedAt": "2026-07-20T15:01:25.096Z",
+  "feed": {
+    "uid": "2078984132679540938",
+    "title": "AI Full Stack Developer",
+    "ciphertext": "~022078984132679540938",
+    "description": "SkylarAI is looking for an experienced AI Full Stack Developer to help us build and improve intelligent software products. We are working on AI-powered solutions that combine modern web technologies with advanced automation, and we need someone who can take ideas from concept to production.\n\nIn this role, you will work across the entire application stack, including frontend interfaces, backend services, databases, APIs, and AI integrations. You will help build features powered by large language models, create smooth user experiences, and develop reliable systems that can scale as our products grow.\n\nWe are looking for someone who enjoys solving challenging technical problems and is comfortable working with both traditional software engineering and emerging AI technologies. You should have experience building full-stack applications and a strong understanding of how to connect AI models with real-world products.\n\nExperience with technologies like React, Next.js, Node.js, Python, OpenAI APIs, LangChain, vector databases, and cloud platforms is highly valuable. We are not looking for someone who only follows instructions — we want a developer who can think independently, suggest better approaches, and help shape the future direction of our products.\n\nIf you enjoy building innovative AI applications, experimenting with new technologies, and seeing your work directly impact users, we would love to hear from you.",
+    "type": 2,
+    "recno": "1026020083",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "30+ hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T23:23:37.829Z",
+    "publishedOn": "2026-07-20T02:23:40.714Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "United States",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-20T11:32:02.099Z",
+      "proposalReviewedAt": "2026-07-20T11:32:02.108Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784514222234",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628025274386",
+        "prefLabel": "Python"
+      },
+      {
+        "id": "996364628025274383",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "1110580482322976768",
+        "prefLabel": "API"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 40,
+      "max": 55
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"15\"}",
+    "attrs": [
+      {
+        "uid": "996364628025274386",
+        "prettyName": "Python",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580482322976768",
+        "prettyName": "API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 16
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T23:23:37.829Z",
+        "publishTime": "2026-07-20T02:23:40.714Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "SkylarAI is looking for an experienced AI Full Stack Developer to help us build and improve intelligent software products. We are working on AI-powered solutions that combine modern web technologies with advanced automation, and we need someone who can take ideas from concept to production.\n\nIn this role, you will work across the entire application stack, including frontend interfaces, backend services, databases, APIs, and AI integrations. You will help build features powered by large language models, create smooth user experiences, and develop reliable systems that can scale as our products grow.\n\nWe are looking for someone who enjoys solving challenging technical problems and is comfortable working with both traditional software engineering and emerging AI technologies. You should have experience building full-stack applications and a strong understanding of how to connect AI models with real-world products.\n\nExperience with technologies like React, Next.js, Node.js, Python, OpenAI APIs, LangChain, vector databases, and cloud platforms is highly valuable. We are not looking for someone who only follows instructions — we want a developer who can think independently, suggest better approaches, and help shape the future direction of our products.\n\nIf you enjoy building innovative AI applications, experimenting with new technologies, and seeing your work directly impact users, we would love to hear from you.",
+        "info": {
+          "ciphertext": "~022078984132679540938",
+          "id": "2078984132679540938",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "AI Full Stack Developer",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T23:23:37.829Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482322976768",
+              "freeText": null,
+              "prefLabel": "API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T02:23:40.714Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Edge",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 40,
+          "hourlyBudgetMax": 55,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T11:32:02.090Z",
+          "totalApplicants": 107,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 90,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": true,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "INDEPENDENT",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 0
+        },
+        {
+          "question": "Describe your approach to testing and improving QA",
+          "position": 1
+        },
+        {
+          "question": "What frameworks have you worked with?",
+          "position": 2
+        },
+        {
+          "question": "Please list any certifications related to this project",
+          "position": 3
+        },
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2078547436413945958",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-18T00:00:00.000Z",
+          "profile": {
+            "industry": "Health & Fitness",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 2,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "individuals",
+              "clientPreferredLabel": "Freelancers only",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "90",
+              "clientPreferredLabel": "At least 90%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 38.23115384615384,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 100,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

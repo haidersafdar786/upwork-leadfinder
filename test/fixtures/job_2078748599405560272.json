@@ -1,0 +1,594 @@
+{
+  "uid": "2078748599405560272",
+  "ciphertext": "~022078748599405560272",
+  "title": "Senior Full-Stack Developer Needed for Secure Video Licensing SaaS Platform",
+  "url": "https://www.upwork.com/jobs/~022078748599405560272",
+  "scrapedAt": "2026-07-19T21:10:20.341Z",
+  "feed": {
+    "uid": "2078748599405560272",
+    "title": "Senior Full-Stack Developer Needed for Secure Video Licensing SaaS Platform",
+    "ciphertext": "~022078748599405560272",
+    "description": "I am looking for an experienced Senior Full-Stack Developer to build a custom SaaS platform for a professional video licensing business.\n\nThis is NOT a WordPress, Shopify, Wix, or template website. It is a secure web application that allows videographers to upload professional weather footage while approved media organizations can securely preview, license, and download original videos.\n\nThe platform architecture, security requirements, workflows, and feature specifications have already been documented. I am looking for an experienced developer who can implement the platform while providing professional technical recommendations where appropriate.\n\nPreferred Technology Stack\n\n* Next.js\n* React\n* TypeScript\n* Node.js\n* Supabase (Authentication, PostgreSQL, Row Level Security)\n* REST APIs\n* Bunny Storage\n* Bunny Stream\n* FFmpeg\n* Cloudflare\n* GitHub\n\nMain Features\n\n* Public website\n* Secure authentication\n* Invitation-only user accounts\n* Role-based permissions\n* Secure video uploads\n* Automated video processing using FFmpeg\n* Watermarked preview generation\n* Secure original file storage\n* Video licensing workflow\n* Secure download authorization\n* Organization-based pricing\n* Invoice management\n* Audit logs\n* Responsive design for desktop and mobile\n\nSecurity, scalability, and maintainability are top priorities.\n\nWhat I’m Looking For\n\nI’m looking for a developer who has experience building production SaaS applications and can demonstrate knowledge of:\n\n* Next.js\n* React\n* TypeScript\n* Supabase\n* PostgreSQL\n* Row Level Security (RLS)\n* Authentication and authorization\n* Large file uploads\n* Video processing\n* Secure file storage\n* Clean, maintainable code\n* Testing and documentation\n\nIf your primary experience is WordPress or simple business websites, this project is probably not the right fit.\n\nProject Documentation\n\nThe complete Build Specification, Security Requirements, and Pre-Launch Checklist will be shared with shortlisted candidates after the initial interview.\n\nOwnership\n\nAll source code, documentation, infrastructure, and deliverables created for this project will become my property upon payment. All repositories and cloud services will remain under my ownership.\n\nPlease Include in Your Proposal\n\n* Examples of production SaaS applications you personally built.\n* Your experience with Next.js and Supabase.\n* Your experience implementing Row Level Security.\n* Experience with FFmpeg or similar video processing tools.\n* Experience with secure file storage and download authorization.\n* A brief explanation of how you would approach this project.\n\nThis project will use milestone-based payments over approximately 1–3 months. I am looking for quality, security, and long-term maintainability rather than simply the lowest price.\n\nShortlisted candidates will be invited to a video interview before a final hiring decision is made.",
+    "type": 1,
+    "recno": "1026013829",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": null,
+    "amount": {
+      "amount": 10000,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T07:47:42.405Z",
+    "publishedOn": "2026-07-19T07:50:18.876Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "United States",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T21:02:19.607Z",
+      "proposalReviewedAt": "2026-07-19T21:02:19.613Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784447437013",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628025274383",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "1031626728794472448",
+        "prefLabel": "CSS"
+      },
+      {
+        "id": "1691099315067957248",
+        "prefLabel": "Supabase"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "996364628025274389",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "1031626762688643072",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1691099312962416640",
+        "prefLabel": "REST API"
+      },
+      {
+        "id": "1031626737917083648",
+        "prefLabel": "FFmpeg"
+      },
+      {
+        "id": "1031626725023793152",
+        "prefLabel": "Cloudflare"
+      },
+      {
+        "id": "1031626793361588224",
+        "prefLabel": "Video Stream"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "html 5"
+      },
+      {
+        "id": "1031626741322858496",
+        "prefLabel": "GitHub"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"9\"}",
+    "attrs": [
+      {
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626728794472448",
+        "prettyName": "CSS",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099315067957248",
+        "prettyName": "Supabase",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099312962416640",
+        "prettyName": "REST API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626737917083648",
+        "prettyName": "FFmpeg",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626725023793152",
+        "prettyName": "Cloudflare",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626793361588224",
+        "prettyName": "Video Stream",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "html 5",
+        "freeText": "html 5",
+        "skillType": null
+      },
+      {
+        "uid": "1031626741322858496",
+        "prettyName": "GitHub",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "reimagined",
+        "jpgV2Generated",
+        "firstJobPost",
+        "searchable"
+      ]
+    },
+    "position": 10
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T07:47:42.405Z",
+        "publishTime": "2026-07-19T07:50:18.876Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "I am looking for an experienced Senior Full-Stack Developer to build a custom SaaS platform for a professional video licensing business.\n\nThis is NOT a WordPress, Shopify, Wix, or template website. It is a secure web application that allows videographers to upload professional weather footage while approved media organizations can securely preview, license, and download original videos.\n\nThe platform architecture, security requirements, workflows, and feature specifications have already been documented. I am looking for an experienced developer who can implement the platform while providing professional technical recommendations where appropriate.\n\nPreferred Technology Stack\n\n* Next.js\n* React\n* TypeScript\n* Node.js\n* Supabase (Authentication, PostgreSQL, Row Level Security)\n* REST APIs\n* Bunny Storage\n* Bunny Stream\n* FFmpeg\n* Cloudflare\n* GitHub\n\nMain Features\n\n* Public website\n* Secure authentication\n* Invitation-only user accounts\n* Role-based permissions\n* Secure video uploads\n* Automated video processing using FFmpeg\n* Watermarked preview generation\n* Secure original file storage\n* Video licensing workflow\n* Secure download authorization\n* Organization-based pricing\n* Invoice management\n* Audit logs\n* Responsive design for desktop and mobile\n\nSecurity, scalability, and maintainability are top priorities.\n\nWhat I’m Looking For\n\nI’m looking for a developer who has experience building production SaaS applications and can demonstrate knowledge of:\n\n* Next.js\n* React\n* TypeScript\n* Supabase\n* PostgreSQL\n* Row Level Security (RLS)\n* Authentication and authorization\n* Large file uploads\n* Video processing\n* Secure file storage\n* Clean, maintainable code\n* Testing and documentation\n\nIf your primary experience is WordPress or simple business websites, this project is probably not the right fit.\n\nProject Documentation\n\nThe complete Build Specification, Security Requirements, and Pre-Launch Checklist will be shared with shortlisted candidates after the initial interview.\n\nOwnership\n\nAll source code, documentation, infrastructure, and deliverables created for this project will become my property upon payment. All repositories and cloud services will remain under my ownership.\n\nPlease Include in Your Proposal\n\n* Examples of production SaaS applications you personally built.\n* Your experience with Next.js and Supabase.\n* Your experience implementing Row Level Security.\n* Experience with FFmpeg or similar video processing tools.\n* Experience with secure file storage and download authorization.\n* A brief explanation of how you would approach this project.\n\nThis project will use milestone-based payments over approximately 1–3 months. I am looking for quality, security, and long-term maintainability rather than simply the lowest price.\n\nShortlisted candidates will be invited to a video interview before a final hiring decision is made.",
+        "info": {
+          "ciphertext": "~022078748599405560272",
+          "id": "2078748599405560272",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Senior Full-Stack Developer Needed for Secure Video Licensing SaaS Platform",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T07:47:42.405Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:webdesign",
+            "prefLabel": "Web Design",
+            "id": "1044578476142100494",
+            "uid": "1044578476142100494"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1225465963622928384",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Web Design Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1225465963622928384",
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "groupPrefLabel": "Web Design Languages",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099315067957248",
+              "freeText": null,
+              "prefLabel": "Supabase",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099312962416640",
+              "freeText": null,
+              "prefLabel": "REST API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626737917083648",
+              "freeText": null,
+              "prefLabel": "FFmpeg",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626725023793152",
+              "freeText": null,
+              "prefLabel": "Cloudflare",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626793361588224",
+              "freeText": null,
+              "prefLabel": "Video Stream",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "html 5",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626741322858496",
+              "freeText": null,
+              "prefLabel": "GitHub",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web & Mobile Design",
+          "urlSlug": "web-mobile-design"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 10000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "sourcingUpdateForbidden": "false",
+            "type": "FJP",
+            "urgency": "1",
+            "finalInputsAIv2": "{\"title\":\"Senior Full-Stack Developer Needed for Secure Video Licensing SaaS Platform\",\"skills\":[{\"skillUid\":\"1691099315067957248\"},{\"skillUid\":\"1031626773660942336\"},{\"skillUid\":\"996364628025274389\"},{\"skillUid\":\"1031626762688643072\"},{\"skillUid\":\"996364628000108546\"},{\"skillUid\":\"1031626762999021568\"},{\"skillUid\":\"1691099312962416640\"},{\"skillUid\":\"1031626737917083648\"},{\"skillUid\":\"1031626725023793152\"},{\"skillUid\":\"1031626793361588224\"},{\"freeText\":\"html 5\"},{\"skillUid\":\"1031626741322858496\"}],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"1136971402914283520\",\"expertise\":2},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":30,\"amount\":10000}}",
+            "generatedInputsAIv2": "{\"title\":\"Website Development Project\",\"skills\":[],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":30}}",
+            "generate_prompt": "i want to build a website",
+            "browser": "Chrome",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"We are seeking a skilled web developer to build a professional website for our business. The ideal candidate will have experience in creating visually appealing and user-friendly websites. Responsibilities include designing the layout, implementing features, and ensuring the site is responsive and optimized for search engines. The project requires collaboration with our team to ensure the final product meets our vision and goals.\",\"editedDescription\":\"We are seeking a skilled web developer to build a professional website for our business. The ideal candidate will have experience in creating visually appealing and user-friendly websites. Responsibilities include designing the layout, implementing features, and ensuring the site is responsive and optimized for search engines. The project requires collaboration with our team to ensure the final product meets our vision and goals.\",\"similarityScore\":1}]",
+            "siteSource": "desktop_instant",
+            "publishTime": "2026-07-19T07:50:18.876Z",
+            "totalTimeJobPostFlowAIv2": "2031",
+            "sourcingUpdateCount": "0",
+            "totalTimeSpentOnReviewPageAIv2": "1982",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "i want to build a website",
+            "device": "Macintosh",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784445230264",
+            "flowType": "FJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "reimagined",
+            "jpgV2Generated",
+            "firstJobPost",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T21:02:19.597Z",
+          "totalApplicants": 46,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "FLUENT",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2077858714488538119",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-16T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "3",
+              "clientPreferredLabel": "Fluent",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 9347.151898734177,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 11500,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1044578476142100494",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

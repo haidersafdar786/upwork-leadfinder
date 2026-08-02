@@ -1,0 +1,2251 @@
+{
+  "uid": "2076959183170705159",
+  "ciphertext": "~022076959183170705159",
+  "title": "Full Stack AI Software Development Engineer (GR-T)",
+  "url": "https://www.upwork.com/jobs/~022076959183170705159",
+  "scrapedAt": "2026-07-20T08:47:19.277Z",
+  "feed": {
+    "uid": "2076959183170705159",
+    "ciphertext": "~022076959183170705159",
+    "title": "Full Stack AI Software <span class=\"highlight\">Development</span> Engineer (GR-T)",
+    "description": "Job Title: Fullstack AI Software <span class=\"highlight\">Development</span> Engineer (GR-T)\nExperience Level: Senior (8+ years)\nEmployment Type: 3-month contract, extendable based on project needs | 8 hours/day\nWorking Hours: 9:00 AM–5:00 PM PST overlap required\nLocation: Remote (Global Delivery Model)\nAbout the Role\nWe are seeking a Fullstack AI Software <span class=\"highlight\">Development</span> Engineer (GR-T) to design and build enterprise-grade, AI-powered applications. The ideal candidate brings deep fullstack expertise with a strong backend focus, hands-on experience with modern frontend frameworks, and practical exposure to Generative AI, RAG systems, and agentic AI workflows. You will work in distributed Agile teams delivering scalable, secure, and high-performance solutions.\n\nRequired Skills & Experience\nCore Requirements\n8+ years of experience as a Fullstack Software Engineer building enterprise-grade applications\nStrong experience writing unit and integration tests\nProven experience working in Agile/Scrum teams within a global delivery model\nExcellent communication skills and ability to collaborate in a multicultural, distributed team\nHands-on experience with Git and modern version control workflows\nExperience working on production systems using Python and TypeScript\nFamiliarity with CI/CD pipelines for cloud-based deployments\n\n\n\nAI & GenAI Experience\nExperience or strong familiarity with GenAI model providers such as:\nAmazon Bedrock\nOpenAI APIs\nDatabricks (or equivalent platforms)\nHands-on experience building or integrating Enterprise Retrieval-Augmented Generation (RAG) solutions\nExperience designing or working with Enterprise Agentic AI workflows\n\n\n\nBackend Requirements (Primary Focus)\nStrong experience with Python and Node.<span class=\"highlight\">js</span> + TypeScript\nDeep understanding of REST APIs, microservices, and software design patterns\nExperience using frameworks such as Next.<span class=\"highlight\">js</span> and Cypress\n5+ years of experience writing complex SQL queries (PostgreSQL preferred)\nStrong knowledge of:\nAuthentication & authorization (JWT, OAuth)\nError handling and data validation\nBackend-first mindset with an emphasis on scalable and maintainable architectures\n\nFrontend Requirements\nProven experience with <span class=\"highlight\">React.js</span> and TypeScript\nStrong understanding of component-based UI architecture\nFamiliarity with frontend build tools such as Webpack and Babel\n\nNice to Have\nExperience building AI-enabled enterprise platforms\nExposure to cloud-native architectures and observability tooling\nExperience working with large-scale distributed systems\nWhat We Offer\nOpportunity to work on large-scale, enterprise systems\nFully remote, globally distributed team\nCollaborative Agile environment\nLong-term project stability and growth opportunities",
+    "createdOn": "2026-07-14T09:17:12.345Z",
+    "publishedOn": "2026-07-14T09:18:33.935Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "3 to 6 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "1507089.3",
+      "totalReviews": 55,
+      "totalFeedback": 4.93,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"36\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Expert_207",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1691099314245873665",
+        "parentSkillUid": null,
+        "prefLabel": "AI Agent Development",
+        "prettyName": "AI Agent Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1691099314254262272",
+        "parentSkillUid": null,
+        "prefLabel": "AI Development",
+        "prettyName": "AI Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626773660942336",
+        "parentSkillUid": null,
+        "prefLabel": "React",
+        "prettyName": "React",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762999021568",
+        "parentSkillUid": null,
+        "prefLabel": "Node.js",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1110580737240190976",
+        "parentSkillUid": null,
+        "prefLabel": "Web Application",
+        "prettyName": "Web Application",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099314170376192",
+        "parentSkillUid": null,
+        "prefLabel": "AI Bot",
+        "prettyName": "AI Bot",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1633880476564385792",
+        "parentSkillUid": null,
+        "prefLabel": "AI-Generated Code",
+        "prettyName": "AI-Generated Code",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626741293498368",
+        "parentSkillUid": null,
+        "prefLabel": "Git",
+        "prettyName": "Git",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274386",
+        "parentSkillUid": null,
+        "prefLabel": "Python",
+        "prettyName": "Python",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628012691471",
+        "parentSkillUid": null,
+        "prefLabel": "Amazon Web Services",
+        "prettyName": "Amazon Web Services",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580482566246400",
+        "parentSkillUid": null,
+        "prefLabel": "API Integration",
+        "prettyName": "API Integration",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580482322976768",
+        "parentSkillUid": null,
+        "prefLabel": "API",
+        "prettyName": "API",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580518297522176",
+        "parentSkillUid": null,
+        "prefLabel": "CI/CD",
+        "prettyName": "CI/CD",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 40,
+      "max": 60
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-14T09:17:12.345Z",
+        "publishTime": "2026-07-14T09:18:33.935Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "Job Title: Fullstack AI Software Development Engineer (GR-T)\nExperience Level: Senior (8+ years)\nEmployment Type: 3-month contract, extendable based on project needs | 8 hours/day\nWorking Hours: 9:00 AM–5:00 PM PST overlap required\nLocation: Remote (Global Delivery Model)\nAbout the Role\nWe are seeking a Fullstack AI Software Development Engineer (GR-T) to design and build enterprise-grade, AI-powered applications. The ideal candidate brings deep fullstack expertise with a strong backend focus, hands-on experience with modern frontend frameworks, and practical exposure to Generative AI, RAG systems, and agentic AI workflows. You will work in distributed Agile teams delivering scalable, secure, and high-performance solutions.\n\nRequired Skills & Experience\nCore Requirements\n8+ years of experience as a Fullstack Software Engineer building enterprise-grade applications\nStrong experience writing unit and integration tests\nProven experience working in Agile/Scrum teams within a global delivery model\nExcellent communication skills and ability to collaborate in a multicultural, distributed team\nHands-on experience with Git and modern version control workflows\nExperience working on production systems using Python and TypeScript\nFamiliarity with CI/CD pipelines for cloud-based deployments\n\n\n\nAI & GenAI Experience\nExperience or strong familiarity with GenAI model providers such as:\nAmazon Bedrock\nOpenAI APIs\nDatabricks (or equivalent platforms)\nHands-on experience building or integrating Enterprise Retrieval-Augmented Generation (RAG) solutions\nExperience designing or working with Enterprise Agentic AI workflows\n\n\n\nBackend Requirements (Primary Focus)\nStrong experience with Python and Node.js + TypeScript\nDeep understanding of REST APIs, microservices, and software design patterns\nExperience using frameworks such as Next.js and Cypress\n5+ years of experience writing complex SQL queries (PostgreSQL preferred)\nStrong knowledge of:\nAuthentication & authorization (JWT, OAuth)\nError handling and data validation\nBackend-first mindset with an emphasis on scalable and maintainable architectures\n\nFrontend Requirements\nProven experience with React.js and TypeScript\nStrong understanding of component-based UI architecture\nFamiliarity with frontend build tools such as Webpack and Babel\n\nNice to Have\nExperience building AI-enabled enterprise platforms\nExposure to cloud-native architectures and observability tooling\nExperience working with large-scale distributed systems\nWhat We Offer\nOpportunity to work on large-scale, enterprise systems\nFully remote, globally distributed team\nCollaborative Agile environment\nLong-term project stability and growth opportunities",
+        "info": {
+          "ciphertext": "~022076959183170705159",
+          "id": "2076959183170705159",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Full Stack AI Software Development Engineer (GR-T)",
+          "hideBudget": false,
+          "createdOn": "2026-07-14T09:17:12.345Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1110580737240190976",
+              "freeText": null,
+              "prefLabel": "Web Application",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314245873665",
+              "freeText": null,
+              "prefLabel": "AI Agent Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314170376192",
+              "freeText": null,
+              "prefLabel": "AI Bot",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314254262272",
+              "freeText": null,
+              "prefLabel": "AI Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1633880476564385792",
+              "freeText": null,
+              "prefLabel": "AI-Generated Code",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626741293498368",
+              "freeText": null,
+              "prefLabel": "Git",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": " GenAI",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": " Retrieval-Augmented Generation (RAG) ",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Authentication & authorization (JWT, OAuth)",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691471",
+              "freeText": null,
+              "prefLabel": "Amazon Web Services",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482322976768",
+              "freeText": null,
+              "prefLabel": "API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "agentic AI workflows.",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580518297522176",
+              "freeText": null,
+              "prefLabel": "CI/CD",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-14T09:18:33.935Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 40,
+          "hourlyBudgetMax": 60,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-17T09:36:51.222Z",
+          "totalApplicants": 312,
+          "totalHired": 0,
+          "totalInvitedToInterview": 5,
+          "unansweredInvites": 0,
+          "invitationsSent": 4,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -10800000,
+          "countryTimezone": "America/Sao_Paulo (UTC-03:00)",
+          "city": "Redmond",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 75,
+          "activeAssignmentsCount": 3,
+          "hoursCount": 45068.17,
+          "feedbackCount": 55,
+          "score": 4.93,
+          "totalJobsWithHires": 59,
+          "totalCharges": {
+            "amount": 1507089.3
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "425207304561168384",
+          "isEDCReplicated": null,
+          "contractDate": "2009-01-25T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 136,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 32.75848142935469
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-31T13:14:41.000Z",
+          "endDate": null,
+          "totalCharge": 132936.48,
+          "totalHours": 5071.333343,
+          "jobInfo": {
+            "title": "Senior Kotlin Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abhin S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010672e19abd31d6df"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-12-30T18:40:04.000Z",
+          "endDate": null,
+          "totalCharge": 302553.76,
+          "totalHours": 6574.666669,
+          "jobInfo": {
+            "title": "Lead UX Designer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Stanislav B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016ea41817bf41ca2c"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-09-10T15:55:11.653Z",
+          "endDate": "2024-10-18T15:11:40.714Z",
+          "totalCharge": 537.57,
+          "totalHours": 16.666666,
+          "jobInfo": {
+            "title": "Illustration",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Andréia C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0106c87370678a1f6f"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2.7,
+            "comment": "Unresponsive and ended the contract with no reason"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-09-11T00:00:00.000Z",
+          "endDate": "2024-10-18T15:09:47.226Z",
+          "totalCharge": 1276.18,
+          "totalHours": 50,
+          "jobInfo": {
+            "title": "Illustration",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Matheus B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0115c11ee057a169e5"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-13T14:14:09.000Z",
+          "endDate": "2023-08-05T17:50:12.000Z",
+          "totalCharge": 313.72,
+          "totalHours": 3.166668,
+          "jobInfo": {
+            "title": "Marketing and Positioning for Software Services",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mark S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016d57481dcc4e6094"
+          },
+          "rate": {
+            "amount": 95
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-03-07T00:00:00.000Z",
+          "endDate": "2023-05-01T23:49:18.000Z",
+          "totalCharge": 42401.35,
+          "totalHours": 717,
+          "jobInfo": {
+            "title": "Operations Manager & Executive Assistant Needed",
+            "id": "1496581668869689344",
+            "uid": "1496581668869689344",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~015eb240e86156e78d"
+          },
+          "contractorInfo": {
+            "contractorName": "Sara B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01f56ca61d05fbfa58"
+          },
+          "rate": {
+            "amount": 57.5
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": "The quality of the tasks were interesting. Unfortunately, the business had a RIF which result in the end of the contract. I wouldn't hesitate in working with Abdul and Makeen in the future, should the opportunity arise."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-11-21T10:15:27.000Z",
+          "endDate": "2023-03-20T21:32:23.000Z",
+          "totalCharge": 7228.78,
+          "totalHours": 279.166668,
+          "jobInfo": {
+            "title": "Senior iOS/Swift Developer",
+            "id": "1590332267210489856",
+            "uid": "1590332267210489856",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~0171d0e1b212dfd23f"
+          },
+          "contractorInfo": {
+            "contractorName": "Kemal E.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018f0c5eb3874c559e"
+          },
+          "rate": {
+            "amount": 23
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.65,
+            "comment": "I really like working with them. They are very professional"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-11-10T11:36:09.000Z",
+          "endDate": "2023-02-06T08:16:20.000Z",
+          "totalCharge": 640.48,
+          "totalHours": 20.666667,
+          "jobInfo": {
+            "title": "Technical  Writer - AWS ",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Haziqa S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010bfd0ea4219c56ea"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Alina & team are really collaborative to work with. Highly recommended :)"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-03-12T09:11:42.000Z",
+          "endDate": "2022-11-22T16:49:19.000Z",
+          "totalCharge": 156292.41,
+          "totalHours": 4740.33334,
+          "jobInfo": {
+            "title": "UX Designer Needed",
+            "id": "969620888881369088",
+            "uid": "969620888881369088",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~011166e9e83bc7418e"
+          },
+          "contractorInfo": {
+            "contractorName": "Stanislav B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016ea41817bf41ca2c"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-31T14:41:25.000Z",
+          "endDate": "2022-11-21T19:17:47.000Z",
+          "totalCharge": 1038.2,
+          "totalHours": 33.5,
+          "jobInfo": {
+            "title": "Senior iOS/Swift Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Irshad A.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.4,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-02-02T18:31:20.000Z",
+          "endDate": "2022-09-12T09:49:59.000Z",
+          "totalCharge": 46509.81,
+          "totalHours": 1856.499999,
+          "jobInfo": {
+            "title": "Hubspot Expert",
+            "id": "1354560472401039360",
+            "uid": "1354560472401039360",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01f6e7c43639914740"
+          },
+          "contractorInfo": {
+            "contractorName": "Okan D.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01d8f8a1b1a7911eae"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-14T01:58:42.000Z",
+          "endDate": "2022-08-09T19:32:53.000Z",
+          "totalCharge": 358.12,
+          "totalHours": 8.666668,
+          "jobInfo": {
+            "title": "Technical Project Manager -Fluent in Mandarin ",
+            "id": "1529577955639427072",
+            "uid": "1529577955639427072",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0116e58357a0d8a735"
+          },
+          "contractorInfo": {
+            "contractorName": "Jing Yeu S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01c126725e2c34b027"
+          },
+          "rate": {
+            "amount": 40
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a short time, but an honor to be a part of it"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-02-28T16:11:13.000Z",
+          "endDate": "2022-05-04T19:32:19.000Z",
+          "totalCharge": 41139,
+          "totalHours": 2052.000002,
+          "jobInfo": {
+            "title": "Looking for a talented UI/UX Designer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Irina F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01196c5ccba115ce96"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-10-28T13:38:48.000Z",
+          "endDate": "2022-03-08T20:42:21.000Z",
+          "totalCharge": 96705,
+          "totalHours": 2425.333328,
+          "jobInfo": {
+            "title": "Technical Project Manager",
+            "id": "1321304063096766464",
+            "uid": "1321304063096766464",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~019a46a63fd55af83d"
+          },
+          "contractorInfo": {
+            "contractorName": "Ariel P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017d98ba7df9e77ccc"
+          },
+          "rate": {
+            "amount": 42
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-08-19T22:34:16.000Z",
+          "endDate": "2022-03-08T20:41:59.000Z",
+          "totalCharge": 10925.84,
+          "totalHours": 312.166667,
+          "jobInfo": {
+            "title": "Accountant - Book Keeper",
+            "id": "1422973570403188736",
+            "uid": "1422973570403188736",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01de7b61d4bff66bd3"
+          },
+          "contractorInfo": {
+            "contractorName": "Kelly P.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01596b96d7a6155969"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I love working with Makeen Technologies - such friendly, knowledgeable people"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2017-12-04T20:27:53.000Z",
+          "endDate": "2022-02-01T10:40:09.000Z",
+          "totalCharge": 4712,
+          "totalHours": 392.66667,
+          "jobInfo": {
+            "title": "Need QA Engineer",
+            "id": "937731336093024256",
+            "uid": "937731336093024256",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0148f6214033fdb9be"
+          },
+          "contractorInfo": {
+            "contractorName": "Alexandra R.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0134f2f1be92d242a3"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks for the opportunity!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-01-18T10:41:15.000Z",
+          "endDate": "2022-02-01T10:39:15.000Z",
+          "totalCharge": 55744.19,
+          "totalHours": 1198.16667,
+          "jobInfo": {
+            "title": "iOS Developer with AVPlayer experience",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Vadim O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e0cec2c3652c312f"
+          },
+          "rate": {
+            "amount": 45
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-09-03T00:00:00.000Z",
+          "endDate": "2022-02-01T10:38:39.000Z",
+          "totalCharge": 35677.81,
+          "totalHours": 1496.833334,
+          "jobInfo": {
+            "title": "Senior Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Masum A.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-10-14T00:00:00.000Z",
+          "endDate": "2022-02-01T10:38:08.000Z",
+          "totalCharge": 36470,
+          "totalHours": 1179.166662,
+          "jobInfo": {
+            "title": "Software Dev Team",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Touqeer A.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-02-18T16:17:50.000Z",
+          "endDate": "2022-01-14T14:24:00.000Z",
+          "totalCharge": 15210,
+          "totalHours": 1014.000004,
+          "jobInfo": {
+            "title": "Java Developer",
+            "id": "1354072729561784320",
+            "uid": "1354072729561784320",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01b829515fcee3bed6"
+          },
+          "contractorInfo": {
+            "contractorName": "Kamesh R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01032e46097ee1ce10"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I enjoyed working on this project. All expectations and requirements were communicated upfront and the client was responsive to any of my requests for clarification. I liked working with Mo and hope to have the opportunity to work with him again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-08-31T15:18:48.000Z",
+          "endDate": "2021-11-23T19:58:41.000Z",
+          "totalCharge": 6643.35,
+          "totalHours": 349.833341,
+          "jobInfo": {
+            "title": "Accountant - Book Keeper",
+            "id": "1422973570403188736",
+            "uid": "1422973570403188736",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01de7b61d4bff66bd3"
+          },
+          "contractorInfo": {
+            "contractorName": "Md Shamsur R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01aaa8b0ebeec1ee17"
+          },
+          "rate": {
+            "amount": 18.99
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2.95,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-15T13:52:36.000Z",
+          "endDate": "2021-11-01T10:48:53.000Z",
+          "totalCharge": 30761.93,
+          "totalHours": 2117.999999,
+          "jobInfo": {
+            "title": "Senior Ruby on Rails Developer",
+            "id": "1271800705742704640",
+            "uid": "1271800705742704640",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~013f8fabac6a574eb5"
+          },
+          "contractorInfo": {
+            "contractorName": "Pradeep A.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01f1b6f6f755d7686a"
+          },
+          "rate": {
+            "amount": 14.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-07-15T09:54:52.000Z",
+          "endDate": "2021-01-04T15:54:16.000Z",
+          "totalCharge": 14629.99,
+          "totalHours": 740.999997,
+          "jobInfo": {
+            "title": "Ionic Developer with Strong React skills",
+            "id": "1282661624706080768",
+            "uid": "1282661624706080768",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Gunjan K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01abb4e930cce94ae1"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-01-06T17:03:18.000Z",
+          "endDate": "2020-07-27T06:56:40.000Z",
+          "totalCharge": 11812.5,
+          "totalHours": 472.499998,
+          "jobInfo": {
+            "title": "Senior PHP/Symfony Developer",
+            "id": "1207769302831583232",
+            "uid": "1207769302831583232",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~0136283f19bbbf94a5"
+          },
+          "contractorInfo": {
+            "contractorName": "Ivan Z.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0105e3b9eec9dfafb9"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.15,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-06-26T15:15:25.000Z",
+          "endDate": "2020-07-01T09:02:20.000Z",
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Ionic Developer with Strong React skills",
+            "id": "1275511666239602688",
+            "uid": "1275511666239602688",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~0116ca5c88443494d2"
+          },
+          "contractorInfo": {
+            "contractorName": "Harinder S.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01ec811ae9d9869862"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-10-19T22:32:26.000Z",
+          "endDate": "2020-06-13T12:06:17.000Z",
+          "totalCharge": 715,
+          "totalHours": 47.666667,
+          "jobInfo": {
+            "title": "Build our website in Squarespace",
+            "id": "1053401969711808512",
+            "uid": "1053401969711808512",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01a6e5a4770db3bc75"
+          },
+          "contractorInfo": {
+            "contractorName": "Sachiv K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013d2e8bd2bd3213b6"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.25,
+            "comment": "Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-01-01T17:27:58.000Z",
+          "endDate": "2020-02-03T16:54:49.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Social Network Link Share Detection",
+            "id": "1209946252325761024",
+            "uid": "1209946252325761024",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~011eb700f8465a28a7"
+          },
+          "contractorInfo": {
+            "contractorName": "Ahmed P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e2b545b3611c43d6"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks Dan"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-05-17T13:36:20.000Z",
+          "endDate": "2020-01-31T22:02:58.000Z",
+          "totalCharge": 1983.33,
+          "totalHours": 58.333333,
+          "jobInfo": {
+            "title": "CFO/Accountant for a Startup Software Services Company",
+            "id": "1128796444764827648",
+            "uid": "1128796444764827648",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01e6862f4d28f81bb0"
+          },
+          "contractorInfo": {
+            "contractorName": "Edward R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0190bc33973a06c1e4"
+          },
+          "rate": {
+            "amount": 34
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great guy to work for."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-06-04T07:45:41.000Z",
+          "endDate": "2020-01-21T20:49:04.000Z",
+          "totalCharge": 636,
+          "totalHours": 52.999998,
+          "jobInfo": {
+            "title": "Book keeping",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sonja R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0143ebbae2ef4482d8"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client.  Very smart and easy going.  I highly recommend him."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-11-25T21:54:40.000Z",
+          "endDate": "2019-11-04T18:56:24.000Z",
+          "totalCharge": 4657.5,
+          "totalHours": 314.5,
+          "jobInfo": {
+            "title": "QA Needed",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sumaira K.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great to work with the team."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-09-20T18:45:39.000Z",
+          "endDate": "2019-10-07T20:08:41.000Z",
+          "totalCharge": 800,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UX Designer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Taron B.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul is very professional and inspirational, working with him is a great pleasure."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-05-14T10:23:42.000Z",
+          "endDate": "2019-09-04T16:23:03.000Z",
+          "totalCharge": 241.67,
+          "totalHours": 9.666667,
+          "jobInfo": {
+            "title": "Design for Makeen Technologies",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ayman S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~014df444a42436cbc7"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-06-21T15:36:01.000Z",
+          "endDate": "2019-07-26T00:28:35.000Z",
+          "totalCharge": 1600,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "LM App Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Igor S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f2e7af68d7680df6"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-05-23T14:59:53.000Z",
+          "endDate": "2019-06-11T14:13:56.000Z",
+          "totalCharge": 146.87,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Enhance react-native library to convert files to mp4",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ramesh K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013a30a5e43b611e67"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Awesome ! Good to work with Dan."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-04-03T07:17:18.000Z",
+          "endDate": "2019-04-03T11:44:06.000Z",
+          "totalCharge": 4557,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Product UX/UI designer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Stanislav B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016ea41817bf41ca2c"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul is a true professional and great person. It’s always a pleasure to work with him."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-08-16T14:25:54.000Z",
+          "endDate": "2019-01-17T04:27:35.000Z",
+          "totalCharge": 2133.34,
+          "totalHours": 106.666667,
+          "jobInfo": {
+            "title": "Senior Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Suliman S.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for the opportunity, I enjoyed working with the team. Thank you Abdul..!!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-10-11T06:05:39.000Z",
+          "endDate": "2019-01-07T14:51:35.000Z",
+          "totalCharge": 312.5,
+          "totalHours": 20.833332,
+          "jobInfo": {
+            "title": "Software Dev Team",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Syed Ahmer M.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.15,
+            "comment": "I had a really good experience working for Wirestorm Innovations, and would like to work with them in future again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-12-07T12:38:26.000Z",
+          "endDate": "2019-01-07T14:48:52.000Z",
+          "totalCharge": 2298,
+          "totalHours": 127.666665,
+          "jobInfo": {
+            "title": "Software Dev",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Karim L.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 18
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-10-24T18:28:24.000Z",
+          "endDate": "2018-12-03T17:50:54.000Z",
+          "totalCharge": 4015,
+          "totalHours": 182.500002,
+          "jobInfo": {
+            "title": "Fullstack developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Karim L.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 22
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-06-12T15:47:01.000Z",
+          "endDate": "2018-11-23T17:49:37.000Z",
+          "totalCharge": 695.83,
+          "totalHours": 27.833333,
+          "jobInfo": {
+            "title": "Wordpress developer",
+            "id": "1006510833397612544",
+            "uid": "1006510833397612544",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0190cf028a79839ccd"
+          },
+          "contractorInfo": {
+            "contractorName": "Eugene Yevhen H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019c41724c90482196"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "This was a wonderful experience from the perspective of a humble WordPress dev. The team I had to work with were real professionals themselves and this turned everyday developers grind into pleasure. Good luck guys!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-07-19T16:11:45.000Z",
+          "endDate": "2018-10-24T18:21:58.000Z",
+          "totalCharge": 9789.67,
+          "totalHours": 498.166669,
+          "jobInfo": {
+            "title": "Development",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Karim L.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 22
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-03-12T18:22:35.000Z",
+          "endDate": "2018-06-12T15:50:49.000Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UX Designer Needed",
+            "id": "969620888881369088",
+            "uid": "969620888881369088",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~011166e9e83bc7418e"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01a332ae5f432256b1"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 1.4,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-01-24T12:39:21.000Z",
+          "endDate": "2018-04-13T15:27:23.000Z",
+          "totalCharge": 9625,
+          "totalHours": 375.000001,
+          "jobInfo": {
+            "title": "Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Nikita R.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul is one of our favorite clients, take care"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-03-20T18:23:59.000Z",
+          "endDate": "2018-04-13T15:26:34.000Z",
+          "totalCharge": 450,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UX Designer Needed",
+            "id": "969620888881369088",
+            "uid": "969620888881369088",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~011166e9e83bc7418e"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01a332ae5f432256b1"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul Misri is one of my greatest client. He is so cooperative and great personality. I love to work with him and really wants to work ever. Great and wonderful experience."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-01-16T18:28:46.000Z",
+          "endDate": "2018-04-13T15:24:46.000Z",
+          "totalCharge": 10604.17,
+          "totalHours": 424.166669,
+          "jobInfo": {
+            "title": "Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alex N.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul is one of our favorite clients, take care"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2017-12-06T12:09:46.000Z",
+          "endDate": "2018-04-13T15:24:13.000Z",
+          "totalCharge": 3603.33,
+          "totalHours": 180.166668,
+          "jobInfo": {
+            "title": "React-native developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Maksym L.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Cool project! Great experience!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-01-23T23:31:14.000Z",
+          "endDate": "2018-04-13T15:23:18.000Z",
+          "totalCharge": 9987.5,
+          "totalHours": 399.500003,
+          "jobInfo": {
+            "title": "Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alex P.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul is one of our favorite clients, take care"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-01-23T23:31:32.000Z",
+          "endDate": "2018-04-13T15:22:37.000Z",
+          "totalCharge": 5070.84,
+          "totalHours": 202.833334,
+          "jobInfo": {
+            "title": "Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Andew D.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul is one of our favorite clients, take care"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2017-12-01T08:53:25.000Z",
+          "endDate": "2018-01-17T19:03:10.000Z",
+          "totalCharge": 1000,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "iOS Developer with AVPlayer experience",
+            "id": "928868383929188352",
+            "uid": "928868383929188352",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01bc298452bb4ecda7"
+          },
+          "contractorInfo": {
+            "contractorName": "Vadim O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e0cec2c3652c312f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "One of the best client I\"ve ever worked with! Highly recommend."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2017-11-22T16:31:08.000Z",
+          "endDate": "2017-12-06T16:44:05.000Z",
+          "totalCharge": 812.5,
+          "totalHours": 54.166667,
+          "jobInfo": {
+            "title": "QA",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alex N.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great Client"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 40.50439166006862,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 150,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

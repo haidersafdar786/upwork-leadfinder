@@ -1,0 +1,1880 @@
+{
+  "uid": "2079200983495393924",
+  "ciphertext": "~022079200983495393924",
+  "title": "Virtual assistant",
+  "url": "https://www.upwork.com/jobs/~022079200983495393924",
+  "scrapedAt": "2026-07-21T04:19:59.844Z",
+  "feed": {
+    "uid": "2079200983495393924",
+    "ciphertext": "~022079200983495393924",
+    "title": "<span class=\"highlight\">Virtual</span> <span class=\"highlight\">assistant</span>",
+    "description": "We Are Hiring <span class=\"highlight\">Virtual</span> Assistants Across Multiple Roles\nWe are a growing company looking for experienced <span class=\"highlight\">virtual</span> assistants to join our remote team. We have several full time positions available across different specialties. All roles are 40 hours per week with set schedules.\n\nOpen Positions Include:\nMedical <span class=\"highlight\">Virtual</span> <span class=\"highlight\">Assistant</span>\nSocial Media Manager\nAccounting and Bookkeeping Specialist\nAI Specialist\nAdministrative and General Support\nCustomer Service Representative\nWhat You Will Be Doing:\nHandling day to day tasks specific to your role\nResponding to customer and client inquiries in a timely manner\nManaging communications through email, phone, and chat\nOrganizing files, records, and reports\nCollaborating with team members across departments\nCompleting assigned projects and meeting deadlines\n\nWhat We Are Looking For:\nPrior experience in your area of specialty\nStrong communication skills both written and verbal\nReliable internet connection and home office setup\nAbility to work independently and stay organized\nDetail oriented with good time management\nBilingual candidates are a plus\n\nThis is a full time remote position. If you are ready to work with a fast paced team and have the skills to match one of our open roles, we would love to hear from you. Apply today and tell us which position interests you.",
+    "createdOn": "2026-07-20T13:45:19.173Z",
+    "publishedOn": "2026-07-20T13:46:18.418Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "More than 6 months",
+    "engagement": "usnuxt_Engagement_421.fullTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "621614.6",
+      "totalReviews": 9,
+      "totalFeedback": 4.97,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"8\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_EntryLevel_205",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.20to50",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1110580732286717952",
+        "parentSkillUid": null,
+        "prefLabel": "Virtual Assistance",
+        "prettyName": "Virtual Assistance",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1110580557883363328",
+        "parentSkillUid": null,
+        "prefLabel": "Email Communication",
+        "prettyName": "Email Communication",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626709379039232",
+        "parentSkillUid": null,
+        "prefLabel": "Administrative Support",
+        "prettyName": "Administrative Support",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626726017843200",
+        "parentSkillUid": null,
+        "prefLabel": "Communications",
+        "prettyName": "Communications",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626730136649728",
+        "parentSkillUid": null,
+        "prefLabel": "Data Entry",
+        "prettyName": "Data Entry",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 3,
+      "max": 3
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": true,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T13:45:19.173Z",
+        "publishTime": "2026-07-20T13:46:18.418Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "ENTRY_LEVEL",
+        "description": "We Are Hiring Virtual Assistants Across Multiple Roles\nWe are a growing company looking for experienced virtual assistants to join our remote team. We have several full time positions available across different specialties. All roles are 40 hours per week with set schedules.\n\nOpen Positions Include:\nMedical Virtual Assistant\nSocial Media Manager\nAccounting and Bookkeeping Specialist\nAI Specialist\nAdministrative and General Support\nCustomer Service Representative\nWhat You Will Be Doing:\nHandling day to day tasks specific to your role\nResponding to customer and client inquiries in a timely manner\nManaging communications through email, phone, and chat\nOrganizing files, records, and reports\nCollaborating with team members across departments\nCompleting assigned projects and meeting deadlines\n\nWhat We Are Looking For:\nPrior experience in your area of specialty\nStrong communication skills both written and verbal\nReliable internet connection and home office setup\nAbility to work independently and stay organized\nDetail oriented with good time management\nBilingual candidates are a plus\n\nThis is a full time remote position. If you are ready to work with a fast paced team and have the skills to match one of our open roles, we would love to hear from you. Apply today and tell us which position interests you.",
+        "info": {
+          "ciphertext": "~022079200983495393924",
+          "id": "2079200983495393924",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Virtual assistant",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T13:45:19.173Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:virtualadministrativeassistantservice",
+            "prefLabel": "General Virtual Assistance",
+            "id": "1110580768370315264",
+            "uid": "1110580768370315264"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1110580732286717952",
+              "freeText": null,
+              "prefLabel": "Virtual Assistance",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580557883363328",
+              "freeText": null,
+              "prefLabel": "Email Communication",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626709379039232",
+              "freeText": null,
+              "prefLabel": "Administrative Support",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626726017843200",
+              "freeText": null,
+              "prefLabel": "Communications",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626730136649728",
+              "freeText": null,
+              "prefLabel": "Data Entry",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Virtual Assistance",
+          "urlSlug": "virtual-assistance"
+        },
+        "categoryGroup": {
+          "name": "Admin Support",
+          "urlSlug": "admin-support"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T13:46:18.418Z",
+            "reuse": "2059761388340077952",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 3,
+          "hourlyBudgetMax": 3,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T13:46:51.716Z",
+          "totalApplicants": 39,
+          "totalHired": 0,
+          "totalInvitedToInterview": 2,
+          "unansweredInvites": 6,
+          "invitationsSent": 8,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": [
+          "Venezuela",
+          "Colombia"
+        ],
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -10800000,
+          "countryTimezone": "America/Sao_Paulo (UTC-03:00)",
+          "city": "West New York",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 95,
+          "activeAssignmentsCount": 57,
+          "hoursCount": 108626.83,
+          "feedbackCount": 9,
+          "score": 4.97,
+          "totalJobsWithHires": 54,
+          "totalCharges": {
+            "amount": 621614.6
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1371850263337979905",
+          "isEDCReplicated": null,
+          "contractDate": "2021-03-16T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 40,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 5.4374732282991225
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-22T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 698.27,
+          "totalHours": 153.000001,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "2059761388340077952",
+            "uid": "2059761388340077952",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022059761388340077952"
+          },
+          "contractorInfo": {
+            "contractorName": "Isabella M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019815821f385d6bdb"
+          },
+          "rate": {
+            "amount": 5.75
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-15T14:07:29.514Z",
+          "endDate": null,
+          "totalCharge": 446.27,
+          "totalHours": 176.166671,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "2059761388340077952",
+            "uid": "2059761388340077952",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022059761388340077952"
+          },
+          "contractorInfo": {
+            "contractorName": "Glendys C.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0176127bd00894491e"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-19T13:16:02.729Z",
+          "endDate": null,
+          "totalCharge": 59.6,
+          "totalHours": 14.166668,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Omari S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01003e842f1a73aaa2"
+          },
+          "rate": {
+            "amount": 3.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-21T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 1496.79,
+          "totalHours": 512.000001,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Raymond N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d75155552fc1eccf"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-31T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 263.31,
+          "totalHours": 97.999999,
+          "jobInfo": {
+            "title": "VA Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alexander M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0174b0f794dcbf90dc"
+          },
+          "rate": {
+            "amount": 3.75
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-10T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 547.45,
+          "totalHours": 122.666664,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Halyson Daniela  G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0198c9df4b8a732894"
+          },
+          "rate": {
+            "amount": 4.4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-08T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 2561.94,
+          "totalHours": 754.833335,
+          "jobInfo": {
+            "title": "Designers",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Raquel M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014d63a327569c4fb9"
+          },
+          "rate": {
+            "amount": 3.4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-02T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 943.97,
+          "totalHours": 296.499999,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ronnyer Jose O.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-27T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 7597.99,
+          "totalHours": 943.333338,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "2001446606386128325",
+            "uid": "2001446606386128325",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022001446606386128325"
+          },
+          "contractorInfo": {
+            "contractorName": "Maria M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01dfc9bb2e9defd63f"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-27T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 11263.37,
+          "totalHours": 992.666666,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "2001446606386128325",
+            "uid": "2001446606386128325",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022001446606386128325"
+          },
+          "contractorInfo": {
+            "contractorName": "Rosa Paola  A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0186e2a40fe0211ed3"
+          },
+          "rate": {
+            "amount": 11.25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-19T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 9654.91,
+          "totalHours": 921.833339,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "2001446606386128325",
+            "uid": "2001446606386128325",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022001446606386128325"
+          },
+          "contractorInfo": {
+            "contractorName": "Juan David B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fd4bd5ac795e9ac3"
+          },
+          "rate": {
+            "amount": 10.35
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-16T14:45:15.739Z",
+          "endDate": null,
+          "totalCharge": 184.29,
+          "totalHours": 55.333334,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "2001446606386128325",
+            "uid": "2001446606386128325",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022001446606386128325"
+          },
+          "contractorInfo": {
+            "contractorName": "Moisés Gregorio  R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014c26c6e77aef099c"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-15T15:51:49.611Z",
+          "endDate": null,
+          "totalCharge": 13725.91,
+          "totalHours": 1189.333334,
+          "jobInfo": {
+            "title": "Designer",
+            "id": "1992647932328474558",
+            "uid": "1992647932328474558",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021992647932328474558"
+          },
+          "contractorInfo": {
+            "contractorName": "Andrea Fernanda A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011ce19cfc5f1125fe"
+          },
+          "rate": {
+            "amount": 11.3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-02T15:17:16.926Z",
+          "endDate": null,
+          "totalCharge": 237.84,
+          "totalHours": 36.166669,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "1985868627786644530",
+            "uid": "1985868627786644530",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021985868627786644530"
+          },
+          "contractorInfo": {
+            "contractorName": "Franiel R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0172463e85955e51bd"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-02T12:48:10.406Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 5,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "1991666598118990462",
+            "uid": "1991666598118990462",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021991666598118990462"
+          },
+          "contractorInfo": {
+            "contractorName": "Eysaku N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01926e9729836d3cd7"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-28T15:03:05.123Z",
+          "endDate": null,
+          "totalCharge": 3946.51,
+          "totalHours": 1288.666671,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Gabriel Aaron V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a9e8b4a73d788321"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-23T15:48:25.610Z",
+          "endDate": null,
+          "totalCharge": 1580.29,
+          "totalHours": 535.833333,
+          "jobInfo": {
+            "title": "VA Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Raquel M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014d63a327569c4fb9"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-06T18:33:12.661Z",
+          "endDate": null,
+          "totalCharge": 4851.54,
+          "totalHours": 1577.000006,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Renee Angeline  R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c4ca79c5057e8936"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-10T17:42:57.123Z",
+          "endDate": null,
+          "totalCharge": 495.09,
+          "totalHours": 179.166668,
+          "jobInfo": {
+            "title": "Graphic Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Andres G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0181021a057dbdd59f"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-05T14:13:25.996Z",
+          "endDate": null,
+          "totalCharge": 3325.93,
+          "totalHours": 1063.666668,
+          "jobInfo": {
+            "title": "Graphic Designer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Lisenny C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01231331556596fe22"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-19T18:35:46.774Z",
+          "endDate": null,
+          "totalCharge": 9148.39,
+          "totalHours": 2217.000001,
+          "jobInfo": {
+            "title": "Graphic Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Paolo Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0165cc2a145a2b5351"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-19T13:31:03.420Z",
+          "endDate": null,
+          "totalCharge": 23.89,
+          "totalHours": 20,
+          "jobInfo": {
+            "title": "Graphic Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kenneth C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e4aadd7695b88d59"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-04T13:17:31.419Z",
+          "endDate": null,
+          "totalCharge": 6577.99,
+          "totalHours": 1609.999997,
+          "jobInfo": {
+            "title": "Data Entry Virtual Assistance",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Daryely P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a541b0b871c9a631"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-02T13:09:24.936Z",
+          "endDate": null,
+          "totalCharge": 6702.68,
+          "totalHours": 1451.33333,
+          "jobInfo": {
+            "title": "Virtual Assistant Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Andrés S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01675e612dd50b3a5b"
+          },
+          "rate": {
+            "amount": 4.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-01T12:10:23.576Z",
+          "endDate": null,
+          "totalCharge": 8759.19,
+          "totalHours": 2112.666671,
+          "jobInfo": {
+            "title": "Data Entry Ecommerce",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Maiderling  M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0133e43759a310aca5"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-24T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 12536.93,
+          "totalHours": 2959.99999,
+          "jobInfo": {
+            "title": "General Virtual Assistance",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Moises V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b39cc4405c027cb2"
+          },
+          "rate": {
+            "amount": 4.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-11T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 14707.86,
+          "totalHours": 3330.333339,
+          "jobInfo": {
+            "title": "Graphic Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jose Gabriel Q.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 5.2
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-13T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 12751.99,
+          "totalHours": 3074.000016,
+          "jobInfo": {
+            "title": "Data Entry Virtual",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Arantxa D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014a11fffa61506e29"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-19T14:52:15.344Z",
+          "endDate": null,
+          "totalCharge": 513.99,
+          "totalHours": 134.333332,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sergio R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01727255a0333611df"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-06-18T16:56:53.076Z",
+          "endDate": null,
+          "totalCharge": 8332.85,
+          "totalHours": 1960.5,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kenny S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016dee550b86706211"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-08T14:36:14.000Z",
+          "endDate": null,
+          "totalCharge": 3835.45,
+          "totalHours": 962.5,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Diego  A.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-12-11T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 28092.23,
+          "totalHours": 5391.333341,
+          "jobInfo": {
+            "title": "Data Entry Assi",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Daniuska T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d84bbe576933c749"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-17T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 25728.27,
+          "totalHours": 5732.666674,
+          "jobInfo": {
+            "title": "Virtual Assistant- Logistics Department",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Georgina V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019d6900c25982cbe7"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-29T17:06:20.000Z",
+          "endDate": null,
+          "totalCharge": 44288.14,
+          "totalHours": 6023.000006,
+          "jobInfo": {
+            "title": "Virtual Assistant amazon/accounting/office",
+            "id": "1696568442872864768",
+            "uid": "1696568442872864768",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01b45406fee1bb7be8"
+          },
+          "contractorInfo": {
+            "contractorName": "Orlenys R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f4b50074c8a77e33"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-07T14:33:34.000Z",
+          "endDate": null,
+          "totalCharge": 34439.97,
+          "totalHours": 6309.000011,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jorge B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01fbb86cb99836d795"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-14T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 170.95,
+          "totalHours": 40,
+          "jobInfo": {
+            "title": "Virtual Assistant amazon/accounting/office",
+            "id": "1675618428256583680",
+            "uid": "1675618428256583680",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~012d860cfed85e9978"
+          },
+          "contractorInfo": {
+            "contractorName": "Maria Angelica M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01af0852828dcbb55c"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-05T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 27568.03,
+          "totalHours": 5999.500031,
+          "jobInfo": {
+            "title": "Virtual assistant ",
+            "id": "1672024244555534336",
+            "uid": "1672024244555534336",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021672024244555534336"
+          },
+          "contractorInfo": {
+            "contractorName": "Miguel P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010c824efa4e5f4db4"
+          },
+          "rate": {
+            "amount": 4.75
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-15T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 36150.24,
+          "totalHours": 6637.999995,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Fabian silvio C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018e7ce2ee70ea036e"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-02T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 21923.72,
+          "totalHours": 4692.500019,
+          "jobInfo": {
+            "title": "Data Entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ernesto R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016e8a87f01c980b83"
+          },
+          "rate": {
+            "amount": 7.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-11-08T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 409.5,
+          "totalHours": 30,
+          "jobInfo": {
+            "title": "Amazon PPC manager",
+            "id": "1579217007902265344",
+            "uid": "1579217007902265344",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~010a7752c603a7c644"
+          },
+          "contractorInfo": {
+            "contractorName": "Lata B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0170307c106384fd06"
+          },
+          "rate": {
+            "amount": 13
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-20T22:52:09.000Z",
+          "endDate": null,
+          "totalCharge": 56523.95,
+          "totalHours": 8340.499999,
+          "jobInfo": {
+            "title": "Amazon copywriter (write amazon descriptions for products)",
+            "id": "1475937965194895360",
+            "uid": "1475937965194895360",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0115f0e9de548cdc96"
+          },
+          "contractorInfo": {
+            "contractorName": "Daniel L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013ff81651682f3a97"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-06T15:01:10.000Z",
+          "endDate": null,
+          "totalCharge": 64415.45,
+          "totalHours": 9542.666691,
+          "jobInfo": {
+            "title": "Data Entry Assistant/basic computer skills/excel & csv files",
+            "id": "1463190055739883520",
+            "uid": "1463190055739883520",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021463190055739883520"
+          },
+          "contractorInfo": {
+            "contractorName": "Jose Antonio B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0123c233060419c0bf"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-05T14:21:27.223Z",
+          "endDate": "2026-07-17T18:10:42.306Z",
+          "totalCharge": 3656.83,
+          "totalHours": 1157.000004,
+          "jobInfo": {
+            "title": "Graphic Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Marcela L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0195e0fdda6183f437"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-24T14:50:15.000Z",
+          "endDate": "2026-07-14T18:11:59.523Z",
+          "totalCharge": 24958.93,
+          "totalHours": 5620.999993,
+          "jobInfo": {
+            "title": "Amazon Virtual Assistant ",
+            "id": "1661102119357513728",
+            "uid": "1661102119357513728",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~021661102119357513728"
+          },
+          "contractorInfo": {
+            "contractorName": "Marcos Jesus R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0165e10237b3b75c8a"
+          },
+          "rate": {
+            "amount": 4.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-24T00:00:00.000Z",
+          "endDate": "2026-04-27T17:34:20.867Z",
+          "totalCharge": 74.39,
+          "totalHours": 15.333333,
+          "jobInfo": {
+            "title": "Virtual assistant",
+            "id": "1985868627786644530",
+            "uid": "1985868627786644530",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021985868627786644530"
+          },
+          "contractorInfo": {
+            "contractorName": "Jose Enrique O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b4f6f58df0380316"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Project completed successfully"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-15T00:00:00.000Z",
+          "endDate": "2024-02-19T14:00:36.000Z",
+          "totalCharge": 1913.25,
+          "totalHours": 462.166668,
+          "jobInfo": {
+            "title": "data entry",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jean Franco M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01de1850910461cd73"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-06T16:23:43.000Z",
+          "endDate": "2023-11-23T18:26:09.000Z",
+          "totalCharge": 74.35,
+          "totalHours": 17,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "GERMAN ALEJANDRO R.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-25T18:40:29.000Z",
+          "endDate": "2023-10-30T18:59:13.000Z",
+          "totalCharge": 21.15,
+          "totalHours": 4.333334,
+          "jobInfo": {
+            "title": "General Virtual Assistance",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ricardo A.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-22T20:43:30.000Z",
+          "endDate": "2023-08-28T18:31:37.000Z",
+          "totalCharge": 11155.73,
+          "totalHours": 2210.000006,
+          "jobInfo": {
+            "title": "Data Entry Assistant/basic computer skills/excel & csv files",
+            "id": "1539710033935126528",
+            "uid": "1539710033935126528",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0111004e5978303662"
+          },
+          "contractorInfo": {
+            "contractorName": "Danilo L.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01594316ad3d37eea3"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-10-14T16:51:53.000Z",
+          "endDate": "2022-07-29T13:28:23.000Z",
+          "totalCharge": 821.67,
+          "totalHours": 82.166668,
+          "jobInfo": {
+            "title": "Shoe Designer/Shoe Sketches Artistic Techniques",
+            "id": "1442944641133412352",
+            "uid": "1442944641133412352",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~015a9290133a9d346e"
+          },
+          "contractorInfo": {
+            "contractorName": "Sevval C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0153f4bdbdea03e1a8"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.15,
+            "comment": "As long as I work with this company, I am satisfied. I was able to work quickly and efficiently with good communication. I was able to complete the project quickly because they were quick with feedback. I enjoyed working. I hope I have the opportunity to work again."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "country=(Venezuela,Colombia)",
+              "clientPreferredLabel": "Venezuela, Colombia",
+              "freelancerValue": "Pakistan",
+              "freelancerValueLabel": "Pakistan",
+              "qualification": "Location",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 4.513589743589743,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 3,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580768370315264",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [],
+  "pastJobsText": [
+    {
+      "ciphertext": "~022059761388340077952",
+      "title": "Virtual assistant",
+      "description": "We Are Hiring Virtual Assistants Across Multiple Roles We are a growing company looking for experienced virtual assistants to join our remote team. We have several full time positions available across different specialties. All roles are 40 hours per week with set schedules. Open Positions Include: Medical Virtual Assistant Social Media Manager Accounting and Bookkeeping Specialist AI Specialist Administrative and General Support Customer Service Representative What You Will Be Doing: Handling day to day tasks specific to your role Responding to customer and client inquiries in a timely manner Managing communications through email, phone, and chat Organizing files, records, and reports Collaborating with team members across departments Completing assigned projects and meeting deadlines What We Are Looking For: Prior experience in your area of specialty Strong communication skills both written and verbal Reliable internet connection and home office setup Ability to work independently and stay organized Detail oriented with good time management Bilingual candidates are a plus This is a full time remote position. If you are ready to work with a fast paced team and have the skills to match one of our open roles, we would love to hear from you. Apply today and tell us which position interests you.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~022001446606386128325",
+      "title": "Virtual assistant",
+      "description": "As long as I work with this company, I am satisfied. I was able to work quickly and efficiently with good communication. I was able to complete the project quickly because they were quick with feedback. I enjoyed working. I hope I have the opportunity to work again.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021992647932328474558",
+      "title": "Designer",
+      "description": "As long as I work with this company, I am satisfied. I was able to work quickly and efficiently with good communication. I was able to complete the project quickly because they were quick with feedback. I enjoyed working. I hope I have the opportunity to work again.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021985868627786644530",
+      "title": "Virtual assistant",
+      "description": "As long as I work with this company, I am satisfied. I was able to work quickly and efficiently with good communication. I was able to complete the project quickly because they were quick with feedback. I enjoyed working. I hope I have the opportunity to work again.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~010a7752c603a7c644",
+      "title": "Amazon PPC manager",
+      "description": "As long as I work with this company, I am satisfied. I was able to work quickly and efficiently with good communication. I was able to complete the project quickly because they were quick with feedback. I enjoyed working. I hope I have the opportunity to work again.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~0115f0e9de548cdc96",
+      "title": "Amazon copywriter (write amazon descriptions for products)",
+      "description": "Looking for someone who can write detailed and creative descriptions for amazon. We sell shoes on amazon and create new listings daily. See below link for an example https://www.amazon.com/Disney-Girls-Frozen-Boots-Toddler/dp/B09889R44T/ref=sr_1_1?crid=2FUW438D5H267&keywords=frozen%2Bboots&qid=1640724948&sprefix=frozen%2Bboots%2Caps%2C83&sr=8-1&th=1&psc=1",
+      "attachments": []
+    }
+  ]
+}

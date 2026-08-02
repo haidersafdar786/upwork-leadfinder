@@ -1,0 +1,567 @@
+{
+  "_comment": "Hand-verified expected company for each fixture record. company:null means the client is anonymous / the value is a junk class and NOTHING should be asserted. Add new tricky jobs here as they come up.",
+  "souvence.json": {
+    "company": "Souvence",
+    "why": "named in a PAST job (\"About Souvence\")"
+  },
+  "skylarai.json": {
+    "company": "SkylarAI",
+    "why": "named in the description"
+  },
+  "newlane.json": {
+    "company": "Newlane University",
+    "why": "named in the description (non-tech / university)"
+  },
+  "lantern.json": {
+    "company": "Lantern",
+    "why": "named in a review (\"David and Ady / Lantern\")"
+  },
+  "nextgenrx.json": {
+    "company": "NextGenRx",
+    "why": "real company named in the post"
+  },
+  "paragon.json": {
+    "company": "Paragon",
+    "why": "named in the description (\"About Us: Paragon is an award winning consulting firm\")"
+  },
+  "chata.json": {
+    "company": "Chata",
+    "why": "named in the description (\"I'm building Chata\")"
+  },
+  "diecast.json": {
+    "company": "Diecast Showroom",
+    "why": "named in the description (\"a web application called Diecast Showroom\")"
+  },
+  "hsvm.json": {
+    "company": "HSVM",
+    "why": "named in the description (\"a SaaS platform called HSVM\")"
+  },
+  "truehours.json": {
+    "company": "TrueHours",
+    "why": "named in the description (\"ABOUT TRUEHOURS: TrueHours is ...\")"
+  },
+  "matify.json": {
+    "company": "Matify",
+    "why": "named in the description (\"the frontend at Matify.io\")"
+  },
+  "anon_ai_platform.json": {
+    "company": null,
+    "why": "anonymous — no brand disclosed anywhere"
+  },
+  "null_netherlands.json": {
+    "company": null,
+    "why": "junk guard — must not assert a country"
+  },
+  "null_disney.json": {
+    "company": null,
+    "why": "junk guard — anonymous VA post; must not assert a reference brand or product code"
+  },
+  "null_realestate_os.json": {
+    "company": null,
+    "why": "anonymous — \"a Real Estate Development Operating System\", no name given"
+  },
+  "null_architect_marketplace.json": {
+    "company": null,
+    "why": "anonymous — \"a booking marketplace for architects in Germany\", no name"
+  },
+  "null_ai_saas.json": {
+    "company": null,
+    "why": "anonymous — \"a multi-tenant SaaS platform with AI employees\", no name"
+  },
+  "null_ai_agency.json": {
+    "company": null,
+    "why": "anonymous agency — \"We're an AI automations agency\"; poster is an unnamed intermediary"
+  },
+  "job_2078856997873952267.json": {
+    "company": "BANGER EDITS",
+    "why": "description: founder explicitly names BANGER EDITS and bangeredits.com",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078856997873952267"
+  },
+  "job_2078923382269524731.json": {
+    "company": "Good Boy Petey",
+    "why": "description: client says they are building Good Boy Petey",
+    "sourceRun": "2026-07-20_200056_best-matches",
+    "uid": "2078923382269524731"
+  },
+  "job_2078550286838370759.json": {
+    "company": "ShynexAI",
+    "why": "description: client says join ShynexAI and supplies shynex.ai",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2078550286838370759"
+  },
+  "job_2074846840685595130.json": {
+    "company": "naturida.de",
+    "why": "description: client calls naturida.de their e-commerce business",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2074846840685595130"
+  },
+  "job_2068963795541434596.json": {
+    "company": "Per Diem",
+    "why": "review and job context identify the client team as Per Diem",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2068963795541434596"
+  },
+  "job_2075232101275463475.json": {
+    "company": "Topflight Apps",
+    "why": "description: About section begins We are Topflight Apps",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2075232101275463475"
+  },
+  "job_2077152461181219255.json": {
+    "company": "Emergency University",
+    "why": "description explicitly names Emergency University",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2077152461181219255"
+  },
+  "job_2079130192376414852.json": {
+    "company": "Adrian Magnus Humidors",
+    "why": "attachment names the client and domain",
+    "sourceRun": "2026-07-21_143522_saved",
+    "uid": "2079130192376414852"
+  },
+  "job_2079250665207011022.json": {
+    "company": "Altar HMS LLC",
+    "why": "description explicitly names the commissioned company website",
+    "sourceRun": "2026-07-20_231123_most-recent",
+    "uid": "2079250665207011022"
+  },
+  "job_2079266167662944458.json": {
+    "company": "GALA",
+    "why": "description: About GALA identifies the client company",
+    "sourceRun": "2026-07-20_231123_most-recent",
+    "uid": "2079266167662944458"
+  },
+  "job_2079258892398557006.json": {
+    "company": "Avicen",
+    "why": "description says hiring at Avicen",
+    "sourceRun": "2026-07-21_190929_best-matches",
+    "uid": "2079258892398557006"
+  },
+  "job_2079295210095428048.json": {
+    "company": "ISI Elite Training",
+    "why": "description names the national franchise",
+    "sourceRun": "2026-07-21_190929_best-matches",
+    "uid": "2079295210095428048"
+  },
+  "job_2079298256442767110.json": {
+    "company": "Apex Cloud Development",
+    "why": "description: About Apex Cloud Development",
+    "sourceRun": "2026-07-21_014711_best-matches",
+    "uid": "2079298256442767110"
+  },
+  "job_2079224722347587406.json": {
+    "company": "Worthy Trainings",
+    "why": "description supplies the client's worthytrainings.com domain",
+    "sourceRun": "2026-07-21_190929_best-matches",
+    "uid": "2079224722347587406"
+  },
+  "job_2079013853770990212.json": {
+    "company": "meggd",
+    "why": "description explicitly names meggd.com as the brand",
+    "sourceRun": "2026-07-21_084823_search_shopify-developer",
+    "uid": "2079013853770990212"
+  },
+  "job_2079398852680234758.json": {
+    "company": "H2Drate",
+    "why": "description explicitly names the wellness brand",
+    "sourceRun": "2026-07-21_085411_search_social-media-manager",
+    "uid": "2079398852680234758"
+  },
+  "job_2079200459083282254.json": {
+    "company": "AdlerAerospace",
+    "why": "description says AdlerAerospace is rebuilding its corporate site",
+    "sourceRun": "2026-07-21_090843_search_wordpress-developer",
+    "uid": "2079200459083282254"
+  },
+  "job_2079376249680864779.json": {
+    "company": "Henschel Hats",
+    "why": "description: We are Henschel Hats",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079376249680864779"
+  },
+  "job_2079295287950424827.json": {
+    "company": "Beyta",
+    "why": "description supplies beyta.com as the client website",
+    "sourceRun": "2026-07-21_090843_search_wordpress-developer",
+    "uid": "2079295287950424827"
+  },
+  "job_2079308047013656326.json": {
+    "company": "ANKRid",
+    "why": "description: About ANKRid",
+    "sourceRun": "2026-07-21_091420_search_brand-designer",
+    "uid": "2079308047013656326"
+  },
+  "job_2079646349129261258.json": {
+    "company": "RevvDoc",
+    "why": "description says my mobile app, RevvDoc",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079646349129261258"
+  },
+  "job_2079242390000419280.json": {
+    "company": "AVORÉN",
+    "why": "description calls AVORÉN the client's fashion brand",
+    "sourceRun": "2026-07-21_091420_search_brand-designer",
+    "uid": "2079242390000419280"
+  },
+  "job_2079394627967530758.json": {
+    "company": "LONGUARD",
+    "why": "description explicitly names the apparel brand",
+    "sourceRun": "2026-07-21_091420_search_brand-designer",
+    "uid": "2079394627967530758"
+  },
+  "job_2079385404401579854.json": {
+    "company": "rax",
+    "why": "description identifies raxapp.ca as the client's mobile app",
+    "sourceRun": "2026-07-21_190929_best-matches",
+    "uid": "2079385404401579854"
+  },
+  "job_2079310977589420234.json": {
+    "company": "Frankie D's Donuts",
+    "why": "description supplies frankiedsdonuts.com; the official site identifies the brand as Frankie D's Donuts",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079310977589420234"
+  },
+  "job_2079344986866694907.json": {
+    "company": "Feel Ink",
+    "why": "description: We're Feel Ink with feel.ink domain",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079344986866694907"
+  },
+  "job_2079391287106707658.json": {
+    "company": "Globaltek International",
+    "why": "client-directed review names Marcus and his Globaltek team",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079391287106707658"
+  },
+  "job_2079325592979281614.json": {
+    "company": "Ecom Maven",
+    "why": "description explicitly names the agency",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079325592979281614"
+  },
+  "job_2079359304716624074.json": {
+    "company": "ARVÉRO",
+    "why": "description explicitly names the handbag brand",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079359304716624074"
+  },
+  "job_2079369863803093636.json": {
+    "company": "Limetree",
+    "why": "contract attachment names Dallas Limetree and golimetree.com",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079369863803093636"
+  },
+  "job_2079375225994984187.json": {
+    "company": "SmileFresh",
+    "why": "client-directed review names SmileFresh",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079375225994984187"
+  },
+  "job_2079430102529712330.json": {
+    "company": "Dolca",
+    "why": "description: About Dolca",
+    "sourceRun": "2026-07-21_130629_search_brand-designer",
+    "uid": "2079430102529712330"
+  },
+  "job_2079467453332338438.json": {
+    "company": "Hyperwear",
+    "why": "description explicitly names Hyperwear",
+    "sourceRun": "2026-07-21_130629_search_brand-designer",
+    "uid": "2079467453332338438"
+  },
+  "job_2079476854617318923.json": {
+    "company": "Starstruck",
+    "why": "description explicitly names Starstruck",
+    "sourceRun": "2026-07-21_130629_search_brand-designer",
+    "uid": "2079476854617318923"
+  },
+  "job_2079887695437997360.json": {
+    "company": "LIGHT Health",
+    "why": "other job names LIGHT Health and lighthealth.co",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079887695437997360"
+  },
+  "job_2079895315289419908.json": {
+    "company": "PRDXN",
+    "why": "past job title and client-directed reviews name PRDXN",
+    "sourceRun": "2026-07-22_180246030_most-recent",
+    "uid": "2079895315289419908"
+  },
+  "job_2079880870131210897.json": {
+    "company": "Grow Skills Store",
+    "why": "description and reviews identify Grow Skills Store",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079880870131210897"
+  },
+  "job_2079762511487484548.json": {
+    "company": "CommandREAI",
+    "why": "description and attachment repeatedly name the platform",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079762511487484548"
+  },
+  "job_2079813682081775871.json": {
+    "company": "Gotham Enterprises Ltd",
+    "why": "job evidence names the healthcare marketplace",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079813682081775871"
+  },
+  "job_2079924415105931921.json": {
+    "company": "Greenville Home Exteriors",
+    "why": "description explicitly names Greenville Home Exteriors",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079924415105931921"
+  },
+  "job_2078656761692340868.json": {
+    "company": "RealtyTechAI",
+    "why": "title and description call it the client's platform",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078656761692340868"
+  },
+  "job_2078895223697373006.json": {
+    "company": "FrontSide",
+    "why": "title and source describe the FrontSide development tool",
+    "sourceRun": "2026-07-20_021334_most-recent",
+    "uid": "2078895223697373006"
+  },
+  "job_2078905688857028107.json": {
+    "company": "VTC Views To Clients",
+    "why": "description: ABOUT VTC Views To Clients",
+    "sourceRun": "2026-07-20_021437_my-feed",
+    "uid": "2078905688857028107"
+  },
+  "job_2076959183170705159.json": {
+    "company": "Makeen Technologies",
+    "why": "client-directed review names Makeen Technologies",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2076959183170705159"
+  },
+  "job_2074866143521145653.json": {
+    "company": "Athllo",
+    "why": "description: About Athllo",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2074866143521145653"
+  },
+  "job_2079353501127317198.json": {
+    "company": "Fuelerate",
+    "why": "description explicitly names Fuelerate",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079353501127317198"
+  },
+  "job_2079892436343921297.json": {
+    "company": "EUTOPIA",
+    "why": "past jobs repeatedly name EUTOPIA-owned products",
+    "sourceRun": "2026-07-22_180246030_most-recent",
+    "uid": "2079892436343921297"
+  },
+  "job_2079857440097017882.json": {
+    "company": "LRT Automotive",
+    "why": "past job explicitly names LRT Automotive",
+    "sourceRun": "2026-07-22_190812986_best-matches",
+    "uid": "2079857440097017882"
+  },
+  "job_2079310608597891835.json": {
+    "company": null,
+    "why": "Facebook Shop is a referenced platform, not the client",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079310608597891835"
+  },
+  "job_2079377038230959878.json": {
+    "company": null,
+    "why": "generic full-stack developer post with no disclosed client or product brand",
+    "sourceRun": "2026-07-21_110125_most-recent",
+    "uid": "2079377038230959878"
+  },
+  "job_2079237115616208395.json": {
+    "company": "Talent On Tap",
+    "why": "description says Why Join Talent On Tap and grants Talent On Tap permission to contact applicants",
+    "sourceRun": "2026-07-21_091420_search_brand-designer",
+    "uid": "2079237115616208395"
+  },
+  "job_2079059608426693252.json": {
+    "company": null,
+    "why": "Pantone is a referenced brand, not the anonymous client",
+    "sourceRun": "2026-07-21_091420_search_brand-designer",
+    "uid": "2079059608426693252"
+  },
+  "job_2078830433635844740.json": {
+    "company": null,
+    "why": "Netherlands is a location, not the company",
+    "sourceRun": "2026-07-21_091945_search_virtual-assistant",
+    "uid": "2078830433635844740"
+  },
+  "job_2079200983495393924.json": {
+    "company": null,
+    "why": "Disney is a reference brand, not the anonymous client",
+    "sourceRun": "2026-07-21_091945_search_virtual-assistant",
+    "uid": "2079200983495393924"
+  },
+  "job_2079309387486830794.json": {
+    "company": null,
+    "why": "Newsletter is a generic artifact, not a company",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079309387486830794"
+  },
+  "job_2079373223411630544.json": {
+    "company": null,
+    "why": "North Carolina is a location, not a company",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079373223411630544"
+  },
+  "job_2079418676987935483.json": {
+    "company": null,
+    "why": "Graphic Design is a service category, not a company",
+    "sourceRun": "2026-07-21_123705_search_shopify-developer",
+    "uid": "2079418676987935483"
+  },
+  "job_2079475775172360955.json": {
+    "company": null,
+    "why": "Fluid Engine is a referenced Squarespace feature, not the client",
+    "sourceRun": "2026-07-21_130629_search_brand-designer",
+    "uid": "2079475775172360955"
+  },
+  "job_2079412392202707146.json": {
+    "company": null,
+    "why": "Competitor Review is a section heading, not a company",
+    "sourceRun": "2026-07-21_090843_search_wordpress-developer",
+    "uid": "2079412392202707146"
+  },
+  "job_2078544365841327627.json": {
+    "company": null,
+    "why": "anonymous mobile prototype with no disclosed brand",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078544365841327627"
+  },
+  "job_2078608243049415120.json": {
+    "company": null,
+    "why": "anonymous healthcare app with no disclosed brand",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078608243049415120"
+  },
+  "job_2078678137029890503.json": {
+    "company": null,
+    "why": "anonymous premium e-commerce build",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078678137029890503"
+  },
+  "job_2078686890497852036.json": {
+    "company": null,
+    "why": "anonymous fintech and clinic platform",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078686890497852036"
+  },
+  "job_2078740154954203780.json": {
+    "company": null,
+    "why": "anonymous white-label Claude application",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078740154954203780"
+  },
+  "job_2078748599405560272.json": {
+    "company": null,
+    "why": "anonymous video licensing SaaS",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078748599405560272"
+  },
+  "job_2078803786509072134.json": {
+    "company": null,
+    "why": "anonymous multi-tenant social platform",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078803786509072134"
+  },
+  "job_2078831197574511355.json": {
+    "company": null,
+    "why": "anonymous real-time music application",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078831197574511355"
+  },
+  "job_2078838084562622158.json": {
+    "company": null,
+    "why": "anonymous SMM panel",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078838084562622158"
+  },
+  "job_2078843568388946683.json": {
+    "company": null,
+    "why": "anonymous aviation SaaS",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2078843568388946683"
+  },
+  "job_2078857809706628870.json": {
+    "company": null,
+    "why": "anonymous real-estate SaaS Stripe repair",
+    "sourceRun": "2026-07-20_021010_best-matches",
+    "uid": "2078857809706628870"
+  },
+  "job_2078872271143680763.json": {
+    "company": null,
+    "why": "anonymous mobile application takeover",
+    "sourceRun": "2026-07-20_200056_best-matches",
+    "uid": "2078872271143680763"
+  },
+  "job_2078886078900352774.json": {
+    "company": null,
+    "why": "anonymous Stripe integration",
+    "sourceRun": "2026-07-20_021334_most-recent",
+    "uid": "2078886078900352774"
+  },
+  "job_2078924134834348234.json": {
+    "company": null,
+    "why": "generic anonymous SaaS engineering post",
+    "sourceRun": "2026-07-20_021334_most-recent",
+    "uid": "2078924134834348234"
+  },
+  "job_2079203068247384266.json": {
+    "company": null,
+    "why": "generic MERN bug-fix post with no disclosed client or product brand",
+    "sourceRun": "2026-07-20_192406_most-recent",
+    "uid": "2079203068247384266"
+  },
+  "job_2078898534544586502.json": {
+    "company": null,
+    "why": "anonymous AI-agent platform",
+    "sourceRun": "2026-07-20_021334_most-recent",
+    "uid": "2078898534544586502"
+  },
+  "job_2078929513623627275.json": {
+    "company": null,
+    "why": "anonymous WhatsApp assistant",
+    "sourceRun": "2026-07-20_021334_most-recent",
+    "uid": "2078929513623627275"
+  },
+  "job_2078902723128366798.json": {
+    "company": null,
+    "why": "anonymous Android device-policy app",
+    "sourceRun": "2026-07-20_021437_my-feed",
+    "uid": "2078902723128366798"
+  },
+  "job_2078937104731652560.json": {
+    "company": null,
+    "why": "anonymous floral website",
+    "sourceRun": "2026-07-20_021437_my-feed",
+    "uid": "2078937104731652560"
+  },
+  "job_2078946291291365578.json": {
+    "company": null,
+    "why": "anonymous dropship fashion store",
+    "sourceRun": "2026-07-20_021437_my-feed",
+    "uid": "2078946291291365578"
+  },
+  "job_2078947948580356560.json": {
+    "company": null,
+    "why": "anonymous health-services Weebly redesign",
+    "sourceRun": "2026-07-20_021437_my-feed",
+    "uid": "2078947948580356560"
+  },
+  "job_2078008545394405233.json": {
+    "company": null,
+    "why": "anonymous AI email assistant with no disclosed client or product brand",
+    "sourceRun": "2026-07-20_131032_saved",
+    "uid": "2078008545394405233"
+  },
+  "job_2074804734625456333.json": {
+    "company": null,
+    "why": "anonymous smart-home web application with no reviews, attachments, sibling jobs, or disclosed brand",
+    "sourceRun": "2026-07-20_134639_search_react-developer",
+    "uid": "2074804734625456333"
+  }
+}

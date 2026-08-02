@@ -1,0 +1,859 @@
+{
+  "uid": "2079132576083983099",
+  "ciphertext": "~022079132576083983099",
+  "title": "Reliable Senior Developer Needed - On-Call Maintenance Retainer (Web App)",
+  "url": "https://www.upwork.com/jobs/~022079132576083983099",
+  "scrapedAt": "2026-07-20T20:47:39.030Z",
+  "feed": {
+    "uid": "2079132576083983099",
+    "title": "Reliable Senior Developer Needed - On-Call Maintenance Retainer (Web App)",
+    "ciphertext": "~022079132576083983099",
+    "description": "Looking for a dependable senior developer for an ongoing maintenance retainer (not full-time): when something breaks on our custom-built photo editor app, we need someone we can reach who fixes it fast  and who can also implement improvements as we request them over time.\n\nRight now our editor runs on a third-party SaaS: costly, and we have zero control over it  no way to adapt it to our needs. So we're building our own in-house editor to get off it. The developer building it is handling initial development only  he won't be taking on maintenance afterward.\n\nWe're looking for a senior developer to take over ongoing maintenance and continuous improvement of this editor, on a maintenance retainer (not full-time volume varies based on needs).\n\nStack: Bun backend, React frontend (fully responsive, mobile-heavy traffic), Shopify (theme dev, Storefront/Admin API).\n\nWhat you'll do:\n- Pick up a codebase you didn't write and get up to speed fast\n- Respond quickly when something's reported (bug, blocker, outage) same-day fixes\n- Solve problems autonomously, without technical supervision\n- Implement requested features/improvements over time\n- Manage and maintain the connections with our Shopify back office\n\nYou're a fit if you have:\nSenior-level experience with production web apps\nProven experience with e-commerce/Shopify integrations\nA track record of taking over and maintaining legacy/existing code\nA reputation for being responsive, reliable, and autonomous\nSolid written English (we work async, in writing)\n\nContract type: Ongoing maintenance retainer not full-time. You're called on when something breaks or an evolution is requested.",
+    "type": 2,
+    "recno": "1026023933",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-20T09:13:29.741Z",
+    "publishedOn": "2026-07-20T12:15:06.707Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 11,
+      "totalSpent": 2150.97,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Latvia",
+        "city": "Riga",
+        "state": "",
+        "countryTimezone": "Europe/Berlin",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 7,
+      "totalFeedback": 4.43,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-20T09:20:27.766Z",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784549709494",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626785421770752",
+        "prefLabel": "Technical Support"
+      },
+      {
+        "id": "1031626729100656640",
+        "prefLabel": "Customer Service"
+      },
+      {
+        "id": "1031626709379039232",
+        "prefLabel": "Administrative Support"
+      },
+      {
+        "id": "1110580557883363328",
+        "prefLabel": "Email Communication"
+      },
+      {
+        "id": "1110580482322976768",
+        "prefLabel": "API"
+      },
+      {
+        "id": "1031626745118703616",
+        "prefLabel": "HTML5"
+      },
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1031626745110315008",
+        "prefLabel": "HTML"
+      },
+      {
+        "id": "1031626728794472448",
+        "prefLabel": "CSS"
+      },
+      {
+        "id": "996364628025274383",
+        "prefLabel": "JavaScript"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"15\"}",
+    "attrs": [
+      {
+        "uid": "1031626785421770752",
+        "prettyName": "Technical Support",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626729100656640",
+        "prettyName": "Customer Service",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626709379039232",
+        "prettyName": "Administrative Support",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580557883363328",
+        "prettyName": "Email Communication",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580482322976768",
+        "prettyName": "API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626745118703616",
+        "prettyName": "HTML5",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626745110315008",
+        "prettyName": "HTML",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626728794472448",
+        "prettyName": "CSS",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "reimagined",
+        "jpgV2Generated",
+        "searchable"
+      ]
+    },
+    "position": 16
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T09:13:29.741Z",
+        "publishTime": "2026-07-20T12:15:06.707Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Looking for a dependable senior developer for an ongoing maintenance retainer (not full-time): when something breaks on our custom-built photo editor app, we need someone we can reach who fixes it fast  and who can also implement improvements as we request them over time.\n\nRight now our editor runs on a third-party SaaS: costly, and we have zero control over it  no way to adapt it to our needs. So we're building our own in-house editor to get off it. The developer building it is handling initial development only  he won't be taking on maintenance afterward.\n\nWe're looking for a senior developer to take over ongoing maintenance and continuous improvement of this editor, on a maintenance retainer (not full-time volume varies based on needs).\n\nStack: Bun backend, React frontend (fully responsive, mobile-heavy traffic), Shopify (theme dev, Storefront/Admin API).\n\nWhat you'll do:\n- Pick up a codebase you didn't write and get up to speed fast\n- Respond quickly when something's reported (bug, blocker, outage) same-day fixes\n- Solve problems autonomously, without technical supervision\n- Implement requested features/improvements over time\n- Manage and maintain the connections with our Shopify back office\n\nYou're a fit if you have:\nSenior-level experience with production web apps\nProven experience with e-commerce/Shopify integrations\nA track record of taking over and maintaining legacy/existing code\nA reputation for being responsive, reliable, and autonomous\nSolid written English (we work async, in writing)\n\nContract type: Ongoing maintenance retainer not full-time. You're called on when something breaks or an evolution is requested.",
+        "info": {
+          "ciphertext": "~022079132576083983099",
+          "id": "2079132576083983099",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Reliable Senior Developer Needed - On-Call Maintenance Retainer (Web App)",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T09:13:29.741Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:devopsengineering",
+            "prefLabel": "DevOps Engineering",
+            "id": "1110580753140797440",
+            "uid": "1110580753140797440"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626785421770752",
+              "freeText": null,
+              "prefLabel": "Technical Support",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626729100656640",
+              "freeText": null,
+              "prefLabel": "Customer Service",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626709379039232",
+              "freeText": null,
+              "prefLabel": "Administrative Support",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": null,
+              "id": "1110580557883363328",
+              "freeText": null,
+              "prefLabel": "Email Communication",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482322976768",
+              "freeText": null,
+              "prefLabel": "API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745118703616",
+              "freeText": null,
+              "prefLabel": "HTML5",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745110315008",
+              "freeText": null,
+              "prefLabel": "HTML",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "DevOps & Solution Architecture",
+          "urlSlug": "devops-solution-architecture"
+        },
+        "categoryGroup": {
+          "name": "IT & Networking",
+          "urlSlug": "it-networking"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T12:15:06.707Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Post C — Fiabilité / support à la demande\n\nCatégorie primaire Upwork : Other - Software Development (ou \"API Development & Integration\" si indisponible)\n\nTitre : Reliable Senior Developer Needed — On-Call Maintenance Retainer (Web App)",
+            "generatedInputsAIv2": "{\"title\":\"Reliability and On-Demand Support\",\"skills\":[{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626785421770752\"},{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626729100656640\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626709379039232\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1110580557883363328\"}],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":20,\"hourlyBudgetMax\":45}}",
+            "generate_prompt": "Post C — Fiabilité / support à la demande\n\nCatégorie primaire Upwork : Other - Software Development (ou \"API Development & Integration\" si indisponibl",
+            "browser": "Chrome",
+            "device": "Windows",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784538002454",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":11,\"description\":\"We are seeking a skilled freelancer to enhance the reliability and on-demand support of our software system. The ideal candidate will have experience in software development and technical support, ensuring seamless operations and quick issue resolution. Strong communication skills are essential for effective collaboration and customer service.\",\"editedDescription\":\"We are seeking a skilled freelancer to enhance the reliability and on-demand support of our software system. The ideal candidate will have experience in software development and technical support, ensuring seamless operations and quick issue resolution. Strong communication skills are essential for effective collaboration and customer service.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T09:20:27.756Z",
+          "totalApplicants": 21,
+          "totalHired": 0,
+          "totalInvitedToInterview": 13,
+          "unansweredInvites": 5,
+          "invitationsSent": 21,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "1. Have you maintained a production web app that real users depend on every day? Which one, and for how long?",
+          "position": 0
+        },
+        {
+          "question": "2. Have you worked with Shopify before (theme development, Storefront or Admin API)? What did you build?",
+          "position": 1
+        },
+        {
+          "question": "3. Have you ever taken over a codebase you didn't write? How did you get up to speed?",
+          "position": 2
+        },
+        {
+          "question": "4. If something breaks on a Saturday, how fast can you realistically respond?",
+          "position": 3
+        },
+        {
+          "question": "5. What is your timezone, and what monthly retainer would you expect for this kind of role?",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": "Riga",
+          "country": "Latvia"
+        },
+        "stats": {
+          "totalAssignments": 11,
+          "activeAssignmentsCount": 3,
+          "hoursCount": 280.5,
+          "feedbackCount": 7,
+          "score": 4.43,
+          "totalJobsWithHires": 9,
+          "totalCharges": {
+            "amount": 2150.97
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1895036896043555311",
+          "isEDCReplicated": null,
+          "contractDate": "2025-02-27T00:00:00.000Z",
+          "profile": {
+            "industry": "Retail & Consumer Goods",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 4,
+          "postedCount": 52,
+          "openJobs": [
+            {
+              "id": "2079121970546524804",
+              "uid": "2079121970546524804",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079121970546524804",
+              "title": "Shopify-Savvy Senior Developer - Maintenance of Custom Photo Editor App",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2079117666092432123",
+              "uid": "2079117666092432123",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079117666092432123",
+              "title": "Senior Web Developer - Ongoing Maintenance for Custom Photo Book Editor",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 4.232299465240642
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-20T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 233.92,
+          "totalHours": 42.5,
+          "jobInfo": {
+            "title": "Short Video Editor",
+            "id": "1968024256429173749",
+            "uid": "1968024256429173749",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021968024256429173749"
+          },
+          "contractorInfo": {
+            "contractorName": "Anastasiia A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0168ba621cdcda6e54"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-23T14:23:01.010Z",
+          "endDate": null,
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "GA4 & GTM Funnel Tracking Setup",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Lokendra Singh S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0150780fcb63dac0f2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-26T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 133.43,
+          "totalHours": 23.5,
+          "jobInfo": {
+            "title": "Bilingual Customer Support specialist for Travel Brand",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rojo R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012a962f32a95b305f"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-03T10:23:36.115Z",
+          "endDate": "2026-07-07T15:11:54.549Z",
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Pinterest Tag & Conversion API Set up via GTM",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rana H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017212e7ac205af13c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-21T16:31:35.658Z",
+          "endDate": "2026-04-25T13:37:17.220Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Meta Pixel & Tracking Audit - Fix & Implement",
+            "id": "2043911414665611348",
+            "uid": "2043911414665611348",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043911414665611348"
+          },
+          "contractorInfo": {
+            "contractorName": "Rana H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017212e7ac205af13c"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "really professional and fast, i recommend it"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Amazing client, thank you very much"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-31T11:20:29.360Z",
+          "endDate": "2026-03-03T10:49:34.739Z",
+          "totalCharge": 275.01,
+          "totalHours": 80,
+          "jobInfo": {
+            "title": "Social Media Operations Manager / VA - Travel Brand",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Monika P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011393f738e13f17d6"
+          },
+          "rate": {
+            "amount": 3.75
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-13T05:27:29.666Z",
+          "endDate": "2025-11-23T08:17:45.617Z",
+          "totalCharge": 390.09,
+          "totalHours": 79.166667,
+          "jobInfo": {
+            "title": "Influence marketing manager for Travel Brand",
+            "id": "1973287691939812145",
+            "uid": "1973287691939812145",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021973287691939812145"
+          },
+          "contractorInfo": {
+            "contractorName": "Desiree A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01dea37721490d7396"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.1,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-09T09:02:35.709Z",
+          "endDate": "2025-09-26T10:05:32.582Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Shopify : Custom Upsell Quantity Selector in Cart",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Hardeep K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01142b180e32c2faae"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-03T00:00:00.000Z",
+          "endDate": "2025-09-11T17:53:17.996Z",
+          "totalCharge": 111.35,
+          "totalHours": 55.333333,
+          "jobInfo": {
+            "title": "Print Product Designer (AI + Illustrator) – Build Our New Collection",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Magda K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0105ecc20a984ba9f3"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.45,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 38.76190476190476,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 20,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 120,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580753140797440",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Shopify-Savvy Senior Developer - Maintenance of Custom Photo Editor App",
+      "ciphertext": "~022079121970546524804",
+      "description": "We're a DTC photo book brand replacing a costly third-party SaaS photo editor with our own custom app, deeply connected to Shopify. We need a senior developer comfortable with e-commerce integrations to take over long-term maintenance and evolutions of this editor once it's built. Right now our editor runs on a third-party SaaS: costly, and we have zero control over it — no way to adapt it to our needs. So we're building our own in-house editor to get off it. The developer building it is handling initial development only — he won't be taking on maintenance afterward. We're looking for a senior developer to take over ongoing maintenance and continuous improvement of this editor, on a maintenance retainer (not full-time — volume varies based on needs). Stack: Bun backend, React frontend (fully responsive, mobile-heavy traffic), Shopify (theme dev, Storefront/Admin API). What you'll do: Pick up a codebase you didn't write and get up to speed fast Respond quickly when something's reported (bug, blocker, outage) — same-day fixes Solve problems autonomously, without technical supervision Implement requested features/improvements over time Manage and maintain the connections with our Shopify back office You're a fit if you have: Senior-level experience with production web apps Proven experience with e-commerce/Shopify integrations A track record of taking over and maintaining legacy/existing code A reputation for being responsive, reliable, and autonomous Solid written English (we work async, in writing) Contract type: Ongoing maintenance retainer — not full-time. You're called on when something breaks or an evolution is requested."
+    },
+    {
+      "title": "Senior Web Developer - Ongoing Maintenance for Custom Photo Book Editor",
+      "ciphertext": "~022079117666092432123",
+      "description": "We're a DTC photo book brand moving off an expensive, inflexible SaaS photo editor onto our own custom-built editor. We need a senior developer to own ongoing maintenance and support once development is handed off someone who can pick up code they didn't write, fix issues fast, and keep things running smoothly. Right now our editor runs on a third-party SaaS: costly, and we have zero control over it no way to adapt it to our needs. So we're building our own in-house editor to get off it. The developer building it is handling initial development only he won't be taking on maintenance afterward. We're looking for a senior developer to take over ongoing maintenance and continuous improvement of this editor, on a maintenance retainer (not full-time volume varies based on needs). Stack: Bun backend, React frontend (fully responsive, mobile-heavy traffic), Shopify (theme dev, Storefront/Admin API). What you'll do: Pick up a codebase you didn't write and get up to speed fast Respond quickly when something's reported (bug, blocker, outage) same-day fixes Solve problems autonomously, without technical supervision Implement requested features/improvements over time Manage and maintain the connections with our Shopify back office You're a fit if you have: Senior-level experience with production web apps Proven experience with e-commerce/Shopify integrations A track record of taking over and maintaining legacy/existing code A reputation for being responsive, reliable, and autonomous Solid written English (we work async, in writing) Contract type: Ongoing maintenance retainer not full-time. You're called on when something breaks or an evolution is requested."
+    }
+  ],
+  "pastJobsText": [
+    {
+      "ciphertext": "~021968024256429173749",
+      "title": "Short Video Editor",
+      "description": "We run aggressive campaigns on TikTok and Meta Ads and are looking for a creative partner to join the team. You can check the brand on IG @souvence_ Your role: 1/ Understand the style of video we do 2/ Turn briefs and ideas into ready-to-post video and image ads. 3. Deliver quickly and iterate fast based on feedback. The person we're looking for - Experience in video editing ecommerce - Know how to create catching Hoook - Enjoys creating quality videos - Looking for long-term collaboration - Detail-oriented - Likes to progress What benefit if you are choose: - Stable and progressive salary. - Performance bonuses - Training opportunities - Grading in responsibility and post job Best",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~022043911414665611348",
+      "title": "Meta Pixel & Tracking Audit - Fix & Implement",
+      "description": "We're a Shopify e-commerce brand and need a tracking expert to audit and fix our Meta Pixel setup. The issue is that only 50% of the sales come back to meta. We loose learnings and data for the pixel. What we need: Audit current Pixel & Events Manager setup Fix misfiring or duplicate events Ensure proper purchase, add-to-cart, and initiate-checkout tracking Verify server-side events (Conversions API) are working correctly Quick Loom walkthrough of what was broken and what was fixed",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021973287691939812145",
+      "title": "Influence marketing manager for Travel Brand",
+      "description": "About Souvence Souvence is a premium travel photobook brand, mixing aesthetics, nostalgia, and the joy of travel memories. We are disrupting an old-fashioned industry with a modern, emotional, and international approach. Role We’re looking for an Influence Marketing Manager to run our influencer program: - Find & contact travel influencers (IG/TikTok) - Negotiate & close collaborations - Manage contracts, gift cards & campaign tracking (Airtable/Sheets) - Follow up, collect content & report performance What We’re Looking For - 2+ years of experience in influencer marketing / social media management - Strong outreach, negotiation, and organization skills - Comfortable with Airtable/Google Sheets & tracking links - Excellent written English - Autonomous, serious, motivated, and passionate about social media & travel Why Join Souvence? ✨ Work with a young, creative, international brand ✨ Be trusted with full ownership and autonomy ✨ Collaborate in a 100% remote, process-driven team ✨ Contribute to scaling a brand that touches people’s most emotional memories: their travels Apply now with a short intro + examples of campaigns you’ve managed.",
+      "attachments": []
+    }
+  ]
+}

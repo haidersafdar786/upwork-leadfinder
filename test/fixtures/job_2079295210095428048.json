@@ -1,0 +1,550 @@
+{
+  "uid": "2079295210095428048",
+  "ciphertext": "~022079295210095428048",
+  "title": "React / Next.js Developer — Full Website Rebuild for National Fitness Franchise (60+ Locations)",
+  "url": "https://www.upwork.com/jobs/~022079295210095428048",
+  "scrapedAt": "2026-07-21T14:09:32.925Z",
+  "feed": {
+    "uid": "2079295210095428048",
+    "title": "React / Next.js Developer — Full Website Rebuild for National Fitness Franchise (60+ Locations)",
+    "ciphertext": "~022079295210095428048",
+    "description": "ISI® Elite Training is a national boutique strength and conditioning franchise with 60+ open locations, 100+ territories awarded, and approximately 12,000 active members across the United States. We are rebuilding our national website from the ground up — replacing an outdated Wix-based site with a modern, high-performance React + Next.js architecture.\nThis is a fixed-price, $20,000 USD project with a hard go-live deadline of July 1, 2026. Contract executes April 15, 2026. We need to be in development by May 20.\nWe are looking for an experienced development team or senior developer who has done this before — not someone who will figure it out on the job.\n\nWHAT WE'RE BUILDING\n\n* Full React + Next.js frontend with headless CMS backend (you recommend the platform)\n* Hosted on Vercel Pro under our account, DNS on Cloudflare\n* Mindbody API integration (real-time schedules, booking, intro offer purchase, membership)\n* 60+ templated location pages with CMS-managed add/remove workflow\n* Franchise development section with GHL (GoHighLevel) webhook lead routing\n* Full marketing tracking: GA4, GTM, Meta CAPI, TikTok Pixel, UTM pass-through\n* Email Provider ESP integration with popup and form capture\n* AI-powered chatbot with lead routing\n* SEO + AI search optimization (schema, llms.txt, GEO)\n* Ghost blog migration into headless CMS\n* WCAG 2.1 AA / ADA compliance\n* Lighthouse score 90+ at launch across all categories\n* Local listings sync (Yext or BrightLocal compatible)\n* HSA/FSA education page, My ISI® Coaches App page\n* Promotional landing page builder in CMS\n* Scheduled hero banner publishing\n* HQ-managed pricing tier table with location dropdown assignment\n\nFull scope is documented in a detailed Statement of Work (SOW) shared with qualified applicants.\n\nHARD REQUIREMENTS — DO NOT APPLY IF YOU CANNOT CHECK ALL OF THESE\n\nYou have built production React / Next.js sites that are live right now (provide URLs)\n\nYou have direct Mindbody API integration experience (provide reference client name)\n\nYou have built multi-location or franchise brand websites\n\nYou can commit to July 1, 2026 go-live from an April 15 contract start\n\nYou are available for Monday and Thursday standing video calls during US EST business hours\n\nYou will work in a GitHub repository owned by ISI® Elite Training from day one\n\nEnglish fluency , written and spoken, for all project communication\n\nYou will accept payments via Upwork milestone structure (4 payments of $5,000 each)\n\n\nWHAT THE ENGAGEMENT LOOKS LIKE\n\nTimeline:\n* April 15: Contract + kickoff\n* April 15–25: Discovery (sitemap, CMS selection, wireframes)\n* April 25–May 20: Design phase (we provide Lovable MVP pages as direction, all copy, brand assets, and guidelines — vendor produces all Figma files)\n* May 20–June 20: Development + integrations\n* June 20–25: QA + staging approval\n* July 1: Go-live\n\n\nCommunication:\n* All communication through a dedicated Slack channel we own\n* Monday + Thursday standing calls (required, not optional)\n* Weekly written status update every Friday\n* 4-hour max response time during your business day\n\nCode:\n* GitHub repo lives in our account from day one\n* Minimum 3 commits per week during active development\n* We have staging access at all times — no gating our visibility into progress\n\nPayments (Upwork Milestones):\n1. $5,000 — Kickoff (contract signed, GitHub repo created, Slack live)\n2. $5,000 — Design approved (all Figma templates approved in writing by us, May 20)\n3. $5,000 — Staging approved (full build, all integrations, CMS functional, June 20)\n4. $5,000 — Go-live (site live in production July 1, tracking QA complete, CMS training delivered)\n\nDelay Penalty: $100/day for vendor-caused delays past July 1. This is in the contract.\n\nWHAT WE PROVIDE\n* Complete Statement of Work (SOW) — 25+ sections, every feature specced in detail\n* Lovable-built MVP pages for core templates (Home, Location, Membership, Franchise) as design direction\n* All copy for all pages\n* Full brand guidelines, logo assets, photography, video\nMindbody API credentials and documentation\n* GHL webhook endpoint and documentation\n* Email account access\n* Direct access to ISI® HQ team for fast decisions and approvals\n\nWe have done the work upfront. You are not walking into a vague brief.\n\n\nWHAT WE DO NOT WANT\n* Agencies that will subcontract this without telling us\n* Developers who will disappear for two weeks and resurface with a progress update\n* Anyone who cannot demo a live Mindbody API integration they have built\n* Anyone who needs more than a few days to respond to feedback\n* Template-based proposals that don't address our actual SOW\n\n\n\nHOW TO APPLY\n\nSend a proposal that includes all of the following. Proposals missing any item will not be reviewed.\n\n1. Live URLs of 2–3 React / Next.js sites you built (describe your role on each)\n\n2. Mindbody API reference — client name or project you can describe, contact available if requested\n\n3. Headless CMS recommendation — which platform you'd use for this project and why in 3–4 sentences\n\n4. Timeline confirmation — confirm July 1, 2026 is achievable with your current team and workload\n\n5. Team structure — who specifically works on this project (not your company bio)\n\n6. Fixed price confirmation — confirm $20,000 covers full scope or identify the one or two items you'd need to discuss\n\nAnswer this question: What is your approach to Mindbody API rate limiting and caching for a 60+ location site with real-time schedule data?\n\nThat last question is the filter. If you can't answer it specifically, you haven't done this before.\n\nPROJECT CATEGORY\nWeb Development / React / Next.js / Full Stack\n\nBUDGET\n$20,000 USD (Fixed Price)\n\nCONTRACT TYPE\nFixed Price — 4 Milestones\n\nPROJECT LENGTH\n~11 weeks (April 15 – July 1, 2026) + 60-day post-launch support\n\nEXPERIENCE LEVEL\nExpert\n\nLOCATION\nOpen to international. North Carolina governing law. All contracts in English. Payments via Upwork milestones.",
+    "type": 1,
+    "recno": "1026031007",
+    "freelancersToHire": 1,
+    "duration": "3 to 6 months",
+    "durationLabel": "3 to 6 months",
+    "engagement": null,
+    "amount": {
+      "amount": 20000,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-20T19:59:44.589Z",
+    "publishedOn": "2026-07-20T20:01:40.972Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "United States",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784577703783",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1110580482566246400",
+        "prefLabel": "API Integration"
+      },
+      {
+        "id": "1045317707950489600",
+        "prefLabel": "Website Redesign"
+      },
+      {
+        "id": "1031626741842952192",
+        "prefLabel": "Google Analytics"
+      },
+      {
+        "id": "1031626741293498368",
+        "prefLabel": "Git"
+      },
+      {
+        "id": "1031626725023793152",
+        "prefLabel": "Cloudflare"
+      },
+      {
+        "id": "1733104400605790212",
+        "prefLabel": "Vercel"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1031626795181916160",
+        "prefLabel": "Web Design"
+      },
+      {
+        "id": "1031626759899430912",
+        "prefLabel": "MINDBODY"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"13\"}",
+    "attrs": [
+      {
+        "uid": "1110580482566246400",
+        "prettyName": "API Integration",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1045317707950489600",
+        "prettyName": "Website Redesign",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626741842952192",
+        "prettyName": "Google Analytics",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626741293498368",
+        "prettyName": "Git",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626725023793152",
+        "prettyName": "Cloudflare",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1733104400605790212",
+        "prettyName": "Vercel",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795181916160",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626759899430912",
+        "prettyName": "MINDBODY",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "cjp_v1",
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 14
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T19:59:44.589Z",
+        "publishTime": "2026-07-20T20:01:40.972Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "ISI® Elite Training is a national boutique strength and conditioning franchise with 60+ open locations, 100+ territories awarded, and approximately 12,000 active members across the United States. We are rebuilding our national website from the ground up — replacing an outdated Wix-based site with a modern, high-performance React + Next.js architecture.\nThis is a fixed-price, $20,000 USD project with a hard go-live deadline of July 1, 2026. Contract executes April 15, 2026. We need to be in development by May 20.\nWe are looking for an experienced development team or senior developer who has done this before — not someone who will figure it out on the job.\n\nWHAT WE'RE BUILDING\n\n* Full React + Next.js frontend with headless CMS backend (you recommend the platform)\n* Hosted on Vercel Pro under our account, DNS on Cloudflare\n* Mindbody API integration (real-time schedules, booking, intro offer purchase, membership)\n* 60+ templated location pages with CMS-managed add/remove workflow\n* Franchise development section with GHL (GoHighLevel) webhook lead routing\n* Full marketing tracking: GA4, GTM, Meta CAPI, TikTok Pixel, UTM pass-through\n* Email Provider ESP integration with popup and form capture\n* AI-powered chatbot with lead routing\n* SEO + AI search optimization (schema, llms.txt, GEO)\n* Ghost blog migration into headless CMS\n* WCAG 2.1 AA / ADA compliance\n* Lighthouse score 90+ at launch across all categories\n* Local listings sync (Yext or BrightLocal compatible)\n* HSA/FSA education page, My ISI® Coaches App page\n* Promotional landing page builder in CMS\n* Scheduled hero banner publishing\n* HQ-managed pricing tier table with location dropdown assignment\n\nFull scope is documented in a detailed Statement of Work (SOW) shared with qualified applicants.\n\nHARD REQUIREMENTS — DO NOT APPLY IF YOU CANNOT CHECK ALL OF THESE\n\nYou have built production React / Next.js sites that are live right now (provide URLs)\n\nYou have direct Mindbody API integration experience (provide reference client name)\n\nYou have built multi-location or franchise brand websites\n\nYou can commit to July 1, 2026 go-live from an April 15 contract start\n\nYou are available for Monday and Thursday standing video calls during US EST business hours\n\nYou will work in a GitHub repository owned by ISI® Elite Training from day one\n\nEnglish fluency , written and spoken, for all project communication\n\nYou will accept payments via Upwork milestone structure (4 payments of $5,000 each)\n\n\nWHAT THE ENGAGEMENT LOOKS LIKE\n\nTimeline:\n* April 15: Contract + kickoff\n* April 15–25: Discovery (sitemap, CMS selection, wireframes)\n* April 25–May 20: Design phase (we provide Lovable MVP pages as direction, all copy, brand assets, and guidelines — vendor produces all Figma files)\n* May 20–June 20: Development + integrations\n* June 20–25: QA + staging approval\n* July 1: Go-live\n\n\nCommunication:\n* All communication through a dedicated Slack channel we own\n* Monday + Thursday standing calls (required, not optional)\n* Weekly written status update every Friday\n* 4-hour max response time during your business day\n\nCode:\n* GitHub repo lives in our account from day one\n* Minimum 3 commits per week during active development\n* We have staging access at all times — no gating our visibility into progress\n\nPayments (Upwork Milestones):\n1. $5,000 — Kickoff (contract signed, GitHub repo created, Slack live)\n2. $5,000 — Design approved (all Figma templates approved in writing by us, May 20)\n3. $5,000 — Staging approved (full build, all integrations, CMS functional, June 20)\n4. $5,000 — Go-live (site live in production July 1, tracking QA complete, CMS training delivered)\n\nDelay Penalty: $100/day for vendor-caused delays past July 1. This is in the contract.\n\nWHAT WE PROVIDE\n* Complete Statement of Work (SOW) — 25+ sections, every feature specced in detail\n* Lovable-built MVP pages for core templates (Home, Location, Membership, Franchise) as design direction\n* All copy for all pages\n* Full brand guidelines, logo assets, photography, video\nMindbody API credentials and documentation\n* GHL webhook endpoint and documentation\n* Email account access\n* Direct access to ISI® HQ team for fast decisions and approvals\n\nWe have done the work upfront. You are not walking into a vague brief.\n\n\nWHAT WE DO NOT WANT\n* Agencies that will subcontract this without telling us\n* Developers who will disappear for two weeks and resurface with a progress update\n* Anyone who cannot demo a live Mindbody API integration they have built\n* Anyone who needs more than a few days to respond to feedback\n* Template-based proposals that don't address our actual SOW\n\n\n\nHOW TO APPLY\n\nSend a proposal that includes all of the following. Proposals missing any item will not be reviewed.\n\n1. Live URLs of 2–3 React / Next.js sites you built (describe your role on each)\n\n2. Mindbody API reference — client name or project you can describe, contact available if requested\n\n3. Headless CMS recommendation — which platform you'd use for this project and why in 3–4 sentences\n\n4. Timeline confirmation — confirm July 1, 2026 is achievable with your current team and workload\n\n5. Team structure — who specifically works on this project (not your company bio)\n\n6. Fixed price confirmation — confirm $20,000 covers full scope or identify the one or two items you'd need to discuss\n\nAnswer this question: What is your approach to Mindbody API rate limiting and caching for a 60+ location site with real-time schedule data?\n\nThat last question is the filter. If you can't answer it specifically, you haven't done this before.\n\nPROJECT CATEGORY\nWeb Development / React / Next.js / Full Stack\n\nBUDGET\n$20,000 USD (Fixed Price)\n\nCONTRACT TYPE\nFixed Price — 4 Milestones\n\nPROJECT LENGTH\n~11 weeks (April 15 – July 1, 2026) + 60-day post-launch support\n\nEXPERIENCE LEVEL\nExpert\n\nLOCATION\nOpen to international. North Carolina governing law. All contracts in English. Payments via Upwork milestones.",
+        "info": {
+          "ciphertext": "~022079295210095428048",
+          "id": "2079295210095428048",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "React / Next.js Developer — Full Website Rebuild for National Fitness Franchise (60+ Locations)",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T19:59:44.589Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1045317707950489600",
+              "freeText": null,
+              "prefLabel": "Website Redesign",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626741842952192",
+              "freeText": null,
+              "prefLabel": "Google Analytics",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626741293498368",
+              "freeText": null,
+              "prefLabel": "Git",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836482861350912",
+              "id": "1031626725023793152",
+              "freeText": null,
+              "prefLabel": "Cloudflare",
+              "groupPrefLabel": "Web Servers",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1733104400605790212",
+              "freeText": null,
+              "prefLabel": "Vercel",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626759899430912",
+              "freeText": null,
+              "prefLabel": "MINDBODY",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 20000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T20:01:40.972Z",
+            "reuse": "2038959085062477730",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "urgency": "2",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "cjp_v1",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T19:59:44.563Z",
+          "totalApplicants": 32,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "1. Live URLs of 2–3 React / Next.js sites you built (describe your role on each)",
+          "position": 0
+        },
+        {
+          "question": "2. Mindbody API reference — client name or project you can describe, contact available if requested",
+          "position": 1
+        },
+        {
+          "question": "3. Headless CMS recommendation — which platform you'd use for this project and why in 3–4 sentences",
+          "position": 2
+        },
+        {
+          "question": "4. Team structure — who specifically works on this project (not your company bio)",
+          "position": 3
+        },
+        {
+          "question": "5. What is your approach to Mindbody API rate limiting and caching for a 60+ location site with real-time schedule data?",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "1996305076647291017",
+          "isEDCReplicated": null,
+          "contractDate": "2025-12-03T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 3,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "AT_LEAST_10000",
+              "clientPreferredLabel": "At Least 10000",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 19506.55844155844,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 2005,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 21000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

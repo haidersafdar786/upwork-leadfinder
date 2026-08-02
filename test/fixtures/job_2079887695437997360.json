@@ -1,0 +1,1923 @@
+{
+  "uid": "2079887695437997360",
+  "ciphertext": "~022079887695437997360",
+  "title": "Claude expert to build a working copy of native.no",
+  "url": "https://www.upwork.com/jobs/~022079887695437997360",
+  "scrapedAt": "2026-07-22T14:08:21.881Z",
+  "feed": {
+    "uid": "2079887695437997360",
+    "title": "Claude expert to build a working copy of native.no",
+    "ciphertext": "~022079887695437997360",
+    "description": "I'm hiring one person to build an MVP that replicates native.no. Go study that site before applying, it's the exact spec: a business owner enters their website URL, the product analyzes their business, generates a month of social posts (text + images) in their brand voice, and publishes approved posts to social channels after approval.\n\nTo be clear: this is a 1:1 functional copy. The functionality and features should be exactly what native.no offers, no more, no less. Organic social content only, no paid ads features.\n\nMVP SCOPE (native.no's core loop)\n- Landing page with signup, in our own brand and design\n- URL in, brand and business analysis out\n- Generation pipeline producing 30+ posts with images\n- Simple dashboard: review, edit in plain language, approve\n- Publishing to Facebook, Instagram and LinkedIn via an aggregator API (Ayrshare or similar)\n- Basic auth and billing (Stripe)\n\nWHO I'M LOOKING FOR\n\nAn expert with Claude or similar AI tools. You don't need a traditional dev background, you need to ship working products with Claude Code or comparable tooling and know the Claude API inside out. Stack is your call, I care about output.\n\nThe critical skill: taste in LLM outputs. Anyone can wire up an API call that produces content. I need someone who can look at 50 generated posts, see why they feel generic, and fix it through better prompting, examples and feedback loops. The product lives or dies on whether a business owner is proud to publish these posts. If your instinct is \"the API returned text, ship it,\" this isn't for you.\n\nSTRUCTURE\n\nFixed price for the MVP. Ongoing work after that if it's good.\n\nTO APPLY\n\n1. Show me something that you have built.\n2. Tell me one thing native.no does that will be hardest to replicate well, and why.\n3. Offer your price and how long you'll need.\n\nNo generic cover letters.",
+    "type": 1,
+    "recno": "1026052721",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": null,
+    "amount": {
+      "amount": 1500,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-22T11:14:04.055Z",
+    "publishedOn": "2026-07-22T11:16:17.747Z",
+    "renewedOn": "2026-07-22T11:15:42.190Z",
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 161,
+      "totalSpent": 35949.97,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Norway",
+        "city": "Skien",
+        "state": null,
+        "countryTimezone": "Europe/Berlin",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 98,
+      "totalFeedback": 4.74,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-22T12:45:48.739Z",
+      "proposalReviewedAt": "2026-07-22T12:45:48.749Z"
+    },
+    "enterpriseJob": false,
+    "premium": true,
+    "jobTime": "1784719178285",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1110580482566246400",
+        "prefLabel": "API Integration"
+      },
+      {
+        "id": "1691099315571273728",
+        "prefLabel": "Claude"
+      },
+      {
+        "id": "1623716864308154368",
+        "prefLabel": "Prompt Engineering"
+      },
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1577360225766813696",
+        "prefLabel": "SaaS Development"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"2\"}",
+    "attrs": [
+      {
+        "uid": "1110580482566246400",
+        "prettyName": "API Integration",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099315571273728",
+        "prettyName": "Claude",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1623716864308154368",
+        "prettyName": "Prompt Engineering",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1577360225766813696",
+        "prettyName": "SaaS Development",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "premium",
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 3
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T11:14:04.055Z",
+        "publishTime": "2026-07-22T11:16:17.747Z",
+        "sourcingTime": "2026-07-22T11:15:42.190Z",
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "I'm hiring one person to build an MVP that replicates native.no. Go study that site before applying, it's the exact spec: a business owner enters their website URL, the product analyzes their business, generates a month of social posts (text + images) in their brand voice, and publishes approved posts to social channels after approval.\n\nTo be clear: this is a 1:1 functional copy. The functionality and features should be exactly what native.no offers, no more, no less. Organic social content only, no paid ads features.\n\nMVP SCOPE (native.no's core loop)\n- Landing page with signup, in our own brand and design\n- URL in, brand and business analysis out\n- Generation pipeline producing 30+ posts with images\n- Simple dashboard: review, edit in plain language, approve\n- Publishing to Facebook, Instagram and LinkedIn via an aggregator API (Ayrshare or similar)\n- Basic auth and billing (Stripe)\n\nWHO I'M LOOKING FOR\n\nAn expert with Claude or similar AI tools. You don't need a traditional dev background, you need to ship working products with Claude Code or comparable tooling and know the Claude API inside out. Stack is your call, I care about output.\n\nThe critical skill: taste in LLM outputs. Anyone can wire up an API call that produces content. I need someone who can look at 50 generated posts, see why they feel generic, and fix it through better prompting, examples and feedback loops. The product lives or dies on whether a business owner is proud to publish these posts. If your instinct is \"the API returned text, ship it,\" this isn't for you.\n\nSTRUCTURE\n\nFixed price for the MVP. Ongoing work after that if it's good.\n\nTO APPLY\n\n1. Show me something that you have built.\n2. Tell me one thing native.no does that will be hardest to replicate well, and why.\n3. Offer your price and how long you'll need.\n\nNo generic cover letters.",
+        "info": {
+          "ciphertext": "~022079887695437997360",
+          "id": "2079887695437997360",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Claude expert to build a working copy of native.no",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T11:14:04.055Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": true
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "mp:70-10595",
+            "prefLabel": "AI Integration",
+            "id": "1737190722364944384",
+            "uid": "1737190722364944384"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1737190624050458624",
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "groupPrefLabel": "AI Integration Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099315571273728",
+              "freeText": null,
+              "prefLabel": "Claude",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1623716864308154368",
+              "freeText": null,
+              "prefLabel": "Prompt Engineering",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1577360225766813696",
+              "freeText": null,
+              "prefLabel": "SaaS Development",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "AI Apps & Integration",
+          "urlSlug": "ai-apps-integration"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 1500,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-22T11:16:17.747Z",
+            "sourcingUpdateCount": "1",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "sourcingTime": "2026-07-22T11:15:42.190Z",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "premium",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T12:45:48.731Z",
+          "totalApplicants": 65,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": "Skien",
+          "country": "Norway"
+        },
+        "stats": {
+          "totalAssignments": 161,
+          "activeAssignmentsCount": 45,
+          "hoursCount": 1389.5,
+          "feedbackCount": 98,
+          "score": 4.74,
+          "totalJobsWithHires": 134,
+          "totalCharges": {
+            "amount": 35949.97
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "674601666060951552",
+          "isEDCReplicated": null,
+          "contractDate": "2015-12-09T00:00:00.000Z",
+          "profile": {
+            "industry": "Health & Fitness",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 2,
+          "postedCount": 186,
+          "openJobs": [
+            {
+              "id": "2066562382696427194",
+              "uid": "2066562382696427194",
+              "isPtcPrivate": false,
+              "ciphertext": "~022066562382696427194",
+              "title": "AI Video Editor for premium health brand (ongoing ad creative)",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 8.506340410219503
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-17T14:44:15.426Z",
+          "endDate": null,
+          "totalCharge": 15,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Video Editor for premium health brand (ongoing ad creative)",
+            "id": "2066562382696427194",
+            "uid": "2066562382696427194",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022066562382696427194"
+          },
+          "contractorInfo": {
+            "contractorName": "Rehan K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a2201a05e6336334"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-16T16:51:14.337Z",
+          "endDate": null,
+          "totalCharge": 15,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Video Editor for premium health brand (ongoing ad creative)",
+            "id": "2066562382696427194",
+            "uid": "2066562382696427194",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022066562382696427194"
+          },
+          "contractorInfo": {
+            "contractorName": "Jones E.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01622dcae949ddfd14"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-05T15:32:49.806Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Keyword research",
+            "id": "2051664569180669127",
+            "uid": "2051664569180669127",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022051664569180669127"
+          },
+          "contractorInfo": {
+            "contractorName": "Umer F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bf4a3c3fff4425ec"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-10T20:33:34.363Z",
+          "endDate": null,
+          "totalCharge": 292.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Make changes to Shopify page",
+            "id": "2020988213417372971",
+            "uid": "2020988213417372971",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022020988213417372971"
+          },
+          "contractorInfo": {
+            "contractorName": "Usman S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018be124fd37206ff6"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-26T13:53:45.532Z",
+          "endDate": null,
+          "totalCharge": 600,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Flutter Developer Needed to Build MVP App for Smart Scale",
+            "id": "2014696091998640594",
+            "uid": "2014696091998640594",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022014696091998640594"
+          },
+          "contractorInfo": {
+            "contractorName": "MD Kafiul I.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0187ae466cfd442ad7"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-23T16:58:53.266Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Scrape hotels",
+            "id": "1992635025890641494",
+            "uid": "1992635025890641494",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021992635025890641494"
+          },
+          "contractorInfo": {
+            "contractorName": "Madu C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fe9466dba5f97a6c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-14T12:07:15.756Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Instagram/TikTok Affiliate Lists",
+            "id": "1976012808040283427",
+            "uid": "1976012808040283427",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021976012808040283427"
+          },
+          "contractorInfo": {
+            "contractorName": "Niaz H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ea6a2ce387f72257"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-23T14:05:59.423Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Photoshop Expert for Supplement Bottle Design Modification",
+            "id": "1970455502824406385",
+            "uid": "1970455502824406385",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021970455502824406385"
+          },
+          "contractorInfo": {
+            "contractorName": "Thi Bich Huyen T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018c8c3711b61a4662"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-15T07:55:32.087Z",
+          "endDate": null,
+          "totalCharge": 7,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "6.6K Apollo Verified Leads",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "MD Arif A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019b34717ba727d8df"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-05T09:34:59.824Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Product sourcing on Alibaba",
+            "id": "1953058046715378708",
+            "uid": "1953058046715378708",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021953058046715378708"
+          },
+          "contractorInfo": {
+            "contractorName": "Farrukh K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014095a614e621b84a"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-03T13:54:10.653Z",
+          "endDate": null,
+          "totalCharge": 353.13,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Shopify developer needed for single product supplement store",
+            "id": "1962133792689039543",
+            "uid": "1962133792689039543",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021962133792689039543"
+          },
+          "contractorInfo": {
+            "contractorName": "Ahmad H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01051d3819ff68f445"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-04T15:00:29.123Z",
+          "endDate": null,
+          "totalCharge": 98.03,
+          "totalHours": 26.833334,
+          "jobInfo": {
+            "title": "Finding email adresses of hotels and restaurants",
+            "id": "1929924742902830204",
+            "uid": "1929924742902830204",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021929924742902830204"
+          },
+          "contractorInfo": {
+            "contractorName": "MD Arif A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019b34717ba727d8df"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-15T21:02:45.687Z",
+          "endDate": null,
+          "totalCharge": 24,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for big lead list for cold email",
+            "id": "1912208711291600552",
+            "uid": "1912208711291600552",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021912208711291600552"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Hamza K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015fd13f87c9356a22"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-04T22:39:36.814Z",
+          "endDate": null,
+          "totalCharge": 25.31,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Pdf editing",
+            "id": "1896962407432389443",
+            "uid": "1896962407432389443",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021896962407432389443"
+          },
+          "contractorInfo": {
+            "contractorName": "Nur Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e2f581e4f9d4d369"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-17T17:23:38.771Z",
+          "endDate": null,
+          "totalCharge": 52,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for cost effective email verification",
+            "id": "1882067919721622280",
+            "uid": "1882067919721622280",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021882067919721622280"
+          },
+          "contractorInfo": {
+            "contractorName": "Sharia S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01238c9a5b2cdfbda1"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-28T15:50:38.710Z",
+          "endDate": null,
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "I need someone who can help me scrape search results from Google Maps",
+            "id": "1883958040267706927",
+            "uid": "1883958040267706927",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021883958040267706927"
+          },
+          "contractorInfo": {
+            "contractorName": "Iqra A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b5fa6f2bd89113e2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-05T18:15:32.957Z",
+          "endDate": null,
+          "totalCharge": 13,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need someone with an Envato account to download 6-7 videos",
+            "id": "1842618955694375379",
+            "uid": "1842618955694375379",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021842618955694375379"
+          },
+          "contractorInfo": {
+            "contractorName": "Md H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0149c62164c32bb82b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-08-20T09:19:42.196Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for big lists of Ecommerce store leads",
+            "id": "1822927348235472298",
+            "uid": "1822927348235472298",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01c64e804307858d0e"
+          },
+          "contractorInfo": {
+            "contractorName": "SHAKIL  H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e35817ab71caa556"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-04-23T08:33:36.642Z",
+          "endDate": null,
+          "totalCharge": 355,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Cold email marketing",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mehvish D.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~017eb7477215483cf3"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-16T11:16:05.000Z",
+          "endDate": null,
+          "totalCharge": 30,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a photographer on Bali",
+            "id": "1763533370448457728",
+            "uid": "1763533370448457728",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01c350ad45e4a040eb"
+          },
+          "contractorInfo": {
+            "contractorName": "Arif Aris  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0169d2d886450eb3c0"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-17T14:36:15.000Z",
+          "endDate": null,
+          "totalCharge": 30,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Find the emails of 183 hotel managers",
+            "id": "1725517428632383488",
+            "uid": "1725517428632383488",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01a01d0df57932f36d"
+          },
+          "contractorInfo": {
+            "contractorName": "Fahim F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011621a2041765d6d5"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-24T08:37:26.000Z",
+          "endDate": null,
+          "totalCharge": 161,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need help scaling up lead generation ",
+            "id": "1701660577108115456",
+            "uid": "1701660577108115456",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~019d7dafd3590115dd"
+          },
+          "contractorInfo": {
+            "contractorName": "Parves Hassan S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01541d05594fa83449"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-02-02T14:50:09.000Z",
+          "endDate": null,
+          "totalCharge": 175.1,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Sourcing email adresses",
+            "id": "1592768368982880256",
+            "uid": "1592768368982880256",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~014ea04d4e88b2b2cc"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013eef915a11d24b97"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-01-10T12:52:17.000Z",
+          "endDate": null,
+          "totalCharge": 139.13,
+          "totalHours": 44.166667,
+          "jobInfo": {
+            "title": "Sourcing email adresses",
+            "id": "1592768368982880256",
+            "uid": "1592768368982880256",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~014ea04d4e88b2b2cc"
+          },
+          "contractorInfo": {
+            "contractorName": "Gull N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01930ea965c5224e76"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-16T16:47:12.986Z",
+          "endDate": "2026-06-23T08:17:28.087Z",
+          "totalCharge": 15,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Video Editor for premium health brand (ongoing ad creative)",
+            "id": "2066562382696427194",
+            "uid": "2066562382696427194",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022066562382696427194"
+          },
+          "contractorInfo": {
+            "contractorName": "Omolola M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0193bbad80682bf011"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Had a great time working for Steffen, A very nice buyer to work for, Looking forward to working with Steffen again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-17T09:07:23.588Z",
+          "endDate": "2026-06-23T08:13:20.907Z",
+          "totalCharge": 15,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Video Editor for premium health brand (ongoing ad creative)",
+            "id": "2066562382696427194",
+            "uid": "2066562382696427194",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022066562382696427194"
+          },
+          "contractorInfo": {
+            "contractorName": "Silifat A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010dff2c82100b0e1e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-10T10:37:24.621Z",
+          "endDate": "2025-12-26T10:48:39.642Z",
+          "totalCharge": 63.77,
+          "totalHours": 15.5,
+          "jobInfo": {
+            "title": "AI photorealistic model + product photography",
+            "id": "1963893958843203804",
+            "uid": "1963893958843203804",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021963893958843203804"
+          },
+          "contractorInfo": {
+            "contractorName": "Gabriel O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01db5b5aec18dd3a6d"
+          },
+          "rate": {
+            "amount": 5.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "This freelancer charged me several times without me noticing. When I confronted him he told me his account had been hacked. Refused to refund me so had to go through Upwork to get my money back."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "Bad"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-19T11:42:53.000Z",
+          "endDate": "2025-12-02T16:00:19.417Z",
+          "totalCharge": 70,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Setting up wix page",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Roman V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0146d83590e6f4c102"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-09-06T09:17:39.000Z",
+          "endDate": "2025-11-01T11:14:25.966Z",
+          "totalCharge": 130,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Backend Node.js Developer to fix issue \n\n",
+            "id": "1699018624783347712",
+            "uid": "1699018624783347712",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~0172eeddae761bfdb8"
+          },
+          "contractorInfo": {
+            "contractorName": "Darshit A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b3ce4663656d875b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-23T10:29:19.305Z",
+          "endDate": "2025-10-23T17:54:45.981Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Export Product Reviews to Google Spreadsheet",
+            "id": "1981017042577383073",
+            "uid": "1981017042577383073",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021981017042577383073"
+          },
+          "contractorInfo": {
+            "contractorName": "Dmitry M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0105fb481a4105fce7"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client with clear requirements.\nI'd be happy to work together again in the future."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-14T11:02:51.777Z",
+          "endDate": "2025-09-14T11:05:09.994Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Convert font from WOFF to TTF",
+            "id": "1967170236415531757",
+            "uid": "1967170236415531757",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021967170236415531757"
+          },
+          "contractorInfo": {
+            "contractorName": "Rafayel A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0118104c9e24535425"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great job done!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent client!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-05T09:59:47.187Z",
+          "endDate": "2025-08-27T08:07:12.912Z",
+          "totalCharge": 25.31,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "15.4k Apollo Lead",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "MD Arif A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019b34717ba727d8df"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great job!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great Super buyer. Nice working with him. Thanks so much"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-23T10:04:53.861Z",
+          "endDate": "2025-07-25T10:47:59.550Z",
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need help setting up a Shopify page",
+            "id": "1919309343816437311",
+            "uid": "1919309343816437311",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021919309343816437311"
+          },
+          "contractorInfo": {
+            "contractorName": "Shakila A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01aff4b88f5e043968"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-09-12T07:25:34.000Z",
+          "endDate": "2025-07-16T05:37:28.109Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Create an mvp for a video widget service.",
+            "id": "1701166284235001856",
+            "uid": "1701166284235001856",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~0132bd3b705759c2ca"
+          },
+          "contractorInfo": {
+            "contractorName": "Meet M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a31eed4d9bccb752"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client to work with."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-03T13:00:33.061Z",
+          "endDate": "2025-07-07T09:18:49.403Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "15.4k Apollo Lead",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "MD Arif A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019b34717ba727d8df"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great work!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client. Nice working with him. Thanks a lot"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-27T05:41:47.948Z",
+          "endDate": "2025-06-03T18:10:14.746Z",
+          "totalCharge": 120,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Build a Simple AI Face Scan Tool",
+            "id": "1924391637241693188",
+            "uid": "1924391637241693188",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021924391637241693188"
+          },
+          "contractorInfo": {
+            "contractorName": "Puneet  S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01dc9e436e64f149c4"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great work!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client to work with. I look forward to more opportunities with him. He responds on time and really value efforts. Thank you."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-28T13:21:43.286Z",
+          "endDate": "2025-06-03T07:50:04.436Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "email extract",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "MD Arif A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019b34717ba727d8df"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Did a great job!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great buyer. Thank you"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-15T03:46:46.935Z",
+          "endDate": "2025-04-28T09:19:45.353Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "You will get Random Linkedin followers for profile or company, linkedin marketing expert",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abu R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01377873a03fff55f0"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great work by Abu here!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T14:09:52.106Z",
+          "endDate": "2025-04-21T02:18:24.454Z",
+          "totalCharge": 20,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for someone who can export leads from Apollo",
+            "id": "1878059286828879252",
+            "uid": "1878059286828879252",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021878059286828879252"
+          },
+          "contractorInfo": {
+            "contractorName": "MD Arif A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019b34717ba727d8df"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Arif did a great job of sourcing high quality leads for me!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great buyer. Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-08-15T10:45:56.243Z",
+          "endDate": "2025-03-04T06:05:36.542Z",
+          "totalCharge": 30,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for big lists of Ecommerce store leads",
+            "id": "1822927348235472298",
+            "uid": "1822927348235472298",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01c64e804307858d0e"
+          },
+          "contractorInfo": {
+            "contractorName": "Ibrahim N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01facb417791ff066e"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-09-19T07:27:17.810Z",
+          "endDate": "2024-11-04T03:56:17.000Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for someone who can help me scrape hotels of Google Maps",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad  R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0111e7e576c8c4f470"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-20T10:36:58.000Z",
+          "endDate": "2024-10-03T06:39:39.269Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Fixed issue with Flutter",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Manthan K.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Hi Steffen, I just wanted to express my appreciation for the opportunity to work with you. Your insights and feedback throughout the project were invaluable, making the collaboration both productive and enjoyable. Looking forward to any future opportunities together!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-23T09:16:10.000Z",
+          "endDate": "2024-10-03T06:39:00.608Z",
+          "totalCharge": 1000,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Flutter developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Manthan K.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Hi Steffen, it was a pleasure working on this project with you. Your clear communication and guidance made the process smooth and efficient. I truly appreciate your professionalism and look forward to the possibility of collaborating again in the future. Thank you!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-04-22T00:00:00.000Z",
+          "endDate": "2024-05-06T13:32:02.000Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for Flutter developer our app",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Munib M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019ac54c3fd413102f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Munib did a great job, will hire him again!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-30T18:37:33.000Z",
+          "endDate": "2024-03-18T10:07:36.000Z",
+          "totalCharge": 465,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Insert a simple calculator on my Wix page",
+            "id": "1638573784230305792",
+            "uid": "1638573784230305792",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~017789122676aa6203"
+          },
+          "contractorInfo": {
+            "contractorName": "Roman V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0146d83590e6f4c102"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Roman did I great job with building a crm for my wix site, very skilled developer that I highly recommend!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Steffen is a great client who is easy to communicate with and sets clear goals. Always available and communicative. 100% recommend."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-17T09:45:15.000Z",
+          "endDate": "2024-02-07T20:53:11.000Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need help creating a mock-up of a door hanger",
+            "id": "1714188638846365696",
+            "uid": "1714188638846365696",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01218bb4f848f4aedf"
+          },
+          "contractorInfo": {
+            "contractorName": "Ivan S.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01d57e468fce931548"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Smooth experience 👍"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-26T10:58:41.000Z",
+          "endDate": "2023-07-26T11:11:02.000Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Download background photo from website",
+            "id": "1684150981340581888",
+            "uid": "1684150981340581888",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~0196c4c107af3294b5"
+          },
+          "contractorInfo": {
+            "contractorName": "Saad A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012b5fde3914d54bcb"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great and quick job!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you sir! You're a good man with a kind heart! I'd definitely like to work for you again :)"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-06-19T11:26:03.000Z",
+          "endDate": "2023-06-22T08:04:55.000Z",
+          "totalCharge": 15.25,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Create gif animation ",
+            "id": "1670733072949571584",
+            "uid": "1670733072949571584",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~016073dc98136ec2f5"
+          },
+          "contractorInfo": {
+            "contractorName": "Dina M.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~018b7b4dc953c9c3a2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.6,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-22T16:36:50.000Z",
+          "endDate": "2023-03-22T18:10:13.000Z",
+          "totalCharge": 20,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Insert a simple calculator on my Wix page",
+            "id": "1638573784230305792",
+            "uid": "1638573784230305792",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~017789122676aa6203"
+          },
+          "contractorInfo": {
+            "contractorName": "Roman V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0146d83590e6f4c102"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great job! Will hire again soon!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "A good client. Clear requirements. 100% recommend and look forward to further cooperation"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-11-30T10:11:51.000Z",
+          "endDate": "2022-11-30T11:01:08.000Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Help to download a video from website",
+            "id": "1597892958886965248",
+            "uid": "1597892958886965248",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~0194fec8bb71dce65c"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad N.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01d9cd0ac8653d038f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great and quick job!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was Nice and Super quick Experience. Thanks"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 3335.9727272727273,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 10500,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1737190722364944384",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "AI Video Editor for premium health brand (ongoing ad creative)",
+      "ciphertext": "~022066562382696427194",
+      "description": "LIGHT Health (lighthealth.co) is a premium consumer health brand: a clinical-grade at-home body scanner, $399, just launching in the US. Think Apple and Oura, not fitness or medical. We need ongoing short-form video ads for Meta. You take our scripts and turn them into scroll-stopping video: AI-actor UGC, B-roll with AI voiceover, mashups, demo and founder edits. Ongoing work, direct with the founder, fast iteration. The bar is hyper-realistic. AI content that does not look like AI. No uncanny faces, no robotic voiceover, no cheesy fitness energy. Premium, clinical, and honest, with no fake authority or unsupported health claims. What we look for: - A portfolio of short-form or UGC ads that look real and ad-ready. Direct-response, not brand films. - Fluency with AI video and voice tools (Arcads, HeyGen, ElevenLabs, Runway, Kling) plus strong editing (CapCut, Premiere). - A feel for hooks and pacing, fast turnaround, and many variations from one concept. To apply: 1. Send 3+ video ads you have made. Say which parts were AI-generated and which tools you used. 2. One line on how you make AI footage look hyper-realistic. 3. If the work is strong, a small paid test clip, then ongoing volume."
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "uid": "2079309387486830794",
+  "ciphertext": "~022079309387486830794",
+  "title": "Build a Premium Hebrew Wix Website for My Personal Brand",
+  "url": "https://www.upwork.com/jobs/~022079309387486830794",
+  "scrapedAt": "2026-07-21T07:37:23.245Z",
+  "feed": {
+    "uid": "2079309387486830794",
+    "ciphertext": "~022079309387486830794",
+    "title": "Build a Premium Hebrew Wix Website for My Personal Brand",
+    "description": "I'm looking for an experienced Wix designer/<span class=\"highlight\">developer</span> to build a beautiful, modern website for my personal brand.\n\nThis is not a branding project. I already have the messaging, copy, images and overall vision. I need someone with an excellent eye for design who can bring it to life in Wix.\n\nScope\n\nBuild a responsive Wix website (desktop & mobile) in Hebrew (RTL).\n\nThe website should include:\n\nHome Page\n\nThe homepage should guide visitors through a journey—not simply present information.\n\nSections:\n\nHero section (portrait, headline, CTA)\nThe Challenge (speaking to people who feel stuck or overwhelmed)\nMy Process\nAbout Me\nTestimonials (placeholder for now)\nCall to Action\nFooter\nMy Process\n\nThis is the core visual element of the homepage.\n\nIt should be presented as a beautiful visual journey rather than plain text.\n\nThe four steps are:\n\nSee → Distill → Connect → Move Forward\n\n(Will be presented in Hebrew.)\n\nCourses & Workshops Page\n\nA second page designed for future content.\n\nInclude space for:\n\nWorkshops\nOnline Courses\nComing Soon section\nWaitlist / Newsletter signup\nIntegrations\nCalendly booking\nPayment option for paid sessions\nConnect my existing domain\nMobile responsive\nClean SEO setup\nDesign Direction\n\nThe website should feel:\n\nMinimal\nEditorial\nCalm\nIntelligent\nElegant\nPremium\nHuman\n\nThink Apple, Notion, Aesop or Kinfolk, not a typical coaching website.\n\nThe design should use my portrait as inspiration for the color palette and overall visual identity.\n\nI prefer generous white space, beautiful typography and a timeless aesthetic over flashy animations or trendy effects.\n\nBudget\n\nFixed price: $200\n\nPlease Apply If...\nYou have strong experience building premium Wix websites.\nYou have an excellent eye for typography, spacing and clean design.\nYou are comfortable building Hebrew (RTL) websites.\n\nPlease include links to a few Wix websites you've personally built.",
+    "createdOn": "2026-07-20T20:56:04.705Z",
+    "publishedOn": "2026-07-20T20:57:02.066Z",
+    "renewedOn": null,
+    "type": 1,
+    "durationLabel": "Less than 1 month",
+    "engagement": null,
+    "amount": {
+      "amount": 200
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 0,
+    "relevanceEncoded": "{\"position\":\"49\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.lessThan5",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626779570716672",
+        "parentSkillUid": null,
+        "prefLabel": "Shopify",
+        "prettyName": "Shopify",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1110580741640015872",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress Development",
+        "prettyName": "WordPress Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795181916160",
+        "parentSkillUid": null,
+        "prefLabel": "Web Design",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1052162208999198724",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580557531041792",
+        "parentSkillUid": null,
+        "prefLabel": "Elementor",
+        "prettyName": "Elementor",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626796331155456",
+        "parentSkillUid": null,
+        "prefLabel": "WooCommerce",
+        "prettyName": "WooCommerce",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1534904342505930752",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress Website",
+        "prettyName": "WordPress Website",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1045317707950489600",
+        "parentSkillUid": null,
+        "prefLabel": "Website Redesign",
+        "prettyName": "Website Redesign",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1052162208999198725",
+        "parentSkillUid": null,
+        "prefLabel": "Wix",
+        "prettyName": "Wix",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1484275088473378816",
+        "parentSkillUid": null,
+        "prefLabel": "Website Builder",
+        "prettyName": "Website Builder",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580726997700608",
+        "parentSkillUid": null,
+        "prefLabel": "UX & UI",
+        "prettyName": "UX & UI",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1549040415462526976",
+        "parentSkillUid": null,
+        "prefLabel": "Landing Page Design",
+        "prettyName": "Landing Page Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626778853490688",
+        "parentSkillUid": null,
+        "prefLabel": "Search Engine Optimization",
+        "prettyName": "Search Engine Optimization",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1052162209007587329",
+        "parentSkillUid": null,
+        "prefLabel": "Responsive Design",
+        "prettyName": "Responsive Design",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T20:56:04.705Z",
+        "publishTime": "2026-07-20T20:57:02.066Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "I'm looking for an experienced Wix designer/developer to build a beautiful, modern website for my personal brand.\n\nThis is not a branding project. I already have the messaging, copy, images and overall vision. I need someone with an excellent eye for design who can bring it to life in Wix.\n\nScope\n\nBuild a responsive Wix website (desktop & mobile) in Hebrew (RTL).\n\nThe website should include:\n\nHome Page\n\nThe homepage should guide visitors through a journey—not simply present information.\n\nSections:\n\nHero section (portrait, headline, CTA)\nThe Challenge (speaking to people who feel stuck or overwhelmed)\nMy Process\nAbout Me\nTestimonials (placeholder for now)\nCall to Action\nFooter\nMy Process\n\nThis is the core visual element of the homepage.\n\nIt should be presented as a beautiful visual journey rather than plain text.\n\nThe four steps are:\n\nSee → Distill → Connect → Move Forward\n\n(Will be presented in Hebrew.)\n\nCourses & Workshops Page\n\nA second page designed for future content.\n\nInclude space for:\n\nWorkshops\nOnline Courses\nComing Soon section\nWaitlist / Newsletter signup\nIntegrations\nCalendly booking\nPayment option for paid sessions\nConnect my existing domain\nMobile responsive\nClean SEO setup\nDesign Direction\n\nThe website should feel:\n\nMinimal\nEditorial\nCalm\nIntelligent\nElegant\nPremium\nHuman\n\nThink Apple, Notion, Aesop or Kinfolk, not a typical coaching website.\n\nThe design should use my portrait as inspiration for the color palette and overall visual identity.\n\nI prefer generous white space, beautiful typography and a timeless aesthetic over flashy animations or trendy effects.\n\nBudget\n\nFixed price: $200\n\nPlease Apply If...\nYou have strong experience building premium Wix websites.\nYou have an excellent eye for typography, spacing and clean design.\nYou are comfortable building Hebrew (RTL) websites.\n\nPlease include links to a few Wix websites you've personally built.",
+        "info": {
+          "ciphertext": "~022079309387486830794",
+          "id": "2079309387486830794",
+          "type": "FIXED",
+          "access": "PUBLIC",
+          "title": "Build a Premium Hebrew Wix Website for My Personal Brand",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T20:56:04.705Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:cmsdevelopment",
+            "prefLabel": "CMS Development",
+            "id": "1110580750267699200",
+            "uid": "1110580750267699200"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580557531041792",
+              "freeText": null,
+              "prefLabel": "Elementor",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626796331155456",
+              "freeText": null,
+              "prefLabel": "WooCommerce",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1534904342505930752",
+              "freeText": null,
+              "prefLabel": "WordPress Website",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1045317707950489600",
+              "freeText": null,
+              "prefLabel": "Website Redesign",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626779570716672",
+              "freeText": null,
+              "prefLabel": "Shopify",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198725",
+              "freeText": null,
+              "prefLabel": "Wix",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275088473378816",
+              "freeText": null,
+              "prefLabel": "Website Builder",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580726997700608",
+              "freeText": null,
+              "prefLabel": "UX & UI",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580741640015872",
+              "freeText": null,
+              "prefLabel": "WordPress Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1549040415462526976",
+              "freeText": null,
+              "prefLabel": "Landing Page Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626778853490688",
+              "freeText": null,
+              "prefLabel": "Search Engine Optimization",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162209007587329",
+              "freeText": null,
+              "prefLabel": "Responsive Design",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 200,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-20T20:57:02.066Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "firstJobPost"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T20:56:05.057Z",
+          "totalApplicants": 3,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": [
+          "Israel"
+        ],
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -14400000,
+          "countryTimezone": "America/New_York (UTC-04:00)",
+          "city": "Tenafly",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2079304798813770855",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-20T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "country=(Israel)",
+              "clientPreferredLabel": "Israel",
+              "freelancerValue": "Pakistan",
+              "freelancerValueLabel": "Pakistan",
+              "qualification": "Location",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 166.66666666666666,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 200,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580750267699200",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

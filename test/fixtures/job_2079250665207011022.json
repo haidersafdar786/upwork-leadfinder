@@ -1,0 +1,575 @@
+{
+  "uid": "2079250665207011022",
+  "ciphertext": "~022079250665207011022",
+  "title": "Altar HMS LLC Website",
+  "url": "https://www.upwork.com/jobs/~022079250665207011022",
+  "scrapedAt": "2026-07-20T18:13:33.078Z",
+  "feed": {
+    "id": "2079250665207011022",
+    "uid": "2079250665207011022",
+    "title": "Altar HMS LLC Website",
+    "ciphertext": "~022079250665207011022",
+    "description": "We are looking for a skilled and reliable Full-Stack Web Developer to build a professional, secure, and modern website for Altar HMS LLC, a medical billing and healthcare management services company.\n\nProject Overview:\nOur goal is to create a dynamic, user-friendly website that highlights our medical billing solutions while incorporating advanced AI integrations to streamline client communication and operations. The ideal candidate should have strong experience in modern web development (MERN stack, Next.js/React) and integrating AI agents or chatbots.\n\nKey Requirements & Features:\n\nResponsive Web Development: Build a clean, modern, and mobile-friendly website to showcase our services (using React, Next.js, Node.js, etc.).\n\nAI Integration: Develop and embed a smart AI chatbot/agent to assist website visitors, answer common medical billing queries, and capture leads (using OpenAI API, LangChain, n8n, or similar automation tools).\n\nAPI & Cloud Integration: Connect necessary third-party APIs and deploy the website securely using AWS.\n\nDatabase Management: Set up a secure database (SQL) for handling contact inquiries and potential client data.\n\nSecurity & Best Practices: Implement robust data security measures, keeping in mind the sensitive nature of the healthcare and medical billing industry.\n\nIdeal Tech Stack & Skills:\n\nFrontend: React, Next.js, JavaScript, TypeScript\n\nBackend: Node.js, Python, Java, REST APIs\n\nAI & Automation: Generative AI, OpenAI API, LangChain, AI Agent Development, n8n\n\nCloud/Database: AWS, SQL\n\nProject Scope:\n\nExpected Duration: Less than 1 month\n\nExperience Level: Intermediate\n\nIf you are a driven developer who knows how to blend clean web design with powerful AI tools, we would love to hear from you. Please provide examples of past websites you've built, especially any projects involving AI integrations or healthcare/medical billing clients.",
+    "type": 1,
+    "recno": "1026028837",
+    "freelancersToHire": 0,
+    "duration": "Less than 1 week",
+    "durationLabel": "Less than 1 week",
+    "engagement": null,
+    "amount": {
+      "amount": 207
+    },
+    "createdOn": "2026-07-20T17:02:44.227Z",
+    "publishedOn": "2026-07-20T17:04:50.757Z",
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "India"
+      },
+      "totalReviews": 0,
+      "totalFeedback": null,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-20T17:02:44.676Z",
+      "proposalReviewedAt": ""
+    },
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "5 to 10",
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTs": "1784567101419",
+    "attrs": [
+      {
+        "id": "996364628016885773",
+        "uid": "996364628016885773",
+        "prettyName": "Flutter",
+        "prefLabel": "Flutter"
+      },
+      {
+        "id": "1031626773660942336",
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "prefLabel": "React"
+      },
+      {
+        "id": "996364628025274383",
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "996364628025274389",
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "1031626762688643072",
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "1031626762999021568",
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1484275081036877824",
+        "uid": "1484275081036877824",
+        "prettyName": "MERN Stack",
+        "prefLabel": "MERN Stack"
+      },
+      {
+        "id": "996364628025274386",
+        "uid": "996364628025274386",
+        "prettyName": "Python",
+        "prefLabel": "Python"
+      },
+      {
+        "id": "996364628025274382",
+        "uid": "996364628025274382",
+        "prettyName": "Java",
+        "prefLabel": "Java"
+      },
+      {
+        "id": "996364628012691471",
+        "uid": "996364628012691471",
+        "prettyName": "Amazon Web Services",
+        "prefLabel": "Amazon Web Services"
+      },
+      {
+        "id": "1031626782364123136",
+        "uid": "1031626782364123136",
+        "prettyName": "SQL",
+        "prefLabel": "SQL"
+      },
+      {
+        "id": "1110580482566246400",
+        "uid": "1110580482566246400",
+        "prettyName": "API Integration",
+        "prefLabel": "API Integration"
+      },
+      {
+        "id": "1691099312962416640",
+        "uid": "1691099312962416640",
+        "prettyName": "REST API",
+        "prefLabel": "REST API"
+      },
+      {
+        "id": "1733104400580624384",
+        "uid": "1733104400580624384",
+        "prettyName": "OpenAI API",
+        "prefLabel": "OpenAI API"
+      },
+      {
+        "id": "1031626717876699136",
+        "uid": "1031626717876699136",
+        "prettyName": "Automation",
+        "prefLabel": "Automation"
+      },
+      {
+        "id": "1733104400597401607",
+        "uid": "1733104400597401607",
+        "prettyName": "n8n",
+        "prefLabel": "n8n"
+      },
+      {
+        "id": "1631308909400477696",
+        "uid": "1631308909400477696",
+        "prettyName": "Generative AI",
+        "prefLabel": "Generative AI"
+      },
+      {
+        "id": "1691099315676131329",
+        "uid": "1691099315676131329",
+        "prettyName": "LangChain",
+        "prefLabel": "LangChain"
+      },
+      {
+        "id": "1031626723769696256",
+        "uid": "1031626723769696256",
+        "prettyName": "Chatbot Development",
+        "prefLabel": "Chatbot Development"
+      },
+      {
+        "id": "1691099314245873665",
+        "uid": "1691099314245873665",
+        "prettyName": "AI Agent Development",
+        "prefLabel": "AI Agent Development"
+      }
+    ],
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "isApplied": false,
+    "annotations": {
+      "tags": [
+        "firstJobPost"
+      ]
+    },
+    "relevanceEncoded": "{}",
+    "position": 10
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T17:02:44.227Z",
+        "publishTime": "2026-07-20T17:04:50.757Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "We are looking for a skilled and reliable Full-Stack Web Developer to build a professional, secure, and modern website for Altar HMS LLC, a medical billing and healthcare management services company.\n\nProject Overview:\nOur goal is to create a dynamic, user-friendly website that highlights our medical billing solutions while incorporating advanced AI integrations to streamline client communication and operations. The ideal candidate should have strong experience in modern web development (MERN stack, Next.js/React) and integrating AI agents or chatbots.\n\nKey Requirements & Features:\n\nResponsive Web Development: Build a clean, modern, and mobile-friendly website to showcase our services (using React, Next.js, Node.js, etc.).\n\nAI Integration: Develop and embed a smart AI chatbot/agent to assist website visitors, answer common medical billing queries, and capture leads (using OpenAI API, LangChain, n8n, or similar automation tools).\n\nAPI & Cloud Integration: Connect necessary third-party APIs and deploy the website securely using AWS.\n\nDatabase Management: Set up a secure database (SQL) for handling contact inquiries and potential client data.\n\nSecurity & Best Practices: Implement robust data security measures, keeping in mind the sensitive nature of the healthcare and medical billing industry.\n\nIdeal Tech Stack & Skills:\n\nFrontend: React, Next.js, JavaScript, TypeScript\n\nBackend: Node.js, Python, Java, REST APIs\n\nAI & Automation: Generative AI, OpenAI API, LangChain, AI Agent Development, n8n\n\nCloud/Database: AWS, SQL\n\nProject Scope:\n\nExpected Duration: Less than 1 month\n\nExperience Level: Intermediate\n\nIf you are a driven developer who knows how to blend clean web design with powerful AI tools, we would love to hear from you. Please provide examples of past websites you've built, especially any projects involving AI integrations or healthcare/medical billing clients.",
+        "info": {
+          "ciphertext": "~022079250665207011022",
+          "id": "2079250665207011022",
+          "type": "FIXED",
+          "access": "PUBLIC",
+          "title": "Altar HMS LLC Website",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T17:02:44.227Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "mp:70-10595",
+            "prefLabel": "AI Integration",
+            "id": "1737190722364944384",
+            "uid": "1737190722364944384"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628016885773",
+              "freeText": null,
+              "prefLabel": "Flutter",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275081036877824",
+              "freeText": null,
+              "prefLabel": "MERN Stack",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274382",
+              "freeText": null,
+              "prefLabel": "Java",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691471",
+              "freeText": null,
+              "prefLabel": "Amazon Web Services",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626782364123136",
+              "freeText": null,
+              "prefLabel": "SQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099312962416640",
+              "freeText": null,
+              "prefLabel": "REST API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1733104400580624384",
+              "freeText": null,
+              "prefLabel": "OpenAI API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626717876699136",
+              "freeText": null,
+              "prefLabel": "Automation",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1733104400597401607",
+              "freeText": null,
+              "prefLabel": "n8n",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1631308909400477696",
+              "freeText": null,
+              "prefLabel": "Generative AI",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099315676131329",
+              "freeText": null,
+              "prefLabel": "LangChain",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626723769696256",
+              "freeText": null,
+              "prefLabel": "Chatbot Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099314245873665",
+              "freeText": null,
+              "prefLabel": "AI Agent Development",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "AI Apps & Integration",
+          "urlSlug": "ai-apps-integration"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 207,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-20T17:04:50.757Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "firstJobPost"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T17:08:31.766Z",
+          "totalApplicants": 9,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 19800000,
+          "countryTimezone": "Asia/Calcutta (UTC+05:30)",
+          "city": "Mohali",
+          "country": "India"
+        },
+        "stats": {
+          "totalAssignments": null,
+          "activeAssignmentsCount": null,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": null,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2079249488880495439",
+          "isEDCReplicated": null,
+          "contractDate": null,
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": null,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 182.4,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 15,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 210,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1737190722364944384",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [],
+  "pastJobsText": []
+}

@@ -1,0 +1,563 @@
+{
+  "uid": "2078803786509072134",
+  "ciphertext": "~022078803786509072134",
+  "title": "Senior U.S. SaaS Development Agency Needed for AI-Powered Multi-Tenant Social Media Platform",
+  "url": "https://www.upwork.com/jobs/~022078803786509072134",
+  "scrapedAt": "2026-07-19T21:10:27.912Z",
+  "feed": {
+    "uid": "2078803786509072134",
+    "title": "Senior U.S. SaaS Development Agency Needed for AI-Powered Multi-Tenant Social Media Platform",
+    "ciphertext": "~022078803786509072134",
+    "description": "Hello, I am looking for an experienced software development company to design and build a complete multi-tenant SaaS platform for AI-powered content creation, news management, media processing, scheduling, and multi-platform social media publishing. The platform is expected to support X, Instagram, Threads, and TikTok through their officially available APIs. It will also include AI provider integrations, customer and employee dashboards, role-based permissions, content approval workflows, news verification and rewriting, media and FFmpeg processing, CDN and cloud storage integration, subscriptions, billing, audit logs, two-factor authentication, IP restrictions, and responsive Arabic and English interfaces. A detailed project requirements document is available. Please provide: Your relevant SaaS and AI development experience. Examples of similar platforms. Your proposed technical architecture. The required project team. Recommended implementation phases. Estimated cost for each phase. Estimated delivery schedule. Post-launch maintenance and support options. Source-code ownership terms. Any limitations related to social media APIs. References from previous clients. Please note that the project must be developed as a scalable commercial product and not as a basic prototype or template-based dashboard. Best regards,",
+    "type": 1,
+    "recno": "1026015145",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": null,
+    "amount": {
+      "amount": 6000,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T11:27:00.085Z",
+    "publishedOn": "2026-07-19T11:28:21.809Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 2,
+      "totalSpent": 125,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "state": null,
+        "countryTimezone": "Asia/Baghdad",
+        "worldRegion": "Asia"
+      },
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784460519346",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626776085250048",
+        "prefLabel": "SaaS"
+      },
+      {
+        "id": "1691099314170376192",
+        "prefLabel": "AI Bot"
+      },
+      {
+        "id": "1623716863997775872",
+        "prefLabel": "AI Model Integration"
+      },
+      {
+        "id": "1031626762688643072",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "1270387293991190528",
+        "prefLabel": "AWS Amplify"
+      },
+      {
+        "id": "1031626732393185280",
+        "prefLabel": "Docker"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "Node.js / NestJS"
+      },
+      {
+        "id": "1270387306804789248",
+        "prefLabel": "Cloud Architecture"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"16\"}",
+    "attrs": [
+      {
+        "uid": "1031626776085250048",
+        "prettyName": "SaaS",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099314170376192",
+        "prettyName": "AI Bot",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1623716863997775872",
+        "prettyName": "AI Model Integration",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1270387293991190528",
+        "prettyName": "AWS Amplify",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626732393185280",
+        "prettyName": "Docker",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "Node.js / NestJS",
+        "freeText": "Node.js / NestJS",
+        "skillType": null
+      },
+      {
+        "uid": "1270387306804789248",
+        "prettyName": "Cloud Architecture",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 17
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T11:27:00.085Z",
+        "publishTime": "2026-07-19T11:28:21.809Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "Hello, I am looking for an experienced software development company to design and build a complete multi-tenant SaaS platform for AI-powered content creation, news management, media processing, scheduling, and multi-platform social media publishing. The platform is expected to support X, Instagram, Threads, and TikTok through their officially available APIs. It will also include AI provider integrations, customer and employee dashboards, role-based permissions, content approval workflows, news verification and rewriting, media and FFmpeg processing, CDN and cloud storage integration, subscriptions, billing, audit logs, two-factor authentication, IP restrictions, and responsive Arabic and English interfaces. A detailed project requirements document is available. Please provide: Your relevant SaaS and AI development experience. Examples of similar platforms. Your proposed technical architecture. The required project team. Recommended implementation phases. Estimated cost for each phase. Estimated delivery schedule. Post-launch maintenance and support options. Source-code ownership terms. Any limitations related to social media APIs. References from previous clients. Please note that the project must be developed as a scalable commercial product and not as a basic prototype or template-based dashboard. Best regards,",
+        "info": {
+          "ciphertext": "~022078803786509072134",
+          "id": "2078803786509072134",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Senior U.S. SaaS Development Agency Needed for AI-Powered Multi-Tenant Social Media Platform",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T11:27:00.085Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626776085250048",
+              "freeText": null,
+              "prefLabel": "SaaS",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314170376192",
+              "freeText": null,
+              "prefLabel": "AI Bot",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1623716863997775872",
+              "freeText": null,
+              "prefLabel": "AI Model Integration",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627970748416",
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "groupPrefLabel": "Databases",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1270387293991190528",
+              "freeText": null,
+              "prefLabel": "AWS Amplify",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626732393185280",
+              "freeText": null,
+              "prefLabel": "Docker",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Node.js / NestJS",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1270387306804789248",
+              "freeText": null,
+              "prefLabel": "Cloud Architecture",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 6000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T11:28:21.809Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Firefox",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T11:27:00.058Z",
+          "totalApplicants": 69,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 10800000,
+          "countryTimezone": "Asia/Baghdad (UTC+03:00)",
+          "city": "Riyadh",
+          "country": "Saudi Arabia"
+        },
+        "stats": {
+          "totalAssignments": 2,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 2,
+          "totalCharges": {
+            "amount": 125
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1238559347000705024",
+          "isEDCReplicated": null,
+          "contractDate": "2020-03-13T00:00:00.000Z",
+          "profile": {
+            "industry": "Tech & IT",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 17,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-04-24T00:03:10.000Z",
+          "endDate": "2020-05-03T17:16:21.000Z",
+          "totalCharge": 125,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Coding Style",
+            "id": "1252216075342082048",
+            "uid": "1252216075342082048",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01db76dc8c15504bfc"
+          },
+          "contractorInfo": {
+            "contractorName": "Kevin B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01294e663a6dca76f3"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 2,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 8529.64573268921,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 4500,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 60000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

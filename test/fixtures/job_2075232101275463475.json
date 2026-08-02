@@ -1,0 +1,1963 @@
+{
+  "uid": "2075232101275463475",
+  "ciphertext": "~022075232101275463475",
+  "title": "Senior Full-Stack Developer (NextJS/RN)",
+  "url": "https://www.upwork.com/jobs/~022075232101275463475",
+  "scrapedAt": "2026-07-20T08:47:27.069Z",
+  "feed": {
+    "uid": "2075232101275463475",
+    "ciphertext": "~022075232101275463475",
+    "title": "Senior Full-Stack <span class=\"highlight\">Developer</span> (Next<span class=\"highlight\">JS</span>/RN)",
+    "description": "We are Topflight Apps! We are a team of innovative product managers, founders, designers, and <span class=\"highlight\">developers</span>. Together our mission is to build products that help millions of lives by tackling some of the biggest problems in healthcare and fintech. Our company was founded in 2017 in Irvine, California, and each year since, we have roughly doubled, reaching the $4 million revenue mark last year and raising our first seed fund as well.\n\nDue to our expansion, we’re looking for a high-growth Senior Full-Stack <span class=\"highlight\">Developer</span> ready to transition into their first Lead role. We need a modern architecture enthusiast and AI-augmented power user who is ready to lead our projects and team by example.\n\nResponsibilities:\n- AI Strategy: Lead the team in leveraging AI code generation tools (e.g., Cursor, Copilot, LLMs) to accelerate <span class=\"highlight\">development</span> and ship features at record speeds.\n- Discovery & Estimation: Work closely with PMs and POs to provide technical roadmaps and rapid prototyping estimates.\n- Technical Architecture: Enforce and evolve the company’s modern stack (<span class=\"highlight\">React</span>, <span class=\"highlight\">React</span> Native, Convex, Supabase, Drizzle) across projects.\nStrategic Problem Solving: Act as the primary technical support for PMs, identifying \"hacker\" shortcuts and workarounds to overcome roadblocks without sacrificing quality.\n- Code Quality & Mentorship: Review code for performance, type safety (TypeScript), and maintainability. Mentor <span class=\"highlight\">developers</span> in adopting AI-augmented workflows.\n- Scope Management: Manage the project's technical scope and handle deployment communication with DevOps/Vercel/Supabase environments.\n- Full Stack Execution: Lead by example by building complex features, managing database schemas with Drizzle, and crafting polished UIs with shadcn/ui.\n\nRequirements:\n- 5 to 8 years of experience building production-level web and mobile applications.\n- Mastery of the Modern Stack: Strong expertise in Next.<span class=\"highlight\">js</span> (App Router), <span class=\"highlight\">React</span>,  <span class=\"highlight\">React</span> Native, and Node.<span class=\"highlight\">js</span>.\n- Advanced TypeScript: Deep understanding of type-safe <span class=\"highlight\">development</span> across the entire stack.\n- Database & ORM: Strong skills in PostgreSQL and hands-on experience with Supabase and Drizzle ORM.\n- UI/UX Excellence: Expert-level command of TailwindCSS and shadcn/ui (or similar headless UI libraries).\n- AI-Native Workflow: Proven expertise in using AI tools to significantly reduce <span class=\"highlight\">development</span> timelines. You should be \"AI-first\" in your coding approach.\n- Architectural Vision: Sound understanding of MVC, serverless architectures, and modern design patterns.\n- Communication: Ability to participate in client calls, simplifying complex technical matters for stakeholders.\n- The \"Hacker\" Mentality: An independent drive to \"figure things out\" and the mental fortitude to handle rapid <span class=\"highlight\">development</span> cycles and tight deadlines.\n\nBonus Points:\n- Industry Experience: Previous work with healthcare (HIPAA) or fintech organizations.\nLLM Integration: Proven experience integrating OpenAI, Anthropic, or LangChain APIs into functional software.\n- Agency Background: Prior experience working in a fast-paced agency en+vironment.\n- Cloud Infrastructure: Knowledge of AWS, Vercel, and CI/CD pipelines.\n- 0 to 6 months experience as Tech Lead. \n\nImportant Notes: \n- We are a fully remote company with a global team. Flexibility with time zones and excellent communication skills are crucial\n- All new Topflight Apps team members undergo a one-month trial period to ensure smooth onboarding and alignment on expectations\n\nHow to Apply:\nPlease ensure all outreach and applications are submitted through the designated job posting platform. Note that any use of alternative platforms will lead to automatic disqualification.",
+    "createdOn": "2026-07-09T14:54:23.941Z",
+    "publishedOn": "2026-07-09T14:55:37.157Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "More than 6 months",
+    "engagement": "usnuxt_Engagement_421.fullTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 137,
+      "totalFeedback": 4.93,
+      "hasFinancialPrivacy": true
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"43\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Expert_207",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626762688643072",
+        "parentSkillUid": null,
+        "prefLabel": "Next.js",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762999021568",
+        "parentSkillUid": null,
+        "prefLabel": "Node.js",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628012691466",
+        "parentSkillUid": null,
+        "prefLabel": "React Native",
+        "prettyName": "React Native",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626731499798528",
+        "parentSkillUid": null,
+        "prefLabel": "DevOps",
+        "prettyName": "DevOps",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099315067957248",
+        "parentSkillUid": null,
+        "prefLabel": "Supabase",
+        "prettyName": "Supabase",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 35,
+      "max": 55
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-09T14:54:23.941Z",
+        "publishTime": "2026-07-09T14:55:37.157Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "We are Topflight Apps! We are a team of innovative product managers, founders, designers, and developers. Together our mission is to build products that help millions of lives by tackling some of the biggest problems in healthcare and fintech. Our company was founded in 2017 in Irvine, California, and each year since, we have roughly doubled, reaching the $4 million revenue mark last year and raising our first seed fund as well.\n\nDue to our expansion, we’re looking for a high-growth Senior Full-Stack Developer ready to transition into their first Lead role. We need a modern architecture enthusiast and AI-augmented power user who is ready to lead our projects and team by example.\n\nResponsibilities:\n- AI Strategy: Lead the team in leveraging AI code generation tools (e.g., Cursor, Copilot, LLMs) to accelerate development and ship features at record speeds.\n- Discovery & Estimation: Work closely with PMs and POs to provide technical roadmaps and rapid prototyping estimates.\n- Technical Architecture: Enforce and evolve the company’s modern stack (React, React Native, Convex, Supabase, Drizzle) across projects.\nStrategic Problem Solving: Act as the primary technical support for PMs, identifying \"hacker\" shortcuts and workarounds to overcome roadblocks without sacrificing quality.\n- Code Quality & Mentorship: Review code for performance, type safety (TypeScript), and maintainability. Mentor developers in adopting AI-augmented workflows.\n- Scope Management: Manage the project's technical scope and handle deployment communication with DevOps/Vercel/Supabase environments.\n- Full Stack Execution: Lead by example by building complex features, managing database schemas with Drizzle, and crafting polished UIs with shadcn/ui.\n\nRequirements:\n- 5 to 8 years of experience building production-level web and mobile applications.\n- Mastery of the Modern Stack: Strong expertise in Next.js (App Router), React,  React Native, and Node.js.\n- Advanced TypeScript: Deep understanding of type-safe development across the entire stack.\n- Database & ORM: Strong skills in PostgreSQL and hands-on experience with Supabase and Drizzle ORM.\n- UI/UX Excellence: Expert-level command of TailwindCSS and shadcn/ui (or similar headless UI libraries).\n- AI-Native Workflow: Proven expertise in using AI tools to significantly reduce development timelines. You should be \"AI-first\" in your coding approach.\n- Architectural Vision: Sound understanding of MVC, serverless architectures, and modern design patterns.\n- Communication: Ability to participate in client calls, simplifying complex technical matters for stakeholders.\n- The \"Hacker\" Mentality: An independent drive to \"figure things out\" and the mental fortitude to handle rapid development cycles and tight deadlines.\n\nBonus Points:\n- Industry Experience: Previous work with healthcare (HIPAA) or fintech organizations.\nLLM Integration: Proven experience integrating OpenAI, Anthropic, or LangChain APIs into functional software.\n- Agency Background: Prior experience working in a fast-paced agency en+vironment.\n- Cloud Infrastructure: Knowledge of AWS, Vercel, and CI/CD pipelines.\n- 0 to 6 months experience as Tech Lead. \n\nImportant Notes: \n- We are a fully remote company with a global team. Flexibility with time zones and excellent communication skills are crucial\n- All new Topflight Apps team members undergo a one-month trial period to ensure smooth onboarding and alignment on expectations\n\nHow to Apply:\nPlease ensure all outreach and applications are submitted through the designated job posting platform. Note that any use of alternative platforms will lead to automatic disqualification.",
+        "info": {
+          "ciphertext": "~022075232101275463475",
+          "id": "2075232101275463475",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Senior Full-Stack Developer (NextJS/RN)",
+          "hideBudget": false,
+          "createdOn": "2026-07-09T14:54:23.941Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626731499798528",
+              "freeText": null,
+              "prefLabel": "DevOps",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099315067957248",
+              "freeText": null,
+              "prefLabel": "Supabase",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-09T14:55:37.157Z",
+            "reuse": "2062273849836346057",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "cjp_v1",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 35,
+          "hourlyBudgetMax": 55,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-09T14:54:23.909Z",
+          "totalApplicants": 67,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Tell me about something you shipped under a tight timeline with incomplete requirements. What did you prioritize and what did you punt on?",
+          "position": 0
+        },
+        {
+          "question": "This role is designed for a Senior Dev ready to step into their first Lead role. Can you describe a project where you acted as a lead? Specifically, tell us how you managed the scope, made architectural trade-offs, or unblocked other developers.",
+          "position": 1
+        },
+        {
+          "question": "How are you using AI in your code review and PR workflow right now? Walk me through what your process actually looks like, what tools you're using, and where you've found AI helps vs. where you still need a human eye.",
+          "position": 2
+        },
+        {
+          "question": "Give me an example of a technical shortcut you took that worked out, or one that bit you later. What would you do differently?",
+          "position": 3
+        },
+        {
+          "question": "How many years of experience do you have in: 1) Next.js 2) Typescript 3) TailwindCSS 4) SQL databases 5) React Native 6) Supabase",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -10800000,
+          "countryTimezone": "America/Sao_Paulo (UTC-03:00)",
+          "city": "Laguna Beach",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 218,
+          "activeAssignmentsCount": 29,
+          "hoursCount": 44289.33,
+          "feedbackCount": 137,
+          "score": 4.93,
+          "totalJobsWithHires": 178,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "755142864012660736",
+          "isEDCReplicated": null,
+          "contractDate": "2016-07-18T00:00:00.000Z",
+          "profile": {
+            "industry": "Tech & IT",
+            "size": 10
+          }
+        },
+        "jobs": {
+          "openCount": 2,
+          "postedCount": 645,
+          "openJobs": [
+            {
+              "id": "2067098036840220809",
+              "uid": "2067098036840220809",
+              "isPtcPrivate": false,
+              "ciphertext": "~022067098036840220809",
+              "title": "Influencer outreach manager to Physician / HCP creators",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-12T02:33:32.847Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "first video production",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Steven M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a1d2aae81af06693"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-12T21:32:04.477Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Viral Video Creator & Growth Hacker for AI Development Platform",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Adnan A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c7ea1e7e90621265"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-22T22:53:03.156Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 105.000018,
+          "jobInfo": {
+            "title": "Strategic Accountant Needed - 2025 & Beyond",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "AJ D.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01faf91d92e54e32a6"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-22T22:49:10.169Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 84.5,
+          "jobInfo": {
+            "title": "RPA Expert",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Monish G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0119a52bfd9e8ec8cc"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-19T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 589.999997,
+          "jobInfo": {
+            "title": "Webflow Developer",
+            "id": "1919760999858726877",
+            "uid": "1919760999858726877",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021919760999858726877"
+          },
+          "contractorInfo": {
+            "contractorName": "Oleg B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01859dbaf653aa815b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-24T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 480.499995,
+          "jobInfo": {
+            "title": "UX/UI Designer",
+            "id": "1895434453249519301",
+            "uid": "1895434453249519301",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021895434453249519301"
+          },
+          "contractorInfo": {
+            "contractorName": "Ena C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bd05823f824a8118"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-09-24T22:35:25.616Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 0.5,
+          "jobInfo": {
+            "title": "Tax Planning Attorney",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Justin J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01504615a1703b739f"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-06-26T03:08:16.177Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 2.5,
+          "jobInfo": {
+            "title": "Drug Development and Clinical Trial Expert",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Michael R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e131a9d5323e6ca2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-04-30T07:58:13.889Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 1.5,
+          "jobInfo": {
+            "title": "Fractional HR Director",
+            "id": "1785020570504122368",
+            "uid": "1785020570504122368",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01f7741849a6382788"
+          },
+          "contractorInfo": {
+            "contractorName": "Ghada T.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01cfdc5f956c1e725a"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-01-19T17:55:19.000Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 2.5,
+          "jobInfo": {
+            "title": "HIPAA Consultation",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Vasanth T.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016e1ca5e812417404"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-09-06T03:50:34.000Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 9.833333,
+          "jobInfo": {
+            "title": "SaMD Health Tech Consultant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mohamed E.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012f4c49a15671c453"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-20T23:02:59.000Z",
+          "endDate": null,
+          "totalCharge": null,
+          "totalHours": 0.5,
+          "jobInfo": {
+            "title": "EHR integrations consultant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Shane S.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-13T22:27:05.345Z",
+          "endDate": "2026-06-25T00:08:40.429Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Viral Video Creator & Growth Hacker for AI Development Platform",
+            "id": "2021017232001952416",
+            "uid": "2021017232001952416",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022021017232001952416"
+          },
+          "contractorInfo": {
+            "contractorName": "Adnan A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c7ea1e7e90621265"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-20T00:00:00.000Z",
+          "endDate": "2026-05-11T14:57:40.858Z",
+          "totalCharge": null,
+          "totalHours": 353.333331,
+          "jobInfo": {
+            "title": "Quality Assurance Tester",
+            "id": "1970914131788692849",
+            "uid": "1970914131788692849",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021970914131788692849"
+          },
+          "contractorInfo": {
+            "contractorName": "Arta S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01cefcee0c9f785dba"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-21T16:15:11.072Z",
+          "endDate": "2026-04-30T05:22:09.842Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Healthtech Sales Enablment Video",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kunal B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f719259a6d4b4479"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Both Joe and Charudhi are a breeze to work with. From the initiation to the conlusion of the contract, entire communication was prompt, lucid and without any friction. They were open to ideas, both strategic & creative directions for their marketing enablement videos. A meaningful collaboaration!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-23T00:00:00.000Z",
+          "endDate": "2026-04-23T19:27:46.391Z",
+          "totalCharge": null,
+          "totalHours": 195.5,
+          "jobInfo": {
+            "title": "UX/UI Designer",
+            "id": "2019876986718668677",
+            "uid": "2019876986718668677",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022019876986718668677"
+          },
+          "contractorInfo": {
+            "contractorName": "Irina P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f4cf0ed794db5c64"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Irina has been  one of the best UX/UI designers we hired. Top notch designer, communicates effectively, and takes ownership of her work."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-25T05:59:48.000Z",
+          "endDate": "2026-04-17T11:26:57.427Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Three.js development consultant needed for a fitness workout app",
+            "id": "1648833727833997312",
+            "uid": "1648833727833997312",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01e0e41b5b9747ce10"
+          },
+          "contractorInfo": {
+            "contractorName": "Stefan V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0117be75d6b6a7440a"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-19T00:00:00.000Z",
+          "endDate": "2025-11-25T15:57:05.730Z",
+          "totalCharge": null,
+          "totalHours": 1141.333338,
+          "jobInfo": {
+            "title": "Quality Assurance Tester",
+            "id": "1899464936922790388",
+            "uid": "1899464936922790388",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021899464936922790388"
+          },
+          "contractorInfo": {
+            "contractorName": "QINGQIN F.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01347883f141603784"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Qingqin has been top-notch in her delivery, pro-activity, and testing abilities - her ability to utilize AI in her workflow is great. We'll definitely hire her in the future once there's another need for her skillset."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-30T00:00:00.000Z",
+          "endDate": "2025-11-03T18:43:11.213Z",
+          "totalCharge": null,
+          "totalHours": 251.333333,
+          "jobInfo": {
+            "title": "Quality Assurance Tester",
+            "id": "1918347268093600754",
+            "uid": "1918347268093600754",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021918347268093600754"
+          },
+          "contractorInfo": {
+            "contractorName": "Mohamed A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019f89d7005ce164f7"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Mohamed has been great to work with; he's a very responsive QA tester with quick testing turnaround."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Communication was decent, and expectations were mostly clear. overall a fair experience."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-29T18:48:11.832Z",
+          "endDate": "2025-09-30T06:06:15.456Z",
+          "totalCharge": null,
+          "totalHours": 39,
+          "jobInfo": {
+            "title": "Fundraising & Deck Expert",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Edward Francis B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014341731c12ecd218"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-31T07:47:32.972Z",
+          "endDate": "2025-08-25T18:40:18.073Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Next.js Full Stack Developer (AI-Powered)",
+            "id": "1947404535466546162",
+            "uid": "1947404535466546162",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021947404535466546162"
+          },
+          "contractorInfo": {
+            "contractorName": "Hafiz Raza A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012a215c37628b8181"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-31T04:43:19.507Z",
+          "endDate": "2025-08-07T05:22:07.654Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Next.js Full Stack Developer (AI-Powered)",
+            "id": "1945202680141473489",
+            "uid": "1945202680141473489",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021945202680141473489"
+          },
+          "contractorInfo": {
+            "contractorName": "Pooja M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c7892a1adf5684df"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-08T00:00:00.000Z",
+          "endDate": "2025-05-26T10:14:40.898Z",
+          "totalCharge": null,
+          "totalHours": 15,
+          "jobInfo": {
+            "title": "Creative Content Marketer (AI-first)",
+            "id": "1912106546581075534",
+            "uid": "1912106546581075534",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021912106546581075534"
+          },
+          "contractorInfo": {
+            "contractorName": "Toby F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018a600714bca9d856"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with TopFlight was a great experience. They’re a very organised organisation and I hope to provide work again!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-04T00:00:00.000Z",
+          "endDate": "2025-04-28T20:29:33.946Z",
+          "totalCharge": null,
+          "totalHours": 643.499999,
+          "jobInfo": {
+            "title": "Full Stack Developer (MERN/React Native/Flutter)",
+            "id": "1846921954221360782",
+            "uid": "1846921954221360782",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021846921954221360782"
+          },
+          "contractorInfo": {
+            "contractorName": "Yuriy H.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018b3375334f6310d7"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for your cooperation! It was a great experience working with such a strong and professional team. It was a pleasure to be a part of this project!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T03:42:26.782Z",
+          "endDate": "2025-03-24T16:40:47.995Z",
+          "totalCharge": null,
+          "totalHours": 2.333333,
+          "jobInfo": {
+            "title": "EHR + AI Expert ",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Joern B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a5fdd207c214b7b3"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-04T00:40:11.624Z",
+          "endDate": "2025-03-12T05:10:35.464Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Rapid Prototype: AI Voice Agent for Medical Practice",
+            "id": "1894974657328820664",
+            "uid": "1894974657328820664",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021894974657328820664"
+          },
+          "contractorInfo": {
+            "contractorName": "Daniel D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01304acda8ee6ba5ba"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-09-20T00:00:00.000Z",
+          "endDate": "2025-03-06T20:02:26.149Z",
+          "totalCharge": null,
+          "totalHours": 2184.83334,
+          "jobInfo": {
+            "title": "Quality Assurance Tester (Manual)",
+            "id": "1701181197311746048",
+            "uid": "1701181197311746048",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01885d501d4f0c9fcf"
+          },
+          "contractorInfo": {
+            "contractorName": "John Emmanuel L.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01318eea7901795fa0"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "John has been a fantastic QA Tester and a true asset to our team. He has set a high standard for what a QA professional should be. Beyond his technical expertise, his excellent communication skills, proactiveness, and commitment to doing things the right way truly set him apart. His willingness to go the extra mile has made a significant impact, and he will undoubtedly excel in any future role. We sincerely appreciate his contributions and wish him all the best in his next job."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with the team was an excellent experience. Their team demonstrated strong technical expertise and maintained clear, straightforward communication throughout the project. The leadership provided valuable guidance that enhanced my professional growth"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-04-29T00:00:00.000Z",
+          "endDate": "2025-03-06T10:58:48.674Z",
+          "totalCharge": null,
+          "totalHours": 10,
+          "jobInfo": {
+            "title": "Quality Assurance Tester (Manual)",
+            "id": "1783407450950721536",
+            "uid": "1783407450950721536",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~014bf0e4fc3551bc49"
+          },
+          "contractorInfo": {
+            "contractorName": "Rodrigo  C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c7730660641a7448"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-10T00:00:00.000Z",
+          "endDate": "2025-03-06T10:56:56.800Z",
+          "totalCharge": null,
+          "totalHours": 57.666667,
+          "jobInfo": {
+            "title": "Product and Project Manager",
+            "id": "1868597141931622236",
+            "uid": "1868597141931622236",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021868597141931622236"
+          },
+          "contractorInfo": {
+            "contractorName": "Neha K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016300f281da5fa034"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Neha has done an outstanding job, not only in seamlessly balancing her role as a hybrid Product and Project Manager but also in effectively integrating AI into her work. Her ability to leverage AI demonstrates innovation and productivity, adding significant value to her skillset and projects."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "I enjoyed working on this project. All expectations and requirements were communicated well and the client was responsive to any of my requests for clarification."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-07-29T12:41:18.552Z",
+          "endDate": "2025-02-17T20:05:04.702Z",
+          "totalCharge": null,
+          "totalHours": 89.5,
+          "jobInfo": {
+            "title": "Webflow Developer",
+            "id": "1806337876593665568",
+            "uid": "1806337876593665568",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~019011280d356c9b3c"
+          },
+          "contractorInfo": {
+            "contractorName": "Stefan G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ab6efc701d23ed7e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Stefan consistently delivers high-quality work with minimal QA issues, something we've struggled with in the past. His technical ability and accountability are exceptional. He’s also skilled at incorporating complex features within the Webflow framework, even when they’re not the easiest to implement. Overall, a reliable and highly capable contractor! It was a pleasure having him with the team and we would for sure hire him again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-12-18T17:50:55.491Z",
+          "endDate": "2025-01-30T23:02:14.483Z",
+          "totalCharge": null,
+          "totalHours": 5.000002,
+          "jobInfo": {
+            "title": "CFO Services",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jeremy S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01356524cfda3da20c"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a privilege to be invited to support, and I look forward to resuming our work when ready."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-09T21:44:33.681Z",
+          "endDate": "2025-01-15T14:46:54.124Z",
+          "totalCharge": null,
+          "totalHours": 52,
+          "jobInfo": {
+            "title": "EHR + AI Expert ",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rahul S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~010eeb6edaab9e5cc5"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-12-03T20:36:53.490Z",
+          "endDate": "2024-12-18T03:41:49.409Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "CFO Reviewed Financials™",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jeremy S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01356524cfda3da20c"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "This was an ideal initial engagement: Client reached out to me for support with a specific business financial goal and I delivered a detailed report complete with my insights from the financials and recommendations tailored to Client's goals.  I look forward to continuing our work together imminently as we execute upon the recommendations that we discussed."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-07-09T23:30:36.277Z",
+          "endDate": "2024-08-03T17:05:35.743Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Trial Task",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Daniel V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01cbb974a1d10bc11d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Daniel was fantastic to work with.  Excellent technical insights and willingness to go really deep to negotiate solutions to hard problems.  Particularly strong in written communication which our firm has a very high bar for."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-23T00:00:00.000Z",
+          "endDate": "2024-08-02T18:46:47.879Z",
+          "totalCharge": null,
+          "totalHours": 657.000002,
+          "jobInfo": {
+            "title": "DevSecOps Engineer",
+            "id": "1711721690760314880",
+            "uid": "1711721690760314880",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~010069605d5b6b027b"
+          },
+          "contractorInfo": {
+            "contractorName": "Erick A.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~018dd5e2ca87113950"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Topflight is a good company to improve ypur devops skylls"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-06-17T00:00:00.000Z",
+          "endDate": "2024-07-09T15:03:17.975Z",
+          "totalCharge": null,
+          "totalHours": 115,
+          "jobInfo": {
+            "title": "Full Stack Developer (MERN/React Native)",
+            "id": "1800208840409430862",
+            "uid": "1800208840409430862",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~010494baabb49f505f"
+          },
+          "contractorInfo": {
+            "contractorName": "Taso S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~017e7e64c18ee69510"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great developer, great personality, likes to be challenged, and he's very responsive. Would definitely work with him again once the need arises."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It's been a pleasure working with this client. Would recommend them to everyone."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-06-07T00:00:00.000Z",
+          "endDate": "2024-06-13T16:29:48.669Z",
+          "totalCharge": null,
+          "totalHours": 2.833333,
+          "jobInfo": {
+            "title": "Ghostwriter.  Write a short sample.  Don't write a cover letter.  ",
+            "id": "1798111976206098432",
+            "uid": "1798111976206098432",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e0d58865379bb963"
+          },
+          "contractorInfo": {
+            "contractorName": "Adam B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f39bd66d4bce4055"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent experience. Very focused,  very expert, and highly discerning."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-25T00:00:00.000Z",
+          "endDate": "2024-05-28T14:47:08.646Z",
+          "totalCharge": null,
+          "totalHours": 164,
+          "jobInfo": {
+            "title": "Cybersecurity Officer",
+            "id": "1764691265486336000",
+            "uid": "1764691265486336000",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01737e80f24328bead"
+          },
+          "contractorInfo": {
+            "contractorName": "Rogelio G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~010f7b765191cabf12"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-04T00:00:00.000Z",
+          "endDate": "2024-05-14T19:32:23.098Z",
+          "totalCharge": null,
+          "totalHours": 326.000002,
+          "jobInfo": {
+            "title": "Bubble.io developer needed to build healthcare applications",
+            "id": "1648335794136465408",
+            "uid": "1648335794136465408",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0172044e662ca4c934"
+          },
+          "contractorInfo": {
+            "contractorName": "Pargev K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c3b69e5cb50d8f18"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great collaboration, looking forward to reconnect in the future"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-06-19T00:00:00.000Z",
+          "endDate": "2024-04-29T16:08:09.000Z",
+          "totalCharge": null,
+          "totalHours": 21,
+          "jobInfo": {
+            "title": "Business Analyst / Junior Product Manager",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Meghna S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ea46532a4a6b76a6"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-02-15T05:45:17.000Z",
+          "endDate": "2024-01-31T13:11:51.000Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Marketing",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rishita S.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.6,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-26T16:03:03.000Z",
+          "endDate": "2023-11-30T13:05:24.000Z",
+          "totalCharge": null,
+          "totalHours": 133.833334,
+          "jobInfo": {
+            "title": "Product Manager (Healthcare experience)",
+            "id": "1679852963665805312",
+            "uid": "1679852963665805312",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~018dd819a4f14d3b01"
+          },
+          "contractorInfo": {
+            "contractorName": "Michael M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f1bbd02e88298c97"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-01T20:18:47.000Z",
+          "endDate": "2023-11-20T03:39:19.000Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "voiceover",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Eric P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f2c0d6f99be1be7e"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Joe and his team were awesome to work with, I would highly recommend!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-06-06T12:50:53.000Z",
+          "endDate": "2023-08-15T12:38:15.000Z",
+          "totalCharge": null,
+          "totalHours": 154.166668,
+          "jobInfo": {
+            "title": "Business Analyst/Project Manager - Healthcare & Fintech Apps",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Maria Asuncion P.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Mieann's performance as a Business Analyst has been truly outstanding. Mieann's ability to grasp complex business scenarios and translate them into actionable solutions has been invaluable. Her clear communication and knack for bridging the gap between stakeholders while always having an eye for detail is super. Her contributions have not only met but exceeded expectations, making her an exceptional asset as a Business Analyst. Highly recommend her for any complex Business Analyst and also Project Management role."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "TFA is a great place to work. A company of great and talented individuals, and having a flexible time schedule is a bonus."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-28T00:00:00.000Z",
+          "endDate": "2023-08-14T21:27:13.000Z",
+          "totalCharge": null,
+          "totalHours": 474,
+          "jobInfo": {
+            "title": "Quality Assurance Tester (Manual)",
+            "id": "1632725870755217408",
+            "uid": "1632725870755217408",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~017fcc1d8b000b2c7e"
+          },
+          "contractorInfo": {
+            "contractorName": "Kamal K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~016121604181d5e263"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Kamal's contributions as a QA tester have been great. His approach to testing and his dedication to his work was impressive. Kamal's attention to detail, proactive attitude, and ability to identify issues quickly made him a valuable asset to the team and a pleasure to work with."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I enjoyed working on this project. All expectations and requirements were communicated up front and the team was responsive to any of my requests for clarification. highly recommended."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-03-22T00:00:00.000Z",
+          "endDate": "2023-08-14T10:29:05.000Z",
+          "totalCharge": null,
+          "totalHours": 462.833335,
+          "jobInfo": {
+            "title": "Project Manager - Healthcare & Fintech Apps",
+            "id": "1633954811423019008",
+            "uid": "1633954811423019008",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0140265720aa34a32c"
+          },
+          "contractorInfo": {
+            "contractorName": "Tatevik H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fc92759ed58a7217"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Tatevik's exceptional organizational skills, clear communication, and proactive approach were instrumental in ensuring the project's success. She can also easily handle complex tasks and keep the team motivated was commendable. I would highly recommend her for any future projects."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Topflight Apps offers a professional environment with a supportive management team. Their remote work setup and communication are seamless across time zones, and payments are prompt. I look forward to collaborating again and highly recommend them."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-07T21:36:16.000Z",
+          "endDate": "2023-08-09T21:48:44.000Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Funnel Copy and Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Suganthan M.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great experience working with Joe. Very understanding and clear with what he was after."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-10T00:00:00.000Z",
+          "endDate": "2023-08-01T16:54:34.000Z",
+          "totalCharge": null,
+          "totalHours": 67.5,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1675881995641118720",
+            "uid": "1675881995641118720",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016d6957b8bc5ecb80"
+          },
+          "contractorInfo": {
+            "contractorName": "Nikki M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0160cffc473a6bf1c5"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-17T00:00:00.000Z",
+          "endDate": "2023-07-10T11:58:04.000Z",
+          "totalCharge": null,
+          "totalHours": 300.666667,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": "1641241663866818560",
+            "uid": "1641241663866818560",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01bb2e6940680d4a82"
+          },
+          "contractorInfo": {
+            "contractorName": "Reli R.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0141bd77417abb74d4"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great VA, attention to detail is superb and her communication skills are excellent. Her ability to understand and work in a tech environment is great. Would highly recommend her."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Topflight is such a great experience for me. The team is amazing. I can learn and grow there with new knowledge. The team is super helpful."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-01-15T01:17:29.000Z",
+          "endDate": "2023-02-27T15:56:43.000Z",
+          "totalCharge": null,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video scripting and videography",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Colin S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01526c111fb49e4d0d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 35.8160294117647,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 15,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 69.99,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

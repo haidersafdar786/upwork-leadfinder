@@ -1,0 +1,2025 @@
+{
+  "uid": "2079295287950424827",
+  "ciphertext": "~022079295287950424827",
+  "title": "WordPress Developer Needed to Build a Personalized Property Match System",
+  "url": "https://www.upwork.com/jobs/~022079295287950424827",
+  "scrapedAt": "2026-07-21T04:08:54.903Z",
+  "feed": {
+    "uid": "2079295287950424827",
+    "ciphertext": "~022079295287950424827",
+    "title": "<span class=\"highlight\">WordPress</span> <span class=\"highlight\">Developer</span> Needed to Build a Personalized Property Match System",
+    "description": "I have an existing <span class=\"highlight\">WordPress</span> real estate website and I’m looking for an experienced <span class=\"highlight\">WordPress</span> <span class=\"highlight\">developer</span> to build a custom feature called the Property Match System.\n\nThe feature will allow users to create a Property Profile (budget, bedrooms, parking, elevator, etc.) and automatically calculate a personalized Match Score for every property on the website.\n\nThis is not AI. It is a custom rule-based scoring system.\n\nA detailed Product Requirements Document (PRD) with the complete specifications will be provided before <span class=\"highlight\">development</span> begins.\n\nScope of Work\n\nThe project includes:\n\n* Build a Property Profile questionnaire\n* Save user preferences\n* Create the Match Score algorithm\n* Display Match Scores on property listing cards\n* Display Match Scores on property detail pages\n* Allow users to edit their Property Profile\n* Mobile responsive implementation\n* Clean, maintainable code\n\nRequirements\n\n* Strong <span class=\"highlight\">WordPress</span> <span class=\"highlight\">development</span> experience\n* PHP, MySQL, JavaScript\n* Experience building custom <span class=\"highlight\">WordPress</span> plugins\n* Experience integrating custom features into existing <span class=\"highlight\">WordPress</span> websites\n\nDeliverables\n\n* Fully working Property Match System\n* Clean, well-organized code\n* Responsive on desktop and mobile\n* Tested before delivery\n\nTo Apply\n\nPlease include:\n\n* Examples of similar <span class=\"highlight\">WordPress</span> projects\n* Your estimated timeline\n* Your fixed-price quote\n* Briefly explain how you would build this feature\n\nPlease begin your proposal with the <span class=\"highlight\">word</span> “Beyta” so I know you read the entire job posting.",
+    "createdOn": "2026-07-20T20:00:03.090Z",
+    "publishedOn": "2026-07-20T20:13:29.300Z",
+    "renewedOn": null,
+    "type": 1,
+    "durationLabel": "Less than 1 month",
+    "engagement": null,
+    "amount": {
+      "amount": 800
+    },
+    "client": {
+      "location": {
+        "country": "USA"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "109527.19",
+      "totalReviews": 39,
+      "totalFeedback": 4.93,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"4\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1110580741640015872",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress Development",
+        "prettyName": "WordPress Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364627995914247",
+        "parentSkillUid": null,
+        "prefLabel": "MySQL",
+        "prettyName": "MySQL",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274385",
+        "parentSkillUid": null,
+        "prefLabel": "PHP",
+        "prettyName": "PHP",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099312962416640",
+        "parentSkillUid": null,
+        "prefLabel": "REST API",
+        "prettyName": "REST API",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T20:00:03.090Z",
+        "publishTime": "2026-07-20T20:13:29.300Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "I have an existing WordPress real estate website and I’m looking for an experienced WordPress developer to build a custom feature called the Property Match System.\n\nThe feature will allow users to create a Property Profile (budget, bedrooms, parking, elevator, etc.) and automatically calculate a personalized Match Score for every property on the website.\n\nThis is not AI. It is a custom rule-based scoring system.\n\nA detailed Product Requirements Document (PRD) with the complete specifications will be provided before development begins.\n\nScope of Work\n\nThe project includes:\n\n* Build a Property Profile questionnaire\n* Save user preferences\n* Create the Match Score algorithm\n* Display Match Scores on property listing cards\n* Display Match Scores on property detail pages\n* Allow users to edit their Property Profile\n* Mobile responsive implementation\n* Clean, maintainable code\n\nRequirements\n\n* Strong WordPress development experience\n* PHP, MySQL, JavaScript\n* Experience building custom WordPress plugins\n* Experience integrating custom features into existing WordPress websites\n\nDeliverables\n\n* Fully working Property Match System\n* Clean, well-organized code\n* Responsive on desktop and mobile\n* Tested before delivery\n\nTo Apply\n\nPlease include:\n\n* Examples of similar WordPress projects\n* Your estimated timeline\n* Your fixed-price quote\n* Briefly explain how you would build this feature\n\nPlease begin your proposal with the word “Beyta” so I know you read the entire job posting.",
+        "info": {
+          "ciphertext": "~022079295287950424827",
+          "id": "2079295287950424827",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "WordPress Developer Needed to Build a Personalized Property Match System",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T20:00:03.090Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "996364627970748416",
+              "id": "996364627995914247",
+              "freeText": null,
+              "prefLabel": "MySQL",
+              "groupPrefLabel": "Databases",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099312962416640",
+              "freeText": null,
+              "prefLabel": "REST API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580741640015872",
+              "freeText": null,
+              "prefLabel": "WordPress Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "java script",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "html/css",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 800,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "ios_client_rjp",
+            "publishTime": "2026-07-20T20:13:29.300Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "AppleWebKit",
+            "device": "iPhone",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T22:32:17.175Z",
+          "totalApplicants": 94,
+          "totalHired": 1,
+          "totalInvitedToInterview": 7,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -14400000,
+          "countryTimezone": "America/New_York (UTC-04:00)",
+          "city": "miami",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 76,
+          "activeAssignmentsCount": 20,
+          "hoursCount": 9079.17,
+          "feedbackCount": 39,
+          "score": 4.93,
+          "totalJobsWithHires": 44,
+          "totalCharges": {
+            "amount": 109527.19
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1909300899809020081",
+          "isEDCReplicated": null,
+          "contractDate": "2025-04-07T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 47,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 10.124459614700463
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-30T15:15:04.383Z",
+          "endDate": null,
+          "totalCharge": 2109.99,
+          "totalHours": 40,
+          "jobInfo": {
+            "title": "SEO Migration for International B2B Website",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Andy W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c508e71549dba07a"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-18T17:43:15.193Z",
+          "endDate": null,
+          "totalCharge": 755,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "WordPress Developer Needed to Implement Figma Redesign on Existing Real Estate Website",
+            "id": "2033566763802818460",
+            "uid": "2033566763802818460",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022033566763802818460"
+          },
+          "contractorInfo": {
+            "contractorName": "Anoos S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e04a671fe3b8e035"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-10T17:15:02.697Z",
+          "endDate": null,
+          "totalCharge": 2031.24,
+          "totalHours": 320.833333,
+          "jobInfo": {
+            "title": "I need someone with access to hundreds of email accounts",
+            "id": "2025882534854248751",
+            "uid": "2025882534854248751",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022025882534854248751"
+          },
+          "contractorInfo": {
+            "contractorName": "Talha A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c0cb333e0c25d2a1"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-19T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 8253.58,
+          "totalHours": 885.666673,
+          "jobInfo": {
+            "title": "Documentation design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Shedd Chloe P.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0135164145ea53ecf7"
+          },
+          "rate": {
+            "amount": 9
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-15T20:16:15.712Z",
+          "endDate": null,
+          "totalCharge": 83.49,
+          "totalHours": 7,
+          "jobInfo": {
+            "title": "Experienced Pay Per Click (PPC) Advertising Manager Needed",
+            "id": "2011800546574403822",
+            "uid": "2011800546574403822",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022011800546574403822"
+          },
+          "contractorInfo": {
+            "contractorName": "Priyanka P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017ccbb88c9a8016c5"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-04T08:51:51.576Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Investigate and fix loading times on VPS server",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jenzeermon B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0127049d1e4204e4ef"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-10T11:32:08.010Z",
+          "endDate": null,
+          "totalCharge": 151.74,
+          "totalHours": 9,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Ravinder S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010202868204366cf6"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-10T10:16:17.124Z",
+          "endDate": null,
+          "totalCharge": 72.99,
+          "totalHours": 8.000001,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Anushka C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013c2f1bff930b9605"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-03T20:44:16.848Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Nimra U.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0148bc49a894100dae"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-30T12:13:27.280Z",
+          "endDate": null,
+          "totalCharge": 2214.99,
+          "totalHours": 60.000001,
+          "jobInfo": {
+            "title": "HVAC Documentation Specialist",
+            "id": "1974764298775158006",
+            "uid": "1974764298775158006",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021974764298775158006"
+          },
+          "contractorInfo": {
+            "contractorName": "Jabal E Noor U.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ff4610ee36e2959e"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-29T19:13:53.347Z",
+          "endDate": null,
+          "totalCharge": 30,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Zorana G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018a6a333e42a533da"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-26T17:59:02.489Z",
+          "endDate": null,
+          "totalCharge": 929.94,
+          "totalHours": 148.499999,
+          "jobInfo": {
+            "title": "Outsourcing Agent for IHG Hotel Data Collection",
+            "id": "1982492404274643263",
+            "uid": "1982492404274643263",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021982492404274643263"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b5dc24d7aea9211c"
+          },
+          "rate": {
+            "amount": 5.9
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-16T11:06:00.918Z",
+          "endDate": null,
+          "totalCharge": 28212.99,
+          "totalHours": 671.499997,
+          "jobInfo": {
+            "title": "HVAC Documentation Specialist",
+            "id": "1974764298775158006",
+            "uid": "1974764298775158006",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021974764298775158006"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Mahad M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013d60574231b7b7da"
+          },
+          "rate": {
+            "amount": 40
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-01T04:26:52.166Z",
+          "endDate": null,
+          "totalCharge": 933.99,
+          "totalHours": 40.500001,
+          "jobInfo": {
+            "title": "Convert AutoCAD DWG Drawings to Revit Families",
+            "id": "1961087382279104423",
+            "uid": "1961087382279104423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021961087382279104423"
+          },
+          "contractorInfo": {
+            "contractorName": "Dustin I.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bc8e36c835281763"
+          },
+          "rate": {
+            "amount": 22
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-05T14:01:48.295Z",
+          "endDate": null,
+          "totalCharge": 1200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Patent and Trademark Services",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Amit A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012651b9704e2f9f1d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-19T08:05:08.373Z",
+          "endDate": "2026-06-11T13:35:59.483Z",
+          "totalCharge": 2146.42,
+          "totalHours": 290.66667,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Sean Conroy P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a69228e6c993f13f"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Project is fun, learned a lot of things on design and structuring documents."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-28T18:01:35.086Z",
+          "endDate": "2026-06-03T14:57:09.910Z",
+          "totalCharge": 5675.89,
+          "totalHours": 830.166672,
+          "jobInfo": {
+            "title": "SEO Campaign for 23 small sites",
+            "id": "2014396665748632832",
+            "uid": "2014396665748632832",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022014396665748632832"
+          },
+          "contractorInfo": {
+            "contractorName": "Ashok K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0191610a224eb23242"
+          },
+          "rate": {
+            "amount": 6.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for your service on this contract."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client to work with. Clear instructions, excellent communication, and a smooth project experience. I would gladly work with them again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-16T16:06:06.996Z",
+          "endDate": "2026-06-03T14:56:25.484Z",
+          "totalCharge": 1841.19,
+          "totalHours": 436.000001,
+          "jobInfo": {
+            "title": "SEO Expert for brand transition",
+            "id": "2033544624940906396",
+            "uid": "2033544624940906396",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022033544624940906396"
+          },
+          "contractorInfo": {
+            "contractorName": "Sumit C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c3066a29f0ec6cff"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for your service on this contract."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-28T17:56:36.809Z",
+          "endDate": "2026-06-03T14:54:31.957Z",
+          "totalCharge": 5695.21,
+          "totalHours": 832.999994,
+          "jobInfo": {
+            "title": "seo campaign",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Pankaj S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011626a37334026f08"
+          },
+          "rate": {
+            "amount": 6.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for providing your services."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent client to work with. Clear requirements, great communication, and a professional approach throughout the project. Highly recommended."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-23T13:55:32.328Z",
+          "endDate": "2026-06-01T14:24:18.073Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Motion Design Expert Needed for Engaging Logo Animation",
+            "id": "2043971795678285470",
+            "uid": "2043971795678285470",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043971795678285470"
+          },
+          "contractorInfo": {
+            "contractorName": "Pavlo K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e532b332ea86bd55"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Lisa is a great client. Prompt payment and professional communication. Thank you for the opportunity!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-23T08:53:05.056Z",
+          "endDate": "2026-05-10T07:27:42.822Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Motion Design Expert Needed for Engaging Logo Animation",
+            "id": "2043971795678285470",
+            "uid": "2043971795678285470",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043971795678285470"
+          },
+          "contractorInfo": {
+            "contractorName": "Arslan A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0195e9b08b3c6920e9"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you! Project was completed to our satisfaction. It was really easy to work with Arslan!"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-27T15:35:25.286Z",
+          "endDate": "2026-05-04T10:51:05.950Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Motion Design Expert Needed for Engaging Logo Animation",
+            "id": "2043971795678285470",
+            "uid": "2043971795678285470",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043971795678285470"
+          },
+          "contractorInfo": {
+            "contractorName": "Olena T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016a3d157c62b4335e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was great working with Olena. She understood the project, took all feedback to make a finished project that matched the vision."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-23T09:55:35.334Z",
+          "endDate": "2026-05-04T09:59:07.155Z",
+          "totalCharge": 120,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Motion Design Expert Needed for Engaging Logo Animation",
+            "id": "2043971795678285470",
+            "uid": "2043971795678285470",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043971795678285470"
+          },
+          "contractorInfo": {
+            "contractorName": "Laila F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d51f8fa46817e5bd"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you Laila for a job well done!! Job was done quickly, correctly and very easily executed."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was such an amazing experience working on this project. The requirements were very clearly and this client was very cooperative. I enjoyed alot and I am happy that this was completed successfully . I look forward to doing more such tasks."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-28T10:31:43.314Z",
+          "endDate": "2026-04-28T10:38:32.912Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video Production for Trade Show Wall",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Aly M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011564dd9f22a01279"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for your work to deliver the finished product as requested."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-17T19:45:36.569Z",
+          "endDate": "2026-04-23T16:11:20.514Z",
+          "totalCharge": 345.99,
+          "totalHours": 53.333335,
+          "jobInfo": {
+            "title": "PDF and Graphics Editing & Design Specialist Needed",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mark John G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fcc4b61f08e3d727"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Mark was a pleasure to work with on our project. He helped create a range of images and PDFs, and consistently delivered high-quality work with great attention to details. He was always available, responsive, and brought a positive, can-do attitude to the collaboration. It was clear he genuinely cared about the final result and took pride in getting things just right. I’d happily work with him again and highly recommend him to others!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-19T09:55:36.802Z",
+          "endDate": "2026-04-21T14:52:44.796Z",
+          "totalCharge": 2787.83,
+          "totalHours": 48.833341,
+          "jobInfo": {
+            "title": "Server Migration and Setup",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Khemwika C.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011848cdb65a418ad2"
+          },
+          "rate": {
+            "amount": 55
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Delivered the full server migration and speed optimization across multiple sites. Thanks for the project, wishing you continued success."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-12T08:13:17.897Z",
+          "endDate": "2026-04-12T08:42:06.272Z",
+          "totalCharge": 2262.24,
+          "totalHours": 143,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Nazmul Hasan S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0175a68a2693a7e91d"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-01T00:38:46.991Z",
+          "endDate": "2026-03-25T21:07:11.949Z",
+          "totalCharge": 2401.21,
+          "totalHours": 325.333342,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Iqbal H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0163b5eee0ed558ec2"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Iqbal was professional and reliable. he consistently delivered thoughtful, high-quality work throughout his time with us. It was a pleasure to collaborate with Iqbal, and I highly recommend him for any future role."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a great experience."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-10T09:30:40.652Z",
+          "endDate": "2026-03-19T16:09:26.415Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Im looking for a graphic designer to put together a prototype for my website.",
+            "id": "2030684884855960516",
+            "uid": "2030684884855960516",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022030684884855960516"
+          },
+          "contractorInfo": {
+            "contractorName": "Dawood S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01726a284904c0e568"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Dawood was a pleasure to work with. He understand what needed to be done and got it done. Was easy to communicate with, looking forward to working with him in the future"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-08T09:47:22.905Z",
+          "endDate": "2026-03-11T00:07:30.419Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Project",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Amit A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012651b9704e2f9f1d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-02T01:18:02.539Z",
+          "endDate": "2026-03-05T00:06:43.900Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Logo Designer for Real Estate Platform Beyta",
+            "id": "1993313829791699656",
+            "uid": "1993313829791699656",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021993313829791699656"
+          },
+          "contractorInfo": {
+            "contractorName": "Faizan J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e71d432342cc0a92"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-25T09:33:39.495Z",
+          "endDate": "2026-02-26T00:56:07.459Z",
+          "totalCharge": 411.61,
+          "totalHours": 76.499999,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Sean Conroy P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a69228e6c993f13f"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-09T16:51:18.982Z",
+          "endDate": "2026-02-11T11:44:55.047Z",
+          "totalCharge": 1305,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UI/UX Redesign of Real Estate Website (WordPress + Elementor + RealHomes Theme)",
+            "id": "1942653093236341844",
+            "uid": "1942653093236341844",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021942653093236341844"
+          },
+          "contractorInfo": {
+            "contractorName": "Md Raihan R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01899566012e7f729e"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-17T18:57:40.108Z",
+          "endDate": "2026-01-26T08:09:21.878Z",
+          "totalCharge": 439.25,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Merge 2 brands into one with AI",
+            "id": "2012099583016212849",
+            "uid": "2012099583016212849",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022012099583016212849"
+          },
+          "contractorInfo": {
+            "contractorName": "Aly M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011564dd9f22a01279"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Another amazing video by Aly,\n\nHe is a great asset for anything video or design.\n\nI highly suggest working with him."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He's a great guy, he gets it when you put in the effort."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-27T00:00:00.000Z",
+          "endDate": "2026-01-20T16:58:17.466Z",
+          "totalCharge": 506.99,
+          "totalHours": 94.666668,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Iqbal H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0163b5eee0ed558ec2"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Love to work with."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-14T00:00:00.000Z",
+          "endDate": "2026-01-20T16:54:11.996Z",
+          "totalCharge": 120.24,
+          "totalHours": 21,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Sana R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01976d525f9a993daa"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-14T00:00:00.000Z",
+          "endDate": "2026-01-20T16:52:51.970Z",
+          "totalCharge": 188.49,
+          "totalHours": 34,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Ahsan R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ac32bc91768b9635"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-27T02:07:29.597Z",
+          "endDate": "2026-01-20T16:51:27.781Z",
+          "totalCharge": 771.25,
+          "totalHours": 144.999999,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Shedd Chloe P.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0135164145ea53ecf7"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-26T23:24:33.363Z",
+          "endDate": "2026-01-20T16:50:34.339Z",
+          "totalCharge": 1921,
+          "totalHours": 259.999998,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Shedd Chloe P.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0135164145ea53ecf7"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-03T17:02:18.921Z",
+          "endDate": "2026-01-16T09:44:38.275Z",
+          "totalCharge": 405.13,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video Production for Trade Show Wall",
+            "id": "1999187661072033426",
+            "uid": "1999187661072033426",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021999187661072033426"
+          },
+          "contractorInfo": {
+            "contractorName": "Aly M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011564dd9f22a01279"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "This guy is great. I highly recommend working with him on any design or video work!\nHe always delivers 5 stars"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He's great to work with."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-04T18:14:44.117Z",
+          "endDate": "2026-01-07T14:08:52.412Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Expert Needed for Custom Module Development",
+            "id": "1994048787014339640",
+            "uid": "1994048787014339640",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021994048787014339640"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Asim S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019016c13dd866d599"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He is a great freelancer and very quick to reply to any q's and always helpful.\n\nI highly suggest working with him"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-23T14:00:25.327Z",
+          "endDate": "2026-01-02T13:14:28.273Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video Production for Trade Show Wall",
+            "id": "1999187661072033426",
+            "uid": "1999187661072033426",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021999187661072033426"
+          },
+          "contractorInfo": {
+            "contractorName": "Aly M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011564dd9f22a01279"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "This guy is the Real deal. I can honestly say he is a gem on upwork\n\nSuper responsive and knows how to get you exactly what you need.\n\nWhether it's video creation or graphic design or anything else, he is a great guy to hire."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He was super friendly and cooperative."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-12T15:18:38.833Z",
+          "endDate": "2026-01-02T13:11:22.769Z",
+          "totalCharge": 394.69,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video Production for Trade Show Wall",
+            "id": "1999187661072033426",
+            "uid": "1999187661072033426",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021999187661072033426"
+          },
+          "contractorInfo": {
+            "contractorName": "Aly M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011564dd9f22a01279"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "This guy is amazing. Very responsive and a real talent for Ai videos"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "One of the best client I'm working with."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-06T13:40:10.836Z",
+          "endDate": "2025-12-30T06:47:20.391Z",
+          "totalCharge": 30,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Nazmul Hasan S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0175a68a2693a7e91d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I am extremely happy to work with him. His communication is excellent, and he is very professional and respectful. I would highly recommend him to everyone."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-15T14:51:07.385Z",
+          "endDate": "2025-12-22T14:48:41.746Z",
+          "totalCharge": 420,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Motion graphic animation explainer video for real estate website",
+            "id": "1965023519098086552",
+            "uid": "1965023519098086552",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021965023519098086552"
+          },
+          "contractorInfo": {
+            "contractorName": "Janberd C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01aa48bb5892dddf41"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-27T00:00:00.000Z",
+          "endDate": "2025-12-08T20:54:22.870Z",
+          "totalCharge": 280.37,
+          "totalHours": 51.5,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Bakhtawar H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01916e22276652bb04"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.4,
+            "comment": "The client initially mentioned a long-term (2-month) contract, but it was ended after just one month. Clear communication about duration could have been better."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-27T00:00:00.000Z",
+          "endDate": "2025-11-18T17:51:00.190Z",
+          "totalCharge": 195.48,
+          "totalHours": 35.333334,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Esraa A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bbea1f73f6d6cf7a"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "The client was friendly and responsive, providing all the project details, but unexpectedly terminated the contract."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-07T12:27:55.335Z",
+          "endDate": "2025-11-10T10:32:05.274Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Graphic Designer Needed for Ongoing Projects",
+            "id": "1982489255182240106",
+            "uid": "1982489255182240106",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021982489255182240106"
+          },
+          "contractorInfo": {
+            "contractorName": "Anushka C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013c2f1bff930b9605"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-27T00:00:00.000Z",
+          "endDate": "2025-11-03T20:54:21.112Z",
+          "totalCharge": 57.24,
+          "totalHours": 9,
+          "jobInfo": {
+            "title": "Google Docs Layout and Formatting Specialist",
+            "id": "1979872345600264423",
+            "uid": "1979872345600264423",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021979872345600264423"
+          },
+          "contractorInfo": {
+            "contractorName": "Nikita C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01732fa3b2b9dc3b7d"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "I had shared my availability about the project but things didnt match"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-27T12:25:54.638Z",
+          "endDate": "2025-07-16T16:53:03.601Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "WordPress Website Fix and Optimization",
+            "id": "1938572746027386605",
+            "uid": "1938572746027386605",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021938572746027386605"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Azhar T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b93077015d6749a6"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "The best Ecommerce wordpress dev on upwork or fiverr."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you!!!"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 863.1957671957673,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 200,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 3000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [],
+  "pastJobsText": [
+    {
+      "ciphertext": "~022033566763802818460",
+      "title": "WordPress Developer Needed to Implement Figma Redesign on Existing Real Estate Website",
+      "description": "Project Overview We have an existing real estate website built on WordPress that is already live. Website:https://beyta.com A designer recently created a new layout and design improvements in Figma, including new sections, updated wording, and layout changes across several pages. Figma design:https://www.figma.com/design/wmax2cWAB1wezvOonh7iGX/Beyta We are looking for an experienced WordPress developer who can implement these design updates on the existing website, both frontend and any backend adjustments needed. The goal is not to rebuild the website, but to apply the new design from Figma to the current WordPress system. Scope of Work • Review the current website and existing WordPress setup• Review the Figma redesign• Implement the updated layout and sections• Update page templates to match the new design• Ensure responsive design (desktop, tablet, mobile)• Maintain existing functionality of the site• Make any necessary backend adjustments if required Requirements We are looking for someone who: • Has strong WordPress development experience• Has experience converting Figma designs into live WordPress websites• Is comfortable working on an existing WordPress codebase• Writes clean, maintainable code• Has good communication and can provide realistic timelines Frontend and Backend Implementation This project requires both frontend and backend implementation. The developer must ensure that the design is not only visually implemented but also fully functional within the WordPress system. This includes ensuring that: • All buttons, links, and interactive elements work correctly • Forms and actions function properly • Dynamic elements connect correctly to the WordPress backend • Existing functionality continues to work correctly The final result should be a fully working website implementation, not only visual styling. While the design implementation is important, maintaining and improving the functionality of the website is one of the most critical aspects of this project. When applying please include: Examples of WordPress websites where you implemented a Figma design A short explanation of how you would approach implementing this redesign Your estimated timeline for completing a project like this Important This is not a basic landing page project.The website already exists and includes many components, so the developer must be comfortable working within an existing WordPress environment.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~022025882534854248751",
+      "title": "I need someone with access to hundreds of email accounts",
+      "description": "Mark was a pleasure to work with on our project. He helped create a range of images and PDFs, and consistently delivered high-quality work with great attention to details. He was always available, responsive, and brought a positive, can-do attitude to the collaboration. It was clear he genuinely cared about the final result and took pride in getting things just right. I’d happily work with him again and highly recommend him to others!",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~022011800546574403822",
+      "title": "Experienced Pay Per Click (PPC) Advertising Manager Needed",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":6,\"description\":\"We are seeking a skilled Pay Per Click Advertising Manager to oversee and optimize our PPC campaigns. The ideal candidate will have a proven track record of driving traffic and increasing ROI through targeted advertising strategies. You will be responsible for managing budgets, conducting keyword research, and analyzing campaign performance. If you are passionate about digital marketing and have experience with various PPC platforms, we want to hear from you!\",\"editedDescription\":\"We are seeking a skilled Pay Per Click Advertising Manager to oversee and optimize our PPC campaigns. The ideal candidate will have a proven track record of driving traffic and increasing ROI through targeted advertising strategies. You will be responsible for managing budgets, conducting keyword research, and analyzing campaign performance. If you are passionate about digital marketing and have experience with various PPC platforms, we want to hear from you!\",\"similarityScore\":1}]",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021982489255182240106",
+      "title": "Expert Graphic Designer Needed for Ongoing Projects",
+      "description": "Mark was a pleasure to work with on our project. He helped create a range of images and PDFs, and consistently delivered high-quality work with great attention to details. He was always available, responsive, and brought a positive, can-do attitude to the collaboration. It was clear he genuinely cared about the final result and took pride in getting things just right. I’d happily work with him again and highly recommend him to others!",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021999187661072033426",
+      "title": "Video Production for Trade Show Wall",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":6,\"description\":\"We are seeking a talented video producer to create high-quality video content for our trade show wall. The video should be engaging and visually appealing, showcasing our brand and products effectively. The ideal candidate will have experience in creating promotional videos and a strong portfolio demonstrating their skills. Attention to detail and the ability to meet deadlines are essential. If you have a creative flair and the technical skills to deliver captivating video content, we would love to hear from you!\",\"editedDescription\":\"We are seeking a talented video producer to create high-quality video content for our trade show wall. The video should be engaging and visually appealing, showcasing our brand and products effectively. The ideal candidate will have experience in creating promotional videos and a strong portfolio demonstrating their skills. Attention to detail and the ability to meet deadlines are essential. If you have a creative flair and the technical skills to deliver captivating video content, we would love to hear from you!\\n\\nHere is a quick storyboard and script I put together\\nhttps://docs.google.com/document/d/1l6BH50FJfJoexiZ9O-2iBuC0AlvwAt426CWT87zaFVw/edit?tab=t.0\",\"similarityScore\":0.8662041625371655}]",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021994048787014339640",
+      "title": "AI Expert Needed for Custom Module Development",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":6,\"description\":\"We are seeking an AI expert to assist in selecting the best AI technologies suitable for our company’s needs. You will also be responsible for developing custom modules that integrate seamlessly with our existing systems. This role requires a deep understanding of various AI frameworks and the ability to tailor solutions that enhance our operational efficiency. If you have a strong background in AI application and development, we would love to hear from you.\",\"editedDescription\":\"We are seeking an AI expert to assist in selecting the best AI technologies suitable for our company’s needs. You will also be responsible for developing custom modules that integrate seamlessly with our existing systems. This role requires a deep understanding of various AI frameworks and the ability to tailor solutions that enhance our operational efficiency. If you have a strong background in AI application and development, we would love to hear from you.\",\"similarityScore\":1}]",
+      "attachments": []
+    }
+  ]
+}

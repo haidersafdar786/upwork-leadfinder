@@ -1,0 +1,23 @@
+{
+  "name": "upwho",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npm run check:types && npm run check:runtime",
+    "check:types": "tsc -p tsconfig.json",
+    "check:runtime": "node --experimental-strip-types src/job-replay.ts",
+    "test:identity": "node --experimental-strip-types test/identity.mjs",
+    "test:reviews": "node --experimental-strip-types test/reviews.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "playwright": "1.62.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}

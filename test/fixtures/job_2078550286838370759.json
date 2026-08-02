@@ -1,0 +1,820 @@
+{
+  "uid": "2078550286838370759",
+  "ciphertext": "~022078550286838370759",
+  "title": "Long-term React/TypeScript Developer",
+  "url": "https://www.upwork.com/jobs/~022078550286838370759",
+  "scrapedAt": "2026-07-20T08:46:49.921Z",
+  "feed": {
+    "uid": "2078550286838370759",
+    "ciphertext": "~022078550286838370759",
+    "title": "Long-term <span class=\"highlight\">React</span>/TypeScript <span class=\"highlight\">Developer</span>",
+    "description": "We are seeking a dedicated <span class=\"highlight\">developer</span> to join ShynexAI (https://shynex.ai/) as an early team member. The role involves building and maintaining our web application using <span class=\"highlight\">React</span> and TypeScript. The ideal candidate will have experience in frontend <span class=\"highlight\">development</span> and be able to work independently. This is a long-term position with opportunities for growth as the company expands. Native-level English proficiency is essential.",
+    "createdOn": "2026-07-18T18:39:41.030Z",
+    "publishedOn": "2026-07-18T18:44:06.355Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "More than 6 months",
+    "engagement": "usnuxt_Engagement_421.fullTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "2127.49",
+      "totalReviews": 9,
+      "totalFeedback": 4.66,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"9\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.10to15",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626773660942336",
+        "parentSkillUid": null,
+        "prefLabel": "React",
+        "prettyName": "React",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762999021568",
+        "parentSkillUid": null,
+        "prefLabel": "Node.js",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274389",
+        "parentSkillUid": null,
+        "prefLabel": "TypeScript",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 5,
+      "max": 20
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-18T18:39:41.030Z",
+        "publishTime": "2026-07-18T18:44:06.355Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "We are seeking a dedicated developer to join ShynexAI (https://shynex.ai/) as an early team member. The role involves building and maintaining our web application using React and TypeScript. The ideal candidate will have experience in frontend development and be able to work independently. This is a long-term position with opportunities for growth as the company expands. Native-level English proficiency is essential.",
+        "info": {
+          "ciphertext": "~022078550286838370759",
+          "id": "2078550286838370759",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Long-term React/TypeScript Developer",
+          "hideBudget": false,
+          "createdOn": "2026-07-18T18:39:41.030Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:frontenddevelopment",
+            "prefLabel": "Front-End Development",
+            "id": "1110580755057594368",
+            "uid": "1110580755057594368"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578271875072",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Front-End Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Native English",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-18T18:44:06.355Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "generatedInputsAIv2": "{\"title\":\"Long-term React/TypeScript Developer\",\"skills\":[{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"996364628012691466\"}],\"scope\":{\"duration\":\"474250516458926080\",\"segmentation\":\"1136971402914283520\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":30}}",
+            "jpgV2Prompt": "We are looking for a long-term developer to join the startup ShynexAI  as an early team member and grow with us. React, TypeScript main",
+            "generate_prompt": "We are looking for a long-term developer to join the startup ShynexAI  as an early team member and grow with us. React, TypeScript main",
+            "browser": "Chrome",
+            "device": "Windows",
+            "startTimeJobPostFlowAIv2": "1784399641326",
+            "retriesAIv2": "1",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":10,\"description\":\"We are seeking a dedicated developer to join ShynexAI as an early team member. The role involves building and maintaining our web application using React and TypeScript. The ideal candidate will have experience in frontend development and be able to work independently. This is a long-term position with opportunities for growth as the company expands.\",\"editedDescription\":\"We are seeking a dedicated developer to join ShynexAI as an early team member. The role involves building and maintaining our web application using React and TypeScript. The ideal candidate will have experience in frontend development and be able to work independently. This is a long-term position with opportunities for growth as the company expands.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 5,
+          "hourlyBudgetMax": 20,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T20:20:14.709Z",
+          "totalApplicants": 10,
+          "totalHired": 0,
+          "totalInvitedToInterview": 2,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "NATIVE",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Please share a 2-3 minute self-introduction via Loom Video.",
+          "position": 0
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "Decatur",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 17,
+          "activeAssignmentsCount": 3,
+          "hoursCount": 31.83,
+          "feedbackCount": 9,
+          "score": 4.66,
+          "totalJobsWithHires": 14,
+          "totalCharges": {
+            "amount": 2127.49
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "2025379736798276010",
+          "isEDCReplicated": null,
+          "contractDate": "2026-02-22T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 5,
+          "postedCount": 25,
+          "openJobs": [
+            {
+              "id": "2076370980979294419",
+              "uid": "2076370980979294419",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076370980979294419",
+              "title": "API Credentials, LLM Endpoint Confirmation, and System Optimization",
+              "type": "FIXED"
+            },
+            {
+              "id": "2070873189959962575",
+              "uid": "2070873189959962575",
+              "isPtcPrivate": false,
+              "ciphertext": "~022070873189959962575",
+              "title": "Shopify + ShipStation API Integration Expert Needed (Checkout Shipping Rates Issue)",
+              "type": "FIXED"
+            },
+            {
+              "id": "2059414710990925038",
+              "uid": "2059414710990925038",
+              "isPtcPrivate": false,
+              "ciphertext": "~022059414710990925038",
+              "title": "Electrical Engineer - CAD Design and Revision Specialist",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2053236227461032370",
+              "uid": "2053236227461032370",
+              "isPtcPrivate": false,
+              "ciphertext": "~022053236227461032370",
+              "title": "Customer Feedback and Service Improvement",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 24.31134150172793
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-16T18:17:49.473Z",
+          "endDate": null,
+          "totalCharge": 443.12,
+          "totalHours": 16.5,
+          "jobInfo": {
+            "title": "3D LiDAR Developer",
+            "id": "2044840066904803753",
+            "uid": "2044840066904803753",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022044840066904803753"
+          },
+          "contractorInfo": {
+            "contractorName": "Arslan k.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01edffded3879849dc"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-13T23:53:34.068Z",
+          "endDate": null,
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Senior Embedded Engineer",
+            "id": "2042074744684418806",
+            "uid": "2042074744684418806",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022042074744684418806"
+          },
+          "contractorInfo": {
+            "contractorName": "Hamza R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d4edcb0979716a9d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-13T20:01:36.800Z",
+          "endDate": "2026-07-16T14:14:47.217Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "API Credentials, LLM Endpoint Confirmation, and System Optimization",
+            "id": "2076370980979294419",
+            "uid": "2076370980979294419",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022076370980979294419"
+          },
+          "contractorInfo": {
+            "contractorName": "James S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b2139e0ac19f96eb"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Enjoyed working with James."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-27T14:05:05.496Z",
+          "endDate": "2026-06-22T16:09:02.724Z",
+          "totalCharge": 240,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Electrical Engineer - CAD Design and Revision Specialist",
+            "id": "2059414710990925038",
+            "uid": "2059414710990925038",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022059414710990925038"
+          },
+          "contractorInfo": {
+            "contractorName": "Bilal H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a81e6d004668daca"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank  you."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-19T13:56:02.625Z",
+          "endDate": "2026-05-20T19:38:45.363Z",
+          "totalCharge": 85,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Distributed Library Database System Simulation",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Norayr G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01a71e55d5a8a5b6aa"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Norayr has been an incredible source of support throughout this project, which captured my interest from the very beginning. He shared samples with me, which I truly appreciated.\n\nFrom our very first conversations, he demonstrated an impressive depth of knowledge, providing clear workflows and solutions tailored to the specific needs of my project.\n\nCommunication was smooth and consistent throughout the entire process, and all deliverables were provided on time, allowing me to successfully launch the MVP.\n\nThe system and development work flawlessly, with all the necessary tools, APIs, and technologies perfectly integrated and coordinated. From the start, Norayr guided me through every stage, helping me stay organized and clearly explaining what was needed from my side and how to proceed.\n\nWorking with him has been an exceptional experience that exceeded my expectations, both in terms of the quality of the work and the professionalism with which the entire process was managed.\n\nWithout a doubt, I’ve found a true professional. His name is Norayr, and I will absolutely work with him again on future implementations and new projects."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent!!!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-18T17:29:47.968Z",
+          "endDate": "2026-05-20T17:47:28.508Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Build AI-Based Lead Scoring Model Using HubSpot CRM Data",
+            "id": "2056035960447378077",
+            "uid": "2056035960447378077",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022056035960447378077"
+          },
+          "contractorInfo": {
+            "contractorName": "Petyo U.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~017c9967da4921735a"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Strongly recommend. Everything was handled quickly and professionally."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Really enjoyed working with Amy. Communication was easy and clear the whole time and feedback was thoughtful and quick. The project was well organized and straightforward from start to finish."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-12T04:31:38.280Z",
+          "endDate": "2026-05-18T03:00:27.394Z",
+          "totalCharge": 0,
+          "totalHours": 2.333333,
+          "jobInfo": {
+            "title": "Schematic Creation and Control Panel Design",
+            "id": "2053985558271938263",
+            "uid": "2053985558271938263",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022053985558271938263"
+          },
+          "contractorInfo": {
+            "contractorName": "Azmat A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e7100ad1e2ecc65d"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-08T12:31:55.220Z",
+          "endDate": "2026-05-12T00:03:14.441Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Fix our OpenAI lead automation workflow",
+            "id": "2052158354245417068",
+            "uid": "2052158354245417068",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022052158354245417068"
+          },
+          "contractorInfo": {
+            "contractorName": "Wesley P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bc04a2ee1c248496"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a great pleasure working with him."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Amy was great to work with. Clear communication, fast responses, and the scope was explained well. She provided the details needed to review the lead workflow and was responsive during the delivery/review process.\n\nI'd be happy to work with her again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-24T02:39:55.502Z",
+          "endDate": "2026-05-05T12:00:48.496Z",
+          "totalCharge": 240.99,
+          "totalHours": 7.333333,
+          "jobInfo": {
+            "title": "Full-Stack/AI Engineer for MVP Development",
+            "id": "2046557129223043674",
+            "uid": "2046557129223043674",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022046557129223043674"
+          },
+          "contractorInfo": {
+            "contractorName": "TOMOYUKI Y.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01705b7d8124b69016"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "TOMOYUKI was excellent to work with, an expert who clearly understands requirements, analysis and architecture. He was great in communication, and consistantly hit deadlines and milestones. I'd hire him again in a second."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great collaboration and communication on an MVP architecture project. The team was a pleasure to work with. Would love to have the chance to work together again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-08T15:40:58.561Z",
+          "endDate": "2026-04-09T18:58:39.388Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Senior AI Powered Full Stack Engineer Needed for Codebase / Technical Document Review",
+            "id": "2040973105847960295",
+            "uid": "2040973105847960295",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022040973105847960295"
+          },
+          "contractorInfo": {
+            "contractorName": "Mohammed W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018114cc1ce3180209"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you, Mohammed!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Awesome client!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-27T18:41:43.434Z",
+          "endDate": "2026-04-06T00:58:30.187Z",
+          "totalCharge": 128.99,
+          "totalHours": 5.666667,
+          "jobInfo": {
+            "title": "Blockchain Developer-(Testnet)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Chibueze A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013f151b09b43b539e"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": "Client was communicative and clear during the project phase. However, they went unresponsive mid-handoff without notice and ended the contract abruptly. Work was fully delivered and agreed upon,  just a rough close-out experience."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-20T17:23:57.479Z",
+          "endDate": "2026-03-27T03:37:36.730Z",
+          "totalCharge": 120,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "App Code Debugging Needed",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Oleksandr L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018f69332b1854aa7d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was excellent work. Although there was an issue with Upwork’s payment system that caused some inconvenience, I am 100% satisfied with Oleksandr’s work. I look forward to working with him again in the future. Thank you."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great experience working with Amy. She is proactive, easy to communicate with, and very effective at resolving questions and keeping the project on track. Everything was well-organized and smooth from start to finish. Highly recommend her as a client."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "4",
+              "clientPreferredLabel": "Native",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 15.045454545454545,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 20,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

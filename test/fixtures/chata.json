@@ -1,0 +1,613 @@
+{
+  "uid": "2078593086910939600",
+  "ciphertext": "~022078593086910939600",
+  "title": "Senior AI Full Stack Engineer for Cross-Platform AI Copilot (Desktop + Extension)",
+  "url": "https://www.upwork.com/jobs/~022078593086910939600",
+  "scrapedAt": "2026-07-19T21:10:39.571Z",
+  "feed": {
+    "uid": "2078593086910939600",
+    "title": "Senior AI Full Stack Engineer for Cross-Platform AI Copilot (Desktop + Extension)",
+    "ciphertext": "~022078593086910939600",
+    "description": "About the Project\n\nI'm building Chata, a next-generation AI conversation copilot that helps users communicate more effectively across messaging, email, and collaboration platforms.\n\nUnlike a traditional chatbot, Chata understands the conversation, remembers relationship history, retrieves relevant context, and suggests high-quality replies while keeping the user fully in control.\n\nThe product combines:\n\nAI conversation intelligence\nLong-term memory\nBrowser extensions\nDesktop applications\nMobile apps\nVoice AI\nVision AI\nCross-device synchronization\nModern SaaS architecture\n\nThis is a technically ambitious, long-term project, and I'm looking for a Senior Full Stack AI Engineer / Founding Engineer who can help architect and build the platform from the ground up.\n\nWhat You'll Build\n\nYou'll help design and implement a production-ready AI SaaS platform including:\n\nCross-platform desktop application (Electron or Tauri)\nBrowser Extension (Chrome, Edge, Firefox, Safari via Manifest V3)\nReact web application\nFastAPI backend\nAI orchestration layer\nReal-time conversation engine\nLong-term memory engine using embeddings and vector search\nSecure authentication and synchronization\nStreaming AI responses\nSubscription and billing system\nAnalytics and monitoring\nCore Features\n\nThe platform will include:\n\nAI reply suggestions\nContext-aware conversation understanding\nPer-contact memory\nRelationship intelligence\nTone selection\nGoal optimization\nWriting style adaptation\nVoice input/output\nScreenshot and image analysis\nConversation summaries\nSemantic search\nRAG pipeline\nCross-device synchronization\nRequired Technical Skills\n\nYou should have strong experience with most of the following:\n\nFrontend\nReact\nTypeScript\nTailwind CSS\nshadcn/ui\nBackend\nPython\nFastAPI\nPostgreSQL\nREST APIs\nWebSockets\nRedis\nAI\nOpenAI API\nAnthropic Claude API\nGemini API\nPrompt Engineering\nRAG\nEmbeddings\nVector Databases\nAI Memory Systems\nStreaming Responses\nDesktop\nElectron (preferred)\nTauri (bonus)\nBrowser Extensions\nManifest V3\nChrome Extensions\nFirefox Extensions\nSafari WebExtensions\nContent Scripts\nDOM Manipulation\nMutation Observers\nNative Messaging\nInfrastructure\nDocker\nGitHub Actions\nCI/CD\nSupabase\nAuthentication\nOAuth\nStripe\nNice-to-Have Skills\nReact Native\nExpo\nNeo4j\nPinecone\nChromaDB\nLangGraph\nLangChain\nWhisper\nElevenLabs\nSentry\nOpenTelemetry\nKubernetes\nWhat I'm Looking For\n\nI'm not looking for someone who simply follows instructions.\n\nI'm looking for someone who can:\n\nDesign scalable architectures\nMake sound engineering decisions\nWrite clean, maintainable code\nBuild production-quality software\nThink like a product engineer\nCommunicate proactively\nRecommend improvements rather than just implement tasks\n\nIf you enjoy solving difficult engineering challenges and building AI-native products, you'll likely be a great fit.\n\nProject Scope\n\nThis is expected to be a long-term engagement.\n\nPotential phases include:\n\nArchitecture\nMVP\nBeta\nPublic launch\nScaling\nEnterprise features\nOngoing improvements\nPlease Include in Your Proposal\n\nPlease answer the following:\n\nTell me about the most technically challenging AI product you've built.\nHave you built an Electron or Tauri desktop application? Please share examples.\nHave you developed and published a Chrome or Manifest V3 browser extension?\nHave you implemented RAG, embeddings, or vector databases? Which technologies did you use?\nHave you integrated OpenAI, Claude, or Gemini into a production application?\nIf you were architecting Chata, what technology stack would you choose and why?\nShare your GitHub, portfolio, or live products if available.\nImportant\n\nPlease do not apply if your experience is primarily limited to:\n\nWordPress\nShopify\nBasic CRUD applications\nLanding pages\nTemplate websites\n\nI'm looking for an engineer with experience building complex AI-powered SaaS platforms.\n\nBonus\n\nIf you've built products involving:\n\nAI copilots\nProductivity software\nMessaging tools\nBrowser extensions\nDesktop applications\nKnowledge management systems\nAI memory or RAG platforms\nDeveloper tools\n\nplease highlight those projects in your proposal.",
+    "type": 1,
+    "recno": "1026010426",
+    "freelancersToHire": 1,
+    "duration": "3 to 6 months",
+    "durationLabel": "3 to 6 months",
+    "engagement": null,
+    "amount": {
+      "amount": 50,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-18T21:29:45.334Z",
+    "publishedOn": "2026-07-18T21:33:54.639Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 3,
+      "totalSpent": 273.61,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "USA",
+        "city": "Torrance",
+        "state": "CA",
+        "countryTimezone": "Africa/Algiers",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784410452629",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628025274389",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1733104400580624384",
+        "prefLabel": "OpenAI API"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "996364628025274386",
+        "prefLabel": "Python"
+      },
+      {
+        "id": "1691099315655159809",
+        "prefLabel": "FastAPI"
+      },
+      {
+        "id": "1031626734515503104",
+        "prefLabel": "Electron"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "Browser Extension Development"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "996364628012691466",
+        "prefLabel": "React Native"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "10 to 15",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"28\"}",
+    "attrs": [
+      {
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1733104400580624384",
+        "prettyName": "OpenAI API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274386",
+        "prettyName": "Python",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099315655159809",
+        "prettyName": "FastAPI",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626734515503104",
+        "prettyName": "Electron",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "Browser Extension Development",
+        "freeText": "Browser Extension Development",
+        "skillType": null
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 29
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-18T21:29:45.334Z",
+        "publishTime": "2026-07-18T21:33:54.639Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "About the Project\n\nI'm building Chata, a next-generation AI conversation copilot that helps users communicate more effectively across messaging, email, and collaboration platforms.\n\nUnlike a traditional chatbot, Chata understands the conversation, remembers relationship history, retrieves relevant context, and suggests high-quality replies while keeping the user fully in control.\n\nThe product combines:\n\nAI conversation intelligence\nLong-term memory\nBrowser extensions\nDesktop applications\nMobile apps\nVoice AI\nVision AI\nCross-device synchronization\nModern SaaS architecture\n\nThis is a technically ambitious, long-term project, and I'm looking for a Senior Full Stack AI Engineer / Founding Engineer who can help architect and build the platform from the ground up.\n\nWhat You'll Build\n\nYou'll help design and implement a production-ready AI SaaS platform including:\n\nCross-platform desktop application (Electron or Tauri)\nBrowser Extension (Chrome, Edge, Firefox, Safari via Manifest V3)\nReact web application\nFastAPI backend\nAI orchestration layer\nReal-time conversation engine\nLong-term memory engine using embeddings and vector search\nSecure authentication and synchronization\nStreaming AI responses\nSubscription and billing system\nAnalytics and monitoring\nCore Features\n\nThe platform will include:\n\nAI reply suggestions\nContext-aware conversation understanding\nPer-contact memory\nRelationship intelligence\nTone selection\nGoal optimization\nWriting style adaptation\nVoice input/output\nScreenshot and image analysis\nConversation summaries\nSemantic search\nRAG pipeline\nCross-device synchronization\nRequired Technical Skills\n\nYou should have strong experience with most of the following:\n\nFrontend\nReact\nTypeScript\nTailwind CSS\nshadcn/ui\nBackend\nPython\nFastAPI\nPostgreSQL\nREST APIs\nWebSockets\nRedis\nAI\nOpenAI API\nAnthropic Claude API\nGemini API\nPrompt Engineering\nRAG\nEmbeddings\nVector Databases\nAI Memory Systems\nStreaming Responses\nDesktop\nElectron (preferred)\nTauri (bonus)\nBrowser Extensions\nManifest V3\nChrome Extensions\nFirefox Extensions\nSafari WebExtensions\nContent Scripts\nDOM Manipulation\nMutation Observers\nNative Messaging\nInfrastructure\nDocker\nGitHub Actions\nCI/CD\nSupabase\nAuthentication\nOAuth\nStripe\nNice-to-Have Skills\nReact Native\nExpo\nNeo4j\nPinecone\nChromaDB\nLangGraph\nLangChain\nWhisper\nElevenLabs\nSentry\nOpenTelemetry\nKubernetes\nWhat I'm Looking For\n\nI'm not looking for someone who simply follows instructions.\n\nI'm looking for someone who can:\n\nDesign scalable architectures\nMake sound engineering decisions\nWrite clean, maintainable code\nBuild production-quality software\nThink like a product engineer\nCommunicate proactively\nRecommend improvements rather than just implement tasks\n\nIf you enjoy solving difficult engineering challenges and building AI-native products, you'll likely be a great fit.\n\nProject Scope\n\nThis is expected to be a long-term engagement.\n\nPotential phases include:\n\nArchitecture\nMVP\nBeta\nPublic launch\nScaling\nEnterprise features\nOngoing improvements\nPlease Include in Your Proposal\n\nPlease answer the following:\n\nTell me about the most technically challenging AI product you've built.\nHave you built an Electron or Tauri desktop application? Please share examples.\nHave you developed and published a Chrome or Manifest V3 browser extension?\nHave you implemented RAG, embeddings, or vector databases? Which technologies did you use?\nHave you integrated OpenAI, Claude, or Gemini into a production application?\nIf you were architecting Chata, what technology stack would you choose and why?\nShare your GitHub, portfolio, or live products if available.\nImportant\n\nPlease do not apply if your experience is primarily limited to:\n\nWordPress\nShopify\nBasic CRUD applications\nLanding pages\nTemplate websites\n\nI'm looking for an engineer with experience building complex AI-powered SaaS platforms.\n\nBonus\n\nIf you've built products involving:\n\nAI copilots\nProductivity software\nMessaging tools\nBrowser extensions\nDesktop applications\nKnowledge management systems\nAI memory or RAG platforms\nDeveloper tools\n\nplease highlight those projects in your proposal.",
+        "info": {
+          "ciphertext": "~022078593086910939600",
+          "id": "2078593086910939600",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Senior AI Full Stack Engineer for Cross-Platform AI Copilot (Desktop + Extension)",
+          "hideBudget": false,
+          "createdOn": "2026-07-18T21:29:45.334Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1733104400580624384",
+              "freeText": null,
+              "prefLabel": "OpenAI API",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627970748416",
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "groupPrefLabel": "Databases",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099315655159809",
+              "freeText": null,
+              "prefLabel": "FastAPI",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626734515503104",
+              "freeText": null,
+              "prefLabel": "Electron",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Browser Extension Development",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 50,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-18T21:33:54.639Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-18T21:29:45.255Z",
+          "totalApplicants": 14,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Africa/Algiers (UTC+01:00)",
+          "city": "Torrance",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 3,
+          "activeAssignmentsCount": 1,
+          "hoursCount": 0,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 3,
+          "totalCharges": {
+            "amount": 273.61
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1800246038728970241",
+          "isEDCReplicated": null,
+          "contractDate": "2024-06-10T00:00:00.000Z",
+          "profile": {
+            "industry": "Education",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 12,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-10T05:25:53.441Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video Script Presenter/Actor/ Spokesperson Needed for Commercial",
+            "id": "1837039032349584735",
+            "uid": "1837039032349584735",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021837039032349584735"
+          },
+          "contractorInfo": {
+            "contractorName": "Kerby Joe G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011728a920e48c28bc"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-10T15:00:01.052Z",
+          "endDate": "2025-06-07T00:11:30.925Z",
+          "totalCharge": 61.61,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Professional WordPress Editor for Online Skill Acquisition Platform",
+            "id": "1887602417129246174",
+            "uid": "1887602417129246174",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021887602417129246174"
+          },
+          "contractorInfo": {
+            "contractorName": "yasir t.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010eab61fb1d3a6a34"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-22T21:58:03.928Z",
+          "endDate": "2024-12-06T22:17:14.524Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "No Code or Low Code Mobile app Developer",
+            "id": "1859946672650088306",
+            "uid": "1859946672650088306",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021859946672650088306"
+          },
+          "contractorInfo": {
+            "contractorName": "Mustapha O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0184f0fd33b505f45e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He is an exceptional human being, very good at what he does, prompt and pays attention to details, his prowess is exceptional and commendable. good communication skill and work ethic, it was nice working with you"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "great experience working with client"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 378.57142857142856,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 2700,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

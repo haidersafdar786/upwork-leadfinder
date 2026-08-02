@@ -1,0 +1,431 @@
+{
+  "uid": "2069113085871785282",
+  "ciphertext": "~022069113085871785282",
+  "title": "Full-Stack Developer needed for Real Estate Development Operating System",
+  "url": "https://www.upwork.com/jobs/~022069113085871785282",
+  "scrapedAt": "2026-07-19T21:18:18.754Z",
+  "feed": {
+    "uid": "2069113085871785282",
+    "ciphertext": "~022069113085871785282",
+    "title": "Full-Stack <span class=\"highlight\">Developer</span> needed for Real Estate <span class=\"highlight\">Development</span> Operating System",
+    "description": "We are building a Real Estate <span class=\"highlight\">Development</span> Operating System that helps <span class=\"highlight\">developers</span>, lenders, investors, and project teams manage the entire property <span class=\"highlight\">development</span> lifecycle from a single platform. The system will bring together project planning, design management, construction tracking, budgeting, financial modeling, sales operations, reporting, document management, approvals, and stakeholder collaboration into one centralized solution.\n\nWe are looking for a Full-Stack <span class=\"highlight\">Developer</span> with strong experience in <span class=\"highlight\">React</span>, Node.<span class=\"highlight\">js</span>, and PostgreSQL to help build, scale, and maintain the platform. You will be responsible for developing frontend features, backend services, APIs, and database architecture while ensuring performance, reliability, and scalability. The ideal candidate has experience building production applications, writing clean and maintainable code, designing efficient database structures, and working closely with product and engineering teams to deliver complex business functionality.\n\nExperience with SaaS products, enterprise software, workflow management systems, financial platforms, or real estate technology is highly valued. Familiarity with modern <span class=\"highlight\">development</span> practices, cloud deployments, third-party integrations, and AI-assisted <span class=\"highlight\">development</span> tools such as Cursor, Claude Code, or Codex is a plus.\n\nTo apply, please share links to applications you have built or contributed to, a brief description of your role in each project, and details of your experience with <span class=\"highlight\">React</span>, Node.<span class=\"highlight\">js</span>, and PostgreSQL.",
+    "createdOn": "2026-06-22T17:39:36.985Z",
+    "publishedOn": "2026-06-22T17:41:32.842Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "1 to 3 months",
+    "engagement": "usnuxt_Engagement_421.fullTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"26\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626773660942336",
+        "parentSkillUid": null,
+        "prefLabel": "React",
+        "prettyName": "React",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762999021568",
+        "parentSkillUid": null,
+        "prefLabel": "Node.js",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628025274385",
+        "parentSkillUid": null,
+        "prefLabel": "PHP",
+        "prettyName": "PHP",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628000108546",
+        "parentSkillUid": null,
+        "prefLabel": "PostgreSQL",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580737240190976",
+        "parentSkillUid": null,
+        "prefLabel": "Web Application",
+        "prettyName": "Web Application",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 15,
+      "max": 55
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-06-22T17:39:36.985Z",
+        "publishTime": "2026-06-22T17:41:32.842Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "We are building a Real Estate Development Operating System that helps developers, lenders, investors, and project teams manage the entire property development lifecycle from a single platform. The system will bring together project planning, design management, construction tracking, budgeting, financial modeling, sales operations, reporting, document management, approvals, and stakeholder collaboration into one centralized solution.\n\nWe are looking for a Full-Stack Developer with strong experience in React, Node.js, and PostgreSQL to help build, scale, and maintain the platform. You will be responsible for developing frontend features, backend services, APIs, and database architecture while ensuring performance, reliability, and scalability. The ideal candidate has experience building production applications, writing clean and maintainable code, designing efficient database structures, and working closely with product and engineering teams to deliver complex business functionality.\n\nExperience with SaaS products, enterprise software, workflow management systems, financial platforms, or real estate technology is highly valued. Familiarity with modern development practices, cloud deployments, third-party integrations, and AI-assisted development tools such as Cursor, Claude Code, or Codex is a plus.\n\nTo apply, please share links to applications you have built or contributed to, a brief description of your role in each project, and details of your experience with React, Node.js, and PostgreSQL.",
+        "info": {
+          "ciphertext": "~022069113085871785282",
+          "id": "2069113085871785282",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Full-Stack Developer needed for Real Estate Development Operating System",
+          "hideBudget": false,
+          "createdOn": "2026-06-22T17:39:36.985Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627970748416",
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "groupPrefLabel": "Databases",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1110580737240190976",
+              "freeText": null,
+              "prefLabel": "Web Application",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-06-22T17:41:32.842Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Full-Stack Developer (React, Node.js, PostgreSQL) – Real Estate Development Operating System",
+            "generatedInputsAIv2": "{\"title\":\"Full-Stack Developer for Real Estate\",\"skills\":[{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626795181916160\"}],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":35}}",
+            "generate_prompt": "Full-Stack Developer (React, Node.js, PostgreSQL) – Real Estate Development Operating System",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1782149821256",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"Join our team as a Full-Stack Developer to enhance our Real Estate Development Operating System. You'll work on the front-end using React and the back-end with Node.js, ensuring seamless integration with PostgreSQL. Collaborate with our team to improve user experience and system efficiency. This role requires a strong understanding of web development and a passion for real estate technology.\",\"editedDescription\":\"Join our team as a Full-Stack Developer to enhance our Real Estate Development Operating System. You'll work on the front-end using React and the back-end with Node.js, ensuring seamless integration with PostgreSQL. Collaborate with our team to improve user experience and system efficiency. This role requires a strong understanding of web development and a passion for real estate technology.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 15,
+          "hourlyBudgetMax": 55,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-06-23T16:46:03.184Z",
+          "totalApplicants": 198,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "California",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2066533011005186469",
+          "isEDCReplicated": null,
+          "contractDate": "2026-06-15T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 2,
+          "postedCount": 2,
+          "openJobs": [
+            {
+              "id": "2067263498206845131",
+              "uid": "2067263498206845131",
+              "isPtcPrivate": false,
+              "ciphertext": "~022067263498206845131",
+              "title": "AI Agent developer – Multi-Agent system Automation & LLM Orchestration Platform (Production Systems)",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 35.361304347826085,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 12,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 100,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

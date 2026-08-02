@@ -1,0 +1,629 @@
+{
+  "uid": "2078872271143680763",
+  "ciphertext": "~022078872271143680763",
+  "title": "Experienced React Native, Next.js and Firebase Developer or Agency to Complete Mobile Application",
+  "url": "https://www.upwork.com/jobs/~022078872271143680763",
+  "scrapedAt": "2026-07-20T15:01:48.692Z",
+  "feed": {
+    "uid": "2078872271143680763",
+    "title": "Experienced React Native, Next.js and Firebase Developer or Agency to Complete Mobile Application",
+    "ciphertext": "~022078872271143680763",
+    "description": "# Experienced React Native, Next.js and Firebase Developer / Agency Needed to Stabilise and Complete an Existing Mobile Application\n\n## Project overview\n\nWe are looking for an experienced senior developer or, preferably, a small development agency to take over, stabilise and complete an existing mobile and web application.\n\nDue to serious health circumstances affecting the person managing the current development agency, combined with the current team's limited senior-level capacity to fully stabilise the application, we are now looking for an experienced senior developer or small agency to take over and complete the project. The application is currently being worked on primarily by more junior developers, while at this stage we believe the project requires stronger senior-level technical oversight and experience.\n\nThe project has already been under development and includes a React Native mobile application for iOS and Android, a Next.js admin panel, Firebase services, AI integrations, voice functionality, scheduling and subscription-related features.\n\nThis is not a new project. The application and admin panel are already largely developed and the majority of the functionality is in place. The design has also been professionally completed, and the current designer remains available to support the project and continue developing any additional creative or design elements required.\n\nThe application itself is not a crypto or fintech product and does not involve the type of highly complex financial architecture associated with such applications. From a product perspective, most of the application already exists and is functional.\n\nThe main challenge is application stability. There are still recurring bugs and regression issues where changes or fixes made in one part of the application can sometimes affect previously working functionality elsewhere. One of the areas we expect the senior developer or agency to assess is whether parts of the application architecture or modules need to be better separated or decoupled to reduce dependencies and prevent changes in one area from unintentionally affecting other functionality.\n\nThis should be properly assessed and confirmed as part of the technical audit.\n\nThe current agency will continue working on the application during the transition and will provide full support with the handover, including explaining the existing implementation, answering technical questions and supporting the selected developer or agency in understanding the project.\n\nThe selected candidate will need to review the existing codebase, understand the current implementation, resolve outstanding issues, complete the remaining modules, improve application stability and prepare the product for final release.\n\nThe ideal candidate must be comfortable taking ownership of an existing project developed by another team.\n\nAfter launch, there may also be an opportunity for long-term cooperation covering application maintenance, bug fixing, technical support, administration panel management, investigation of user issues and requests, further product development and implementation of new features.\n\n## What we offer\n\nThis is an opportunity to work directly with a highly involved and hands-on founder on an interesting and ambitious product with the potential for long-term cooperation.\n\nThe founder has significant professional experience, is deeply involved in the development of the product and strongly believes in the project's long-term potential and success.\n\nFor the right developer or agency, the cooperation may continue beyond the initial stabilisation and launch phase into ongoing maintenance, technical support and further development of the application.\n\n## Most important requirement\n\nThe lead developer responsible for the project must have strong, senior-level React Native experience and be able to demonstrate real production experience.\n\nWe require at least one React Native mobile application that you personally developed, technically led or significantly contributed to and that is currently live on the App Store and/or Google Play.\n\nPlease provide direct links to these applications and briefly explain your exact role in each project.\n\nExperience maintaining a live application after launch is strongly preferred.\n\nIn addition to technical competence, responsibility, accountability and strong communication skills are extremely important to us. We are looking for someone who addresses problems openly rather than ignoring or hiding them, communicates risks and issues early, and takes ownership when something does not go according to plan.\n\n## Current technology stack\n\nThe project currently uses:\n\n* React Native for the iOS and Android mobile application\n* Next.js for the web-based admin panel\n* Firebase as the database and supporting application service\n* OpenAI API for AI chat and RAG-related functionality\n* ElevenLabs for voice and audio functionality\n* Vercel for web application deployment\n* Cron jobs for reminders, notifications and scheduled processes\n* Apple App Store and Google Play subscription systems\n* Git and GitHub for source-code management\n\nThe project also includes subscription entitlements, AI token-usage rules and integrations between the mobile application, Firebase, OpenAI and other third-party services.\n\n## Main responsibilities\n\nThe selected developer or agency will be expected to:\n\n1. Review and understand the existing mobile and web codebases.\n2. Conduct a technical audit of the current implementation.\n3. Identify bugs, incomplete modules, code-quality issues and technical risks.\n4. Resolve existing mobile application bugs and regression issues.\n5. Improve performance, loading behaviour and application stability.\n6. Correct UI alignment, spacing and design-consistency issues.\n7. Complete and test the iOS and Android subscription system.\n8. Verify subscription entitlements and AI token-usage logic.\n9. Review and complete the OpenAI API and RAG implementation.\n10. Review and complete the ElevenLabs voice integration.\n11. Review Firebase data structures, security rules and integrations.\n12. Review and complete the Next.js admin panel.\n13. Verify cron jobs, reminders and scheduled processes.\n14. Support App Store and Google Play testing and deployment.\n15. Perform complete regression testing before delivery.\n16. Prepare or update the required technical documentation.\n17. Communicate clearly about progress, risks, blockers and delivery estimates.\n18. Support further product development and implementation of new features after launch.\n\n## Required experience\n\nThe candidate must have strong practical experience with:\n\n* React Native CLI\n* TypeScript and JavaScript\n* Native iOS and Android integration\n* Existing or legacy React Native project debugging\n* Next.js\n* Firebase\n* OpenAI API integration\n* RAG-based chat systems\n* ElevenLabs or similar voice APIs\n* Apple in-app purchases\n* Google Play Billing\n* Subscription entitlement and token-management systems\n* App Store Connect\n* Google Play Console\n* Vercel deployment\n* Cron jobs and scheduled backend processes\n* Git and GitHub workflows\n* Mobile application testing and regression testing\n* Technical documentation and structured handovers\n\n**Experience with application stabilisation and taking over projects from another development team is essential.**\n\nThe selected developer or agency must be able to work with the existing technology stack of the application.\n\nFor a small agency, these competencies may be distributed across different team members, but the agency as a whole must be able to cover all required areas.\n\nAs the application will operate in the European market and process user data, the selected developer or agency should have a good technical understanding of data security, privacy, data flows and third-party integrations, and be able to support technical GDPR-related requirements where necessary.\n\n## Preferred candidate\n\nA small agency is preferred because the project requires experience across:\n\n* React Native mobile development\n* Next.js web development\n* Firebase and integrations\n* Subscription systems\n* AI and voice services\n* QA and regression testing\n* Deployment and release management\n\nA senior individual developer may also apply if they can demonstrate strong experience across all major areas and have the capacity to manage the complete project.\n\n## Communication and work ethic\n\nIn addition to strong technical skills, we are looking for someone who communicates openly and professionally.\n\nWe value people who:\n\n* communicate problems and risks early;\n* do not ignore, hide or minimise problems;\n* are honest about what they know and what they do not know;\n* take responsibility for their commitments;\n* communicate delays before deadlines are missed;\n* clearly communicate their availability;\n* inform us in advance about holidays or planned periods of unavailability;\n* inform us as soon as reasonably possible about unexpected unavailability;\n* do not disappear when problems occur.\n\nWe do not expect 24/7 availability. We do expect reliable and transparent communication.\n\n## Initial engagement process\n\nThe recruitment process will include:\n\n1. Review of the candidate’s profile, portfolio and relevant applications.\n2. Short answers to the application questions below.\n3. Technical interview with the current technical team.\n4. Review and testing of the latest IPA or application build.\n5. Discussion of the current architecture and remaining scope.\n6. Reference check with a previous or current client.\n7. Signing of an NDA and cooperation agreement.\n8. Repository access after formal selection.\n9. Independent code audit and technical assessment.\n10. Final timeline and cost estimate after reviewing the codebase.\n\nCandidates will not receive source-code access during the initial recruitment stage. Repository access will be provided only to the selected developer or agency after the required agreements have been signed.\n\n## Expected first deliverable\n\nAfter receiving repository access, the selected candidate should provide:\n\n* a technical audit report;\n* an assessment of the codebase;\n* a list of critical and non-critical issues;\n* an evaluation of completed and incomplete modules;\n* a recommended project recovery plan;\n* the required team structure;\n* a realistic cost estimate;\n* a realistic delivery timeline.\n\n## Questions for applicants\n\nPlease answer the following questions briefly in your proposal:\n\n1. How many production React Native apps have you developed or significantly contributed to? Please share App Store/Google Play links and briefly explain your exact role in each project.\n\n2. Can you provide one reference from a founder or client you worked with on a React Native app that is currently live? Ideally, you were involved in its development and launch; ongoing maintenance is a nice-to-have.\n\n3. Have you maintained or supported any live applications after launch?\n\n4. Have you previously taken over an application developed by another developer or agency?\n\n5. How do you normally approach auditing and onboarding onto an existing codebase?\n\n6. What experience do you have with Apple and Google subscription systems?\n\n7. Have you implemented subscription entitlements or AI token-usage limits?\n\n8. What experience do you have with Firebase and Next.js?\n\n9. Have you implemented OpenAI API or RAG-based chat functionality?\n\n10. Have you worked with ElevenLabs or another voice-generation API?\n\n11. How do you perform regression testing before sharing a build with a client?\n\n12. Who would work on this project, and what would each team member’s role be?\n\n13. How soon could you begin the initial technical audit?\n\n14. How do you communicate when you identify a risk or possible delivery delay?\n\n15. Please share your GitHub profile, company website and relevant portfolio.\n\n## Important\n\nPlease do not provide a final completion timeline before reviewing the codebase. Initial estimates are welcome, but the final timeline and cost should be confirmed after the technical audit.\n\nThe current development agency will support the project handover and will be available to explain the existing implementation and answer technical questions during the transition.",
+    "type": 2,
+    "recno": "1026017089",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "30+ hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T15:59:08.092Z",
+    "publishedOn": "2026-07-19T15:59:56.674Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 2,
+      "totalSpent": 3640,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "POL",
+        "city": "Józefosłąw",
+        "state": "",
+        "countryTimezone": "Europe/Berlin",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784476804069",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628025274389",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "996364628025274383",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "1052162209007587328",
+        "prefLabel": "Native App Development"
+      },
+      {
+        "id": "1733104400580624384",
+        "prefLabel": "OpenAI API"
+      },
+      {
+        "id": "996364628012691466",
+        "prefLabel": "React Native"
+      },
+      {
+        "id": "996364628012691465",
+        "prefLabel": "Firebase"
+      },
+      {
+        "id": "996364628025274376",
+        "prefLabel": "Android"
+      },
+      {
+        "id": "996364628025274377",
+        "prefLabel": "iOS"
+      },
+      {
+        "id": "1031626762688643072",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "1733104400605790212",
+        "prefLabel": "Vercel"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"26\"}",
+    "attrs": [
+      {
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162209007587328",
+        "prettyName": "Native App Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1733104400580624384",
+        "prettyName": "OpenAI API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628012691465",
+        "prettyName": "Firebase",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274376",
+        "prettyName": "Android",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274377",
+        "prettyName": "iOS",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1733104400605790212",
+        "prettyName": "Vercel",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 27
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T15:59:08.092Z",
+        "publishTime": "2026-07-19T15:59:56.674Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "# Experienced React Native, Next.js and Firebase Developer / Agency Needed to Stabilise and Complete an Existing Mobile Application\n\n## Project overview\n\nWe are looking for an experienced senior developer or, preferably, a small development agency to take over, stabilise and complete an existing mobile and web application.\n\nDue to serious health circumstances affecting the person managing the current development agency, combined with the current team's limited senior-level capacity to fully stabilise the application, we are now looking for an experienced senior developer or small agency to take over and complete the project. The application is currently being worked on primarily by more junior developers, while at this stage we believe the project requires stronger senior-level technical oversight and experience.\n\nThe project has already been under development and includes a React Native mobile application for iOS and Android, a Next.js admin panel, Firebase services, AI integrations, voice functionality, scheduling and subscription-related features.\n\nThis is not a new project. The application and admin panel are already largely developed and the majority of the functionality is in place. The design has also been professionally completed, and the current designer remains available to support the project and continue developing any additional creative or design elements required.\n\nThe application itself is not a crypto or fintech product and does not involve the type of highly complex financial architecture associated with such applications. From a product perspective, most of the application already exists and is functional.\n\nThe main challenge is application stability. There are still recurring bugs and regression issues where changes or fixes made in one part of the application can sometimes affect previously working functionality elsewhere. One of the areas we expect the senior developer or agency to assess is whether parts of the application architecture or modules need to be better separated or decoupled to reduce dependencies and prevent changes in one area from unintentionally affecting other functionality.\n\nThis should be properly assessed and confirmed as part of the technical audit.\n\nThe current agency will continue working on the application during the transition and will provide full support with the handover, including explaining the existing implementation, answering technical questions and supporting the selected developer or agency in understanding the project.\n\nThe selected candidate will need to review the existing codebase, understand the current implementation, resolve outstanding issues, complete the remaining modules, improve application stability and prepare the product for final release.\n\nThe ideal candidate must be comfortable taking ownership of an existing project developed by another team.\n\nAfter launch, there may also be an opportunity for long-term cooperation covering application maintenance, bug fixing, technical support, administration panel management, investigation of user issues and requests, further product development and implementation of new features.\n\n## What we offer\n\nThis is an opportunity to work directly with a highly involved and hands-on founder on an interesting and ambitious product with the potential for long-term cooperation.\n\nThe founder has significant professional experience, is deeply involved in the development of the product and strongly believes in the project's long-term potential and success.\n\nFor the right developer or agency, the cooperation may continue beyond the initial stabilisation and launch phase into ongoing maintenance, technical support and further development of the application.\n\n## Most important requirement\n\nThe lead developer responsible for the project must have strong, senior-level React Native experience and be able to demonstrate real production experience.\n\nWe require at least one React Native mobile application that you personally developed, technically led or significantly contributed to and that is currently live on the App Store and/or Google Play.\n\nPlease provide direct links to these applications and briefly explain your exact role in each project.\n\nExperience maintaining a live application after launch is strongly preferred.\n\nIn addition to technical competence, responsibility, accountability and strong communication skills are extremely important to us. We are looking for someone who addresses problems openly rather than ignoring or hiding them, communicates risks and issues early, and takes ownership when something does not go according to plan.\n\n## Current technology stack\n\nThe project currently uses:\n\n* React Native for the iOS and Android mobile application\n* Next.js for the web-based admin panel\n* Firebase as the database and supporting application service\n* OpenAI API for AI chat and RAG-related functionality\n* ElevenLabs for voice and audio functionality\n* Vercel for web application deployment\n* Cron jobs for reminders, notifications and scheduled processes\n* Apple App Store and Google Play subscription systems\n* Git and GitHub for source-code management\n\nThe project also includes subscription entitlements, AI token-usage rules and integrations between the mobile application, Firebase, OpenAI and other third-party services.\n\n## Main responsibilities\n\nThe selected developer or agency will be expected to:\n\n1. Review and understand the existing mobile and web codebases.\n2. Conduct a technical audit of the current implementation.\n3. Identify bugs, incomplete modules, code-quality issues and technical risks.\n4. Resolve existing mobile application bugs and regression issues.\n5. Improve performance, loading behaviour and application stability.\n6. Correct UI alignment, spacing and design-consistency issues.\n7. Complete and test the iOS and Android subscription system.\n8. Verify subscription entitlements and AI token-usage logic.\n9. Review and complete the OpenAI API and RAG implementation.\n10. Review and complete the ElevenLabs voice integration.\n11. Review Firebase data structures, security rules and integrations.\n12. Review and complete the Next.js admin panel.\n13. Verify cron jobs, reminders and scheduled processes.\n14. Support App Store and Google Play testing and deployment.\n15. Perform complete regression testing before delivery.\n16. Prepare or update the required technical documentation.\n17. Communicate clearly about progress, risks, blockers and delivery estimates.\n18. Support further product development and implementation of new features after launch.\n\n## Required experience\n\nThe candidate must have strong practical experience with:\n\n* React Native CLI\n* TypeScript and JavaScript\n* Native iOS and Android integration\n* Existing or legacy React Native project debugging\n* Next.js\n* Firebase\n* OpenAI API integration\n* RAG-based chat systems\n* ElevenLabs or similar voice APIs\n* Apple in-app purchases\n* Google Play Billing\n* Subscription entitlement and token-management systems\n* App Store Connect\n* Google Play Console\n* Vercel deployment\n* Cron jobs and scheduled backend processes\n* Git and GitHub workflows\n* Mobile application testing and regression testing\n* Technical documentation and structured handovers\n\n**Experience with application stabilisation and taking over projects from another development team is essential.**\n\nThe selected developer or agency must be able to work with the existing technology stack of the application.\n\nFor a small agency, these competencies may be distributed across different team members, but the agency as a whole must be able to cover all required areas.\n\nAs the application will operate in the European market and process user data, the selected developer or agency should have a good technical understanding of data security, privacy, data flows and third-party integrations, and be able to support technical GDPR-related requirements where necessary.\n\n## Preferred candidate\n\nA small agency is preferred because the project requires experience across:\n\n* React Native mobile development\n* Next.js web development\n* Firebase and integrations\n* Subscription systems\n* AI and voice services\n* QA and regression testing\n* Deployment and release management\n\nA senior individual developer may also apply if they can demonstrate strong experience across all major areas and have the capacity to manage the complete project.\n\n## Communication and work ethic\n\nIn addition to strong technical skills, we are looking for someone who communicates openly and professionally.\n\nWe value people who:\n\n* communicate problems and risks early;\n* do not ignore, hide or minimise problems;\n* are honest about what they know and what they do not know;\n* take responsibility for their commitments;\n* communicate delays before deadlines are missed;\n* clearly communicate their availability;\n* inform us in advance about holidays or planned periods of unavailability;\n* inform us as soon as reasonably possible about unexpected unavailability;\n* do not disappear when problems occur.\n\nWe do not expect 24/7 availability. We do expect reliable and transparent communication.\n\n## Initial engagement process\n\nThe recruitment process will include:\n\n1. Review of the candidate’s profile, portfolio and relevant applications.\n2. Short answers to the application questions below.\n3. Technical interview with the current technical team.\n4. Review and testing of the latest IPA or application build.\n5. Discussion of the current architecture and remaining scope.\n6. Reference check with a previous or current client.\n7. Signing of an NDA and cooperation agreement.\n8. Repository access after formal selection.\n9. Independent code audit and technical assessment.\n10. Final timeline and cost estimate after reviewing the codebase.\n\nCandidates will not receive source-code access during the initial recruitment stage. Repository access will be provided only to the selected developer or agency after the required agreements have been signed.\n\n## Expected first deliverable\n\nAfter receiving repository access, the selected candidate should provide:\n\n* a technical audit report;\n* an assessment of the codebase;\n* a list of critical and non-critical issues;\n* an evaluation of completed and incomplete modules;\n* a recommended project recovery plan;\n* the required team structure;\n* a realistic cost estimate;\n* a realistic delivery timeline.\n\n## Questions for applicants\n\nPlease answer the following questions briefly in your proposal:\n\n1. How many production React Native apps have you developed or significantly contributed to? Please share App Store/Google Play links and briefly explain your exact role in each project.\n\n2. Can you provide one reference from a founder or client you worked with on a React Native app that is currently live? Ideally, you were involved in its development and launch; ongoing maintenance is a nice-to-have.\n\n3. Have you maintained or supported any live applications after launch?\n\n4. Have you previously taken over an application developed by another developer or agency?\n\n5. How do you normally approach auditing and onboarding onto an existing codebase?\n\n6. What experience do you have with Apple and Google subscription systems?\n\n7. Have you implemented subscription entitlements or AI token-usage limits?\n\n8. What experience do you have with Firebase and Next.js?\n\n9. Have you implemented OpenAI API or RAG-based chat functionality?\n\n10. Have you worked with ElevenLabs or another voice-generation API?\n\n11. How do you perform regression testing before sharing a build with a client?\n\n12. Who would work on this project, and what would each team member’s role be?\n\n13. How soon could you begin the initial technical audit?\n\n14. How do you communicate when you identify a risk or possible delivery delay?\n\n15. Please share your GitHub profile, company website and relevant portfolio.\n\n## Important\n\nPlease do not provide a final completion timeline before reviewing the codebase. Initial estimates are welcome, but the final timeline and cost should be confirmed after the technical audit.\n\nThe current development agency will support the project handover and will be available to explain the existing implementation and answer technical questions during the transition.",
+        "info": {
+          "ciphertext": "~022078872271143680763",
+          "id": "2078872271143680763",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Experienced React Native, Next.js and Firebase Developer or Agency to Complete Mobile Application",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T15:59:08.092Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:mobileappdevelopment",
+            "prefLabel": "Mobile App Development",
+            "id": "996364627857502209",
+            "uid": "996364627857502209"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "996364627974942721",
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "groupPrefLabel": "Mobile Programming Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627974942721",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Mobile Programming Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1737190624499249155",
+              "id": "1052162209007587328",
+              "freeText": null,
+              "prefLabel": "Native App Development",
+              "groupPrefLabel": "Mobile App Dev Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627912028160",
+              "id": "1733104400580624384",
+              "freeText": null,
+              "prefLabel": "OpenAI API",
+              "groupPrefLabel": "Mobile App Dev Tools",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691465",
+              "freeText": null,
+              "prefLabel": "Firebase",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274376",
+              "freeText": null,
+              "prefLabel": "Android",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274377",
+              "freeText": null,
+              "prefLabel": "iOS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1733104400605790212",
+              "freeText": null,
+              "prefLabel": "Vercel",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Mobile Development",
+          "urlSlug": "mobile-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T15:59:56.674Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "urgency": "2",
+            "browser": "Safari",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T15:59:08.062Z",
+          "totalApplicants": 38,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 80,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "FLUENT",
+        "regions": null,
+        "risingTalent": true,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "AGENCY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "How many production React Native apps have you developed or significantly contributed to? Please share App Store/Google Play links and briefly explain your exact role in each project.",
+          "position": 0
+        },
+        {
+          "question": "Can you provide one reference from a founder or client you worked with on a React Native app that is currently live? Ideally, you were involved in its development and launch; ongoing maintenance is a nice-to-have.",
+          "position": 1
+        },
+        {
+          "question": "Have you maintained or supported any live applications after launch?",
+          "position": 2
+        },
+        {
+          "question": "Have you previously taken over an application developed by another developer or agency?",
+          "position": 3
+        },
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": "Józefosłąw",
+          "country": "POL"
+        },
+        "stats": {
+          "totalAssignments": 2,
+          "activeAssignmentsCount": 1,
+          "hoursCount": 0,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 2,
+          "totalCharges": {
+            "amount": 3640
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1927661771531771319",
+          "isEDCReplicated": null,
+          "contractDate": "2025-05-28T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 5,
+          "openJobs": [
+            {
+              "id": "2078873757280937483",
+              "uid": "2078873757280937483",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078873757280937483",
+              "title": "Experienced React Native, Next.js and Firebase Developer Needed to Complete Mobile Application",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2075950843300207761",
+              "uid": "2075950843300207761",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075950843300207761",
+              "title": "Senior Mobile App Developer / Technical Lead – iOS & Android | Work Ethics & Project Management",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-07T17:42:44.778Z",
+          "endDate": null,
+          "totalCharge": 3400,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Wellbeing app",
+            "id": "1927705879339906103",
+            "uid": "1927705879339906103",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021927705879339906103"
+          },
+          "contractorInfo": {
+            "contractorName": "Dawood S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01726a284904c0e568"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-28T03:42:58.579Z",
+          "endDate": "2025-12-02T09:31:50.180Z",
+          "totalCharge": 240,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Technical support for technical app",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Muddassir A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011467570663175910"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "agencies",
+              "clientPreferredLabel": "Agencies only",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "80",
+              "clientPreferredLabel": "At least 80%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "3",
+              "clientPreferredLabel": "Fluent",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "AT_LEAST_100",
+              "clientPreferredLabel": "At Least 100",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 50.07868421052632,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 804,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "996364627857502209",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Experienced React Native, Next.js and Firebase Developer Needed to Complete Mobile Application",
+      "ciphertext": "~022078873757280937483",
+      "description": "# Experienced React Native, Next.js and Firebase Developer Needed to Stabilise and Complete an Existing Mobile Application ## Project overview We are looking for an experienced senior developer or, preferably, a small development agency to take over, stabilise and complete an existing mobile and web application. Due to serious health circumstances affecting the person managing the current development agency, combined with the current team's limited senior-level capacity to fully stabilise the application, we are now looking for an experienced senior developer or small agency to take over and complete the project. The application is currently being worked on primarily by more junior developers, while at this stage we believe the project requires stronger senior-level technical oversight and experience. The project has already been under development and includes a React Native mobile application for iOS and Android, a Next.js admin panel, Firebase services, AI integrations, voice functionality, scheduling and subscription-related features. This is not a new project. The application and admin panel are already largely developed and the majority of the functionality is in place. The design has also been professionally completed, and the current designer remains available to support the project and continue developing any additional creative or design elements required. The application itself is not a crypto or fintech product and does not involve the type of highly complex financial architecture associated with such applications. From a product perspective, most of the application already exists and is functional. The main challenge is application stability. There are still recurring bugs and regression issues where changes or fixes made in one part of the application can sometimes affect previously working functionality elsewhere. One of the areas we expect the senior developer or agency to assess is whether parts of the application architecture or modules need to be better separated or decoupled to reduce dependencies and prevent changes in one area from unintentionally affecting other functionality. This should be properly assessed and confirmed as part of the technical audit. The current agency will continue working on the application during the transition and will provide full support with the handover, including explaining the existing implementation, answering technical questions and supporting the selected developer or agency in understanding the project. The selected candidate will need to review the existing codebase, understand the current implementation, resolve outstanding issues, complete the remaining modules, improve application stability and prepare the product for final release. The ideal candidate must be comfortable taking ownership of an existing project developed by another team. After launch, there may also be an opportunity for long-term cooperation covering application maintenance, bug fixing, technical support, administratio"
+    },
+    {
+      "title": "Senior Mobile App Developer / Technical Lead – iOS & Android | Work Ethics & Project Management",
+      "ciphertext": "~022075950843300207761",
+      "description": "# Experienced React Native, Next.js and Firebase Developer / Agency Needed to Stabilise and Complete an Existing Mobile Application ## Project overview We are looking for an experienced senior developer or, preferably, a small development agency to take over, stabilise and complete an existing mobile and web application. Due to serious health circumstances affecting the person managing the current development agency, combined with the current team's limited senior-level capacity to fully stabilise the application, we are now looking for an experienced senior developer or small agency to take over and complete the project. The application is currently being worked on primarily by more junior developers, while at this stage we believe the project requires stronger senior-level technical oversight and experience. The project has already been under development and includes a React Native mobile application for iOS and Android, a Next.js admin panel, Firebase services, AI integrations, voice functionality, scheduling and subscription-related features. This is not a new project. The application and admin panel are already largely developed and the majority of the functionality is in place. The design has also been professionally completed, and the current designer remains available to support the project and continue developing any additional creative or design elements required. The application itself is not a crypto or fintech product and does not involve the type of highly complex financial architecture associated with such applications. From a product perspective, most of the application already exists and is functional. The main challenge is application stability. There are still recurring bugs and regression issues where changes or fixes made in one part of the application can sometimes affect previously working functionality elsewhere. One of the areas we expect the senior developer or agency to assess is whether parts of the application architecture or modules need to be better separated or decoupled to reduce dependencies and prevent changes in one area from unintentionally affecting other functionality. This should be properly assessed and confirmed as part of the technical audit. The current agency will continue working on the application during the transition and will provide full support with the handover, including explaining the existing implementation, answering technical questions and supporting the selected developer or agency in understanding the project. The selected candidate will need to review the existing codebase, understand the current implementation, resolve outstanding issues, complete the remaining modules, improve application stability and prepare the product for final release. The ideal candidate must be comfortable taking ownership of an existing project developed by another team. After launch, there may also be an opportunity for long-term cooperation covering application maintenance, bug fixing, technical support, admi"
+    }
+  ]
+}

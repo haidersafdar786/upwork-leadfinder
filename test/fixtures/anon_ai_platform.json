@@ -1,0 +1,821 @@
+{
+  "uid": "2079117103233286608",
+  "ciphertext": "~022079117103233286608",
+  "title": "Full-Stack Developer with Front-end and Data Visualization Focus",
+  "url": "https://www.upwork.com/jobs/~022079117103233286608",
+  "scrapedAt": "2026-07-20T15:01:00.082Z",
+  "feed": {
+    "uid": "2079117103233286608",
+    "title": "Full-Stack Developer with Front-end and Data Visualization Focus",
+    "ciphertext": "~022079117103233286608",
+    "description": "We are looking for an experienced full-stack developer to help us build the next-gen AI platform that helps ambitious professionals learn and collaborate regarding important topics in their field.\n\nIdeal candidates will possess experience in both front-end and back-end development, as well as familiarity with integrating AI technologies. Additionally, this individual should have strong communication skills who can document their ideas effectively.  \n\nIf you are passionate about delivering innovative tech solutions and have a proven track record in full-stack development, we would love to hear from you.\n\nIf you are passionate about leveraging AI technologies, we want to hear from you!\n\nRelevant Skills:\n\n- Full-stack development, with experience building and delivering full-stack end-to-end projects\n- Leveraging AI APIs, vector search, RAG\n- Frontend Technologies (Vue, Typescript, Javascript, React)\n- Backend Technologies (Python)\n- Database Management (Postgres, SQL, NoSQL)\n- Understands API integrations and backend design patterns (e.g.,  email providers)\n- Data visualization frameworks (Shadcn, D3.js, Treemaps)\n- Docker\n- API Integration (Sendmail, Mailgun, etc.)\n- AWS cloud platform management and deployment",
+    "type": 2,
+    "recno": "1026023432",
+    "freelancersToHire": 1,
+    "duration": "More than 6 months",
+    "durationLabel": "More than 6 months",
+    "engagement": "30+ hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-20T08:12:00.629Z",
+    "publishedOn": "2026-07-20T08:14:49.263Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 7,
+      "totalSpent": 182749.22,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "USA",
+        "city": "San Francisco",
+        "state": "CA",
+        "countryTimezone": "America/Tijuana",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 2,
+      "totalFeedback": 3.86,
+      "hasFinancialPrivacy": false,
+      "topClient": true,
+      "lastRecruitingActivity": "2026-07-20T14:54:42.661Z",
+      "proposalReviewedAt": "2026-07-20T14:54:42.669Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784535293815",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626794477273088",
+        "prefLabel": "Vue.js"
+      },
+      {
+        "id": "1031626740031012864",
+        "prefLabel": "Front-End Development"
+      },
+      {
+        "id": "1031626729314566144",
+        "prefLabel": "D3.js"
+      },
+      {
+        "id": "1110580482322976768",
+        "prefLabel": "API"
+      },
+      {
+        "id": "996364628025274386",
+        "prefLabel": "Python"
+      },
+      {
+        "id": "996364628025274383",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "1110580482566246400",
+        "prefLabel": "API Integration"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "1052162208890146823",
+        "prefLabel": "Data Visualization"
+      },
+      {
+        "id": "1504884906003529728",
+        "prefLabel": "Interactive Data Visualization"
+      },
+      {
+        "id": "1052162208781094930",
+        "prefLabel": "Figma"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "Shadcn"
+      },
+      {
+        "id": "1031626728794472448",
+        "prefLabel": "CSS"
+      },
+      {
+        "id": "1031626745118703616",
+        "prefLabel": "HTML5"
+      },
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 20,
+      "max": 100
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"1\"}",
+    "attrs": [
+      {
+        "uid": "1031626794477273088",
+        "prettyName": "Vue.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626740031012864",
+        "prettyName": "Front-End Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626729314566144",
+        "prettyName": "D3.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580482322976768",
+        "prettyName": "API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274386",
+        "prettyName": "Python",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580482566246400",
+        "prettyName": "API Integration",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162208890146823",
+        "prettyName": "Data Visualization",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1504884906003529728",
+        "prettyName": "Interactive Data Visualization",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162208781094930",
+        "prettyName": "Figma",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "Shadcn",
+        "freeText": "Shadcn",
+        "skillType": null
+      },
+      {
+        "uid": "1031626728794472448",
+        "prettyName": "CSS",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626745118703616",
+        "prettyName": "HTML5",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "cjp_v1",
+        "contractToHireSet",
+        "searchable"
+      ]
+    },
+    "position": 2
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": true,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T08:12:00.629Z",
+        "publishTime": "2026-07-20T08:14:49.263Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "We are looking for an experienced full-stack developer to help us build the next-gen AI platform that helps ambitious professionals learn and collaborate regarding important topics in their field.\n\nIdeal candidates will possess experience in both front-end and back-end development, as well as familiarity with integrating AI technologies. Additionally, this individual should have strong communication skills who can document their ideas effectively.  \n\nIf you are passionate about delivering innovative tech solutions and have a proven track record in full-stack development, we would love to hear from you.\n\nIf you are passionate about leveraging AI technologies, we want to hear from you!\n\nRelevant Skills:\n\n- Full-stack development, with experience building and delivering full-stack end-to-end projects\n- Leveraging AI APIs, vector search, RAG\n- Frontend Technologies (Vue, Typescript, Javascript, React)\n- Backend Technologies (Python)\n- Database Management (Postgres, SQL, NoSQL)\n- Understands API integrations and backend design patterns (e.g.,  email providers)\n- Data visualization frameworks (Shadcn, D3.js, Treemaps)\n- Docker\n- API Integration (Sendmail, Mailgun, etc.)\n- AWS cloud platform management and deployment",
+        "info": {
+          "ciphertext": "~022079117103233286608",
+          "id": "2079117103233286608",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Full-Stack Developer with Front-end and Data Visualization Focus",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T08:12:00.629Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:frontenddevelopment",
+            "prefLabel": "Front-End Development",
+            "id": "1110580755057594368",
+            "uid": "1110580755057594368"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626794477273088",
+              "freeText": null,
+              "prefLabel": "Vue.js",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578196377600",
+              "id": "1031626740031012864",
+              "freeText": null,
+              "prefLabel": "Front-End Development",
+              "groupPrefLabel": "Front-End Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626729314566144",
+              "freeText": null,
+              "prefLabel": "D3.js",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1110580482322976768",
+              "freeText": null,
+              "prefLabel": "API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208890146823",
+              "freeText": null,
+              "prefLabel": "Data Visualization",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1504884906003529728",
+              "freeText": null,
+              "prefLabel": "Interactive Data Visualization",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208781094930",
+              "freeText": null,
+              "prefLabel": "Figma",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Shadcn",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745118703616",
+              "freeText": null,
+              "prefLabel": "HTML5",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T08:14:49.263Z",
+            "reuse": "2033670800228172915",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "cjp_v1",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 20,
+          "hourlyBudgetMax": 100,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T14:54:42.653Z",
+          "totalApplicants": 216,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 90,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "CONVERSATIONAL",
+        "regions": null,
+        "risingTalent": true,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "INDEPENDENT",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "We normally have stand-up and review meetings in the mornings 8am -11am PT hours. Would you be able to meet on a regular basis during these times?",
+          "position": 0
+        },
+        {
+          "question": "Describe your level of experience with the following tech stack:\nPython, Postgres, Typescript, Vue, React, SQL queries, ORM frameworks like Prisma and SQLAlchemy,  any web-based data visualization framework",
+          "position": 1
+        },
+        {
+          "question": "Describe in detail one technical problem you’ve solved that you are most proud of. \nWhat was the problem? \n\nWhat made it challenging?\n\nHow did you solve it?\n\nWhat was the impact?",
+          "position": 2
+        },
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 3
+        },
+        {
+          "question": "Describe your approach to testing and improving QA",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -25200000,
+          "countryTimezone": "America/Tijuana (UTC-07:00)",
+          "city": "San Francisco",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 7,
+          "activeAssignmentsCount": 3,
+          "hoursCount": 3815.5,
+          "feedbackCount": 2,
+          "score": 3.86,
+          "totalJobsWithHires": 6,
+          "totalCharges": {
+            "amount": 182749.22
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1914174277005450677",
+          "isEDCReplicated": null,
+          "contractDate": "2025-04-21T00:00:00.000Z",
+          "profile": {
+            "industry": "Tech & IT",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 10,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 46.62167474773948
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-21T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 13366,
+          "totalHours": 308.166668,
+          "jobInfo": {
+            "title": "Product Designer with UI/UX experience for early stage startup",
+            "id": "2041806260921073073",
+            "uid": "2041806260921073073",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022041806260921073073"
+          },
+          "contractorInfo": {
+            "contractorName": "Hyejeong-Judy H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a7f77d4f1479c144"
+          },
+          "rate": {
+            "amount": 45
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-24T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 70771.24,
+          "totalHours": 1347.833332,
+          "jobInfo": {
+            "title": "Experienced Full-Stack Developer Needed for AI Platform",
+            "id": "1959870663469632758",
+            "uid": "1959870663469632758",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021959870663469632758"
+          },
+          "contractorInfo": {
+            "contractorName": "Guilherme B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0198a760208f44cb7f"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-28T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 95559.99,
+          "totalHours": 2072.833337,
+          "jobInfo": {
+            "title": "UX Designer Needed for AI Education Web Application Mockups",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Wakana S.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 80
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-09T23:43:54.682Z",
+          "endDate": "2025-12-15T22:55:31.044Z",
+          "totalCharge": 375,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Logo Design for AI-Based News and Data Analytics Platform",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Heechae C.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "I tried to show good faith to Heechae by paying him 50% of his fees upfront immediately after he signed the contract. However, Heechae was consistently unprofessional in his conduct and made little effort to understand our project goals. He was late to our meetings and didn’t read the messages we sent to him (both in email and on Slack).\n\nHis sketches demonstrated his poor grasp of our project and revealed utterly little effort by him. \n\nWe tried to provide helpful feedback, and reiterated the direction that we had already discussed in our initial meeting with him. Instead of accepting this feedback in a positive way, he demanded more money in addition to what we already had agreed to. I felt like we were being taken advantage of by him and we mutually agreed to end the project. \n\nOverall, I wish I could get my time back."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": "From the start, the client had difficulty articulating their goals, preferences, or desired direction. When presented with options, feedback was consistently limited, without further clarification or actionable guidance.\n\nDespite repeated efforts to better understand the client’s vision, including providing a broader range of options than originally scoped, it was not possible to move the project forward productively.\n\nDue to communication challenges and frequent frustration during discussions, the working relationship was not a good fit."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-22T17:06:27.090Z",
+          "endDate": "2025-09-25T02:41:42.446Z",
+          "totalCharge": 1710.99,
+          "totalHours": 18,
+          "jobInfo": {
+            "title": "Python + React Full-Stack Dev – AI MVP with Clustering & Summaries",
+            "id": "1965469802822922479",
+            "uid": "1965469802822922479",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021965469802822922479"
+          },
+          "contractorInfo": {
+            "contractorName": "Joshua C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014e9b95b843647c8d"
+          },
+          "rate": {
+            "amount": 90
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.05,
+            "comment": "The client was polite and responsive, but the project lacked a clear plan which made it difficult to prioritize tasks. There was also a strong focus on daily micromanagement, including time tracking and frequent check-ins, which limited flexibility and productivity. With a more structured roadmap and trust in the developer’s process, future collaborations could run much smoother."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "individuals",
+              "clientPreferredLabel": "Freelancers only",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "90",
+              "clientPreferredLabel": "At least 90%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "2",
+              "clientPreferredLabel": "Conversational",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "AT_LEAST_10000",
+              "clientPreferredLabel": "At Least 10000",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 40.94590575010808,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8.88888888888889,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 100,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [],
+  "pastJobsText": [
+    {
+      "ciphertext": "~022041806260921073073",
+      "title": "Product Designer with UI/UX experience for early stage startup",
+      "description": "We’re looking for a talented product designer who would enjoy working in a dynamic, early-stage, and well-funded startup to build a new AI platform to improve user productivity. The ideal candidate will have strong experience creating intuitive, engaging UI. You'll collaborate closely with the CEO and development team to ensure that user needs are met. You’ll help define concrete product strategy based on user interviews and feedback. Typical daily tasks include: -Collaborating closely with CEO, developers, and users -Cultivating a keen sense of intellectual curiosity to find creative new approaches to solve problems -Translating complex concepts into simple but useful interfaces -Analyzing user flows, information architecture, and interaction design -Conducting end-to-end product design (UX to UI) -Recommending concrete product strategy based on user feedback -Working in fast-moving but sometimes ambiguous environments -Evaluating trade-offs based on constraints and sometimes incomplete information -Working with software design tools such as Figma or similar",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021959870663469632758",
+      "title": "Experienced Full-Stack Developer Needed for AI Platform",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":8,\"description\":\"We are seeking a talented full-stack developer to join our team in creating a cutting-edge AI platform designed to enhance productivity. The ideal candidate will have a proven track record in both front-end and back-end development, with a strong understanding of AI technologies. You will work closely with our product team to design and implement features that will drive our platform's success. If you are passionate about technology and looking to make a significant impact, we want to hear from you! \\n\\n**Relevant Skills:**\\n- Full-Stack Development\\n- AI and Machine Learning Integration\\n- JavaScript, HTML, CSS\\n- Node.js, React, or Angular\\n- API Development\\n- Database Management (SQL/NoSQL)\",\"editedDescription\":\"We are looking for an experienced full-stack developer (no agencies) to help us create the next-gen AI platform for productivity to help students, researchers, and professionals. \\n\\nOnce we build the initial phase, we may decide to hire other developers- front-end/back-end and this role may involve management.\\n\\nIdeal candidates will possess experience in both frontend and backend development, as well as familiarity with ML and AI technologies. If you are passionate about leveraging technology to improve user productivity and education, we want to hear from you! \\n\\n**Relevant Skills:** \\n- Full-Stack Development \\n- Leveraging AI APIs \\n- RAG and vector search\\n- ML algorithms for clustering and search\\n- Frontend Technologies \\n- Backend Technologies \\n- Database Management (SQL, NoSQL) \\n- API Development\",\"similarityScore\":0.6661379857256146}]",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021965469802822922479",
+      "title": "Python + React Full-Stack Dev – AI MVP with Clustering & Summaries",
+      "description": "We’re looking for an experienced full-stack developer (no agencies) to help us build the first version of a new AI-powered productivity platform designed for professionals, researchers, and analysts. The project is currently in the early development phase, and you will be working closely with the product owner/designer to implement the core functionality for the MVP. This is a contract role with potential to grow into a long-term collaboration depending on performance and team fit. — **About the Role** We’re building from scratch, so you should be comfortable taking ownership of: - Backend and API setup (Python/Django or FastAPI) - Frontend implementation (React + Tailwind) - Database schema (PostgreSQL or similar.) - Integration with AI APIs (OpenAI, Claude, etc.) - Basic logic for organizing and scoring content (clustering, ranking) — **Ideal Candidate** - Strong Python + React background - Experience building and delivering full-stack MVPs - Understands API integrations and backend design patterns - Familiarity with AI or ML concepts is a bonus - Enjoys thinking in terms of product goals and user , not just tickets — **To Apply** Please share: 1. A short intro about your relevant experience 2. Links to similar/previous projects, GitHub, or portfolio 3. Your availability and hourly rate We’re excited to hear from independent, thoughtful builders who enjoy taking ownership and delivering functional, high-impact work.",
+      "attachments": []
+    }
+  ]
+}

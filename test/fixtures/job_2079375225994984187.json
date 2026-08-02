@@ -1,0 +1,965 @@
+{
+  "uid": "2079375225994984187",
+  "ciphertext": "~022079375225994984187",
+  "title": "SEO Shopify Developer for Speed Optimization",
+  "url": "https://www.upwork.com/jobs/~022079375225994984187",
+  "scrapedAt": "2026-07-21T07:37:15.605Z",
+  "feed": {
+    "uid": "2079375225994984187",
+    "ciphertext": "~022079375225994984187",
+    "title": "SEO <span class=\"highlight\">Shopify</span> <span class=\"highlight\">Developer</span> for Speed Optimization",
+    "description": "Our website speed has fallen to 36 on pagespeed and we used to always have it 90+ and we want to get it back in the green ASAP to help with our SEO rankings.\n\nOur website is built on <span class=\"highlight\">shopify</span>, so we need someone who already has experience with the platform. These are the fixes our SEO team gave us: \n\nLCP fix pagespeed insights stuff, JS/CSS deferral in code, lazy load some images; repair broken links; alt text pass (some alts wont change, when I change in the images media, manually coded somewhere or something)..\n\nLooking to get this done asap!\n\nWebsite is www.smilefreshau.com.au but DO NOT message me outside of upwork or you will be blocked",
+    "createdOn": "2026-07-21T01:17:41.797Z",
+    "publishedOn": "2026-07-21T01:20:11.308Z",
+    "renewedOn": null,
+    "type": 1,
+    "durationLabel": "1 to 3 months",
+    "engagement": null,
+    "amount": {
+      "amount": 100
+    },
+    "client": {
+      "location": {
+        "country": "Australia"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "2853.27",
+      "totalReviews": 11,
+      "totalFeedback": 4.89,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"27\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.20to50",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626779570716672",
+        "parentSkillUid": null,
+        "prefLabel": "Shopify",
+        "prettyName": "Shopify",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626745110315008",
+        "parentSkillUid": null,
+        "prefLabel": "HTML",
+        "prettyName": "HTML",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626728794472448",
+        "parentSkillUid": null,
+        "prefLabel": "CSS",
+        "prettyName": "CSS",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T01:17:41.797Z",
+        "publishTime": "2026-07-21T01:20:11.308Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "Our website speed has fallen to 36 on pagespeed and we used to always have it 90+ and we want to get it back in the green ASAP to help with our SEO rankings.\n\nOur website is built on shopify, so we need someone who already has experience with the platform. These are the fixes our SEO team gave us: \n\nLCP fix pagespeed insights stuff, JS/CSS deferral in code, lazy load some images; repair broken links; alt text pass (some alts wont change, when I change in the images media, manually coded somewhere or something)..\n\nLooking to get this done asap!\n\nWebsite is www.smilefreshau.com.au but DO NOT message me outside of upwork or you will be blocked",
+        "info": {
+          "ciphertext": "~022079375225994984187",
+          "id": "2079375225994984187",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "SEO Shopify Developer for Speed Optimization",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T01:17:41.797Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:searchengineoptimization",
+            "prefLabel": "SEO",
+            "id": "1017484851352698933",
+            "uid": "1017484851352698933"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626745110315008",
+              "freeText": null,
+              "prefLabel": "HTML",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626779570716672",
+              "freeText": null,
+              "prefLabel": "Shopify",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ]
+        },
+        "category": {
+          "name": "Digital Marketing",
+          "urlSlug": "digital-marketing"
+        },
+        "categoryGroup": {
+          "name": "Sales & Marketing",
+          "urlSlug": "sales-marketing"
+        },
+        "budget": {
+          "amount": 100,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-21T01:20:11.308Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Need an SEO shopify developer to fix website speed",
+            "generatedInputsAIv2": "{\"title\":\"SEO Shopify Developer for Speed Optimization\",\"skills\":[{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626745110315008\"},{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626779570716672\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626728794472448\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626795211276288\"}],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":20,\"hourlyBudgetMax\":40}}",
+            "generate_prompt": "Need an SEO shopify developer to fix website speed",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784595658952",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":8,\"description\":\"We are seeking an experienced SEO Shopify developer to enhance our website's speed and performance. The ideal candidate will have a strong understanding of Shopify and SEO best practices to ensure our site loads quickly and efficiently. Your work will directly impact user experience and search engine rankings. If you have a proven track record in optimizing Shopify sites, we would love to hear from you.\",\"editedDescription\":\"We are seeking an experienced SEO Shopify developer to enhance our website's speed and performance. The ideal candidate will have a strong understanding of Shopify and SEO best practices to ensure our site loads quickly and efficiently. Your work will directly impact user experience and search engine rankings. If you have a proven track record in optimizing Shopify sites, we would love to hear from you.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-21T01:28:04.182Z",
+          "totalApplicants": 20,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 36000000,
+          "countryTimezone": "Australia/Brisbane (UTC+10:00)",
+          "city": "Brisbane",
+          "country": "Australia"
+        },
+        "stats": {
+          "totalAssignments": 26,
+          "activeAssignmentsCount": 5,
+          "hoursCount": 2,
+          "feedbackCount": 11,
+          "score": 4.89,
+          "totalJobsWithHires": 24,
+          "totalCharges": {
+            "amount": 2853.27
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1800016761255882753",
+          "isEDCReplicated": null,
+          "contractDate": "2024-06-10T00:00:00.000Z",
+          "profile": {
+            "industry": "Fashion & Beauty",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 91,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 15
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-04T08:49:26.676Z",
+          "endDate": null,
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Facebook Ad Content Creator Needed for Teeth Whitening Brand",
+            "id": "1976912983579491619",
+            "uid": "1976912983579491619",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021976912983579491619"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Aamir K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b849566dc0845da4"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-18T07:09:33.854Z",
+          "endDate": null,
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Email Flow Design & Setup and Testing Specialist Needed",
+            "id": "1913081724808033026",
+            "uid": "1913081724808033026",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021913081724808033026"
+          },
+          "contractorInfo": {
+            "contractorName": "Serhii K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017d2e8eb206e2c1ac"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-23T09:40:27.726Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 2,
+          "jobInfo": {
+            "title": "Content Repurposing for Teeth Whitening Ad Campaigns",
+            "id": "1914539246471960809",
+            "uid": "1914539246471960809",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021914539246471960809"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017d5fb8bdd6726b7f"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-22T08:59:52.957Z",
+          "endDate": null,
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Click ID Tracking Implementation for Lead Form",
+            "id": "1903319042559111238",
+            "uid": "1903319042559111238",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021903319042559111238"
+          },
+          "contractorInfo": {
+            "contractorName": "Junel B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01263fb451ec80fc8d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-19T00:32:26.372Z",
+          "endDate": null,
+          "totalCharge": 33.33,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Banner Design for Teeth Whitening Business",
+            "id": "1858472544607667416",
+            "uid": "1858472544607667416",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021858472544607667416"
+          },
+          "contractorInfo": {
+            "contractorName": "Ephraim Jacob D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014bc6e501254fdd0a"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-01T17:32:34.724Z",
+          "endDate": "2026-07-16T19:43:36.460Z",
+          "totalCharge": 125,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Power BI Specialist Needed for Dashboard Audit and Takeover",
+            "id": "1979743176526629095",
+            "uid": "1979743176526629095",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021979743176526629095"
+          },
+          "contractorInfo": {
+            "contractorName": "Youssef B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01004df620e8bbff09"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-01T05:09:56.348Z",
+          "endDate": "2025-06-23T05:46:59.143Z",
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking For A High DA Back Link Broker To Source 50 Per Month",
+            "id": "1895012860157170477",
+            "uid": "1895012860157170477",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021895012860157170477"
+          },
+          "contractorInfo": {
+            "contractorName": "Joshua J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01dc5e8519b6b35e5c"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Joshua has by far been my best hire on Upwork. In a world of timewasters, meeting Joshua was a breath of fresh air. From the moment I jumped on a call with him, I knew he was an SEO expert who actually knew his stuff, and genuinely wanted the best for me and my business. While other freelancers were trying to shortcut me, Josh actually went above and beyond the job scope that I paid for, and in doing so he has brought me so much new business from increasing my search rankings.\n\nIf you are looking to hire for SEO, look no further. Would highly recommend to everyone!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "good client"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-14T11:12:20.264Z",
+          "endDate": "2025-05-15T01:38:50.947Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "photo editing",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Bogdan G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012769be80c97dc90f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Bogdan is a talented editor. 10/10 recommend"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-23T06:31:09.366Z",
+          "endDate": "2025-05-06T00:46:21.488Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Facebook Ads Automated Offline Conversion Tracking Needed",
+            "id": "1896425762997858000",
+            "uid": "1896425762997858000",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021896425762997858000"
+          },
+          "contractorInfo": {
+            "contractorName": "Rayhan c.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ef646d0a3f79fb38"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-26T09:53:29.962Z",
+          "endDate": "2025-05-05T09:54:07.653Z",
+          "totalCharge": 15,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Email Marketing Flows for Teeth Whitening Business",
+            "id": "1911646090717822632",
+            "uid": "1911646090717822632",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021911646090717822632"
+          },
+          "contractorInfo": {
+            "contractorName": "Aaryan K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bb0e21338f78f49e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I enjoyed working with Aaryan, his responsiveness and speed of work is amazing!"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-29T11:04:43.368Z",
+          "endDate": "2025-04-30T10:59:43.853Z",
+          "totalCharge": 45,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "TikTok Tracking Setup for Service Business",
+            "id": "1884419073480623697",
+            "uid": "1884419073480623697",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021884419073480623697"
+          },
+          "contractorInfo": {
+            "contractorName": "Syed Fazle Rob Helali Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0124e392bccf22ec40"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Daniel is great human being. God always bless him ."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-30T10:34:06.012Z",
+          "endDate": "2025-03-21T08:08:09.606Z",
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "PowerBI Dashboard Specialist Needed to Rebuild Datasource For Dashboard",
+            "id": "1883334167812691150",
+            "uid": "1883334167812691150",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021883334167812691150"
+          },
+          "contractorInfo": {
+            "contractorName": "John Harold R.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01ed9d83a9446d3842"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.45,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-12-18T11:26:38.239Z",
+          "endDate": "2025-02-13T09:09:37.091Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Custom CRM Development & Google Ads Integration Specialist For teeth whitening business",
+            "id": "1868923359064002901",
+            "uid": "1868923359064002901",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021868923359064002901"
+          },
+          "contractorInfo": {
+            "contractorName": "Adrian M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01beb9217f0eafebdf"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Adrian is a very professional and thorough professional when it comes to CRMs and Automation. Adrian has a deep understanding of all things in his fields, and will 100% be able to solve your issue. His work ethic is relentless and he will not stop until the job is done. My job scope was tricky but he was able to get it done quickly. I would highly recommend him to anyone looking for a professional in this field."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "SmileFresh was clear on communication and what they needed, respectful, and flexible. \nthe project scope was big on the beginning but with time we narrowed it down and completed it. Alot of communication and good manners. Would work again with them again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-07T05:08:20.009Z",
+          "endDate": "2025-02-12T09:44:43.022Z",
+          "totalCharge": 20,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need Bank pdf statements transferred to csv whilst keeping the same structure",
+            "id": "1887718664989868508",
+            "uid": "1887718664989868508",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021887718664989868508"
+          },
+          "contractorInfo": {
+            "contractorName": "Virendra M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0116061f39992b39d5"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Virendra was super helpful and got my task done very quickly. Would 100% work with him again in the future!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-06T23:56:35.748Z",
+          "endDate": "2025-02-09T09:55:31.061Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Expert Needed for GCLID Capture and UTM Parameters Tracking",
+            "id": "1886717471433902082",
+            "uid": "1886717471433902082",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021886717471433902082"
+          },
+          "contractorInfo": {
+            "contractorName": "Romain O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013b62acf779a0425b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I really enjoyed working with Daniel on this project. He communicated his expectations clearly and was always responsive to any questions I had. His professionalism and collaboration made the work smooth and enjoyable. I’d be happy to work with him again in the future!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-08-29T14:12:23.451Z",
+          "endDate": "2024-12-23T15:23:02.105Z",
+          "totalCharge": 1000,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Google Ad Expert Required To Scale Past Plateau",
+            "id": "1828657668504306901",
+            "uid": "1828657668504306901",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01a139776074388803"
+          },
+          "contractorInfo": {
+            "contractorName": "Matt G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01dbf44c7ba62ea7a7"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Matt is a seasoned veteran in Google Ads. From the first minute of your discovery call with him, you will be able to tell that he is one of the few experts in this field, and his extensive knowledge will help you scale your business to heights you never could have imagined. Would highly recommend working with Matt!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Daniel was great to work with. He gave clear instructions and useful feedback. He’s a talented professional with a great business! Highly recommended :)"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-13T11:03:12.789Z",
+          "endDate": "2024-11-22T02:38:40.420Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Needing Some Static Images For FB Ads For My Teeth Whitening Business",
+            "id": "1844180744761252667",
+            "uid": "1844180744761252667",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021844180744761252667"
+          },
+          "contractorInfo": {
+            "contractorName": "Lokesh K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015cf9b4bc50b91591"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Lokesh is a very talented graphic designer who was able to create very professional designs for my teeth whitening business with a quick turn around. His designs have allowed me to gain 100s of leads with the eye catching designs. Thank you Lokesh, highly recommend!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I enjoyed working on this project. All expectations and requirements were communicated up front and the client was responsive to any of my requests for clarification. I liked working with her and hope to have the opportunity to work with her again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-07-11T13:57:45.949Z",
+          "endDate": "2024-07-11T14:06:51.709Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking For A Skilled Video Editor To Make Viral UGC & Shortform Content",
+            "id": "1807344791393112437",
+            "uid": "1807344791393112437",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01d7c227c9cc50d20b"
+          },
+          "contractorInfo": {
+            "contractorName": "Ammaar R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01560476302d7d9c73"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "If you are looking for talented and creative video editor for your brand, Ammaar is your guy. After checking out his portfolio; it was an easy choice to pick him for my project, and the quality of video he provided far surpassed my expectations. The video he created me is already my best converting ad and I am looking forward to working with him again immediately. Thank you Ammaar!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very cool guy, really enjoyed working with him"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 101.4,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 89,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 150,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1017484851352698933",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [],
+  "pastJobsText": [
+    {
+      "ciphertext": "~021976912983579491619",
+      "title": "Facebook Ad Content Creator Needed for Teeth Whitening Brand",
+      "description": "Hi there, We are looking for a skilled full stack content creator to help build winning ads for our Australian teeth whitening brands facebook ad campaigns. The role will be creating winning ads from start to finish, including ideation, script writing, and editing. We are looking for someone who has a strong understand of not only how to edit, but is up to date with the latest AI tools like eleven labs, veo 3/sora 2. We are currently spending around $3-$4k AUD a month on facebook, but don't have any standout winning ads. We are looking for someone who is able to produce high level creatives on a frequent basis to consistently pump out fresh creatives and help us scale. Our audience is mainly females 20-60 You can see our ad library here: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=AU&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=104767821498916 And our content bank here: https://drive.google.com/drive/folders/1-CYYXZkE1koen3sfInvu2GiwmTTM_BOP?usp=sharing Please submit something for me to see when you apply. If you have no portfolio, I won't be able to consider your application. Looking forward to working with you long term Budget is just a placeholder until we discuss output & contract length!",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021913081724808033026",
+      "title": "Email Flow Design & Setup and Testing Specialist Needed",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":6,\"description\":\"We are seeking an experienced professional to set up and test email flows for our marketing campaigns. The focus will solely be on the technical aspects of email flow setup, including automation sequences and integration with our existing systems. Copywriting is not required for this position. The ideal candidate will have a strong background in email marketing platforms and a keen eye for detail to ensure everything runs smoothly. If you're skilled in optimizing email flows and familiar with best practices, we’d love to hear from you!\",\"editedDescription\":\"I have a flow of around 20 emails for my teeth whitening business, and I am needing someone to set them up for me so that they are automatically sent to the right audiences.\\n\\nThe focus will solely be on the technical aspects of email flow setup, including automation sequences and integration with our existing systems. Copywriting is not required for this position, but a background in all aspects of email marketing is preferred. \\n\\nI also want to A/B test emails, and want to have a clear understanding of my conversions from the emails too.\\n\\nCurrently using mailchimp, but if you have better alternatives I am not fussy.\\n\\nIf this is something you can do, drop me a message so we can start immediately\",\"similarityScore\":0.7217898832684825}]",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021914539246471960809",
+      "title": "Content Repurposing for Teeth Whitening Ad Campaigns",
+      "description": "Hey there 👋 I'm looking for a skilled video editor who can help me create short, effective Facebook ads for my business, SmileFresh – Australia’s #1 teeth whitening service. I have a library of existing footage, testimonials, and visuals you can pull from. The style we're after is clean, catchy, and direct – nothing too fancy, just simple videos that grab attention and get bookings. Most videos will be 15–30 seconds and use AI-generated voiceovers. For example here is a video which is put together but has no proper audio (script, music etc) https://drive.google.com/file/d/1ERDvbDGuM4cgNSHXo6EzqFUl10yt5onX/view?usp=sharing And here is an example of raw clips we have from a creator: https://drive.google.com/drive/u/1/folders/1gIMOH86qNrpxhpf4gVW1L8IwloN4RQtZ Wanting to test quite a few videos per week, so looking for someone who has a strong creative eye, and good work output. If you’ve done similar work before, please send through a few examples, and if you really want to stand out I would appreciate a basic sample from either of the two I have attached. Looking forward to finding someone reliable we can work with long-term. www.smilefreshau.com.au (DO NOT MESSAGE ME OUTSIDE OF UPWORK)",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021903319042559111238",
+      "title": "Click ID Tracking Implementation for Lead Form",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":6,\"description\":\"We are looking for a skilled developer to implement click ID tracking on our lead form. This enhancement will help us accurately measure the performance of our marketing campaigns and improve lead generation strategies. The ideal candidate should have experience with tracking pixels, analytics tools, and form integration. If you are detail-oriented and can deliver high-quality work, we would love to hear from you!\",\"editedDescription\":\"We are looking for a skilled developer to implement click ID tracking on a lead form. \\n\\nWe already have had this done for most of our website, but are needing it on a few more pages now, such as the following:\\nhttps://smilefreshau.com.au/pages/training-page\\n\\nWe already have a google sheet where we capture click IDs, so we can capture these new clients in the same one. \",\"similarityScore\":0.5304878048780488}]",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021886717471433902082",
+      "title": "Expert Needed for GCLID Capture and UTM Parameters Tracking",
+      "description": "[{\"tag\":\"AI Prompt\",\"timeSpent\":6,\"description\":\"We are seeking an expert to help us capture and track GCLID from UTM parameters for effective Google Ads tracking. The ideal candidate will have extensive experience in implementing tracking solutions that ensure accurate data collection and reporting. Your expertise will be crucial in optimizing our advertising efforts and measuring campaign performance. If you're knowledgeable about Google Ads, UTM parameters, and conversion tracking, we want to hear from you!\",\"editedDescription\":\"www.smilefreshau.com.au\\n\\nWe are seeking a developer experienced in handling Google Ads tracking to capture the GCLID from UTM parameters in URLs and integrate this data into our CRM. The goal is to accurately track purchase conversion values by uploading the data back into Google Ads. The ideal candidate will have direct experience with GCLID, UTM parameters, and CRM integrations related to Google Ads conversion tracking.\\n\\nPlease do not apply if this is your first time dealing with this sort of job. I do not have time to waste, and need this tracking issue solved ASAP.\\n\\nRequirements:\\n- Experience with Google Ads and CRM integration.\\n- Knowledge of data capture from URLs.\\n- Ability to document and support the implemented solutions.\\n\\nApplication Instructions: Please apply with your experience related to GCLID and UTM parameters, including any relevant projects. Only applicants with specific experience in these areas will be considered.\",\"similarityScore\":0.5536912751677853}]",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~01a139776074388803",
+      "title": "Google Ad Expert Required To Scale Past Plateau",
+      "description": "Thanks for checking out our job post! We are an Australian based teeth whitening company looking for an experienced Google ads expert to help us scale up our Google ads. We are currently spending $5kAUD per month, but have struggled to get past this profitably. Responsibilities: • Review our current Google Ads campaigns and provide detailed feedback. • Identify any issues and suggest improvements. • Confidently continue running and optimizing our Google Ads campaigns. • Provide strategic insights to improve campaign performance and ROI. • Monitor and report on campaign performance. Requirements: • Proven experience as a Google Ads Specialist. • Strong understanding of Google Ads best practices and strategies. • Ability to analyze and interpret campaign data. • Excellent communication skills. • Detail-oriented with strong problem-solving skills. Process: Before making a hiring decision, we would like to have a call with potential candidates to: • Review our current Google Ads campaigns. • Get your feedback on the current performance. • Discuss your confidence in managing and optimizing our campaigns. • Identify any issues and suggest potential improvements. If we are satisfied with your assessment and advice, we will consider bringing you on board full-time to manage our Google Ads campaigns.",
+      "attachments": []
+    }
+  ]
+}

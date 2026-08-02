@@ -1,0 +1,1975 @@
+{
+  "uid": "2079325592979281614",
+  "ciphertext": "~022079325592979281614",
+  "title": "Looking for 3D GSAP specialist for shopify",
+  "url": "https://www.upwork.com/jobs/~022079325592979281614",
+  "scrapedAt": "2026-07-21T07:37:20.659Z",
+  "feed": {
+    "uid": "2079325592979281614",
+    "ciphertext": "~022079325592979281614",
+    "title": "Looking for 3D GSAP specialist for <span class=\"highlight\">shopify</span>",
+    "description": "3D / GSAP <span class=\"highlight\">Developer</span> (<span class=\"highlight\">Shopify</span>) - Per-Project / Contract\n\nLocation: Remote Type: Per-project / contract (recurring work for the right person)\n\nAbout the role\n\nWe're an animation-first web design agency building cinematic, scroll-driven storefronts for e-commerce, luxury, and wellness brands. We're looking for a <span class=\"highlight\">developer</span> who can drop interactive 3D into <span class=\"highlight\">Shopify</span> and make it run smoothly, integrate cleanly with our GSAP-driven scroll experiences, and troubleshoot the inevitable edge cases across devices and browsers.\n\nThis is not a \"spin up a hero and walk away\" role. We want someone who obsesses over the last 5% - load performance, frame pacing, mobile fallbacks, and the details that separate a demo from a shippable production site.\n\nWhat you'll do\nIntegrate 3D models (glTF/GLB, Three.js/WebGL, Spline, or similar) into live <span class=\"highlight\">Shopify</span> themes\nWire 3D and scene state to GSAP / ScrollTrigger so animation and scroll feel seamless\nOptimize assets and rendering for real-world load times and mobile performance\nTroubleshoot rendering, compatibility, and performance issues across devices and browsers\nWork inside existing theme architecture (Liquid, custom sections) without breaking things\nRequirements\nCase studies with real 3D work. This is non-negotiable. Send links to live sites or breakdowns showing 3D you've shipped.\nStrong command of Three.js / WebGL (or comparable) and GSAP / ScrollTrigger\nHands-on <span class=\"highlight\">Shopify</span> theme experience (Liquid, custom sections, theme structure)\nA real eye for performance - you know how to keep interactive 3D fast on mobile\nComfortable troubleshooting independently and communicating clearly async\nNice to have\nExperience with Lenis or other smooth-scroll setups\nSpline, Blender, or asset-optimization experience\nA portfolio that leans cinematic rather than generic\nEngagement\n\nPer-project to start, priced per scope. We run a steady pipeline of animation-heavy builds, so strong contractors become go-to hires for recurring work.\n\nHow to apply\n\nSend:\n\nLinks to 2-3 case studies featuring 3D (live sites preferred)\nA one-line summary of your role on each\nYour per-project or hourly rate\n\nApplications without 3D case studies won't be reviewed.",
+    "createdOn": "2026-07-20T22:00:28.375Z",
+    "publishedOn": "2026-07-21T01:03:42.552Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "1 to 3 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "63322.24",
+      "totalReviews": 43,
+      "totalFeedback": 4.99,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"29\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Expert_207",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.10to15",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626779570716672",
+        "parentSkillUid": null,
+        "prefLabel": "Shopify",
+        "prettyName": "Shopify",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      }
+    ],
+    "hourlyBudget": {
+      "min": 25,
+      "max": 35
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T22:00:28.375Z",
+        "publishTime": "2026-07-21T01:03:42.552Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "3D / GSAP Developer (Shopify) - Per-Project / Contract\n\nLocation: Remote Type: Per-project / contract (recurring work for the right person)\n\nAbout the role\n\nWe're an animation-first web design agency building cinematic, scroll-driven storefronts for e-commerce, luxury, and wellness brands. We're looking for a developer who can drop interactive 3D into Shopify and make it run smoothly, integrate cleanly with our GSAP-driven scroll experiences, and troubleshoot the inevitable edge cases across devices and browsers.\n\nThis is not a \"spin up a hero and walk away\" role. We want someone who obsesses over the last 5% - load performance, frame pacing, mobile fallbacks, and the details that separate a demo from a shippable production site.\n\nWhat you'll do\nIntegrate 3D models (glTF/GLB, Three.js/WebGL, Spline, or similar) into live Shopify themes\nWire 3D and scene state to GSAP / ScrollTrigger so animation and scroll feel seamless\nOptimize assets and rendering for real-world load times and mobile performance\nTroubleshoot rendering, compatibility, and performance issues across devices and browsers\nWork inside existing theme architecture (Liquid, custom sections) without breaking things\nRequirements\nCase studies with real 3D work. This is non-negotiable. Send links to live sites or breakdowns showing 3D you've shipped.\nStrong command of Three.js / WebGL (or comparable) and GSAP / ScrollTrigger\nHands-on Shopify theme experience (Liquid, custom sections, theme structure)\nA real eye for performance - you know how to keep interactive 3D fast on mobile\nComfortable troubleshooting independently and communicating clearly async\nNice to have\nExperience with Lenis or other smooth-scroll setups\nSpline, Blender, or asset-optimization experience\nA portfolio that leans cinematic rather than generic\nEngagement\n\nPer-project to start, priced per scope. We run a steady pipeline of animation-heavy builds, so strong contractors become go-to hires for recurring work.\n\nHow to apply\n\nSend:\n\nLinks to 2-3 case studies featuring 3D (live sites preferred)\nA one-line summary of your role on each\nYour per-project or hourly rate\n\nApplications without 3D case studies won't be reviewed.",
+        "info": {
+          "ciphertext": "~022079325592979281614",
+          "id": "2079325592979281614",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Looking for 3D GSAP specialist for shopify",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T22:00:28.375Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:three3danimation",
+            "prefLabel": "3D Animation",
+            "id": "1044578476142100490",
+            "uid": "1044578476142100490"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626779570716672",
+              "freeText": null,
+              "prefLabel": "Shopify",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Video & Animation",
+          "urlSlug": "video-animation"
+        },
+        "categoryGroup": {
+          "name": "Design & Creative",
+          "urlSlug": "design-creative"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-21T01:03:42.552Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 25,
+          "hourlyBudgetMax": 35,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T22:00:28.344Z",
+          "totalApplicants": 10,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 10800000,
+          "countryTimezone": "Asia/Baghdad (UTC+03:00)",
+          "city": "West Palm Beach",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 84,
+          "activeAssignmentsCount": 33,
+          "hoursCount": 6732.17,
+          "feedbackCount": 43,
+          "score": 4.99,
+          "totalJobsWithHires": 73,
+          "totalCharges": {
+            "amount": 63322.24
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1114513474236694528",
+          "isEDCReplicated": null,
+          "contractDate": "2019-04-06T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 18,
+          "postedCount": 260,
+          "openJobs": [
+            {
+              "id": "2078175725798714553",
+              "uid": "2078175725798714553",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078175725798714553",
+              "title": "Junior developer needed on an ongoing basis. Attention to detail is a must.",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2078165633361361659",
+              "uid": "2078165633361361659",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078165633361361659",
+              "title": "Looking for a Blender/ after effects animator",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2077054779130313537",
+              "uid": "2077054779130313537",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077054779130313537",
+              "title": "Looking for Ongoing Dev Work / attention to detail (Shopify, webflow, GSAP and 3D stack)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2076474550418257179",
+              "uid": "2076474550418257179",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076474550418257179",
+              "title": "Looking for Ongoing Dev Work / attention to detail (Shopify, webflow, GSAP and 3D stack)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2075657646289765190",
+              "uid": "2075657646289765190",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075657646289765190",
+              "title": "Looking for Ongoing Dev Work / attention to detail (Shopify, webflow, GSAP and 3D stack)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2075231814679218553",
+              "uid": "2075231814679218553",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075231814679218553",
+              "title": "Looking for a developer on an onging basis",
+              "type": "FIXED"
+            },
+            {
+              "id": "2074591239454327605",
+              "uid": "2074591239454327605",
+              "isPtcPrivate": false,
+              "ciphertext": "~022074591239454327605",
+              "title": "Looking for a developer on an onging basis",
+              "type": "FIXED"
+            },
+            {
+              "id": "2073827585509191887",
+              "uid": "2073827585509191887",
+              "isPtcPrivate": false,
+              "ciphertext": "~022073827585509191887",
+              "title": "Looking for a figma designer/artist on an ongoing basis",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2072452347428317430",
+              "uid": "2072452347428317430",
+              "isPtcPrivate": false,
+              "ciphertext": "~022072452347428317430",
+              "title": "Looking for a figma designer/artist on an ongoing basis",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2071978173926447077",
+              "uid": "2071978173926447077",
+              "isPtcPrivate": false,
+              "ciphertext": "~022071978173926447077",
+              "title": "Looking for a figma designer/artist on an ongoing basis",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2070570570111231466",
+              "uid": "2070570570111231466",
+              "isPtcPrivate": false,
+              "ciphertext": "~022070570570111231466",
+              "title": "Looking for a figma designer/artist on an ongoing basis",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2070243682692081130",
+              "uid": "2070243682692081130",
+              "isPtcPrivate": false,
+              "ciphertext": "~022070243682692081130",
+              "title": "Looking for a figma designer/artist on an ongoing basis",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2069590618487189470",
+              "uid": "2069590618487189470",
+              "isPtcPrivate": false,
+              "ciphertext": "~022069590618487189470",
+              "title": "Looking for a designer/vibe-coder (creative)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2069272377495596396",
+              "uid": "2069272377495596396",
+              "isPtcPrivate": false,
+              "ciphertext": "~022069272377495596396",
+              "title": "Looking for a designer/vibe-coder (creative)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2069097149994344405",
+              "uid": "2069097149994344405",
+              "isPtcPrivate": false,
+              "ciphertext": "~022069097149994344405",
+              "title": "Looking for a blender artist",
+              "type": "FIXED"
+            },
+            {
+              "id": "2069045552295682005",
+              "uid": "2069045552295682005",
+              "isPtcPrivate": false,
+              "ciphertext": "~022069045552295682005",
+              "title": "Project Manager for a web-design agency",
+              "type": "FIXED"
+            },
+            {
+              "id": "2068747363792724196",
+              "uid": "2068747363792724196",
+              "isPtcPrivate": false,
+              "ciphertext": "~022068747363792724196",
+              "title": "Looking for a senior web-developer with 3d experience/ blender scene intergartion",
+              "type": "FIXED"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 6.545699232194077
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-07T07:10:36.004Z",
+          "endDate": null,
+          "totalCharge": 260.62,
+          "totalHours": 13.333333,
+          "jobInfo": {
+            "title": "Looking for a figma designer/artist on an ongoing basis",
+            "id": "2073827585509191887",
+            "uid": "2073827585509191887",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022073827585509191887"
+          },
+          "contractorInfo": {
+            "contractorName": "Tosan G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01c5dd538e4a39bb38"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-18T03:18:59.999Z",
+          "endDate": null,
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for brand identty designer on an ongoing basis",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Thomas T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f4458a66eecbc132"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-16T22:02:14.884Z",
+          "endDate": null,
+          "totalCharge": 316,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a developer with advanced animation experience",
+            "id": "2065108092712405670",
+            "uid": "2065108092712405670",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022065108092712405670"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018eebfac30d3c4179"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-16T17:21:50.843Z",
+          "endDate": null,
+          "totalCharge": 473.49,
+          "totalHours": 66.5,
+          "jobInfo": {
+            "title": "Wordpress developer needed on an ongoing basis",
+            "id": "2065562979648072445",
+            "uid": "2065562979648072445",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022065562979648072445"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0164972b9985ae136b"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-16T15:54:02.336Z",
+          "endDate": null,
+          "totalCharge": 550.74,
+          "totalHours": 21,
+          "jobInfo": {
+            "title": "Looking for a figma designer on an ongoing basis",
+            "id": "2065561582243132054",
+            "uid": "2065561582243132054",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022065561582243132054"
+          },
+          "contractorInfo": {
+            "contractorName": "Jonathan M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012246aca96e4933ca"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-02T11:30:08.438Z",
+          "endDate": null,
+          "totalCharge": 490,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video Creator With AI needed for an interioir designer",
+            "id": "2056787941290571387",
+            "uid": "2056787941290571387",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022056787941290571387"
+          },
+          "contractorInfo": {
+            "contractorName": "Anneta H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01cc42ae13e1399964"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-21T17:14:20.483Z",
+          "endDate": null,
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "🚀 Shopify Developer Needed – Advanced 3D GSAP Scroll Animation + Custom Theme Build",
+            "id": "2025299013549890112",
+            "uid": "2025299013549890112",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022025299013549890112"
+          },
+          "contractorInfo": {
+            "contractorName": "Zaman M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0164982e3a29ee9dc2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-15T11:12:51.801Z",
+          "endDate": null,
+          "totalCharge": 90,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "3D medical aniamation needed",
+            "id": "2055034639793212159",
+            "uid": "2055034639793212159",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022055034639793212159"
+          },
+          "contractorInfo": {
+            "contractorName": "Dawood K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018704546c78810e22"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-08T14:59:16.073Z",
+          "endDate": null,
+          "totalCharge": 425,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Figma and vibe coding designer with strong AI skills",
+            "id": "2051807680537813971",
+            "uid": "2051807680537813971",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022051807680537813971"
+          },
+          "contractorInfo": {
+            "contractorName": "Noval M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a2000d15d4f02ee6"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-03T14:29:26.355Z",
+          "endDate": null,
+          "totalCharge": 160,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for 3d animation expert",
+            "id": "2050618360683049169",
+            "uid": "2050618360683049169",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022050618360683049169"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0164972b9985ae136b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-27T06:43:28.514Z",
+          "endDate": null,
+          "totalCharge": 1477.74,
+          "totalHours": 47.500001,
+          "jobInfo": {
+            "title": "Looking for a FIGMA designer with strong AI skills",
+            "id": "2035904559195507620",
+            "uid": "2035904559195507620",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022035904559195507620"
+          },
+          "contractorInfo": {
+            "contractorName": "Thomas T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f4458a66eecbc132"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-24T02:14:22.590Z",
+          "endDate": null,
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for brand identty designer on an ongoing basis",
+            "id": "2035867899477035626",
+            "uid": "2035867899477035626",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022035867899477035626"
+          },
+          "contractorInfo": {
+            "contractorName": "Thomas T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f4458a66eecbc132"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-10T08:49:11.102Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a senior figma designer for multiple projects",
+            "id": "2016476567620473384",
+            "uid": "2016476567620473384",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022016476567620473384"
+          },
+          "contractorInfo": {
+            "contractorName": "Thu H.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01a4a6c52e93dda474"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-02T16:11:43.866Z",
+          "endDate": null,
+          "totalCharge": 614,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for upper intermediate level figma designer for part-time work",
+            "id": "2018291562034260461",
+            "uid": "2018291562034260461",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022018291562034260461"
+          },
+          "contractorInfo": {
+            "contractorName": "El Mamoune E.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b91574efb5ee0fbc"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-17T01:24:10.660Z",
+          "endDate": null,
+          "totalCharge": 180,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "BRAND KIT for Sophisticated Luxury",
+            "id": "2011835823583777598",
+            "uid": "2011835823583777598",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022011835823583777598"
+          },
+          "contractorInfo": {
+            "contractorName": "Sarah A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01dd5a07d2ffaf9abe"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-12T17:38:08.339Z",
+          "endDate": null,
+          "totalCharge": 65,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Figma UI/UX Designer with Strong AI Image generation skills",
+            "id": "2009327493332927265",
+            "uid": "2009327493332927265",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022009327493332927265"
+          },
+          "contractorInfo": {
+            "contractorName": "Kainat A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bd23da0517f6865f"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-29T13:49:28.103Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UGC Creator for Skincare Brand",
+            "id": "2001249983890613701",
+            "uid": "2001249983890613701",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022001249983890613701"
+          },
+          "contractorInfo": {
+            "contractorName": "Cindy L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010c803b59e17fda2d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-16T11:01:59.850Z",
+          "endDate": null,
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for an experienced media buyer (meta ads)",
+            "id": "1998687463986613004",
+            "uid": "1998687463986613004",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021998687463986613004"
+          },
+          "contractorInfo": {
+            "contractorName": "Masud R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b4f8afdab08fc499"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-12T23:03:17.067Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for Male UGC creators for a skincare brand",
+            "id": "1998683304718474987",
+            "uid": "1998683304718474987",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021998683304718474987"
+          },
+          "contractorInfo": {
+            "contractorName": "Nicola M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011bc83854e4321bb7"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-12T00:28:43.749Z",
+          "endDate": null,
+          "totalCharge": 80,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UGC Creator for Skincare Brand",
+            "id": "1995849221033353481",
+            "uid": "1995849221033353481",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021995849221033353481"
+          },
+          "contractorInfo": {
+            "contractorName": "Audra Y.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01927f3c9ff23906a4"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-07T02:50:11.894Z",
+          "endDate": null,
+          "totalCharge": 80,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UGC Creator for Skincare Brand",
+            "id": "1995849221033353481",
+            "uid": "1995849221033353481",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021995849221033353481"
+          },
+          "contractorInfo": {
+            "contractorName": "Julia M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01da102ee5bd38f02f"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-18T20:18:11.211Z",
+          "endDate": null,
+          "totalCharge": 80,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UGC Creator for Skincare Brand",
+            "id": "1989178918881285443",
+            "uid": "1989178918881285443",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021989178918881285443"
+          },
+          "contractorInfo": {
+            "contractorName": "Judith D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0108448da1206d7601"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-16T03:15:44.927Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "UGC Creator for Skincare Brand",
+            "id": "1989178918881285443",
+            "uid": "1989178918881285443",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021989178918881285443"
+          },
+          "contractorInfo": {
+            "contractorName": "Terran Rae S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010c6d895491a7febb"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-04T16:40:24.379Z",
+          "endDate": null,
+          "totalCharge": 1905,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Salaried web designer with EXTRA attention to detail",
+            "id": "1981421243821543382",
+            "uid": "1981421243821543382",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021981421243821543382"
+          },
+          "contractorInfo": {
+            "contractorName": "Mujib A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01480c103718bfda8d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-24T10:15:14.321Z",
+          "endDate": null,
+          "totalCharge": 71.79,
+          "totalHours": 16,
+          "jobInfo": {
+            "title": "Looking for a Salaried web designer with EXTRA attention to detail",
+            "id": "1981421243821543382",
+            "uid": "1981421243821543382",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021981421243821543382"
+          },
+          "contractorInfo": {
+            "contractorName": "Mujib A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01480c103718bfda8d"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-22T13:45:48.842Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a reels editor on the ongoing basis",
+            "id": "1980985391012667729",
+            "uid": "1980985391012667729",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021980985391012667729"
+          },
+          "contractorInfo": {
+            "contractorName": "Daniel  T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014e4a6730b28eb3d4"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-15T18:16:12.266Z",
+          "endDate": null,
+          "totalCharge": 70,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Seeking UGC Creator for Beef Tallow Skincare Brand 🌿✨",
+            "id": "1932109220056887374",
+            "uid": "1932109220056887374",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021932109220056887374"
+          },
+          "contractorInfo": {
+            "contractorName": "Landon G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01318efd87a25d4647"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-27T18:16:04.269Z",
+          "endDate": null,
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Seeking UGC Creator for Beef Tallow Skincare Brand 🌿✨",
+            "id": "1932109220056887374",
+            "uid": "1932109220056887374",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021932109220056887374"
+          },
+          "contractorInfo": {
+            "contractorName": "Diane V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015a6039e4820fd7d3"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-28T17:52:29.492Z",
+          "endDate": "2026-06-26T21:00:34.258Z",
+          "totalCharge": 437.44,
+          "totalHours": 40,
+          "jobInfo": {
+            "title": "ai Image and Video Generation expert",
+            "id": "2046396261024770712",
+            "uid": "2046396261024770712",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022046396261024770712"
+          },
+          "contractorInfo": {
+            "contractorName": "Abid H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017f91ef5a69277958"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "Freelancer has been charging me without my consent."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-13T11:56:58.611Z",
+          "endDate": "2026-06-08T19:07:55.453Z",
+          "totalCharge": 600,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Wordpress Website Development",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018eebfac30d3c4179"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was really a pleasure to work with you"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-24T15:29:58.376Z",
+          "endDate": "2026-04-17T14:01:04.708Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Next Js /React Developer Needed for a custom site",
+            "id": "2026502259308616890",
+            "uid": "2026502259308616890",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022026502259308616890"
+          },
+          "contractorInfo": {
+            "contractorName": "Sidra  S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01404b92e4ec5a4522"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-09T08:43:17.170Z",
+          "endDate": "2026-03-14T16:20:21.016Z",
+          "totalCharge": 700,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Shopify Developer Needed for Custom Code Tasks",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sidra  S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01404b92e4ec5a4522"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "good and always on time"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great Experience"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-28T13:57:15.743Z",
+          "endDate": "2026-02-09T08:16:17.658Z",
+          "totalCharge": 102.69,
+          "totalHours": 3,
+          "jobInfo": {
+            "title": "Shopify Developer Needed for Custom Code Tasks",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kamran  S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010f031d745e9c93e6"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "project completed as requested, well done"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great experience."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-06T15:39:17.183Z",
+          "endDate": "2026-02-04T11:44:25.739Z",
+          "totalCharge": 183.03,
+          "totalHours": 24,
+          "jobInfo": {
+            "title": "Shopify Assistant with VA Skills",
+            "id": "1985489902101806875",
+            "uid": "1985489902101806875",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021985489902101806875"
+          },
+          "contractorInfo": {
+            "contractorName": "Arusyak A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01e0f68877204e523d"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-21T23:54:40.784Z",
+          "endDate": "2026-01-26T11:01:30.216Z",
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a lovable developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Khalid M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01485e58f041214765"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I had a really great time working with Khalid! I know that I can always rely on him and he will always get the job done on time. The quality is also superior and if there is any issue he will always fix it!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It's always a pleasure to work with her! very kind, co-operative & understanding. Definitely would love to work with her in future as well!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-04T09:21:00.640Z",
+          "endDate": "2026-01-12T11:08:42.463Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Shopfy+Spline Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-20T14:44:32.160Z",
+          "endDate": "2026-01-12T11:01:45.618Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Shopfy+Spline Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-04T22:16:45.505Z",
+          "endDate": "2026-01-06T02:01:37.477Z",
+          "totalCharge": 80,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for Male UGC creators for a skincare brand",
+            "id": "1994893800196466164",
+            "uid": "1994893800196466164",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021994893800196466164"
+          },
+          "contractorInfo": {
+            "contractorName": "Jesus C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0159e9593bfa91bb8b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very kind and communicative, I would love to work with them again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-19T20:04:57.171Z",
+          "endDate": "2025-12-20T03:33:06.437Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "URGENT help needed with Figma animations",
+            "id": "2001512440972749625",
+            "uid": "2001512440972749625",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022001512440972749625"
+          },
+          "contractorInfo": {
+            "contractorName": "Jastej Singh S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018ac63a14b872e0cc"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He delivered exceptional quality of work. Provided me 2 different verion. Completed a very complex Figma animation that I had envisioned. Will be working with him again on new projects"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-03T07:21:38.104Z",
+          "endDate": "2025-11-19T13:42:59.367Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Shopify SEO expert",
+            "id": "1973808587079226161",
+            "uid": "1973808587079226161",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021973808587079226161"
+          },
+          "contractorInfo": {
+            "contractorName": "Haider K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c20b3dcd173e9791"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-29T20:05:43.684Z",
+          "endDate": "2025-11-01T00:18:29.350Z",
+          "totalCharge": 80,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Integrate Lovable Store with Shopify via API",
+            "id": "1981489768402660722",
+            "uid": "1981489768402660722",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021981489768402660722"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018df8535fb51175d4"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-14T09:19:27.764Z",
+          "endDate": "2025-10-27T12:52:24.543Z",
+          "totalCharge": 133.59,
+          "totalHours": 20,
+          "jobInfo": {
+            "title": "Looking for a graphic designer / Shopify developer",
+            "id": "1977585112108722487",
+            "uid": "1977585112108722487",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021977585112108722487"
+          },
+          "contractorInfo": {
+            "contractorName": "Sultan Mahmud M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0187959fb09f4377ab"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-23T15:08:59.152Z",
+          "endDate": "2025-10-21T14:16:25.254Z",
+          "totalCharge": 400,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Full-Stack Developer (React, Next.js, Node.js, Supabase)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Delivered everything on time, made a very good movile version"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-30T20:28:54.481Z",
+          "endDate": "2025-10-14T22:11:44.961Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "React Next Node supabase",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul Mateen did an outstanding job using React and Next.js to build clean, scalable solutions. He also smartly leveraged AI tools to speed up development and optimize workflows, delivering high-quality results efficiently."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-25T14:02:14.246Z",
+          "endDate": "2025-09-30T19:21:25.793Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking For Shopify and figma designer 2 in 1",
+            "id": "1956331156582056226",
+            "uid": "1956331156582056226",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021956331156582056226"
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Job completed on time and successfully. Great attention to detail!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-12T12:28:05.849Z",
+          "endDate": "2025-09-23T17:10:12.334Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Shopfy+Spline Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul did an excellent job completing my shopify store with custom code and figma animations."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-29T09:48:17.712Z",
+          "endDate": "2025-09-09T09:44:02.113Z",
+          "totalCharge": 70,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Seeking UGC Creator Who Owns a Dog for Pet Brand 🐾✨",
+            "id": "1929833685425576143",
+            "uid": "1929833685425576143",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021929833685425576143"
+          },
+          "contractorInfo": {
+            "contractorName": "Diana Miruna  Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0159231a8ed2591bb8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-06T23:36:27.506Z",
+          "endDate": "2025-09-04T02:12:15.570Z",
+          "totalCharge": 360,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Bookkeeping for The Year of 2024",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0148770791c46918ce"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It is very easy to work with Arina"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-29T14:19:51.831Z",
+          "endDate": "2025-08-25T17:07:20.090Z",
+          "totalCharge": 125,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Shopfy+Spline Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "very good job as always, attentive to detail and very fast. will work with abdul again"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-12T19:36:06.470Z",
+          "endDate": "2025-08-12T18:20:47.426Z",
+          "totalCharge": 350,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Shopfy+Spline Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul  M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017401f9f501546223"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Abdul Mateen is a professional and honest developer who always stays true to his work. This is my 5th project with him, and he consistently delivers with professionalism and dedication. His communication is clear, timely, and effective, making collaboration smooth. I highly recommend him for any development work."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 35.174,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 75,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1044578476142100490",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Junior developer needed on an ongoing basis. Attention to detail is a must.",
+      "ciphertext": "~022078175725798714553",
+      "description": "Junior WordPress Developer - Ongoing Work, Detail Matters More Than Experience We're a web design agency building custom sites for clients in e-commerce, luxury, hospitality, and wellness. We need junior WordPress developers for ongoing build and maintenance work. We're not looking for someone with ten years of experience. We're looking for someone who notices that the padding is off by 4px before we do. The work Building WordPress sites from Figma designs - pixel-accurate, not \"close enough\" Custom theme work and page builder builds (Elementor, Bricks, or similar) ACF fields, custom post types, basic PHP template edits Plugin setup, forms, integrations Speed and QA passes: image optimization, broken links, mobile breakpoints, cross-browser checks Ongoing edits and maintenance on live client sites Requirements Solid HTML/CSS. Comfortable in the browser inspector. Working knowledge of WordPress admin, themes, and plugins Basic PHP - enough to read a template and change it without breaking the site Enough JavaScript to wire up simple interactions Git basics English good enough for written back-and-forth on specifics Bonus - Shopify and Webflow Not required, but a real advantage. A chunk of our work lives on these platforms and we'd rather send it to someone already on the team. Shopify: theme edits, Liquid basics, section and block setup, app configuration Webflow: building from Figma, class naming discipline, CMS collections, responsive breakpoints Either one counts. Both is better. Say so up front if you have them. What actually gets you hired Detail. Every build gets reviewed against the design file. If your work comes back with spacing drift, inconsistent type sizes, a mobile menu that jumps, or placeholder text left in the footer, this isn't the right fit. If you're the kind of person who catches that stuff yourself before submitting, we'll keep you busy. Details Remote, hourly, ongoing - steady work, not a one-off Start with a small paid test task Some overlap with US Eastern hours To apply, answer these: Send 2-3 sites you built. Say what you did on each and what platform. Have you built from a Figma file before? How do you check your work against the design? Tell us about a detail on a project that you caught and nobody else did. Shopify or Webflow experience? Which, and how much? Your hourly rate. Start your reply with the word \"pixel\" so we know you read this."
+    },
+    {
+      "title": "Looking for a Blender/ after effects animator",
+      "ciphertext": "~022078165633361361659",
+      "description": "Motion Designer - After Effects + Blender (Ongoing, Remote) Ecom Maven is an animation-first web design agency based in West Palm Beach, FL. We build scroll-controlled, cinematic websites for clients in e-commerce, luxury, hospitality, and wellness - and we produce the social content that goes with them. We're looking for a motion designer to join us on an ongoing basis across both. What you'll do Social content Cut and animate vertical short-form video - Reels, TikToks, Shorts - for client brands and for us Kinetic type, product reveals, transitions, sound-synced edits that hold attention in the first two seconds Adapt one concept across aspect ratios and platforms Web Model, light, and render 3D scenes in Blender - product visualization, environments, abstract/organic forms Build scroll-scrubbed hero sequences and loops that our devs wire into the site Deliver optimized web assets: frame sequences, compressed loops, correct codecs, sane file sizes Both Composite, grade, and finish in After Effects Work from creative direction and brand guidelines, and bring your own ideas What we're looking for Strong command of Blender (modeling, shading, lighting, camera work) and After Effects (compositing, keyframing, expressions a plus) Proven short-form social work - not just broadcast-style motion. Pacing for a feed is a different skill and we'll be looking for it. A portfolio that shows finished, polished work. This is non-negotiable. Reels or case studies over WIP dumps. An eye for restraint and taste. We build premium work, not templates. Reliable communication and the ability to hit deadlines across time zones Nice to have: Cinema 4D, Houdini, Premiere, Figma, familiarity with web performance constraints Details Remote, contract, ongoing - not a one-off gig Volume is steady: expect both quick social turnarounds and longer 3D builds Paid per project or hourly depending on scope. Rate based on experience. Overlap with US Eastern hours preferred m with a short note on which pieces are yours and what you did on them. Include at least one vertical social piece and one 3D piece. Include your rate and typical turnaround. Applications without a portfolio link won't be reviewed."
+    },
+    {
+      "title": "Looking for Ongoing Dev Work / attention to detail (Shopify, webflow, GSAP and 3D stack)",
+      "ciphertext": "~022077054779130313537",
+      "description": "Front-End Developer - Detail-Obsessed, Animation-First Ecom Maven builds cinematic, custom-coded web experiences for luxury, e-commerce, hospitality, and wellness brands. We're animation-first: GSAP, Three.js, WebGL, scroll-driven storytelling. Every pixel is intentional, and we're looking for a developer who feels the same way. Who you are You're the person who notices the 2px misalignment before anyone else does. You catch the easing curve that feels slightly off, the transition that stutters on scroll, the hover state nobody else remembered to build. You don't ship \"good enough\" - you ship pixel-perfect, and you QA your own work before a PM ever has to. What you'll do Build custom, high-polish front-ends from Figma with 1:1 fidelity Develop scroll-driven and interactive animations in GSAP (ScrollTrigger, timelines, scrubbing) Work across Shopify, Webflow, and custom-coded builds Own the details: responsive behavior, micro-interactions, cross-browser consistency, performance Self-QA rigorously - you catch your own bugs before they reach the client Requirements Strong GSAP experience (this is essential, not a nice-to-have) Expert HTML, CSS, and JavaScript - clean, semantic, maintainable Proven eye for detail: precise spacing, timing, and motion Comfortable translating Figma into production code with zero compromise on design intent AI-native workflow (Cursor, Claude Code, v0, or similar) is a big plus Nice to have Three.js / WebGL Shopify Liquid and theme development Experience with animation-heavy, editorial, or luxury brand work How to apply Send your portfolio - we want to see motion work, not just static screenshots. Show us the sites you're proud of and tell us what detail on each one you obsessed over."
+    },
+    {
+      "title": "Looking for Ongoing Dev Work / attention to detail (Shopify, webflow, GSAP and 3D stack)",
+      "ciphertext": "~022076474550418257179",
+      "description": "Front-End Developer - Detail-Obsessed, Animation-First Ecom Maven builds cinematic, custom-coded web experiences for luxury, e-commerce, hospitality, and wellness brands. We're animation-first: GSAP, Three.js, WebGL, scroll-driven storytelling. Every pixel is intentional, and we're looking for a developer who feels the same way. Who you are You're the person who notices the 2px misalignment before anyone else does. You catch the easing curve that feels slightly off, the transition that stutters on scroll, the hover state nobody else remembered to build. You don't ship \"good enough\" - you ship pixel-perfect, and you QA your own work before a PM ever has to. What you'll do Build custom, high-polish front-ends from Figma with 1:1 fidelity Develop scroll-driven and interactive animations in GSAP (ScrollTrigger, timelines, scrubbing) Work across Shopify, Webflow, and custom-coded builds Own the details: responsive behavior, micro-interactions, cross-browser consistency, performance Self-QA rigorously - you catch your own bugs before they reach the client Requirements Strong GSAP experience (this is essential, not a nice-to-have) Expert HTML, CSS, and JavaScript - clean, semantic, maintainable Proven eye for detail: precise spacing, timing, and motion Comfortable translating Figma into production code with zero compromise on design intent AI-native workflow (Cursor, Claude Code, v0, or similar) is a big plus Nice to have Three.js / WebGL Shopify Liquid and theme development Experience with animation-heavy, editorial, or luxury brand work How to apply Send your portfolio - we want to see motion work, not just static screenshots. Show us the sites you're proud of and tell us what detail on each one you obsessed over."
+    },
+    {
+      "title": "Looking for Ongoing Dev Work / attention to detail (Shopify, webflow, GSAP and 3D stack)",
+      "ciphertext": "~022075657646289765190",
+      "description": "Front-End Developer - Detail-Obsessed, Animation-First Ecom Maven builds cinematic, custom-coded web experiences for luxury, e-commerce, hospitality, and wellness brands. We're animation-first: GSAP, Three.js, WebGL, scroll-driven storytelling. Every pixel is intentional, and we're looking for a developer who feels the same way. Who you are You're the person who notices the 2px misalignment before anyone else does. You catch the easing curve that feels slightly off, the transition that stutters on scroll, the hover state nobody else remembered to build. You don't ship \"good enough\" - you ship pixel-perfect, and you QA your own work before a PM ever has to. What you'll do Build custom, high-polish front-ends from Figma with 1:1 fidelity Develop scroll-driven and interactive animations in GSAP (ScrollTrigger, timelines, scrubbing) Work across Shopify, Webflow, and custom-coded builds Own the details: responsive behavior, micro-interactions, cross-browser consistency, performance Self-QA rigorously - you catch your own bugs before they reach the client Requirements Strong GSAP experience (this is essential, not a nice-to-have) Expert HTML, CSS, and JavaScript - clean, semantic, maintainable Proven eye for detail: precise spacing, timing, and motion Comfortable translating Figma into production code with zero compromise on design intent AI-native workflow (Cursor, Claude Code, v0, or similar) is a big plus Nice to have Three.js / WebGL Shopify Liquid and theme development Experience with animation-heavy, editorial, or luxury brand work How to apply Send your portfolio - we want to see motion work, not just static screenshots. Show us the sites you're proud of and tell us what detail on each one you obsessed over."
+    },
+    {
+      "title": "Looking for a developer on an onging basis",
+      "ciphertext": "~022075231814679218553",
+      "description": "Creative Developer - Shopify + Scroll-Driven Animation (AI-Native Workflow) Ecom Maven | Remote | Part-Time, Ongoing Who We Are We're an animation-first, custom-coded web design agency building standout sites for e-commerce, luxury, hospitality, and wellness brands. Our work lives at the intersection of clean engineering and cinematic motion - think scroll experiences that feel alive, not templated. We build on Shopify, Webflow, and custom HTML/CSS/JS. What You'll Do This is an ongoing, part-time role - a steady stream of project work rather than a one-off gig. You'll take designs and creative direction and turn them into fast, polished, motion-rich websites. Day to day, that means: Building and customizing Shopify themes (Liquid, sections, custom snippets) Engineering scroll-controlled animations and interactive hero sequences Translating Figma designs into pixel-accurate, performant front-end code Debugging, optimizing, and shipping - on real deadlines, for real clients Our Animation Stack If these are already in your toolkit, you'll feel right at home: GSAP + ScrollTrigger for scroll-driven motion Lenis for smooth scroll Three.js / WebGL for anything dimensional Solid vanilla JS fundamentals underneath it all AI-Native (\"Vibe Coding\") We build with AI in the loop, not on the sidelines. You should be genuinely fluent with tools like Claude Code, Cursor, or similar - able to move fast by describing intent, then reviewing, refining, and taking full ownership of the output. We're looking for someone who uses AI to ship better and faster, while still understanding every line that goes live. Speed matters. So does craft. You're a Great Fit If You Have shipped real Shopify builds (not just demos) Are strong with GSAP - this is essential, not a nice-to-have. You should be confident with ScrollTrigger and timeline-based animation Can make things move - and know why a 60fps animation beats a janky one Are comfortable in an AI-assisted workflow and know where the tools help vs. where human judgment wins Sweat the details: spacing, timing, easing, load performance Communicate clearly and manage your own time (we're remote and async-friendly) Can commit to consistent part-time availability and turn work around reliably week to week Nice to Have Webflow experience Netlify / DNS / deployment know-how An eye for design, not just execution A portfolio with motion work we can actually scroll through How to Apply Send us your portfolio (motion work front and center) and a short note on how you use AI in your build process. Links to live Shopify or animation-heavy sites you've shipped go a long way. We review work over resumes - show us something that moves."
+    }
+  ]
+}

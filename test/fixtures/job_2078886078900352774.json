@@ -1,0 +1,908 @@
+{
+  "uid": "2078886078900352774",
+  "ciphertext": "~022078886078900352774",
+  "title": "Stripe Payment Integration in Existing Next.js/TypeScript Website",
+  "url": "https://www.upwork.com/jobs/~022078886078900352774",
+  "scrapedAt": "2026-07-19T21:13:42.905Z",
+  "feed": {
+    "id": "2078886078900352774",
+    "uid": "2078886078900352774",
+    "title": "Stripe Payment Integration in Existing Next.js/TypeScript Website",
+    "ciphertext": "~022078886078900352774",
+    "description": "I need an experienced developer to add a payment module to my existing website built with Next.js and TypeScript. This is a small, well-defined task with clear scope. Good work here can lead to future contracts on the same project.\nProject Scope\nPayment Integration: Integrate Stripe Checkout for one-time payments on healthcare services page\nCheckout Flow: Payment button → Stripe hosted checkout → redirect back to site\nWebhook: Single webhook to confirm successful payment and handle failures\nPages: Success and cancel/failure pages\nSecurity: No card data touches our servers, Stripe hosted checkout only\nTesting: Full flow tested in Stripe test mode first, then live keys deployed\n\nTech Stack\nNext.js (App Router), TypeScript. You will work in an existing codebase.\n\nWorking payment flow on production\nWebhook configured and verified\nShort handover note (env vars, Stripe dashboard settings)\n\nRequirements\n\nProven Stripe integration experience\nClean, documented code.\nClear communication and delivery within timeline",
+    "type": 1,
+    "recno": "1026017543",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 week",
+    "durationLabel": "Less than 1 week",
+    "engagement": null,
+    "amount": {
+      "amount": 50
+    },
+    "createdOn": "2026-07-19T16:54:00.075Z",
+    "publishedOn": "2026-07-19T16:56:05.030Z",
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 14,
+      "totalSpent": 135,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "United States"
+      },
+      "totalReviews": 10,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T17:21:59.044Z",
+      "proposalReviewedAt": "2026-07-19T17:21:59.052Z"
+    },
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTs": "1784480174362",
+    "attrs": [
+      {
+        "id": "1045317707950489600",
+        "uid": "1045317707950489600",
+        "prettyName": "Website Redesign",
+        "prefLabel": "Website Redesign"
+      },
+      {
+        "id": "996364628025274383",
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "1031626773660942336",
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "prefLabel": "React"
+      },
+      {
+        "id": "996364628025274389",
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "1031626762999021568",
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1031626728794472448",
+        "uid": "1031626728794472448",
+        "prettyName": "CSS",
+        "prefLabel": "CSS"
+      },
+      {
+        "id": "1031626795211276288",
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1031626745110315008",
+        "uid": "1031626745110315008",
+        "prettyName": "HTML",
+        "prefLabel": "HTML"
+      },
+      {
+        "id": "1031626745118703616",
+        "uid": "1031626745118703616",
+        "prettyName": "HTML5",
+        "prefLabel": "HTML5"
+      }
+    ],
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "isApplied": false,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "relevanceEncoded": "{}",
+    "position": 8
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T16:54:00.075Z",
+        "publishTime": "2026-07-19T16:56:05.030Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "I need an experienced developer to add a payment module to my existing website built with Next.js and TypeScript. This is a small, well-defined task with clear scope. Good work here can lead to future contracts on the same project.\nProject Scope\nPayment Integration: Integrate Stripe Checkout for one-time payments on healthcare services page\nCheckout Flow: Payment button → Stripe hosted checkout → redirect back to site\nWebhook: Single webhook to confirm successful payment and handle failures\nPages: Success and cancel/failure pages\nSecurity: No card data touches our servers, Stripe hosted checkout only\nTesting: Full flow tested in Stripe test mode first, then live keys deployed\n\nTech Stack\nNext.js (App Router), TypeScript. You will work in an existing codebase.\n\nWorking payment flow on production\nWebhook configured and verified\nShort handover note (env vars, Stripe dashboard settings)\n\nRequirements\n\nProven Stripe integration experience\nClean, documented code.\nClear communication and delivery within timeline",
+        "info": {
+          "ciphertext": "~022078886078900352774",
+          "id": "2078886078900352774",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Stripe Payment Integration in Existing Next.js/TypeScript Website",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T16:54:00.075Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1045317707950489600",
+              "freeText": null,
+              "prefLabel": "Website Redesign",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745110315008",
+              "freeText": null,
+              "prefLabel": "HTML",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745118703616",
+              "freeText": null,
+              "prefLabel": "HTML5",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 50,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T16:56:05.030Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T17:21:59.036Z",
+          "totalApplicants": 33,
+          "totalHired": 0,
+          "totalInvitedToInterview": 1,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 18000000,
+          "countryTimezone": "Asia/Karachi (UTC+05:00)",
+          "city": "New York",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 14,
+          "activeAssignmentsCount": 4,
+          "hoursCount": 0,
+          "feedbackCount": 10,
+          "score": 5,
+          "totalJobsWithHires": 13,
+          "totalCharges": {
+            "amount": 135
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "2046932609960666412",
+          "isEDCReplicated": null,
+          "contractDate": "2026-04-22T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 15,
+          "postedCount": 18,
+          "openJobs": [
+            {
+              "id": "2078449919857365447",
+              "uid": "2078449919857365447",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078449919857365447",
+              "title": "Local SEO & GEO Specialist Needed – Improve Our Visibility in Google, ChatGPT, Gemini & Perplexity",
+              "type": "FIXED"
+            },
+            {
+              "id": "2077824528978585099",
+              "uid": "2077824528978585099",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077824528978585099",
+              "title": "Shopify Support Agent – Live Chat & Email",
+              "type": "FIXED"
+            },
+            {
+              "id": "2077423578216096660",
+              "uid": "2077423578216096660",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077423578216096660",
+              "title": "API integration Experts & Rest APIs",
+              "type": "FIXED"
+            },
+            {
+              "id": "2077060596224015344",
+              "uid": "2077060596224015344",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077060596224015344",
+              "title": "Customer Service Representative",
+              "type": "FIXED"
+            },
+            {
+              "id": "2076590775053916608",
+              "uid": "2076590775053916608",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076590775053916608",
+              "title": "Pitch Deck Design Needed for a Growing SaaS Startup",
+              "type": "FIXED"
+            },
+            {
+              "id": "2076024152971407738",
+              "uid": "2076024152971407738",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076024152971407738",
+              "title": "General Virtual Assistant for Business Support",
+              "type": "FIXED"
+            },
+            {
+              "id": "2075804274890011176",
+              "uid": "2075804274890011176",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075804274890011176",
+              "title": "Urgent 3D Character Artist Needed",
+              "type": "FIXED"
+            },
+            {
+              "id": "2075611895518258835",
+              "uid": "2075611895518258835",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075611895518258835",
+              "title": "Amazon FBA & Store Growth Expert",
+              "type": "FIXED"
+            },
+            {
+              "id": "2075610963481850234",
+              "uid": "2075610963481850234",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075610963481850234",
+              "title": "Computer Vision & Generative AI Enginee",
+              "type": "FIXED"
+            },
+            {
+              "id": "2074085731469752360",
+              "uid": "2074085731469752360",
+              "isPtcPrivate": false,
+              "ciphertext": "~022074085731469752360",
+              "title": "Shopify Theme Customization Needed",
+              "type": "FIXED"
+            },
+            {
+              "id": "2074084649411882904",
+              "uid": "2074084649411882904",
+              "isPtcPrivate": false,
+              "ciphertext": "~022074084649411882904",
+              "title": "Add Video Background to Hero Section",
+              "type": "FIXED"
+            },
+            {
+              "id": "2073815188188748061",
+              "uid": "2073815188188748061",
+              "isPtcPrivate": false,
+              "ciphertext": "~022073815188188748061",
+              "title": "Shopify Customer Support & Social Media Specialist",
+              "type": "FIXED"
+            },
+            {
+              "id": "2072023589282438319",
+              "uid": "2072023589282438319",
+              "isPtcPrivate": false,
+              "ciphertext": "~022072023589282438319",
+              "title": "AI Search Optimization Expert (GEO, AEO & Entity SEO)",
+              "type": "FIXED"
+            },
+            {
+              "id": "2072019287536806134",
+              "uid": "2072019287536806134",
+              "isPtcPrivate": false,
+              "ciphertext": "~022072019287536806134",
+              "title": "E-commerce Brand Protection Expert",
+              "type": "FIXED"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-15T17:35:59.265Z",
+          "endDate": "2026-07-17T14:49:04.423Z",
+          "totalCharge": 10,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "API integration Experts & Rest APIs",
+            "id": "2077423578216096660",
+            "uid": "2077423578216096660",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022077423578216096660"
+          },
+          "contractorInfo": {
+            "contractorName": "Farhan H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0145c9b2d28941eca4"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent experience! Farhan resolved the API issue quickly and professionally. Great communication, fast delivery, and strong API integration skills. Highly recommended."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a great experience working with this client. Very professional, friendly, and easy to communicate with. I would be happy to work together again in the future. Highly recommended!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-13T17:18:20.309Z",
+          "endDate": "2026-07-16T08:50:27.802Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Pitch Deck Design Needed for a Growing SaaS Startup",
+            "id": "2076590775053916608",
+            "uid": "2076590775053916608",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022076590775053916608"
+          },
+          "contractorInfo": {
+            "contractorName": "Sohaib T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c4ef2f368cbf606f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Sohaib is an absolute perfection to work with. Will definitely work with him again"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-10T18:05:38.178Z",
+          "endDate": "2026-07-13T10:06:59.885Z",
+          "totalCharge": 10,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Computer Vision & Generative AI Enginee",
+            "id": "2075610963481850234",
+            "uid": "2075610963481850234",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022075610963481850234"
+          },
+          "contractorInfo": {
+            "contractorName": "Fawad K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019361e59f50e79ad3"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Fawad Khan was great to work with. Strong AI expertise, clear communication, and timely delivery. Highly recommended."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-12T11:55:22.618Z",
+          "endDate": "2026-07-13T06:39:53.958Z",
+          "totalCharge": 5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "General Virtual Assistant for Business Support",
+            "id": "2076024152971407738",
+            "uid": "2076024152971407738",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022076024152971407738"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01af23a7d7f79c8d60"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Arif provided outstanding business support as a General Virtual Assistant. He handled a wide range of administrative tasks efficiently, stayed organized, and consistently delivered accurate, high-quality work. His proactive communication, reliability, and ability to adapt to different responsibilities made him a valuable asset throughout the project. Highly recommended for business support and virtual assistant roles!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-10T17:31:36.361Z",
+          "endDate": "2026-07-12T00:03:58.295Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Amazon FBA & Store Growth Expert",
+            "id": "2075611895518258835",
+            "uid": "2075611895518258835",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022075611895518258835"
+          },
+          "contractorInfo": {
+            "contractorName": "Umair B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0170d41321da9215dc"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Outstanding experience! Delivered exactly what I needed on time with great attention to detail. Communication was excellent throughout the project. Highly recommended, and I look forward to working together again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Happy to work with him, Very cooperative and professional."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-06T15:38:53.683Z",
+          "endDate": "2026-07-11T19:30:32.105Z",
+          "totalCharge": 20,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Shopify Theme Customization Needed",
+            "id": "2074085731469752360",
+            "uid": "2074085731469752360",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022074085731469752360"
+          },
+          "contractorInfo": {
+            "contractorName": "Awais A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018ec699b322ff94d3"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Awais did an excellent job customizing our Shopify theme and delivered exactly what we were looking for. He understood our requirements quickly, communicated clearly throughout the project, and paid close attention to every detail. The final result matched our brand vision perfectly and was completed on time. His technical skills, professionalism, and willingness to make revisions made the entire process smooth and stress-free."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great to work. Clear communication welldefined requirements, and a smooth collaboration throughout the project. I would be happy to work together again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-11T05:16:29.327Z",
+          "endDate": "2026-07-11T11:01:37.761Z",
+          "totalCharge": 10,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Urgent 3D Character Artist Needed",
+            "id": "2075804274890011176",
+            "uid": "2075804274890011176",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022075804274890011176"
+          },
+          "contractorInfo": {
+            "contractorName": "Mujahid A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0101bd6a229d99532f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Mujahid Aslam did an outstanding job on this project. The quality of the Female Tech Priest model exceeded my expectations, with excellent attention to detail, clean modeling, and a professional finish. Communication was smooth throughout the project, and the work was delivered on time despite the tight deadline. I highly recommend Mujahid to anyone looking for a skilled and reliable 3D character artist, and I look forward to working with him again on future projects."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-06T09:22:53.756Z",
+          "endDate": "2026-07-10T15:51:46.855Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Shopify Customer Support & Social Media Specialist",
+            "id": "2073815188188748061",
+            "uid": "2073815188188748061",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022073815188188748061"
+          },
+          "contractorInfo": {
+            "contractorName": "Asif M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017965ca2e815d3954"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great experience from start to finish. The customer service representative was polite, knowledgeable, and ensured all my questions were answered promptly. Highly recommended for anyone looking for reliable customer support."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Oliver is an excellent client with clear communication, professionalism, and respect. Highly recommended."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-06T15:14:55.527Z",
+          "endDate": "2026-07-07T16:55:30.600Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Add Video Background to Hero Section",
+            "id": "2074084649411882904",
+            "uid": "2074084649411882904",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022074084649411882904"
+          },
+          "contractorInfo": {
+            "contractorName": "Khawaja M M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011fd0205b36c44234"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great work, fast turnaround, and the video looks amazing. Highly satisfied!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-30T17:50:36.215Z",
+          "endDate": "2026-07-01T17:00:00.357Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "You will get YouTube Video Editor | Long & Short Form Videos | Tiktok & Instagram Reels",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Javaid A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01023bcf9452f069eb"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Really happy with how this turned out. I only gave a basic idea of what I wanted, and the editor understood it straight away. The pacing, cuts, and overall flow felt much better than I expected. A couple of small changes were needed, and they were done quickly without any issues. Would definitely work together again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent 👌"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 52.72727272727273,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 40,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 100,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "uid": "2072264575603864397",
+  "ciphertext": "~022072264575603864397",
+  "title": "Senior Full-Stack (React / Next.js / Supabase / AI-Assisted Development) – Build a Document Intake",
+  "url": "https://www.upwork.com/jobs/~022072264575603864397",
+  "scrapedAt": "2026-07-19T21:18:22.453Z",
+  "feed": {
+    "uid": "2072264575603864397",
+    "ciphertext": "~022072264575603864397",
+    "title": "Senior Full-Stack (<span class=\"highlight\">React</span> / Next.<span class=\"highlight\">js</span> / Supabase / AI-Assisted <span class=\"highlight\">Development</span>) – Build a Document Intake",
+    "description": ",\n\nI’m building a real-world SaaS platform called HSVM (Ho So Viet My).\n\nThis is not a marketing website.\n\nIt is a document intake and case management system for customers handling immigration, consular, passport, apostille, and legal document services between the United States and Vietnam.\n\nThe customer experience is already fully designed.\n\nI have:\n\n* Complete customer workflow\n* UX/UI wireframes\n* Page designs\n* Business rules\n* Service database\n* Content\n* Internal workflow\n* Trust philosophy\n* MVP roadmap\n\nApproximately 13 design documents have already been prepared.\n\nI need an experienced engineer who can turn this system into a production-ready SaaS.\n\n⸻\n\nTech stack (preferred)\n\n* Next.<span class=\"highlight\">js</span>\n* <span class=\"highlight\">React</span>\n* TypeScript\n* Tailwind CSS\n* Supabase\n* PostgreSQL\n* AI-assisted <span class=\"highlight\">development</span> (Cursor, Claude Code, Lovable, etc.)\n\n⸻\n\nCore features\n\n* Homepage\n* Service directory\n* Dynamic service pages\n* Secure document upload\n* Public case tracking\n* Customer dashboard\n* Admin dashboard\n* Authentication\n* Email notifications\n* Search\n* File management\n* Responsive design\n\n⸻\n\nImportant\n\nI value:\n\n* clean architecture\n* simple UX\n* scalable code\n* maintainability\n* speed\n\nI do not want unnecessary complexity.\n\n⸻\n\nBefore applying\n\nPlease answer:\n\n1. How would you architect this project?\n2. Fixed-price estimate?\n3. Timeline?\n4. What would you build first?\n5. What would you postpone until Version 2?\n6. Have you built similar SaaS products?\n\n⸻\n\nI will provide\n\n* Full specifications\n* Wireframes\n* Design system\n* Workflow documents\n* Business logic\n* Ongoing feedback\n\n⸻\n\nLong-term opportunity\n\nIf we work well together, this will become a long-term project with future AI features and automation.",
+    "createdOn": "2026-07-01T10:22:30.666Z",
+    "publishedOn": "2026-07-01T10:24:01.060Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "Less than 1 month",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 0,
+    "relevanceEncoded": "{\"position\":\"28\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626773660942336",
+        "parentSkillUid": null,
+        "prefLabel": "React",
+        "prettyName": "React",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762999021568",
+        "parentSkillUid": null,
+        "prefLabel": "Node.js",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626794477273088",
+        "parentSkillUid": null,
+        "prefLabel": "Vue.js",
+        "prettyName": "Vue.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1484275089215770624",
+        "parentSkillUid": null,
+        "prefLabel": "Full-Stack Development",
+        "prettyName": "Full-Stack Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1225465958237442048",
+        "parentSkillUid": null,
+        "prefLabel": "Software Development",
+        "prettyName": "Software Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626753368899584",
+        "parentSkillUid": null,
+        "prefLabel": "Laravel",
+        "prettyName": "Laravel",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274386",
+        "parentSkillUid": null,
+        "prefLabel": "Python",
+        "prettyName": "Python",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626728794472448",
+        "parentSkillUid": null,
+        "prefLabel": "CSS",
+        "prettyName": "CSS",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626745110315008",
+        "parentSkillUid": null,
+        "prefLabel": "HTML",
+        "prettyName": "HTML",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364627995914247",
+        "parentSkillUid": null,
+        "prefLabel": "MySQL",
+        "prettyName": "MySQL",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1313512603317481472",
+        "parentSkillUid": null,
+        "prefLabel": "Tailwind CSS",
+        "prettyName": "Tailwind CSS",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626720951123968",
+        "parentSkillUid": null,
+        "prefLabel": "Bootstrap",
+        "prettyName": "Bootstrap",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626795181916160",
+        "parentSkillUid": null,
+        "prefLabel": "Web Design",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626741293498368",
+        "parentSkillUid": null,
+        "prefLabel": "Git",
+        "prettyName": "Git",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628012691468",
+        "parentSkillUid": null,
+        "prefLabel": "Angular",
+        "prettyName": "Angular",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580737240190976",
+        "parentSkillUid": null,
+        "prefLabel": "Web Application",
+        "prettyName": "Web Application",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580482322976768",
+        "parentSkillUid": null,
+        "prefLabel": "API",
+        "prettyName": "API",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-01T10:22:30.666Z",
+        "publishTime": "2026-07-01T10:24:01.060Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": ",\n\nI’m building a real-world SaaS platform called HSVM (Ho So Viet My).\n\nThis is not a marketing website.\n\nIt is a document intake and case management system for customers handling immigration, consular, passport, apostille, and legal document services between the United States and Vietnam.\n\nThe customer experience is already fully designed.\n\nI have:\n\n* Complete customer workflow\n* UX/UI wireframes\n* Page designs\n* Business rules\n* Service database\n* Content\n* Internal workflow\n* Trust philosophy\n* MVP roadmap\n\nApproximately 13 design documents have already been prepared.\n\nI need an experienced engineer who can turn this system into a production-ready SaaS.\n\n⸻\n\nTech stack (preferred)\n\n* Next.js\n* React\n* TypeScript\n* Tailwind CSS\n* Supabase\n* PostgreSQL\n* AI-assisted development (Cursor, Claude Code, Lovable, etc.)\n\n⸻\n\nCore features\n\n* Homepage\n* Service directory\n* Dynamic service pages\n* Secure document upload\n* Public case tracking\n* Customer dashboard\n* Admin dashboard\n* Authentication\n* Email notifications\n* Search\n* File management\n* Responsive design\n\n⸻\n\nImportant\n\nI value:\n\n* clean architecture\n* simple UX\n* scalable code\n* maintainability\n* speed\n\nI do not want unnecessary complexity.\n\n⸻\n\nBefore applying\n\nPlease answer:\n\n1. How would you architect this project?\n2. Fixed-price estimate?\n3. Timeline?\n4. What would you build first?\n5. What would you postpone until Version 2?\n6. Have you built similar SaaS products?\n\n⸻\n\nI will provide\n\n* Full specifications\n* Wireframes\n* Design system\n* Workflow documents\n* Business logic\n* Ongoing feedback\n\n⸻\n\nLong-term opportunity\n\nIf we work well together, this will become a long-term project with future AI features and automation.",
+        "info": {
+          "ciphertext": "~022072264575603864397",
+          "id": "2072264575603864397",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Senior Full-Stack (React / Next.js / Supabase / AI-Assisted Development) – Build a Document Intake",
+          "hideBudget": false,
+          "createdOn": "2026-07-01T10:22:30.666Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626794477273088",
+              "freeText": null,
+              "prefLabel": "Vue.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626753368899584",
+              "freeText": null,
+              "prefLabel": "Laravel",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745110315008",
+              "freeText": null,
+              "prefLabel": "HTML",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364627995914247",
+              "freeText": null,
+              "prefLabel": "MySQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1313512603317481472",
+              "freeText": null,
+              "prefLabel": "Tailwind CSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626720951123968",
+              "freeText": null,
+              "prefLabel": "Bootstrap",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275089215770624",
+              "freeText": null,
+              "prefLabel": "Full-Stack Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1225465958237442048",
+              "freeText": null,
+              "prefLabel": "Software Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626741293498368",
+              "freeText": null,
+              "prefLabel": "Git",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691468",
+              "freeText": null,
+              "prefLabel": "Angular",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580737240190976",
+              "freeText": null,
+              "prefLabel": "Web Application",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482322976768",
+              "freeText": null,
+              "prefLabel": "API",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-01T10:24:01.060Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "iPad",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "firstJobPost"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-01T22:12:17.951Z",
+          "totalApplicants": 112,
+          "totalHired": 0,
+          "totalInvitedToInterview": 2,
+          "unansweredInvites": 0,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2072208182621052366",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-01T00:00:00.000Z",
+          "profile": {
+            "industry": "Government & Public Sector",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 3,
+          "openJobs": [
+            {
+              "id": "2075504139412107059",
+              "uid": "2075504139412107059",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075504139412107059",
+              "title": "Google Workspace, Gmail Automation & Platform Deployment",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2072447406834286077",
+              "uid": "2072447406834286077",
+              "isPtcPrivate": false,
+              "ciphertext": "~022072447406834286077",
+              "title": "HSVM V1 – Product Vision Review & Technical Estimate",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 29.534834307992202,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 120,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

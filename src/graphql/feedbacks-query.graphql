@@ -1,0 +1,44 @@
+query FreeLancerFeedBacks($freelancerId: ID!, $filter: ReviewsFeedBackFilter) {
+  freelancerFeedBacks (freelancerId: $freelancerId, filter: $filter) {
+    itemsPerPage
+    totalItems
+    sortBy
+    sortDirection
+    feedbacks {
+      ...ReviewsFeedback
+    }
+  }
+}
+
+fragment ReviewsFeedback on ReviewsFeedBack {
+  ...ReviewsFeedBackFields
+  midContractFeedbacksAverage {
+    ...ReviewsFeedBackFields
+  }
+  midContractFeedbacks {
+    ...ReviewsFeedBackFields
+  }
+}
+
+fragment ReviewsFeedBackFields on ReviewsFeedBack {
+  clientRid
+  contractRid
+  projectId
+  score
+  text
+  assignmentEndedOn
+  isPublic
+  assignmentTitle
+  id
+  likesCount
+  dislikesCount
+  reactionIdOfCurrentUser
+  reactionTypeOfCurrentUser
+  clientFirstName
+  clientLastName
+  type
+  details {
+    name
+    score
+  }
+}

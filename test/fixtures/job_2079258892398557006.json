@@ -1,0 +1,585 @@
+{
+  "uid": "2079258892398557006",
+  "ciphertext": "~022079258892398557006",
+  "title": "Full Stack Development Project for an AI Powered Marketing Platform",
+  "url": "https://www.upwork.com/jobs/~022079258892398557006",
+  "scrapedAt": "2026-07-21T14:09:35.697Z",
+  "feed": {
+    "uid": "2079258892398557006",
+    "title": "Full Stack Development Project for an AI Powered Marketing Platform",
+    "ciphertext": "~022079258892398557006",
+    "description": "We're hiring for a Full-Stack Engineer at Avicen.\nWe're looking for a full-stack engineer to build our AI Agent — powered by Claude — from a documented spec to a production, multi-tenant SaaS product.\nYou'd own the full stack: the Next.js composer, the AI media pipeline (fal.ai, render, transcription), background jobs, Ayrshare publishing, Stripe billing, and the infrastructure underneath.\nThe stack is TypeScript-first — Next.js 15, Trigger.dev, Supabase — with Python/FastAPI for existing services, Claude for the agent, and fal.ai as the model gateway.\nWho we are looking for: someone strong across React/Next.js and async backend work, comfortable with Postgres, background jobs, and third-party API integration, who has shipped and operated real software in production.\nExperience with LLM integration, generative media APIs, Stripe billing, or HIPAA-aware architecture is a plus — not a requirement.\n\n📍 Remote (US) · Part-time to start, moving toward contract-to-hire.\n📩 If this sounds like you — or someone you know — email me with your résumé and one thing you've shipped from zero to production.",
+    "type": 2,
+    "recno": "1026029292",
+    "freelancersToHire": 0,
+    "duration": "More than 6 months",
+    "durationLabel": "More than 6 months",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-20T17:35:25.750Z",
+    "publishedOn": "2026-07-20T20:45:43.011Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "United States",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-20T17:50:09.058Z",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784580349747",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626724084269056",
+        "prefLabel": "Google Chrome Extension"
+      },
+      {
+        "id": "1052162208999198724",
+        "prefLabel": "WordPress"
+      },
+      {
+        "id": "996364627995914245",
+        "prefLabel": "MongoDB"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1031626725384503296",
+        "prefLabel": "CodeIgniter"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "996364627995914247",
+        "prefLabel": "MySQL"
+      },
+      {
+        "id": "1031626762688643072",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "996364628025274385",
+        "prefLabel": "PHP"
+      },
+      {
+        "id": "1484275089215770624",
+        "prefLabel": "Full-Stack Development"
+      },
+      {
+        "id": "1623716864178130944",
+        "prefLabel": "ChatGPT"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "1031626729578807296",
+        "prefLabel": "Database Design"
+      },
+      {
+        "id": "996364628012691466",
+        "prefLabel": "React Native"
+      },
+      {
+        "id": "1031626791457374208",
+        "prefLabel": "Twitter/X Bootstrap"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"23\"}",
+    "attrs": [
+      {
+        "uid": "1031626724084269056",
+        "prettyName": "Google Chrome Extension",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162208999198724",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364627995914245",
+        "prettyName": "MongoDB",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626725384503296",
+        "prettyName": "CodeIgniter",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364627995914247",
+        "prettyName": "MySQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274385",
+        "prettyName": "PHP",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275089215770624",
+        "prettyName": "Full-Stack Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1623716864178130944",
+        "prettyName": "ChatGPT",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626729578807296",
+        "prettyName": "Database Design",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626791457374208",
+        "prettyName": "Twitter/X Bootstrap",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "firstJobPost",
+        "contractToHireSet"
+      ]
+    },
+    "position": 24
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T17:35:25.750Z",
+        "publishTime": "2026-07-20T20:45:43.011Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "We're hiring for a Full-Stack Engineer at Avicen.\nWe're looking for a full-stack engineer to build our AI Agent — powered by Claude — from a documented spec to a production, multi-tenant SaaS product.\nYou'd own the full stack: the Next.js composer, the AI media pipeline (fal.ai, render, transcription), background jobs, Ayrshare publishing, Stripe billing, and the infrastructure underneath.\nThe stack is TypeScript-first — Next.js 15, Trigger.dev, Supabase — with Python/FastAPI for existing services, Claude for the agent, and fal.ai as the model gateway.\nWho we are looking for: someone strong across React/Next.js and async backend work, comfortable with Postgres, background jobs, and third-party API integration, who has shipped and operated real software in production.\nExperience with LLM integration, generative media APIs, Stripe billing, or HIPAA-aware architecture is a plus — not a requirement.\n\n📍 Remote (US) · Part-time to start, moving toward contract-to-hire.\n📩 If this sounds like you — or someone you know — email me with your résumé and one thing you've shipped from zero to production.",
+        "info": {
+          "ciphertext": "~022079258892398557006",
+          "id": "2079258892398557006",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Full Stack Development Project for an AI Powered Marketing Platform",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T17:35:25.750Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626724084269056",
+              "freeText": null,
+              "prefLabel": "Google Chrome Extension",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364627995914245",
+              "freeText": null,
+              "prefLabel": "MongoDB",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626725384503296",
+              "freeText": null,
+              "prefLabel": "CodeIgniter",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364627995914247",
+              "freeText": null,
+              "prefLabel": "MySQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275089215770624",
+              "freeText": null,
+              "prefLabel": "Full-Stack Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1623716864178130944",
+              "freeText": null,
+              "prefLabel": "ChatGPT",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626729578807296",
+              "freeText": null,
+              "prefLabel": "Database Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626791457374208",
+              "freeText": null,
+              "prefLabel": "Twitter/X Bootstrap",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-20T20:45:43.011Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "firstJobPost"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T17:50:09.050Z",
+          "totalApplicants": 27,
+          "totalHired": 0,
+          "totalInvitedToInterview": 5,
+          "unansweredInvites": 2,
+          "invitationsSent": 7,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2062664724639330526",
+          "isEDCReplicated": null,
+          "contractDate": "2026-06-04T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 39.78260869565217,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 120,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

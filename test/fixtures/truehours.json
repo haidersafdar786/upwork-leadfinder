@@ -1,0 +1,529 @@
+{
+  "uid": "2069867369815324852",
+  "ciphertext": "~022069867369815324852",
+  "title": "Title: Full-Stack Developer Needed - React/Node.js SaaS App",
+  "url": "https://www.upwork.com/jobs/~022069867369815324852",
+  "scrapedAt": "2026-07-19T21:18:41.158Z",
+  "feed": {
+    "uid": "2069867369815324852",
+    "ciphertext": "~022069867369815324852",
+    "title": "Title: Full-Stack <span class=\"highlight\">Developer</span> Needed - <span class=\"highlight\">React</span>/Node.<span class=\"highlight\">js</span> SaaS App",
+    "description": "Title: Full-Stack <span class=\"highlight\">Developer</span> Needed - <span class=\"highlight\">React</span>/Node.<span class=\"highlight\">js</span> SaaS App \n(Social Work Licensure Platform)\n\n═══════════════════════════════════════════════════════\n\nABOUT TRUEHOURS:\n\nTrueHours is a web application built to solve a real problem: \nsocial workers spend years tracking thousands of supervision \nhours, continuing education credits (CEUs), and license renewal \ndeadlines using spreadsheets and paper forms. We built TrueHours \nto make that process simple, organized, and stress-free.\n\nThink of it as the professional home base for social workers - \nfrom their first field placement as a student all the way through \na 30-year career.\n\nWe're a small, passionate startup. I'm the founder (non-technical) \nand I care deeply about building something that genuinely helps \npeople who dedicate their lives to helping others.\n\n═══════════════════════════════════════════════════════\n\nWHAT'S ALREADY BUILT:\n\nThe core application is complete and running on Replit:\n\n✓ User authentication and onboarding\n✓ Supervision hour tracking dashboard\n✓ CEU (continuing education) tracking\n✓ Multi-state license management\n✓ Supervisor/supervisee relationship system\n✓ Stripe payment integration (checkout, webhooks, 3 pricing tiers)\n✓ Pricing page (monthly $10, annual $89, lifetime $149)\n✓ Trial period logic (14 days for professionals, 30 for students)\n\nTech stack:\n- Frontend: <span class=\"highlight\">React</span>\n- Backend: Node.<span class=\"highlight\">js</span>\n- Database: PostgreSQL\n- Payments: Stripe\n- Hosting: Replit\n\n═══════════════════════════════════════════════════════\n\nWHAT I NEED YOU TO COMPLETE:\n\nPhase 2 (Primary Scope):\n\n1. Apply existing SubscriptionGate component to protected pages\n   - Dashboard, CEU Tracker, Supervisor Dashboard, Export features\n   - Users without active subscription redirect to trial-expired page\n\n2. Trial countdown banner\n   - Shows when user has 7 days or fewer remaining in trial\n   - Different messaging at 7 days, 3 days, 1 day\n   - Links to pricing page\n\n3. Trial expired page at /trial-expired\n   - Simple, kind messaging\n   - Shows hours tracked during trial\n   - \"Your data is safe\" reassurance\n   - Clear call to action to pricing page\n   - Support email displayed\n\n4. Manage Billing link in Settings\n   - Calls existing POST /api/stripe/portal endpoint\n   - Opens Stripe Customer Portal\n   - Shows only if user has stripeCustomerId\n\n5. Subscription status display in Settings\n   - Current plan, status, next billing date\n\nPhase 3 (Secondary Scope):\n\n6. Basic fraud prevention\n   - Block disposable email domains on signup\n   - Basic IP tracking (flag 3+ accounts from same IP)\n\n7. Trial reminder email notifications via SendGrid\n   - 7 days remaining\n   - 3 days remaining\n   - 1 day remaining\n   - Trial expired\n\n8. Minor UI/UX polish\n   - Remove any remaining \"beta\" language sitewide\n   - Clean up any rough edges in user flow\n\n═══════════════════════════════════════════════════════\n\nWHAT I'M LOOKING FOR IN A <span class=\"highlight\">DEVELOPER</span>:\n\nTechnical Requirements:\n✓ Strong <span class=\"highlight\">React</span> + Node.<span class=\"highlight\">js</span> experience (required)\n✓ Stripe API experience - specifically Checkout and Webhooks (required)\n✓ PostgreSQL experience (required)\n✓ SendGrid or similar email API experience (helpful)\n✓ Experience with SaaS subscription applications (preferred)\n✓ HIPAA awareness a plus (health-adjacent application)\n\nWork Style Requirements:\n✓ Clear, proactive communication (I'm non-technical - plain \n  English updates matter a lot to me)\n✓ Available for a short video call before we begin\n✓ Provides daily or every-other-day progress updates\n✓ Asks questions early rather than guessing\n✓ Delivers clean, documented code\n\n═══════════════════════════════════════════════════════\n\nWHAT MAKES THIS A GREAT PROJECT TO WORK ON:\n\n✓ Codebase is clean and well-organized (built with Replit Agent)\n✓ Stripe integration is already complete - you're adding UI, \n  not rebuilding infrastructure\n✓ Scope is well-defined - no moving targets\n✓ I'm easy to work with, responsive, and decisive\n✓ Real product solving a real problem for an underserved \n  professional community\n✓ Opportunity for ongoing work as TrueHours grows\n✓ I respect your expertise and won't micromanage\n\n═══════════════════════════════════════════════════════\n\nHOW TO APPLY:\n\nPlease include in your proposal:\n\n1. A brief example of a SaaS project you've built with \n   Stripe integration\n2. Your experience with subscription and trial logic specifically\n3. Confirm you're comfortable working in Replit\n4. Your realistic timeline for this scope\n5. One question you have about the project after reading this\n\nProposals that don't address these points won't be considered \n- I want to know you actually read this!\n\n═══════════════════════════════════════════════════════\n\nI'm looking forward to finding the right person for this. \nTrueHours is meaningful work and I want a <span class=\"highlight\">developer</span> who \nappreciates that.\n\n- Carla\nFounder, TrueHours\n\n═══════════════════════════════════════════════════════",
+    "createdOn": "2026-06-24T19:36:52.251Z",
+    "publishedOn": "2026-06-24T19:38:38.307Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "Less than 1 month",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 0,
+    "relevanceEncoded": "{\"position\":\"44\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "996364628012691466",
+        "parentSkillUid": null,
+        "prefLabel": "React Native",
+        "prettyName": "React Native",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762688643072",
+        "parentSkillUid": null,
+        "prefLabel": "Next.js",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626773660942336",
+        "parentSkillUid": null,
+        "prefLabel": "React",
+        "prettyName": "React",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762999021568",
+        "parentSkillUid": null,
+        "prefLabel": "Node.js",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626794477273088",
+        "parentSkillUid": null,
+        "prefLabel": "Vue.js",
+        "prettyName": "Vue.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628025274385",
+        "parentSkillUid": null,
+        "prefLabel": "PHP",
+        "prettyName": "PHP",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626745110315008",
+        "parentSkillUid": null,
+        "prefLabel": "HTML",
+        "prettyName": "HTML",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626795181916160",
+        "parentSkillUid": null,
+        "prefLabel": "Web Design",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626753368899584",
+        "parentSkillUid": null,
+        "prefLabel": "Laravel",
+        "prettyName": "Laravel",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628012691468",
+        "parentSkillUid": null,
+        "prefLabel": "Angular",
+        "prettyName": "Angular",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1484275081036877824",
+        "parentSkillUid": null,
+        "prefLabel": "MERN Stack",
+        "prettyName": "MERN Stack",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580676779298816",
+        "parentSkillUid": null,
+        "prefLabel": "Redux",
+        "prettyName": "Redux",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628016885773",
+        "parentSkillUid": null,
+        "prefLabel": "Flutter",
+        "prettyName": "Flutter",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1623716864224268288",
+        "parentSkillUid": null,
+        "prefLabel": "Replit",
+        "prettyName": "Replit",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1623716864178130944",
+        "parentSkillUid": null,
+        "prefLabel": "ChatGPT",
+        "prettyName": "ChatGPT",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-06-24T19:36:52.251Z",
+        "publishTime": "2026-06-24T19:38:38.307Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Title: Full-Stack Developer Needed - React/Node.js SaaS App \n(Social Work Licensure Platform)\n\n═══════════════════════════════════════════════════════\n\nABOUT TRUEHOURS:\n\nTrueHours is a web application built to solve a real problem: \nsocial workers spend years tracking thousands of supervision \nhours, continuing education credits (CEUs), and license renewal \ndeadlines using spreadsheets and paper forms. We built TrueHours \nto make that process simple, organized, and stress-free.\n\nThink of it as the professional home base for social workers - \nfrom their first field placement as a student all the way through \na 30-year career.\n\nWe're a small, passionate startup. I'm the founder (non-technical) \nand I care deeply about building something that genuinely helps \npeople who dedicate their lives to helping others.\n\n═══════════════════════════════════════════════════════\n\nWHAT'S ALREADY BUILT:\n\nThe core application is complete and running on Replit:\n\n✓ User authentication and onboarding\n✓ Supervision hour tracking dashboard\n✓ CEU (continuing education) tracking\n✓ Multi-state license management\n✓ Supervisor/supervisee relationship system\n✓ Stripe payment integration (checkout, webhooks, 3 pricing tiers)\n✓ Pricing page (monthly $10, annual $89, lifetime $149)\n✓ Trial period logic (14 days for professionals, 30 for students)\n\nTech stack:\n- Frontend: React\n- Backend: Node.js\n- Database: PostgreSQL\n- Payments: Stripe\n- Hosting: Replit\n\n═══════════════════════════════════════════════════════\n\nWHAT I NEED YOU TO COMPLETE:\n\nPhase 2 (Primary Scope):\n\n1. Apply existing SubscriptionGate component to protected pages\n   - Dashboard, CEU Tracker, Supervisor Dashboard, Export features\n   - Users without active subscription redirect to trial-expired page\n\n2. Trial countdown banner\n   - Shows when user has 7 days or fewer remaining in trial\n   - Different messaging at 7 days, 3 days, 1 day\n   - Links to pricing page\n\n3. Trial expired page at /trial-expired\n   - Simple, kind messaging\n   - Shows hours tracked during trial\n   - \"Your data is safe\" reassurance\n   - Clear call to action to pricing page\n   - Support email displayed\n\n4. Manage Billing link in Settings\n   - Calls existing POST /api/stripe/portal endpoint\n   - Opens Stripe Customer Portal\n   - Shows only if user has stripeCustomerId\n\n5. Subscription status display in Settings\n   - Current plan, status, next billing date\n\nPhase 3 (Secondary Scope):\n\n6. Basic fraud prevention\n   - Block disposable email domains on signup\n   - Basic IP tracking (flag 3+ accounts from same IP)\n\n7. Trial reminder email notifications via SendGrid\n   - 7 days remaining\n   - 3 days remaining\n   - 1 day remaining\n   - Trial expired\n\n8. Minor UI/UX polish\n   - Remove any remaining \"beta\" language sitewide\n   - Clean up any rough edges in user flow\n\n═══════════════════════════════════════════════════════\n\nWHAT I'M LOOKING FOR IN A DEVELOPER:\n\nTechnical Requirements:\n✓ Strong React + Node.js experience (required)\n✓ Stripe API experience - specifically Checkout and Webhooks (required)\n✓ PostgreSQL experience (required)\n✓ SendGrid or similar email API experience (helpful)\n✓ Experience with SaaS subscription applications (preferred)\n✓ HIPAA awareness a plus (health-adjacent application)\n\nWork Style Requirements:\n✓ Clear, proactive communication (I'm non-technical - plain \n  English updates matter a lot to me)\n✓ Available for a short video call before we begin\n✓ Provides daily or every-other-day progress updates\n✓ Asks questions early rather than guessing\n✓ Delivers clean, documented code\n\n═══════════════════════════════════════════════════════\n\nWHAT MAKES THIS A GREAT PROJECT TO WORK ON:\n\n✓ Codebase is clean and well-organized (built with Replit Agent)\n✓ Stripe integration is already complete - you're adding UI, \n  not rebuilding infrastructure\n✓ Scope is well-defined - no moving targets\n✓ I'm easy to work with, responsive, and decisive\n✓ Real product solving a real problem for an underserved \n  professional community\n✓ Opportunity for ongoing work as TrueHours grows\n✓ I respect your expertise and won't micromanage\n\n═══════════════════════════════════════════════════════\n\nHOW TO APPLY:\n\nPlease include in your proposal:\n\n1. A brief example of a SaaS project you've built with \n   Stripe integration\n2. Your experience with subscription and trial logic specifically\n3. Confirm you're comfortable working in Replit\n4. Your realistic timeline for this scope\n5. One question you have about the project after reading this\n\nProposals that don't address these points won't be considered \n- I want to know you actually read this!\n\n═══════════════════════════════════════════════════════\n\nI'm looking forward to finding the right person for this. \nTrueHours is meaningful work and I want a developer who \nappreciates that.\n\n- Carla\nFounder, TrueHours\n\n═══════════════════════════════════════════════════════",
+        "info": {
+          "ciphertext": "~022069867369815324852",
+          "id": "2069867369815324852",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Title: Full-Stack Developer Needed - React/Node.js SaaS App",
+          "hideBudget": false,
+          "createdOn": "2026-06-24T19:36:52.251Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745110315008",
+              "freeText": null,
+              "prefLabel": "HTML",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626753368899584",
+              "freeText": null,
+              "prefLabel": "Laravel",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691468",
+              "freeText": null,
+              "prefLabel": "Angular",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275081036877824",
+              "freeText": null,
+              "prefLabel": "MERN Stack",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626794477273088",
+              "freeText": null,
+              "prefLabel": "Vue.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580676779298816",
+              "freeText": null,
+              "prefLabel": "Redux",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628016885773",
+              "freeText": null,
+              "prefLabel": "Flutter",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1623716864224268288",
+              "freeText": null,
+              "prefLabel": "Replit",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1623716864178130944",
+              "freeText": null,
+              "prefLabel": "ChatGPT",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-06-24T19:38:38.307Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": []
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-06-24T21:17:56.927Z",
+          "totalApplicants": 80,
+          "totalHired": 0,
+          "totalInvitedToInterview": 10,
+          "unansweredInvites": 1,
+          "invitationsSent": 11,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "pls see screen questions within the project description.",
+          "position": 0
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -14400000,
+          "countryTimezone": "America/New_York (UTC-04:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2069860997212428061",
+          "isEDCReplicated": null,
+          "contractDate": "2026-06-24T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 33.186021505376345,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 9,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 200,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "uid": "2079376249680864779",
+  "ciphertext": "~022079376249680864779",
+  "title": "Wordpress Website Developer",
+  "url": "https://www.upwork.com/jobs/~022079376249680864779",
+  "scrapedAt": "2026-07-21T07:37:16.751Z",
+  "feed": {
+    "uid": "2079376249680864779",
+    "ciphertext": "~022079376249680864779",
+    "title": "Wordpress Website <span class=\"highlight\">Developer</span>",
+    "description": "Senior <span class=\"highlight\">Shopify</span> / WooCommerce <span class=\"highlight\">Developer</span> Needed (UI/UX, Performance, Integrations & Troubleshooting)\n\nWe're looking for an experienced **<span class=\"highlight\">Shopify</span> and WooCommerce <span class=\"highlight\">developer</span>** to take ownership of an existing ecommerce website and resolve a number of post-launch issues. This is **not** a website build from scratch. The site is already live, but we need someone who can quickly diagnose problems, improve performance, polish the user experience, and ensure everything functions correctly.\n\nThe ideal candidate has extensive experience with:\n\n* WooCommerce and <span class=\"highlight\">Shopify</span>\n* WordPress <span class=\"highlight\">development</span>\n* PHP, JavaScript, CSS, HTML\n* WooCommerce plugins and customizations\n* Performance optimization (Core Web Vitals)\n* Mobile responsive design\n* Google Analytics, Meta Pixel, Google Merchant Center, Klaviyo\n* Payment gateways\n* Inventory integrations and API troubleshooting\n\nThis could become an ongoing relationship if we're happy with the work.\n\nCurrent Issues to Resolve\n\nPerformance & Stability\n\n* Improve overall website speed, especially on mobile.\n* Diagnose homepage loading issues and intermittent site availability.\n* Fix caching so updates are immediately visible without requiring customers to hard refresh.\n* Optimize image loading throughout the site.\n\nHomepage & UI Improvements\n\n* Adjust hero banner image scaling so products are not cropped across different screen sizes.\n* Remove unnecessary text from hero sections and improve spacing.\n* Improve button placement and layout.\n* Restore horizontal product carousels instead of long vertical product lists.\n* Standardize product image sizing and reduce excessive white space.\n* Update homepage labels and badges for consistency.\n\nCollections & Navigation\n\n* Fix incorrect products appearing in collections.\n* Resolve category/tag filtering issues.\n* Restore proper \"Load More\" behavior.\n* Improve mobile navigation.\n* Consolidate long filter sections into expandable dropdowns.\n* Add important footer links to the mobile menu.\n\nProduct Pages\n\n* Fix image scaling and responsive behavior.\n* Improve mobile layout.\n* Enable appropriate image zoom functionality.\n* Correct variation pricing display.\n* Fix variation image behavior.\n* Ensure products display in the proper collections.\n* Update color swatches where needed.\n\nCheckout Experience\n\n* Simplify checkout layout.\n* Improve payment button placement.\n* Ensure Apple Pay, Google Pay and PayPal display correctly.\n* Shipping address should appear before billing address.\n* Billing fields should remain collapsed until needed.\n* Improve upsell presentation.\n* Rename checkout messaging.\n* Remove unnecessary checkout text.\n\nWholesale Account Experience\n\n* Review the entire wholesale customer journey.\n* Remove consumer-only promotions from wholesale accounts.\n* Remove returns/exchanges for wholesale customers.\n* Hide retail shipping options where appropriate.\n* Remove retail upsells for wholesale users.\n* Correct wholesale pricing display.\n* Prevent retail pricing from appearing throughout blogs and other pages.\n* Improve wholesale navigation.\n\nInventory & Product Sync\n\n* Investigate inventory inconsistencies.\n* Resolve incorrect backorder settings.\n* Verify synchronization with our AS400 inventory system.\n* Ensure product IDs remain consistent.\n* Confirm frontend inventory accurately reflects backend inventory.\n\nAnalytics & Tracking\n\n* Fix WooCommerce Analytics reporting.\n* Resolve incorrect sales spikes.\n* Fix negative product totals.\n* Ensure reports accurately reflect refunds and cancellations.\n* Fix Meta Pixel integration.\n* Fix Google for WooCommerce.\n* Ensure Google Merchant Center functions correctly.\n* Resolve Klaviyo event tracking (Add to Cart, Started Checkout).\n\nCustomer Accounts\n\n* Fix login and password reset issues.\n* Remove unnecessary CAPTCHA from login.\n* Improve account usability.\n\nReturns & Refunds\n\n* Restore automatic refunds to original payment methods.\n* Allow shipping refunds where applicable.\n* Review and correct the returns and exchanges workflow.\n* Ensure return shipping and exchange fees calculate properly.\n\nPayment Integrations\n\n* Verify PayPal live integration.\n* Review Stripe integration.\n* Ensure all payment methods function properly across desktop and mobile.\n\nShipping & Order Management\n\n* Verify ShipStation integration.\n* Test order imports.\n* Review order numbering.\n* Enable invoice downloads if possible.\n\nGeneral Website Fixes\n\n* Fix broken links.\n* Repair About Us page video.\n* Fix FAQ page layout.\n* Correct repeated menu items.\n* Improve email templates.\n* Remove unnecessary admin/testing information.\n* Review plugin conflicts.\n* Test the entire site across desktop, tablet, and multiple mobile devices.\n\nWhat We're Looking For\n\nYou should:\n\n* Have **5+ years** of <span class=\"highlight\">Shopify</span> and/or WooCommerce <span class=\"highlight\">development</span> experience.\n* Be comfortable debugging someone else's work.\n* Be proactive and able to identify root causes rather than applying temporary fixes.\n* Communicate clearly and provide progress updates.\n* Thoroughly test all changes before deployment.\n* Be available for ongoing maintenance if the relationship is a good fit.\n\nWe have detailed screenshots, documentation, and screen recordings of every issue to help you get started quickly. Some issues have already been documented internally and consolidated into a task list.",
+    "createdOn": "2026-07-21T01:21:45.819Z",
+    "publishedOn": "2026-07-21T01:23:28.691Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "1 to 3 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "USA"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "12325.5",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"26\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626779570716672",
+        "parentSkillUid": null,
+        "prefLabel": "Shopify",
+        "prettyName": "Shopify",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626796331155456",
+        "parentSkillUid": null,
+        "prefLabel": "WooCommerce",
+        "prettyName": "WooCommerce",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1052162208999198724",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626745110315008",
+        "parentSkillUid": null,
+        "prefLabel": "HTML",
+        "prettyName": "HTML",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274385",
+        "parentSkillUid": null,
+        "prefLabel": "PHP",
+        "prettyName": "PHP",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626728794472448",
+        "parentSkillUid": null,
+        "prefLabel": "CSS",
+        "prettyName": "CSS",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626795181916160",
+        "parentSkillUid": null,
+        "prefLabel": "Web Design",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T01:21:45.819Z",
+        "publishTime": "2026-07-21T01:23:28.691Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Senior Shopify / WooCommerce Developer Needed (UI/UX, Performance, Integrations & Troubleshooting)\n\nWe're looking for an experienced **Shopify and WooCommerce developer** to take ownership of an existing ecommerce website and resolve a number of post-launch issues. This is **not** a website build from scratch. The site is already live, but we need someone who can quickly diagnose problems, improve performance, polish the user experience, and ensure everything functions correctly.\n\nThe ideal candidate has extensive experience with:\n\n* WooCommerce and Shopify\n* WordPress development\n* PHP, JavaScript, CSS, HTML\n* WooCommerce plugins and customizations\n* Performance optimization (Core Web Vitals)\n* Mobile responsive design\n* Google Analytics, Meta Pixel, Google Merchant Center, Klaviyo\n* Payment gateways\n* Inventory integrations and API troubleshooting\n\nThis could become an ongoing relationship if we're happy with the work.\n\nCurrent Issues to Resolve\n\nPerformance & Stability\n\n* Improve overall website speed, especially on mobile.\n* Diagnose homepage loading issues and intermittent site availability.\n* Fix caching so updates are immediately visible without requiring customers to hard refresh.\n* Optimize image loading throughout the site.\n\nHomepage & UI Improvements\n\n* Adjust hero banner image scaling so products are not cropped across different screen sizes.\n* Remove unnecessary text from hero sections and improve spacing.\n* Improve button placement and layout.\n* Restore horizontal product carousels instead of long vertical product lists.\n* Standardize product image sizing and reduce excessive white space.\n* Update homepage labels and badges for consistency.\n\nCollections & Navigation\n\n* Fix incorrect products appearing in collections.\n* Resolve category/tag filtering issues.\n* Restore proper \"Load More\" behavior.\n* Improve mobile navigation.\n* Consolidate long filter sections into expandable dropdowns.\n* Add important footer links to the mobile menu.\n\nProduct Pages\n\n* Fix image scaling and responsive behavior.\n* Improve mobile layout.\n* Enable appropriate image zoom functionality.\n* Correct variation pricing display.\n* Fix variation image behavior.\n* Ensure products display in the proper collections.\n* Update color swatches where needed.\n\nCheckout Experience\n\n* Simplify checkout layout.\n* Improve payment button placement.\n* Ensure Apple Pay, Google Pay and PayPal display correctly.\n* Shipping address should appear before billing address.\n* Billing fields should remain collapsed until needed.\n* Improve upsell presentation.\n* Rename checkout messaging.\n* Remove unnecessary checkout text.\n\nWholesale Account Experience\n\n* Review the entire wholesale customer journey.\n* Remove consumer-only promotions from wholesale accounts.\n* Remove returns/exchanges for wholesale customers.\n* Hide retail shipping options where appropriate.\n* Remove retail upsells for wholesale users.\n* Correct wholesale pricing display.\n* Prevent retail pricing from appearing throughout blogs and other pages.\n* Improve wholesale navigation.\n\nInventory & Product Sync\n\n* Investigate inventory inconsistencies.\n* Resolve incorrect backorder settings.\n* Verify synchronization with our AS400 inventory system.\n* Ensure product IDs remain consistent.\n* Confirm frontend inventory accurately reflects backend inventory.\n\nAnalytics & Tracking\n\n* Fix WooCommerce Analytics reporting.\n* Resolve incorrect sales spikes.\n* Fix negative product totals.\n* Ensure reports accurately reflect refunds and cancellations.\n* Fix Meta Pixel integration.\n* Fix Google for WooCommerce.\n* Ensure Google Merchant Center functions correctly.\n* Resolve Klaviyo event tracking (Add to Cart, Started Checkout).\n\nCustomer Accounts\n\n* Fix login and password reset issues.\n* Remove unnecessary CAPTCHA from login.\n* Improve account usability.\n\nReturns & Refunds\n\n* Restore automatic refunds to original payment methods.\n* Allow shipping refunds where applicable.\n* Review and correct the returns and exchanges workflow.\n* Ensure return shipping and exchange fees calculate properly.\n\nPayment Integrations\n\n* Verify PayPal live integration.\n* Review Stripe integration.\n* Ensure all payment methods function properly across desktop and mobile.\n\nShipping & Order Management\n\n* Verify ShipStation integration.\n* Test order imports.\n* Review order numbering.\n* Enable invoice downloads if possible.\n\nGeneral Website Fixes\n\n* Fix broken links.\n* Repair About Us page video.\n* Fix FAQ page layout.\n* Correct repeated menu items.\n* Improve email templates.\n* Remove unnecessary admin/testing information.\n* Review plugin conflicts.\n* Test the entire site across desktop, tablet, and multiple mobile devices.\n\nWhat We're Looking For\n\nYou should:\n\n* Have **5+ years** of Shopify and/or WooCommerce development experience.\n* Be comfortable debugging someone else's work.\n* Be proactive and able to identify root causes rather than applying temporary fixes.\n* Communicate clearly and provide progress updates.\n* Thoroughly test all changes before deployment.\n* Be available for ongoing maintenance if the relationship is a good fit.\n\nWe have detailed screenshots, documentation, and screen recordings of every issue to help you get started quickly. Some issues have already been documented internally and consolidated into a task list.",
+        "info": {
+          "ciphertext": "~022079376249680864779",
+          "id": "2079376249680864779",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Wordpress Website Developer",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T01:21:45.819Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:ecommercedevelopment",
+            "prefLabel": "Ecommerce Website Development",
+            "id": "1017484851352698949",
+            "uid": "1017484851352698949"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1171125442998415360",
+              "id": "1031626779570716672",
+              "freeText": null,
+              "prefLabel": "Shopify",
+              "groupPrefLabel": "Ecommerce Platforms",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626796331155456",
+              "freeText": null,
+              "prefLabel": "WooCommerce",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626745110315008",
+              "freeText": null,
+              "prefLabel": "HTML",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Ecommerce Development",
+          "urlSlug": "ecommerce-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-21T01:23:28.691Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-21T01:21:45.793Z",
+          "totalApplicants": 55,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "Saint Charles",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 6,
+          "activeAssignmentsCount": 5,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 6,
+          "totalCharges": {
+            "amount": 12325.5
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1950199997855692409",
+          "isEDCReplicated": null,
+          "contractDate": "2025-07-29T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 17,
+          "openJobs": [
+            {
+              "id": "2072025441779900263",
+              "uid": "2072025441779900263",
+              "isPtcPrivate": false,
+              "ciphertext": "~022072025441779900263",
+              "title": "B2B Lead Generation Specialist",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2072002416375070205",
+              "uid": "2072002416375070205",
+              "isPtcPrivate": false,
+              "ciphertext": "~022072002416375070205",
+              "title": "Amazon Seller Central Account Management",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-22T00:59:45.246Z",
+          "endDate": null,
+          "totalCharge": 298,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Lifestyle Image Creator / Visual Content Specialist",
+            "id": "2009746275382373685",
+            "uid": "2009746275382373685",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022009746275382373685"
+          },
+          "contractorInfo": {
+            "contractorName": "Chan K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a9b3a9f8d5c4e679"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-20T21:17:49.962Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Instagram Influencer Research",
+            "id": "2009740401990030031",
+            "uid": "2009740401990030031",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022009740401990030031"
+          },
+          "contractorInfo": {
+            "contractorName": "Taiba C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017049ec53ac6fc751"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-15T18:50:11.565Z",
+          "endDate": null,
+          "totalCharge": 2505,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Ecommerce Website Revamp & Optimization (Retail + Wholesale)",
+            "id": "2009753412712649423",
+            "uid": "2009753412712649423",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022009753412712649423"
+          },
+          "contractorInfo": {
+            "contractorName": "Sushant S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010ddc4478489c22d5"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-10T16:52:30.187Z",
+          "endDate": null,
+          "totalCharge": 4472.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Meta Ads, Google Ads, Social Media Management, and Email Marketing (Klaviyo)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mohsin A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011adc3ab50ab5c164"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-05T18:35:56.468Z",
+          "endDate": null,
+          "totalCharge": 5000,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Amazon Seller Central Account Management",
+            "id": "1955396756449776629",
+            "uid": "1955396756449776629",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021955396756449776629"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad Saqib B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fc9d7d29c6ad3ddb"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 22.784121212121214,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 7,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 62,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1017484851352698949",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "B2B Lead Generation Specialist",
+      "ciphertext": "~022072025441779900263",
+      "description": "B2B Lead Generation Specialist (LinkedIn Sales Navigator, Findymail, Smartlead) We are looking for an experienced B2B Lead Generation Specialist to help us identify qualified companies and decision-makers, build targeted prospect lists, verify contact information, and launch cold email campaigns. This is an ongoing role for someone who is organized, detail-oriented, and experienced with modern outbound sales tools. Responsibilities Use LinkedIn Sales Navigator to identify target companies and decision-makers based on specific criteria. Build high-quality prospect lists for outbound sales campaigns. Find and verify business email addresses using Findymail or a similar email enrichment platform. Organize and manage lead data to ensure accuracy and consistency. Import leads into Smartlead (or similar platform) and set up cold email campaigns. Configure email sequences, personalization, and follow-up flows. Monitor campaign performance and recommend improvements. Maintain clean, organized CRM and lead databases. Work closely with our team to continuously refine targeting and messaging. Required Experience Strong experience using LinkedIn Sales Navigator. Experience with Findymail, Apollo, Clay, Instantly, Hunter.io, or similar lead enrichment tools. Experience with Smartlead, Instantly, Lemlist, or other cold email platforms. Understanding of email deliverability best practices. Ability to research companies and identify the correct decision-makers. Excellent English communication skills. High attention to detail and ability to work independently. Nice to Have Experience with Zapmail or similar email infrastructure tools. Knowledge of B2B outbound sales strategies. Experience working with e-commerce, retail, manufacturing, or consumer products companies. Familiarity with CRMs such as HubSpot, Pipedrive, or Salesforce. What We're Looking For We're looking for someone who doesn't simply build lists—they understand outbound sales. We want a proactive professional who can help us consistently generate qualified leads and improve campaign performance. If you have examples of successful lead generation campaigns you've built or managed, please include them in your proposal along with the tools you've used and the industries you've worked with."
+    },
+    {
+      "title": "Amazon Seller Central Account Management",
+      "ciphertext": "~022072002416375070205",
+      "description": "We are Henschel Hats, an 80 year old hat manufacturing company. We are working to grow our ecommerce, D2C, strategy including Amazon. We currently have a seller central account and brand registry. We are looking for a partner that can do the following: 1) Listing Clean-Up and Enhancement: - Revise and create new A+ Content for all current listings. - Optimize titles, bullet points, and descriptions with SEO keywords. - Update images or media as needed to meet Amazon guidelines. 2) Adding New SKUs and Expanding Listings: - Add remaining SKUs with consistent A+ Content and SEO optimization. 3) Duplicate Listing Removal: - Identify and remove duplicate listings. - Ensure ASIN consolidation for product variations. 4) Third-Party Reseller Monitoring: - Monitor and protect the Buy Box from unauthorized resellers. - Enforce policies to remove unauthorized sellers. 5) Customer Service Management: - Handle customer inquiries and maintain high customer satisfaction. - Manage reviews and feedback to improve ratings. 6) Advertising and PPC Management: - Set up, manage, and optimize Amazon PPC campaigns. - Manage advertising budgets and provide regular performance reports. 7) Monthly Reporting and Analysis: - Deliver monthly reports on sales, advertising metrics, and overall performance. - Provide insights and recommendations for continuous improvement."
+    }
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "uid": "2066764694175613881",
+  "ciphertext": "~022066764694175613881",
+  "title": "Full-Stack Developer to Launch AI SaaS Platform (Node.js + React, Claude/LLM APIs)",
+  "url": "https://www.upwork.com/jobs/~022066764694175613881",
+  "scrapedAt": "2026-07-19T21:18:33.454Z",
+  "feed": {
+    "uid": "2066764694175613881",
+    "ciphertext": "~022066764694175613881",
+    "title": "Full-Stack <span class=\"highlight\">Developer</span> to Launch AI\nSaaS Platform (Node.<span class=\"highlight\">js</span> + <span class=\"highlight\">React</span>,\nClaude/LLM APIs)",
+    "description": "I'm launching a multi-tenant SaaS platform with AI \"employees\" that automate work for small businesses. The platform includes autonomous agents and a website builder. I need freelancers with experience in SaaS <span class=\"highlight\">development</span> and AI technology to help with the launch.\n\nJob description:\nI'm launching MINE, a multi-tenant Saas platform with AI \"employees\" that automate work for small businesses — autonomous agents, a website builder, dashboards, and deep LLM integration. The full codebase is built and documented (Node.<span class=\"highlight\">js</span>/ Express backend, <span class=\"highlight\">React</span> frontend, SQLite, ~300 files). I need an experienced <span class=\"highlight\">developer</span> to take it from code-complete to live production.\nThis is a deployment + integration role, not a build-from-scratch role. The architecture, routes, and features ex' Your job is to wire up real services, test against live\ninfrastructure. fix what surfaces.and ship.\n\nWhat you'll do:\n• Deploy the Node.<span class=\"highlight\">js</span>/Express + <span class=\"highlight\">React</span> app to production (your recommendation on host)\n• Connect and test live integrations:\nAnthropic Claude API, Stripe (incl.\nConnect), SendGrid, Twilio\n• Set up the database for production and run migrations\n• Configure ~148 environment variables from a documented checklist\n• Work through a provided smoke-test list and fix issues that appear with real keys\n• Set up cron jobs for scheduled tasks (email sends, agent scans)\n• Build native dependencies (e.g. sharp) on the server\n\nHarden security anu get us launch-\n\nYou must have:\n• Strong Node.<span class=\"highlight\">js</span>/Express + <span class=\"highlight\">React</span> production experience\n• Hands-on experience integrating LLM\nAPIs (Anthropic Claude specifically is a big plus; OpenAI/others count)\n• Stripe integration experience, including\nConnect/marketplace payments\n• Deployment & DevOps competence (hosting, env management, cron, native builds)\n• A track record of taking apps to production, not just building features\nNice to have:\n• Multi-tenant Saas experience \n• SendGrid Twilio\n\nTo apply, tell me:\n1. A SaaS app you took live (link if possible) - your specific role\n2. Your experience with Claude or other\nLLM APIs — what you built\n3. Your approach to deploying an existing, documented codebase\n4. Availability and your estimate to reach a working production launch",
+    "createdOn": "2026-06-16T06:07:56.736Z",
+    "publishedOn": "2026-06-16T06:10:58.356Z",
+    "renewedOn": "2026-06-16T06:08:53.640Z",
+    "type": 1,
+    "durationLabel": "1 to 3 months",
+    "engagement": null,
+    "amount": {
+      "amount": 15000
+    },
+    "client": {
+      "location": {
+        "country": "AUS"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "5684.63",
+      "totalReviews": 3,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"37\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": true,
+    "attrs": [
+      {
+        "uid": "1031626745118703616",
+        "parentSkillUid": null,
+        "prefLabel": "HTML5",
+        "prettyName": "HTML5",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626728807055360",
+        "parentSkillUid": null,
+        "prefLabel": "CSS 3",
+        "prettyName": "CSS 3",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274385",
+        "parentSkillUid": null,
+        "prefLabel": "PHP",
+        "prettyName": "PHP",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-06-16T06:07:56.736Z",
+        "publishTime": "2026-06-16T06:10:58.356Z",
+        "sourcingTime": "2026-06-16T06:08:53.640Z",
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "I'm launching a multi-tenant SaaS platform with AI \"employees\" that automate work for small businesses. The platform includes autonomous agents and a website builder. I need freelancers with experience in SaaS development and AI technology to help with the launch.\n\nJob description:\nI'm launching MINE, a multi-tenant Saas platform with AI \"employees\" that automate work for small businesses — autonomous agents, a website builder, dashboards, and deep LLM integration. The full codebase is built and documented (Node.js/ Express backend, React frontend, SQLite, ~300 files). I need an experienced developer to take it from code-complete to live production.\nThis is a deployment + integration role, not a build-from-scratch role. The architecture, routes, and features ex' Your job is to wire up real services, test against live\ninfrastructure. fix what surfaces.and ship.\n\nWhat you'll do:\n• Deploy the Node.js/Express + React app to production (your recommendation on host)\n• Connect and test live integrations:\nAnthropic Claude API, Stripe (incl.\nConnect), SendGrid, Twilio\n• Set up the database for production and run migrations\n• Configure ~148 environment variables from a documented checklist\n• Work through a provided smoke-test list and fix issues that appear with real keys\n• Set up cron jobs for scheduled tasks (email sends, agent scans)\n• Build native dependencies (e.g. sharp) on the server\n\nHarden security anu get us launch-\n\nYou must have:\n• Strong Node.js/Express + React production experience\n• Hands-on experience integrating LLM\nAPIs (Anthropic Claude specifically is a big plus; OpenAI/others count)\n• Stripe integration experience, including\nConnect/marketplace payments\n• Deployment & DevOps competence (hosting, env management, cron, native builds)\n• A track record of taking apps to production, not just building features\nNice to have:\n• Multi-tenant Saas experience \n• SendGrid Twilio\n\nTo apply, tell me:\n1. A SaaS app you took live (link if possible) - your specific role\n2. Your experience with Claude or other\nLLM APIs — what you built\n3. Your approach to deploying an existing, documented codebase\n4. Availability and your estimate to reach a working production launch",
+        "info": {
+          "ciphertext": "~022066764694175613881",
+          "id": "2066764694175613881",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Full-Stack Developer to Launch AI\nSaaS Platform (Node.js + React,\nClaude/LLM APIs)",
+          "hideBudget": false,
+          "createdOn": "2026-06-16T06:07:56.736Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": true
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1204836457510977536",
+              "id": "1031626745118703616",
+              "freeText": null,
+              "prefLabel": "HTML5",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "1031626728807055360",
+              "freeText": null,
+              "prefLabel": "CSS 3",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": null
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 15000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "mobile_web_ios_rjp",
+            "publishTime": "2026-06-16T06:10:58.356Z",
+            "sourcingUpdateCount": "1",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "sourcingTime": "2026-06-16T06:08:53.640Z",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "I'm launching, a multi-tenant Saas platform with AI \"employees\" that automate work for small businesses — autonomous agents, a website builder, dashboards, and deep LLM integration. The full codebase is built and documented (Node.js/ Express backend, React frontend, SQLite, ~300 files). I need an experienced developer to take it from code-complete to live production.",
+            "generatedInputsAIv2": "{\"title\":\"SaaS Platform with AI Features\",\"skills\":[],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":35}}",
+            "generate_prompt": "I'm launching, a multi-tenant Saas platform with AI \"employees\" that automate work for small businesses — autonomous agents, a website builder, dashbo",
+            "browser": "Safari",
+            "device": "iPhone",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1781589700483",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"I'm launching a multi-tenant SaaS platform with AI \\\"employees\\\" that automate work for small businesses. The platform includes autonomous agents and a website builder. I need freelancers with experience in SaaS development and AI technology to help with the launch.\",\"editedDescription\":\"I'm launching a multi-tenant SaaS platform with AI \\\"employees\\\" that automate work for small businesses. The platform includes autonomous agents and a website builder. I need freelancers with experience in SaaS development and AI technology to help with the launch.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "premium",
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-06-28T03:20:36.439Z",
+          "totalApplicants": 336,
+          "totalHired": 3,
+          "totalInvitedToInterview": 13,
+          "unansweredInvites": 0,
+          "invitationsSent": 11,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 36000000,
+          "countryTimezone": "Australia/Sydney (UTC+10:00)",
+          "city": "Brisbane",
+          "country": "AUS"
+        },
+        "stats": {
+          "totalAssignments": 10,
+          "activeAssignmentsCount": 5,
+          "hoursCount": 0,
+          "feedbackCount": 3,
+          "score": 5,
+          "totalJobsWithHires": 7,
+          "totalCharges": {
+            "amount": 8484.63
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1755029472465362944",
+          "isEDCReplicated": null,
+          "contractDate": "2024-02-07T00:00:00.000Z",
+          "profile": {
+            "industry": "Education",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 4,
+          "postedCount": 13,
+          "openJobs": [
+            {
+              "id": "2078014224353881273",
+              "uid": "2078014224353881273",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078014224353881273",
+              "title": "Launch a finished Node.js AI app in 2 weeks — Stripe Connect + Anthropic + email + open ai",
+              "type": "FIXED"
+            },
+            {
+              "id": "2071142587800148439",
+              "uid": "2071142587800148439",
+              "isPtcPrivate": false,
+              "ciphertext": "~022071142587800148439",
+              "title": "Full-Stack Developer — Take a Built AI SaaS to Production (Contract → Ongoing)",
+              "type": "FIXED"
+            },
+            {
+              "id": "2068107302837159234",
+              "uid": "2068107302837159234",
+              "isPtcPrivate": false,
+              "ciphertext": "~022068107302837159234",
+              "title": "Crypto Custody & Game Platform Developer",
+              "type": "FIXED"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-06T02:37:36.407Z",
+          "endDate": null,
+          "totalCharge": 2800,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Crypto Custody & Game Platform Developer",
+            "id": "2068107302837159234",
+            "uid": "2068107302837159234",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022068107302837159234"
+          },
+          "contractorInfo": {
+            "contractorName": "Tan Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014b3fdc54fcf7bee6"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-28T08:58:38.493Z",
+          "endDate": null,
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Full-Stack Developer — Take a Built AI SaaS to Production (Contract → Ongoing)",
+            "id": "2071142587800148439",
+            "uid": "2071142587800148439",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022071142587800148439"
+          },
+          "contractorInfo": {
+            "contractorName": "Akhil V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e6c57d1f91d3c914"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-22T06:18:00.414Z",
+          "endDate": null,
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Full-Stack Developer to Launch AI\nSaaS Platform (Node.js + React,\nClaude/LLM APIs)",
+            "id": "2066764694175613881",
+            "uid": "2066764694175613881",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022066764694175613881"
+          },
+          "contractorInfo": {
+            "contractorName": "Sergei C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d2ecbffeb8a68588"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-29T07:20:13.708Z",
+          "endDate": null,
+          "totalCharge": 1158.25,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "New website",
+            "id": "1917110165147256866",
+            "uid": "1917110165147256866",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021917110165147256866"
+          },
+          "contractorInfo": {
+            "contractorName": "Alex Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c21a77e7517790b1"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-09-04T04:14:53.356Z",
+          "endDate": "2025-07-14T05:08:47.427Z",
+          "totalCharge": 2651.38,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "New website for my rewards and giveaway website ",
+            "id": "1830868855490200075",
+            "uid": "1830868855490200075",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01ddc71247682aa0b8"
+          },
+          "contractorInfo": {
+            "contractorName": "Alex Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c21a77e7517790b1"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-18T09:42:40.470Z",
+          "endDate": "2025-07-14T05:07:36.957Z",
+          "totalCharge": 750,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "New website",
+            "id": "1901811803017486817",
+            "uid": "1901811803017486817",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021901811803017486817"
+          },
+          "contractorInfo": {
+            "contractorName": "Alex Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c21a77e7517790b1"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Love the way Alex works. Very quick and great quality"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-08T03:04:05.607Z",
+          "endDate": "2024-11-22T01:13:01.593Z",
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Promotion Video creation and editing ",
+            "id": "1853956004725852033",
+            "uid": "1853956004725852033",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021853956004725852033"
+          },
+          "contractorInfo": {
+            "contractorName": "Ghazanfar H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01be553525ffcf9fb4"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 13943.745562130178,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 30000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "uid": "2078902723128366798",
+  "ciphertext": "~022078902723128366798",
+  "title": "Android Device Policy Manager",
+  "url": "https://www.upwork.com/jobs/~022078902723128366798",
+  "scrapedAt": "2026-07-19T21:14:40.254Z",
+  "feed": {
+    "id": "2078902723128366798",
+    "uid": "2078902723128366798",
+    "title": "Android Device Policy Manager",
+    "ciphertext": "~022078902723128366798",
+    "description": "\"Hi,\n\nI'm building an Android app\nthat locks the phone until the user\ncompletes daily goals with photo proof.\n\nI need someone experienced with:\n- Device Policy Manager\n- Google ML Kit\n- Camera integration\n- GPS verification\n\nBudget: $600\nPhase 1 only.\nMust sign NDA first.\n\nCan you help?\nPlease show me similar work.",
+    "type": "HOURLY",
+    "recno": "1026018010",
+    "freelancersToHire": 0,
+    "duration": "WEEK",
+    "durationLabel": "Less than 1 month",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": "0.0"
+    },
+    "createdOn": "2026-07-19T21:02:08+0000",
+    "publishedOn": "2026-07-19T21:02:08+0000",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": 0,
+    "client": {
+      "totalHires": 0,
+      "totalPostedJobs": 3,
+      "totalSpent": {
+        "rawValue": "0.0",
+        "currency": "USD",
+        "displayValue": "0.0"
+      },
+      "paymentVerificationStatus": null,
+      "location": {
+        "country": "Canada"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "companyRid": "0",
+      "edcUserId": "0",
+      "lastContractRid": "0",
+      "companyOrgUid": "2074180436229237988",
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T18:00:08.788Z",
+      "proposalReviewedAt": null
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTs": "1784494928369",
+    "skills": [
+      {
+        "id": null,
+        "name": "firebase",
+        "prettyName": "Firebase",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "android-sdk",
+        "prettyName": "Android SDK",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "aosp",
+        "prettyName": "AOSP",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "mobile-device-management",
+        "prettyName": "Mobile Device Management",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "trade-show-kiosk",
+        "prettyName": "Kiosk",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "phone",
+        "prettyName": "Smartphone",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "aws-iot-device-management",
+        "prettyName": "AWS IoT Device Management",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "device-firmware",
+        "prettyName": "Firmware",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "firmware",
+        "prettyName": "Firmware Programming",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "digital-signage",
+        "prettyName": "Digital Signage",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "mobile-app-development",
+        "prettyName": "Mobile App Development",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "gps-development",
+        "prettyName": "GPS",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "bluetooth-feature",
+        "prettyName": "Bluetooth",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "swift",
+        "prettyName": "Swift",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "kotlin",
+        "prettyName": "Kotlin",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "flutter",
+        "prettyName": "Flutter",
+        "highlighted": false
+      },
+      {
+        "id": null,
+        "name": "react-native",
+        "prettyName": "React Native",
+        "highlighted": false
+      }
+    ],
+    "contractorTier": "INTERMEDIATE",
+    "jobStatus": "Open",
+    "relevanceEncoded": "{\"position\":\"2\"}",
+    "totalApplicants": 4,
+    "proposalsTier": "Fewer than 5",
+    "isLocal": false,
+    "locations": null,
+    "isApplied": false,
+    "attrs": [
+      {
+        "id": "996364628012691465",
+        "uid": "996364628012691465",
+        "prettyName": "Firebase",
+        "parentSkillId": null,
+        "prefLabel": "Firebase",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626712755453952",
+        "uid": "1031626712755453952",
+        "prettyName": "Android SDK",
+        "parentSkillId": null,
+        "prefLabel": "Android SDK",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626713296519168",
+        "uid": "1031626713296519168",
+        "prettyName": "AOSP",
+        "parentSkillId": null,
+        "prefLabel": "AOSP",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1192876982371106816",
+        "uid": "1192876982371106816",
+        "prettyName": "Mobile Device Management",
+        "parentSkillId": null,
+        "prefLabel": "Mobile Device Management",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1356688534237614080",
+        "uid": "1356688534237614080",
+        "prettyName": "Kiosk",
+        "parentSkillId": null,
+        "prefLabel": "Kiosk",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "996364628000108550",
+        "uid": "996364628000108550",
+        "prettyName": "Smartphone",
+        "parentSkillId": null,
+        "prefLabel": "Smartphone",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626718459707392",
+        "uid": "1031626718459707392",
+        "prettyName": "AWS IoT Device Management",
+        "parentSkillId": null,
+        "prefLabel": "AWS IoT Device Management",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1110580547284357120",
+        "uid": "1110580547284357120",
+        "prettyName": "Firmware",
+        "parentSkillId": null,
+        "prefLabel": "Firmware",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626738688835584",
+        "uid": "1031626738688835584",
+        "prettyName": "Firmware Programming",
+        "parentSkillId": null,
+        "prefLabel": "Firmware Programming",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1484275086376226816",
+        "uid": "1484275086376226816",
+        "prettyName": "Mobile Device Management Software",
+        "parentSkillId": null,
+        "prefLabel": "Mobile Device Management Software",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626731956977664",
+        "uid": "1031626731956977664",
+        "prettyName": "Digital Signage",
+        "parentSkillId": null,
+        "prefLabel": "Digital Signage",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626760125923328",
+        "uid": "1031626760125923328",
+        "prettyName": "Mobile App Development",
+        "parentSkillId": null,
+        "prefLabel": "Mobile App Development",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1031626742673424384",
+        "uid": "1031626742673424384",
+        "prettyName": "GPS",
+        "parentSkillId": null,
+        "prefLabel": "GPS",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "1204836446245076992",
+        "uid": "1204836446245076992",
+        "prettyName": "Bluetooth",
+        "parentSkillId": null,
+        "prefLabel": "Bluetooth",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "996364627995914241",
+        "uid": "996364627995914241",
+        "prettyName": "Swift",
+        "parentSkillId": null,
+        "prefLabel": "Swift",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "996364628025274384",
+        "uid": "996364628025274384",
+        "prettyName": "Kotlin",
+        "parentSkillId": null,
+        "prefLabel": "Kotlin",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "996364628016885773",
+        "uid": "996364628016885773",
+        "prettyName": "Flutter",
+        "parentSkillId": null,
+        "prefLabel": "Flutter",
+        "highlighted": false,
+        "freeText": null
+      },
+      {
+        "id": "996364628012691466",
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "parentSkillId": null,
+        "prefLabel": "React Native",
+        "highlighted": false,
+        "freeText": null
+      }
+    ],
+    "hourlyBudget": {
+      "type": "NOT_PROVIDED",
+      "min": 0,
+      "max": 0
+    },
+    "clientRelation": null,
+    "totalFreelancersToHire": null,
+    "contractToHire": null,
+    "annotations": {
+      "tags": [
+        "firstJobPost"
+      ]
+    },
+    "position": 3
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T18:00:08.355Z",
+        "publishTime": "2026-07-19T21:02:08.369Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "\"Hi,\n\nI'm building an Android app\nthat locks the phone until the user\ncompletes daily goals with photo proof.\n\nI need someone experienced with:\n- Device Policy Manager\n- Google ML Kit\n- Camera integration\n- GPS verification\n\nBudget: $600\nPhase 1 only.\nMust sign NDA first.\n\nCan you help?\nPlease show me similar work.",
+        "info": {
+          "ciphertext": "~022078902723128366798",
+          "id": "2078902723128366798",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Android Device Policy Manager",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T18:00:08.355Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:mobileappdevelopment",
+            "prefLabel": "Mobile App Development",
+            "id": "996364627857502209",
+            "uid": "996364627857502209"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628012691465",
+              "freeText": null,
+              "prefLabel": "Firebase",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626712755453952",
+              "freeText": null,
+              "prefLabel": "Android SDK",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626713296519168",
+              "freeText": null,
+              "prefLabel": "AOSP",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1192876982371106816",
+              "freeText": null,
+              "prefLabel": "Mobile Device Management",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1356688534237614080",
+              "freeText": null,
+              "prefLabel": "Kiosk",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628000108550",
+              "freeText": null,
+              "prefLabel": "Smartphone",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626718459707392",
+              "freeText": null,
+              "prefLabel": "AWS IoT Device Management",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580547284357120",
+              "freeText": null,
+              "prefLabel": "Firmware",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626738688835584",
+              "freeText": null,
+              "prefLabel": "Firmware Programming",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275086376226816",
+              "freeText": null,
+              "prefLabel": "Mobile Device Management Software",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626731956977664",
+              "freeText": null,
+              "prefLabel": "Digital Signage",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626760125923328",
+              "freeText": null,
+              "prefLabel": "Mobile App Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626742673424384",
+              "freeText": null,
+              "prefLabel": "GPS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1204836446245076992",
+              "freeText": null,
+              "prefLabel": "Bluetooth",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364627995914241",
+              "freeText": null,
+              "prefLabel": "Swift",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274384",
+              "freeText": null,
+              "prefLabel": "Kotlin",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628016885773",
+              "freeText": null,
+              "prefLabel": "Flutter",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Mobile Development",
+          "urlSlug": "mobile-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-19T21:02:08.369Z",
+            "sourcingUpdateCount": "0",
+            "browser": "AppleWebKit",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "iPhone",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "firstJobPost"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T18:00:08.779Z",
+          "totalApplicants": 4,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 1,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -10800000,
+          "countryTimezone": "America/Halifax (UTC-03:00)",
+          "city": null,
+          "country": "Canada"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2074180436229237988",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-06T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 3,
+          "openJobs": [
+            {
+              "id": "2078904374519461710",
+              "uid": "2078904374519461710",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078904374519461710",
+              "title": "Android Device Policy Manager",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2078903660130875142",
+              "uid": "2078903660130875142",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078903660130875142",
+              "title": "Android Device Policy Manager",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 41.144,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 22,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 70,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "996364627857502209",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "uid": "2079298256442767110",
+  "ciphertext": "~022079298256442767110",
+  "title": "AI Automation & Software Development Specialist (Code, Apps, AI Videos & Social Media Automation)",
+  "url": "https://www.upwork.com/jobs/~022079298256442767110",
+  "scrapedAt": "2026-07-20T20:48:02.016Z",
+  "feed": {
+    "uid": "2079298256442767110",
+    "title": "AI Automation & Software Development Specialist (Code, Apps, AI Videos & Social Media Automation)",
+    "ciphertext": "~022079298256442767110",
+    "description": "What We're Looking For\n\nWe are not looking for someone who simply follows instructions.\n\nWe are looking for someone who can:\nRecommend better solutions\nBuild scalable automation systems\nIntegrate modern AI platforms\nImprove development speed\nReduce manual work across our business\n\nWe want someone who stays current with the latest AI technologies and can explain why one solution is better than another.\n\nResponsibilities\nWe are seeking proposals for automating and developing:\nSoftware Development\nAI-assisted code generation\nFull-stack web application development\nMobile application development\nInternal business software\nAPI integrations\nDatabase architecture\nWorkflow automation\nAI agents\nBackend automation\nCustom dashboards\nAI Video Creation\n\nAutomate:\nMarketing videos\nProduct videos\nEducational videos\nSocial media videos\nAI avatars\nVoice generation\nLip-syncing\nVideo localization\nSocial Media Automation\n\nBuild systems that can:\nGenerate content ideas\nCreate posts automatically\nGenerate captions\nProduce short-form videos\nSchedule posts\nPublish across multiple platforms\nTrack analytics\nRepurpose long-form content into reels, shorts, and clips\nPlatforms & Technologies\n\nExperience with one or more of the following is highly preferred:\nElevenLabs\nHeyGen\nOpen Source Fable\nOpenAI APIs\nAnthropic Claude\nGoogle Gemini\nLangChain\nn8n\nMake (Integromat)\nZapier\nCursor AI\nGitHub Copilot\nPython\nNode.js\nReact\nNext.js\nFlutter\nDocker\nKubernetes\nPostgreSQL\nSupabase\nFirebase\nREST APIs\nGraphQL\n\nIf you have experience with additional AI tools or frameworks, we want to hear about them.\n\nProposal Requirements\n\nPlease include:\nYour experience building AI-powered software and automation systems.\nExamples of applications you've built.\nWhich AI tools you recommend and why.\nHow you would automate software development workflows.\nHow you would automate AI video production.\nHow you would automate social media creation and publishing.\nYour recommended technology stack for long-term scalability.\nIdeas for reducing development time and operational costs.\nAny additional AI platforms or open-source tools you believe we should consider.\nIdeal Candidate\n\nWe're looking for someone who:\nThinks like a solutions architect\nHas strong software engineering experience\nUnderstands AI workflows end-to-end\nIs proactive with recommendations\nCan design scalable systems\nCommunicates clearly\nIs interested in a long-term working relationship\n\nIf you're passionate about AI automation and enjoy building systems that eliminate manual work while increasing productivity, we'd love to hear your proposal.",
+    "type": 2,
+    "recno": "1026031152",
+    "freelancersToHire": 1,
+    "duration": "3 to 6 months",
+    "durationLabel": "3 to 6 months",
+    "engagement": "30+ hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-20T20:11:50.889Z",
+    "publishedOn": "2026-07-20T20:13:55.567Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "United States",
+        "city": "Buffalo",
+        "state": "NY",
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784578448479",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1691099314245873665",
+        "prefLabel": "AI Agent Development"
+      },
+      {
+        "id": "1691099314254262272",
+        "prefLabel": "AI Development"
+      },
+      {
+        "id": "1633880476564385792",
+        "prefLabel": "AI-Generated Code"
+      },
+      {
+        "id": "1484275089215770624",
+        "prefLabel": "Full-Stack Development"
+      },
+      {
+        "id": "1031626716094119936",
+        "prefLabel": "Artificial Intelligence"
+      },
+      {
+        "id": "1110580482322976768",
+        "prefLabel": "API"
+      },
+      {
+        "id": "1031626755474440192",
+        "prefLabel": "Machine Learning"
+      },
+      {
+        "id": "1031626717876699136",
+        "prefLabel": "Automation"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Default",
+      "min": 25,
+      "max": 47
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"28\"}",
+    "attrs": [
+      {
+        "uid": "1691099314245873665",
+        "prettyName": "AI Agent Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099314254262272",
+        "prettyName": "AI Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1633880476564385792",
+        "prettyName": "AI-Generated Code",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275089215770624",
+        "prettyName": "Full-Stack Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626716094119936",
+        "prettyName": "Artificial Intelligence",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580482322976768",
+        "prettyName": "API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626755474440192",
+        "prettyName": "Machine Learning",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626717876699136",
+        "prettyName": "Automation",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 29
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T20:11:50.889Z",
+        "publishTime": "2026-07-20T20:13:55.567Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "What We're Looking For\n\nWe are not looking for someone who simply follows instructions.\n\nWe are looking for someone who can:\nRecommend better solutions\nBuild scalable automation systems\nIntegrate modern AI platforms\nImprove development speed\nReduce manual work across our business\n\nWe want someone who stays current with the latest AI technologies and can explain why one solution is better than another.\n\nResponsibilities\nWe are seeking proposals for automating and developing:\nSoftware Development\nAI-assisted code generation\nFull-stack web application development\nMobile application development\nInternal business software\nAPI integrations\nDatabase architecture\nWorkflow automation\nAI agents\nBackend automation\nCustom dashboards\nAI Video Creation\n\nAutomate:\nMarketing videos\nProduct videos\nEducational videos\nSocial media videos\nAI avatars\nVoice generation\nLip-syncing\nVideo localization\nSocial Media Automation\n\nBuild systems that can:\nGenerate content ideas\nCreate posts automatically\nGenerate captions\nProduce short-form videos\nSchedule posts\nPublish across multiple platforms\nTrack analytics\nRepurpose long-form content into reels, shorts, and clips\nPlatforms & Technologies\n\nExperience with one or more of the following is highly preferred:\nElevenLabs\nHeyGen\nOpen Source Fable\nOpenAI APIs\nAnthropic Claude\nGoogle Gemini\nLangChain\nn8n\nMake (Integromat)\nZapier\nCursor AI\nGitHub Copilot\nPython\nNode.js\nReact\nNext.js\nFlutter\nDocker\nKubernetes\nPostgreSQL\nSupabase\nFirebase\nREST APIs\nGraphQL\n\nIf you have experience with additional AI tools or frameworks, we want to hear about them.\n\nProposal Requirements\n\nPlease include:\nYour experience building AI-powered software and automation systems.\nExamples of applications you've built.\nWhich AI tools you recommend and why.\nHow you would automate software development workflows.\nHow you would automate AI video production.\nHow you would automate social media creation and publishing.\nYour recommended technology stack for long-term scalability.\nIdeas for reducing development time and operational costs.\nAny additional AI platforms or open-source tools you believe we should consider.\nIdeal Candidate\n\nWe're looking for someone who:\nThinks like a solutions architect\nHas strong software engineering experience\nUnderstands AI workflows end-to-end\nIs proactive with recommendations\nCan design scalable systems\nCommunicates clearly\nIs interested in a long-term working relationship\n\nIf you're passionate about AI automation and enjoy building systems that eliminate manual work while increasing productivity, we'd love to hear your proposal.",
+        "info": {
+          "ciphertext": "~022079298256442767110",
+          "id": "2079298256442767110",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "AI Automation & Software Development Specialist (Code, Apps, AI Videos & Social Media Automation)",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T20:11:50.889Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314245873665",
+              "freeText": null,
+              "prefLabel": "AI Agent Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314254262272",
+              "freeText": null,
+              "prefLabel": "AI Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1633880476564385792",
+              "freeText": null,
+              "prefLabel": "AI-Generated Code",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1484275089215770624",
+              "freeText": null,
+              "prefLabel": "Full-Stack Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626716094119936",
+              "freeText": null,
+              "prefLabel": "Artificial Intelligence",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482322976768",
+              "freeText": null,
+              "prefLabel": "API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626755474440192",
+              "freeText": null,
+              "prefLabel": "Machine Learning",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626717876699136",
+              "freeText": null,
+              "prefLabel": "Automation",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T20:13:55.567Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 25,
+          "hourlyBudgetMax": 47,
+          "hourlyBudgetType": "DEFAULT"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T20:11:50.860Z",
+          "totalApplicants": 37,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "Buffalo",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2075250786255018392",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-09T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 5,
+          "postedCount": 5,
+          "openJobs": [
+            {
+              "id": "2076434263090194067",
+              "uid": "2076434263090194067",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076434263090194067",
+              "title": "Senior AI Interactive Website Developer (Landing Page & Intelligent User Experience)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2076428684544239251",
+              "uid": "2076428684544239251",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076428684544239251",
+              "title": "AI Social Media Growth & Automation Specialist (Content Creator, Video Editor & AI Systems)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2076425182123967302",
+              "uid": "2076425182123967302",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076425182123967302",
+              "title": "Government Contracts & Proposal Specialist (Web, Software & App Development)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2075251159555305267",
+              "uid": "2075251159555305267",
+              "isPtcPrivate": false,
+              "ciphertext": "~022075251159555305267",
+              "title": "Contract Full-Stack Developer – AWS Server Migration",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 39.426511627906976,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 18,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 70,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Senior AI Interactive Website Developer (Landing Page & Intelligent User Experience)",
+      "ciphertext": "~022076434263090194067",
+      "description": "Job Title: Senior AI Interactive Website Developer (Landing Page & Intelligent User Experience) Position Overview We are seeking an experienced **Senior AI Interactive Website Developer** to design and build an intelligent homepage that combines: * AI avatars * Voice conversations * Live animations * Interactive storytelling * Dynamic content * AI-generated recommendations * Futuristic UI/UX * Real-time personalization The homepage should feel like users are entering an AI-powered technology company from the future. Project Goal Build one of the most advanced AI-powered business websites available today. Visitors should immediately experience: * Interactive AI assistant * Voice conversations * AI-guided navigation * Intelligent recommendations * Animated UI * Modern glassmorphism * Premium visual effects * High conversion rates * Fast loading performance Primary Responsibilities AI Homepage Development - Build a homepage capable of: * AI conversations * Voice interaction * Live text generation * Dynamic animations * Personalized recommendations * Smart navigation * Interactive demonstrations * Guided product discovery * Intelligent FAQs * AI-powered lead qualification Interactive User Experience Design engaging experiences including: * Mouse-follow animations * Particle systems * Interactive backgrounds * Glass UI components * Animated transitions * Scroll-triggered effects * 3D interactions * Hover animations * Dynamic lighting * Motion graphics AI Avatar Integration Build an interactive AI assistant capable of: * Speaking naturally * Listening to users * Answering company questions * Booking appointments * Scheduling meetings * Collecting lead information * Explaining services * Demonstrating products * Guiding visitors through the website Experience with platforms such as: * OpenAI * ElevenLabs * HeyGen * Tavus * LiveKit * WebRTC * Vapi * Deepgram * Cartesia * Azure AI Speech AI Features Integrate: * GPT-powered conversations * Voice recognition * Text-to-speech * Speech-to-text * AI recommendations * Knowledge base search * CRM integration * Lead qualification * Appointment scheduling * AI memory (where appropriate) * Personalized experiences Website Performance Develop: * Lightning-fast page loads * Responsive design * Mobile optimization * SEO optimization * Accessibility compliance * High Lighthouse scores * Secure architecture * Scalable infrastructure Advanced Front-End Development Strong experience with: * React * Next.js * TypeScript * Tailwind CSS * Framer Motion * GSAP * Three.js * React Three Fiber * WebGL * WebGPU (bonus) * Canvas animations Backend Development Experience with: * Node.js * Python * API integrations * Authentication * Databases * Cloud Functions * AI APIs * Vector databases * RAG systems * WebSockets * Serverless architecture AI Integrations Preferred experience with: * OpenAI * Anthropic Claude * Google Gemini * LangChain * LlamaIndex * Pinecone * Weaviate * Supabase * Firebase * Vercel AI SDK Interactive Visual De"
+    },
+    {
+      "title": "AI Social Media Growth & Automation Specialist (Content Creator, Video Editor & AI Systems)",
+      "ciphertext": "~022076428684544239251",
+      "description": "Job Title: AI Social Media Growth & Automation Specialist (Content Creator, Video Editor & AI Systems) About Apex Cloud Development Apex Cloud Development is an AI, software, automation, and digital growth company helping businesses grow through cutting-edge technology. We are building an AI-first marketing department and are looking for an experienced **Social Media Growth & Automation Specialist** who can create high-performing content while building automated systems that scale our online presence across every major platform. This is not just a social media manager position. We're looking for someone who can combine **creative content, AI, automation, growth strategies, and technical systems** to help us build multiple large social media brands. Position Overview We are looking for someone who can build a complete AI-powered social media ecosystem that: * Creates content * Edits videos * Designs graphics * Produces viral short-form videos * Grows followers organically * Automates repetitive tasks * Builds AI workflows * Generates leads from social media * Creates personal and business brands Our goal is to automate as much of the social media process as possible while maintaining high-quality, engaging content. Primary Responsibilities Content Creation Create engaging content for: * Instagram * Facebook * TikTok * YouTube * YouTube Shorts * LinkedIn * X (Twitter) * Threads * Pinterest * Snapchat * Reddit (where appropriate) Content includes: * Reels * Shorts * Long-form videos * Carousels * Infographics * Stories * Animated graphics * Promotional videos * Educational videos * Product showcases * AI-generated visuals Video Editing Produce professional videos including: * Motion graphics * Captions * Sound effects * Trending music * Color grading * Transitions * AI voiceovers * AI avatars * Green screen effects * Thumbnail creation * Hook optimization * Call-to-actions Graphic Design Design: * Social media posts * Carousels * Advertisements * Banners * Logos * Infographics * Brand assets * Website graphics * Marketing materials Experience with: * Canva * Adobe Photoshop * Illustrator * Figma * Midjourney * ChatGPT Image Generation * Adobe Express * CapCut * Other AI design tools AI Video Creation Experience with: * Runway * Veo * Kling * Pika * Luma * Synthesia * HeyGen * ElevenLabs * CapCut AI * Adobe Firefly * Other AI video platforms Social Media Growth Develop and execute strategies to: * Grow followers organically * Increase engagement * Improve watch time * Increase shares * Increase saves * Improve click-through rates * Build communities * Generate inbound leads * Drive website traffic * Increase conversions Social Media Automation Build automated workflows for: * Scheduling content * Cross-posting to multiple platforms * Content repurposing * AI-generated captions * AI hashtag generation * Comment monitoring * Social listening * Analytics reporting * Performance tracking * Approval workflows Experience with: * Buffer * Hootsuite * Metric"
+    },
+    {
+      "title": "Government Contracts & Proposal Specialist (Web, Software & App Development)",
+      "ciphertext": "~022076425182123967302",
+      "description": "Job Title: Government Contracts & Proposal Specialist (Web, Software & App Development) About Apex Cloud Development Apex Cloud Development is a rapidly growing technology company specializing in custom websites, enterprise software, mobile applications, AI automation, cloud solutions, and digital transformation. We are expanding into the government sector and are looking for an experienced **Government Contracts & Proposal Specialist** to help us identify, pursue, and win government contracts at the federal, state, county, and municipal levels. This is not simply a proposal writing role—we are looking for someone who understands the government procurement process from beginning to end and can build a repeatable system that consistently generates qualified contract opportunities. Position Overview We are seeking a highly experienced Government Contracts Specialist who has successfully won government contracts for technology services including: * Website Development * Website Redesign * Custom Software Development * Mobile App Development * AI Solutions * Cloud Infrastructure * Cybersecurity * IT Consulting * Digital Transformation * System Modernization * Managed IT Services Your mission will be to build a repeatable pipeline of government opportunities and help Apex Cloud Development become a recognized government technology contractor. Primary Responsibilities Government Opportunity Research Identify contract opportunities across: * SAM.gov * State procurement portals * County procurement websites * City purchasing departments * School districts * Universities * Healthcare organizations * Federal agencies * Department of Defense (where applicable) * Cooperative purchasing networks * Government technology procurement sites Proposal Management * Review RFPs * Review RFQs * Review RFIs * Review Sources Sought notices * Determine bid viability * Build proposal timelines * Coordinate required documentation * Submit complete proposals before deadlines Proposal Writing Develop winning proposals including: * Executive summaries * Technical responses * Company qualifications * Past performance * Staffing plans * Project methodology * Risk mitigation * Quality assurance * Pricing support * Compliance matrices Government Registration & Compliance Assist Apex Cloud with: * SAM.gov registration * UEI management * NAICS code recommendations * PSC code recommendations * SBA certifications * Minority certifications (if applicable) * Small Business certifications * HUBZone guidance (if applicable) * State vendor registrations Pipeline Development Create a repeatable process that: * Finds new contracts daily * Filters contracts matching our services * Scores opportunities * Tracks deadlines * Organizes proposal tasks * Tracks win/loss ratios * Creates forecasting reports AI & Automation Experience (Preferred) We are particularly interested in candidates who can automate the government bidding process using AI. * AI contract opportunity monitoring * AI proposal d"
+    },
+    {
+      "title": "Contract Full-Stack Developer – AWS Server Migration",
+      "ciphertext": "~022075251159555305267",
+      "description": "About the Role We're looking for an experienced contract Full-Stack Developer to support and execute a server migration of our existing web application from AWS to a new hosting environment. The ideal candidate is comfortable working across the full stack and has hands-on experience with production migrations. Tech Stack • Frontend: React • Backend: Django (Python) • Database: PostgreSQL What You'll Do • Audit the current AWS infrastructure and document the existing architecture • Plan and execute the migration of the React frontend, Django backend, and PostgreSQL database to the new server environment • Update environment configurations, secrets, and deployment pipelines as needed • Ensure zero or minimal downtime during the cutover • Perform post-migration testing to verify functionality, performance, and data integrity • Troubleshoot any issues that arise during or after the migration What We're Looking For • Proven experience with React and Django in production environments • Solid understanding of PostgreSQL database management and migration • Familiarity with AWS services (EC2, RDS, S3, etc.) • Experience migrating or deploying applications to non-AWS environments (VPS, bare metal, GCP, Azure, etc.) • Strong knowledge of environment setup: Nginx, Gunicorn, Docker, or similar • Ability to work independently and communicate clearly on progress and blockers Nice to Have • Experience with CI/CD pipeline setup • Familiarity with infrastructure-as-code tools (Terraform, Ansible)"
+    }
+  ]
+}

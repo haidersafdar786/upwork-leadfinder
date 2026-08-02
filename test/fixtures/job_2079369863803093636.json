@@ -1,0 +1,580 @@
+{
+  "uid": "2079369863803093636",
+  "ciphertext": "~022079369863803093636",
+  "title": "Limetree - Squarespace/Hubspot Support - SOW 1",
+  "url": "https://www.upwork.com/jobs/~022079369863803093636",
+  "scrapedAt": "2026-07-21T07:37:14.798Z",
+  "feed": {
+    "uid": "2079369863803093636",
+    "ciphertext": "~022079369863803093636",
+    "title": "Limetree - Squarespace/Hubspot Support - SOW 1",
+    "description": "Please review our proposed Scope for a final SOW and pricing estimate from Tranfunnel. Also attached is our busines contracting documents we need our vendors to complete.",
+    "createdOn": "2026-07-21T00:56:23.346Z",
+    "publishedOn": "2026-07-21T03:59:53.011Z",
+    "renewedOn": null,
+    "type": 1,
+    "durationLabel": "1 to 3 months",
+    "engagement": null,
+    "amount": {
+      "amount": 9000
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 0,
+    "relevanceEncoded": "{\"position\":\"15\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.15to20",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626779570716672",
+        "parentSkillUid": null,
+        "prefLabel": "Shopify",
+        "prettyName": "Shopify",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1691099314300399616",
+        "parentSkillUid": null,
+        "prefLabel": "Shopify Website Design",
+        "prettyName": "Shopify Website Design",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626733781499904",
+        "parentSkillUid": null,
+        "prefLabel": "Ecommerce Website Development",
+        "prettyName": "Ecommerce Website Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1052162208978227201",
+        "parentSkillUid": null,
+        "prefLabel": "Website",
+        "prettyName": "Website",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1052162208999198724",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626753276624896",
+        "parentSkillUid": null,
+        "prefLabel": "Landing Page",
+        "prettyName": "Landing Page",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580726997700608",
+        "parentSkillUid": null,
+        "prefLabel": "UX & UI",
+        "prettyName": "UX & UI",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580726897037312",
+        "parentSkillUid": null,
+        "prefLabel": "UI Graphics",
+        "prettyName": "UI Graphics",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1045317707950489600",
+        "parentSkillUid": null,
+        "prefLabel": "Website Redesign",
+        "prettyName": "Website Redesign",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1534904342665314304",
+        "parentSkillUid": null,
+        "prefLabel": "Website Plugin Installation",
+        "prettyName": "Website Plugin Installation",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099314296205312",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress Website Design",
+        "prettyName": "WordPress Website Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626792342372352",
+        "parentSkillUid": null,
+        "prefLabel": "User Experience Design",
+        "prettyName": "User Experience Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626791742586880",
+        "parentSkillUid": null,
+        "prefLabel": "User Interface Design",
+        "prettyName": "User Interface Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626795181916160",
+        "parentSkillUid": null,
+        "prefLabel": "Web Design",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626795349688320",
+        "parentSkillUid": null,
+        "prefLabel": "Website Prototyping",
+        "prettyName": "Website Prototyping",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580727031255040",
+        "parentSkillUid": null,
+        "prefLabel": "UI/UX Prototyping",
+        "prettyName": "UI/UX Prototyping",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T00:56:23.346Z",
+        "publishTime": "2026-07-21T03:59:53.011Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "Please review our proposed Scope for a final SOW and pricing estimate from Tranfunnel. Also attached is our busines contracting documents we need our vendors to complete.",
+        "info": {
+          "ciphertext": "~022079369863803093636",
+          "id": "2079369863803093636",
+          "type": "FIXED",
+          "access": "PUBLIC",
+          "title": "Limetree - Squarespace/Hubspot Support - SOW 1",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T00:56:23.346Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:cmsdevelopment",
+            "prefLabel": "CMS Development",
+            "id": "1110580750267699200",
+            "uid": "1110580750267699200"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1052162208978227201",
+              "freeText": null,
+              "prefLabel": "Website",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626779570716672",
+              "freeText": null,
+              "prefLabel": "Shopify",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626753276624896",
+              "freeText": null,
+              "prefLabel": "Landing Page",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580726997700608",
+              "freeText": null,
+              "prefLabel": "UX & UI",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580726897037312",
+              "freeText": null,
+              "prefLabel": "UI Graphics",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1045317707950489600",
+              "freeText": null,
+              "prefLabel": "Website Redesign",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1534904342665314304",
+              "freeText": null,
+              "prefLabel": "Website Plugin Installation",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099314300399616",
+              "freeText": null,
+              "prefLabel": "Shopify Website Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099314296205312",
+              "freeText": null,
+              "prefLabel": "WordPress Website Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626792342372352",
+              "freeText": null,
+              "prefLabel": "User Experience Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626791742586880",
+              "freeText": null,
+              "prefLabel": "User Interface Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795349688320",
+              "freeText": null,
+              "prefLabel": "Website Prototyping",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580727031255040",
+              "freeText": null,
+              "prefLabel": "UI/UX Prototyping",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626733781499904",
+              "freeText": null,
+              "prefLabel": "Ecommerce Website Development",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 9000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-21T03:59:53.011Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [
+          {
+            "fileName": "LT Onboarding Agreements (Contractor_BAA_Inventions)v2026.06UW - [CONTRACTOR].docx",
+            "length": 80116,
+            "uri": "/att/download/openings/2079369863803093636/attachments/95980384-bf69-4571-9d9d-277cb8437394/download"
+          },
+          {
+            "fileName": "Limetree_MarketingExecution_Updated Initial Scope_260716.docx",
+            "length": 35455,
+            "uri": "/att/download/openings/2079369863803093636/attachments/e300c032-e305-4674-94e7-958249571b43/download"
+          }
+        ],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-21T00:56:23.695Z",
+          "totalApplicants": 18,
+          "totalHired": 0,
+          "totalInvitedToInterview": 1,
+          "unansweredInvites": 0,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2049314380812200510",
+          "isEDCReplicated": null,
+          "contractDate": "2026-04-29T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 2,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 8752.631578947368,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 7500,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 9100,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580750267699200",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [
+    {
+      "fileName": "LT Onboarding Agreements (Contractor_BAA_Inventions)v2026.06UW - [CONTRACTOR].docx",
+      "chars": 50348,
+      "text": "INDEPENDENT CONTRACTOR AGREEMENT This Independent Contractor Agreement (“Agreement”) by and between Dallas Limetree, LLC (“Limetree”), with offices located at 4324 Mapleshade Ln #217, Plano, TX 75093 and [CONTRACTOR COMPANY NAME] whose address is [CONTRACTOR ADDRESS] (“Contractor”), effective as of [EFFECTIVE DATE] (the “Effective Date”). 1. Work to Be Performed. Limetree desires that Contractor provide, and Contractor agrees to provide, the following independent contractor services: [ ENTER WORK DESCRIPTION HERE] Contractor will utilize [CONTRACTOR NAME] to perform all work performed unless expressed in writing from Limetree that alternative personnel is acceptable for the work being performed. In addition, CONTRACTOR WILL WARRANT THAT PERSONNEL UTILIZED TO PERFORM WORK UNDER THIS AGREEMENT ARE CONTRACTUALLY BOUND TO THE OBLIGATIONS OF THIS CONTRACT. 2. Term of Agreement. [ ENTER TERM of AGREEMENT HERE] The initial term of this Agreement begins on the Effective Date and expires on [EXPIRATION DATE]. The term of this Agreement will automatically renew on an annual basis unless either party gives notice of its intent not to renew at least 30 days before the expiration of the initial term or the then current term. The Agreement may be terminated by Limetree or by the Contractor at any time, at will, upon written notice to either party. 3. Term of Payment. [ ENTER TERM of PAYMENT HERE] Payment to be paid monthly in the amount of [AMOUNT OR HOURLY] per month for [XXXXX] hour work weeks (or equivalent cumulative hours for the month). Payment will be made on or about the 15th of the month for the previous months work. Nothing contained herein shall require Limetree to utilize Contractor. CONTRACTOR ACKNOWLEDGES THAT PAYMENT FOR SERVICES RENDERED BY CONTRACTOR WILL BE MADE DIRECTLY BY UPWORK TO CONTRACTOR. LIMETREE IN NO WAY WILL BE RESPONSIBLE FOR ANY DIRECT PAYMENTS TO CONTRACTOR. CONTRACTOR ACKNOWLEDGES THAT ANY DISAGREEMENTS WITH UPWORK WITH REGARDS TO CONTRACTOR PAYMENTS ARE BETWEEN CONTRACTOR AND UPWORK ONLY. LIMETREE WILL HOLD NO LIABILITY IN SUCH SITUATION. Nothing contained herein shall require Limetree to utilize Contractor. 4. Reimbursement of Expenses. Limetree will reimburse Contractor for client reimbursable expenses as agreed to prior to incurring the charges. Other expenses, including IT, cell phone, computer, connectivity, office space, etc., shall be borne solely by Contractor. 5. Payroll Taxes. Limetree shall neither pay nor withhold federal, state, or local income tax or payroll tax of any kind on behalf of Contractor, or the employee of Contractor. Contractor shall not be treated as an employee for the services performed hereunder for federal, state, or local tax purposes. 6. Workers Compensation. Contractor, or the employee of Contractor, is not eligible for workers’ compensation coverage under Limetree policy. 7. Independent Contractor Status. Contractor expressly represents and warrants to Limetree that (i) Contractor is not and shall not be construed to be an employee of Limetree and that Contractor’s status shall be that of an independent contractor for which Contractor is solely responsible for his actions and inactions; (ii) Contractor shall not act as an employee or agent of Limetree; and (iii) Contractor is not authorized to enter into contracts or agreements on behalf of Limetree or to otherwise create obligations of Limetree to third parties. 8. Works for Hire. Contractor acknowledges that all original works of authorship developed specifically and solely for the Limetree which are made by Contractor (solely or jointly with others) within the scope of the Engagement and which are protectable by copyright are “works made for hire,” pursuant to United States Copyright Act (17 U.S.C., Section 101) and agrees to assign all rights of such works to Limetree. 9. Non-Solicit / Non-Compete. Contractor agrees that during such Engagement period, and for 12 months thereafter, it will not, directly or indirectly, solicit for the benefit of, or divert to or attempt to divert to, any competitor of Limetree, including itself: (i) any business or business opportunity of Limetree, (ii) any existing or prospective client or customer, referral source or supplier of Limetree, or (iii) any person or entity that has been a client or customer, referral source or supplier of Limetree. In addition, Contractor shall not otherwise discourage such opportunity, customer, source, supplier, employee, independent contractor or consultant from doing business or maintaining a business or employment relationship with Limetree. During the Engagement with Limetree, Contractor will not, acting alone or in conjunction with others, directly or indirectly, either as an employee, employer, consultant, agent, principal, partner, shareholder, corporate officer, or any other individual or representative capacity, engage or participate in any business or activity that is in competition in any manner whatsoever with the business of Limetree or its subsidiaries. Contractor acknowledges that the provisions of this Agreement are reasonable and necessary for the protection of Limetree and its goodwill and other legitimate business interests, and that each provision and the scope of restrictions are, and are intended to be, divisible. If any provision of this Agreement, including any sentence, clause or part hereof, is ruled or deemed contrary to law or invalid or unenforceable in any respect by a court of competent jurisdiction, the remaining provisions will not be affected and will stay in full force and effect. Any invalid and unenforceable provisions will be deemed, without further action on the part of the parties hereto, modified, amended and limited to the extent necessary to become valid and enforceable to the maximum extent permitted by law. 10. Governing Law; Consent to Personal Jurisdiction. This Agreement will be governed by and construed according to the laws of Texas, as such laws are applied to agreements entered into and to be performed entirely within Texas between Texas residents. Contractor hereby expressly consents to the personal jurisdiction of the state and federal courts located in Dallas County, Texas for any lawsuit filed there against it by Company arising from or related to this Agreement. 11. Severability. In case any one or more of the provisions contained in this Agreement shall, for any reason, be held to be invalid, illegal or unenforceable in any respect, such invalidity, illegality or unenforceability shall not affect the other provisions of this Agreement, and this Agreement shall be construed as if such invalid, illegal or unenforceable provision had never been contained herein. If moreover, any one or more of the provisions contained in this Agreement shall for any reason be held to be excessively broad as to duration, geographical scope, activity or subject, it shall be construed by limiting and reducing it, so as to be enforceable to the extent compatible with the applicable law as it shall then appear. 12. Successors and Assigns. This Agreement will be binding upon Contractor’s successors, executors, administrators and other legal representatives and will be for the benefit of Limetree, its successors, and its assigns. 13. Survival. The provisions of this Agreement shall survive the termination of the Engagement and the assignment of this Agreement by Limetree to any successor in interest or other assignee. 14. Waiver. No waiver by Limetree of any breach of this Agreement shall be a waiver of any preceding or succeeding breach. No waiver by Limetree of any right under this Agreement shall be construed as a waiver of any other right. Limetree shall not be required to give notice to enforce strict adherence to all terms of this Agreement. 15. Entire Agreement. This Agreement is the final, complete and exclusive agreement of the parties with respect to the subject matter hereof and supersedes and merges all prior discussions between us. No modification of or amendment to this Agreement, nor any waiver of any rights under this Agreement, will be effective unless in writing and signed by the party to be charged. Any subsequent change or changes in its duties, salary or compensation will not affect the validity or scope of this Agreement. -SIGNATURE PAGE TO FOLLOW- IN WITNESS WHEREOF, the parties have executed this Agreement to be effective on the Effective Date. CONTRACTOR DALLAS LIMETREE, LLC [CONTRACTOR COMPANY NAME] __________________________________ ________________________________ Signature Signature [CONTRACTOR NAME] Scott Rogaliner __________________________________ ________________________________ Printed Name Printed Name [CONTRACTOR TITLE] Managing Partner – Ops and Finance __________________________________ ________________________________ Title Title __________________________________ ________________________________ Date Signed Date Signed [CONTRACTOR COMPANY NAME] Dallas Limetree, LLC [CONTRACTOR ADDRESS] 4324 Mapleshade Ln #217, Plano, TX 75093 __________________________________ ________________________________ Notice Address Notice Address Extension of BAA Agreement to Subcontractor Date: [EFFECTIVE DATE] [CONTRACTOR COMPANY NAME] (“Subcontractor”) will be serving as a subcontractor to Dallas Limetree, LLC d/b/a/ Limetree (“Limetree”) in which Subcontractor, to fulfill its obligations and provide services, will come into possession and contact with confidential and protected data, including protected health information (“PHI”). Subcontractor acknowledges and agrees to comply with the terms of the attached Business Associate Agreement (“BAA”) and agrees to comply with the restrictions and conditions contained with in BAA, including, but not limited to, implementing reasonable and appropriate safeguards to protect such PHI. In the event Subcontractor fails to meet any obligations upon it in connection with maintaining the privacy or security of PHI it accesses thru Limetree, Subcontractor herby agrees to and will fully defend and indemnify Limetree of and from any and all liability, fines, legal fees, cost and expense growing out of Subcontractor’s acts or omissions. __________________________________ ________________________________ Signature Signature [CONTRACTOR NAME] Scott Rogaliner __________________________________ ________________________________ Printed Name Printed Name [CONTRACTOR COMPANY NAME] Dallas Limetree, LLC [CONTRACTOR ADDRESS] 4324 Mapleshade Ln #217, Plano, TX 75093 __________________________________ ________________________________ Notice Address Notice Address BUSINESS ASSOCIATE AGREEMENT This Business Associate Agreement (“Agreement”), dated as of [EFFECTIVE DATE], is effective upon signing this Agreement and is entered into by and between Dallas Limetree LLC (“Business Associate to a Covered Entity” or \"BACE\") and [CONTRACTOR COMPANY NAME] (“Business Associate”). Business Associate to a Covered Entity and Business Associate are hereinafter referred to collectively as the “Parties.” WHEREAS, Sections 261 through 264 of the federal Health Insurance Portability and Accountability Act of 1996, Public Law 104-191, as modified by the Health Information Technology for Economic and Clinical Health Act, known collectively as “the Administrative Simplification provisions,” direct the Department of Health and Human Services to develop standards to protect the security, confidentiality, and integrity of health information; and WHEREAS, pursuant to the Administrative Simplification provisions, the Secretary of Health and Human Services has issued regulations at 45 CFR Parts 160 and 164, as the same may be amended from time to time (the “HIPAA Security and Privacy Rule”); and WHEREAS, the Parties wish to enter into or have entered into an arrangement whereby Business Associate will provide certain services to or perform certain functions on behalf of BACE, and, pursuant to such arrangement, Business Associate may be considered a “business"
+    },
+    {
+      "fileName": "Limetree_MarketingExecution_Updated Initial Scope_260716.docx",
+      "chars": 12316,
+      "text": "LIMETREE Marketing Execution Scope of Work Working Draft v3 | Fractional Marketing Operations and Website Execution Prepared for: TransFunnel Prepared by: Limetree Draft context: shared ahead of formal SOW, July 2026 Purpose of this document This is a working draft of the Q3 2026 marketing execution scope, shared ahead of a formal SOW. The goal at this stage is for your team to begin thinking through cost, and to flag anything you need from us to produce an accurate quote. A handful of items are still being finalized on our side. Rather than a separate list, they're marked TBD directly where they appear below, with enough context on purpose and intent to price against a stated assumption. Flag back to us if you'd need any of them locked before quoting confidently. Engagement model alignment • Limetree provides all copy, creative, brand guidelines, source files, audience direction, and final approvals. • TransFunnel owns execution planning, production, build, configuration, QA, deployment, monitoring, and troubleshooting. • This document defines build scope for estimation purposes. Hours and technical implementation approach are TransFunnel's to determine. 1. Purpose Scope for the TransFunnel fixed-price engagement covering the build items below. Hours and technical approach are yours to determine - this document defines what needs to be built and why, not how many hours it should take. 2. Existing Site QA Remediation A review pass across the live Squarespace site and existing HubSpot forms and workflows, fixing what's found. One known issue going in: a live blog article is currently blocked from search engines by a technical setting (NOINDEX) and needs that setting corrected. 3. Site & Content Build Item Notes Pillar page - golimetree.com/health-plan-marketing See Section 3a for full structure HubSpot blog subdomain - blog.golimetree.com New subdomain, plus a redirect from the current blog location IPHA blog post New post, launch Sept 16 Landing pages (8) See table below Gated assets (5) See Section 4; see table below for dates Squarespace-HubSpot integration Standard scope Reusable templates Standard scope 3a. Pillar Page - Structure and Intent • Hero. Headline about Limetree's use of behavioral science, paired with one real result or number. No button, no ask - the goal is a second look, not a conversion. • Behavioral Science Methodology + Quiz. Explains the method, with a short interactive quiz embedded. Results are gated (Section 4); the quiz itself is not. • Case Studies. Five persona-labeled case studies as cards, so a visitor finds their specific situation quickly. • Service Descriptions / Thought Leadership. A card-based carousel (scroll left/right), not a static layout - cards are swapped and updated over time as new thought leadership is produced. Needs structured content so cards can be added, retired, or reordered without a page rebuild. Working assumption: initial cards draw from the existing 3-column methodology content (Behavioral Science / Data Science / Performance Marketing) - flag if wrong. • How We Get Started. Addresses the real hesitation at this point - not \"is Limetree good\" but \"will I have to redo work I've already done.\" Direction: Limetree already has your inputs; the engagement connects them, it doesn't start over. • Contact Sales. Step 5 of the friction ladder (Section 5). Step 1 appears once on this page as a fallback for visitors who reach the bottom without converting elsewhere. Landing Pages (8) and Launch Dates Page Launch Case Study LP - Member Experience Medicare (CAHPS) Sept 4 Case Study LP - Member Engagement Digital Health Sept 4 Case Study LP - Medicare Acquisition Sept 4 Case Study LP - Medicare Retention DSNP Sept 11 Case Study LP - Medicare Acquisition CSNP Sept 11 Targeting Methods Sept 11 Tech 1 (topic TBD) Oct/Nov Tech 2 (topic TBD) Oct/Nov All 8 pages include Step 1. On the 5 case studies and Targeting Methods, it's a secondary CTA - a lower-commitment fallback alongside whatever the page's primary ask is. On Tech 1/Tech 2, it's effectively the only ask, since these are supporting/reference pages linked from case studies, not primary destinations. Tech 1 / Tech 2: landing pages describing internal Limetree technology platforms - problem addressed, how it's solved, features and functions, client value, and which services it supports. 4. Gated Assets - Access, Library, and Two Approaches to Quote Assets and dates Asset Status Launch Retention White Paper Complete - migrating from its current homepage location into the new gated system - IPHA Gated Asset Content in progress Sept 15 CAHPS Strategy Brief Content in progress Oct 30 Extended Case Study - Member Engagement Digital Health Content in progress Oct 30 Extended Case Study - Acquisition (Highmark data) Content in progress Nov 6 How access works • Visitor reaches a public, search-indexable landing page for the asset - never itself gated. • Visitor requests access via a short form (first-time visitors only). Approach A - Preferred: persistent account library Form submission creates a HubSpot Membership account (native to Content Hub Professional, already held). Registration email, password creation, branded login page. Once registered, every future gated asset is instantly accessible, no repeated forms. A searchable, filterable library page exists for authenticated visitors only - not indexed by search, not linked from public navigation. Launches alongside the second gated asset - Sept 15, with the IPHA Gated Asset. Approach B - Alternative: standalone forms Same public landing pages, same one-time form per asset. No persistent account, no login, no library - each asset works the way the current 5 assets already do. Note to TransFunnel on quoting this section Please quote Approach A only. Approach B is noted here for context, not a second quote request. Limetree is cost-sensitive on this build and may come back separately to discuss the alternative - if so, we'd want your advisory read on the migration cost from B to A, not a fresh quote today. 5. Friction Ladder - New Pillar Page • Step 1 - Topic Update Signup. A visitor asks to be notified if more content publishes on a topic. Appears on the pillar page (fallback), every blog post (end of post, topic pre-filled), and the homepage next to industries Limetree doesn't actively serve (Section 6). Healthcare visitors choose from 5 options - Marketing, Quality, Care Management, Risk Adjustment, Member Experience - framed as \"what would you like to see.\" Triggers a light notification only, never the full campaign in Section 7. • Step 2 - Behavioral Science Quiz. Lives inside the methodology section. Answered before any email is requested - the personalized result is the reward. Instant result. • Step 3 - Educational Events List. One signup covering conferences, local events, and webinars. Two follow-up types: full recording for events Limetree runs; a recap of Limetree's involvement for events Limetree attends. • Step 4 - Contact Us. A small, persistent \"Contact us\" element in the bottom corner of every page, including the pillar page - label always visible, no hover-only interaction. Opens a short form: name, email, company, one message field. Human-answered, 2 business day reply standard. • Step 5 - Book a Strategy Session. Direct scheduling calendar, no email back-and-forth. On the three methodology pages, reframed by role - \"talk to a behavioral scientist,\" \"talk to a data scientist,\" \"talk to a performance marketer.\" The requested role is tagged directly onto the calendar event. 6. Friction Ladder - Current Website (golimetree.com) Adds function to sections that already exist - largely not new construction. Step 2 (quiz) is out of scope here, planned separately for Q4/Q1. This section must be live by Sept 1, ahead of the IPHA conference (Sept 1-3), so conference contacts have somewhere to go before the demand generation campaign begins Sept 15. • Step 1: the current homepage's four industry cards (Healthcare, Energy, Finance, Higher Education) - the three non-healthcare cards get the topic-signup treatment. The Healthcare card currently links to a whitepaper form; it should link directly to the new pillar page instead. • Step 3: placed on the three existing methodology pages, role-matched copy per page. • Step 4: same sitewide floating \"Contact us\" element as Section 5. • Step 5: replaces the current homepage's whitepaper/contact form entirely, same per-role reframing. 7. Demand Generation Campaign (7-8 touch) Builds awareness with people not ready to buy yet. Not meant to close a sale - a separate sales sequence follows 2-3 months later. Runs Sept 15 through mid-December 2026 - Sept 15 is a first major milestone, alongside the IPHA gated asset and the gated asset library going live the same day. Division of responsibility: Limetree provides all content - copy, creative, subject lines, everything. TransFunnel is responsible for inserting that content into the template, building each individual email, and building the automation/workflow that sends them. This is production and workflow work, not copywriting. Build strategy - template first, then clone. Build one master, reusable email template and one master automation/workflow structure first. That structure is meant to be reused for every future Limetree demand generation campaign, not just this one. This quarter's actual campaign is built by cloning that master. Persona builds: 4 separate, hand-built versions per touch, one per interest area (Marketing, Quality, Care Management, Risk Adjustment, Member Experience) - not one email with content that swaps automatically. Some touches may share one version across all 4 where Limetree's content is universal; others get 4 distinct versions. Limetree specifies which per touch, in that touch's brief. Arc: early touches carry no ask at all. Middle touches bring in proof (case studies). The last touch or two makes a soft invitation to learn more - never a scheduling request. Approved spacing Touch Date Gap 1 Sept 15 - 2 Sept 22 7 days 3 Oct 1 9 days 4 Oct 13 12 days 5 Oct 28 15 days 6 Nov 14 17 days 7 Dec 5 21 days 8 Dec 15 10 days Touch 6-7 spreads out further to avoid Thanksgiving week (Nov 23-27). Send Tuesday-Thursday only. Format standards • One consistent visual design across all touches, refined from the existing template • Light HTML, not heavy graphics - health plan email systems commonly flag image-heavy emails, and Outlook (this audience's dominant client) blocks images by default • No large images, no GIFs, text links or a small plain button rather than a large graphic button, alt text on any image used • Full links, never shortened • Real sender name, not \"marketing@\" • Proper email authentication (SPF/DKIM/DMARC) - without it, delivery into locked-down health plan systems isn't guaranteed 8. HubSpot Analytics & Privacy Compliance Ensure HubSpot tracking/analytics code is embedded in the correct location on every page, and does not interfere with, bypass, or override the CPRA-compliant consent mechanism already in place. This is a placement and non-interference check - TransFunnel is not building a consent system from scratch. 9. Out of Scope • IPHA booth/exhibitor work (attending and presenting only, no booth) • Writing and graphic design (Limetree provides all copy and creative; TransFunnel builds and formats it) • Strategy, brand direction, paid media, custom development • QA issues found during remediation beyond the one identified above would be separately scoped 10. Key Dates • July 31 - targeted SOW signing date • Aug 1 - initial batch of briefs delivered and mutually agreed upon; briefs continue on a rolling basis from there as TransFunnel needs them, each timed to their own proposed due date • Aug 14 - HubSpot infrastructure live • Sept 1 - current-site friction ladder (Section 6) live, ahead of the IPHA conference • Sept 15 - first major milestone: demand generation campaign launches, IPHA gated asset launc"
+    }
+  ],
+  "siblingJobs": []
+}

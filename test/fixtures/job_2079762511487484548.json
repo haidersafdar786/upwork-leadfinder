@@ -1,0 +1,519 @@
+{
+  "uid": "2079762511487484548",
+  "ciphertext": "~022079762511487484548",
+  "title": "SaaS, Multi-tenant Architecture, Stripe API, Supabase (or PostgreSQL), and React.js or Next.js.",
+  "url": "https://www.upwork.com/jobs/~022079762511487484548",
+  "scrapedAt": "2026-07-22T14:08:26.536Z",
+  "feed": {
+    "uid": "2079762511487484548",
+    "title": "SaaS, Multi-tenant Architecture, Stripe API, Supabase (or PostgreSQL), and React.js or Next.js.",
+    "ciphertext": "~022079762511487484548",
+    "description": "Thought process\nThought process\nHere's a complete, ready-to-paste description for that field:\n\nProject Overview\n\nI'm building CommandREAI, a multi-tenant SaaS platform for real estate brokerages. It replaces the mix of spreadsheets, email chains, and disconnected tools that brokerages currently use to manage listings, transactions, compliance, commission disbursement, and day-to-day back-office operations. It's designed around a real, currently-used transaction coordination workflow, not a hypothetical idea.\n\nWhat's Already Prepared\n\nI have a complete functional specification covering every screen, field, and workflow rule across all modules, wireframe mockups of the core screens, a finalized pricing/billing model, and a full set of legal agreements (subscription terms, contractor agreements, privacy/security policies) already drafted. I'm not asking a developer to help figure out what to build — that part is done. I'm looking for someone to build it.\n\nCore Modules\n\nTransaction management, compliance review workflow, salesperson/agent tracking, internal communication tools, a brokerage resource library, a back-office admin center (billing, branding, commission processing), and a separate client-facing portal for buyers/sellers.\n\nKey Requirements\n\nMulti-tenant architecture — each brokerage's data, branding, and document templates must be fully isolated from every other brokerage. Role-based permissions across 7 different user types. Subscription + per-transaction billing through Stripe. Launches as a responsive web app (not a native mobile app — that's a planned Phase 2).\n\nRecommended Stack (open to your input here): Supabase for database/auth/file storage, Stripe for billing, Resend for transactional email, the Anthropic Claude API for AI-assisted features.\n\nHow I'd Like to Work\n\nLooking for fixed-price milestones tied to specific deliverables rather than open-ended hourly billing. Please share a portfolio of comparable multi-tenant SaaS projects (not general web/marketing sites) and, if possible, a reference from another SaaS founder you've worked with. A full written project brief is ready to share with serious applicants.",
+    "type": 2,
+    "recno": "1026048924",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "not_sure",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-22T02:56:37.896Z",
+    "publishedOn": "2026-07-22T05:58:14.023Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "United States",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784699894345",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "1577360225766813696",
+        "prefLabel": "SaaS Development"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "Full Stack Development"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "React or Next.js"
+      },
+      {
+        "id": "1031626770108366848",
+        "prefLabel": "PostgreSQL Programming"
+      },
+      {
+        "id": "1031626783291064320",
+        "prefLabel": "Stripe"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "API Intregration"
+      },
+      {
+        "id": "1691099315067957248",
+        "prefLabel": "Supabase"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"9\"}",
+    "attrs": [
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1577360225766813696",
+        "prettyName": "SaaS Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "Full Stack Development",
+        "freeText": "Full Stack Development",
+        "skillType": null
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "React or Next.js",
+        "freeText": "React or Next.js",
+        "skillType": null
+      },
+      {
+        "uid": "1031626770108366848",
+        "prettyName": "PostgreSQL Programming",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626783291064320",
+        "prettyName": "Stripe",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "API Intregration",
+        "freeText": "API Intregration",
+        "skillType": null
+      },
+      {
+        "uid": "1691099315067957248",
+        "prettyName": "Supabase",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "firstJobPost",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 10
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T02:56:37.896Z",
+        "publishTime": "2026-07-22T05:58:14.023Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Not Sure",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Thought process\nThought process\nHere's a complete, ready-to-paste description for that field:\n\nProject Overview\n\nI'm building CommandREAI, a multi-tenant SaaS platform for real estate brokerages. It replaces the mix of spreadsheets, email chains, and disconnected tools that brokerages currently use to manage listings, transactions, compliance, commission disbursement, and day-to-day back-office operations. It's designed around a real, currently-used transaction coordination workflow, not a hypothetical idea.\n\nWhat's Already Prepared\n\nI have a complete functional specification covering every screen, field, and workflow rule across all modules, wireframe mockups of the core screens, a finalized pricing/billing model, and a full set of legal agreements (subscription terms, contractor agreements, privacy/security policies) already drafted. I'm not asking a developer to help figure out what to build — that part is done. I'm looking for someone to build it.\n\nCore Modules\n\nTransaction management, compliance review workflow, salesperson/agent tracking, internal communication tools, a brokerage resource library, a back-office admin center (billing, branding, commission processing), and a separate client-facing portal for buyers/sellers.\n\nKey Requirements\n\nMulti-tenant architecture — each brokerage's data, branding, and document templates must be fully isolated from every other brokerage. Role-based permissions across 7 different user types. Subscription + per-transaction billing through Stripe. Launches as a responsive web app (not a native mobile app — that's a planned Phase 2).\n\nRecommended Stack (open to your input here): Supabase for database/auth/file storage, Stripe for billing, Resend for transactional email, the Anthropic Claude API for AI-assisted features.\n\nHow I'd Like to Work\n\nLooking for fixed-price milestones tied to specific deliverables rather than open-ended hourly billing. Please share a portfolio of comparable multi-tenant SaaS projects (not general web/marketing sites) and, if possible, a reference from another SaaS founder you've worked with. A full written project brief is ready to share with serious applicants.",
+        "info": {
+          "ciphertext": "~022079762511487484548",
+          "id": "2079762511487484548",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "SaaS, Multi-tenant Architecture, Stripe API, Supabase (or PostgreSQL), and React.js or Next.js.",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T02:56:37.896Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627970748416",
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "groupPrefLabel": "Databases",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1577360225766813696",
+              "freeText": null,
+              "prefLabel": "SaaS Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Full Stack Development",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "React or Next.js",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626770108366848",
+              "freeText": null,
+              "prefLabel": "PostgreSQL Programming",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626783291064320",
+              "freeText": null,
+              "prefLabel": "Stripe",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "API Intregration",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099315067957248",
+              "freeText": null,
+              "prefLabel": "Supabase",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_instant",
+            "publishTime": "2026-07-22T05:58:14.023Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "FJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Edge",
+            "device": "Windows",
+            "flowType": "FJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "firstJobPost",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [
+          {
+            "fileName": "CommandREAI_Developer_Handoff_Package.pdf",
+            "length": 163163,
+            "uri": "/att/download/openings/2079762511487484548/attachments/b3ac8a88-2764-4c9e-8f3a-fc305547b526/download"
+          }
+        ],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T02:56:37.852Z",
+          "totalApplicants": 101,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2079757242031249151",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-22T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 29.214117647058824,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 6,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 125,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [
+    {
+      "fileName": "CommandREAI_Developer_Handoff_Package.pdf",
+      "chars": 6488,
+      "text": "CommandREAI Developer / Agency Handoff Package Project brief for scoping and quoting  prepared for prospective developers and development agencies CommandREAI is a multi -tenant SaaS platform for real estate transaction coordination, sold to brokerages nationally. It replaces the mix of spreadsheets, email chains, and disconnected tools most brokerages currently use to manage listings, transactions, compliance, commission disbursement, and back-office operations. It was designed by a working transaction coordinator, based on a real, currently- used workflow  not a hypothetical. \ncovering every screen, field, and workflow rule) and a full set of legal agreements already exist and are referenced at the end of this document. 1. Business Model & Pricing Understanding the pricing model matters for scoping the billing integration correctly: Plan Price Notes Software - Only \n Brokerage uses its own in - house TC staff Managed TC Service $10 per closed transaction (no monthly base) + $500 / $650 / $750 per file CommandREAI's own TC team handles coordination; fee varies by service level (standard / with contract writing / with mentoring) \n No free trial is offered  signup is demo-video and sales-call driven, not self-serve. Billing needs to support: recurring subscription charges, per-transaction charges, and per-file service invoicing, all through Stripe. 2. Core Platform Structure The platform is organized into 6 internal tabs, a resource library, a back office, and a separate external client portal: Module Purpose Primary Users \nTransaction Coordinators Manage every active transaction end - to - end  tasks, deadlines, status TCs Compliance Ensure every file meets brokerage/state requirements before and at closing Compliance Officers, Brokers \nSalespersons Track agents, their transactions, and performance Agents, Brokers Correspondence Centralize communication  announcements, chatter, calendar, help desk Agents, Brokers, Vendors \nResource Center Store, organize, and version transaction paperwork and brokerage resources TCs, Brokers, Agents, Compliance Brokerage Back Office Admin control center: users, billing, branding, CDA/commission processing Brokerage Admins/Owners Buyer/Seller Portal \nExternal, client - facing login so buyers/sellers can view their own fully - executed documents Buyers, Sellers 3. User Roles & Permissions  Transaction Coordinator (TC)  manages assigned files  Compliance  reviews and approves/rejects documents; TCs cannot self-approve \n Salesperson  views their own files and compensation  Broker Admin  full brokerage-level control, including branding and checklist customization  Vendor  scoped strictly to the channels/calendar items they're invited to; no access to files or compliance data  Buyer/Seller  portal-only access to their own fully-executed documents  Platform Admin (CommandREAI staff)  sits above Broker Admin, can see across every brokerage account for setup/support, and is the only role that can see Resource Center items marked private/staging before a brokerage admin can see them 4. Multi - Tenancy & White - Label Requirements Each brokerage is a fully isolated tenant. On top of standard data isolation, the platform needs:  Per -brokerage branding: logo, accent color, company display name, and a dedicated login link (e.g. app.commandreai.com/brokerage-slug) that shows that brokerage's branding before login  Per -brokerage document checklists: cloned once from a master template at onboarding, then edited independently  a brokerage's edits never sync back to the master, and master updates never overwrite a brokerage's edited copy  Versioning rule: checklist changes apply to new files only; files already open keep the checklist version active when they were created 5. Recommended Starting Tech Stack This is a starting point based on cost and simplicity research, not a hard requirement  happy to defer to the developer's own stack judgment where it makes sense: Need Recommended Why Hosting Render or Vercel Free tier to start, simple deploys Database, auth, file storage Supabase Bundles all three, generous free tier Payments/billing Stripe Handles both subscription and per - transaction billing Transactional email Resend Free tier covers early volume AI features Anthropic Claude API Powers compliance pre - screen and the help chat E - signature Dropbox Sign (HelloSign) Cheaper than DocuSign; spec'd in detail, see Section 6 6. MVP Scope vs. Later Phase To keep the first quote realistic, please scope against MVP only. The following are explicitly deferred and should not be included in an initial estimate:  Native iOS/Android app  MVP launches as a responsive, mobile- first web app (PWA); native app is a confirmed Phase 2 project once the web platform is live with real brokerages  Live e -signature vendor integration  the feature is fully designed (see the Document Checklist \"Send for Signature\" flow in the full spec), but turning on the paid Dropbox Sign account is deferred until real signing volume justifies the cost; manual upload works as the MVP fallback  Deep third -party integrations (ZipForm, Glide, ShowingTime, SentriLock, Supra, CRM sync)  added only once a specific paying brokerage requests one, not built speculatively  Live chat support  the Help & Support tab launches with AI-powered knowledge base search plus a ticket form; live chat is a later addition once there's dedicated support staff 7. Supporting Materials Provided \n TC_Software_Floorplan.xlsx  the full 13 - sheet functional specification: every screen, field, workflow rule, and status flag, tab by tab  A full legal package (15 documents): Terms of Use, Privacy Policy, Security & Backup Statement, the Brokerage Subscription Agreement, the Transaction Coordinator Agreement, and the Salesperson Independent Contractor Agreement among them  useful context on the data - handling commitments already made to customers  Wireframe mockups exist for every major screen and can be shared or recreated on request 8. What We're Looking For in a Proposal  Fixed - price milestones tied to specific deliverables, rather than open - ended hourly billing  A portfolio of comparable SaaS projects  not general web/marketing - site work  plus references from other SaaS founders you've worked with  A realistic timeline scoped to the MVP list above, not the full feature set  One accountable point of contact throughout the build, if working with an agency or team"
+    }
+  ],
+  "siblingJobs": []
+}

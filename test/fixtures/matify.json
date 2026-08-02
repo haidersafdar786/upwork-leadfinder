@@ -1,0 +1,1532 @@
+{
+  "uid": "2078069525692395377",
+  "ciphertext": "~022078069525692395377",
+  "title": "Looking for frontend with media optimization",
+  "url": "https://www.upwork.com/jobs/~022078069525692395377",
+  "scrapedAt": "2026-07-19T21:16:15.853Z",
+  "feed": {
+    "isSaved": true,
+    "title": "Looking for frontend with media optimization",
+    "type": 2,
+    "description": "## Frontend Developer — React + TypeScript + Vite\n\nWe’re hiring a **Frontend Developer** to take ownership of the frontend at **Matify.io** — *The Cinematic AI Studio for Ultra-Realistic Content.*\n\nMatify is a media-heavy AI content creation platform, so this role needs someone strong in **frontend performance, media optimization, CDN-based asset delivery, image/video previews, uploads, and smooth user experiences.**\n\n### Responsibilities\n\n* Build and maintain frontend features using React, TypeScript, and Vite\n* Develop clean, reusable UI components with Tailwind CSS\n* Integrate REST APIs using Axios\n* Manage server state using TanStack React Query\n* Handle global state using Zustand\n* Build smooth UI interactions with Framer Motion\n* Work with image/video previews, uploads, generated outputs, and CDN assets\n* Optimize lazy loading, caching, loading states, page speed, and responsiveness\n* Debug production issues and improve frontend quality\n* Collaborate with backend, AI, design, and product teams\n\n### Required Skills\n\nReact, TypeScript, Vite, Tailwind CSS, TanStack React Query, Axios, Zustand, Framer Motion, React routing libraries, Lucide React, ESLint, Git, REST APIs, responsive UI, frontend performance optimization, media handling, and CDN-based asset delivery.\n\n### Nice to Have\n\nExperience with AI products, image/video platforms, Vercel deployment, authentication, file uploads, JSZip, accessibility, and CI/CD workflows.\n\n### What We’re Looking For\n\nSomeone who can write clean production-ready code, take ownership of the frontend, solve media-heavy performance challenges, and build a fast, premium user experience for Matify.io.\n\n📩 Interested candidates can share their profile/portfolio.",
+    "category2": "Web, Mobile & Software Dev",
+    "durationLabel": "More than 6 months",
+    "engagement": "Full Time",
+    "amount": {},
+    "uid": "2078069525692395377",
+    "id": "2078069525692395377",
+    "rid": 1025994112,
+    "client": {
+      "paymentVerificationStatus": true,
+      "location": {
+        "country": "India"
+      },
+      "totalSpent": "15833.63",
+      "totalReviews": 31,
+      "totalFeedback": 4.95
+    },
+    "freelancersToHire": 1,
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "prefFreelancerLocation": [],
+    "relevanceEncoded": "{}",
+    "attrs": [],
+    "locations": [],
+    "hourlyBudget": {
+      "type": "DEFAULT",
+      "min": 25,
+      "max": 40
+    },
+    "tags": [
+      "jsi_contractToHire",
+      "contractToHireSet",
+      "searchable",
+      "C2HJobsOptInEducation"
+    ],
+    "totalFreelancersToHire": 1,
+    "$isClosed": false,
+    "ciphertext": "~022078069525692395377",
+    "publishedDateTime": "2026-07-17T10:50:57.478Z",
+    "createdOn": "2026-07-17T10:50:57.478Z",
+    "isApplied": false,
+    "position": 2
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-17T10:49:18.568Z",
+        "publishTime": "2026-07-17T10:50:57.478Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "## Frontend Developer — React + TypeScript + Vite\n\nWe’re hiring a **Frontend Developer** to take ownership of the frontend at **Matify.io** — *The Cinematic AI Studio for Ultra-Realistic Content.*\n\nMatify is a media-heavy AI content creation platform, so this role needs someone strong in **frontend performance, media optimization, CDN-based asset delivery, image/video previews, uploads, and smooth user experiences.**\n\n### Responsibilities\n\n* Build and maintain frontend features using React, TypeScript, and Vite\n* Develop clean, reusable UI components with Tailwind CSS\n* Integrate REST APIs using Axios\n* Manage server state using TanStack React Query\n* Handle global state using Zustand\n* Build smooth UI interactions with Framer Motion\n* Work with image/video previews, uploads, generated outputs, and CDN assets\n* Optimize lazy loading, caching, loading states, page speed, and responsiveness\n* Debug production issues and improve frontend quality\n* Collaborate with backend, AI, design, and product teams\n\n### Required Skills\n\nReact, TypeScript, Vite, Tailwind CSS, TanStack React Query, Axios, Zustand, Framer Motion, React routing libraries, Lucide React, ESLint, Git, REST APIs, responsive UI, frontend performance optimization, media handling, and CDN-based asset delivery.\n\n### Nice to Have\n\nExperience with AI products, image/video platforms, Vercel deployment, authentication, file uploads, JSZip, accessibility, and CI/CD workflows.\n\n### What We’re Looking For\n\nSomeone who can write clean production-ready code, take ownership of the frontend, solve media-heavy performance challenges, and build a fast, premium user experience for Matify.io.\n\n📩 Interested candidates can share their profile/portfolio.",
+        "info": {
+          "ciphertext": "~022078069525692395377",
+          "id": "2078069525692395377",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Looking for frontend with media optimization",
+          "hideBudget": false,
+          "createdOn": "2026-07-17T10:49:18.568Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:frontenddevelopment",
+            "prefLabel": "Front-End Development",
+            "id": "1110580755057594368",
+            "uid": "1110580755057594368"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578196377600",
+              "id": "1031626740031012864",
+              "freeText": null,
+              "prefLabel": "Front-End Development",
+              "groupPrefLabel": "Front-End Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578196377600",
+              "id": "1031626767306571776",
+              "freeText": null,
+              "prefLabel": "Page Speed Optimization",
+              "groupPrefLabel": "Front-End Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578196377600",
+              "id": "1356688541489565696",
+              "freeText": null,
+              "prefLabel": "UI Animation",
+              "groupPrefLabel": "Front-End Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578271875072",
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "groupPrefLabel": "Front-End Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578036994048",
+              "id": "1204836445183918080",
+              "freeText": null,
+              "prefLabel": "Azure DevOps",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626741322858496",
+              "freeText": null,
+              "prefLabel": "GitHub",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": null
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-17T10:50:57.478Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 25,
+          "hourlyBudgetMax": 40,
+          "hourlyBudgetType": "DEFAULT"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T02:08:31.952Z",
+          "totalApplicants": 58,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 19800000,
+          "countryTimezone": "Asia/Calcutta (UTC+05:30)",
+          "city": "Hyderabad",
+          "country": "India"
+        },
+        "stats": {
+          "totalAssignments": 39,
+          "activeAssignmentsCount": 6,
+          "hoursCount": 296.83,
+          "feedbackCount": 31,
+          "score": 4.95,
+          "totalJobsWithHires": 37,
+          "totalCharges": {
+            "amount": 15833.63
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1472883410015125504",
+          "isEDCReplicated": null,
+          "contractDate": "2021-12-20T00:00:00.000Z",
+          "profile": {
+            "industry": "Tech & IT",
+            "size": 10
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 151,
+          "openJobs": [
+            {
+              "id": "2077086076322715399",
+              "uid": "2077086076322715399",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077086076322715399",
+              "title": "Looking for Frontend Developer (React + typescript  Vite)",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2064645649657162493",
+              "uid": "2064645649657162493",
+              "isPtcPrivate": false,
+              "ciphertext": "~022064645649657162493",
+              "title": "Looking for AI full stack expert to build open source chat/voice agent",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 19.745847791665263
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-11T13:31:01.704Z",
+          "endDate": null,
+          "totalCharge": 265,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for AI full stack expert to build open source chat/voice agent",
+            "id": "2064645649657162493",
+            "uid": "2064645649657162493",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022064645649657162493"
+          },
+          "contractorInfo": {
+            "contractorName": "Preet P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ff434e08fb390ac0"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-07-25T13:14:18.927Z",
+          "endDate": null,
+          "totalCharge": 333.73,
+          "totalHours": 50.666667,
+          "jobInfo": {
+            "title": "Looking for a B2B Lead Generation Expert",
+            "id": "1813565142972606875",
+            "uid": "1813565142972606875",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01f14c4a3ea44d2700"
+          },
+          "contractorInfo": {
+            "contractorName": "Merry Rose  G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0169d10bb0e6593577"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-12T13:51:48.000Z",
+          "endDate": null,
+          "totalCharge": 314.84,
+          "totalHours": 30.666668,
+          "jobInfo": {
+            "title": "Looking for a Global Sales Executive",
+            "id": "1767082122692722688",
+            "uid": "1767082122692722688",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0128170ff97a99a04f"
+          },
+          "contractorInfo": {
+            "contractorName": "Tulika U.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01db79acb481c47723"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-20T10:36:53.000Z",
+          "endDate": null,
+          "totalCharge": 360,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Build LLM Agent for AI Chatbot",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Amit P.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-06T06:47:30.000Z",
+          "endDate": null,
+          "totalCharge": 55.13,
+          "totalHours": 1.5,
+          "jobInfo": {
+            "title": "Looking for an developer who had prior experience in customizing chatwoot platform",
+            "id": "1641308297115353088",
+            "uid": "1641308297115353088",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01f600e4f955278701"
+          },
+          "contractorInfo": {
+            "contractorName": "Yaseen  I.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01047321e8d3cd287b"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-11T06:51:49.000Z",
+          "endDate": null,
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Frontend developer to build website from UI",
+            "id": "1478305114146848768",
+            "uid": "1478305114146848768",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01c7f40b367209a529"
+          },
+          "contractorInfo": {
+            "contractorName": "Akhil C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0153517fa23c00c1dd"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-30T08:53:14.416Z",
+          "endDate": "2026-03-30T09:41:10.290Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need help in building Custom SLMs (Open source LLM + RAG + KB)",
+            "id": "2035621387802767602",
+            "uid": "2035621387802767602",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022035621387802767602"
+          },
+          "contractorInfo": {
+            "contractorName": "Sai Naveena  S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01cc41b9fcd37621e6"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "One of the best AI engineers in the upwork. Absolute outstanding and quick. Would love to work again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-02T12:41:26.634Z",
+          "endDate": "2025-10-17T05:41:37.176Z",
+          "totalCharge": 160,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for VFX expert with Image2Video and Text2Video Models experience",
+            "id": "1969775942126562476",
+            "uid": "1969775942126562476",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021969775942126562476"
+          },
+          "contractorInfo": {
+            "contractorName": "Eyob T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0141a028eca8491277"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Amazing creator, totalled loved the work. Signing up next contract with him."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I really enjoyed the project and appreciated the smooth communication throughout. I'd be happy to collaborate with you again in the future. Thank you!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-14T06:01:58.000Z",
+          "endDate": "2025-05-16T04:25:13.959Z",
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need UI/UX designer for a SaaS (speech analytics) product ",
+            "id": "1686270139705008128",
+            "uid": "1686270139705008128",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~010b085ee9046d3d6d"
+          },
+          "contractorInfo": {
+            "contractorName": "Vivek H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f9dd1429e2759fd8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a great experience working with Vinay. The project brief was clear, and the collaboration was smooth. Looking forward to possible future opportunities together."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-26T06:27:42.591Z",
+          "endDate": "2025-05-15T10:51:05.396Z",
+          "totalCharge": 486.86,
+          "totalHours": 18.166666,
+          "jobInfo": {
+            "title": "Omni-channel Bot",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Shubham S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01def26bbe76cee558"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "One of the very best resources I've ever got on Upwork. I'd always like work with Subham. He understands the requirements well and apart from work he delivers great satisfaction."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-17T15:58:56.675Z",
+          "endDate": "2025-04-18T04:08:44.349Z",
+          "totalCharge": 70,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for help to install wan2.1 (i2v & v2v) in my runpod",
+            "id": "1912593451600784803",
+            "uid": "1912593451600784803",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021912593451600784803"
+          },
+          "contractorInfo": {
+            "contractorName": "Vladyslav P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014796ba7fa15b987e"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "A comfyui Pro! Amazing working with him."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Cool client.\nI want to work with him again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-01T14:27:21.045Z",
+          "endDate": "2024-10-10T09:10:30.823Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for Startup Valuation Expert ",
+            "id": "1813930304218701450",
+            "uid": "1813930304218701450",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~011b7589f87b9e0434"
+          },
+          "contractorInfo": {
+            "contractorName": "Gaurav B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~015c1f92ca0d484dd8"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very quick and fast in delivery."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-05-02T10:34:35.539Z",
+          "endDate": "2024-05-16T06:04:49.322Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need UI/UX designer for a SaaS (speech analytics) product ",
+            "id": "1785621151233974272",
+            "uid": "1785621151233974272",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01e84e5ca3a7ec1ff3"
+          },
+          "contractorInfo": {
+            "contractorName": "Pulkit M.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01c5f4b1dffe40802d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-01-08T08:00:59.000Z",
+          "endDate": "2024-03-02T16:40:53.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Data Collection Executive",
+            "id": "1737415024093552640",
+            "uid": "1737415024093552640",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~014251d7f0e3e2766b"
+          },
+          "contractorInfo": {
+            "contractorName": "Jamil  a.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~017e24af4d754cbed2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He had extended full cooperation to complete his challenging task, it was great learning working on his project. looking forward for next project as well."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-06T11:58:27.000Z",
+          "endDate": "2024-02-20T07:06:37.000Z",
+          "totalCharge": 268.23,
+          "totalHours": 12.5,
+          "jobInfo": {
+            "title": "Need help for building LLM Agents",
+            "id": "1734513349483151360",
+            "uid": "1734513349483151360",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01adaaa82b22dc25aa"
+          },
+          "contractorInfo": {
+            "contractorName": "Amit P.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~013919a19da32ee4ea"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I enjoyed working on this project. All expectations and requirements were communicated up front and the client was responsive to any of my requests for clarification. Vinay is a great guy. I highly recommend."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-13T11:30:33.000Z",
+          "endDate": "2023-12-19T19:41:35.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Building mock ups using Tableau for SaaS product",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Nadia N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f6525570b0700325"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-12T19:57:05.000Z",
+          "endDate": "2023-12-15T00:50:56.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "URGENT: Looking for a voice over artist to record a telephonic conversation",
+            "id": "1721746777209192448",
+            "uid": "1721746777209192448",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01084428b3b6dbc39b"
+          },
+          "contractorInfo": {
+            "contractorName": "Anurag G.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0184216f67fb7ad471"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-16T12:09:03.000Z",
+          "endDate": "2023-11-06T15:09:48.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "NLP Engineer",
+            "id": "1711382472217763840",
+            "uid": "1711382472217763840",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01cd65265c5d1177ca"
+          },
+          "contractorInfo": {
+            "contractorName": "Shubham S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01def26bbe76cee558"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "knowledgeable and reliable"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-23T08:14:54.000Z",
+          "endDate": "2023-11-06T14:59:42.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Python development",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Shubham S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01def26bbe76cee558"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Easy to work with"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-24T04:00:51.000Z",
+          "endDate": "2023-10-29T13:44:24.000Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Tableau Developer",
+            "id": "1716360764583735296",
+            "uid": "1716360764583735296",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~018eb3138eaac91fbe"
+          },
+          "contractorInfo": {
+            "contractorName": "Nadia N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f6525570b0700325"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-13T10:31:15.000Z",
+          "endDate": "2023-10-23T11:33:04.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Tableau Developer",
+            "id": "1711383433594867712",
+            "uid": "1711383433594867712",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01a93dd662dede83ed"
+          },
+          "contractorInfo": {
+            "contractorName": "Nadia N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f6525570b0700325"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with my him was truly enjoyable. Clear instructions, openness to feedback, and constant availability for any task-related questions made our collaboration seamless and productive. Looking forward to future projects together!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-09T07:58:52.000Z",
+          "endDate": "2023-08-18T09:27:53.000Z",
+          "totalCharge": 160,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Quest IT Solutions Branding",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Aryan T.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great working with Aryan always. I wish to re work with him for more. Good Job."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-02-18T05:53:21.000Z",
+          "endDate": "2023-05-22T10:36:57.000Z",
+          "totalCharge": 587,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need UI/UX designer for a SaaS (speech analytics) product ",
+            "id": "1622135588397473792",
+            "uid": "1622135588397473792",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~019da6d5d547af4623"
+          },
+          "contractorInfo": {
+            "contractorName": "Prakash S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0174e5ec8215e78951"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.2,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-18T14:04:06.000Z",
+          "endDate": "2023-05-09T08:02:58.000Z",
+          "totalCharge": 293.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Logo Redesign",
+            "id": "1647130445804654592",
+            "uid": "1647130445804654592",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01b104c7bd4e2d94e1"
+          },
+          "contractorInfo": {
+            "contractorName": "Aryan T.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01c916368d20ab375f"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Vinay was a great and positive experience, looking forward to work with him again!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-04-22T13:16:20.000Z",
+          "endDate": "2023-01-27T20:42:31.000Z",
+          "totalCharge": 3333,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Go to Market Strategist (USA) for our SaaS Product",
+            "id": "1511762305073143808",
+            "uid": "1511762305073143808",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01971712fb2c097d7e"
+          },
+          "contractorInfo": {
+            "contractorName": "Dustin M.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01e694a64dae0c8bce"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Vinay was excellent working with and he has an excellent product. I'm looking forward to seeing the success of it"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-23T07:02:42.000Z",
+          "endDate": "2022-07-27T06:45:22.000Z",
+          "totalCharge": 176.25,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Logo Designer Expert needed",
+            "id": "1539589504429527040",
+            "uid": "1539589504429527040",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~016bd6b5d25f229278"
+          },
+          "contractorInfo": {
+            "contractorName": "Sampath M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01368097f856b14107"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Sampath is One of the very best designers that I've ever worked with. He's so empathatic in understanding the requirement and fantastic in delivering the expectations. \n\nBeside my designs, I received a great working experience with him. I immediatly started another project with him .\n\nKeep Rocking Sampath!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "one of the best clients. Easy to work with and he is very friendly. Waiting to work with him again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-07T08:01:03.000Z",
+          "endDate": "2022-07-01T10:51:23.000Z",
+          "totalCharge": 525,
+          "totalHours": 25,
+          "jobInfo": {
+            "title": "UI Changes",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Gautamkumar S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0168d7fcaae65f8637"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "This is my 3rd job with the team and i am very happy with their work and intime delivery."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "All requirements were clear. and communication is also good. so, ready to work next with him. the client was responsive to any of my requests for clarification."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-03T06:49:27.000Z",
+          "endDate": "2022-07-01T10:49:12.000Z",
+          "totalCharge": 819,
+          "totalHours": 26,
+          "jobInfo": {
+            "title": "Looking for react developer with API integration",
+            "id": "1521370429524606976",
+            "uid": "1521370429524606976",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01490628b065da319c"
+          },
+          "contractorInfo": {
+            "contractorName": "Parth R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019c81064069d2076f"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Its always pleasure to work with parth. He has got good understanding and coding skills to handle all the issues. looking to work with him very shortly."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I am happy working on this project. All requirements were clear. and communication is also good. so, ready to work next with him."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-04-12T04:55:38.000Z",
+          "endDate": "2022-05-17T09:42:36.000Z",
+          "totalCharge": 2505.22,
+          "totalHours": 103.833337,
+          "jobInfo": {
+            "title": "Need a webs scrapping automation developer  ",
+            "id": "1508683152920616960",
+            "uid": "1508683152920616960",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0160d8564a7b67a89d"
+          },
+          "contractorInfo": {
+            "contractorName": "Shubham S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01def26bbe76cee558"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-02-15T07:24:30.000Z",
+          "endDate": "2022-04-01T16:07:16.000Z",
+          "totalCharge": 740,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for react developer with API integration",
+            "id": "1492025495891333120",
+            "uid": "1492025495891333120",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01d5035b767ccdfd55"
+          },
+          "contractorInfo": {
+            "contractorName": "Gaurav J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01817e3c2339de8bbf"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I highly recommend this client! I have worked on different projects for them and it has always been a great experience. Hope to work again soon!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-02-24T12:14:54.000Z",
+          "endDate": "2022-03-31T00:29:48.000Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a technology blogger with experience with AI technologies",
+            "id": "1492030866020892672",
+            "uid": "1492030866020892672",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01b03d742c4976366f"
+          },
+          "contractorInfo": {
+            "contractorName": "Gerald A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011a17aebe6a0576f6"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.2,
+            "comment": "We had a whole content plan laid out but the client stopped responding after the first milestone without any explanation."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-03-07T06:11:03.000Z",
+          "endDate": "2022-03-14T07:54:19.000Z",
+          "totalCharge": 712.5,
+          "totalHours": 28.499999,
+          "jobInfo": {
+            "title": "Looking for a senior react developer with API integration",
+            "id": "1500090427181604864",
+            "uid": "1500090427181604864",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01a11e69ed42f809ad"
+          },
+          "contractorInfo": {
+            "contractorName": "Parth R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019c81064069d2076f"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Its been pleasure to work with parth. he is very quick and available for the task. He completed all the tasks within time and definitely look forward to work with him again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I enjoyed working on this project.\nI liked working with him and hope to have the opportunity to work with him again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-02-10T11:52:28.000Z",
+          "endDate": "2022-02-11T09:52:01.000Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need logo Designer for our product",
+            "id": "1483406102356205568",
+            "uid": "1483406102356205568",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01ae0d97a5253ff4a2"
+          },
+          "contractorInfo": {
+            "contractorName": "Abdul R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018606f98d12745348"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-20T13:27:08.000Z",
+          "endDate": "2022-02-01T04:59:39.000Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Need logo Designer for our product",
+            "id": "1483406102356205568",
+            "uid": "1483406102356205568",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01ae0d97a5253ff4a2"
+          },
+          "contractorInfo": {
+            "contractorName": "Gaurav N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018c19d9e06be28761"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good Designer to work !"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-11T11:00:39.000Z",
+          "endDate": "2022-01-14T05:14:38.000Z",
+          "totalCharge": 550,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "SaaS UI design & website redesign",
+            "id": "1476546188734259200",
+            "uid": "1476546188734259200",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~0180d3341df4af90d5"
+          },
+          "contractorInfo": {
+            "contractorName": "Kartik S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e56c6fa4e2237b82"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "One of the very finest designers I've ever worked with. Besides my designs, I've received a great delight. I would HIGHLY recommend this designer for his quality of work, punctuality, availability & empathy. \n\nGreat Job Kartik, wish to work with you again & again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks Vinay and Ashok for a great collaboration for this project, team is great, they always available to solve the problem, thanks, hope to work with them in future,"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-05T10:22:20.000Z",
+          "endDate": "2022-01-12T13:47:06.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Looking for a Market Research Expert to help us with our AI SaaS product (CX) launch. ",
+            "id": "1478627197837778944",
+            "uid": "1478627197837778944",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~017770a0eb4c147fc2"
+          },
+          "contractorInfo": {
+            "contractorName": "Mukesh R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b91c1840f82dd489"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.2,
+            "comment": "Need to emphasize the quality of work."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": null
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 24.75646153846154,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 40,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

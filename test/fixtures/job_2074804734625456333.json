@@ -1,0 +1,426 @@
+{
+  "uid": "2074804734625456333",
+  "ciphertext": "~022074804734625456333",
+  "title": "Web Application Development",
+  "url": "https://www.upwork.com/jobs/~022074804734625456333",
+  "scrapedAt": "2026-07-20T08:47:14.855Z",
+  "feed": {
+    "uid": "2074804734625456333",
+    "ciphertext": "~022074804734625456333",
+    "title": "Web Application <span class=\"highlight\">Development</span>",
+    "description": "We are looking for an experienced <span class=\"highlight\">React</span>/Next.<span class=\"highlight\">js</span> <span class=\"highlight\">developer</span> to build Phase 1 of our web application.\n\nThis is a fixed-price project only.\n\nOverview\n\nWe have:\nComplete UI/UX designs\nAll assets\nClear functionality requirements\n\nWe require <span class=\"highlight\">development</span> only.\n\nThe application is the first phase of a larger SaaS platform within the smart home industry.\n\nScope\n\nPhase 1 includes:\n<span class=\"highlight\">Develop</span> 5 responsive pages from supplied designs\nBuild using Next.<span class=\"highlight\">js</span> (<span class=\"highlight\">React</span>)\nBackend using Supabase (preferred) or Firebase\nSecure administrator login\nProduct database (approximately 12–13 products initially, designed for future expansion)\nAdmin portal allowing prices to be edited\nQuote calculation engine using those database values\nContact form to submit completed quotations/enquiries\nDeploy to Vercel\nFull testing before handover\n\nTechnical Stack\n\nPreferred technologies:\nNext.<span class=\"highlight\">js</span> (<span class=\"highlight\">React</span>)\nSupabase (preferred) or Firebase\nPostgreSQL database (if using Supabase)\nVercel hosting\nGitHub version control\n\nThe application must be responsive across desktop, tablet and mobile.\n\nDeliverables\n\nWe expect:\nClean, well-structured, maintainable code\nSecure authentication\nWell-designed database structure that allows future products and pricing to be added without redevelopment\nFully functioning quote calculator\nFully functioning admin portal\nSuccessful deployment to Vercel\nGitHub repository transferred on completion\nBasic documentation covering deployment and future maintenance\n\nOwnership\n\nUpon final payment:\nAll source code and intellectual property become our property.\nNo proprietary licensed code may be used without prior approval.\nWe require full GitHub access and ownership of the repository.\n\nFuture Work\n\nThis project is Phase 1 of a much larger platform.\n\nPhase 2 will introduce architect and <span class=\"highlight\">developer</span> accounts, customer dashboards, saved projects, CRM integration, editable quotations and additional functionality.\n\nOur intention is to build a long-term relationship with the successful <span class=\"highlight\">developer</span> and continue into Phase 2.\n\nPlease note you will need to attend a teams or zoom call prior to accepting the job.",
+    "createdOn": "2026-07-08T10:36:11.848Z",
+    "publishedOn": "2026-07-08T11:21:42.436Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "1 to 3 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "GBR"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "27.27",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"32\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Expert_207",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626762688643072",
+        "parentSkillUid": null,
+        "prefLabel": "Next.js",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1733104400605790212",
+        "parentSkillUid": null,
+        "prefLabel": "Vercel",
+        "prettyName": "Vercel",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628000108546",
+        "parentSkillUid": null,
+        "prefLabel": "PostgreSQL",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099315067957248",
+        "parentSkillUid": null,
+        "prefLabel": "Supabase",
+        "prettyName": "Supabase",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-08T10:36:11.848Z",
+        "publishTime": "2026-07-08T11:21:42.436Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "We are looking for an experienced React/Next.js developer to build Phase 1 of our web application.\n\nThis is a fixed-price project only.\n\nOverview\n\nWe have:\nComplete UI/UX designs\nAll assets\nClear functionality requirements\n\nWe require development only.\n\nThe application is the first phase of a larger SaaS platform within the smart home industry.\n\nScope\n\nPhase 1 includes:\nDevelop 5 responsive pages from supplied designs\nBuild using Next.js (React)\nBackend using Supabase (preferred) or Firebase\nSecure administrator login\nProduct database (approximately 12–13 products initially, designed for future expansion)\nAdmin portal allowing prices to be edited\nQuote calculation engine using those database values\nContact form to submit completed quotations/enquiries\nDeploy to Vercel\nFull testing before handover\n\nTechnical Stack\n\nPreferred technologies:\nNext.js (React)\nSupabase (preferred) or Firebase\nPostgreSQL database (if using Supabase)\nVercel hosting\nGitHub version control\n\nThe application must be responsive across desktop, tablet and mobile.\n\nDeliverables\n\nWe expect:\nClean, well-structured, maintainable code\nSecure authentication\nWell-designed database structure that allows future products and pricing to be added without redevelopment\nFully functioning quote calculator\nFully functioning admin portal\nSuccessful deployment to Vercel\nGitHub repository transferred on completion\nBasic documentation covering deployment and future maintenance\n\nOwnership\n\nUpon final payment:\nAll source code and intellectual property become our property.\nNo proprietary licensed code may be used without prior approval.\nWe require full GitHub access and ownership of the repository.\n\nFuture Work\n\nThis project is Phase 1 of a much larger platform.\n\nPhase 2 will introduce architect and developer accounts, customer dashboards, saved projects, CRM integration, editable quotations and additional functionality.\n\nOur intention is to build a long-term relationship with the successful developer and continue into Phase 2.\n\nPlease note you will need to attend a teams or zoom call prior to accepting the job.",
+        "info": {
+          "ciphertext": "~022074804734625456333",
+          "id": "2074804734625456333",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Web Application Development",
+          "hideBudget": false,
+          "createdOn": "2026-07-08T10:36:11.848Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578586447872",
+              "id": "1733104400605790212",
+              "freeText": null,
+              "prefLabel": "Vercel",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627970748416",
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "groupPrefLabel": "Databases",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099315067957248",
+              "freeText": null,
+              "prefLabel": "Supabase",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-08T11:21:42.436Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-08T10:46:33.743Z",
+          "totalApplicants": 92,
+          "totalHired": 0,
+          "totalInvitedToInterview": 3,
+          "unansweredInvites": 0,
+          "invitationsSent": 3,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 0
+        },
+        {
+          "question": "What frameworks have you worked with?",
+          "position": 1
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Europe/London (UTC+01:00)",
+          "city": "Wolverhampton",
+          "country": "GBR"
+        },
+        "stats": {
+          "totalAssignments": 2,
+          "activeAssignmentsCount": 1,
+          "hoursCount": 2,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 1,
+          "totalCharges": {
+            "amount": 27.27
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1968263071446992157",
+          "isEDCReplicated": null,
+          "contractDate": "2025-09-17T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 2,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 8
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-05T09:57:03.701Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 2,
+          "jobInfo": {
+            "title": "Social Media Scheduler & Content Assistant (Metricool) – Ongoing Monthly Work",
+            "id": "2043985039647916776",
+            "uid": "2043985039647916776",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022043985039647916776"
+          },
+          "contractorInfo": {
+            "contractorName": "Mahmuda Akhter K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018b99d2e0886e7a91"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 29.965,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 95,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

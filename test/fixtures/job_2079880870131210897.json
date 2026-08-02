@@ -1,0 +1,2042 @@
+{
+  "uid": "2079880870131210897",
+  "ciphertext": "~022079880870131210897",
+  "title": "Full Stack Developer (React.js, Next.js, Node.js & AWS) - For our websites and applications",
+  "url": "https://www.upwork.com/jobs/~022079880870131210897",
+  "scrapedAt": "2026-07-22T14:08:19.730Z",
+  "feed": {
+    "uid": "2079880870131210897",
+    "title": "Full Stack Developer (React.js, Next.js, Node.js & AWS) - For our websites and applications",
+    "ciphertext": "~022079880870131210897",
+    "description": "Note: contact via email, phone or Linkedin will mean disqualification. Apply on Upwork only.\n\nWe are seeking a skilled Full Stack Developer to enhance our web application using React.js, Next.js, and Node.js. Our websites for Grow Skills Store, FIT4Privacy and Punit Bhatia are built using learnpress, zoho, woo commerce and wordpress. The role involves integrating AWS services to improve performance and scalability. The ideal candidate will have experience in cloud computing and a strong understanding of web development best practices. Responsibilities include developing new features, optimizing existing code, and collaborating with our team to deliver high-quality solutions.\n\nWe are looking for an experienced Full Stack Developer to work on an ongoing web application.\nRequired Skills:\nStrong experience with React.js and Next.js\nBackend development using Node.js and Express.js\nREST API development and third-party API integrations\nDatabase experience with MongoDB or PostgreSQL\nAWS deployment and management (EC2, S3, RDS, Lambda, CloudFront)\nAuthentication and role-based access control\nGit/GitHub and CI/CD workflows\nPerformance optimization and bug fixing\nResponsibilities:\nDevelop new frontend and backend features\nBuild secure and scalable APIs\nDeploy and maintain applications on AWS\nTroubleshoot production issues\nWrite clean and reusable code\nCoordinate regularly with our project manager and development team\nRequirements:\nMinimum 3–5 years of relevant experience\nGood understanding of scalable application architecture\nAbility to work independently and meet deadlines\nClear communication and regular progress updates\nAvailability for ongoing work\nPlease share relevant React/Next.js projects, your AWS experience, availability, and hourly rate when applying.\n\nNote: contact via email, phone or Linkedin will mean disqualification. Apply on Upwork only.",
+    "type": 2,
+    "recno": "1026052470",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-22T10:46:56.811Z",
+    "publishedOn": "2026-07-22T10:49:21.288Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 75,
+      "totalSpent": 46676.75,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Belgium",
+        "city": "Dinant",
+        "state": "",
+        "countryTimezone": "Europe/Berlin",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 39,
+      "totalFeedback": 4.89,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-22T13:37:46.502Z",
+      "proposalReviewedAt": "2026-07-22T13:37:46.515Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784717642527",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628012691471",
+        "prefLabel": "Amazon Web Services"
+      },
+      {
+        "id": "1031626711912398848",
+        "prefLabel": "Amazon EC2"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1031626712239554560",
+        "prefLabel": "Amazon S3"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "10 to 15",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 10,
+      "max": 20
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"1\"}",
+    "attrs": [
+      {
+        "uid": "996364628012691471",
+        "prettyName": "Amazon Web Services",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626711912398848",
+        "prettyName": "Amazon EC2",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626712239554560",
+        "prettyName": "Amazon S3",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "reimagined",
+        "jpgV2Generated",
+        "searchable"
+      ]
+    },
+    "position": 2
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T10:46:56.811Z",
+        "publishTime": "2026-07-22T10:49:21.288Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Note: contact via email, phone or Linkedin will mean disqualification. Apply on Upwork only.\n\nWe are seeking a skilled Full Stack Developer to enhance our web application using React.js, Next.js, and Node.js. Our websites for Grow Skills Store, FIT4Privacy and Punit Bhatia are built using learnpress, zoho, woo commerce and wordpress. The role involves integrating AWS services to improve performance and scalability. The ideal candidate will have experience in cloud computing and a strong understanding of web development best practices. Responsibilities include developing new features, optimizing existing code, and collaborating with our team to deliver high-quality solutions.\n\nWe are looking for an experienced Full Stack Developer to work on an ongoing web application.\nRequired Skills:\nStrong experience with React.js and Next.js\nBackend development using Node.js and Express.js\nREST API development and third-party API integrations\nDatabase experience with MongoDB or PostgreSQL\nAWS deployment and management (EC2, S3, RDS, Lambda, CloudFront)\nAuthentication and role-based access control\nGit/GitHub and CI/CD workflows\nPerformance optimization and bug fixing\nResponsibilities:\nDevelop new frontend and backend features\nBuild secure and scalable APIs\nDeploy and maintain applications on AWS\nTroubleshoot production issues\nWrite clean and reusable code\nCoordinate regularly with our project manager and development team\nRequirements:\nMinimum 3–5 years of relevant experience\nGood understanding of scalable application architecture\nAbility to work independently and meet deadlines\nClear communication and regular progress updates\nAvailability for ongoing work\nPlease share relevant React/Next.js projects, your AWS experience, availability, and hourly rate when applying.\n\nNote: contact via email, phone or Linkedin will mean disqualification. Apply on Upwork only.",
+        "info": {
+          "ciphertext": "~022079880870131210897",
+          "id": "2079880870131210897",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Full Stack Developer (React.js, Next.js, Node.js & AWS) - For our websites and applications",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T10:46:56.811Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578586447872",
+              "id": "996364628012691471",
+              "freeText": null,
+              "prefLabel": "Amazon Web Services",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626711912398848",
+              "freeText": null,
+              "prefLabel": "Amazon EC2",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626712239554560",
+              "freeText": null,
+              "prefLabel": "Amazon S3",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-22T10:49:21.288Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Full Stack Developer (React.js, Next.js, Node.js & AWS)",
+            "generatedInputsAIv2": "{\"title\":\"Full Stack Developer (React.js, Next.js, Node.js & AWS)\",\"skills\":[{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626712239554560\"}],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":35}}",
+            "browser": "Edge",
+            "generate_prompt": "Full Stack Developer (React.js, Next.js, Node.js & AWS)",
+            "device": "Windows",
+            "startTimeJobPostFlowAIv2": "1784716897502",
+            "retriesAIv2": "1",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"We are seeking a skilled Full Stack Developer to enhance our web application using React.js, Next.js, and Node.js. The role involves integrating AWS services to improve performance and scalability. The ideal candidate will have experience in cloud computing and a strong understanding of web development best practices. Responsibilities include developing new features, optimizing existing code, and collaborating with our team to deliver high-quality solutions.\",\"editedDescription\":\"We are seeking a skilled Full Stack Developer to enhance our web application using React.js, Next.js, and Node.js. The role involves integrating AWS services to improve performance and scalability. The ideal candidate will have experience in cloud computing and a strong understanding of web development best practices. Responsibilities include developing new features, optimizing existing code, and collaborating with our team to deliver high-quality solutions.\",\"similarityScore\":1}]",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 10,
+          "hourlyBudgetMax": 20,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T13:37:46.493Z",
+          "totalApplicants": 12,
+          "totalHired": 0,
+          "totalInvitedToInterview": 1,
+          "unansweredInvites": 1,
+          "invitationsSent": 2,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": "Dinant",
+          "country": "Belgium"
+        },
+        "stats": {
+          "totalAssignments": 75,
+          "activeAssignmentsCount": 10,
+          "hoursCount": 4698.17,
+          "feedbackCount": 39,
+          "score": 4.89,
+          "totalJobsWithHires": 53,
+          "totalCharges": {
+            "amount": 46676.75
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "869304599346716672",
+          "isEDCReplicated": null,
+          "contractDate": "2017-05-29T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 45,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 6.611276305455103
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-20T09:07:19.574Z",
+          "endDate": null,
+          "totalCharge": 991.23,
+          "totalHours": 133.500001,
+          "jobInfo": {
+            "title": "Support for Privacy and AI work",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Anca F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019c86aa829a6a09aa"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-22T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 2681.19,
+          "totalHours": 318.000004,
+          "jobInfo": {
+            "title": "Sales and Business Growth Manager Needed",
+            "id": "2000634252740589964",
+            "uid": "2000634252740589964",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022000634252740589964"
+          },
+          "contractorInfo": {
+            "contractorName": "Babylyn F.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019f0bbd2606f3c0dc"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-02T10:55:09.142Z",
+          "endDate": null,
+          "totalCharge": 1600,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Write content for ISO Standards",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sagar M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b23ee84d4c7b1f93"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-02T07:08:48.030Z",
+          "endDate": null,
+          "totalCharge": 1117.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Social Media Sales and Marketing Specialist Needed for HubSpot Implementation",
+            "id": "1972252451542241939",
+            "uid": "1972252451542241939",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021972252451542241939"
+          },
+          "contractorInfo": {
+            "contractorName": "Uddish B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01035de017c3d9f1a2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-03T07:24:49.485Z",
+          "endDate": null,
+          "totalCharge": 45.87,
+          "totalHours": 6.833333,
+          "jobInfo": {
+            "title": "Virtual Office Admin",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Marielle Dominique A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01799ea4596aad14ec"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-25T11:54:38.176Z",
+          "endDate": null,
+          "totalCharge": 153,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Research, Support & Consultancy on legal, privacy and AI matters",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sumedha G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01620f8fa45111a734"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-05T14:19:50.630Z",
+          "endDate": null,
+          "totalCharge": 556.24,
+          "totalHours": 52.500002,
+          "jobInfo": {
+            "title": "Senior Executive Assistant for Quality Assurance and Growth Support",
+            "id": "1919374540629670716",
+            "uid": "1919374540629670716",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021919374540629670716"
+          },
+          "contractorInfo": {
+            "contractorName": "Alexandra T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c5232186321f2ace"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-12T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 1566.87,
+          "totalHours": 59.500025,
+          "jobInfo": {
+            "title": "PR & Branding Manager",
+            "id": "1858880059140139052",
+            "uid": "1858880059140139052",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021858880059140139052"
+          },
+          "contractorInfo": {
+            "contractorName": "Tracy L.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01e3e0ee8e1c5476e9"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-06-26T10:41:39.074Z",
+          "endDate": null,
+          "totalCharge": 8057.38,
+          "totalHours": 1927.999993,
+          "jobInfo": {
+            "title": "Virtual Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Queency  T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017269992cee79b039"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-24T19:15:32.000Z",
+          "endDate": null,
+          "totalCharge": 904.21,
+          "totalHours": 34.333333,
+          "jobInfo": {
+            "title": "Editor for YouTube videos",
+            "id": "1688915556747091968",
+            "uid": "1688915556747091968",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~016c2d8156c9ebbd60"
+          },
+          "contractorInfo": {
+            "contractorName": "Gaston B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0152829edf582d4ce0"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-06T13:40:47.279Z",
+          "endDate": "2026-07-20T13:42:38.867Z",
+          "totalCharge": 662,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "React.js + Node.js Developer Needed for Web App Development",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Krishna Y.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e5023c9c4491395a"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "The work for our website grow skills store and fit4privacy was done successfully. We liked the fact that communication was clear, fixed price was fixed and work was done in time.\nHighly recommended. Will work again with him."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a pleasure working with Mr. Punit. I truly appreciated his professionalism and support."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-05T00:00:00.000Z",
+          "endDate": "2026-03-31T08:07:07.106Z",
+          "totalCharge": 1863.24,
+          "totalHours": 176.499999,
+          "jobInfo": {
+            "title": "Growth Manager - Corporate Sales",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Daphni Vincenzo Daniel R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018a4eab5ed6d96271"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great guy with open and transparent communication. We asked him to set up sales and find leads. He brought ideas and inputs. Also, committed to make things work.\nWe will re-hire him."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Punit was an absolute pleasure to work with from start to finish. Clear communication, fast decision-making, and a strong understanding of what he wanted made the entire collaboration smooth and efficient.\n\nWhat stood out most is how organized and respectful he is, he values your time, gives precise direction, and trusts you to execute without unnecessary micromanagement. That’s rare.\n\nOn top of that, he’s responsive, fair, and genuinely focused on getting great results rather than just ticking boxes. It makes a huge difference when you’re working with someone who actually understands how to collaborate effectively.\n\nI would work with Punit again without hesitation and highly recommend him to anyone looking for a serious, professional client."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-06T00:00:00.000Z",
+          "endDate": "2026-03-20T14:15:45.959Z",
+          "totalCharge": 2993.99,
+          "totalHours": 284.833336,
+          "jobInfo": {
+            "title": "Virtual Assistant - Training Planning & Organization",
+            "id": "1884169585501262383",
+            "uid": "1884169585501262383",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~021884169585501262383"
+          },
+          "contractorInfo": {
+            "contractorName": "Marko P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0190eeb2d8e0f804d2"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": "He did what we asked. we asked him to onboard trainers and he did so.\n\nAs a new business, we hired him for his previous experience."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great collaboration over the past year. Clear communication and a solid working relationship. Wishing you all the best with Growskillstore moving forward."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-21T16:48:21.223Z",
+          "endDate": "2026-01-21T16:01:03.382Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Sales and Business Growth Manager Needed",
+            "id": "2000634252740589964",
+            "uid": "2000634252740589964",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022000634252740589964"
+          },
+          "contractorInfo": {
+            "contractorName": "Daphni Vincenzo Daniel R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018a4eab5ed6d96271"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Daniel is committed to help you. He is clear in communication and asks right questions to solve issues. We hired him to set sales process. Now that it is done, we will work with him to sell. We are looking forward to his sales now-:)"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Punit is extremely easy to work with, very comprehensive and always willing to help. Consider yourself blessed if your paths ever cross."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-25T07:02:46.297Z",
+          "endDate": "2026-01-15T12:45:42.258Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "SEO Optimization for better ranking",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Tanmay S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d092b4b27259452d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Did what we asked and provided inputs to improve things. Our website is not showing in ranking and improving with time. We will hire this company again."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-02T08:13:46.158Z",
+          "endDate": "2025-10-02T10:43:56.288Z",
+          "totalCharge": 16.29,
+          "totalHours": 1,
+          "jobInfo": {
+            "title": "Business Support and Administration",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Samantha Jean G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0116e616253dc6e261"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-16T08:04:40.565Z",
+          "endDate": "2025-09-24T16:06:50.113Z",
+          "totalCharge": 850,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Course Library Website Development",
+            "id": "1922610534614775533",
+            "uid": "1922610534614775533",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021922610534614775533"
+          },
+          "contractorInfo": {
+            "contractorName": "Krishna Y.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e5023c9c4491395a"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": "Designed and the website we asked. Did what we asked. \n\nWill buy again from them"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Punit was a great experience. He provided clear requirements, was quick to respond to queries, and maintained smooth communication throughout the project. Payments were released on time and the collaboration was hassle-free. I would be happy to work with him again in the future. Highly recommended!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-05T03:43:50.232Z",
+          "endDate": "2025-09-24T10:09:35.218Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "WooCommerce Specialist | Custom Store Development & Optimization",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Parvinder S.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "Delivered a nice custom design for our website based on our requirements. This was our 3rd project with them. They deliver excellent services when you give clear requirements and free hand to them to provide suggestions\n\nWill buy services again from them."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great working with Punit, clear communication and smooth collaboration throughout."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-19T17:18:01.000Z",
+          "endDate": "2025-09-19T13:18:04.133Z",
+          "totalCharge": 250.83,
+          "totalHours": 7.166665,
+          "jobInfo": {
+            "title": "Data Protection Consultant",
+            "id": "1480989221973368832",
+            "uid": "1480989221973368832",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01c1b40cb32b790f4a"
+          },
+          "contractorInfo": {
+            "contractorName": "Goran P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b1c1ded64a029675"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.85,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Punit is a pleasure to work with. He's super professional, knows exactly what he wants, gives clear guidelines and generally just operates at a very high level. I highly recommend him to everyone!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-04T12:33:56.089Z",
+          "endDate": "2025-08-05T07:59:33.071Z",
+          "totalCharge": 230,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Senior WordPress Developer | Custom Themes, Plugins & API Integrations",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Parvinder S.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "Asked to build a website and their team did a very good job. They were open to communicate, ask questions, take feedback and even adapt. We did a fixed price and they delivered in that price.\n\nWill buy again from them"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-29T21:08:17.560Z",
+          "endDate": "2025-08-02T07:41:43.331Z",
+          "totalCharge": 1050,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Privacy Support for various actions",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sagar M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b23ee84d4c7b1f93"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.45,
+            "comment": "Very good candidate for straight line works like ROPA, templates, notices etc. He works hard and makes every effort to deliver you the best he can. He is also knowledgeable and has the intent to get things done. He helped us with GDPR and AI act related work"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-19T02:24:33.977Z",
+          "endDate": "2025-07-10T13:22:45.751Z",
+          "totalCharge": 82.69,
+          "totalHours": 7.666666,
+          "jobInfo": {
+            "title": "Career and Skills Articulation for Personal Website",
+            "id": "1933468440108960191",
+            "uid": "1933468440108960191",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021933468440108960191"
+          },
+          "contractorInfo": {
+            "contractorName": "Alwisa S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012ba59d6235a761af"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-18T08:44:00.874Z",
+          "endDate": "2025-06-27T18:33:39.170Z",
+          "totalCharge": 0,
+          "totalHours": 9,
+          "jobInfo": {
+            "title": "Career and Skills Articulation for Personal Website",
+            "id": "1933468440108960191",
+            "uid": "1933468440108960191",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021933468440108960191"
+          },
+          "contractorInfo": {
+            "contractorName": "Tarini T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012076dc208bcab636"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.1,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very insightful and experienced, and extremely collaborative and supportive."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-17T03:56:27.613Z",
+          "endDate": "2025-06-19T09:46:03.262Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Course Library Website Development",
+            "id": "1922610534614775533",
+            "uid": "1922610534614775533",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021922610534614775533"
+          },
+          "contractorInfo": {
+            "contractorName": "Celso M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ef7a3e39059c0ddf"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Hi is great client."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-29T09:30:53.164Z",
+          "endDate": "2025-06-19T05:12:48.425Z",
+          "totalCharge": 407.67,
+          "totalHours": 29.499998,
+          "jobInfo": {
+            "title": "Business Support for growth ideas and quality checks",
+            "id": "1915695353830380060",
+            "uid": "1915695353830380060",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021915695353830380060"
+          },
+          "contractorInfo": {
+            "contractorName": "Bilyana H.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0199e2f11a051d379c"
+          },
+          "rate": {
+            "amount": 13
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.75,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-28T17:15:43.587Z",
+          "endDate": "2025-05-27T19:15:46.119Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Support for Landing and Thank You Pages of Scorecard",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sagar M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b23ee84d4c7b1f93"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-01T00:00:00.000Z",
+          "endDate": "2025-05-06T07:07:46.246Z",
+          "totalCharge": 17.59,
+          "totalHours": 1.5,
+          "jobInfo": {
+            "title": "Senior Executive Assistant for Quality Assurance and Growth Support",
+            "id": "1915703559392927657",
+            "uid": "1915703559392927657",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021915703559392927657"
+          },
+          "contractorInfo": {
+            "contractorName": "Froilan G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0146e48a3c5eb3affc"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 2.95,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-05-03T16:01:32.630Z",
+          "endDate": "2025-04-29T14:10:52.431Z",
+          "totalCharge": 91.58,
+          "totalHours": 9.166667,
+          "jobInfo": {
+            "title": "VA for Various Tasks",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Danka Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012f77fffafeb25a27"
+          },
+          "rate": {
+            "amount": 9
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.5,
+            "comment": "She did what we asked."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-24T15:39:31.201Z",
+          "endDate": "2025-04-28T14:28:58.568Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Create Questions for various scorecards on Website",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Sagar M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b23ee84d4c7b1f93"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "He did what we asked and at a quality better than expected. He delivers good-quality work. We will work with him again."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-05T00:00:00.000Z",
+          "endDate": "2025-02-24T16:50:19.945Z",
+          "totalCharge": 260.49,
+          "totalHours": 15.333333,
+          "jobInfo": {
+            "title": "Virtual Assistant - Training Planning & Organization",
+            "id": "1884169585501262383",
+            "uid": "1884169585501262383",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~021884169585501262383"
+          },
+          "contractorInfo": {
+            "contractorName": "Ivana S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0108b1eb04e96001ce"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.95,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": "The initial contract agreement was modified and I am happy I got the chance to work on the project planning and management. The past weeks were a pleasant working experience and I look forward to opportunity to work together again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-12-17T14:46:11.167Z",
+          "endDate": "2024-12-18T10:44:05.398Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Create Logo for company",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Prasanna W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0134e8ae67680b9868"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Asked to create various logos. He did in a few hours and made changes as per feedback in further few hours. I would ask his help again in future."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-25T00:00:00.000Z",
+          "endDate": "2024-12-18T10:35:25.771Z",
+          "totalCharge": 303.99,
+          "totalHours": 15.333333,
+          "jobInfo": {
+            "title": "PR & Branding Manager",
+            "id": "1858880059140139052",
+            "uid": "1858880059140139052",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021858880059140139052"
+          },
+          "contractorInfo": {
+            "contractorName": "Jerose D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015112919c961c188f"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.45,
+            "comment": "She was proactive and professional when it came to setting things up. She gave an impression that she knew her stuff. She was working independently and answering all queries we raised. However, almost after one month, we did not get desired results and chose to end collaboration."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-27T18:25:38.000Z",
+          "endDate": "2024-07-12T12:39:34.944Z",
+          "totalCharge": 3576,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Lead Generation & Sales Executive",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ian Jason  C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01835a925849dad061"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "Knows his stuff and works to achieve success."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-05-24T16:24:43.435Z",
+          "endDate": "2024-07-01T12:18:06.528Z",
+          "totalCharge": 115.2,
+          "totalHours": 21,
+          "jobInfo": {
+            "title": "Virtual Assistant for CEO",
+            "id": "1791408584987521024",
+            "uid": "1791408584987521024",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01736749c8b9ca87c9"
+          },
+          "contractorInfo": {
+            "contractorName": "Isabella V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01de704f097f5e6533"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.5,
+            "comment": "She was working well but all of a sudden stopped working and even responding to our messages while we waited for work from her. So, ended the contract after 8 days of no response."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-01-26T00:00:00.000Z",
+          "endDate": "2024-06-26T10:07:29.974Z",
+          "totalCharge": 747.44,
+          "totalHours": 236.333338,
+          "jobInfo": {
+            "title": "VA for multiple tasks (long term)",
+            "id": "1745783567057932288",
+            "uid": "1745783567057932288",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01de1a546df8133cee"
+          },
+          "contractorInfo": {
+            "contractorName": "Queency  T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017269992cee79b039"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.65,
+            "comment": "She did all we asked. Right from editing podcasts, managing mailbox, creating blogs, publishing social media posts and so on. We are happy with her and will hire her again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Punit is one of the best! He is excellent at giving clear instructions and is flexible. I enjoyed working with him."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-01-13T00:00:00.000Z",
+          "endDate": "2024-05-17T09:54:50.186Z",
+          "totalCharge": 963.7,
+          "totalHours": 152.500002,
+          "jobInfo": {
+            "title": "VA for multiple tasks (long term)",
+            "id": "1745783567057932288",
+            "uid": "1745783567057932288",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01de1a546df8133cee"
+          },
+          "contractorInfo": {
+            "contractorName": "Alyssa M.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01b374895852a42381"
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.05,
+            "comment": "She delivered good work initially. With time, she was less available, not following the instructions completely, and even working once a week leading to work not being completed. I would work with her if she delivered the sincerity and quality that she demonstrated at the start."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": "It was a pleasure working with Punit. He knows what he requires, and he is very prompt with communication. He provides the necessary resources. I would like to work with him again in the future. All the best to FIT4Privacy!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-06T19:17:09.000Z",
+          "endDate": "2024-05-04T18:45:02.785Z",
+          "totalCharge": 543.7,
+          "totalHours": 34.333333,
+          "jobInfo": {
+            "title": "Lead Generation & Sales Executive",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Md.Rafiqul I.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01cca0fa987f17d8f7"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "The consultant was diligent, pro-active and did what was asked. He even made suggestions and contributed with his knowledge."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-06T17:03:06.000Z",
+          "endDate": "2024-03-20T11:50:57.000Z",
+          "totalCharge": 1201.7,
+          "totalHours": 50.666668,
+          "jobInfo": {
+            "title": "Business Development Executive",
+            "id": "1754869558529421312",
+            "uid": "1754869558529421312",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01dfa385033ea270fc"
+          },
+          "contractorInfo": {
+            "contractorName": "Deborah B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015f9c286907286683"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 2.95,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-01-13T00:00:00.000Z",
+          "endDate": "2024-02-05T08:31:58.000Z",
+          "totalCharge": 54.4,
+          "totalHours": 7.000001,
+          "jobInfo": {
+            "title": "VA for multiple tasks (long term)",
+            "id": "1745783567057932288",
+            "uid": "1745783567057932288",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01de1a546df8133cee"
+          },
+          "contractorInfo": {
+            "contractorName": "Kim C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01dff5bc3c4f7f6c10"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-06-11T13:46:19.000Z",
+          "endDate": "2024-01-27T14:27:28.000Z",
+          "totalCharge": 2467.84,
+          "totalHours": 345.499999,
+          "jobInfo": {
+            "title": "Virtual Assistance for multiple tasks",
+            "id": "1662524882832363520",
+            "uid": "1662524882832363520",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0177da459cc9f14d57"
+          },
+          "contractorInfo": {
+            "contractorName": "Analou P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017f455966cfde747c"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.05,
+            "comment": "She worked very well for us. The quality of her work was acceptable. However, she misses assigned timelines regularly. Further, she does communicate in advance that she would miss the timelines."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Punit is an excellent client. Thank you for the opportunity!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-30T00:00:00.000Z",
+          "endDate": "2023-10-30T14:18:03.000Z",
+          "totalCharge": 20.45,
+          "totalHours": 3.333334,
+          "jobInfo": {
+            "title": "Virtual Assistance for multiple tasks",
+            "id": "1662524882832363520",
+            "uid": "1662524882832363520",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0177da459cc9f14d57"
+          },
+          "contractorInfo": {
+            "contractorName": "Maria Catherine O.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01612a320a95e524ab"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.3,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-06-05T00:00:00.000Z",
+          "endDate": "2023-10-30T14:16:20.000Z",
+          "totalCharge": 112.89,
+          "totalHours": 18.833333,
+          "jobInfo": {
+            "title": "Virtual Assistance for multiple tasks",
+            "id": "1662524882832363520",
+            "uid": "1662524882832363520",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0177da459cc9f14d57"
+          },
+          "contractorInfo": {
+            "contractorName": "Dianne Michelle C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017f990044fad3e12c"
+          },
+          "rate": {
+            "amount": 5.56
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.35,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-12-20T14:43:43.000Z",
+          "endDate": "2023-10-30T14:15:12.000Z",
+          "totalCharge": 184.1,
+          "totalHours": 43.833334,
+          "jobInfo": {
+            "title": "Virtual Assistant (long Term)",
+            "id": "1598682584822284288",
+            "uid": "1598682584822284288",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e792ac2aef6cbb3a"
+          },
+          "contractorInfo": {
+            "contractorName": "Sudar Singh  N.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01368eee90a30d79ef"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.65,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-11-28T00:00:00.000Z",
+          "endDate": "2023-01-04T15:35:16.000Z",
+          "totalCharge": 245,
+          "totalHours": 23.333335,
+          "jobInfo": {
+            "title": "Virtual Assistant (Office Manager)",
+            "id": "1595058884301217792",
+            "uid": "1595058884301217792",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01af6c81c3d650ed2f"
+          },
+          "contractorInfo": {
+            "contractorName": "Leila S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0128481a0fdf730333"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.25,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.05,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-12-05T00:00:00.000Z",
+          "endDate": "2023-01-02T08:24:40.000Z",
+          "totalCharge": 53.2,
+          "totalHours": 10.166666,
+          "jobInfo": {
+            "title": "Virtual Assistant (Office Manager)",
+            "id": "1595058884301217792",
+            "uid": "1595058884301217792",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01af6c81c3d650ed2f"
+          },
+          "contractorInfo": {
+            "contractorName": "Michelle S.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01a7c56780921d320e"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It is a pleasure to work with Michelle. She is open, transparent, and attentive to what you say."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great Client very detailed and professional! Thank you so much!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-09-06T00:00:00.000Z",
+          "endDate": "2022-10-21T13:53:24.000Z",
+          "totalCharge": 25.2,
+          "totalHours": 3.999999,
+          "jobInfo": {
+            "title": "Research and Write blog",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rabia B.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 6
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.8,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2.1,
+            "comment": "Disappeared after hiring"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-10T19:15:20.000Z",
+          "endDate": "2022-08-10T21:47:38.000Z",
+          "totalCharge": 20,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Blog/content writer",
+            "id": "1508741757650075648",
+            "uid": "1508741757650075648",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01146e311e7c936b59"
+          },
+          "contractorInfo": {
+            "contractorName": "Rabia B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~015abbd39a98087392"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.1,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-20T08:38:59.000Z",
+          "endDate": "2022-08-10T21:45:06.000Z",
+          "totalCharge": 30,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Research and Write blog",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rabia B.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2.9,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-04-06T14:20:20.000Z",
+          "endDate": "2022-06-20T08:35:21.000Z",
+          "totalCharge": 92,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Blog/content writer",
+            "id": "1508741757650075648",
+            "uid": "1508741757650075648",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01146e311e7c936b59"
+          },
+          "contractorInfo": {
+            "contractorName": "Ritu G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~015b116f3aaeb1586a"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was nice working with Punit Sir. Thanks"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-14T07:23:50.000Z",
+          "endDate": "2022-06-15T05:30:59.000Z",
+          "totalCharge": 15,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "You will get Increase 1000+ youtube channel subscribers lifetime guaranteed",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Tozammel H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017b2e7ec04f520758"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 2.55,
+            "comment": null
+          },
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 18.542857142857144,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 35,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

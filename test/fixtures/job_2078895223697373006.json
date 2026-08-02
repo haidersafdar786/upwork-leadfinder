@@ -1,0 +1,378 @@
+{
+  "uid": "2078895223697373006",
+  "ciphertext": "~022078895223697373006",
+  "title": "FrontSide Real Estate Development Tool Setup",
+  "url": "https://www.upwork.com/jobs/~022078895223697373006",
+  "scrapedAt": "2026-07-19T21:13:41.873Z",
+  "feed": {
+    "id": "2078895223697373006",
+    "uid": "2078895223697373006",
+    "title": "FrontSide Real Estate Development Tool Setup",
+    "ciphertext": "~022078895223697373006",
+    "description": "I am working on a FrontSide Real Estate Development Tool using Claude and need assistance with setting up the app on Vercel. The project involves ensuring the app is deployed correctly and functions as intended. Experience with web development and deployment on platforms like Vercel is essential.\nWe wanna run all online with invoicing, project management and other tools.\nThere for i need a helping hend to finish my tool.",
+    "type": 2,
+    "recno": "1026017815",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 week",
+    "durationLabel": "Less than 1 week",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0
+    },
+    "createdOn": "2026-07-19T17:30:20.358Z",
+    "publishedOn": "2026-07-19T17:31:46.070Z",
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "Switzerland"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T17:54:27.538Z",
+      "proposalReviewedAt": "2026-07-19T17:54:27.545Z"
+    },
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "10 to 15",
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTs": "1784482312877",
+    "attrs": [
+      {
+        "id": "1031626795211276288",
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "996364628025274385",
+        "uid": "996364628025274385",
+        "prettyName": "PHP",
+        "prefLabel": "PHP"
+      },
+      {
+        "id": "1031626753582809088",
+        "uid": "1031626753582809088",
+        "prettyName": "Lead Generation",
+        "prefLabel": "Lead Generation"
+      },
+      {
+        "id": "1031626795181916160",
+        "uid": "1031626795181916160",
+        "prettyName": "Web Design",
+        "prefLabel": "Web Design"
+      }
+    ],
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 10,
+      "max": 20
+    },
+    "isApplied": false,
+    "annotations": {
+      "tags": [
+        "reimagined",
+        "jpgV2Generated",
+        "searchable"
+      ]
+    },
+    "relevanceEncoded": "{}",
+    "position": 7
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T17:30:20.358Z",
+        "publishTime": "2026-07-19T17:31:46.070Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "I am working on a FrontSide Real Estate Development Tool using Claude and need assistance with setting up the app on Vercel. The project involves ensuring the app is deployed correctly and functions as intended. Experience with web development and deployment on platforms like Vercel is essential.\nWe wanna run all online with invoicing, project management and other tools.\nThere for i need a helping hend to finish my tool.",
+        "info": {
+          "ciphertext": "~022078895223697373006",
+          "id": "2078895223697373006",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "FrontSide Real Estate Development Tool Setup",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T17:30:20.358Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626753582809088",
+              "freeText": null,
+              "prefLabel": "Lead Generation",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T17:31:46.070Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "I am programming an FrontSide Real Estate Development Tool with Claude. Now i am opening on Vercel the account for the app.",
+            "generatedInputsAIv2": "{\"title\":\"FrontSide Real Estate Development Tool Setup\",\"skills\":[{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626753582809088\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626795181916160\"}],\"scope\":{\"duration\":\"474250516458926083\",\"segmentation\":\"535794351185620993\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":35}}",
+            "generate_prompt": "I am programming an FrontSide Real Estate Development Tool with Claude. Now i am opening on Vercel the account for the app.",
+            "browser": "Chrome",
+            "device": "Windows",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784482060592",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"I am working on a FrontSide Real Estate Development Tool using Claude and need assistance with setting up the app on Vercel. The project involves ensuring the app is deployed correctly and functions as intended. Experience with web development and deployment on platforms like Vercel is essential.\",\"editedDescription\":\"I am working on a FrontSide Real Estate Development Tool using Claude and need assistance with setting up the app on Vercel. The project involves ensuring the app is deployed correctly and functions as intended. Experience with web development and deployment on platforms like Vercel is essential.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 10,
+          "hourlyBudgetMax": 20,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T17:54:27.530Z",
+          "totalApplicants": 14,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "CONVERSATIONAL",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": null,
+          "country": "Switzerland"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "1481555743864184833",
+          "isEDCReplicated": null,
+          "contractDate": "2022-01-13T00:00:00.000Z",
+          "profile": {
+            "industry": "",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 3,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "2",
+              "clientPreferredLabel": "Conversational",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 19.666666666666668,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 40,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

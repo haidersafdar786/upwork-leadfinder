@@ -1,0 +1,1802 @@
+{
+  "uid": "2074846840685595130",
+  "ciphertext": "~022074846840685595130",
+  "title": "React/Next Js Developer for Dashboards",
+  "url": "https://www.upwork.com/jobs/~022074846840685595130",
+  "scrapedAt": "2026-07-20T08:46:55.643Z",
+  "feed": {
+    "uid": "2074846840685595130",
+    "ciphertext": "~022074846840685595130",
+    "title": "<span class=\"highlight\">React</span>/Next <span class=\"highlight\">Js</span> <span class=\"highlight\">Developer</span> for Dashboards",
+    "description": "We're looking for a frontend-focused <span class=\"highlight\">developer</span> to build and maintain an internal dashboard for our e-commerce business (naturida.de). This is for internal team use, so the focus is on clean, functional, and reliable — not public-facing marketing polish.\n\nThe stack:\n- <span class=\"highlight\">React</span> / Next.<span class=\"highlight\">js</span>\n- Supabase (Postgres, auth, storage)\n- Deployed on Vercel\n\nWhat you'll be working on:\n- Building out dashboard views and data tables for internal reporting\n- Marketing Dashboards\n- Finance Tools\n\nNice to have (a real plus):\n- Experience pulling and displaying GA4 (Google Analytics 4) data\n- Familiarity with the Shopify API / Shopify data, since our store data feeds into this dashboard",
+    "createdOn": "2026-07-08T13:23:30.681Z",
+    "publishedOn": "2026-07-08T13:25:39.545Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "3 to 6 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "Germany"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "159514.2",
+      "totalReviews": 20,
+      "totalFeedback": 4.32,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"14\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626773660942336",
+        "parentSkillUid": null,
+        "prefLabel": "React",
+        "prettyName": "React",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626762688643072",
+        "parentSkillUid": null,
+        "prefLabel": "Next.js",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099315067957248",
+        "parentSkillUid": null,
+        "prefLabel": "Supabase",
+        "prettyName": "Supabase",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274389",
+        "parentSkillUid": null,
+        "prefLabel": "TypeScript",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 15,
+      "max": 40
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-08T13:23:30.681Z",
+        "publishTime": "2026-07-08T13:25:39.545Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "We're looking for a frontend-focused developer to build and maintain an internal dashboard for our e-commerce business (naturida.de). This is for internal team use, so the focus is on clean, functional, and reliable — not public-facing marketing polish.\n\nThe stack:\n- React / Next.js\n- Supabase (Postgres, auth, storage)\n- Deployed on Vercel\n\nWhat you'll be working on:\n- Building out dashboard views and data tables for internal reporting\n- Marketing Dashboards\n- Finance Tools\n\nNice to have (a real plus):\n- Experience pulling and displaying GA4 (Google Analytics 4) data\n- Familiarity with the Shopify API / Shopify data, since our store data feeds into this dashboard",
+        "info": {
+          "ciphertext": "~022074846840685595130",
+          "id": "2074846840685595130",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "React/Next Js Developer for Dashboards",
+          "hideBudget": false,
+          "createdOn": "2026-07-08T13:23:30.681Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:frontenddevelopment",
+            "prefLabel": "Front-End Development",
+            "id": "1110580755057594368",
+            "uid": "1110580755057594368"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578271875072",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Front-End Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578036994048",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Front-End Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099315067957248",
+              "freeText": null,
+              "prefLabel": "Supabase",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-08T13:25:39.545Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "React / Next Js Developer for internal Dashboards",
+            "generatedInputsAIv2": "{\"title\":\"React/Next Js Developer for Dashboards\",\"skills\":[],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":30}}",
+            "generate_prompt": "React / Next Js Developer for internal Dashboards",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1783516739604",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":11,\"description\":\"We are seeking a skilled React/Next Js Developer to create and enhance internal dashboards. The ideal candidate will have experience in building responsive and user-friendly interfaces, integrating data visualization tools, and ensuring seamless performance. You will collaborate with our team to design and implement features that meet our business needs. If you have a passion for delivering high-quality solutions and a keen eye for detail, we would love to hear from you.\",\"editedDescription\":\"We are seeking a skilled React/Next Js Developer to create and enhance internal dashboards. The ideal candidate will have experience in building responsive and user-friendly interfaces, integrating data visualization tools, and ensuring seamless performance. You will collaborate with our team to design and implement features that meet our business needs. If you have a passion for delivering high-quality solutions and a keen eye for detail, we would love to hear from you.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "contractToHireSet",
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 15,
+          "hourlyBudgetMax": 40,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-09T10:49:02.372Z",
+          "totalApplicants": 422,
+          "totalHired": 0,
+          "totalInvitedToInterview": 6,
+          "unansweredInvites": 0,
+          "invitationsSent": 14,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": "Schönefeld",
+          "country": "Germany"
+        },
+        "stats": {
+          "totalAssignments": 54,
+          "activeAssignmentsCount": 19,
+          "hoursCount": 6751.5,
+          "feedbackCount": 20,
+          "score": 4.32,
+          "totalJobsWithHires": 38,
+          "totalCharges": {
+            "amount": 159514.2
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1519337962237476865",
+          "isEDCReplicated": null,
+          "contractDate": "2022-04-27T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 33,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 22.231511515959415
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-05T08:10:41.565Z",
+          "endDate": null,
+          "totalCharge": 825.62,
+          "totalHours": 17.999999,
+          "jobInfo": {
+            "title": "Bionera Packaging Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alina D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0194a6b4164bd7343c"
+          },
+          "rate": {
+            "amount": 45
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-05T07:56:18.624Z",
+          "endDate": null,
+          "totalCharge": 24568.99,
+          "totalHours": 291.999997,
+          "jobInfo": {
+            "title": "Creative Designer for E-Commerce Startup",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Nijazi M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f2b88a559b2d7721"
+          },
+          "rate": {
+            "amount": 80
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-07T09:59:25.833Z",
+          "endDate": null,
+          "totalCharge": 5562.59,
+          "totalHours": 109.833334,
+          "jobInfo": {
+            "title": "Shopify developer for various tasks",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Eugene M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0164c80909915b4275"
+          },
+          "rate": {
+            "amount": 48
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-04T14:25:07.110Z",
+          "endDate": null,
+          "totalCharge": 1183.02,
+          "totalHours": 31.833334,
+          "jobInfo": {
+            "title": "Google Spreadsheets Expert Needed for Product Order Management",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Milan N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fac4992980c6e09c"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-09T15:05:03.178Z",
+          "endDate": null,
+          "totalCharge": 2278.08,
+          "totalHours": 192.500004,
+          "jobInfo": {
+            "title": "Wordpress VA helping with translations and various other tasks.",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mariia K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0115418d1ce685d94c"
+          },
+          "rate": {
+            "amount": 11.11
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-17T09:47:47.155Z",
+          "endDate": null,
+          "totalCharge": 2460.63,
+          "totalHours": 92.166668,
+          "jobInfo": {
+            "title": "Sourcing Agent Needed for Sleeping Mask Production",
+            "id": "1889684698170602128",
+            "uid": "1889684698170602128",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021889684698170602128"
+          },
+          "contractorInfo": {
+            "contractorName": "Qian Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01deffbc19bd898484"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-08-19T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 377.49,
+          "totalHours": 18.333334,
+          "jobInfo": {
+            "title": "Dutch Customer Support Agent",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ingelise Kirsten B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bc6e540adb9766c2"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-27T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 7416.2,
+          "totalHours": 320.833332,
+          "jobInfo": {
+            "title": "Danish Customer Support Agent",
+            "id": "1755945475184517120",
+            "uid": "1755945475184517120",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021755945475184517120"
+          },
+          "contractorInfo": {
+            "contractorName": "Melek K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b041b0654115dcaf"
+          },
+          "rate": {
+            "amount": 23.34
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-19T10:52:59.000Z",
+          "endDate": null,
+          "totalCharge": 170.95,
+          "totalHours": 9.5,
+          "jobInfo": {
+            "title": "Copywriting / Advertorials",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Moritz W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014ce2b3485e4b6e0e"
+          },
+          "rate": {
+            "amount": 40
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-03-14T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 37061.01,
+          "totalHours": 1691.333339,
+          "jobInfo": {
+            "title": "Dutch Customer Support",
+            "id": "1755691307833929728",
+            "uid": "1755691307833929728",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021755691307833929728"
+          },
+          "contractorInfo": {
+            "contractorName": "Laura S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015f6742ab0318afba"
+          },
+          "rate": {
+            "amount": 25.77
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-09T09:16:26.000Z",
+          "endDate": null,
+          "totalCharge": 132.45,
+          "totalHours": 6.166667,
+          "jobInfo": {
+            "title": "Dutch Customer Support Agent needed",
+            "id": "1567786189585309696",
+            "uid": "1567786189585309696",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~014db0436ffe56bf98"
+          },
+          "contractorInfo": {
+            "contractorName": "Ingelise Kirsten B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bc6e540adb9766c2"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-03T12:55:38.000Z",
+          "endDate": null,
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Social Media Marketing",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Romeo K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019cb0d5fd42e3d4b8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-18T09:17:52.000Z",
+          "endDate": null,
+          "totalCharge": 192.5,
+          "totalHours": 7.333334,
+          "jobInfo": {
+            "title": "Graphic Designer for Cosmetics Brand",
+            "id": "1640316548029804544",
+            "uid": "1640316548029804544",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01aa932d2ac067179d"
+          },
+          "contractorInfo": {
+            "contractorName": "Carolina G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0121f1060035f31518"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-12-06T07:08:20.000Z",
+          "endDate": null,
+          "totalCharge": 105,
+          "totalHours": 4,
+          "jobInfo": {
+            "title": "Proofread dutch website",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Tosin O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0110b55c34b0d305e6"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-15T09:01:05.000Z",
+          "endDate": null,
+          "totalCharge": 30.3,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Urgent: Image Editor needed for Creatives",
+            "id": "1580829235434098688",
+            "uid": "1580829235434098688",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01e75cd9840777b225"
+          },
+          "contractorInfo": {
+            "contractorName": "Aldi G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015f71dd99acb74871"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-14T18:14:27.000Z",
+          "endDate": null,
+          "totalCharge": 92.75,
+          "totalHours": 8.833333,
+          "jobInfo": {
+            "title": "Urgent: Image Editor needed for Creatives",
+            "id": "1580829235434098688",
+            "uid": "1580829235434098688",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e75cd9840777b225"
+          },
+          "contractorInfo": {
+            "contractorName": "Tu N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013f2f9d46abcd4252"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-29T00:00:00.000Z",
+          "endDate": "2026-03-02T11:32:11.683Z",
+          "totalCharge": 12415.63,
+          "totalHours": 719.166673,
+          "jobInfo": {
+            "title": "Italian Customer Support Agent",
+            "id": "1755946717441576960",
+            "uid": "1755946717441576960",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021755946717441576960"
+          },
+          "contractorInfo": {
+            "contractorName": "Gianluca B.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01443dc50335cb4cf9"
+          },
+          "rate": {
+            "amount": 19.36
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very awesome Agent! Works independently and has helped us enormously during his time with us. Wishing you all the best and we hope your new projects are amazing!"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-18T16:18:22.275Z",
+          "endDate": "2026-01-30T08:29:40.284Z",
+          "totalCharge": 1759.38,
+          "totalHours": 66.833334,
+          "jobInfo": {
+            "title": "Replo LP Build",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Pratibha P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019c77cd873319fede"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Really quick response rate and pixel perfect execution"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was amazing to work with Tim. I would love to work again. Thank you"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-12T03:59:01.557Z",
+          "endDate": "2025-11-17T12:53:10.778Z",
+          "totalCharge": 181,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "AI Image (Before/after)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Oleksandr T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016d8633730ac8eb6a"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a pleasure working with Oleksandr! He quickly delivered the results, responded promptly to messages and was open for feedback. All the tasks were completed in the best way possible."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a pleasure working together, all the best!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-08T14:12:20.907Z",
+          "endDate": "2025-10-01T13:14:17.337Z",
+          "totalCharge": 256.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Email Marketing Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Marisa R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01aedfc299b31a5db7"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Marisa was professional and quick in completing all the tasks! We are satisfied with the result of the project and thank her for her support."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Giorgia and her team is absolute professionals, and it was pleasure to work together!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-02-28T09:25:49.000Z",
+          "endDate": "2025-09-25T14:37:33.012Z",
+          "totalCharge": 16890.48,
+          "totalHours": 643.333331,
+          "jobInfo": {
+            "title": "Danish Customer Support Agent",
+            "id": "1755945475184517120",
+            "uid": "1755945475184517120",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~015061334c8f67d19a"
+          },
+          "contractorInfo": {
+            "contractorName": "Irene Sandvik S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017e0efb01e24cb067"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.15,
+            "comment": "Irene was very friendly, flexible, all rounded, and brought positivity to our team. We appreciated her support in our team and the work effort over her time with us and wish her all the best in her future projects."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-15T17:59:03.932Z",
+          "endDate": "2025-08-27T16:54:17.717Z",
+          "totalCharge": 10201.99,
+          "totalHours": 242.66667,
+          "jobInfo": {
+            "title": "Graphic Designer for Performance Creatives",
+            "id": "1932795277570925205",
+            "uid": "1932795277570925205",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021932795277570925205"
+          },
+          "contractorInfo": {
+            "contractorName": "Enes A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011b876616361f2797"
+          },
+          "rate": {
+            "amount": 40
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-05T12:36:18.000Z",
+          "endDate": "2025-06-11T13:43:49.213Z",
+          "totalCharge": 392,
+          "totalHours": 37.333334,
+          "jobInfo": {
+            "title": "Copywriter for Cosmetics Magazine / ChatGPT / Wordpress",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Prince C.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011d721703dc29b74d"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-16T10:27:40.495Z",
+          "endDate": "2025-03-11T15:26:10.481Z",
+          "totalCharge": 451.02,
+          "totalHours": 9.333335,
+          "jobInfo": {
+            "title": "Neurolin Packaging Design",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alina D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0194a6b4164bd7343c"
+          },
+          "rate": {
+            "amount": 45
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Highly professional, extremely efficient, and attentive to the small details that elevate every design."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you for the opportunity to collaborate on this project, Tim. Communication and workflow were seamless, and the design approval process was smooth with prompt feedback. Looking forward to future projects!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-24T10:47:21.771Z",
+          "endDate": "2024-12-20T09:48:38.618Z",
+          "totalCharge": 1143.99,
+          "totalHours": 24,
+          "jobInfo": {
+            "title": "Shopify gift cart extension for Black Friday.",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Eugene M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0164c80909915b4275"
+          },
+          "rate": {
+            "amount": 45
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "everything was top notch, looking forward to working again with eugene."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you:)"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-07T10:47:49.832Z",
+          "endDate": "2024-11-18T14:31:43.807Z",
+          "totalCharge": 55,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Graphic Designer for Beauty Brand - Newsletter & Ads",
+            "id": "1852314010002948264",
+            "uid": "1852314010002948264",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021852314010002948264"
+          },
+          "contractorInfo": {
+            "contractorName": "Yan H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015a56ee42dd71358d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "The communication was clear, feedbacks were integrated and deadlines were met - thanks for the collaboration!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I am pleased to be working with Giorgia. I got a detailed technical task and clear comments. I would definitely recommend this client for cooperation."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-11-06T20:45:42.695Z",
+          "endDate": "2024-11-08T00:26:38.774Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Creation of green screen UGC video",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Debra G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a9e883e2f857d80a"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-09-05T12:58:44.916Z",
+          "endDate": "2024-10-14T15:38:45.939Z",
+          "totalCharge": 670.62,
+          "totalHours": 25.166667,
+          "jobInfo": {
+            "title": "Replo LP Build",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Pratibha P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019c77cd873319fede"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I really enjoyed working on this project. The expectations and requirements were clearly communicated from the start, and the client was always responsive to my requests for clarification."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-16T00:00:00.000Z",
+          "endDate": "2024-07-04T12:18:35.088Z",
+          "totalCharge": 5615.9,
+          "totalHours": 381.833331,
+          "jobInfo": {
+            "title": "Customer Support Italian",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Dor Giovanni D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ac0fc8577d3d40eb"
+          },
+          "rate": {
+            "amount": 14
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Giovanni is easy to work with, has experience in the field and is a team player. We are thankful for all the help he provided us during these past few months!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-05-22T10:39:44.000Z",
+          "endDate": "2024-01-29T13:45:06.000Z",
+          "totalCharge": 5717.05,
+          "totalHours": 303.833339,
+          "jobInfo": {
+            "title": "Dutch Customer Support Agent",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ingelise Kirsten B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01bc6e540adb9766c2"
+          },
+          "rate": {
+            "amount": 18
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Lisa was very professional and knows how to do her job - she has the right experience and we enjoyed working with her. We are very grateful for her help!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very nice team to work with and great product and customer service set up. Any time you need someone for a short period, let me know please. Unfortunately I will need to focus on my own life and business now."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-11T22:52:10.000Z",
+          "endDate": "2023-11-21T11:41:11.000Z",
+          "totalCharge": 649.75,
+          "totalHours": 77,
+          "jobInfo": {
+            "title": "Customer Success Dutch",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Thirmadevi D.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019b166e334a08bf38"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.6,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-19T15:44:24.000Z",
+          "endDate": "2023-10-11T00:26:47.000Z",
+          "totalCharge": 13028.48,
+          "totalHours": 1128.000001,
+          "jobInfo": {
+            "title": "Dutch Customer Support Agent needed",
+            "id": "1581968762742829056",
+            "uid": "1581968762742829056",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~011bdb15cd435649a1"
+          },
+          "contractorInfo": {
+            "contractorName": "Cherida J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c98ca9e930115ce1"
+          },
+          "rate": {
+            "amount": 11
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-29T10:42:31.000Z",
+          "endDate": "2023-08-29T10:43:51.000Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "You will get fantastic work that will boost your Facebook customer feedback score",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Romeo K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019cb0d5fd42e3d4b8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-12T12:15:46.000Z",
+          "endDate": "2023-08-16T07:58:54.000Z",
+          "totalCharge": 863.63,
+          "totalHours": 23.499999,
+          "jobInfo": {
+            "title": "Graphic Designer for Cosmetics Brand",
+            "id": "1640316548029804544",
+            "uid": "1640316548029804544",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01aa932d2ac067179d"
+          },
+          "contractorInfo": {
+            "contractorName": "Maeva B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a68a74f5f19bae76"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "From the first moment they were very clear about the project, there was good communication and a very good atmosphere. I'm sorry I can't continue with the project. I definitely recommend it :)"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-26T15:15:01.000Z",
+          "endDate": "2023-04-27T10:21:44.000Z",
+          "totalCharge": 310.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "You will get fantastic work that will boost your Facebook customer feedback score",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Romeo K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019cb0d5fd42e3d4b8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-05T19:16:08.000Z",
+          "endDate": "2023-04-24T14:55:54.000Z",
+          "totalCharge": 2903.26,
+          "totalHours": 157.999999,
+          "jobInfo": {
+            "title": "Proofread dutch website",
+            "id": "1520874323253587968",
+            "uid": "1520874323253587968",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~019c8591cb9ad349ca"
+          },
+          "contractorInfo": {
+            "contractorName": "Simone C.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01197a0db9c465e7e3"
+          },
+          "rate": {
+            "amount": 17.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Simone supported us as a Customer Support agent and delivered great work always on time. If we need more support we would definitely hire her again. Thank you again Simone."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Felix and Tim was an absolute pleasure. I did some translation, proofreading and costumer service and we had a weekly meeting, which always had a positive vibe and they were always interested in me as a person, beside just being their worker. Being part of the Naturida family was a great experience."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-12T11:07:43.000Z",
+          "endDate": "2023-04-18T05:53:52.000Z",
+          "totalCharge": 199.5,
+          "totalHours": 6.333333,
+          "jobInfo": {
+            "title": "Graphic Designer for Cosmetics Brand",
+            "id": "1640316548029804544",
+            "uid": "1640316548029804544",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01aa932d2ac067179d"
+          },
+          "contractorInfo": {
+            "contractorName": "Matias  V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018cb05d0a1d10ddeb"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Matias is an excellent graphic designer on Upwork. He was dedicated, responsive, and produced high-quality work. I would highly recommend him to anyone looking for a talented and reliable designer."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.3,
+            "comment": "Definitely, a really good client to work with. It was a pleasure working with this client on a small task, and I would be happy to work with them again in the future."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-05T11:12:03.000Z",
+          "endDate": "2023-04-14T05:52:43.000Z",
+          "totalCharge": 247.8,
+          "totalHours": 19.666667,
+          "jobInfo": {
+            "title": "Copywriter for Cosmetics Magazine / ChatGPT / Wordpress",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ericson A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a2085b5ac3e244b9"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Tim is a great client - trusts a freelancer to get the job done, and endorses fun projects. Future projects from him are welcome for me!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-05T12:54:55.000Z",
+          "endDate": "2023-04-14T05:52:13.000Z",
+          "totalCharge": 36.75,
+          "totalHours": 5,
+          "jobInfo": {
+            "title": "Copywriter for Cosmetics Magazine / ChatGPT / Wordpress",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Chloe Mae A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0157935d6cb161f6a3"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.65,
+            "comment": "Thank you so much Tim for the opportunity. Wishing to work with you soon. All the best!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-04-06T17:20:41.000Z",
+          "endDate": "2023-04-14T05:51:30.000Z",
+          "totalCharge": 8.58,
+          "totalHours": 1.166667,
+          "jobInfo": {
+            "title": "Copywriter for Cosmetics Magazine / ChatGPT / Wordpress",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jhon Rafael C.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-01-02T15:31:55.000Z",
+          "endDate": "2023-03-13T12:27:16.000Z",
+          "totalCharge": 115.51,
+          "totalHours": 7.333333,
+          "jobInfo": {
+            "title": "Italian customer service agent",
+            "id": "1602863924187963392",
+            "uid": "1602863924187963392",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~013bb62cbefa2477b4"
+          },
+          "contractorInfo": {
+            "contractorName": "Gabriella R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011f621692260c1b73"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Really professional and proactive. Thank you for supporting us Gabriella!"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-16T08:45:01.000Z",
+          "endDate": "2023-02-27T05:48:39.000Z",
+          "totalCharge": 57.75,
+          "totalHours": 5,
+          "jobInfo": {
+            "title": "Urgent: Image Editor needed for Creatives",
+            "id": "1580829235434098688",
+            "uid": "1580829235434098688",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e75cd9840777b225"
+          },
+          "contractorInfo": {
+            "contractorName": "Roman L.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01e3f81cac6fb4ca5d"
+          },
+          "rate": {
+            "amount": 11
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-08-22T04:23:17.000Z",
+          "endDate": "2023-02-02T02:55:46.000Z",
+          "totalCharge": 275.62,
+          "totalHours": 10.500001,
+          "jobInfo": {
+            "title": "Searching for a Chinese Sourcing Agent (Cosmetics Packaging)",
+            "id": "1559126110030065664",
+            "uid": "1559126110030065664",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e8369e9486fe3765"
+          },
+          "contractorInfo": {
+            "contractorName": "Huixiu G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012d579bd6c8d7cf76"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-08-22T13:45:06.000Z",
+          "endDate": "2022-11-06T11:23:26.000Z",
+          "totalCharge": 816.96,
+          "totalHours": 19.5,
+          "jobInfo": {
+            "title": "Searching for a Chinese Sourcing Agent (Cosmetics Packaging)",
+            "id": "1559126110030065664",
+            "uid": "1559126110030065664",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e8369e9486fe3765"
+          },
+          "contractorInfo": {
+            "contractorName": "Guoxin C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01935920fcf7569b25"
+          },
+          "rate": {
+            "amount": 39.9
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks, look forward to working together again"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-10-15T08:50:55.000Z",
+          "endDate": "2022-10-18T12:45:28.000Z",
+          "totalCharge": 78.75,
+          "totalHours": 3,
+          "jobInfo": {
+            "title": "Proofread dutch website",
+            "id": "1580871915848142848",
+            "uid": "1580871915848142848",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01d4757d7ba1c6133d"
+          },
+          "contractorInfo": {
+            "contractorName": "Tosin O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0110b55c34b0d305e6"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "really god translation, even worked on sunday for us to complete the job."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "A great client and easy to work with."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 26.714371184371185,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 4,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 70,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "uid": "2079385404401579854",
+  "ciphertext": "~022079385404401579854",
+  "title": "React Native Website Development Based on Our Mobile App Version",
+  "url": "https://www.upwork.com/jobs/~022079385404401579854",
+  "scrapedAt": "2026-07-21T14:09:36.416Z",
+  "feed": {
+    "uid": "2079385404401579854",
+    "title": "React Native Website Development Based on Our Mobile App Version",
+    "ciphertext": "~022079385404401579854",
+    "description": "We are seeking a skilled freelancer to develop a React Native website version of our mobile app rax https://www.raxapp.ca/. The ideal candidate will have experience in both React Native and web development, with a strong understanding of converting mobile apps into web applications. Marketplace experience is a plus as well. The project involves leveraging our Figma designs and current mobile app code to develop a seamless user experience across platforms, ensuring functionality and design consistency. If you have a passion for innovative web solutions and a proven track record in similar projects, we would love to hear from you.",
+    "type": 2,
+    "recno": "1026034234",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-21T01:58:08.481Z",
+    "publishedOn": "2026-07-21T05:00:48.807Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "Canada",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/New_York",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-21T14:08:15.944Z",
+      "proposalReviewedAt": "2026-07-21T14:08:15.953Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784610068522",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628012691466",
+        "prefLabel": "React Native"
+      },
+      {
+        "id": "1031626733781499904",
+        "prefLabel": "Ecommerce Website Development"
+      },
+      {
+        "id": "1031626715259453440",
+        "prefLabel": "App Marketplace"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Default",
+      "min": 15,
+      "max": 30
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"27\"}",
+    "attrs": [
+      {
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626733781499904",
+        "prettyName": "Ecommerce Website Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626715259453440",
+        "prettyName": "App Marketplace",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "reimagined",
+        "jpgV2Generated",
+        "searchable"
+      ]
+    },
+    "position": 28
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T01:58:08.481Z",
+        "publishTime": "2026-07-21T05:00:48.807Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "We are seeking a skilled freelancer to develop a React Native website version of our mobile app rax https://www.raxapp.ca/. The ideal candidate will have experience in both React Native and web development, with a strong understanding of converting mobile apps into web applications. Marketplace experience is a plus as well. The project involves leveraging our Figma designs and current mobile app code to develop a seamless user experience across platforms, ensuring functionality and design consistency. If you have a passion for innovative web solutions and a proven track record in similar projects, we would love to hear from you.",
+        "info": {
+          "ciphertext": "~022079385404401579854",
+          "id": "2079385404401579854",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "React Native Website Development Based on Our Mobile App Version",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T01:58:08.481Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:mobileappdevelopment",
+            "prefLabel": "Mobile App Development",
+            "id": "996364627857502209",
+            "uid": "996364627857502209"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "996364627912028160",
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "groupPrefLabel": "Mobile App Dev Tools",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626733781499904",
+              "freeText": null,
+              "prefLabel": "Ecommerce Website Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626715259453440",
+              "freeText": null,
+              "prefLabel": "App Marketplace",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Mobile Development",
+          "urlSlug": "mobile-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-21T05:00:48.807Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Build react native website version of our mobile app rax ",
+            "generatedInputsAIv2": "{\"title\":\"React Native Website Version Development\",\"skills\":[{\"relevance\":\"MANDATORY\",\"skillUid\":\"1031626775984586752\"},{\"relevance\":\"NICE_TO_HAVE\",\"skillUid\":\"1031626788395532288\"}],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":30}}",
+            "generate_prompt": "Build react native website version of our mobile app rax ",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784598882926",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"We are seeking a skilled freelancer to develop a React Native website version of our mobile app RAX. The ideal candidate will have experience in both React Native and web development, with a strong understanding of converting mobile apps into web applications. The project involves creating a seamless user experience across platforms, ensuring functionality and design consistency. If you have a passion for innovative web solutions and a proven track record in similar projects, we would love to hear from you.\",\"editedDescription\":\"We are seeking a skilled freelancer to develop a React Native website version of our mobile app RAX. The ideal candidate will have experience in both React Native and web development, with a strong understanding of converting mobile apps into web applications. The project involves creating a seamless user experience across platforms, ensuring functionality and design consistency. If you have a passion for innovative web solutions and a proven track record in similar projects, we would love to hear from you.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 15,
+          "hourlyBudgetMax": 30,
+          "hourlyBudgetType": "DEFAULT"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-21T14:08:15.936Z",
+          "totalApplicants": 67,
+          "totalHired": 0,
+          "totalInvitedToInterview": 3,
+          "unansweredInvites": 0,
+          "invitationsSent": 4,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 80,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "FLUENT",
+        "regions": null,
+        "risingTalent": true,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Fluent in React Native?",
+          "position": 0
+        },
+        {
+          "question": "Developed website app?",
+          "position": 1
+        },
+        {
+          "question": "Available now?",
+          "position": 2
+        },
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 3
+        },
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -14400000,
+          "countryTimezone": "America/New_York (UTC-04:00)",
+          "city": null,
+          "country": "Canada"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "1701598101754712065",
+          "isEDCReplicated": null,
+          "contractDate": "2023-09-12T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 2,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "80",
+              "clientPreferredLabel": "At least 80%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "3",
+              "clientPreferredLabel": "Fluent",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "AT_LEAST_10000",
+              "clientPreferredLabel": "At Least 10000",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 23.83223880597015,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 49,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "996364627857502209",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

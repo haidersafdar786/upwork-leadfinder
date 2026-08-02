@@ -1,0 +1,458 @@
+{
+  "uid": "2079646349129261258",
+  "ciphertext": "~022079646349129261258",
+  "title": "Senior React Native (Expo) & Firebase Developer for Existing App",
+  "url": "https://www.upwork.com/jobs/~022079646349129261258",
+  "scrapedAt": "2026-07-22T14:08:33.360Z",
+  "feed": {
+    "uid": "2079646349129261258",
+    "title": "Senior React Native (Expo) & Firebase Developer for Existing App",
+    "ciphertext": "~022079646349129261258",
+    "description": "I’m looking for a senior React Native (Expo) and Firebase developer to help finish and launch my mobile app, RevvDoc. The app is already built and running, but needs final touches to ensure a smooth user experience. The ideal candidate will have experience in optimizing app performance and troubleshooting issues. This is a part-time role with a short-term engagement.",
+    "type": 2,
+    "recno": "1026044460",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 week",
+    "durationLabel": "Less than 1 week",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-21T19:15:02.692Z",
+    "publishedOn": "2026-07-21T19:50:02.793Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "United States",
+        "city": null,
+        "state": null,
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 0,
+      "totalFeedback": null,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-22T12:53:22.924Z",
+      "proposalReviewedAt": "2026-07-22T12:53:22.932Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784663404319",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "996364628012691466",
+        "prefLabel": "React Native"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1031626760125923328",
+        "prefLabel": "Mobile App Development"
+      },
+      {
+        "id": "996364628012691465",
+        "prefLabel": "Firebase"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 60,
+      "max": 100
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"24\"}",
+    "attrs": [
+      {
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626760125923328",
+        "prettyName": "Mobile App Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628012691465",
+        "prettyName": "Firebase",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "reimagined",
+        "jpgV2Generated",
+        "firstJobPost",
+        "searchable"
+      ]
+    },
+    "position": 25
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T19:15:02.692Z",
+        "publishTime": "2026-07-21T19:50:02.793Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "I’m looking for a senior React Native (Expo) and Firebase developer to help finish and launch my mobile app, RevvDoc. The app is already built and running, but needs final touches to ensure a smooth user experience. The ideal candidate will have experience in optimizing app performance and troubleshooting issues. This is a part-time role with a short-term engagement.",
+        "info": {
+          "ciphertext": "~022079646349129261258",
+          "id": "2079646349129261258",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Senior React Native (Expo) & Firebase Developer for Existing App",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T19:15:02.692Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:mobileappdevelopment",
+            "prefLabel": "Mobile App Development",
+            "id": "996364627857502209",
+            "uid": "996364627857502209"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "996364627912028160",
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "groupPrefLabel": "Mobile App Dev Tools",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627912028160",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Mobile App Dev Tools",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "996364627912028160",
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "groupPrefLabel": "Mobile App Dev Tools",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626760125923328",
+              "freeText": null,
+              "prefLabel": "Mobile App Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691465",
+              "freeText": null,
+              "prefLabel": "Firebase",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Mobile Development",
+          "urlSlug": "mobile-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "sourcingUpdateForbidden": "false",
+            "type": "FJP",
+            "finalInputsAIv2": "{\"title\":\"Senior React Native (Expo) & Firebase Developer for Existing App\",\"skills\":[{\"skillUid\":\"1031626760125923328\"},{\"skillUid\":\"996364628012691465\"}],\"scope\":{\"duration\":\"474250516458926083\",\"segmentation\":\"535794351185620993\",\"expertise\":2},\"budget\":{\"hourlyBudgetMin\":60,\"hourlyBudgetMax\":100,\"amount\":null}}",
+            "generatedInputsAIv2": "{\"title\":\"Senior React Native Firebase Developer\",\"skills\":[],\"scope\":{\"duration\":\"474250516458926083\",\"segmentation\":\"535794351185620993\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":30}}",
+            "generate_prompt": "I’m looking for a senior React Native (Expo) and Firebase developer to help finish and launch my mobile app, RevvDoc. The app is already built and run",
+            "browser": "AppleWebKit",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"I’m looking for a senior React Native (Expo) and Firebase developer to help finish and launch my mobile app, RevvDoc. The app is already built and running, but needs final touches to ensure a smooth user experience. The ideal candidate will have experience in optimizing app performance and troubleshooting issues. This is a part-time role with a short-term engagement.\",\"editedDescription\":\"I’m looking for a senior React Native (Expo) and Firebase developer to help finish and launch my mobile app, RevvDoc. The app is already built and running, but needs final touches to ensure a smooth user experience. The ideal candidate will have experience in optimizing app performance and troubleshooting issues. This is a part-time role with a short-term engagement.\",\"similarityScore\":1}]",
+            "siteSource": "ios_client_instant",
+            "publishTime": "2026-07-21T19:50:02.793Z",
+            "totalTimeJobPostFlowAIv2": "526",
+            "sourcingUpdateCount": "0",
+            "totalTimeSpentOnReviewPageAIv2": "435",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "I’m looking for a senior React Native (Expo) and Firebase developer to help finish and launch my mobile app, RevvDoc. The app is already built and running in TestFlight, and I need someone to fix bugs, complete the remaining features, improve the UI, and prepare it for production on iOS and Android.",
+            "device": "iPhone",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784660775001",
+            "flowType": "FJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "reimagined",
+            "jpgV2Generated",
+            "firstJobPost",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 60,
+          "hourlyBudgetMax": 100,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T12:53:22.914Z",
+          "totalApplicants": 44,
+          "totalHired": 0,
+          "totalInvitedToInterview": 2,
+          "unansweredInvites": 1,
+          "invitationsSent": 3,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "FLUENT",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Describe your approach to testing and improving QA",
+          "position": 0
+        },
+        {
+          "question": "What frameworks have you worked with?",
+          "position": 1
+        },
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 2
+        },
+        {
+          "question": "Please list any certifications related to this project",
+          "position": 3
+        },
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 4
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": null,
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2079639977663091815",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-21T00:00:00.000Z",
+          "profile": {
+            "industry": "Automotive",
+            "size": 1
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "3",
+              "clientPreferredLabel": "Fluent",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 44.11,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 100,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "996364627857502209",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

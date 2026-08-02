@@ -1,0 +1,1361 @@
+{
+  "uid": "2079895315289419908",
+  "ciphertext": "~022079895315289419908",
+  "title": "Next.js Developer with Headless CMS Experience",
+  "url": "https://www.upwork.com/jobs/~022079895315289419908",
+  "scrapedAt": "2026-07-22T13:02:57.661Z",
+  "feed": {
+    "id": "2079895315289419908",
+    "uid": "2079895315289419908",
+    "title": "Next.js Developer with Headless CMS Experience",
+    "ciphertext": "~022079895315289419908",
+    "description": "Next.js Developer with Headless CMS Experience (Sanity Preferred)\n\nWe are looking for an experienced freelance/fractional developer to support an existing Next.js website with a headless CMS backend.\n\nThe ideal candidate has strong production experience with Next.js and React, along with hands-on experience using Sanity CMS (preferred), Contentful, or another modern headless CMS.\n\nThis is an ongoing part-time engagement focused on maintaining and improving an existing website, developing new pages and reusable components, supporting post-launch improvements, and collaborating with our team during US Eastern Time business hours.\n\nResponsibilities\n- Build and maintain pages, components, templates, and site features using Next.js\n- Work with a headless CMS such as Sanity or Contentful\n- Improve reusable page sections, content models, and editor workflows\n- Implement rich text / Portable Text rendering with custom components\n- Support post-launch QA, bug fixes, and content updates\n- Help with SEO improvements, metadata, redirects, and validation\n- Support caching, preview, publishing, and deployment workflows\n- Create and update campaign pages when needed\n\nRequired Skills\n- Strong React and Next.js experience (App Router preferred)\n- Production experience with Sanity CMS (preferred), Contentful, or another headless CMS\n- TypeScript\n- Experience building reusable components and page templates\n- Familiarity with structured content models, CMS APIs, queries, references, and rich text rendering\n- Understanding of SEO best practices for production websites\n- Strong written communication and ability to work independently\n\nNice to Have\n- Sanity schemas, GROQ, Portable Text, and Studio customization\n- Vercel deployments\n- Webhook-based revalidation / ISR\n- Experience supporting post-launch website maintenance\n- Experience building marketing or campaign landing pages\n\nPlease include with your proposal\n- A live production Next.js + Headless CMS project you personally worked on.\n- Which CMS you used and what you personally implemented.\n- A GitHub repository, code sample, or screenshots (if available).\n- A brief summary of your experience with Sanity CMS, Contentful, or similar platforms.\n- Your hourly rate, weekly availability, and ET overlap.\n\nPlease do not apply if your experience with headless CMS is limited to tutorials, starter templates, or demo projects.",
+    "type": 2,
+    "recno": "1026052998",
+    "freelancersToHire": 1,
+    "duration": "More than 6 months",
+    "durationLabel": "More than 6 months",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0
+    },
+    "createdOn": "2026-07-22T11:44:20.882Z",
+    "publishedOn": "2026-07-22T11:46:04.876Z",
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 38,
+      "totalSpent": 17111.17,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Singapore"
+      },
+      "totalReviews": 22,
+      "totalFeedback": 4.24,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTs": "1784720774388",
+    "attrs": [
+      {
+        "id": "996364628025274389",
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "1031626762688643072",
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "1031626773660942336",
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "prefLabel": "React"
+      },
+      {
+        "id": "free_text",
+        "uid": "free_text",
+        "prettyName": "headless CMS",
+        "prefLabel": "headless CMS"
+      },
+      {
+        "id": "free_text",
+        "uid": "free_text",
+        "prettyName": "Sanity CMS",
+        "prefLabel": "Sanity CMS"
+      }
+    ],
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 30,
+      "max": 40
+    },
+    "isApplied": false,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "relevanceEncoded": "{}",
+    "position": 7
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T11:44:20.882Z",
+        "publishTime": "2026-07-22T11:46:04.876Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "Next.js Developer with Headless CMS Experience (Sanity Preferred)\n\nWe are looking for an experienced freelance/fractional developer to support an existing Next.js website with a headless CMS backend.\n\nThe ideal candidate has strong production experience with Next.js and React, along with hands-on experience using Sanity CMS (preferred), Contentful, or another modern headless CMS.\n\nThis is an ongoing part-time engagement focused on maintaining and improving an existing website, developing new pages and reusable components, supporting post-launch improvements, and collaborating with our team during US Eastern Time business hours.\n\nResponsibilities\n- Build and maintain pages, components, templates, and site features using Next.js\n- Work with a headless CMS such as Sanity or Contentful\n- Improve reusable page sections, content models, and editor workflows\n- Implement rich text / Portable Text rendering with custom components\n- Support post-launch QA, bug fixes, and content updates\n- Help with SEO improvements, metadata, redirects, and validation\n- Support caching, preview, publishing, and deployment workflows\n- Create and update campaign pages when needed\n\nRequired Skills\n- Strong React and Next.js experience (App Router preferred)\n- Production experience with Sanity CMS (preferred), Contentful, or another headless CMS\n- TypeScript\n- Experience building reusable components and page templates\n- Familiarity with structured content models, CMS APIs, queries, references, and rich text rendering\n- Understanding of SEO best practices for production websites\n- Strong written communication and ability to work independently\n\nNice to Have\n- Sanity schemas, GROQ, Portable Text, and Studio customization\n- Vercel deployments\n- Webhook-based revalidation / ISR\n- Experience supporting post-launch website maintenance\n- Experience building marketing or campaign landing pages\n\nPlease include with your proposal\n- A live production Next.js + Headless CMS project you personally worked on.\n- Which CMS you used and what you personally implemented.\n- A GitHub repository, code sample, or screenshots (if available).\n- A brief summary of your experience with Sanity CMS, Contentful, or similar platforms.\n- Your hourly rate, weekly availability, and ET overlap.\n\nPlease do not apply if your experience with headless CMS is limited to tutorials, starter templates, or demo projects.",
+        "info": {
+          "ciphertext": "~022079895315289419908",
+          "id": "2079895315289419908",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Next.js Developer with Headless CMS Experience",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T11:44:20.882Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "headless CMS",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Sanity CMS",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-22T11:46:04.876Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 30,
+          "hourlyBudgetMax": 40,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T11:44:20.799Z",
+          "totalApplicants": 29,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "FLUENT",
+        "regions": [
+          "Americas"
+        ],
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "INDEPENDENT",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": {
+          "city": null,
+          "country": null,
+          "countryTimezone": null,
+          "offsetFromUtcMillis": null,
+          "state": null,
+          "worldRegion": "Americas"
+        },
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Share a brief summary of your experience with Sanity CMS, Contentful, or similar platforms.",
+          "position": 0
+        },
+        {
+          "question": "Please include a live production Next.js + Headless CMS project you personally worked on.",
+          "position": 1
+        },
+        {
+          "question": "Include a link to your GitHub profile and/or website",
+          "position": 2
+        },
+        {
+          "question": "What frameworks have you worked with?",
+          "position": 3
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Europe/London (UTC+01:00)",
+          "city": "Singapore",
+          "country": "Singapore"
+        },
+        "stats": {
+          "totalAssignments": 38,
+          "activeAssignmentsCount": 2,
+          "hoursCount": 1042.83,
+          "feedbackCount": 22,
+          "score": 4.24,
+          "totalJobsWithHires": 28,
+          "totalCharges": {
+            "amount": 17111.17
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "425209484466614272",
+          "isEDCReplicated": null,
+          "contractDate": "2009-05-28T00:00:00.000Z",
+          "profile": {
+            "industry": "Tech & IT",
+            "size": 10
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 88,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 14.427078239022661
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-14T12:26:34.328Z",
+          "endDate": null,
+          "totalCharge": 5019.81,
+          "totalHours": 307.500001,
+          "jobInfo": {
+            "title": "Proactive Virtual Assistant for Outreach & Sales Admin/Operations Support",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Alfredo P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0101dce04537773157"
+          },
+          "rate": {
+            "amount": 15.75
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-25T21:33:25.109Z",
+          "endDate": "2026-01-31T07:26:46.143Z",
+          "totalCharge": 211.99,
+          "totalHours": 15.833333,
+          "jobInfo": {
+            "title": "EA + Sales/Hubspot Support (+ maybe Marketing/Comms project management?)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rahul A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014de92c6e3e98f2fd"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.6,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-02T12:56:34.863Z",
+          "endDate": "2025-11-22T02:16:02.589Z",
+          "totalCharge": 295,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "A marketer/content writer to support LinkedIn posts and emails/newsletters.",
+            "id": "1906652035404951326",
+            "uid": "1906652035404951326",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021906652035404951326"
+          },
+          "contractorInfo": {
+            "contractorName": "Andres P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d714dab612acb6a1"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-11T16:51:51.141Z",
+          "endDate": "2025-08-11T13:19:29.764Z",
+          "totalCharge": 292.44,
+          "totalHours": 29.333335,
+          "jobInfo": {
+            "title": "Virtual Assistant for Sales Administration & Outreach Support",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Margaret N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010219c9087c379829"
+          },
+          "rate": {
+            "amount": 9
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.9,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-24T20:51:11.937Z",
+          "endDate": "2025-04-25T15:17:45.837Z",
+          "totalCharge": 12.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Canva expert + stock imagery photo selection expert",
+            "id": "1915494084915246004",
+            "uid": "1915494084915246004",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021915494084915246004"
+          },
+          "contractorInfo": {
+            "contractorName": "Jessa Lyn S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d242603fbc833613"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.2,
+            "comment": "Jessa is great! I just needed something different."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-10-25T12:22:22.120Z",
+          "endDate": "2025-04-02T11:16:33.146Z",
+          "totalCharge": 646.08,
+          "totalHours": 67.499999,
+          "jobInfo": {
+            "title": "Virtual Assistant for Sales Administration & Outreach Support",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Margaret N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010219c9087c379829"
+          },
+          "rate": {
+            "amount": 9
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.8,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-08-29T12:34:38.000Z",
+          "endDate": "2023-08-24T12:13:37.000Z",
+          "totalCharge": 45.5,
+          "totalHours": 4.333333,
+          "jobInfo": {
+            "title": "Seeking Virtual Assistance support again for meeting bookings, etc.",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ricardo D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018bf67872b69ac9a0"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-08-15T15:45:36.000Z",
+          "endDate": "2023-08-24T11:27:26.000Z",
+          "totalCharge": 147,
+          "totalHours": 3.5,
+          "jobInfo": {
+            "title": "Biz Dev/Sales support - lead prospecting - strategy and/or execution support (or both)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Rafnie-Earl G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014e494228f99d1587"
+          },
+          "rate": {
+            "amount": 40
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-01-12T23:02:59.000Z",
+          "endDate": "2022-04-07T03:52:52.000Z",
+          "totalCharge": 165,
+          "totalHours": 9.166667,
+          "jobInfo": {
+            "title": "Social Media for LinkedIn, Twitter, Instagram, Facebook",
+            "id": "1462927491866517504",
+            "uid": "1462927491866517504",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~012fa11a75762a83bf"
+          },
+          "contractorInfo": {
+            "contractorName": "Jessica G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015becc4da5b62932c"
+          },
+          "rate": {
+            "amount": 18
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.4,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-05-21T10:30:59.000Z",
+          "endDate": "2019-07-02T12:57:22.000Z",
+          "totalCharge": 135,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Copywriter Needed has written content for B2B audiences",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Scott S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019ddb97a13acc7cdd"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.65,
+            "comment": "Always great to work with Elizabeth and the PRDXN team."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-05-11T10:18:44.000Z",
+          "endDate": "2019-05-17T10:23:06.000Z",
+          "totalCharge": 300,
+          "totalHours": 4,
+          "jobInfo": {
+            "title": "Copywriter Needed has written content for B2B audiences",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Scott S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019ddb97a13acc7cdd"
+          },
+          "rate": {
+            "amount": 75
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.8,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Elizabeth is a great client to work with.  She's very responsive and has a good idea of what she's looking for.  Always happy to help out when she needs something."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-04-11T17:08:54.000Z",
+          "endDate": "2019-05-05T09:33:01.000Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Copywriter Needed has written content for B2B audiences",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Scott S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~019ddb97a13acc7cdd"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Sam, great working when you. Hope to continue working with you."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Libby is pretty great.  She's got some big ideas for PRDXN and is always looking for help refining them.  She's ready with resources, open to feedback, and is very interested in getting a specialist's take on how to execute an idea.\n\nIf you're looking for someone who's going to say, \"Go do this and follow these exact steps,\" she might not be the client for you.  If you're looking for a collaborative experience where your opinions are valued, Libby is a great client to have.\n\nI'd happily work with her and her team again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-01-25T07:36:17.000Z",
+          "endDate": "2019-05-03T06:30:20.000Z",
+          "totalCharge": 955,
+          "totalHours": 95.499999,
+          "jobInfo": {
+            "title": "Executive Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ricardo D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018bf67872b69ac9a0"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Rick ROCKS! And he's one of the most pleasant human beings you will interact with (remotely in my case) on the planet. Rick, you're more evolved than 80% of the ppl I know. Your family/kids are lucky to have you in their presence."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thank you so much for the opportunities!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-01-22T11:39:25.000Z",
+          "endDate": "2019-03-07T18:39:35.000Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Fact Sheet/Sales Deck creation and editing support. For PRDXN.",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mihai Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e385b0187e40c6ee"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.85,
+            "comment": "Mihai was nice to work with. We had tight timelines and high expectations which made this project a little difficult."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.45,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2018-12-20T16:02:56.000Z",
+          "endDate": "2019-02-27T10:05:34.000Z",
+          "totalCharge": 365,
+          "totalHours": 12.166667,
+          "jobInfo": {
+            "title": "Contract Management",
+            "id": "1069835893069430784",
+            "uid": "1069835893069430784",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01c79572b56f9e73d6"
+          },
+          "contractorInfo": {
+            "contractorName": "Gary S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c2bf21676770077f"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Gary's a genuine and very pleasant person to work with. And super adaptable. It's a pleasure to interact with Gary. And isn't that what working with others should feel like? I think so, yes."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Every aspect of the project proceded as I had hoped. I welcome any opportunity to work with Libby and her staff again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-01-17T00:16:33.000Z",
+          "endDate": "2019-01-25T07:30:24.000Z",
+          "totalCharge": 166,
+          "totalHours": 13.833334,
+          "jobInfo": {
+            "title": "Executive Assistant",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ricardo D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~018bf67872b69ac9a0"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Libby is a great and wonderful person. It's a pleasure working with you"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2016-11-02T05:41:04.000Z",
+          "endDate": "2018-01-31T08:13:15.000Z",
+          "totalCharge": 136.67,
+          "totalHours": 6.833333,
+          "jobInfo": {
+            "title": "Android App, React Native, JavaScript, Networking, Scene Navigation in Mobile (similar to routing in websites and web apps) & Flexbox.",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Abhishek P.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2017-05-17T13:53:32.000Z",
+          "endDate": "2017-08-01T16:01:24.000Z",
+          "totalCharge": 632.5,
+          "totalHours": 36.166665,
+          "jobInfo": {
+            "title": "iOS App Updates Development & Self-Testing",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Kanchan T.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.65,
+            "comment": "We would like to work with him in future on more projects. He is very co-operative. His skills are quite good."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": "Will look forward to work with PRDXN again !"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2016-05-25T00:00:00.000Z",
+          "endDate": "2016-09-16T10:58:17.000Z",
+          "totalCharge": 2322.5,
+          "totalHours": 154.833333,
+          "jobInfo": {
+            "title": "IOS Developer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Mamta D.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2,
+            "comment": "Actually, I'm able to complete this Job, There is Slightly delay in app that is  PRDXN team not aware of IOS app development, They assume that is similar to web development.\r\nBut main client of this app is technical enough and He understand the hurdles that I faced during development."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2016-04-05T12:19:13.000Z",
+          "endDate": "2016-09-01T08:29:00.000Z",
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Wordpress Development SUPPORT.",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Milan N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a90f3da9aa1e3866"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client, with clear instructions. Pleasure to work with."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2015-08-11T07:12:48.000Z",
+          "endDate": "2016-02-26T06:55:27.000Z",
+          "totalCharge": 2345,
+          "totalHours": 156.333333,
+          "jobInfo": {
+            "title": "IOS Developer Needed",
+            "id": "626774938871635968",
+            "uid": "626774938871635968",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016bd4dd3c37f9d713"
+          },
+          "contractorInfo": {
+            "contractorName": "Mamta D.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01489f78c58e3afd05"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": "Their communication and availability has been great to-date. They require oversight to ensure that their work is up-to-standard. We will continue to work with this Development team because we have the resources to oversee, as well as the patience/attitude required for such a relationship."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.8,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2015-08-11T07:12:04.000Z",
+          "endDate": "2015-09-28T14:05:33.000Z",
+          "totalCharge": 1890,
+          "totalHours": 126.000003,
+          "jobInfo": {
+            "title": "IOS Developer Needed",
+            "id": "626774938871635968",
+            "uid": "626774938871635968",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~016bd4dd3c37f9d713"
+          },
+          "contractorInfo": {
+            "contractorName": "Deepak M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0172b9b0f99810358b"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "We are looking forward to work with you in future. Will defiantly recommend you. Great Job."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It is very good experience to work with you, will like to work with you again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2012-04-01T00:00:00.000Z",
+          "endDate": "2012-04-06T00:00:00.000Z",
+          "totalCharge": 44.44,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "HTML Emailer",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "santhosh k.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 11.11
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.7,
+            "comment": "Thanks."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2011-08-18T00:00:00.000Z",
+          "endDate": "2011-08-31T00:00:00.000Z",
+          "totalCharge": 264.35,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Tumblr Blog...",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "santhosh k.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": {
+            "amount": 11.11
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Nice working with Libby. Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2009-11-14T00:00:00.000Z",
+          "endDate": "2009-11-23T00:00:00.000Z",
+          "totalCharge": 33.33,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "On-going Photoshop Work - Fashion Shoots",
+            "id": "518248402839072768",
+            "uid": "518248402839072768",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01e2c6435d3f9c4a5c"
+          },
+          "contractorInfo": {
+            "contractorName": "shayne m.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01db000785f00f4f85"
+          },
+          "rate": {
+            "amount": 2.22
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Shayne was extremely easy to work with.  He was quick to respond at all times.  He understood my requests without the need for additional clarification.  Overall, the experience of working with Shayne was a joy!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "Elizabeth is a great buyer. I would love to work with her again. Thanks :-)"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2009-06-04T00:00:00.000Z",
+          "endDate": "2009-06-07T00:00:00.000Z",
+          "totalCharge": 20.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "photo clipping- job #2",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Fakrul J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0141d078ca15318c34"
+          },
+          "rate": {
+            "amount": 5.56
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Thanks again!  I enjoy working with you Jaheed."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "She is very nice. Thanks again."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2009-06-01T00:00:00.000Z",
+          "endDate": "2009-06-03T00:00:00.000Z",
+          "totalCharge": 15.56,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "photoshop - clipping images/removing backgrounds",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Fakrul J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0141d078ca15318c34"
+          },
+          "rate": {
+            "amount": 5.56
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "Thanks Jaheed!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Many thanks to Elejabeth. I enjoied work with her & hope work it will continue for long time."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "individuals",
+              "clientPreferredLabel": "Freelancers only",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "3",
+              "clientPreferredLabel": "Fluent",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "region=(Americas)",
+              "clientPreferredLabel": "Americas",
+              "freelancerValue": "Asia",
+              "freelancerValueLabel": "Asia",
+              "qualification": "Location",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "AT_LEAST_10000",
+              "clientPreferredLabel": "At Least 10000",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 29.666333333333334,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 14,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 55,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

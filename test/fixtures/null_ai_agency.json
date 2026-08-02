@@ -1,0 +1,1162 @@
+{
+  "uid": "2078846411737986894",
+  "ciphertext": "~022078846411737986894",
+  "title": "White-Label Claude Code AI Automation Developer — Ongoing Partnership with Growing Agency",
+  "url": "https://www.upwork.com/jobs/~022078846411737986894",
+  "scrapedAt": "2026-07-19T21:10:11.089Z",
+  "feed": {
+    "uid": "2078846411737986894",
+    "title": "White-Label Claude Code AI Automation Developer — Ongoing Partnership with Growing Agency",
+    "ciphertext": "~022078846411737986894",
+    "description": "About Us\nWe're an AI automations agency delivering full-stack AI solutions to clients — chatbots, AI agents, workflow automations, CRM systems, content engines, and custom dashboards. We handle strategy, sales, and client relationships. We need a reliable technical partner to build and deliver the projects under our brand.\n\nThis is not a one-off gig. We're looking for someone who wants to become our go-to white-label development partner on an ongoing basis as we scale.\n\n\nWhat You'd Be Doing\nYou'll receive project briefs from us with clear specs, prototypes, and technical requirements. You build it, we deliver it to the client under our brand. The client never knows you exist — that's the white-label arrangement.\n\nTypical projects include:\n\nAI-powered web dashboards — React/Next.js frontends with Supabase or PostgreSQL backends, integrated with Claude API or OpenAI via tool-calling patterns\nWorkflow automations — n8n, Make, or custom Node.js pipelines connecting CRMs, email, Slack, Telegram, payment systems\nAI agents and chatbots — Claude API or OpenAI with structured tool-use, voice input (Web Speech API / Whisper), natural language interfaces\nCRM and client management systems — custom-built for niche industries (hospitality, luxury retail, professional services), with features like inline editing, search, Excel export, client intake forms\nContent and social media engines — AI-generated content calendars, draft generation, scheduling integrations\nFull-stack web apps — deployed on Vercel/Fly.io with auth, real-time data, and production-grade architecture\nWe provide detailed briefs, interactive prototypes (often a working HTML demo you can open in a browser), database schemas, and AI architecture specs. You won't be guessing what to build.\n\n\nWhat We're Looking For\nWe value speed above all else. AI-assisted development has changed the game. We're not looking for someone who codes every line by hand over weeks — we want a developer who uses Claude Code, Cursor, or similar AI coding tools as their primary workflow and can ship a full-stack app in days, not months. If you're already building this way, you know what we mean. If you're not, this isn't the right fit.\n\nMust-haves:\n\nClaude Code or Cursor power user — this is non-negotiable. You should be using AI-assisted development daily, not experimenting with it. We want to see that reflected in your speed. Minimum 10 projects completed using Claude Code or Cowork. Send us case studies or screen recordings of at least 3 of them showing what you built, how long it took, and the tools/stack used.\nStrong full-stack skills: React (or Next.js) + Tailwind CSS + Node.js\nDatabase experience: Supabase, PostgreSQL, or Firebase\nAI API integration: Claude API (Anthropic) and/or OpenAI API — specifically tool-calling / function-calling patterns\nCan take a written brief + visual prototype and turn it into a deployed production app\nResponsive communication — daily progress updates when actively building\nComfortable with white-label arrangement (no attribution, no client contact)\nEnglish proficiency for written communication\n\nNice-to-haves:\n\nExperience with n8n, Make, or Zapier for workflow automation\nTelegram Bot API, WhatsApp Business API, or Slack integrations\nStripe / payment gateway integration\nVoice interfaces (Web Speech API, ElevenLabs, Whisper)\nSheetJS or similar for data export features\nExperience deploying on Vercel, Fly.io, Railway, or similar platforms\nUI/UX sensibility — ability to match a premium design spec pixel-for-pixel\n\nHow This Works\nWe send you a project brief with specs, prototype, and timeline\nYou quote a fixed price and timeline for each project\nYou build it with daily check-ins and a shared GitHub repo\nWe review, request revisions if needed, and you ship the final version\nWe deploy and deliver to the client under our brand\n\nTo Apply\nPlease include:\n\n2-3 examples of full-stack web apps you've built — ideally with AI integration, dashboards, or CRM-type features. Live links or screen recordings preferred.\nYour experience with Claude API or OpenAI tool-calling — a brief description of what you've built with it\nCase studies from your Claude Code / Cowork projects — we require a minimum of 10 completed projects. Send us 3 case studies showing: what you built, the stack, how long it took, and a live link or screen recording. A Loom walkthrough of a project you shipped in a few days using Claude Code is worth more than a polished portfolio site.\nYour typical rate range for a full-stack build of ~80-120 hours (React + Supabase + AI integration)\nYour weekly availability — how many hours/projects can you take on simultaneously?\nYour timezone — we're flexible but need overlap for async communication\n\nWhy This Is a Good Opportunity\nSteady pipeline — we're actively selling and have a growing client roster. This isn't a one-and-done post.\nClear specs — you'll never get a vague \"build me an app.\" We provide detailed briefs, prototypes, and architecture decisions. Your job is execution, not product design.\nBuilt for AI-native developers — our workflow assumes you're using Claude Code or similar tools. We spec projects knowing that an AI-assisted developer can move 3-5x faster than traditional development. We price and timeline accordingly — which means more projects and better earnings for someone who works this way.\nInteresting work — every project is a different industry, different problem, different AI application. No repetitive template builds.\nGrowth potential — as we scale, the right partner gets first pick of projects and increasing volume. We want to build a long-term relationship, not manage a revolving door.",
+    "type": 2,
+    "recno": "1026016284",
+    "freelancersToHire": 1,
+    "duration": "More than 6 months",
+    "durationLabel": "More than 6 months",
+    "engagement": "30+ hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T14:16:22.738Z",
+    "publishedOn": "2026-07-19T14:18:41.872Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 26,
+      "totalSpent": 40872.48,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Hong Kong",
+        "city": "The Peak",
+        "state": null,
+        "countryTimezone": "Asia/Krasnoyarsk",
+        "worldRegion": "Asia"
+      },
+      "totalReviews": 10,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784470727865",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1691099314245873665",
+        "prefLabel": "AI Agent Development"
+      },
+      {
+        "id": "1691099314170376192",
+        "prefLabel": "AI Bot"
+      },
+      {
+        "id": "1691099314241679360",
+        "prefLabel": "AI App Development"
+      },
+      {
+        "id": "1110580737240190976",
+        "prefLabel": "Web Application"
+      },
+      {
+        "id": "1633880476564385792",
+        "prefLabel": "AI-Generated Code"
+      },
+      {
+        "id": "1691099315571273728",
+        "prefLabel": "Claude"
+      },
+      {
+        "id": "1052162208999198724",
+        "prefLabel": "WordPress"
+      },
+      {
+        "id": "1031626742929276928",
+        "prefLabel": "Graphic Design"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"0\"}",
+    "attrs": [
+      {
+        "uid": "1691099314245873665",
+        "prettyName": "AI Agent Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099314170376192",
+        "prettyName": "AI Bot",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099314241679360",
+        "prettyName": "AI App Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580737240190976",
+        "prettyName": "Web Application",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1633880476564385792",
+        "prettyName": "AI-Generated Code",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099315571273728",
+        "prettyName": "Claude",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162208999198724",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626742929276928",
+        "prettyName": "Graphic Design",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "isPSMShortlistingSetInDraft",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 1
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T14:16:22.738Z",
+        "publishTime": "2026-07-19T14:18:41.872Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "About Us\nWe're an AI automations agency delivering full-stack AI solutions to clients — chatbots, AI agents, workflow automations, CRM systems, content engines, and custom dashboards. We handle strategy, sales, and client relationships. We need a reliable technical partner to build and deliver the projects under our brand.\n\nThis is not a one-off gig. We're looking for someone who wants to become our go-to white-label development partner on an ongoing basis as we scale.\n\n\nWhat You'd Be Doing\nYou'll receive project briefs from us with clear specs, prototypes, and technical requirements. You build it, we deliver it to the client under our brand. The client never knows you exist — that's the white-label arrangement.\n\nTypical projects include:\n\nAI-powered web dashboards — React/Next.js frontends with Supabase or PostgreSQL backends, integrated with Claude API or OpenAI via tool-calling patterns\nWorkflow automations — n8n, Make, or custom Node.js pipelines connecting CRMs, email, Slack, Telegram, payment systems\nAI agents and chatbots — Claude API or OpenAI with structured tool-use, voice input (Web Speech API / Whisper), natural language interfaces\nCRM and client management systems — custom-built for niche industries (hospitality, luxury retail, professional services), with features like inline editing, search, Excel export, client intake forms\nContent and social media engines — AI-generated content calendars, draft generation, scheduling integrations\nFull-stack web apps — deployed on Vercel/Fly.io with auth, real-time data, and production-grade architecture\nWe provide detailed briefs, interactive prototypes (often a working HTML demo you can open in a browser), database schemas, and AI architecture specs. You won't be guessing what to build.\n\n\nWhat We're Looking For\nWe value speed above all else. AI-assisted development has changed the game. We're not looking for someone who codes every line by hand over weeks — we want a developer who uses Claude Code, Cursor, or similar AI coding tools as their primary workflow and can ship a full-stack app in days, not months. If you're already building this way, you know what we mean. If you're not, this isn't the right fit.\n\nMust-haves:\n\nClaude Code or Cursor power user — this is non-negotiable. You should be using AI-assisted development daily, not experimenting with it. We want to see that reflected in your speed. Minimum 10 projects completed using Claude Code or Cowork. Send us case studies or screen recordings of at least 3 of them showing what you built, how long it took, and the tools/stack used.\nStrong full-stack skills: React (or Next.js) + Tailwind CSS + Node.js\nDatabase experience: Supabase, PostgreSQL, or Firebase\nAI API integration: Claude API (Anthropic) and/or OpenAI API — specifically tool-calling / function-calling patterns\nCan take a written brief + visual prototype and turn it into a deployed production app\nResponsive communication — daily progress updates when actively building\nComfortable with white-label arrangement (no attribution, no client contact)\nEnglish proficiency for written communication\n\nNice-to-haves:\n\nExperience with n8n, Make, or Zapier for workflow automation\nTelegram Bot API, WhatsApp Business API, or Slack integrations\nStripe / payment gateway integration\nVoice interfaces (Web Speech API, ElevenLabs, Whisper)\nSheetJS or similar for data export features\nExperience deploying on Vercel, Fly.io, Railway, or similar platforms\nUI/UX sensibility — ability to match a premium design spec pixel-for-pixel\n\nHow This Works\nWe send you a project brief with specs, prototype, and timeline\nYou quote a fixed price and timeline for each project\nYou build it with daily check-ins and a shared GitHub repo\nWe review, request revisions if needed, and you ship the final version\nWe deploy and deliver to the client under our brand\n\nTo Apply\nPlease include:\n\n2-3 examples of full-stack web apps you've built — ideally with AI integration, dashboards, or CRM-type features. Live links or screen recordings preferred.\nYour experience with Claude API or OpenAI tool-calling — a brief description of what you've built with it\nCase studies from your Claude Code / Cowork projects — we require a minimum of 10 completed projects. Send us 3 case studies showing: what you built, the stack, how long it took, and a live link or screen recording. A Loom walkthrough of a project you shipped in a few days using Claude Code is worth more than a polished portfolio site.\nYour typical rate range for a full-stack build of ~80-120 hours (React + Supabase + AI integration)\nYour weekly availability — how many hours/projects can you take on simultaneously?\nYour timezone — we're flexible but need overlap for async communication\n\nWhy This Is a Good Opportunity\nSteady pipeline — we're actively selling and have a growing client roster. This isn't a one-and-done post.\nClear specs — you'll never get a vague \"build me an app.\" We provide detailed briefs, prototypes, and architecture decisions. Your job is execution, not product design.\nBuilt for AI-native developers — our workflow assumes you're using Claude Code or similar tools. We spec projects knowing that an AI-assisted developer can move 3-5x faster than traditional development. We price and timeline accordingly — which means more projects and better earnings for someone who works this way.\nInteresting work — every project is a different industry, different problem, different AI application. No repetitive template builds.\nGrowth potential — as we scale, the right partner gets first pick of projects and increasing volume. We want to build a long-term relationship, not manage a revolving door.",
+        "info": {
+          "ciphertext": "~022078846411737986894",
+          "id": "2078846411737986894",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "White-Label Claude Code AI Automation Developer — Ongoing Partnership with Growing Agency",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T14:16:22.738Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314245873665",
+              "freeText": null,
+              "prefLabel": "AI Agent Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314170376192",
+              "freeText": null,
+              "prefLabel": "AI Bot",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314241679360",
+              "freeText": null,
+              "prefLabel": "AI App Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1110580737240190976",
+              "freeText": null,
+              "prefLabel": "Web Application",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1633880476564385792",
+              "freeText": null,
+              "prefLabel": "AI-Generated Code",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099315571273728",
+              "freeText": null,
+              "prefLabel": "Claude",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626742929276928",
+              "freeText": null,
+              "prefLabel": "Graphic Design",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T14:18:41.872Z",
+            "reuse": "2044917073369942441",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Safari",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "isPSMShortlistingSetInDraft",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T14:16:22.709Z",
+          "totalApplicants": 73,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 25200000,
+          "countryTimezone": "Asia/Krasnoyarsk (UTC+07:00)",
+          "city": "The Peak",
+          "country": "Hong Kong"
+        },
+        "stats": {
+          "totalAssignments": 26,
+          "activeAssignmentsCount": 12,
+          "hoursCount": 3117.33,
+          "feedbackCount": 10,
+          "score": 5,
+          "totalJobsWithHires": 17,
+          "totalCharges": {
+            "amount": 40872.48
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "772666232236425216",
+          "isEDCReplicated": null,
+          "contractDate": "2016-09-05T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 43,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 12.487763566898597
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-16T20:08:34.177Z",
+          "endDate": null,
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Excel/VBA Expert for Financial Reporting Workbook",
+            "id": "1987481263938954379",
+            "uid": "1987481263938954379",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021987481263938954379"
+          },
+          "contractorInfo": {
+            "contractorName": "Brett F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c48bb6812f0f7485"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-12T11:04:10.141Z",
+          "endDate": null,
+          "totalCharge": 293.49,
+          "totalHours": 30.166667,
+          "jobInfo": {
+            "title": "Expert in Leonardo AI Photo Generation Needed",
+            "id": "1955182016782808870",
+            "uid": "1955182016782808870",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021955182016782808870"
+          },
+          "contractorInfo": {
+            "contractorName": "Uzma R.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~013f8bd5fc318d391d"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-12T21:16:32.502Z",
+          "endDate": null,
+          "totalCharge": 3802.49,
+          "totalHours": 36.166667,
+          "jobInfo": {
+            "title": "Excel Expert Needed for Data Analysis Reports",
+            "id": "1942159027837050772",
+            "uid": "1942159027837050772",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021942159027837050772"
+          },
+          "contractorInfo": {
+            "contractorName": "Nadja S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0150779aab71ed70c6"
+          },
+          "rate": {
+            "amount": 100
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-16T17:29:27.084Z",
+          "endDate": null,
+          "totalCharge": 1632.49,
+          "totalHours": 89.5,
+          "jobInfo": {
+            "title": "Video Content Creator – Orthodontic Education & Training",
+            "id": "1922673354756798189",
+            "uid": "1922673354756798189",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021922673354756798189"
+          },
+          "contractorInfo": {
+            "contractorName": "Shaista S.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01a9a2e1b1baf27070"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-16T11:00:45.332Z",
+          "endDate": null,
+          "totalCharge": 214.99,
+          "totalHours": 19.999999,
+          "jobInfo": {
+            "title": "🚀 n8n Automation Expert | Build Custom Workflows & Systems",
+            "id": "1900208778044832101",
+            "uid": "1900208778044832101",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021900208778044832101"
+          },
+          "contractorInfo": {
+            "contractorName": "Ali H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012be3df3231f61488"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-15T09:27:01.000Z",
+          "endDate": null,
+          "totalCharge": 2305.95,
+          "totalHours": 226.333334,
+          "jobInfo": {
+            "title": "Thai / Chinese / English Speaking Virtual Assistant",
+            "id": "1724015837327794176",
+            "uid": "1724015837327794176",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~010d53d529d07f27f3"
+          },
+          "contractorInfo": {
+            "contractorName": "Chompatch P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010630db90effa7b81"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-11-13T10:53:17.000Z",
+          "endDate": null,
+          "totalCharge": 8.2,
+          "totalHours": 0.5,
+          "jobInfo": {
+            "title": "Thai / Chinese / English Speaking Virtual Assistant",
+            "id": "1708441151679315968",
+            "uid": "1708441151679315968",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~012e6f41b2aab943d4"
+          },
+          "contractorInfo": {
+            "contractorName": "Thanapawat O.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b523e07e7285de88"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-08-07T17:57:05.000Z",
+          "endDate": null,
+          "totalCharge": 20402.72,
+          "totalHours": 2292.66668,
+          "jobInfo": {
+            "title": "Tech Savvy Virtual Assistant",
+            "id": "1683558561874092032",
+            "uid": "1683558561874092032",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~019f3980d6bc61d063"
+          },
+          "contractorInfo": {
+            "contractorName": "Ralph V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d107220a144605d0"
+          },
+          "rate": {
+            "amount": 8.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-07-05T09:58:28.000Z",
+          "endDate": null,
+          "totalCharge": 160.45,
+          "totalHours": 5,
+          "jobInfo": {
+            "title": "Recruiting for English and Mandarin Speaking Dentists",
+            "id": "1675530346956292096",
+            "uid": "1675530346956292096",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01d6365e538a9b922c"
+          },
+          "contractorInfo": {
+            "contractorName": "Hsu E.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011e6ab0a2d99ebfb1"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-07-21T19:20:22.000Z",
+          "endDate": null,
+          "totalCharge": 3162.25,
+          "totalHours": 46.666669,
+          "jobInfo": {
+            "title": "Create reports with excel data",
+            "id": "1549104299010633728",
+            "uid": "1549104299010633728",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01c491267c073dfb93"
+          },
+          "contractorInfo": {
+            "contractorName": "Nadja S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0150779aab71ed70c6"
+          },
+          "rate": {
+            "amount": 80
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-09-16T08:41:07.000Z",
+          "endDate": null,
+          "totalCharge": 1530,
+          "totalHours": 8.5,
+          "jobInfo": {
+            "title": "Private Equity Convertible Preferred agreement",
+            "id": "1305503668081016832",
+            "uid": "1305503668081016832",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01733741ae4a81fed0"
+          },
+          "contractorInfo": {
+            "contractorName": "Avrum A.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01558073ce0c1713d8"
+          },
+          "rate": {
+            "amount": 180
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2020-01-16T16:14:13.000Z",
+          "endDate": null,
+          "totalCharge": 539.07,
+          "totalHours": 19.833334,
+          "jobInfo": {
+            "title": "Financial modeling, analysis and reporting in Mandarin Chinese and English",
+            "id": "1208569370094071808",
+            "uid": "1208569370094071808",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01094eb256cc8fae2d"
+          },
+          "contractorInfo": {
+            "contractorName": "Shuai Z.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0155a8f68b2d780c68"
+          },
+          "rate": {
+            "amount": 27.18
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-09T11:29:40.643Z",
+          "endDate": "2026-07-05T17:03:53.215Z",
+          "totalCharge": 1989.51,
+          "totalHours": 210.000001,
+          "jobInfo": {
+            "title": "🚀 n8n Automation Expert | Build Custom Workflows & Systems",
+            "id": "1900208778044832101",
+            "uid": "1900208778044832101",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021900208778044832101"
+          },
+          "contractorInfo": {
+            "contractorName": "Bruno V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b36858a5e6595b1f"
+          },
+          "rate": {
+            "amount": 9
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-17T16:05:58.099Z",
+          "endDate": "2026-04-16T23:00:47.295Z",
+          "totalCharge": 45.94,
+          "totalHours": 3,
+          "jobInfo": {
+            "title": "🚀 n8n Automation Expert | Build Custom Workflows & Systems",
+            "id": "1900208778044832101",
+            "uid": "1900208778044832101",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021900208778044832101"
+          },
+          "contractorInfo": {
+            "contractorName": "Jagraj S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016edd2abdaf9ff98a"
+          },
+          "rate": {
+            "amount": 13
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great Client. Thanks"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-19T11:41:44.272Z",
+          "endDate": "2026-02-12T08:33:28.025Z",
+          "totalCharge": 39.39,
+          "totalHours": 4,
+          "jobInfo": {
+            "title": "Expert in Leonardo AI Photo Generation Needed",
+            "id": "1955182016782808870",
+            "uid": "1955182016782808870",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021955182016782808870"
+          },
+          "contractorInfo": {
+            "contractorName": "Sulthan J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011bd69e41e2acd5ae"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-09T18:47:01.171Z",
+          "endDate": "2025-11-10T21:00:16.488Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Excel/VBA Expert for Financial Reporting Workbook",
+            "id": "1987481263938954379",
+            "uid": "1987481263938954379",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021987481263938954379"
+          },
+          "contractorInfo": {
+            "contractorName": "Brett F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c48bb6812f0f7485"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with Brett has been an absolute pleasure. He jumped into a complicated Excel/VBA workbook with zero hesitation and understood the logic instantly — something multiple freelancers struggled with. He fixed issues that had been blocking our reporting for months, and he did it quickly, accurately, and without any hand-holding.\n\nBrett is a true master of Excel automation — brilliant problem-solver, ethical, transparent, and genuinely committed to delivering high-quality work. He communicates clearly, works efficiently, and exceeded every expectation.\n\nIf you are looking for someone who truly knows what they’re doing and can deliver results fast, hire Brett. I would give 10 stars if I could.\n\nHighly recommended."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-04T09:39:45.560Z",
+          "endDate": "2025-10-11T16:19:22.979Z",
+          "totalCharge": 305.99,
+          "totalHours": 28.666665,
+          "jobInfo": {
+            "title": "🚀 n8n Automation Expert | Build Custom Workflows & Systems",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ali Zaman K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01150fb0db7338a9a5"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-08-07T17:58:30.089Z",
+          "endDate": "2024-08-11T19:22:38.524Z",
+          "totalCharge": 206.87,
+          "totalHours": 0.833333,
+          "jobInfo": {
+            "title": "Advice on how to maximize chance of applying for US tourist visa",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Julie A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01de28cdcef0252259"
+          },
+          "rate": {
+            "amount": 225
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Julie was extremely helpful, professional and knowledgable!  Thank you for the helpful advice!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Catherine was very easy to work with. Her expectations were clear and she provided me with all of the background information necessary."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2024-04-11T09:37:05.000Z",
+          "endDate": "2024-04-12T16:05:00.000Z",
+          "totalCharge": 0,
+          "totalHours": 2,
+          "jobInfo": {
+            "title": "Family Photographer in Turkey",
+            "id": "1778350261797625856",
+            "uid": "1778350261797625856",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~011d8242e166370be8"
+          },
+          "contractorInfo": {
+            "contractorName": "Ece G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fe3507dad6b3e0ba"
+          },
+          "rate": {
+            "amount": 130
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a pleasure to take photos of Catherine and her lovely family. Hope to see them in Istanbul again!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-07-31T21:27:29.000Z",
+          "endDate": "2022-07-31T10:18:11.000Z",
+          "totalCharge": 1633.34,
+          "totalHours": 32.666668,
+          "jobInfo": {
+            "title": "Excel expert needed to clean up and merge existing spreadsheets",
+            "id": "1407410713846603776",
+            "uid": "1407410713846603776",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0143d0155886a1b8e2"
+          },
+          "contractorInfo": {
+            "contractorName": "Nadja S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0150779aab71ed70c6"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It's always a pleasure to work with Catherine and Scarlett."
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-08-20T20:45:55.000Z",
+          "endDate": "2022-07-28T17:07:36.000Z",
+          "totalCharge": 266.66,
+          "totalHours": 5.333334,
+          "jobInfo": {
+            "title": "Excel expert needed to clean up and merge existing spreadsheets",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Nadja S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0150779aab71ed70c6"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I've worked with Catherine and Scarlett on several projects by now and would always want to work with them again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2019-12-26T16:16:54.000Z",
+          "endDate": "2020-01-16T16:14:51.000Z",
+          "totalCharge": 1187.5,
+          "totalHours": 47.499999,
+          "jobInfo": {
+            "title": "Financial modeling, analysis and reporting in Mandarin Chinese and English",
+            "id": "1208569370094071808",
+            "uid": "1208569370094071808",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~01094eb256cc8fae2d"
+          },
+          "contractorInfo": {
+            "contractorName": "Xin C.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~01f7a782c210734dcf"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "She completed the task with good quality"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 34.171351351351355,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 200,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

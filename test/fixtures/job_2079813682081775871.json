@@ -1,0 +1,1136 @@
+{
+  "uid": "2079813682081775871",
+  "ciphertext": "~022079813682081775871",
+  "title": "Full Stack Developer for Healthcare SEO Platform",
+  "url": "https://www.upwork.com/jobs/~022079813682081775871",
+  "scrapedAt": "2026-07-22T14:08:29.117Z",
+  "feed": {
+    "uid": "2079813682081775871",
+    "title": "Full Stack Developer for Healthcare SEO Platform",
+    "ciphertext": "~022079813682081775871",
+    "description": "Fullstack Developer (Remote)\nGotham Enterprises Ltd · Remote · Full-time · Mid-to-Senior (5+ years)\nTime zone: Fully remote — flexible hours with 4+ hours overlap with US Eastern Time (ET) for team sync 40 hours a week M to F\n________________________________________\nAbout Gotham Enterprises\nGotham Enterprises Ltd is a healthcare-focused job marketplace connecting job seekers and employers across nursing, mental health, and allied health careers. Our platform powers job search and discovery, employer subscriptions, end-to-end hiring workflows (applications, interviews, offers, credentialing), real-time messaging, video interviews, and SEO-driven growth at scale.\nYou will join a small, product-focused engineering team working across a production monorepo:\n●\tBackend API — Node.js/Express\n\n●\tWeb application — Next.js for job seekers and employers\n\n●\tAdmin dashboard — Next.js internal tooling for platform management\n\nMost of your work will be on the API and main web app. You may occasionally contribute to the admin dashboard for features such as careers management, content moderation, or employer tooling.\n________________________________________\nThe Role\nWe are hiring a Fullstack Developer to design, build, and ship new features across our backend API and frontend web app. This is not a greenfield project — you will contribute to a mature, feature-rich platform with real production complexity: affiliate job ingestion, AI-powered job matching, Stripe subscriptions, OpenSearch indexing, Socket.io real-time features, and SEO at scale.\nYou should be comfortable owning features end-to-end: API design and implementation, database schema changes, frontend UI/UX, integration with third-party services, and manual verification before release.\nWhat You'll Work On\n●\tJob search & discovery — Search APIs, OpenSearch sync, SEO occupation/city pages, sitemaps, and programmatic landing pages\n\n●\tHiring pipeline — Applications, dynamic screening questions, interview scheduling, job offers, credentialing, and onboarding flows\n\n●\tEmployer platform — Dashboards, candidate search, resume review, mass-hiring events, analytics, and subscription-gated premium features\n\n●\tJob seeker experience — Job browse/apply, resume upload, application tracking, notifications, and employer reviews\n\n●\tMonetization — Stripe subscription tiers, usage limits, and feature gating middleware\n\n●\tReal-time & video — Socket.io messaging, presence, notifications, and Jitsi-powered video interviews\n\n●\tIntegrations — OpenAI (resume parsing, job matching), AWS S3, email/SMS, geocoding, affiliate job feeds\n\n●\tBackground jobs — Bull queue workers and cron schedulers for search indexing, cache invalidation, and data maintenance\n\n●\tAdmin tooling (occasional) — Internal dashboard features for careers, content, and platform operations\n\n________________________________________\n\n\n\nTech Stack\nBackend\n●\tNode.js, Express 4 (JavaScript)\n\n●\tPostgreSQL + Prisma ORM (multi-file schema, 50+ domain models)\n●\tRedis (caching, sessions, rate limiting)\n●\tBull queues for async jobs\n●\tOpenSearch for full-text job search\n●\tSocket.io with Redis adapter (messaging, presence, notifications)\n●\tStripe (subscriptions, webhooks)\n●\tOpenAI API, AWS S3, Nodemailer, Twilio\n●\tSentry, Winston, Swagger\n●\tDocker Compose for local dev (PostgreSQL, Redis, OpenSearch, Stripe CLI)\n●\tAVA for backend tests\n\nFrontend\n●\tNext.js 15 (App Router), React 19, TypeScript (strict)\n●\tTailwind CSS, shadcn/ui, Radix UI\n●\tTanStack React Query v5 for server state\n●\tReact Hook Form + Zod validation\n●\tCustom JWT cookie-based auth (role-based routing for employers vs. job seekers)\n●\tSocket.io client, Jitsi React SDK, Stripe.js\n●\tFullCalendar, Chart.js, React Quill\n●\tPlaywright E2E tests\n●\tpnpm package manager\n\n\nAdmin dashboard\n●\tNext.js 15, TypeScript, Tailwind CSS v4\n●\tReact Hook Form, TanStack React Query, ApexCharts\n\n________________________________________\n\nResponsibilities\n●\tDesign and implement REST API endpoints following existing layered architecture (thin controllers, business logic in services)\n●\tExtend the Prisma schema and sync database changes; write seed data when needed\n●\tBuild responsive Next.js pages and components for employer and job-seeker workflows\n●\tIntegrate third-party services: Stripe webhooks, OpenAI, S3 uploads, email/SMS, geocoding\n●\tImplement and maintain background jobs (Bull queues, cron) for search indexing and scheduled tasks\n●\tAdd express-validator rules for all new user input; enforce auth and subscription middleware on protected routes\n●\tWork on real-time features (Socket.io) and video interview flows (Jitsi)\n●\tBuild SEO-critical pages with generateMetadata, ISR, structured data, and sitemap generation\n●\tDebug production issues involving clustering, WebSocket scaling, Redis caching, and OpenSearch sync\n●\tParticipate in code review and collaborate on API contracts between frontend and backend\n\n________________________________________\nRequirements\n●\t5+ years of professional software development experience, with meaningful fullstack ownership\n●\tStrong Node.js / Express — comfortable in a large JavaScript codebase with established service-layer patterns\n●\tPostgreSQL + Prisma — complex relations, query optimization, schema design\n●\tReact / Next.js with TypeScript — App Router, Server Components, middleware, generateMetadata\n●\tREST API design — validation, JWT/cookie auth, error handling, rate limiting\n●\tRedis — caching, sessions, and job queues\n●\tExperience with Stripe subscriptions and webhooks\n●\tProficiency with Git in a multi-app monorepo\n●\tAbility to navigate and extend a mature codebase without constant hand-holding\n●\tStrong communication skills for async remote collaboration\n●\tComfortable with rigorous manual testing (our automated test coverage is growing but not comprehensive)\n\n________________________________________\nNice to Have\n●\tOpenSearch / Elasticsearch indexing and search relevance tuning\n●\tSocket.io real-time systems (messaging, presence, clustering)\n●\tOpenAI API integration (prompting, batch processing)\n●\tResume parsing, OCR, or document processing (PDF/DOCX)\n●\tHealthcare or recruiting domain experience\n●\tSEO at scale (sitemaps, programmatic pages, IndexNow, CDN cache tuning)\n●\tPlaywright or similar E2E testing frameworks\n●\tDocker, production Node.js clustering\n●\tExperience with affiliate/data ingestion pipelines at volume",
+    "type": 2,
+    "recno": "1026050330",
+    "freelancersToHire": 4,
+    "duration": "3 to 6 months",
+    "durationLabel": "3 to 6 months",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-22T06:19:57.952Z",
+    "publishedOn": "2026-07-22T06:24:04.290Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 27,
+      "totalSpent": 24586.88,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "United States",
+        "city": "Las Vegas",
+        "state": "NV",
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 3,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784701459602",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1484275235274018816",
+        "prefLabel": "Stripe API"
+      },
+      {
+        "id": "1031626774218784768",
+        "prefLabel": "Redis"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "full stack"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "prisma"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 10,
+      "max": 20
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"5\"}",
+    "attrs": [
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275235274018816",
+        "prettyName": "Stripe API",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626774218784768",
+        "prettyName": "Redis",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "full stack",
+        "freeText": "full stack",
+        "skillType": null
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "prisma",
+        "freeText": "prisma",
+        "skillType": null
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "cjp_v1",
+        "contractToHireSet",
+        "searchable"
+      ]
+    },
+    "position": 6
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T06:19:57.952Z",
+        "publishTime": "2026-07-22T06:24:04.290Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Fullstack Developer (Remote)\nGotham Enterprises Ltd · Remote · Full-time · Mid-to-Senior (5+ years)\nTime zone: Fully remote — flexible hours with 4+ hours overlap with US Eastern Time (ET) for team sync 40 hours a week M to F\n________________________________________\nAbout Gotham Enterprises\nGotham Enterprises Ltd is a healthcare-focused job marketplace connecting job seekers and employers across nursing, mental health, and allied health careers. Our platform powers job search and discovery, employer subscriptions, end-to-end hiring workflows (applications, interviews, offers, credentialing), real-time messaging, video interviews, and SEO-driven growth at scale.\nYou will join a small, product-focused engineering team working across a production monorepo:\n●\tBackend API — Node.js/Express\n\n●\tWeb application — Next.js for job seekers and employers\n\n●\tAdmin dashboard — Next.js internal tooling for platform management\n\nMost of your work will be on the API and main web app. You may occasionally contribute to the admin dashboard for features such as careers management, content moderation, or employer tooling.\n________________________________________\nThe Role\nWe are hiring a Fullstack Developer to design, build, and ship new features across our backend API and frontend web app. This is not a greenfield project — you will contribute to a mature, feature-rich platform with real production complexity: affiliate job ingestion, AI-powered job matching, Stripe subscriptions, OpenSearch indexing, Socket.io real-time features, and SEO at scale.\nYou should be comfortable owning features end-to-end: API design and implementation, database schema changes, frontend UI/UX, integration with third-party services, and manual verification before release.\nWhat You'll Work On\n●\tJob search & discovery — Search APIs, OpenSearch sync, SEO occupation/city pages, sitemaps, and programmatic landing pages\n\n●\tHiring pipeline — Applications, dynamic screening questions, interview scheduling, job offers, credentialing, and onboarding flows\n\n●\tEmployer platform — Dashboards, candidate search, resume review, mass-hiring events, analytics, and subscription-gated premium features\n\n●\tJob seeker experience — Job browse/apply, resume upload, application tracking, notifications, and employer reviews\n\n●\tMonetization — Stripe subscription tiers, usage limits, and feature gating middleware\n\n●\tReal-time & video — Socket.io messaging, presence, notifications, and Jitsi-powered video interviews\n\n●\tIntegrations — OpenAI (resume parsing, job matching), AWS S3, email/SMS, geocoding, affiliate job feeds\n\n●\tBackground jobs — Bull queue workers and cron schedulers for search indexing, cache invalidation, and data maintenance\n\n●\tAdmin tooling (occasional) — Internal dashboard features for careers, content, and platform operations\n\n________________________________________\n\n\n\nTech Stack\nBackend\n●\tNode.js, Express 4 (JavaScript)\n\n●\tPostgreSQL + Prisma ORM (multi-file schema, 50+ domain models)\n●\tRedis (caching, sessions, rate limiting)\n●\tBull queues for async jobs\n●\tOpenSearch for full-text job search\n●\tSocket.io with Redis adapter (messaging, presence, notifications)\n●\tStripe (subscriptions, webhooks)\n●\tOpenAI API, AWS S3, Nodemailer, Twilio\n●\tSentry, Winston, Swagger\n●\tDocker Compose for local dev (PostgreSQL, Redis, OpenSearch, Stripe CLI)\n●\tAVA for backend tests\n\nFrontend\n●\tNext.js 15 (App Router), React 19, TypeScript (strict)\n●\tTailwind CSS, shadcn/ui, Radix UI\n●\tTanStack React Query v5 for server state\n●\tReact Hook Form + Zod validation\n●\tCustom JWT cookie-based auth (role-based routing for employers vs. job seekers)\n●\tSocket.io client, Jitsi React SDK, Stripe.js\n●\tFullCalendar, Chart.js, React Quill\n●\tPlaywright E2E tests\n●\tpnpm package manager\n\n\nAdmin dashboard\n●\tNext.js 15, TypeScript, Tailwind CSS v4\n●\tReact Hook Form, TanStack React Query, ApexCharts\n\n________________________________________\n\nResponsibilities\n●\tDesign and implement REST API endpoints following existing layered architecture (thin controllers, business logic in services)\n●\tExtend the Prisma schema and sync database changes; write seed data when needed\n●\tBuild responsive Next.js pages and components for employer and job-seeker workflows\n●\tIntegrate third-party services: Stripe webhooks, OpenAI, S3 uploads, email/SMS, geocoding\n●\tImplement and maintain background jobs (Bull queues, cron) for search indexing and scheduled tasks\n●\tAdd express-validator rules for all new user input; enforce auth and subscription middleware on protected routes\n●\tWork on real-time features (Socket.io) and video interview flows (Jitsi)\n●\tBuild SEO-critical pages with generateMetadata, ISR, structured data, and sitemap generation\n●\tDebug production issues involving clustering, WebSocket scaling, Redis caching, and OpenSearch sync\n●\tParticipate in code review and collaborate on API contracts between frontend and backend\n\n________________________________________\nRequirements\n●\t5+ years of professional software development experience, with meaningful fullstack ownership\n●\tStrong Node.js / Express — comfortable in a large JavaScript codebase with established service-layer patterns\n●\tPostgreSQL + Prisma — complex relations, query optimization, schema design\n●\tReact / Next.js with TypeScript — App Router, Server Components, middleware, generateMetadata\n●\tREST API design — validation, JWT/cookie auth, error handling, rate limiting\n●\tRedis — caching, sessions, and job queues\n●\tExperience with Stripe subscriptions and webhooks\n●\tProficiency with Git in a multi-app monorepo\n●\tAbility to navigate and extend a mature codebase without constant hand-holding\n●\tStrong communication skills for async remote collaboration\n●\tComfortable with rigorous manual testing (our automated test coverage is growing but not comprehensive)\n\n________________________________________\nNice to Have\n●\tOpenSearch / Elasticsearch indexing and search relevance tuning\n●\tSocket.io real-time systems (messaging, presence, clustering)\n●\tOpenAI API integration (prompting, batch processing)\n●\tResume parsing, OCR, or document processing (PDF/DOCX)\n●\tHealthcare or recruiting domain experience\n●\tSEO at scale (sitemaps, programmatic pages, IndexNow, CDN cache tuning)\n●\tPlaywright or similar E2E testing frameworks\n●\tDocker, production Node.js clustering\n●\tExperience with affiliate/data ingestion pipelines at volume",
+        "info": {
+          "ciphertext": "~022079813682081775871",
+          "id": "2079813682081775871",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Full Stack Developer for Healthcare SEO Platform",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T06:19:57.952Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275235274018816",
+              "freeText": null,
+              "prefLabel": "Stripe API",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626774218784768",
+              "freeText": null,
+              "prefLabel": "Redis",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "full stack",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "prisma",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "mobile_web_android_rjp",
+            "publishTime": "2026-07-22T06:24:04.290Z",
+            "reuse": "2074339118932590654",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "generate_prompt": "Full Stack Developer for a Programmatic SEO Healthcare Job Site Platform in the US",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "cjp_v1",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 10,
+          "hourlyBudgetMax": 20,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T06:19:57.918Z",
+          "totalApplicants": 219,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 4
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 0
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "Las Vegas",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 28,
+          "activeAssignmentsCount": 20,
+          "hoursCount": 2399.67,
+          "feedbackCount": 3,
+          "score": 5,
+          "totalJobsWithHires": 11,
+          "totalCharges": {
+            "amount": 24586.88
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1990789901165854470",
+          "isEDCReplicated": null,
+          "contractDate": "2025-11-18T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 9,
+          "postedCount": 24,
+          "openJobs": [
+            {
+              "id": "2079773967895863498",
+              "uid": "2079773967895863498",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079773967895863498",
+              "title": "Healthcare Recruiter Sourcer",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2079738507071175419",
+              "uid": "2079738507071175419",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079738507071175419",
+              "title": "Head of Marketing for Gotham Enterprises",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2079703061699412612",
+              "uid": "2079703061699412612",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079703061699412612",
+              "title": "Project Manager for Software Development",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2079697072409032454",
+              "uid": "2079697072409032454",
+              "isPtcPrivate": false,
+              "ciphertext": "~022079697072409032454",
+              "title": "AI Search Optimization Specialist",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2077055990122164478",
+              "uid": "2077055990122164478",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077055990122164478",
+              "title": "QA QS Tester with BA Experience",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2074318031842320589",
+              "uid": "2074318031842320589",
+              "isPtcPrivate": false,
+              "ciphertext": "~022074318031842320589",
+              "title": "Content Marketer for Healthcare Site",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 10.31878133243321
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-13T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 744.99,
+          "totalHours": 20,
+          "jobInfo": {
+            "title": "UI/UX Designer for Healthcare Job Board",
+            "id": "2072871940262973772",
+            "uid": "2072871940262973772",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022072871940262973772"
+          },
+          "contractorInfo": {
+            "contractorName": "Jay W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010cc8159c903c5546"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-13T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 40,
+          "jobInfo": {
+            "title": "Full Stack Developer for Healthcare SEO Platform",
+            "id": "2074339118932590654",
+            "uid": "2074339118932590654",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022074339118932590654"
+          },
+          "contractorInfo": {
+            "contractorName": "Ishaan G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011b8f973e6ac0a5e5"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-10T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 1584.99,
+          "totalHours": 7.5,
+          "jobInfo": {
+            "title": "Part-Time Programmatic SEO Consultant",
+            "id": "2072865564908310860",
+            "uid": "2072865564908310860",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022072865564908310860"
+          },
+          "contractorInfo": {
+            "contractorName": "Arnaud K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019d4983f28e9b9bb7"
+          },
+          "rate": {
+            "amount": 200
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-10T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 83.49,
+          "totalHours": 6,
+          "jobInfo": {
+            "title": "Multimedia Specialist / Commercial Video Producer (Healthcare Job Platform)",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Michael L.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011473bdb5a96b0440"
+          },
+          "rate": {
+            "amount": 70
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-08T16:50:07.177Z",
+          "endDate": null,
+          "totalCharge": 104.49,
+          "totalHours": 23,
+          "jobInfo": {
+            "title": "UI/UX Designer for Healthcare Job Board",
+            "id": "2072871940262973772",
+            "uid": "2072871940262973772",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022072871940262973772"
+          },
+          "contractorInfo": {
+            "contractorName": "Ayah K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014fc3eec3e2cd8c2c"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-08T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 596.24,
+          "totalHours": 31.166667,
+          "jobInfo": {
+            "title": "UI/UX Designer for Healthcare Job Board",
+            "id": "2072871940262973772",
+            "uid": "2072871940262973772",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022072871940262973772"
+          },
+          "contractorInfo": {
+            "contractorName": "Safa B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0161f796b578b8497c"
+          },
+          "rate": {
+            "amount": 50
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-07T10:49:12.369Z",
+          "endDate": null,
+          "totalCharge": 797.49,
+          "totalHours": 8.333333,
+          "jobInfo": {
+            "title": "Part-Time Programmatic SEO Consultant",
+            "id": "2072865564908310860",
+            "uid": "2072865564908310860",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022072865564908310860"
+          },
+          "contractorInfo": {
+            "contractorName": "Duccio C.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01a9a8a81636f21b4a"
+          },
+          "rate": {
+            "amount": 150
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-07T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 849.99,
+          "totalHours": 10,
+          "jobInfo": {
+            "title": "Part-Time Programmatic SEO Consultant",
+            "id": "2072865564908310860",
+            "uid": "2072865564908310860",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022072865564908310860"
+          },
+          "contractorInfo": {
+            "contractorName": "Mykyta B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014b024fb4556dabb7"
+          },
+          "rate": {
+            "amount": 80
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-08T16:07:37.361Z",
+          "endDate": null,
+          "totalCharge": 600,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Part-Time Digital Marketer for Video Creation in Healthcare",
+            "id": "2000663953523804753",
+            "uid": "2000663953523804753",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022000663953523804753"
+          },
+          "contractorInfo": {
+            "contractorName": "Monika C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015beccccc07dad892"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-04T21:09:31.104Z",
+          "endDate": null,
+          "totalCharge": 452.39,
+          "totalHours": 105.333332,
+          "jobInfo": {
+            "title": "Data Entry Sourcer Needed for Ongoing Projects",
+            "id": "1996628135516516527",
+            "uid": "1996628135516516527",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021996628135516516527"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0181f2b62132a013a4"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-03T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 1107.24,
+          "totalHours": 109.500001,
+          "jobInfo": {
+            "title": "Email Marketer Specialist Needed to Improve Deliverability",
+            "id": "1993378177969167594",
+            "uid": "1993378177969167594",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021993378177969167594"
+          },
+          "contractorInfo": {
+            "contractorName": "Maninder K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01cc89c5aa05f6d8d7"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-26T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 513.47,
+          "totalHours": 154.833336,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Rachel Carmela B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01974a15ad30fe9584"
+          },
+          "rate": {
+            "amount": 3.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-24T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 10142.49,
+          "totalHours": 1013.500005,
+          "jobInfo": {
+            "title": "Digital Marketer & SEO Specialist Needed to Boost Website Traffic",
+            "id": "1991185923391842799",
+            "uid": "1991185923391842799",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021991185923391842799"
+          },
+          "contractorInfo": {
+            "contractorName": "Maninder K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01cc89c5aa05f6d8d7"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-24T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 681.99,
+          "totalHours": 179.999999,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Jocelle E.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011eadd2f41df7734e"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-20T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 358.6,
+          "totalHours": 110.833336,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Lady June P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01105afe183c24f9da"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-20T00:00:00.000Z",
+          "endDate": "2026-01-26T12:36:01.208Z",
+          "totalCharge": 762.49,
+          "totalHours": 179.166667,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Hannah V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019ead3d9b4980a7ee"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-20T00:00:00.000Z",
+          "endDate": "2026-01-13T04:01:33.829Z",
+          "totalCharge": 363.49,
+          "totalHours": 84.166669,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Paul Mark B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~015823321df964e818"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "A short research project. Flexible hours and good environment."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-21T01:59:08.080Z",
+          "endDate": "2025-12-15T18:24:44.105Z",
+          "totalCharge": 261.99,
+          "totalHours": 85,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Jonathan M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~010a426f6da67ac48b"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "This freelancer charged me for 2-3 weeks for work he did not complete."
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-20T03:49:32.627Z",
+          "endDate": "2025-12-13T05:36:57.467Z",
+          "totalCharge": 460.09,
+          "totalHours": 107.166666,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Marie Antoinette M.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01959e7c6b3ebf2e73"
+          },
+          "rate": {
+            "amount": 4
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Client and work is great. I only need to end my contract because of the holiday season"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-24T00:00:00.000Z",
+          "endDate": "2025-12-02T18:26:25.960Z",
+          "totalCharge": 85.33,
+          "totalHours": 36.5,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Jabby J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01280e34248ca9bdbd"
+          },
+          "rate": {
+            "amount": 3.5
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-20T00:00:00.000Z",
+          "endDate": "2025-11-26T15:59:06.198Z",
+          "totalCharge": 66.69,
+          "totalHours": 41.833333,
+          "jobInfo": {
+            "title": "Data Entry Workers Needed",
+            "id": "1990794416347775355",
+            "uid": "1990794416347775355",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021990794416347775355"
+          },
+          "contractorInfo": {
+            "contractorName": "Rosamay M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010b710926846b6914"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 18.624718792866936,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 50,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Healthcare Recruiter Sourcer",
+      "ciphertext": "~022079773967895863498",
+      "description": "We are seeking a skilled recruiter sourcer to identify and engage top talent for healthcare roles in the US. Responsibilities include sourcing candidates for physical therapists, physical therapy assistants, mental health therapists, dental hygienists, physician assistants and nurse practitioners in the US. The ideal candidate will have experience in recruitment and a strong understanding of the healthcare industry. You will be responsible for building a pipeline of qualified candidates and ensuring a smooth hiring process. You must have access to: Indeed Employer Account Ziprecruiter Employer Account Linkedin Recruiter Lite or Sales Navigator Zoominfo access is a plus Hiring now."
+    },
+    {
+      "title": "Head of Marketing for Gotham Enterprises",
+      "ciphertext": "~022079738507071175419",
+      "description": "Head of Marketing Gotham Enterprises Ltd. – Healthcare Career Marketplace Location: Remote (U.S. Preferred) Employment Type: Full-Time Reports To: Chief Executive Officer (CEO) About Gotham Enterprises Ltd. Gotham Enterprises Ltd. is an innovative Healthcare Career Marketplace connecting healthcare professionals with employers nationwide. Our mission is to become one of the largest healthcare employment platforms by helping healthcare organizations hire faster while enabling healthcare professionals to discover meaningful career opportunities. We're seeking a highly strategic, data-driven, and execution-focused Head of Marketing to lead all marketing initiatives and dramatically increase employer registrations, job seeker traffic, brand awareness, and revenue. This is a high-impact executive leadership role with ownership over every customer acquisition channel. Position Overview The Head of Marketing will develop and execute a comprehensive growth strategy that drives qualified traffic across every marketing channel while maximizing ROI. You'll own the complete marketing funnel—from awareness through conversion—and build a scalable acquisition engine capable of competing with major job marketplaces. This role requires someone who combines executive-level strategic thinking with hands-on execution and deep experience in SEO, performance marketing, demand generation, content marketing, social media, analytics, AI-driven marketing, and employer acquisition. Key Responsibilities Growth Strategy Develop and execute the company's overall marketing strategy Build a scalable customer acquisition engine Drive rapid traffic growth across all digital channels Increase employer registrations Increase healthcare professional registrations Increase job applications Increase employer job postings Improve customer lifetime value (LTV) Lower customer acquisition costs (CAC) Organic Search (SEO) Own the entire SEO strategy including: Technical SEO Programmatic SEO (pSEO) AI Search Optimization Google Search Console Site architecture Internal linking Schema markup Healthcare landing pages Job page optimization Employer profile optimization Local SEO Backlink strategy Content clusters EEAT optimization AI Overview optimization Core Web Vitals Goal: Millions of monthly organic visitors Content Marketing Lead content initiatives including: Healthcare career guides Salary guides Interview resources Resume resources Employer hiring guides State licensing content Career path articles Video content Newsletters AI-generated content workflows Email campaigns Employer education Paid Advertising Own all paid acquisition channels: Google Ads Google Performance Max Bing Ads LinkedIn Ads Facebook Ads Instagram Ads Reddit Ads TikTok Ads YouTube Ads Display Advertising Retargeting campaigns Native Advertising Continuously optimize: CAC CPC CPM ROAS Conversion Rate Social Media Marketing Develop a best-in-class social media strategy across: LinkedIn Facebook Instagram TikTok X Thr"
+    },
+    {
+      "title": "Project Manager for Software Development",
+      "ciphertext": "~022079703061699412612",
+      "description": "Job Title: Project Manager Position Overview We are looking for a highly organized and proactive Project Manager to oversee multiple software development projects and ensure they are delivered on time. This role will serve as the primary point of communication between the development team and the CEO, providing clear updates on project progress, timelines, risks, and priorities. The ideal candidate has experience managing software development projects, coordinating cross-functional teams, removing blockers, and ensuring everyone is aligned on priorities and deadlines. Key Responsibilities Project Planning & Execution ● Manage multiple software development projects simultaneously. ● Create and maintain project plans, timelines, and milestones. ● Prioritize projects, features, bug fixes, and technical improvements based on business needs. ● Monitor project progress and ensure deadlines are met. ● Identify risks early and develop mitigation plans. Communication & Stakeholder Management ● Serve as the primary communication bridge between the CEO and the development team. ● Provide regular updates on project status, timelines, blockers, and expected completion dates. ● Translate business priorities into actionable development tasks. ● Escalate issues that may impact delivery schedules. Team Coordination ● Coordinate work across developers, QA, designers, SEO specialists, and other stakeholders. ● Ensure everyone understands project priorities and responsibilities. ● Schedule and facilitate sprint planning, stand-ups, project meetings, and retrospectives. ● Follow up on action items and ensure accountability. Timeline & Resource Management ● Track project schedules and ensure deliverables remain on track. ● Balance workloads across team members. ● Adjust timelines when priorities change and communicate impacts clearly. ● Maintain visibility into all ongoing and upcoming projects. Quality & Delivery ● Work closely with QA to ensure projects meet quality standards before deployment. ● Verify that project requirements are complete before development begins. ● Coordinate releases and deployment schedules. Process Improvement ● Improve project management processes and team workflows. ● Help establish standard operating procedures (SOPs) for project delivery. ● Recommend tools and practices that improve productivity and transparency. Required Qualifications ● 3+ years of experience as a Project Manager, Technical Project Manager, or Scrum Master. ● Experience managing software development projects. ● Strong understanding of Agile and Scrum methodologies. ● Excellent communication and organizational skills. ● Ability to manage multiple projects simultaneously. ● Strong problem-solving and decision-making skills. ● Experience using project management tools such as Jira, ClickUp, Asana, Trello, or Monday.com. ● Ability to communicate effectively with both technical and non-technical stakeholders. Preferred Qualifications ● Background in software development or "
+    },
+    {
+      "title": "AI Search Optimization Specialist",
+      "ciphertext": "~022079697072409032454",
+      "description": "Job Title: AI Search Optimization (AIO/GEO) Specialist Position Overview We are looking for an AI Search Optimization (AIO/GEO) Specialist to help our platform become a recommended source by AI assistants such as ChatGPT, Claude, Gemini, Perplexity, Copilot, and other large language models. While our SEO team focuses on improving rankings in traditional search engines like Google and Bing, this role is focused on AI Optimization (AIO), also known as Generative Engine Optimization (GEO). The goal is to increase the likelihood that AI assistants recommend our platform, jobs, and services when users ask career- and job-related questions. This is a strategic role that combines technical SEO, structured data, content strategy, AI research, and analytics. Responsibilities AI Visibility Strategy ● Develop and execute an AI Optimization (AIO/GEO) strategy. ● Research how major AI assistants retrieve and recommend information. ● Identify opportunities to improve our visibility across AI-powered search platforms. ● Monitor industry changes in AI search and recommendation systems. AI Content Optimization ● Create content specifically designed to answer questions users commonly ask AI assistants. ● Optimize career guides, company pages, job pages, and blog articles for AI citation and recommendation. ● Improve content clarity, authority, and factual accuracy. ● Build topical authority around employment, careers, recruiting, and hiring. Technical Optimization ● Improve structured data (Schema.org). ● Ensure proper indexing of high-value content. ● Optimize crawlability for AI crawlers. ● Work with developers to implement AI-friendly technical improvements. ● Improve internal linking and semantic relationships between pages. Data & Structured Information ● Expand structured data beyond traditional SEO. ● Improve job metadata. ● Optimize organization, company, FAQ, article, and job schemas. ● Create datasets and machine-readable content that AI systems can understand. AI Citation & Authority Building ● Increase the likelihood of our content being referenced by AI assistants. ● Develop strategies for improving digital authority. ● Identify trusted sources where our platform should be mentioned. ● Coordinate outreach and partnership opportunities that strengthen our online presence. Analytics & Monitoring ● Measure traffic originating from AI assistants. ● Monitor AI referrals and citation frequency. ● Track AI recommendation performance. ● Build dashboards for AI visibility metrics. ● Perform competitor analysis to understand why competing job boards are recommended. Cross-functional Collaboration ● Work closely with: ○ SEO team ○ Engineering team ○ Product team ○ Marketing team ○ Content writers Required Qualifications ● 3+ years of experience in Technical SEO, AI Optimization, or Search Optimization. ● Strong understanding of modern search engines. ● Experience with structured data (Schema.org). ● Knowledge of semantic search and entity optimization. ● Underst"
+    },
+    {
+      "title": "QA QS Tester with BA Experience",
+      "ciphertext": "~022077055990122164478",
+      "description": "Senior QA/QS Tester (Business Analyst) Full-Time | Remote / Hybrid | Senior Level Gotham Enterprises Ltd is seeking an experienced Senior QA/QS Tester with Business Analyst expertise to join our growing technology team. Key Responsibilities • Develop and execute test plans, cases, and scripts. • Perform functional, regression, integration, and UAT testing. • Gather/document business requirements and user stories. • Work with Product, Development, UX, and Operations. • Track defects and validate fixes. • Improve QA processes and mentor junior testers. Required Qualifications • 5+ years in QA/QS testing. • 3+ years as a Business Analyst. • Strong Agile/Scrum and SDLC knowledge. • Experience with Jira, Azure DevOps or TestRail. • API testing and SQL knowledge. • Fluent English (written and spoken). Preferred Qualifications • Healthcare, SaaS, HR Tech, or job board experience. • Automation tools such as Selenium, Cypress, or Playwright. • Postman and REST API testing. • ISTQB certification preferred. Compensation & Benefits • Competitive Pay • Remote flexibility."
+    },
+    {
+      "title": "Content Marketer for Healthcare Site",
+      "ciphertext": "~022074318031842320589",
+      "description": "# Content Marketer – Healthcare Job Board **Job Title:** Content Marketer (Healthcare Recruitment & Digital Marketing) **Employment Type:** Full-Time **Location:** Remote **Salary:** Competitive Salary (Based on Experience) Work Schedule: M to F 9-5 pm (40) hours per week ## About Us We are a fast-growing healthcare job marketplace connecting hospitals, clinics, private practices, behavioral health organizations, and healthcare professionals across the United States. Our mission is to help healthcare employers attract exceptional talent while providing job seekers with outstanding career opportunities. We're looking for an experienced **Content Marketer** who can create high-quality content that increases organic traffic, generates employer leads, and helps healthcare professionals discover career opportunities. ## Position Overview As our Content Marketer, you will own the content strategy for our healthcare job platform. You'll create SEO-driven articles, employer resources, career guides, landing pages, email campaigns, and social media content designed to grow website traffic, increase employer registrations, and generate qualified job seeker applications. You will be creating and posting content on all of our company social media channels including Youtube, Meta, Linkedin, X, Instagram, TikTok etc. This role combines content creation, SEO, AI-assisted writing, and analytics to build one of the leading healthcare career resources online. ## Responsibilities * Research and write engaging healthcare and career-related content. * Create SEO-optimized blog articles targeting healthcare hiring and job search keywords. * Develop employer-focused content that generates leads and encourages job postings. * Produce career guides, salary guides, interview tips, and resume resources. * Write compelling landing pages designed to improve search rankings and conversions. * Collaborate with the SEO team to identify high-value keyword opportunities. * Optimize existing content to improve rankings and organic traffic. * Create email marketing campaigns and newsletters. * Create Videos for Social Media * Develop content for LinkedIn, Facebook, Instagram, and other social media platforms. * Work with designers and multimedia specialists to create visual content. * Monitor content performance using Google Analytics, Google Search Console, and SEO tools. * Stay current on healthcare hiring trends, recruitment marketing, and Google's best practices. * Use AI tools responsibly to improve productivity while maintaining high editorial standards. ## Qualifications * Bachelor's degree in Marketing, Communications, Journalism, English, or related field (preferred). * 3+ years of experience in content marketing, SEO, or digital marketing. * Exceptional writing, editing, and proofreading skills. * Experience writing long-form SEO content that ranks in search engines. * Strong understanding of keyword research and search intent. * Experience with WordPress or other CMS pla"
+    }
+  ]
+}

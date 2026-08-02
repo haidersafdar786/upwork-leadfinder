@@ -1,0 +1,617 @@
+{
+  "uid": "2079200459083282254",
+  "ciphertext": "~022079200459083282254",
+  "title": "WordPress Developer – Website Rebuild",
+  "url": "https://www.upwork.com/jobs/~022079200459083282254",
+  "scrapedAt": "2026-07-21T04:08:45.932Z",
+  "feed": {
+    "uid": "2079200459083282254",
+    "ciphertext": "~022079200459083282254",
+    "title": "<span class=\"highlight\">WordPress</span> <span class=\"highlight\">Developer</span> – Website Rebuild",
+    "description": "AdlerAerospace is seeking an experienced <span class=\"highlight\">WordPress</span> <span class=\"highlight\">developer</span> to rebuild our corporate website from the ground up.\n\nThis is a serious, technical B2G-facing website — not a lifestyle or marketing-heavy brand. The design must reflect a clean, structured, high-credibility aerospace/defense identity.\n\nScope\nRebuild existing site into a modern <span class=\"highlight\">WordPress</span> installation\nSelect and customize a professional theme (or justify custom build)\nCreate structured product pages (UAVs, counter-UAS, ISR systems)\nImplement clean navigation for complex technical portfolio\n\nOptimize performance (Core Web Vitals)\n\nSecurity hardening\nSEO-ready architecture\nMobile responsive\nScalable for future expansion\n\nRequired Experience\n5+ years professional <span class=\"highlight\">WordPress</span> <span class=\"highlight\">development</span>\nStrong experience with premium themes (Astra, Generate<span class=\"highlight\">Press</span>, Avada, etc.)\nCustom post types & ACF\nPerformance optimization\nMinimal plugin architecture\n\nExperience building sites for engineering, aerospace, robotics, or other technical industries\n\nImportant\nYou must be comfortable presenting structured technical content:\nSpec sheets\nCapability matrices\nSystem integrations\nDefense-appropriate branding tone\n\nTo Apply\nPlease include:\nRelevant portfolio links (technical / engineering sites only)\nThemes you’ve worked with extensively\nYour rebuild process (brief overview)\nEstimated timeline for full corporate rebuild\nWe value precision, responsiveness, and independent execution.\n\nDo not send proposals outside of Up Work. Any proposals or contacts outside to Up Work will be rejected.",
+    "createdOn": "2026-07-20T13:43:14.168Z",
+    "publishedOn": "2026-07-20T13:44:55.539Z",
+    "renewedOn": null,
+    "type": 1,
+    "durationLabel": "1 to 3 months",
+    "engagement": null,
+    "amount": {
+      "amount": 1500
+    },
+    "client": {
+      "location": {
+        "country": "USA"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "9212.08",
+      "totalReviews": 3,
+      "totalFeedback": 4.96,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"1\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1052162208999198724",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1031626795211276288",
+        "parentSkillUid": null,
+        "prefLabel": "Web Development",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1045317707950489600",
+        "parentSkillUid": null,
+        "prefLabel": "Website Redesign",
+        "prettyName": "Website Redesign",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626795181916160",
+        "parentSkillUid": null,
+        "prefLabel": "Web Design",
+        "prettyName": "Web Design",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T13:43:14.168Z",
+        "publishTime": "2026-07-20T13:44:55.539Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "AdlerAerospace is seeking an experienced WordPress developer to rebuild our corporate website from the ground up.\n\nThis is a serious, technical B2G-facing website — not a lifestyle or marketing-heavy brand. The design must reflect a clean, structured, high-credibility aerospace/defense identity.\n\nScope\nRebuild existing site into a modern WordPress installation\nSelect and customize a professional theme (or justify custom build)\nCreate structured product pages (UAVs, counter-UAS, ISR systems)\nImplement clean navigation for complex technical portfolio\n\nOptimize performance (Core Web Vitals)\n\nSecurity hardening\nSEO-ready architecture\nMobile responsive\nScalable for future expansion\n\nRequired Experience\n5+ years professional WordPress development\nStrong experience with premium themes (Astra, GeneratePress, Avada, etc.)\nCustom post types & ACF\nPerformance optimization\nMinimal plugin architecture\n\nExperience building sites for engineering, aerospace, robotics, or other technical industries\n\nImportant\nYou must be comfortable presenting structured technical content:\nSpec sheets\nCapability matrices\nSystem integrations\nDefense-appropriate branding tone\n\nTo Apply\nPlease include:\nRelevant portfolio links (technical / engineering sites only)\nThemes you’ve worked with extensively\nYour rebuild process (brief overview)\nEstimated timeline for full corporate rebuild\nWe value precision, responsiveness, and independent execution.\n\nDo not send proposals outside of Up Work. Any proposals or contacts outside to Up Work will be rejected.",
+        "info": {
+          "ciphertext": "~022079200459083282254",
+          "id": "2079200459083282254",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "WordPress Developer – Website Rebuild",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T13:43:14.168Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:cmsdevelopment",
+            "prefLabel": "CMS Development",
+            "id": "1110580750267699200",
+            "uid": "1110580750267699200"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580522420523008",
+              "id": "1045317707950489600",
+              "freeText": null,
+              "prefLabel": "Website Redesign",
+              "groupPrefLabel": "CMS Development Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795181916160",
+              "freeText": null,
+              "prefLabel": "Web Design",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 1500,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T13:44:55.539Z",
+            "reuse": "2024240846407916571",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Safari",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T15:16:27.296Z",
+          "totalApplicants": 103,
+          "totalHired": 0,
+          "totalInvitedToInterview": 23,
+          "unansweredInvites": 5,
+          "invitationsSent": 29,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": [
+          "Europe",
+          "Americas"
+        ],
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": {
+          "city": null,
+          "country": null,
+          "countryTimezone": null,
+          "offsetFromUtcMillis": null,
+          "state": null,
+          "worldRegion": "Europe"
+        },
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": "83001-4555",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 7,
+          "activeAssignmentsCount": 4,
+          "hoursCount": 223.17,
+          "feedbackCount": 3,
+          "score": 4.96,
+          "totalJobsWithHires": 6,
+          "totalCharges": {
+            "amount": 9212.08
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1921522689208722573",
+          "isEDCReplicated": null,
+          "contractDate": "2025-05-11T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 13,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 21.887574494779763
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-22T13:03:00.026Z",
+          "endDate": null,
+          "totalCharge": 728.84,
+          "totalHours": 24.500001,
+          "jobInfo": {
+            "title": "Czech–English Interpreter (Business & Technical Negotiations)",
+            "id": "2034919102090387325",
+            "uid": "2034919102090387325",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022034919102090387325"
+          },
+          "contractorInfo": {
+            "contractorName": "Magdalena G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01e84cb1a50db19e57"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-17T10:41:04.173Z",
+          "endDate": null,
+          "totalCharge": 366.14,
+          "totalHours": 13.833333,
+          "jobInfo": {
+            "title": "Ukrainian-English Interpreter for Technical and Business Negotiations",
+            "id": "2000464550724621152",
+            "uid": "2000464550724621152",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022000464550724621152"
+          },
+          "contractorInfo": {
+            "contractorName": "Seva K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01eda2b5e58035b37b"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-14T13:00:34.406Z",
+          "endDate": null,
+          "totalCharge": 2648.4,
+          "totalHours": 99.333331,
+          "jobInfo": {
+            "title": "Graphic Designer for Aerospace & Defense Layouts",
+            "id": "1987590417236059275",
+            "uid": "1987590417236059275",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021987590417236059275"
+          },
+          "contractorInfo": {
+            "contractorName": "Kyrylo S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018b6d4dd66e1f54df"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-10T10:14:39.853Z",
+          "endDate": null,
+          "totalCharge": 114.01,
+          "totalHours": 3.833333,
+          "jobInfo": {
+            "title": "Graphic Designer for Aerospace & Defense Layouts",
+            "id": "1987590417236059275",
+            "uid": "1987590417236059275",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021987590417236059275"
+          },
+          "contractorInfo": {
+            "contractorName": "Kyrylo S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~018b6d4dd66e1f54df"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-09T19:19:06.005Z",
+          "endDate": "2026-06-26T12:48:20.748Z",
+          "totalCharge": 848.76,
+          "totalHours": 34.000002,
+          "jobInfo": {
+            "title": "Business Development & Executive Assistant (Defense/Aerospace)",
+            "id": "2025719723005480813",
+            "uid": "2025719723005480813",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022025719723005480813"
+          },
+          "contractorInfo": {
+            "contractorName": "Marko P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0190eeb2d8e0f804d2"
+          },
+          "rate": {
+            "amount": 22
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-24T11:25:20.483Z",
+          "endDate": "2026-05-23T00:06:34.883Z",
+          "totalCharge": 3910.7,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Updated*  ClickUp Systems Architect / Workflow Engineer for Defense & Aerospace Organization",
+            "id": "2012144035875064046",
+            "uid": "2012144035875064046",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022012144035875064046"
+          },
+          "contractorInfo": {
+            "contractorName": "Cedric L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0117edd78b3d34e00c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-15T00:00:00.000Z",
+          "endDate": "2026-02-02T06:21:47.547Z",
+          "totalCharge": 307.74,
+          "totalHours": 47.666664,
+          "jobInfo": {
+            "title": "Business Development & Executive Assistant (Defense / Aerospace)",
+            "id": "2010572508266033082",
+            "uid": "2010572508266033082",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022010572508266033082"
+          },
+          "contractorInfo": {
+            "contractorName": "Clarisse K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b0d46dfd46a9e80b"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.6,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "region=(Europe,Americas)",
+              "clientPreferredLabel": "Europe, Americas",
+              "freelancerValue": "Asia",
+              "freelancerValueLabel": "Asia",
+              "qualification": "Location",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 1582.739805825243,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 10,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 10000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580750267699200",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

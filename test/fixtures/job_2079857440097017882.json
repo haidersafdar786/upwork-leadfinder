@@ -1,0 +1,948 @@
+{
+  "uid": "2079857440097017882",
+  "ciphertext": "~022079857440097017882",
+  "title": "Full-Stack Engineer (Node.js / React / TypeScript)",
+  "url": "https://www.upwork.com/jobs/~022079857440097017882",
+  "scrapedAt": "2026-07-22T14:08:22.645Z",
+  "feed": {
+    "uid": "2079857440097017882",
+    "title": "Full-Stack Engineer (Node.js / React / TypeScript)",
+    "ciphertext": "~022079857440097017882",
+    "description": "We are looking for an experienced Full-Stack Developer to join our engineering team for a long-term collaboration.\n\nYou'll help build and maintain a cloud-based platform for electric vehicle charging and energy management. Our products serve multiple user groups, including EV owners, businesses, home charging users, and solar energy customers.\n\nThis is not a short-term project. We are looking for someone who wants to become part of the team, contribute to architectural decisions, and build production-ready software that scales.\n\nI𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝗲𝗱? 𝗦𝗲𝗻𝗱 𝘂𝘀 𝘆𝗼𝘂𝗿 𝗖𝗩, 𝗮 𝘀𝗵𝗼𝗿𝘁 𝗽𝗿𝗼𝗽𝗼𝘀𝗮𝗹 𝗱𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲, 𝘆𝗼𝘂𝗿 𝗵𝗼𝘂𝗿𝗹𝘆 𝗿𝗮𝘁𝗲, 𝗮𝗻𝗱 𝗮𝗻𝘆 𝗚𝗶𝘁𝗛𝘂𝗯 𝗼𝗿 𝗽𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 𝗹𝗶𝗻𝗸𝘀. 𝗣𝗹𝗲𝗮𝘀𝗲 𝘀𝘁𝗮𝗿𝘁 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗽𝗼𝘀𝗮𝗹 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝘄𝗼𝗿𝗱 𝗖𝗮𝘁𝗮𝗹𝘆𝘀𝘁 𝘀𝗼 𝘄𝗲 𝗸𝗻𝗼𝘄 𝘆𝗼𝘂'𝘃𝗲 𝗿𝗲𝗮𝗱 𝘁𝗵𝗲 𝗳𝘂𝗹𝗹 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻.\n\n\n𝗪𝗵𝗮𝘁 𝗬𝗼𝘂'𝗹𝗹 𝗗𝗼\n  • Develop modern frontend and backend applications\n  • Build and maintain REST APIs and real-time services\n  • Design scalable backend services using Node.js and TypeScript\n  • Develop responsive web interfaces using React\n  • Work with Docker-based development environments\n  • Collaborate with Product, DevOps, and Cloud engineers\n  • Participate in code reviews and technical discussions\n  • Improve application performance, maintainability, and scalability\n  • Help troubleshoot production issues when necessary\n\n𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗱 𝗦𝗸𝗶𝗹𝗹𝘀\n  • 3+ years of professional Full-Stack development experience\n  • Strong JavaScript and TypeScript knowledge\n  • Excellent Node.js experience\n  • React (or similar modern frontend framework)\n  • HTML & CSS\n  • REST APIs\n  • Linux\n  • Docker\n  • WebSockets or event-driven architectures\n  • Strong English communication skills\n\n𝗡𝗶𝗰𝗲 𝘁𝗼 𝗛𝗮𝘃𝗲\n  • Kubernetes\n  • Helm\n  • Google Cloud Platform (GCP)\n  • CI/CD pipelines\n  • GraphQL\n  • Python\n  • FastAPI\n  • NoSQL databases\n  • Terraform\n  • Next.js\n  • Experience with testing frameworks such as Playwright, Cypress, or Selenium",
+    "type": 2,
+    "recno": "1026051631",
+    "freelancersToHire": 1,
+    "duration": "More than 6 months",
+    "durationLabel": "More than 6 months",
+    "engagement": "30+ hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-22T09:13:50.666Z",
+    "publishedOn": "2026-07-22T09:16:07.426Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 15,
+      "totalSpent": 17752.99,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Germany",
+        "city": "Walldorf",
+        "state": null,
+        "countryTimezone": "Europe/London",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 10,
+      "totalFeedback": 4.83,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-22T14:06:40.353Z",
+      "proposalReviewedAt": "2026-07-22T14:06:40.363Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784713736482",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "996364628025274389",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "GCP"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1691099312962416640",
+        "prefLabel": "REST API"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Manual",
+      "min": 10,
+      "max": 25
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"4\"}",
+    "attrs": [
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "GCP",
+        "freeText": "GCP",
+        "skillType": null
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099312962416640",
+        "prettyName": "REST API",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 5
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T09:13:50.666Z",
+        "publishTime": "2026-07-22T09:16:07.426Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "More than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "We are looking for an experienced Full-Stack Developer to join our engineering team for a long-term collaboration.\n\nYou'll help build and maintain a cloud-based platform for electric vehicle charging and energy management. Our products serve multiple user groups, including EV owners, businesses, home charging users, and solar energy customers.\n\nThis is not a short-term project. We are looking for someone who wants to become part of the team, contribute to architectural decisions, and build production-ready software that scales.\n\nI𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝗲𝗱? 𝗦𝗲𝗻𝗱 𝘂𝘀 𝘆𝗼𝘂𝗿 𝗖𝗩, 𝗮 𝘀𝗵𝗼𝗿𝘁 𝗽𝗿𝗼𝗽𝗼𝘀𝗮𝗹 𝗱𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲, 𝘆𝗼𝘂𝗿 𝗵𝗼𝘂𝗿𝗹𝘆 𝗿𝗮𝘁𝗲, 𝗮𝗻𝗱 𝗮𝗻𝘆 𝗚𝗶𝘁𝗛𝘂𝗯 𝗼𝗿 𝗽𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼 𝗹𝗶𝗻𝗸𝘀. 𝗣𝗹𝗲𝗮𝘀𝗲 𝘀𝘁𝗮𝗿𝘁 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗽𝗼𝘀𝗮𝗹 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝘄𝗼𝗿𝗱 𝗖𝗮𝘁𝗮𝗹𝘆𝘀𝘁 𝘀𝗼 𝘄𝗲 𝗸𝗻𝗼𝘄 𝘆𝗼𝘂'𝘃𝗲 𝗿𝗲𝗮𝗱 𝘁𝗵𝗲 𝗳𝘂𝗹𝗹 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻.\n\n\n𝗪𝗵𝗮𝘁 𝗬𝗼𝘂'𝗹𝗹 𝗗𝗼\n  • Develop modern frontend and backend applications\n  • Build and maintain REST APIs and real-time services\n  • Design scalable backend services using Node.js and TypeScript\n  • Develop responsive web interfaces using React\n  • Work with Docker-based development environments\n  • Collaborate with Product, DevOps, and Cloud engineers\n  • Participate in code reviews and technical discussions\n  • Improve application performance, maintainability, and scalability\n  • Help troubleshoot production issues when necessary\n\n𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗱 𝗦𝗸𝗶𝗹𝗹𝘀\n  • 3+ years of professional Full-Stack development experience\n  • Strong JavaScript and TypeScript knowledge\n  • Excellent Node.js experience\n  • React (or similar modern frontend framework)\n  • HTML & CSS\n  • REST APIs\n  • Linux\n  • Docker\n  • WebSockets or event-driven architectures\n  • Strong English communication skills\n\n𝗡𝗶𝗰𝗲 𝘁𝗼 𝗛𝗮𝘃𝗲\n  • Kubernetes\n  • Helm\n  • Google Cloud Platform (GCP)\n  • CI/CD pipelines\n  • GraphQL\n  • Python\n  • FastAPI\n  • NoSQL databases\n  • Terraform\n  • Next.js\n  • Experience with testing frameworks such as Playwright, Cypress, or Selenium",
+        "info": {
+          "ciphertext": "~022079857440097017882",
+          "id": "2079857440097017882",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Full-Stack Engineer (Node.js / React / TypeScript)",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T09:13:50.666Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "GCP",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099312962416640",
+              "freeText": null,
+              "prefLabel": "REST API",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-22T09:16:07.426Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Edge",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 10,
+          "hourlyBudgetMax": 25,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T14:06:40.343Z",
+          "totalApplicants": 308,
+          "totalHired": 0,
+          "totalInvitedToInterview": 11,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Europe/London (UTC+01:00)",
+          "city": "Walldorf",
+          "country": "Germany"
+        },
+        "stats": {
+          "totalAssignments": 15,
+          "activeAssignmentsCount": 4,
+          "hoursCount": 808.67,
+          "feedbackCount": 10,
+          "score": 4.83,
+          "totalJobsWithHires": 12,
+          "totalCharges": {
+            "amount": 17752.99
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1414831901112877057",
+          "isEDCReplicated": null,
+          "contractDate": "2021-07-13T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": 10
+          }
+        },
+        "jobs": {
+          "openCount": 2,
+          "postedCount": 22,
+          "openJobs": [
+            {
+              "id": "2073055450439838131",
+              "uid": "2073055450439838131",
+              "isPtcPrivate": false,
+              "ciphertext": "~022073055450439838131",
+              "title": "DevOps Engineer (GCP, Kubernetes, Terraform) + IT Infrastructure Support",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 17.585467496011972
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-08T06:00:29.167Z",
+          "endDate": null,
+          "totalCharge": 3751.84,
+          "totalHours": 231,
+          "jobInfo": {
+            "title": "Odoo Developer",
+            "id": "2036372869440171275",
+            "uid": "2036372869440171275",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022036372869440171275"
+          },
+          "contractorInfo": {
+            "contractorName": "Sumal N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01160ae5ed92e704de"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-23T07:14:54.869Z",
+          "endDate": null,
+          "totalCharge": 600,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Freelancer for Software Concept Development",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Deepak S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a8f60368503029d7"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-10-13T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 7116.06,
+          "totalHours": 440.333333,
+          "jobInfo": {
+            "title": "Odoo Developer",
+            "id": "1968303557540080812",
+            "uid": "1968303557540080812",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021968303557540080812"
+          },
+          "contractorInfo": {
+            "contractorName": "Waqas M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01af68c65bf2abb38e"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-07-23T14:27:33.000Z",
+          "endDate": null,
+          "totalCharge": 2688.5,
+          "totalHours": 88.999998,
+          "jobInfo": {
+            "title": "Creating a WordPress Website for the eMobility sector",
+            "id": "1417374644692205568",
+            "uid": "1417374644692205568",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~0117e1bc851c52da43"
+          },
+          "contractorInfo": {
+            "contractorName": "Maya S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~012006e046eed7a953"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2023-10-11T06:54:34.000Z",
+          "endDate": "2023-11-23T12:54:41.000Z",
+          "totalCharge": 1060.88,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Device to flash Atmel MC: PCB Design and Fabrication Data",
+            "id": "1710258957607694336",
+            "uid": "1710258957607694336",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01b94ab81175cbca42"
+          },
+          "contractorInfo": {
+            "contractorName": "Jesse V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01de2076a06aa9e11d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "He has a very good understanding of the subject and a very professional way of working. Right at the start of the project he had a solution that he was able to quickly and efficiently adapt to our existing hardware design. \nThe communication worked smoothly and quickly, so that we were always kept up to date on the status of the project. We will definitely hire him again for future projects."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a pleasure to work with Alexandra. Communication was good and project goals were clear."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-29T06:19:33.000Z",
+          "endDate": "2022-07-18T08:03:55.000Z",
+          "totalCharge": 250,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "BOM optimisation of PCB components",
+            "id": "1540336405937909760",
+            "uid": "1540336405937909760",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~01d3b307e433087cdc"
+          },
+          "contractorInfo": {
+            "contractorName": "Ting W.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b4538bcccc67765d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.05,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.45,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-06-10T12:27:54.000Z",
+          "endDate": "2022-07-16T04:25:46.000Z",
+          "totalCharge": 60.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Designing flyer for exhaust systems",
+            "id": "1535236331392335872",
+            "uid": "1535236331392335872",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~01576d9c14e06afd59"
+          },
+          "contractorInfo": {
+            "contractorName": "Hamza J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01417542ae0c4123bb"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It has been a wonderful experience working with this client. I look forward to working with them again. Thank you so much!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-04-30T16:42:25.000Z",
+          "endDate": "2022-06-10T12:19:18.000Z",
+          "totalCharge": 202.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Finalize layout of product catalogue InDesign",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Hamza J.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01417542ae0c4123bb"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It's been a pleasure working with them and I look forward to continued future collaboration! Thank you  so much"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-30T13:38:28.000Z",
+          "endDate": "2022-06-08T12:53:02.000Z",
+          "totalCharge": 643.13,
+          "totalHours": 17.5,
+          "jobInfo": {
+            "title": "BOM optimisation of PCB components",
+            "id": "1531204031689318400",
+            "uid": "1531204031689318400",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01f5b1f979e3321f7b"
+          },
+          "contractorInfo": {
+            "contractorName": "Ghanshyam D.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01f692bff0bfe75d0e"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": "Happy to worked with client and sure will work in near future."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-30T15:51:55.000Z",
+          "endDate": "2022-06-08T12:51:58.000Z",
+          "totalCharge": 236.25,
+          "totalHours": 7.5,
+          "jobInfo": {
+            "title": "BOM optimisation of PCB components",
+            "id": "1531204031689318400",
+            "uid": "1531204031689318400",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~01f5b1f979e3321f7b"
+          },
+          "contractorInfo": {
+            "contractorName": "Pramil W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012c8b901a552f32d4"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Work was clearly defined and communication was quick and responsive, would definitely work with him again at any opportunity. \nGreat to work! Highly recommended!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-04-30T10:05:19.000Z",
+          "endDate": "2022-05-10T05:32:11.000Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Finalize layout of product catalogue InDesign",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Amit J.",
+            "accessType": "PRIVATE",
+            "ciphertext": null
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "A Great Pleasure to work with!"
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2022-05-01T07:11:53.000Z",
+          "endDate": "2022-05-10T05:31:28.000Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Finalize layout of product catalogue InDesign",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Oleksandr D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e6f061637ff74d7b"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good experience."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-10-14T14:40:02.000Z",
+          "endDate": "2022-04-30T09:18:48.000Z",
+          "totalCharge": 433.33,
+          "totalHours": 17.333333,
+          "jobInfo": {
+            "title": "Inviting Booth Design needed",
+            "id": "1448570854828441600",
+            "uid": "1448570854828441600",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~013560a604e8e0e825"
+          },
+          "contractorInfo": {
+            "contractorName": "Joseph M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d6c80eae3a3b4489"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.85,
+            "comment": null
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2021-12-09T09:43:27.000Z",
+          "endDate": "2022-04-30T09:18:08.000Z",
+          "totalCharge": 210,
+          "totalHours": 6,
+          "jobInfo": {
+            "title": "Product brochure for the eMobility Market",
+            "id": "1462684179158589440",
+            "uid": "1462684179158589440",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~017630838fe8b60a9d"
+          },
+          "contractorInfo": {
+            "contractorName": "Dean S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0147bc783a3d6b6574"
+          },
+          "rate": {
+            "amount": 35
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": null
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 22.929017941454198,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 999,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "DevOps Engineer (GCP, Kubernetes, Terraform) + IT Infrastructure Support",
+      "ciphertext": "~022073055450439838131",
+      "description": "We are looking for an experienced DevOps Engineer / Infrastructure Engineer for a long-term collaboration. This role is ideal for someone who has strong hands-on experience building and maintaining production cloud infrastructure, and who is also comfortable supporting internal IT operations within a growing company. We are not looking for beginners or theoretical experience. We need someone who has worked on real production systems and can operate independently. Candidates based in Tunisia are preferred, as this role may transition into a hybrid position in the future. 🔧 𝗠𝗮𝗶𝗻 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗦𝘁𝗮𝗰𝗸 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗱: • Google Cloud Platform (GCP) • Kubernetes (production deployments and management) • Docker (containerization and orchestration) • Terraform (Infrastructure as Code) • GitLab CI/CD (pipeline creation and maintenance) • Linux system administration • Bash and Python scripting • Server monitoring and performance optimization • Basic cybersecurity practices (hardening, access control, security updates) ☁️ 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀: • Design, deploy, and maintain scalable cloud infrastructure on GCP • Manage CI/CD pipelines using GitLab • Maintain Kubernetes clusters and containerized applications • Implement Infrastructure as Code using Terraform • Monitor system health, uptime, and performance • Automate operational tasks using scripting • Troubleshoot production issues and ensure system reliability 🖥️ 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗜𝗧 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀 (𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁): In addition to DevOps tasks, this role also includes internal IT support for the company: • User onboarding (accounts, laptops, access setup) • Office IT support (hardware, software, printers, connectivity) • VPN, network, and office infrastructure support • Microsoft 365 / Google Workspace administration • General IT troubleshooting and maintenance 📍 𝗢𝘁𝗵𝗲𝗿 𝗗𝗲𝘁𝗮𝗶𝗹𝘀: • Minimum 3 years of professional experience required • Long-term collaboration • We are looking for someone autonomous, reliable, and able to handle both DevOps + IT operations"
+    }
+  ],
+  "pastJobsText": [
+    {
+      "ciphertext": "~022036372869440171275",
+      "title": "Odoo Developer",
+      "description": "Summary About us: At LRT Automotive, we’re driving the future of electric mobility. Our mission is to be a part of the change by developing environmentally friendly and intelligent charging solutions for electric vehicles. With our expertise in building innovative charging structures, we have developed charging systems both for residential and commercial use. Thus, we are able to meet any customer’s needs with high-quality service and innovative strengths that are known for in our home market: Germany. We are looking for a highly skilled and strategic Odoo Developer to join our dynamic Development team at LRT Automotive and help customize, develop, and maintain our Odoo ERP system. This is a fully remote role, but working hours are aligned with German business hours (Central European Time - CET/CEST). Candidates must have significant overlap with this time zone to collaborate effectively with our engineering team. In this role, you will work closely with business analysts, end-users, and project managers to develop business solutions using the Odoo platform. Your role includes backend development (Python/Odoo), module customization, integration with third-party apps, and support of day-to-day operations. Key Responsibilities : • You will lead and participate in various development projects for our products and services and be involved in all development-related aspects of our technical operations. • Take Initiatives for the required changes in software development process to manage overall quality. • Develop custom applications and features based on business requirements. • Provide technical support and bug fixing • Perform Odoo upgrades and migrations • Collaborate with cross-functional teams including project managers, testers, and analysts Qualifications : Education: Bachelor’s degree (or higher) in Computer Science Experience: a minimum of 3 to 5 years of experience in the software development field Skills: • Fluency in English (spoken and written) is mandatory • Strong knowledge of Python and programming concepts. • Complete understanding of ODOO basic flow. • Experience in developing latest versions of ODOO and Excellent debugging skills in Odoo • Proficiency in Python and PostgreSQL • Experience with Docker, Git, and DevOps tools • Familiarity with Agile/Scrum methodology • Strong communication and interpersonal skills • Excellent analytical and problem-solving skills • Adaptability in a fast-paced, global environment • Ability to manage time independently in a flexible remote work environment • Flexibility to collaborate across different time zones, with core availability during Central European working hours",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~021968303557540080812",
+      "title": "Odoo Developer",
+      "description": "About us: At LRT Automotive, we’re driving the future of electric mobility. Our mission is to be a part of the change by developing environmentally friendly and intelligent charging solutions for electric vehicles. With our expertise in building innovative charging structures, we have developed charging systems both for residential and commercial use. Thus, we are able to meet any customer’s needs with high-quality service and innovative strengths that are known for in our home market: Germany. We are looking for a highly skilled and strategic Odoo Developer to join our dynamic Development team at LRT Automotive and help customize, develop, and maintain our Odoo ERP system. This is a fully remote role, but working hours are aligned with German business hours (Central European Time - CET/CEST). Candidates must have significant overlap with this time zone to collaborate effectively with our engineering team. In this role, you will work closely with business analysts, end-users, and project managers to develop business solutions using the Odoo platform. Your role includes backend development (Python/Odoo), module customization, integration with third-party apps, and support of day-to-day operations. Key Responsibilities : • You will lead and participate in various development projects for our products and services and be involved in all development-related aspects of our technical operations. • Take Initiatives for the required changes in software development process to manage overall quality. • Develop custom applications and features based on business requirements. • Provide technical support and bug fixing • Perform Odoo upgrades and migrations • Collaborate with cross-functional teams including project managers, testers, and analysts Qualifications : Education: Bachelor’s degree (or higher) in Computer Science Experience: a minimum of 3 to 5 years of experience in the software development field Skills: • Fluency in English (spoken and written) is mandatory • Strong knowledge of Python and programming concepts. • Complete understanding of ODOO basic flow. • Experience in developing latest versions of ODOO and Excellent debugging skills in Odoo • Proficiency in Python and PostgreSQL • Experience with Docker, Git, and DevOps tools • Familiarity with Agile/Scrum methodology • Strong communication and interpersonal skills • Excellent analytical and problem-solving skills • Adaptability in a fast-paced, global environment • Ability to manage time independently in a flexible remote work environment • Flexibility to collaborate across different time zones, with core availability during Central European working hours",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~0117e1bc851c52da43",
+      "title": "Creating a WordPress Website for the eMobility sector",
+      "description": "LRT eMobility is a manufacturer for wallboxes in the eMobility market. We´re new to the market and need to enter the market with immediate effect. Therefore, we need a website to communicate our products, values etc. The overarching branding values are: - Sustainability - Enjoyment of doing the right things to save our planet - Enjoyment because of the easy, intuitive usage of our products - Technical supremacy of our products The structure of the website (menu items) should be: - Home - About us - News - Career - B2B - B2C - Product page B2C: HOME Line (overview of 3 products) - Product page B2B: BUSINESS Line + HOME Line (overview of 5 products in total) - Product pages Detail: 1 page for each product (5 in total) - Contact page B2C/B2B: Form to pre-qualify inquiries + automated BOT answer - FAQ Section - Download Section for manuals etc. - Impress - Data/privacy Due to a tight timeline, responsiveness is crucial and will be assured as well from us.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~01b94ab81175cbca42",
+      "title": "Device to flash Atmel MC: PCB Design and Fabrication Data",
+      "description": "We are looking for a skilled and experienced PCB designer to help us with a project involving the design and fabrication of a device to flash Atmel MC. The project duration is expected to be less than one month. The ideal candidate should have a strong background in multilayer PCB design and circuit design, with specific knowledge of Microchip and Atmel MC. Proficiency in Altium Designer is a must, along with a deep understanding of electrical engineering and electronics. To apply for this job, please submit a proposal detailing how you can assist with the project. Include information about your relevant experience, especially any past projects involving similar tasks. Feel free to provide links to completed projects that showcase your expertise and skills. We look forward to reviewing your proposals and finding the right candidate to help us with this important project.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~01d3b307e433087cdc",
+      "title": "BOM optimisation of PCB components",
+      "description": "In the attachemnt you can find a list of components which we would like to use for our new controlle unit. Before entering the next stage in our development we have to double check and optimise this list regarding availability and unit price of each component. For each component there is given one articlenumber as a reference. Please search for identical alterntives from chinese manufacturers and state available stock, lead time and unit price. The more alternatives per item, the better. We need the completed list by Wednesday June 28th, 2022 afternoon.",
+      "attachments": []
+    },
+    {
+      "ciphertext": "~01f5b1f979e3321f7b",
+      "title": "BOM optimisation of PCB components",
+      "description": "In the attachemnt you can find a list of components which we would like to use for our new controlle unit. Before entering the next stage in our development we have to double check and optimise this list regarding availability and unit price of each component. For each component there is given one articlenumber as a reference. Please search for identical alterntives from different manufacturers and state available stock, lead time and unit price. The more alternatives per item, the better. Components marked in red are safety relevant, alternatives must have the same certificates as the reference items. We need the completed list by Wednesday June 1st, 2022 afternoon.",
+      "attachments": []
+    }
+  ]
+}

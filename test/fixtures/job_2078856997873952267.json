@@ -1,0 +1,944 @@
+{
+  "uid": "2078856997873952267",
+  "ciphertext": "~022078856997873952267",
+  "title": "Full-Stack Dev to Fix Bugs, Harden Security & Ship Core Flows on SaaS Portal",
+  "url": "https://www.upwork.com/jobs/~022078856997873952267",
+  "scrapedAt": "2026-07-19T21:10:13.303Z",
+  "feed": {
+    "uid": "2078856997873952267",
+    "title": "Full-Stack Dev to Fix Bugs, Harden Security & Ship Core Flows on SaaS Portal",
+    "ciphertext": "~022078856997873952267",
+    "description": "Hi there — I’m Jake, founder of BANGER EDITS (bangeredits.com), an on-demand video editing portal for\ncreators, brands, and agencies.\nThe MVP portal has already been built (on Lovable.dev / React + Supabase stack). It’s live but has bugs, missing\nsecurity hardening, and a few core flows that need finishing before I open it up to paying customers.\nI need a full-stack developer who can: 1. QA the existing build — walk through every user flow, log bugs, fix\nthem 2. Harden security — proper auth, RBAC, rate limiting, secrets management 3. Wire up transactional\nemails — signup, brief submitted, banger delivered 4. Verify the briefing flow — customer submits brief →\neditor receives it cleanly 5. Ship the timeline feedback feature — pin comments on video timeline (already\npartially built, needs finishing) 6. Build me a proper master admin account — see all users, all projects, all\npayments, all messages",
+    "type": 2,
+    "recno": "1026016604",
+    "freelancersToHire": 0,
+    "duration": "Less than 1 week",
+    "durationLabel": "Less than 1 week",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T14:58:26.609Z",
+    "publishedOn": "2026-07-19T15:00:05.039Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 10,
+      "totalSpent": 4360.52,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "GBR",
+        "city": "Leeds",
+        "state": "",
+        "countryTimezone": "Europe/London",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T15:02:59.342Z",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784473208078",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1691099315571273728",
+        "prefLabel": "Claude"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1031626762688643072",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "996364628025274386",
+        "prefLabel": "Python"
+      },
+      {
+        "id": "996364628012691466",
+        "prefLabel": "React Native"
+      },
+      {
+        "id": "1031626753368899584",
+        "prefLabel": "Laravel"
+      },
+      {
+        "id": "996364628025274385",
+        "prefLabel": "PHP"
+      },
+      {
+        "id": "1052162208999198724",
+        "prefLabel": "WordPress"
+      },
+      {
+        "id": "1052162208781094930",
+        "prefLabel": "Figma"
+      },
+      {
+        "id": "1484275081036877824",
+        "prefLabel": "MERN Stack"
+      },
+      {
+        "id": "1484275089215770624",
+        "prefLabel": "Full-Stack Development"
+      },
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1691099314216513536",
+        "prefLabel": "Web Application Development"
+      },
+      {
+        "id": "1031626760125923328",
+        "prefLabel": "Mobile App Development"
+      },
+      {
+        "id": "1225465949685256192",
+        "prefLabel": "Mobile App"
+      },
+      {
+        "id": "1031626779570716672",
+        "prefLabel": "Shopify"
+      },
+      {
+        "id": "1691099315051180032",
+        "prefLabel": "AI Implementation"
+      },
+      {
+        "id": "1733104400597401607",
+        "prefLabel": "n8n"
+      },
+      {
+        "id": "1733104401071357956",
+        "prefLabel": "ElevenLabs"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"2\"}",
+    "attrs": [
+      {
+        "uid": "1691099315571273728",
+        "prettyName": "Claude",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274386",
+        "prettyName": "Python",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628012691466",
+        "prettyName": "React Native",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626753368899584",
+        "prettyName": "Laravel",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274385",
+        "prettyName": "PHP",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162208999198724",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1052162208781094930",
+        "prettyName": "Figma",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275081036877824",
+        "prettyName": "MERN Stack",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275089215770624",
+        "prettyName": "Full-Stack Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099314216513536",
+        "prettyName": "Web Application Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626760125923328",
+        "prettyName": "Mobile App Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1225465949685256192",
+        "prettyName": "Mobile App",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626779570716672",
+        "prettyName": "Shopify",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099315051180032",
+        "prettyName": "AI Implementation",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1733104400597401607",
+        "prettyName": "n8n",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1733104401071357956",
+        "prettyName": "ElevenLabs",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": []
+    },
+    "position": 3
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T14:58:26.609Z",
+        "publishTime": "2026-07-19T15:00:05.039Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Hi there — I’m Jake, founder of BANGER EDITS (bangeredits.com), an on-demand video editing portal for\ncreators, brands, and agencies.\nThe MVP portal has already been built (on Lovable.dev / React + Supabase stack). It’s live but has bugs, missing\nsecurity hardening, and a few core flows that need finishing before I open it up to paying customers.\nI need a full-stack developer who can: 1. QA the existing build — walk through every user flow, log bugs, fix\nthem 2. Harden security — proper auth, RBAC, rate limiting, secrets management 3. Wire up transactional\nemails — signup, brief submitted, banger delivered 4. Verify the briefing flow — customer submits brief →\neditor receives it cleanly 5. Ship the timeline feedback feature — pin comments on video timeline (already\npartially built, needs finishing) 6. Build me a proper master admin account — see all users, all projects, all\npayments, all messages",
+        "info": {
+          "ciphertext": "~022078856997873952267",
+          "id": "2078856997873952267",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Full-Stack Dev to Fix Bugs, Harden Security & Ship Core Flows on SaaS Portal",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T14:58:26.609Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:frontenddevelopment",
+            "prefLabel": "Front-End Development",
+            "id": "1110580755057594368",
+            "uid": "1110580755057594368"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1691099315571273728",
+              "freeText": null,
+              "prefLabel": "Claude",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691466",
+              "freeText": null,
+              "prefLabel": "React Native",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626753368899584",
+              "freeText": null,
+              "prefLabel": "Laravel",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1052162208781094930",
+              "freeText": null,
+              "prefLabel": "Figma",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275081036877824",
+              "freeText": null,
+              "prefLabel": "MERN Stack",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275089215770624",
+              "freeText": null,
+              "prefLabel": "Full-Stack Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099314216513536",
+              "freeText": null,
+              "prefLabel": "Web Application Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626760125923328",
+              "freeText": null,
+              "prefLabel": "Mobile App Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1225465949685256192",
+              "freeText": null,
+              "prefLabel": "Mobile App",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626779570716672",
+              "freeText": null,
+              "prefLabel": "Shopify",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099315051180032",
+              "freeText": null,
+              "prefLabel": "AI Implementation",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1733104400597401607",
+              "freeText": null,
+              "prefLabel": "n8n",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1733104401071357956",
+              "freeText": null,
+              "prefLabel": "ElevenLabs",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-19T15:00:05.039Z",
+            "sourcingUpdateCount": "0",
+            "browser": "Chrome",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "Macintosh",
+            "flowType": "RJP"
+          },
+          "tags": []
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T15:02:59.334Z",
+          "totalApplicants": 56,
+          "totalHired": 0,
+          "totalInvitedToInterview": 7,
+          "unansweredInvites": 5,
+          "invitationsSent": 12,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Europe/London (UTC+01:00)",
+          "city": "Leeds",
+          "country": "GBR"
+        },
+        "stats": {
+          "totalAssignments": 10,
+          "activeAssignmentsCount": 9,
+          "hoursCount": 259.83,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 4,
+          "totalCharges": {
+            "amount": 4360.52
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "2007450039457579922",
+          "isEDCReplicated": null,
+          "contractDate": "2026-01-03T00:00:00.000Z",
+          "profile": {
+            "industry": "Media & Entertainment",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 2,
+          "postedCount": 7,
+          "openJobs": [
+            {
+              "id": "2074516525172130613",
+              "uid": "2074516525172130613",
+              "isPtcPrivate": false,
+              "ciphertext": "~022074516525172130613",
+              "title": "Wedding Video Editor",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 8.688988954316283
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-09T10:34:49.267Z",
+          "endDate": null,
+          "totalCharge": 868.6,
+          "totalHours": 89.166666,
+          "jobInfo": {
+            "title": "Social Media Manager",
+            "id": "2007734755292969996",
+            "uid": "2007734755292969996",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022007734755292969996"
+          },
+          "contractorInfo": {
+            "contractorName": "Ma. Zobel R-zee  Z.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017623703b1fd0accf"
+          },
+          "rate": {
+            "amount": 10
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-21T00:01:53.507Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video editor / Cinematic / Grading, Transitions & ai",
+            "id": "2054514988713724671",
+            "uid": "2054514988713724671",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~022054514988713724671"
+          },
+          "contractorInfo": {
+            "contractorName": "Zain A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b60d75c3f1d93adb"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-19T17:09:38.501Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video editor / Cinematic / Grading, Transitions & ai",
+            "id": "2054514988713724671",
+            "uid": "2054514988713724671",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~022054514988713724671"
+          },
+          "contractorInfo": {
+            "contractorName": "Nguyen L.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01948ba5b253b63e76"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-18T17:59:00.214Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video editor / Cinematic / Grading, Transitions & ai",
+            "id": "2054514988713724671",
+            "uid": "2054514988713724671",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~022054514988713724671"
+          },
+          "contractorInfo": {
+            "contractorName": "Mateusz Z.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~013e7a7ef1a6e47e8d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-18T17:17:36.263Z",
+          "endDate": null,
+          "totalCharge": 620,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video editor / Cinematic / Grading, Transitions & ai",
+            "id": "2054514988713724671",
+            "uid": "2054514988713724671",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~022054514988713724671"
+          },
+          "contractorInfo": {
+            "contractorName": "Mariia K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01299b2f91e815ed42"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-02-19T16:57:23.923Z",
+          "endDate": null,
+          "totalCharge": 1505.3,
+          "totalHours": 170.333334,
+          "jobInfo": {
+            "title": "Organised Virtual Assistant",
+            "id": "2020947686798907497",
+            "uid": "2020947686798907497",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022020947686798907497"
+          },
+          "contractorInfo": {
+            "contractorName": "Claire B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~013fd3ca6beefa5561"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-14T14:32:03.477Z",
+          "endDate": null,
+          "totalCharge": 120,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Cinematic Video Editor",
+            "id": "2007451442893402071",
+            "uid": "2007451442893402071",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022007451442893402071"
+          },
+          "contractorInfo": {
+            "contractorName": "Perveez  A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~016cea8553db6be6d8"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-11T11:55:25.984Z",
+          "endDate": null,
+          "totalCharge": 60,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Cinematic Video Editor",
+            "id": "2007451442893402071",
+            "uid": "2007451442893402071",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022007451442893402071"
+          },
+          "contractorInfo": {
+            "contractorName": "Emmy O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010138d5b06976464b"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-01-11T11:31:05.128Z",
+          "endDate": null,
+          "totalCharge": 831.62,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Cinematic Video Editor",
+            "id": "2007451442893402071",
+            "uid": "2007451442893402071",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022007451442893402071"
+          },
+          "contractorInfo": {
+            "contractorName": "Bilel D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015c0a821f5603eb58"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-16T11:08:29.733Z",
+          "endDate": "2026-06-08T10:57:04.650Z",
+          "totalCharge": 50,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Video editor / Cinematic / Grading, Transitions & ai",
+            "id": "2054514988713724671",
+            "uid": "2054514988713724671",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~022054514988713724671"
+          },
+          "contractorInfo": {
+            "contractorName": "Faisal M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~011c30a47603e7a895"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was really nice working with you. I'm looking forward to our next project together. Thanks a lot!"
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 26.59232804232804,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 115,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

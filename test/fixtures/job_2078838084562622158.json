@@ -1,0 +1,383 @@
+{
+  "uid": "2078838084562622158",
+  "ciphertext": "~022078838084562622158",
+  "title": "I need NextJS Saas Website SMM PANEL",
+  "url": "https://www.upwork.com/jobs/~022078838084562622158",
+  "scrapedAt": "2026-07-19T21:10:37.676Z",
+  "feed": {
+    "uid": "2078838084562622158",
+    "title": "I need NextJS Saas Website SMM PANEL",
+    "ciphertext": "~022078838084562622158",
+    "description": "# Full-Stack Developer Needed to Build a Complete Website From Figma\n\nI'm looking for an experienced full-stack developer (or team) to build a complete website based on my Figma design. Please read the entire project scope before applying. By accepting this project, you agree to the requirements and expectations listed below.\n\n## 1. Website Pages & Structure\n\n### Landing Page\n\n* A clean, modern homepage designed to introduce the brand, highlight services, and guide users to key sections such as products, free services, and tools.\n\n### Product Pages\n\n* 28+ individual product pages.\n* Organized into 8+ categories.\n* All product pages will follow the same layout and structure.\n* Only the product description and minor icons will differ per page.\n\n### Video Downloader / Viewer / Counter Pages\n\n* 10+ pages total.\n* Includes tools such as:\n\n  * Instagram Video Downloader\n  * Instagram Profile Picture Viewer\n  * Instagram Story Downloader\n  * Instagram Followers Counter\n  * Similar tools for YouTube, X (Twitter), Facebook, and other supported platforms.\n* All pages will use the same layout and functionality.\n* Only the text/description changes per page.\n* Functionality must be fast and reliable.\n\n### Free Service Pages\n\n* 5 to 10 pages.\n* Includes services such as:\n\n  * Free Instagram Followers\n  * Free Instagram Likes\n  * Free Instagram Views\n  * Similar services for YouTube, X (Twitter), Facebook, TikTok, and other supported platforms.\n* Same layout across all pages.\n* Only descriptions differ.\n\n### AI Instagram Growth Page\n\n* Single dedicated page.\n* Focused on an AI-based Instagram growth service.\n* Clean, modern, conversion-focused design.\n\n### Order Flow Pages\n\nIncludes:\n\n* Media selection page (photos/videos).\n* Checkout page.\n* Thank You page.\n\nRequirements:\n\n* API must fetch user media directly from supported social platforms.\n* User should be able to select content easily.\n* Smooth transition from media selection to checkout.\n* Secure and simple payment process.\n* The payment processor is **private for now** and will only be shared with the selected developer. It is **not Stripe or any other popular payment processor**.\n\n### Admin Panel\n\nA complete admin dashboard with the ability to:\n\n* Add and manage third-party API providers.\n* Modify pricing.\n* Set discounts.\n* Create and manage coupon codes.\n* View and manage all orders.\n* Access general site management tools.\n* Manage website content where appropriate.\n\n### Blog\n\n* Standard blog system.\n* Ability to post, edit, and manage articles.\n\n### Legal Pages\n\n* Terms of Service.\n* Privacy Policy.\n* Refund Policy.\n\n### Contact Page\n\n* Simple contact form.\n* Email integration.\n\n---\n\n## 2. Hosting Requirements\n\n* The main website will be hosted on Vercel.\n* Pages requiring downloading functionality (video downloader tools, etc.) must be hosted separately (such as on DigitalOcean or a similar VPS).\n* This setup is required to avoid Vercel limitations and ensure stable performance with predictable monthly costs.\n\n---\n\n## 3. Additional Conditions\n\n* If any page or feature is missing from this document but is clearly required for the website to function properly, you agree to implement it without additional cost.\n* Minor adjustments, improvements, and bug fixes are expected as part of the project before final delivery.\n\n---\n\n## 4. Design & Performance Requirements\n\nBy accepting this project, you agree to:\n\n* Deliver a 100% pixel-perfect implementation based on the provided Figma design.\n* Ensure the website is fully optimized for speed, responsiveness, and overall performance.\n* Keep page size as close to **1MB** as reasonably possible.\n* Follow modern web development standards and best practices.\n* Write clean, maintainable, scalable code.\n* Ensure the website works properly across desktop, tablet, and mobile devices.\nAnimations should be clean and fast, i will give animations idea from the reference websites that i have so you can match.\n\n---\n\n## 5. Agreement & Refund Policy\n\nBy accepting this project, you agree that:\n\n* If you are unable to complete the project as agreed, or\n* If you stop working before the project is completed,\n\nyou agree to provide a full refund.\n\nThis document serves as the agreement outlining the project scope, expectations, delivery standards, and completion requirements.\n\n## When Applying\n\nPlease include:\n\n* Examples of similar websites you've built.\n* Your recommended tech stack.\n* Estimated timeline.\n* Estimated cost.\n* Your experience with API integrations, admin dashboards, and large-scale web applications.\n\nAll the designs are done already.",
+    "type": 1,
+    "recno": "1026016044",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": null,
+    "amount": {
+      "amount": 2000,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T13:43:17.379Z",
+    "publishedOn": "2026-07-19T13:52:58.706Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Albania",
+        "city": null,
+        "state": null,
+        "countryTimezone": "Europe/Berlin",
+        "worldRegion": "Europe"
+      },
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T13:47:55.456Z",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784469199831",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "free_text",
+        "prefLabel": "nextjs"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": null,
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"26\"}",
+    "attrs": [
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "free_text",
+        "prettyName": "nextjs",
+        "freeText": "nextjs",
+        "skillType": null
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 27
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T13:43:17.379Z",
+        "publishTime": "2026-07-19T13:52:58.706Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "# Full-Stack Developer Needed to Build a Complete Website From Figma\n\nI'm looking for an experienced full-stack developer (or team) to build a complete website based on my Figma design. Please read the entire project scope before applying. By accepting this project, you agree to the requirements and expectations listed below.\n\n## 1. Website Pages & Structure\n\n### Landing Page\n\n* A clean, modern homepage designed to introduce the brand, highlight services, and guide users to key sections such as products, free services, and tools.\n\n### Product Pages\n\n* 28+ individual product pages.\n* Organized into 8+ categories.\n* All product pages will follow the same layout and structure.\n* Only the product description and minor icons will differ per page.\n\n### Video Downloader / Viewer / Counter Pages\n\n* 10+ pages total.\n* Includes tools such as:\n\n  * Instagram Video Downloader\n  * Instagram Profile Picture Viewer\n  * Instagram Story Downloader\n  * Instagram Followers Counter\n  * Similar tools for YouTube, X (Twitter), Facebook, and other supported platforms.\n* All pages will use the same layout and functionality.\n* Only the text/description changes per page.\n* Functionality must be fast and reliable.\n\n### Free Service Pages\n\n* 5 to 10 pages.\n* Includes services such as:\n\n  * Free Instagram Followers\n  * Free Instagram Likes\n  * Free Instagram Views\n  * Similar services for YouTube, X (Twitter), Facebook, TikTok, and other supported platforms.\n* Same layout across all pages.\n* Only descriptions differ.\n\n### AI Instagram Growth Page\n\n* Single dedicated page.\n* Focused on an AI-based Instagram growth service.\n* Clean, modern, conversion-focused design.\n\n### Order Flow Pages\n\nIncludes:\n\n* Media selection page (photos/videos).\n* Checkout page.\n* Thank You page.\n\nRequirements:\n\n* API must fetch user media directly from supported social platforms.\n* User should be able to select content easily.\n* Smooth transition from media selection to checkout.\n* Secure and simple payment process.\n* The payment processor is **private for now** and will only be shared with the selected developer. It is **not Stripe or any other popular payment processor**.\n\n### Admin Panel\n\nA complete admin dashboard with the ability to:\n\n* Add and manage third-party API providers.\n* Modify pricing.\n* Set discounts.\n* Create and manage coupon codes.\n* View and manage all orders.\n* Access general site management tools.\n* Manage website content where appropriate.\n\n### Blog\n\n* Standard blog system.\n* Ability to post, edit, and manage articles.\n\n### Legal Pages\n\n* Terms of Service.\n* Privacy Policy.\n* Refund Policy.\n\n### Contact Page\n\n* Simple contact form.\n* Email integration.\n\n---\n\n## 2. Hosting Requirements\n\n* The main website will be hosted on Vercel.\n* Pages requiring downloading functionality (video downloader tools, etc.) must be hosted separately (such as on DigitalOcean or a similar VPS).\n* This setup is required to avoid Vercel limitations and ensure stable performance with predictable monthly costs.\n\n---\n\n## 3. Additional Conditions\n\n* If any page or feature is missing from this document but is clearly required for the website to function properly, you agree to implement it without additional cost.\n* Minor adjustments, improvements, and bug fixes are expected as part of the project before final delivery.\n\n---\n\n## 4. Design & Performance Requirements\n\nBy accepting this project, you agree to:\n\n* Deliver a 100% pixel-perfect implementation based on the provided Figma design.\n* Ensure the website is fully optimized for speed, responsiveness, and overall performance.\n* Keep page size as close to **1MB** as reasonably possible.\n* Follow modern web development standards and best practices.\n* Write clean, maintainable, scalable code.\n* Ensure the website works properly across desktop, tablet, and mobile devices.\nAnimations should be clean and fast, i will give animations idea from the reference websites that i have so you can match.\n\n---\n\n## 5. Agreement & Refund Policy\n\nBy accepting this project, you agree that:\n\n* If you are unable to complete the project as agreed, or\n* If you stop working before the project is completed,\n\nyou agree to provide a full refund.\n\nThis document serves as the agreement outlining the project scope, expectations, delivery standards, and completion requirements.\n\n## When Applying\n\nPlease include:\n\n* Examples of similar websites you've built.\n* Your recommended tech stack.\n* Estimated timeline.\n* Estimated cost.\n* Your experience with API integrations, admin dashboards, and large-scale web applications.\n\nAll the designs are done already.",
+        "info": {
+          "ciphertext": "~022078838084562622158",
+          "id": "2078838084562622158",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "I need NextJS Saas Website SMM PANEL",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T13:43:17.379Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "nextjs",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 2000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T13:52:58.706Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T13:47:55.448Z",
+          "totalApplicants": 22,
+          "totalHired": 0,
+          "totalInvitedToInterview": 4,
+          "unansweredInvites": 8,
+          "invitationsSent": 14,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Berlin (UTC+02:00)",
+          "city": null,
+          "country": "Albania"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "1561019767737511937",
+          "isEDCReplicated": null,
+          "contractDate": "2022-08-20T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 5,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 2152,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 1500,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 6000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

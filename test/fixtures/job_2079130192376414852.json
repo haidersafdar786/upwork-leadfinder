@@ -1,0 +1,1980 @@
+{
+  "uid": "2079130192376414852",
+  "ciphertext": "~022079130192376414852",
+  "title": "Authorize.Net payment link app — admin panel + hosted payment form (full spec & design provided)",
+  "url": "https://www.upwork.com/jobs/~022079130192376414852",
+  "scrapedAt": "2026-07-21T09:35:27.728Z",
+  "feed": {
+    "isSaved": true,
+    "title": "Authorize.Net payment link app — admin panel + hosted payment form (full spec & design provided)",
+    "type": 1,
+    "description": "Our company sells premium humidors and cigars. A meaningful share of our orders arrive by email or phone, and we currently have no clean way to take card payment for them.\n\nWe need a small, well-built web application in two parts:\n\n1. An internal admin panel where an authorised administrator enters an order number, description, amount and customer email, and sends the customer a secure single-use payment link.\n\n2. A branded hosted payment form where the customer enters their own card and billing address and pays. Processing is through Authorize.Net.\n\nCompany staff must never see, type or store card data. We use Accept.js, so the card goes from the customer’s browser straight to Authorize.Net and our server only ever holds an opaque token. Target scope is PCI SAQ A-EP. \n\nThere is a strict three-role model, and it is the core of the project:\n\nSuper Admin — creates, blocks and unblocks users. Cannot create payment links.\n\nAdministrator — creates and sends payment links. Every link is stamped with their name.\n\nAgent — views payment status and resends a link a customer has lost. Cannot create a link or change an amount.\n\nRole separation must be enforced server-side on every endpoint, not by hiding buttons. 2FA is mandatory for all three roles.\n\nWhat you get on day one:\n\nA 12-page technical specification: flows, role matrix, field-level validation, data model, gateway configuration, security requirements and acceptance criteria (attached)\n\nComplete UI design for all five screens, in HTML (attached)\n\nAll interface copy, error messages and email content\n\nOur Authorize.Net sandbox and production credentials\n\nWhat we need from you: the build, the gateway integration, hosting setup, security implementation, testing and handover. Nothing to design, nothing to write, nothing to specify.\n\nStack: your choice, as long as it is mainstream and maintainable — Node/TypeScript, Laravel or Django, with PostgreSQL or MySQL. No Shopify dependency: we run a Shopify store and order numbers come from it, but the order number is typed in by hand and the app must stand alone. Full source code and IP transfer to us on completion.\n\nPlease read the attached spec before applying, and answer the screening questions specifically. Generic proposals will not be reviewed.\n\nScope in one list: Auth: email + password + mandatory TOTP 2FA, self-service password change and reset, Argon2id/bcrypt, breached-password check, lockout, session management\n\nUser management (Super Admin only): invite by email — the user sets their own password and 2FA, never an admin; change role; block/unblock with instant session termination; force password reset; reset 2FA; soft delete\n\nPayment link creation (Administrator only): validation, confirmation step, configurable expiry, immutability after send\n\nPayment link list (all roles, actions by role): filters, search, CSV export, detail drawer with attempt history, AVS/CVV results and transaction ID\n\nHosted payment form: branded, responsive, Accept.js tokenisation, mandatory billing address for AVS, idempotent submission, branded states for expired / paid / cancelled / not found\n\nAuthorize.Net: authCaptureTransaction , eCommerce market type, AFDS + AVS + CVV\nfilters, heldForReview handling, 3DS where the account supports it\n\nWebhooks: signature-verified, idempotent, authoritative for payment status\n\nTransactional email via SendGrid/Postmark/SES: 7 templates, SPF/DKIM/DMARC setup\n\nAudit log: every user and link action with actor, IP and timestamp\n\nDeploy to pay.our-domain, TLS, backups with tested restore, error tracking with card-data scrubbing\n\nWritten statement of the PCI SAQ level your architecture achieves\n\n30 days of bug-fix warranty and a recorded handover\n\nAcceptance is objective. The spec lists 17 acceptance criteria. Among them: an Agent session must be rejected when it calls the create-link endpoint directly; double-clicking Pay Now must produce exactly one charge; a deliberately mismatched ZIP must be declined by AVS; a replayed webhook must not duplicate a record; and a network trace must show that no card data ever reaches our server.\n\nScreeneing questions:\n\n1. Have you integrated Authorize.Net before? Which product — Accept.js, Accept Hosted, or the direct API — and please link to a payment page you built that is live today.\n\n2. Walk me through where the card number travels in your proposed architecture, from the customer’s keystroke to Authorize.Net. Be specific about what our server receives.\n\n3. Which PCI SAQ level would your proposed build qualify for, and why?\n\n4. An Agent-role user copies their session token and calls the “create payment link” endpoint directly with curl. What happens, and where in your code is that decided?\n\n5. A customer double-clicks Pay Now and their browser retries the request. Separately, Authorize.Net redelivers the same webhook three times. How does your build avoid a double charge and a duplicate record?",
+    "category2": "Web, Mobile & Software Dev",
+    "durationLabel": "1 to 3 months",
+    "engagement": "",
+    "amount": {
+      "amount": "2000.0"
+    },
+    "uid": "2079130192376414852",
+    "id": "2079130192376414852",
+    "rid": 1026023844,
+    "client": {
+      "paymentVerificationStatus": true,
+      "location": {
+        "country": "United States"
+      },
+      "totalSpent": "303189.86",
+      "totalReviews": 202,
+      "totalFeedback": 4.79
+    },
+    "freelancersToHire": 1,
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "prefFreelancerLocation": [],
+    "relevanceEncoded": "{}",
+    "attrs": [],
+    "locations": [],
+    "hourlyBudget": {},
+    "tags": [
+      "contractToHireSet",
+      "searchable",
+      "C2HJobsOptInEducation"
+    ],
+    "totalFreelancersToHire": 1,
+    "$isClosed": false,
+    "ciphertext": "~022079130192376414852",
+    "publishedDateTime": "2026-07-20T09:05:16.593Z",
+    "createdOn": "2026-07-20T09:05:16.593Z",
+    "isApplied": false,
+    "position": 2
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": true,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-20T09:04:01.377Z",
+        "publishTime": "2026-07-20T09:05:16.593Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "EXPERT",
+        "description": "Our company sells premium humidors and cigars. A meaningful share of our orders arrive by email or phone, and we currently have no clean way to take card payment for them.\n\nWe need a small, well-built web application in two parts:\n\n1. An internal admin panel where an authorised administrator enters an order number, description, amount and customer email, and sends the customer a secure single-use payment link.\n\n2. A branded hosted payment form where the customer enters their own card and billing address and pays. Processing is through Authorize.Net.\n\nCompany staff must never see, type or store card data. We use Accept.js, so the card goes from the customer’s browser straight to Authorize.Net and our server only ever holds an opaque token. Target scope is PCI SAQ A-EP. \n\nThere is a strict three-role model, and it is the core of the project:\n\nSuper Admin — creates, blocks and unblocks users. Cannot create payment links.\n\nAdministrator — creates and sends payment links. Every link is stamped with their name.\n\nAgent — views payment status and resends a link a customer has lost. Cannot create a link or change an amount.\n\nRole separation must be enforced server-side on every endpoint, not by hiding buttons. 2FA is mandatory for all three roles.\n\nWhat you get on day one:\n\nA 12-page technical specification: flows, role matrix, field-level validation, data model, gateway configuration, security requirements and acceptance criteria (attached)\n\nComplete UI design for all five screens, in HTML (attached)\n\nAll interface copy, error messages and email content\n\nOur Authorize.Net sandbox and production credentials\n\nWhat we need from you: the build, the gateway integration, hosting setup, security implementation, testing and handover. Nothing to design, nothing to write, nothing to specify.\n\nStack: your choice, as long as it is mainstream and maintainable — Node/TypeScript, Laravel or Django, with PostgreSQL or MySQL. No Shopify dependency: we run a Shopify store and order numbers come from it, but the order number is typed in by hand and the app must stand alone. Full source code and IP transfer to us on completion.\n\nPlease read the attached spec before applying, and answer the screening questions specifically. Generic proposals will not be reviewed.\n\nScope in one list: Auth: email + password + mandatory TOTP 2FA, self-service password change and reset, Argon2id/bcrypt, breached-password check, lockout, session management\n\nUser management (Super Admin only): invite by email — the user sets their own password and 2FA, never an admin; change role; block/unblock with instant session termination; force password reset; reset 2FA; soft delete\n\nPayment link creation (Administrator only): validation, confirmation step, configurable expiry, immutability after send\n\nPayment link list (all roles, actions by role): filters, search, CSV export, detail drawer with attempt history, AVS/CVV results and transaction ID\n\nHosted payment form: branded, responsive, Accept.js tokenisation, mandatory billing address for AVS, idempotent submission, branded states for expired / paid / cancelled / not found\n\nAuthorize.Net: authCaptureTransaction , eCommerce market type, AFDS + AVS + CVV\nfilters, heldForReview handling, 3DS where the account supports it\n\nWebhooks: signature-verified, idempotent, authoritative for payment status\n\nTransactional email via SendGrid/Postmark/SES: 7 templates, SPF/DKIM/DMARC setup\n\nAudit log: every user and link action with actor, IP and timestamp\n\nDeploy to pay.our-domain, TLS, backups with tested restore, error tracking with card-data scrubbing\n\nWritten statement of the PCI SAQ level your architecture achieves\n\n30 days of bug-fix warranty and a recorded handover\n\nAcceptance is objective. The spec lists 17 acceptance criteria. Among them: an Agent session must be rejected when it calls the create-link endpoint directly; double-clicking Pay Now must produce exactly one charge; a deliberately mismatched ZIP must be declined by AVS; a replayed webhook must not duplicate a record; and a network trace must show that no card data ever reaches our server.\n\nScreeneing questions:\n\n1. Have you integrated Authorize.Net before? Which product — Accept.js, Accept Hosted, or the direct API — and please link to a payment page you built that is live today.\n\n2. Walk me through where the card number travels in your proposed architecture, from the customer’s keystroke to Authorize.Net. Be specific about what our server receives.\n\n3. Which PCI SAQ level would your proposed build qualify for, and why?\n\n4. An Agent-role user copies their session token and calls the “create payment link” endpoint directly with curl. What happens, and where in your code is that decided?\n\n5. A customer double-clicks Pay Now and their browser retries the request. Separately, Authorize.Net redelivers the same webhook three times. How does your build avoid a double charge and a duplicate record?",
+        "info": {
+          "ciphertext": "~022079130192376414852",
+          "id": "2079130192376414852",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Authorize.Net payment link app — admin panel + hosted payment form (full spec & design provided)",
+          "hideBudget": false,
+          "createdOn": "2026-07-20T09:04:01.377Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626717457268736",
+              "freeText": null,
+              "prefLabel": "Authorize.Net",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099314283622400",
+              "freeText": null,
+              "prefLabel": "Payment Gateway",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580653337333760",
+              "freeText": null,
+              "prefLabel": "PCI DSS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626715037155328",
+              "freeText": null,
+              "prefLabel": "Application Security",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Auth and RBAC",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Backend",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "Frontend",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626734704246784",
+              "freeText": null,
+              "prefLabel": "Email Deliverability",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": null,
+              "freeText": "DevOps basics",
+              "prefLabel": null,
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 2000,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-20T09:05:16.593Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [
+          {
+            "fileName": "AM Payment Link UI Mockups.pdf",
+            "length": 377169,
+            "uri": "/att/download/openings/2079130192376414852/attachments/42272638-eee6-4f37-a5f0-16ba83d4ce4c/download"
+          },
+          {
+            "fileName": "AM Payment Link UI Mockups.html",
+            "length": 54131,
+            "uri": "/att/download/openings/2079130192376414852/attachments/661ba470-7d69-4d00-9421-47cb337ea02d/download"
+          },
+          {
+            "fileName": "AM Payment Link Project Spec.pdf",
+            "length": 167338,
+            "uri": "/att/download/openings/2079130192376414852/attachments/948cb81e-9af8-48c4-bd03-365bb52b5354/download"
+          }
+        ],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T15:02:31.990Z",
+          "totalApplicants": 68,
+          "totalHired": 0,
+          "totalInvitedToInterview": 3,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 90,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": true,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 7200000,
+          "countryTimezone": "Europe/Prague (UTC+02:00)",
+          "city": "Hialeah",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 318,
+          "activeAssignmentsCount": 19,
+          "hoursCount": 12783,
+          "feedbackCount": 202,
+          "score": 4.79,
+          "totalJobsWithHires": 225,
+          "totalCharges": {
+            "amount": 303189.86
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1175140002615377920",
+          "isEDCReplicated": null,
+          "contractDate": "2019-09-20T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 309,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 14.52430806539936
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-18T14:56:49.537Z",
+          "endDate": null,
+          "totalCharge": 900,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "InterTabac 2026 design project",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Oleh C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0144ec7e8d6b0ea04c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-05T12:47:43.726Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Spanish-Speaking Phone Survey Agent 3",
+            "id": "2043704118845964026",
+            "uid": "2043704118845964026",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043704118845964026"
+          },
+          "contractorInfo": {
+            "contractorName": "Katherine M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014c62811e2bd896ec"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-05T12:38:55.156Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Spanish-Speaking Phone Survey Agent 4",
+            "id": "2043706371892958339",
+            "uid": "2043706371892958339",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043706371892958339"
+          },
+          "contractorInfo": {
+            "contractorName": "Katherine M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014c62811e2bd896ec"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-23T13:16:54.196Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Spanish-Speaking Phone Survey Agent 2",
+            "id": "2043702242868002554",
+            "uid": "2043702242868002554",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043702242868002554"
+          },
+          "contractorInfo": {
+            "contractorName": "Miguel G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017cf85f615ddd66e6"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-13T13:42:57.044Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Google Maps Store Verification Task 2",
+            "id": "2043665581980015772",
+            "uid": "2043665581980015772",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043665581980015772"
+          },
+          "contractorInfo": {
+            "contractorName": "Nataliia K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013ac6cc6312ba541c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-13T13:36:42.861Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Google Maps Store Verification Task",
+            "id": "2043663752186912413",
+            "uid": "2043663752186912413",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043663752186912413"
+          },
+          "contractorInfo": {
+            "contractorName": "Nataliia K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013ac6cc6312ba541c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-12-05T12:26:49.701Z",
+          "endDate": null,
+          "totalCharge": 450,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Spanish-Speaking Phone Survey Agent",
+            "id": "1993665366343598244",
+            "uid": "1993665366343598244",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021993665366343598244"
+          },
+          "contractorInfo": {
+            "contractorName": "Diana Lorena  H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e44eab596f816f68"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-28T14:06:05.825Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Google Maps Store Verification Task",
+            "id": "1993351828722293994",
+            "uid": "1993351828722293994",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021993351828722293994"
+          },
+          "contractorInfo": {
+            "contractorName": "Nataliia K.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013ac6cc6312ba541c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-28T03:46:26.327Z",
+          "endDate": null,
+          "totalCharge": 269.5,
+          "totalHours": 8.166667,
+          "jobInfo": {
+            "title": "HubSpot & QuickBooks Integration Specialist",
+            "id": "1984307986874732570",
+            "uid": "1984307986874732570",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021984307986874732570"
+          },
+          "contractorInfo": {
+            "contractorName": "Simonell Sheena G.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01fcf9aea0c21fa671"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-12T08:47:28.498Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Senior Marketing Strategist to Develop Comprehensive Marketing Plan & Budget for a Luxury Brand",
+            "id": "1984008148742479512",
+            "uid": "1984008148742479512",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021984008148742479512"
+          },
+          "contractorInfo": {
+            "contractorName": "Dunja P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b1d4e9e6bec78336"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-11T17:14:45.865Z",
+          "endDate": null,
+          "totalCharge": 1764.46,
+          "totalHours": 167.166669,
+          "jobInfo": {
+            "title": "QA Specialist (English + Spanish)",
+            "id": "1986806733850593052",
+            "uid": "1986806733850593052",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021986806733850593052"
+          },
+          "contractorInfo": {
+            "contractorName": "Eduardo S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0133c572ea2e4215a3"
+          },
+          "rate": {
+            "amount": 11
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-09-11T12:24:35.304Z",
+          "endDate": null,
+          "totalCharge": 100,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Development of a Script (Katana - Extenciv)",
+            "id": "1960993089485115527",
+            "uid": "1960993089485115527",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021960993089485115527"
+          },
+          "contractorInfo": {
+            "contractorName": "Kostya O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017e2975f8735392e7"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-04T15:30:52.038Z",
+          "endDate": null,
+          "totalCharge": 14491.17,
+          "totalHours": 288.333334,
+          "jobInfo": {
+            "title": "Ongoing Shopify Website Maintenance & Support ",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Dmytro P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0141e61248d460f25f"
+          },
+          "rate": {
+            "amount": 46
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-08T10:20:08.819Z",
+          "endDate": null,
+          "totalCharge": 65.99,
+          "totalHours": 6.666667,
+          "jobInfo": {
+            "title": "Research Exhibition Booth Construction Companies in Germany for InterTabac 2025",
+            "id": "1942151063954692822",
+            "uid": "1942151063954692822",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~021942151063954692822"
+          },
+          "contractorInfo": {
+            "contractorName": "Maryna C.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b12a4168ca38ae03"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-13T16:36:44.844Z",
+          "endDate": null,
+          "totalCharge": 900,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Professional Booth Designer Needed for InterTabac 2025 Exhibition\nProject",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Oleh C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0144ec7e8d6b0ea04c"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-18T14:46:02.840Z",
+          "endDate": null,
+          "totalCharge": 350,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Migrate website from Shopify to Wordpress",
+            "id": "1905262035975800392",
+            "uid": "1905262035975800392",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021905262035975800392"
+          },
+          "contractorInfo": {
+            "contractorName": "Muhammad M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01448f922fdc616ee0"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T15:26:23.678Z",
+          "endDate": null,
+          "totalCharge": 12901.94,
+          "totalHours": 888.500001,
+          "jobInfo": {
+            "title": "Sales Expert - Long Term 20-40 hours/week",
+            "id": "1877845477564550548",
+            "uid": "1877845477564550548",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021877845477564550548"
+          },
+          "contractorInfo": {
+            "contractorName": "Harold M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~013347eabcb7ada6f0"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-03-27T15:13:18.552Z",
+          "endDate": "2026-07-01T06:39:55.611Z",
+          "totalCharge": 400,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Web Designer Needed for Shopify-Based Website (5 Pages)",
+            "id": "2034564236813868925",
+            "uid": "2034564236813868925",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022034564236813868925"
+          },
+          "contractorInfo": {
+            "contractorName": "Faith O.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01f04ccc60e6bc595f"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was a pleasure working with Faith! She is professional, responsive, and delivers quality work on time. Highly recommend and looking forward to collaborating again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Was an honor working with Svitlana. Thank you!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-23T15:44:18.384Z",
+          "endDate": "2026-06-26T15:55:35.130Z",
+          "totalCharge": 700,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Spanish-Speaking Phone Survey Agent 1",
+            "id": "2043699701282383152",
+            "uid": "2043699701282383152",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022043699701282383152"
+          },
+          "contractorInfo": {
+            "contractorName": "Alejandra P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~012903468c77ce2775"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": "It was a pleasure working with Alejandra. She called the shops, asked the right questions to gather specific information, and provided clear, detailed responses in a spreadsheet. I highly recommend her and would be happy to work with her again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Working with this client was wonderful—everything was very clear! Communication was smooth—I definitely recommend them."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T23:40:21.206Z",
+          "endDate": "2025-11-24T20:15:12.662Z",
+          "totalCharge": 10967.68,
+          "totalHours": 678.000001,
+          "jobInfo": {
+            "title": "Sales Expert - Long Term 20-40 hours/week",
+            "id": "1877845477564550548",
+            "uid": "1877845477564550548",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021877845477564550548"
+          },
+          "contractorInfo": {
+            "contractorName": "Nelson B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015474172ab71b9936"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.55,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-03T00:00:00.000Z",
+          "endDate": "2025-11-03T13:47:57.208Z",
+          "totalCharge": 282.99,
+          "totalHours": 13.000001,
+          "jobInfo": {
+            "title": "Freelance Recruiter is needed to find an Offline Marketing Manager (Spain)",
+            "id": "1904107967612938426",
+            "uid": "1904107967612938426",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~021904107967612938426"
+          },
+          "contractorInfo": {
+            "contractorName": "Ramona B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01397ef1dfe46df3ad"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.4,
+            "comment": "I would recommend to the client to improve communication because was completely lacking in this project, with the HR team changing very often. I submitted candidates and unfortunately never received any feedback."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-10T15:57:48.223Z",
+          "endDate": "2025-10-29T15:58:55.119Z",
+          "totalCharge": 1293.96,
+          "totalHours": 53.166667,
+          "jobInfo": {
+            "title": "Urgent: Recruiters Needed for Germany Market",
+            "id": "1904834007873357384",
+            "uid": "1904834007873357384",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021904834007873357384"
+          },
+          "contractorInfo": {
+            "contractorName": "Divya K.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0154f94fbf942994e0"
+          },
+          "rate": {
+            "amount": 24.15
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1.4,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-03T16:46:06.540Z",
+          "endDate": "2025-10-28T00:51:12.794Z",
+          "totalCharge": 3090.69,
+          "totalHours": 244.499998,
+          "jobInfo": {
+            "title": "Recruiter Spain",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Andrea N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e51ea0cde3932e05"
+          },
+          "rate": {
+            "amount": 12
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 2,
+            "comment": "Unfortunately, our collaboration with Andrea did not meet the agreed expectations. During the contract, we identified that hours were logged on the project without authorization and while the freelancer was engaged in other tasks unrelated to our project. Once this issue was noticed, we requested a correction and a refund for the affected hours. Only the last week’s charges were eligible for adjustment under Upwork’s rules.\n\nThis situation did not align with the level of professionalism and transparency we expect in our ongoing collaborations. Therefore, we decided to end the contract. We hope that this feedback will help improve future working practices."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "My experience with this client was challenging, and I would not recommend working with him. From the beginning, he showed inconsistent communication — frequently changing requirements, priorities, and deadlines, which caused confusion and rework.\n\nI consistently maintained a professional approach and completed all assigned tasks, but the client often disregarded results and adjusted expectations without notice. He also imposed unrealistic timelines for complex projects that required detailed analysis and follow-up.\n\nHis management style was overly controlling. He requested highly detailed daily reports, reviewed every activity log closely, and questioned completed work that fully met the agreed scope. At times, he modified requirements midway and later questioned the time tracked or the work value, even requesting reviews or returns of already billed time after the tasks were fully completed and approved, without any valid reason.\n\nThe client also made unfounded assumptions about my activity despite all work being properly documented through Upwork’s tracker. He reduced weekly hour limits while still expecting full-time results and consistent progress.\n\nIn addition, he mentioned performance incentives that were never confirmed and paused the contract unexpectedly. His communication was irregular — alternating between long periods of silence and sudden urgent demands. He showed limited openness to feedback or collaboration, which made the process unnecessarily stressful and unproductive.\n\nOverall, this client demonstrates unrealistic expectations, inconsistent communication, and a lack of understanding of how professional collaboration should work. I recommend documenting everything within the platform, setting clear boundaries, and proceeding with caution.\n\nMy experience was demanding and unconstructive, and I would not work with this client again."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-03T00:00:00.000Z",
+          "endDate": "2025-07-16T09:40:00.100Z",
+          "totalCharge": 448.38,
+          "totalHours": 27.833335,
+          "jobInfo": {
+            "title": "Freelance Recruiter is needed to find Promo Representatives in Spain",
+            "id": "1903040664253889187",
+            "uid": "1903040664253889187",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~021903040664253889187"
+          },
+          "contractorInfo": {
+            "contractorName": "Carolina C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01456e25f70466453d"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1.7,
+            "comment": "I appreciate the opportunity to collaborate on this project. However, I encountered some challenges during the process that affected the overall experience. Communication was often delayed, and at times, I didn’t receive the necessary responses to move forward. This resulted in a difficult situation where several candidates were left waiting for updates during the interview process, and I was unable to provide them with the follow-up they expected. I believe that with more consistent and timely communication, the experience could have been much smoother for all parties involved."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-11T10:42:05.241Z",
+          "endDate": "2025-07-15T13:55:53.779Z",
+          "totalCharge": 65.12,
+          "totalHours": 5.833333,
+          "jobInfo": {
+            "title": "Research Agencies Offering In‑Store Brand Promoters in Florida (Tampa / St. Petersburg / Miami)",
+            "id": "1942171633413640868",
+            "uid": "1942171633413640868",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021942171633413640868"
+          },
+          "contractorInfo": {
+            "contractorName": "Maryna C.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b12a4168ca38ae03"
+          },
+          "rate": {
+            "amount": 9
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great job - third project together. Would definitely hire again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Oksana and Nina are very kind persons to work with! Super reliable and professional!\nEnjoyed working on this project."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-10T00:00:00.000Z",
+          "endDate": "2025-07-11T09:36:26.539Z",
+          "totalCharge": 81.39,
+          "totalHours": 8.5,
+          "jobInfo": {
+            "title": "Research Agencies Offering In‑Store Brand Promoters in Florida (Tampa / St. Petersburg / Miami)",
+            "id": "1942171633413640868",
+            "uid": "1942171633413640868",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021942171633413640868"
+          },
+          "contractorInfo": {
+            "contractorName": "Kristijan D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01ad36ef4602c67946"
+          },
+          "rate": {
+            "amount": 8
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 2.2,
+            "comment": "Unfortunately, our experience with this freelancer was disappointing. While the freelancer claimed to have completed the task and invested significant time, the final delivery did not align with the scope or guidelines we clearly outlined at the beginning of the project. Several important aspects of the work were either incomplete or handled incorrectly.\n\nAdditionally, the communication throughout the project was unprofessional, and instead of collaborating constructively, the freelancer resorted to personal accusations when feedback was provided. We always aim to create a fair and respectful working environment, but in this case, the collaboration did not meet our expectations."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "Avoid this client. Agreed to 25 hours for a 2-day research project. I delivered 35 leads as promised, with regular updates. After receiving the work, the client changed the terms, disabled manual time, and refused payment. Feels like an intentional attempt to get free work. Do not accept offers from this client."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-10T13:36:28.872Z",
+          "endDate": "2025-07-11T09:05:46.248Z",
+          "totalCharge": 63.54,
+          "totalHours": 6,
+          "jobInfo": {
+            "title": "Research Agencies Offering In-Store Brand Promoters in Spain",
+            "id": "1942153807223181988",
+            "uid": "1942153807223181988",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021942153807223181988"
+          },
+          "contractorInfo": {
+            "contractorName": "Maryna C.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01b12a4168ca38ae03"
+          },
+          "rate": {
+            "amount": 8.5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent job in a short period of time. Very nicely organised and represented results. It was our second project together and we are very satisfied with the results."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It’s been a pleasure working with Oksana! She is clear in communication, always supportive, and very professional. I’d be happy to work together again in the future. Highly recommended!"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-07-08T14:12:10.389Z",
+          "endDate": "2025-07-09T15:24:15.735Z",
+          "totalCharge": 69,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Research Agencies Offering In-Store Brand Promoters in Spain",
+            "id": "1942153807223181988",
+            "uid": "1942153807223181988",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021942153807223181988"
+          },
+          "contractorInfo": {
+            "contractorName": "Ivana M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01b79e4e1fac6d94c1"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.9,
+            "comment": "We encountered several issues while working with Ivana. The initial list of contacts did not fully meet the requirements outlined in the task, one of the companies included was completely irrelevant, and there was a general lack of accuracy.\n\nThat said, Ivana was responsive and did make corrections when requested. However, the first milestone of the project was not completed in full."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 4.7,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T22:58:44.018Z",
+          "endDate": "2025-06-27T10:32:15.616Z",
+          "totalCharge": 7639.99,
+          "totalHours": 454.166666,
+          "jobInfo": {
+            "title": "Experienced HR Manager for Spanish Recruiting",
+            "id": "1879177916834901006",
+            "uid": "1879177916834901006",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021879177916834901006"
+          },
+          "contractorInfo": {
+            "contractorName": "Andrea N.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e51ea0cde3932e05"
+          },
+          "rate": {
+            "amount": 16
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Andrea did a good gob recruiting several candidates for our company. \nVery responsible, ready to adapt, always in touch."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.6,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-10T10:47:19.597Z",
+          "endDate": "2025-06-13T15:57:19.173Z",
+          "totalCharge": 700,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Hiring a Packaging Designer for a Cigar Brand (Cubawoo)",
+            "id": "1897596483683250723",
+            "uid": "1897596483683250723",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021897596483683250723"
+          },
+          "contractorInfo": {
+            "contractorName": "Oleksandr P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c63e1b71b712569d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good experience! Would definitely contact again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.75,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-16T21:21:08.708Z",
+          "endDate": "2025-06-13T15:52:46.118Z",
+          "totalCharge": 300,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Packaging Designer for a Premium Cigar Brand",
+            "id": "1887094988109257249",
+            "uid": "1887094988109257249",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021887094988109257249"
+          },
+          "contractorInfo": {
+            "contractorName": "Salik T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017e15a04abe6bd53c"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good experience. Would definitely contact again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-21T14:05:38.733Z",
+          "endDate": "2025-06-13T15:47:51.070Z",
+          "totalCharge": 150,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Creative Web Designer Needed to Build a Stunning Website",
+            "id": "1924753632801980316",
+            "uid": "1924753632801980316",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021924753632801980316"
+          },
+          "contractorInfo": {
+            "contractorName": "Nataliia V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e21080b9cb7ac533"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent job a usual. I lost count on the number of projects we did together"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "I’ve completed several projects with this client, and each time it truly felt like working with a professional. Communication is clear, respectful, and efficient. The process is smooth and well-structured, making collaboration both productive and enjoyable. I’d be happy to work together again in the future."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-12T10:44:27.527Z",
+          "endDate": "2025-06-05T14:14:59.893Z",
+          "totalCharge": 892.5,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Freelance Recruiters for Sales Roles (Spain)",
+            "id": "1895061623607904099",
+            "uid": "1895061623607904099",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021895061623607904099"
+          },
+          "contractorInfo": {
+            "contractorName": "Mariona A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01a03f39262ddd6ee2"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-06-02T12:39:05.541Z",
+          "endDate": "2025-06-05T13:49:01.267Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Figma to WordPress Development Expert Needed",
+            "id": "1927669769432121188",
+            "uid": "1927669769432121188",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021927669769432121188"
+          },
+          "contractorInfo": {
+            "contractorName": "Khemit V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014987cb4c4cd06845"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Khemit did an excellent job developing the website - fast, high-quality, and reliable. He was always available, responded quickly, and was very accommodating throughout the process."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client! Provided detailed instructions and was very responsive throughout the process. I would be happy to work together again. Thank you."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-18T14:50:20.314Z",
+          "endDate": "2025-04-29T21:16:18.535Z",
+          "totalCharge": 525,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Freelance Recruiter / Talent Acquisition Specialist is needed for Europe",
+            "id": "1898012931692117114",
+            "uid": "1898012931692117114",
+            "access": "PUBLIC",
+            "type": "FIXED",
+            "ciphertext": "~021898012931692117114"
+          },
+          "contractorInfo": {
+            "contractorName": "Elene G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010cacb70111b56631"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 1.5,
+            "comment": "Initially, I was working with an excellent HR coordinator, and the collaboration was productive. However, after she was let go, several coordinators changed, and eventually, the project was left without communication."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-28T13:26:01.559Z",
+          "endDate": "2025-04-23T15:15:34.980Z",
+          "totalCharge": 600.63,
+          "totalHours": 37.5,
+          "jobInfo": {
+            "title": "Part-Time Business Assistant with Research Skills Needed",
+            "id": "1904871187998583663",
+            "uid": "1904871187998583663",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021904871187998583663"
+          },
+          "contractorInfo": {
+            "contractorName": "Mirka S.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~011e0cda32262900be"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 3.5,
+            "comment": "Freelancer ended the project unilaterally without discussing with us potential concerns and possible ways of solutions."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.55,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-09T15:21:17.373Z",
+          "endDate": "2025-04-18T13:36:37.916Z",
+          "totalCharge": 120,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Translate from English to German, from English to Spanish",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Daniela B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01d2a027b4ce2f0f81"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good work! All submitted within the deadline."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-10T07:40:23.980Z",
+          "endDate": "2025-04-18T13:35:23.864Z",
+          "totalCharge": 40,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Translate from English to German, from English to Spanish",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Lucia F.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c0e2aefbb13434fc"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good work! All submitted within the deadline."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-12T11:45:29.852Z",
+          "endDate": "2025-04-18T13:10:58.645Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Experienced Packaging Designer Needed for Premium Cigar Brand (MONTEGO)",
+            "id": "1897193070781664744",
+            "uid": "1897193070781664744",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021897193070781664744"
+          },
+          "contractorInfo": {
+            "contractorName": "Olena T.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~019a78f4e7413cb84d"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-04T16:30:47.578Z",
+          "endDate": "2025-04-18T12:48:11.175Z",
+          "totalCharge": 500,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Photographer/videographer in New Orleans, LA",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Jay H.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01d6675eb22b5a7083"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Jay did a great job! \n\nHe arrived on time both days, took a really nice set of photos and videos, plus made very nice video reals for our instagram.\n\nThank you!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great to work with - will do again"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-04-07T00:00:00.000Z",
+          "endDate": "2025-04-14T11:19:29.217Z",
+          "totalCharge": 0,
+          "totalHours": 19.999999,
+          "jobInfo": {
+            "title": "HR & Recruitment Coordinator",
+            "id": "1907843213115694252",
+            "uid": "1907843213115694252",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021907843213115694252"
+          },
+          "contractorInfo": {
+            "contractorName": "Branislava Y.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0152121b768c57b669"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 1,
+            "comment": "Unfortunately, work with Branislava wasn't successful; she had to organize and coordinate the other recruiters, and the work wasn't going well."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 3.65,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T15:17:50.702Z",
+          "endDate": "2025-03-26T12:09:53.359Z",
+          "totalCharge": 506.13,
+          "totalHours": 31.499999,
+          "jobInfo": {
+            "title": "Sales Expert - Long Term 20-40 hours/week",
+            "id": "1877845477564550548",
+            "uid": "1877845477564550548",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021877845477564550548"
+          },
+          "contractorInfo": {
+            "contractorName": "Antoni B.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~01701b7c8a1a65375f"
+          },
+          "rate": {
+            "amount": 15
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4,
+            "comment": "We didn't have much time working with Antoni to be able to make a proper evaluation"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Everything was clear, and adequately managed on time. Thank you for the opportunity."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T22:05:59.911Z",
+          "endDate": "2025-03-26T12:04:08.468Z",
+          "totalCharge": 2126.79,
+          "totalHours": 125.999999,
+          "jobInfo": {
+            "title": "Experienced HR Manager for Spanish Recruiting",
+            "id": "1879177916834901006",
+            "uid": "1879177916834901006",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021879177916834901006"
+          },
+          "contractorInfo": {
+            "contractorName": "Luci  E.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010d75b8d9829b2ed2"
+          },
+          "rate": {
+            "amount": 16
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 4.65,
+            "comment": "Overall Lucie showed herself as quite a skilled and knowledgeable recruiter. However, the recruitment results for us were not satisfactory."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 2.6,
+            "comment": "I consider they are a great company, but communication to move through hiring process was difficult; however, I did my normal process with my own CRM and contacted candidtes. The response waiting time took them more than expected and reduced candidate expectations to be called for interviews"
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-06T21:04:15.760Z",
+          "endDate": "2025-03-25T15:26:07.204Z",
+          "totalCharge": 435.24,
+          "totalHours": 8,
+          "jobInfo": {
+            "title": "Very easy work - Review Google Maps places",
+            "id": "1878010978223721876",
+            "uid": "1878010978223721876",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021878010978223721876"
+          },
+          "contractorInfo": {
+            "contractorName": "Amar B.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c6db76123856c24f"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good job- we would hire again. Thank you!"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T12:59:43.129Z",
+          "endDate": "2025-03-25T15:24:39.533Z",
+          "totalCharge": 314.5,
+          "totalHours": 57.999999,
+          "jobInfo": {
+            "title": "Very easy work - Review Google Maps places",
+            "id": "1878010978223721876",
+            "uid": "1878010978223721876",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021878010978223721876"
+          },
+          "contractorInfo": {
+            "contractorName": "Jeevan W.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~015ed51e77c50ca728"
+          },
+          "rate": {
+            "amount": 5
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Good job- we would hire again. Thank you!"
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-12T14:59:25.938Z",
+          "endDate": "2025-03-25T10:58:48.246Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Experienced Packaging Designer Needed for Premium Cigar Brand (MONTEGO)",
+            "id": "1897193070781664744",
+            "uid": "1897193070781664744",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021897193070781664744"
+          },
+          "contractorInfo": {
+            "contractorName": "Natalia M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0130ac13e0563eb1ed"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very good job. We we need to stop the project halfway through due to internal reasons.We will be happy to hire Natalia again."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "From my side, the concepts were created according to the team members' specified wishes and within the deadline. Perhaps because communication with the company director was not direct, the project had to be completed prematurely. Overall, everything was professional, and communication was fast. Thank you to your team for the cooperation."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-02-27T20:52:46.092Z",
+          "endDate": "2025-03-25T09:21:15.833Z",
+          "totalCharge": 40,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "English text proofreading",
+            "id": "1894776866960709675",
+            "uid": "1894776866960709675",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021894776866960709675"
+          },
+          "contractorInfo": {
+            "contractorName": "Stephanie P.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~010440a1d462d1c555"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Very good job! Thank you!"
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-28T16:46:52.567Z",
+          "endDate": "2025-03-25T09:14:12.855Z",
+          "totalCharge": 0,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Web development",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Leticia D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01555a84270d697a8d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Amazing experience! Lost count on how many project we have done with Leticia and her team."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client. Thank you for the opportunity."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-03-17T16:00:15.635Z",
+          "endDate": "2025-03-24T14:50:19.943Z",
+          "totalCharge": 200,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Build one page website",
+            "id": "1900994391379605861",
+            "uid": "1900994391379605861",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021900994391379605861"
+          },
+          "contractorInfo": {
+            "contractorName": "Leticia D.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01555a84270d697a8d"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "It was 4th or even 5th project with Leticia and her team, this time they did a great work in a very short period of time. HUGE THANK YOU guys."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client. Thank you for the opportunity."
+          }
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-01-15T12:52:12.969Z",
+          "endDate": "2025-03-23T04:47:41.189Z",
+          "totalCharge": 241.52,
+          "totalHours": 30.5,
+          "jobInfo": {
+            "title": "Very easy work - Review Google Maps places",
+            "id": "1878010978223721876",
+            "uid": "1878010978223721876",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~021878010978223721876"
+          },
+          "contractorInfo": {
+            "contractorName": "Jose Di Lorenzo C.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fdc4db5345cb577f"
+          },
+          "rate": {
+            "amount": 3
+          },
+          "feedback": null,
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great clients! Andrey and Olga are very professional! It was a pleasure to work with them."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "90",
+              "clientPreferredLabel": "At least 90%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "AT_LEAST_10000",
+              "clientPreferredLabel": "At Least 10000",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": null
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 2250.6376811594205,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 1500,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 6500,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [
+    {
+      "fileName": "AM Payment Link UI Mockups.pdf",
+      "chars": 10534,
+      "text": "GOLD #B08D3F ! UI ! \" 12PX 01 ! AM AY USER ! IN 09 ! 14 08 ! 02 Adrian Magnus Humidors Ñ Payment Link System UI mockups v1.1 á Companion to the project specification á Super Admin, Administrator, Agent, customer payment form, account INK #1A1A1A CREAM #FAF8F4 DISPLAY PLAYFAIR DISPLAY INTER RADIUS 8 SUPER ADMIN VIEW USERS ADRIAN MAGNUS HUMIDORS SUPER ADMIN A. Yurenkov Users Payment links Audit log Account Users Control who can create payment links. Add user This account manages access only. A Super Admin cannot create or send payment links. To take a payment, use an Administrator account. ROLE 2FA LAST SIGN STATUS A. Yurenkov a.yurenkov@adrianmagnus.com SUPER ADMIN Enrolled Today, ACTIVE E. Ramos e.ramos@adrianmagnus.com ADMINISTRATOR Enrolled Today, ACTIVE\n17 ! 41 up 2 Jun 2026 * * * M. Delgado m.delgado@adrianmagnus.com AGENT Enrolled Yesterday, ACTIVE S. Kovac s.kovac@adrianmagnus.com AGENT Not set Never INVITED I. Petrov i.petrov@adrianmagnus.com ADMINISTRATOR Enrolled BLOCKED Add user They set their own password and two-factor app. Full name Enter full name Work email name@adrianmagnus.com The invitation is sent to this address. Role Administrator Creates and sends payment links. Can cancel an unpaid link. Every link is recorded against their name. Agent Views payment status and resends a link a customer has lost. Cannot create a payment link or change an amount. The new user receives an activation email and sets their own password and two-factor app on first sign-in. No one else ever sees their password.\n02 ! \" AM ER ! ! Ñ Ñ Ñ ! Ñ Ñ Ñ Send invitation ADMINISTRATOR VIEW PAYMENT LINKS NEW PAYMENT LINK ADRIAN MAGNUS HUMIDORS ADMINISTRATOR E. Ramos Payment links Account Payment links Request payment for an order taken by email or phone. New payment link Search order number or customer email All statuses Last 30 days Export CSV ORDER DESCRIPTION AMOUNT CUSTOMER STATUS SPEC NOTES Ñ ¤6.2 There is no \"Create payment link\" action anywhere in this view , and the endpoint must reject a Super Admin session server-side, not just hide the button. Block is immediate: all of that user's sessions are terminated on the next request. This is the offboarding control. Change role switches a user between Administrator and Agent and invalidates their existing sessions. Row overflow actions (in a menu): Force password reset, Reset 2FA device, Remove user (soft delete Ñ historical links keep the creator's name). Reset 2FA requires the Super Admin to re-enter their own 2FA code before it takes effect. The Audit log tab is visible to this role only: every link created, cancelled or resent, and every user action, with actor, IP and timestamp.\n12347 12346 12345 12338 * * ! USD \" * * Humidor Order $1,250.00 j.harrison@gmail.com SENT Humidor Order Ñ custom engraving $2,400.00 r.castillo@outlook.com OPENED Humidor Order $1,250.00 m.okafor@gmail.com PAID Humidor Order $1,780.00 k.novak@gmail.com CARD DECLINED New payment link Enter the order details and amount to generate a secure payment link. Order Number Enter order number Used to identify the order for the customer. Order Description Humidor Order This description will be visible to the customer. Amount 1250.00 Enter the total amount to be paid. Customer Email Enter customer email address The payment link will be sent to this email address.\n! ! 12347 The payment link will be sent to this email address. Customer Name (optional) Name for the email greeting Link expires In 7 days Product image Standard humidor Internal note (optional) Notes for your team Never shown to the customer. The customer will receive an email with a secure payment link to complete their payment. Send payment link Send this link? Check the amount and the email address. Amount $1,250.00 USD Send to j.harrison@gmail.com Order Expires 24 Jul 2026 A sent link can't be edited. To fix a mistake, cancel it and create a new one.\n03 ! # $ \" % AM MD . Ñ Ñ # Ñ Ñ Ñ Ñ Ñ Ñ Back Send payment link AGENT VIEW PAYMENT LINKS READ ONLY RESEND ADRIAN MAGNUS HUMIDORS AGENT M. Delgado Payment links Account Payment links Check whether a customer has paid, and resend a link they have lost. SPEC NOTES Ñ ¤7.1, ¤7.2 This is the only role that can create a payment request . Every link is stamped with this user's name and appears in the Agent and Super Admin views as Created by Order Number is free text, typed manually from Shopify or wherever the order was recorded. The system does not call Shopify. It must not duplicate an order number that already has an open link. Amount is revalidated server-side on send and again at payment: greater than zero, two decimals, at or below the configured ceiling (default $25,000 . The browser is never trusted with the amount. The confirmation step is mandatory . Amount and recipient email are the two fields a mis-typed character costs real money on, and neither can be corrected after sending. After sending, the link is immutable Ñ no edit action exists anywhere in the product. The recovery path is Cancel, then create a new link. Cancel is available on any unpaid link and takes effect immediately: the customer's link stops working and shows the branded \"link cancelled\" page. Copy link exists for the case where a customer's email is unreachable and the link is passed on by phone or WhatsApp. It copies the same single-use URL, it does not create a second one. Sending an identical amount to the same customer twice within a short window should raise a soft warning Ñ a duplicate charge is a chargeback waiting to happen.\n! ! 12345 12346 12344 12339 UNDER REVIEW 12338 12331 $ Ñ Ñ Agents cannot create payment links. To request a new payment, or to change an amount, ask an Administrator. You can resend an existing link to the customer at any time. Search order number or customer email All statuses Last 30 days Export CSV ORDER DESCRIPTION AMOUNT CUSTOMER STATUS Humidor Order $1,250.00 j.harrison@gmail.com PAID Humidor Order Ñ custom engraving $2,400.00 r.castillo@outlook.com OPENED Humidor Order $890.00 tobacco.house@proton.me SENT Humidor Order Ñ pair $3,150.00 a.dubois@icloud.com Humidor Order $1,780.00 k.novak@gmail.com CARD DECLINED Humidor Order $640.00 p.lang@web.de EXPIRED SPEC NOTES Ñ ¤6.1, ¤7.2 This is the Administrator screen 02) with the New payment link button and the Cancel action removed, and a lock notice added. Same table, same filters, same detail drawer. Resend re-sends the original email unchanged. It cannot alter the amount, order number, or recipient Ñ a link is immutable once created.\n04 ! # % AM , , Ñ Ñ Sent ! ! Ñ Ñ CUSTOMER VIEW PAYMENT FORM V1.1 WITH BILLING ADDRESS ADRIAN MAGNUS HUMIDORS Payment Form Complete your payment securely. Humidor Order Order Number: 12345 Amount to Pay $1,250.00 USD Payment Details Your payment is secure and encrypted. VISA AMEX DISCOVER Card Number Resend is hidden on links that are Paid Expired Cancelled , or Under review . It appears only where resending can still result in a payment. View opens a read-only detail drawer: full status history, every payment attempt with date, card brand and last 4, AVS and CVV results, and the Authorize.Net transaction ID. Never the full card number. Status labels are written for staff, not for engineers: Opened Paid , and Card declined rather than a gateway response code. The raw code sits in the detail drawer. Created by is always shown. Every payment request in the business traces back to a named Administrator.\n123 * ! * * * ! * 1234 5678 9012 3456 Expiry Date MM / YY CVV Cardholder Name Name on card Billing Address NEW Required by your bank to verify the card. Enter the address registered to your card, not your delivery address. If it does not match your bank's records, the payment will be declined. Country United States Address Street address Apartment, suite, etc. (optional) Apt, suite, unit City City State Select state ZIP Code 12345 Checked against your bank's records.\n05 ! # % AM ER Ñ Ñ billTo Ñ Ñ Ñ Ñ Ñ Ñ I agree to the Terms and Conditions I agree to the Privacy Policy Pay Now Your payment information is secure and encrypted. ALL ROLES ACCOUNT CHANGE PASSWORD ADRIAN MAGNUS HUMIDORS ADMINISTRATOR E. Ramos Payment links Account SPEC NOTES Ñ ¤7.3, ¤7.4 Everything above the divider is unchanged from the approved design. The Billing Address block is inserted between Cardholder Name and the consent checkboxes. Country, Address, City, State and ZIP are mandatory. Address line 2 is optional. ZIP format is validated per country; State is a dropdown for the US and Canada and a free text field elsewhere. These values must be passed to Authorize.Net in so the AVS filter can run. Collecting them without sending them achieves nothing. The AVS filter is configured to decline on address or ZIP mismatch . The AVS and CVV response codes are stored against the payment record and shown in the staff detail drawer. The helper text above the block is deliberate: the most common cause of a declined card on a link like this is the customer entering their delivery address. On mobile the two-column rows collapse to a single column; ZIP keeps a numeric keypad on iOS and Android. Pay Now stays disabled until both checkboxes are ticked and every required field is valid, then shows a spinner and locks on submit Ñ one click can only ever produce one charge. The form is read-only above the divider : order number, description and amount are server-rendered and cannot be altered in the browser.\n* ¥¥¥¥¥¥¥¥¥¥¥¥ * * Account Your sign-in details and two-factor app. Current password New password At least 12 characters Use a passphrase you don't use anywhere else. Passwords found in known breaches are rejected. Confirm new password Repeat new password Changing your password signs you out everywhere else. Change password Two-factor authentication Required for every account. ENROLLED Authenticator app á added 6 Jun 2026 You'll be asked for a code from your authenticator app every time you sign in. Replace authenticator app Lost your device? Ask a Super Admin to reset two-factor for your account.\nÑ Ñ Ñ Ñ SPEC NOTES Ñ ¤6.3 This screen is identical for all three roles . Every user changes their own password; no one Ñ including the Super Admin Ñ can set another user's password. Changing a password terminates every other session for that user. 2FA is mandatory for all roles and is enrolled during first sign-in, before the user reaches any other screen. A forgotten password is handled by self-service email reset (single-use token, valid 30 minutes) Ñ not by a Super Admin issuing a password."
+    },
+    {
+      "fileName": "AM Payment Link UI Mockups.html",
+      "chars": 10783,
+      "text": "Adrian Magnus Humidors — Payment Link System — UI Mockups v1.1 Adrian Magnus Humidors — Payment Link System UI mockups v1.1 · Companion to the project specification · Super Admin, Administrator, Agent, customer payment form, account Gold #B08D3F Ink #1A1A1A Cream #FAF8F4 Display: Playfair Display UI: Inter Radius 8–12px 01 Super Admin view — Users AM ADRIAN MAGNUS HUMIDORS Super Admin A. Yurenkov AY Users Payment links Audit log Account Users Control who can create payment links. Add user This account manages access only. A Super Admin cannot create or send payment links. To take a payment, use an Administrator account. User Role 2FA Last sign-in Status A. Yurenkov a.yurenkov@adrianmagnus.com Super Admin Enrolled Today, 09:14 Active You E. Ramos e.ramos@adrianmagnus.com Administrator Enrolled Today, 08:02 Active Change role Block M. Delgado m.delgado@adrianmagnus.com Agent Enrolled Yesterday, 17:41 Active Change role Block S. Kovac s.kovac@adrianmagnus.com Agent Not set up Never Invited Resend invite Block I. Petrov i.petrov@adrianmagnus.com Administrator Enrolled 2 Jun 2026 Blocked Unblock Add user They set their own password and two-factor app. Full name * Enter full name Work email * name@adrianmagnus.com The invitation is sent to this address. Role * Administrator Creates and sends payment links. Can cancel an unpaid link. Every link is recorded against their name. Agent Views payment status and resends a link a customer has lost. Cannot create a payment link or change an amount. The new user receives an activation email and sets their own password and two-factor app on first sign-in. No one else ever sees their password. Send invitation Spec notes — §6.2 There is no \"Create payment link\" action anywhere in this view , and the endpoint must reject a Super Admin session server-side, not just hide the button. Block is immediate: all of that user's sessions are terminated on the next request. This is the offboarding control. Change role switches a user between Administrator and Agent and invalidates their existing sessions. Row overflow actions (in a ⋯ menu): Force password reset, Reset 2FA device, Remove user (soft delete — historical links keep the creator's name). Reset 2FA requires the Super Admin to re-enter their own 2FA code before it takes effect. The Audit log tab is visible to this role only: every link created, cancelled or resent, and every user action, with actor, IP and timestamp. 02 Administrator view — Payment links + New payment link AM ADRIAN MAGNUS HUMIDORS Administrator E. Ramos ER Payment links Account Payment links Request payment for an order taken by email or phone. New payment link Search order number or customer email All statuses Last 30 days Export CSV Order Description Amount Customer Status Expires 12347 Humidor Order $1,250.00 j.harrison@gmail.com Sent in 7 days Resend Copy link Cancel 12346 Humidor Order — custom engraving $2,400.00 r.castillo@outlook.com Opened in 5 days Resend Copy link Cancel 12345 Humidor Order $1,250.00 m.okafor@gmail.com Paid — View 12338 Humidor Order $1,780.00 k.novak@gmail.com Card declined in 2 days Resend View Cancel New payment link Enter the order details and amount to generate a secure payment link. Order Number * Enter order number Used to identify the order for the customer. Order Description * Humidor Order This description will be visible to the customer. Amount (USD) * 1250.00 Enter the total amount to be paid. Customer Email * Enter customer email address The payment link will be sent to this email address. Customer Name (optional) Name for the email greeting Link expires In 7 days Product image Standard humidor Internal note (optional) Notes for your team Never shown to the customer. The customer will receive an email with a secure payment link to complete their payment. Send payment link Send this link? Check the amount and the email address. Amount $1,250.00 USD Send to j.harrison@gmail.com Order 12347 Expires 24 Jul 2026 A sent link can't be edited. To fix a mistake, cancel it and create a new one. Back Send payment link Spec notes — §7.1, §7.2 This is the only role that can create a payment request . Every link is stamped with this user's name and appears in the Agent and Super Admin views as Created by . Order Number is free text, typed manually from Shopify or wherever the order was recorded. The system does not call Shopify. It must not duplicate an order number that already has an open link. Amount is revalidated server-side on send and again at payment: greater than zero, two decimals, at or below the configured ceiling (default $25,000). The browser is never trusted with the amount. The confirmation step is mandatory . Amount and recipient email are the two fields a mis-typed character costs real money on, and neither can be corrected after sending. After sending, the link is immutable — no edit action exists anywhere in the product. The recovery path is Cancel, then create a new link. Cancel is available on any unpaid link and takes effect immediately: the customer's link stops working and shows the branded \"link cancelled\" page. Copy link exists for the case where a customer's email is unreachable and the link is passed on by phone or WhatsApp. It copies the same single-use URL, it does not create a second one. Sending an identical amount to the same customer twice within a short window should raise a soft warning — a duplicate charge is a chargeback waiting to happen. 03 Agent view — Payment links (read-only + resend) AM ADRIAN MAGNUS HUMIDORS Agent M. Delgado MD Payment links Account Payment links Check whether a customer has paid, and resend a link they have lost. Agents cannot create payment links. To request a new payment, or to change an amount, ask an Administrator. You can resend an existing link to the customer at any time. Search order number or customer email All statuses Last 30 days Export CSV Order Description Amount Customer Status Created by Sent 12345 Humidor Order $1,250.00 j.harrison@gmail.com Paid E. Ramos 14 Jul View 12346 Humidor Order — custom engraving $2,400.00 r.castillo@outlook.com Opened E. Ramos 15 Jul Resend View 12344 Humidor Order $890.00 tobacco.house@proton.me Sent I. Petrov 15 Jul Resend View 12339 Humidor Order — pair $3,150.00 a.dubois@icloud.com Under review E. Ramos 12 Jul View 12338 Humidor Order $1,780.00 k.novak@gmail.com Card declined E. Ramos 11 Jul Resend View 12331 Humidor Order $640.00 p.lang@web.de Expired I. Petrov 2 Jul View Spec notes — §6.1, §7.2 This is the Administrator screen (02) with the New payment link button and the Cancel action removed, and a lock notice added. Same table, same filters, same detail drawer. Resend re-sends the original email unchanged. It cannot alter the amount, order number, or recipient — a link is immutable once created. Resend is hidden on links that are Paid , Expired , Cancelled , or Under review . It appears only where resending can still result in a payment. View opens a read-only detail drawer: full status history, every payment attempt with date, card brand and last 4, AVS and CVV results, and the Authorize.Net transaction ID. Never the full card number. Status labels are written for staff, not for engineers: Sent → Opened → Paid , and Card declined rather than a gateway response code. The raw code sits in the detail drawer. Created by is always shown. Every payment request in the business traces back to a named Administrator. 04 Customer view — Payment form v1.1 (with billing address) AM ADRIAN MAGNUS HUMIDORS Payment Form Complete your payment securely. Humidor Order Order Number: 12345 Amount to Pay $1,250.00 USD Payment Details Your payment is secure and encrypted. VISA AMEX DISCOVER Card Number 1234 5678 9012 3456 Expiry Date MM / YY CVV 123 Cardholder Name Name on card Billing Address New Required by your bank to verify the card. Enter the address registered to your card, not your delivery address. If it does not match your bank's records, the payment will be declined. Country * United States Address * Street address Apartment, suite, etc. (optional) Apt, suite, unit City * City State * Select state ZIP Code * 12345 Checked against your bank's records. I agree to the Terms and Conditions I agree to the Privacy Policy Pay Now Your payment information is secure and encrypted. Spec notes — §7.3, §7.4 Everything above the divider is unchanged from the approved design. The Billing Address block is inserted between Cardholder Name and the consent checkboxes. Country, Address, City, State and ZIP are mandatory. Address line 2 is optional. ZIP format is validated per country; State is a dropdown for the US and Canada and a free text field elsewhere. These values must be passed to Authorize.Net in billTo so the AVS filter can run. Collecting them without sending them achieves nothing. The AVS filter is configured to decline on address or ZIP mismatch . The AVS and CVV response codes are stored against the payment record and shown in the staff detail drawer. The helper text above the block is deliberate: the most common cause of a declined card on a link like this is the customer entering their delivery address. On mobile the two-column rows collapse to a single column; ZIP keeps a numeric keypad on iOS and Android. Pay Now stays disabled until both checkboxes are ticked and every required field is valid, then shows a spinner and locks on submit — one click can only ever produce one charge. The form is read-only above the divider : order number, description and amount are server-rendered and cannot be altered in the browser. 05 All roles — Account (change password) AM ADRIAN MAGNUS HUMIDORS Administrator E. Ramos ER Payment links Account Account Your sign-in details and two-factor app. Current password * •••••••••••• New password * At least 12 characters Use a passphrase you don't use anywhere else. Passwords found in known breaches are rejected. Confirm new password * Repeat new password Changing your password signs you out everywhere else. Change password Two-factor authentication Required for every account. Enrolled Authenticator app · added 6 Jun 2026 You'll be asked for a code from your authenticator app every time you sign in. Replace authenticator app Lost your device? Ask a Super Admin to reset two-factor for your account. Spec notes — §6.3 This screen is identical for all three roles . Every user changes their own password; no one — including the Super Admin — can set another user's password. Changing a password terminates every other session for that user. 2FA is mandatory for all roles and is enrolled during first sign-in, before the user reaches any other screen. A forgotten password is handled by self-service email reset (single-use token, valid 30 minutes) — not by a Super Admin issuing a password."
+    },
+    {
+      "fileName": "AM Payment Link Project Spec.pdf",
+      "chars": 24205,
+      "text": ": ! . \" . . Adrian Magnus Humidors Ñ Manual Payment Link System Project Specification for Developers Client: Adrian Magnus Humidors Payment Gateway: Authorize.Net Document version: 1.1 Date: July 2026 Purpose of this document: scope definition and basis for developer quotation 1. Purpose Adrian Magnus Humidors receives a significant portion of its orders manually Ñ customers place orders by email or telephone rather than through the website checkout. Today there is no secure, branded, controlled way to collect card payment for these orders. This project delivers a web application in two parts Payment Link Manager (internal, authenticated) Ñ a back-office panel where authorised staff enter the order details and amount and generate a secure payment link, which is emailed to the customer. Payment Form (public, single-use link) Ñ a branded hosted page where the customer enters their own card details and pays. The transaction is processed through Authorize.Net Two constraints are non-negotiable: Company staff never see, type, store, or transmit card data. The customer always enters their own card. This is a deliberate compliance and liability decision (Section 9). Access to the panel is strictly role-based. Only named, authenticated users may create payment links. See Section 6 Ñ this is the single most important functional requirement of the project. The visual design of both screens is defined in the attached mockup and must be followed.\nShopify the invoiceNumber 2. Scope In scope (Phase 1) Authenticated back-office panel with three-tier role model and user management Payment link generation, expiry, single-use enforcement, status tracking Transactional email delivery of the payment link to the customer Branded hosted payment form with mandatory billing address capture Authorize.Net integration (tokenised card capture, transaction submission, webhooks) Payment result handling, receipt email, internal notification Payment link list view with statuses, resend and cancel actions Full audit log Deployment on an Adrian Magnus subdomain with TLS Sandbox testing and production go-live support Out of scope (Phase 2 candidates Ñ price separately if desired) Shopify / HubSpot order synchronisation (see Section 3) Partial payments, deposits, instalment plans Multi-currency Ñ Phase 1 is USD only Stored cards, recurring billing Refunds and voids from the panel Ñ Phase 1 refunds are handled in the Authorize.Net merchant portal 3. Note on Shopify The company operates a store, and order numbers referenced in payment links will typically originate from Shopify. However, Shopify integration is not a requirement of this project. The system must work as a standalone application . The order number is entered manually by the operator as free text and used only as a human-readable reference on the payment form, in the email, and as passed to Authorize.Net.\n! . . \" . # . , , , $ . payment_link SENT % . & VIEWED . Developers should not architect the solution as a Shopify app, a Shopify theme extension, or anything dependent on the Shopify platform. If the developer wishes to propose an optional Phase 2 integration (marking a Shopify order as paid automatically via webhook), it should be quoted as a separate line item. 4. Actors Actor Description Owner / Super Admin Company principal. Manages users only. Does not create payment links. Administrator Named staff member. Logs in with own credentials. Creates and sends payment links. Agent Named staff member. Read-only on payment links, plus the ability to resend an existing link. Cannot create anything. Customer Unauthenticated. Receives the link by email and pays. Authorize.Net Payment gateway. Tokenises card data, authorises and captures funds, sends webhooks. 5. End-to-End Flow Customer places an order by email or phone. Staff create the order in the existing internal process (Shopify or otherwise) and obtain an order number An Administrator logs into the panel with their own username and password (plus 2FA). The Administrator enters: Order Number Order Description Amount (USD) Customer Email . Optionally: customer name, internal note, custom expiry. The Administrator clicks Send Payment Link . The system validates the input, creates a record with status , generates a cryptographically random unguessable token, and sends a branded transactional email containing the link. The customer opens the link. The system validates the token (exists, not paid, not cancelled, not expired) and renders the Payment Form showing the order description, order number, product image, and amount. Status \n' . . ( . ) . * . & PAID !+ . !! . Capability No No No No No The customer enters card details and billing address , ticks the Terms and Conditions and Privacy Policy checkboxes, and clicks Pay Now Card data is tokenised in the customerÕs browser, directly by Authorize.Net . The application server receives only an opaque payment token Ñ never the card number or CVV. The server submits the transaction to Authorize.Net (authorise + capture) using the token, the amount, the billing address, and the order number as the invoice reference. On approval: status ; success page displayed with transaction ID; receipt email to the customer; notification email to the internal address; the link is burned and cannot be reused. On decline or error: the customer remains on the form with a clear, non-technical message and may retry. Every attempt is logged. After 5 failed attempts the link is throttled. An Authorize.Net webhook confirms the transaction asynchronously and the system reconciles the record. The webhook, not the browser redirect, is the authoritative source of payment truth. 6. Access Control and User Management Ñ Core Requirement This is the central functional requirement of the project. The separation of duties below must be enforced server-side on every endpoint , not merely by hiding buttons in the interface. 6.1 Role Matrix Owner / Super Admin Administrator Agent Create payment link Yes View payment link list and statuses Yes Yes Yes View payment link detail Yes Yes Yes Resend payment link email Yes Yes Copy payment link URL Yes Yes Cancel / void an unpaid link Yes Yes\nNo No No No No No No No No No No No No who . ACTIVE BLOCKED PENDING_ACTIVATION ), Administrator or Agent Edit an existing link Export list to CSV Yes Yes Yes Create users Yes Assign / change roles Yes Block / unblock users Yes Force password reset for a user Yes View audit log Yes Change own password Yes Yes Yes Manage own 2FA device Yes Yes Yes Rationale for the design: The Owner / Super Admin account is a governance account. It controls may take money, but does not itself take money. This keeps the highest-privilege credential out of day-to-day operations and makes the audit log meaningful. The Administrator is the only role that can create a payment request. Every link is permanently attributed to a named administrator. The Agent exists for customer service: an agent can see whether a customer has paid and can resend a link a customer has lost, but cannot originate a payment request of any amount An existing link is immutable . Amount, order number, description, and recipient email can never be edited after creation. If details are wrong, the link is cancelled and a new one is created. This is deliberate Ñ it prevents the amount on a sent link from being altered after the fact. 6.2 User Management Screen (Owner / Super Admin only) List of all users: name, email, role, status ( / / 2FA enrolled (yes/no), last login, created date, created by. Create user: full name, email, role ( ). The system emails a one-time activation link; the new user sets their own password and enrols 2FA on first login. The Super Admin never sets or sees another userÕs password. Change role: switch a user between Administrator and Agent. Takes effect on the userÕs\n, 12). Field next request; existing sessions are invalidated. Block user: immediate. All active sessions terminated at once. A blocked user cannot log in. Blocking must be instantaneous Ñ this is the offboarding control for a departing employee. Unblock user. Force password reset: invalidates the current password and sends a reset link. Reset 2FA: for a lost device. Requires the Super AdminÕs own 2FA re-authentication to perform. Delete user: soft delete only. Historical records must retain the creatorÕs identity for audit purposes. Every action on this screen is written to the audit log. 6.3 Authentication Login with email + password + mandatory TOTP 2FA for every role, no exceptions. Password policy: minimum 12 characters, checked against a breached-password list (e.g. Have I Been Pwned k-anonymity API), hashed with Argon2id or bcrypt (cost Change own password available to every user from an account settings screen; requires the current password, and terminates all other sessions on success. Forgot password: self-service reset by emailed single-use token, valid 30 minutes. Account lockout after 10 failed attempts within 15 minutes; Super Admin notified by email. Session timeout: 30 minutes idle, 12 hours absolute. The panel must not be indexed by search engines and should sit on a separate path or subdomain from the public payment form. 7. Screen Specifications 7.1 Create Payment Link (Administrator) Design reference: right-hand panel of the mockup. Type Required Validation Notes\nNumber - / _ Humidor Order (USD) - Name No . No . No or No . : SENT , VIEWED , PAID , PENDING_REVIEW , FAILED , EXPIRED , CANCELLED Order text Yes 1Ð50 chars, alphanumeric plus ; must not duplicate an open link Visible to the customer. Typically the Shopify order number, entered manually. Order Description text Yes 1Ð120 chars Visible to the customer. Default: Amount decimal Yes Greater than 0, maximum configurable (default 25,000), 2 decimals Server-side revalidation mandatory Customer Email email Yes RFC-valid; MX check recommended Recipient of the link Customer text 100 chars Used in the email greeting Internal Note textarea 500 chars Never shown to the customer Link Expiry select 24h / 3 days / 7 days / 14 days Default 7 days Product Image select upload 2 MB, jpg/png Default: standard humidor image as per mockup The informational box (ÒThe customer will receive an email with a secure payment link to complete their payment.Ó) remains as designed. A confirmation step showing the amount and recipient email before final send is required, to prevent mis-sent links. 7.2 Payment Links List (all roles, actions per role matrix) Not shown in the mockup but required Columns: order number, description, amount, customer email, status, created by, created date, expiry date, paid date, Authorize.Net transaction ID Filter by status, created-by user, and date range; search by order number or email Status badges: Row actions rendered according to the role matrix CSV export\n! . \" . # . USD $ . ? % . ' . ( . ) . 7.3 Payment Form (Customer) Design reference: left-hand panel of the mockup. Must be faithful to the approved design and fully responsive Ñ a large share of customers will open the link on a phone. Sections: Brand header Ñ Adrian Magnus Humidors logo, ÒPayment FormÓ, ÒComplete your payment securely.Ó Order block Ñ product image, order description, order number. Read-only. Amount block Ñ amount and . Read-only, server-rendered. The amount must never be modifiable client-side. Payment Details Ñ card scheme logos (Visa, Mastercard, Amex, Discover), lock icon, ÒYour payment is secure and encrypted.Ó Card Number Ñ grouped formatting, live card-type detection Expiry Date (MM/YY) CVV Ñ with tooltip on the icon Cardholder Name Billing Address Ñ mandatory (see 7.4) Consent Ñ two mandatory checkboxes linking to the Terms and Conditions and Privacy Policy, opening in a new tab. Pay Now remains disabled until both are ticked and the form is valid. Pay Now Ñ shows a spinner and disables on submit to prevent double charges. Footer Ñ ÒYour payment information is secure and encrypted.Ó Behaviour: Client-side validati"
+    }
+  ],
+  "siblingJobs": []
+}

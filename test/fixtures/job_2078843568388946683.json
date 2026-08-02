@@ -1,0 +1,461 @@
+{
+  "uid": "2078843568388946683",
+  "ciphertext": "~022078843568388946683",
+  "title": "Full Stack Developer Needed for AI-Powered SaaS Platform",
+  "url": "https://www.upwork.com/jobs/~022078843568388946683",
+  "scrapedAt": "2026-07-20T08:46:43.402Z",
+  "feed": {
+    "uid": "2078843568388946683",
+    "ciphertext": "~022078843568388946683",
+    "title": "Full Stack <span class=\"highlight\">Developer</span> Needed for AI-Powered SaaS Platform",
+    "description": "We are seeking an experienced Full Stack <span class=\"highlight\">Developer</span> to build and maintain an AI-powered aviation SaaS platform. The ideal candidate should have strong expertise in <span class=\"highlight\">React</span> or Next.<span class=\"highlight\">js</span>, Node.<span class=\"highlight\">js</span>, TypeScript, REST APIs, SQL/NoSQL databases, and cloud platforms such as AWS, Azure, or Google Cloud. You will be responsible for developing scalable frontend and backend applications, integrating aviation data sources and AI/LLM services, building secure APIs, optimizing system performance, and implementing features such as flight operations, aircraft management, maintenance tracking, crew scheduling, and real-time dashboards. Experience with aviation software, flight data integration, GIS/maps, real-time data processing, and modern DevOps practices is a strong advantage. We are looking for someone who writes clean, maintainable code, communicates effectively, and can deliver high-quality solutions for mission-critical aviation applications. Please share your portfolio, GitHub profile, relevant aviation or SaaS project experience, and your availability when applying.",
+    "createdOn": "2026-07-19T14:05:04.857Z",
+    "publishedOn": "2026-07-19T14:06:51.934Z",
+    "renewedOn": null,
+    "type": 1,
+    "durationLabel": "More than 6 months",
+    "engagement": null,
+    "amount": {
+      "amount": 1200
+    },
+    "client": {
+      "location": {
+        "country": "United States"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "0.0",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"3\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.50Plus",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1691099314245873665",
+        "parentSkillUid": null,
+        "prefLabel": "AI Agent Development",
+        "prettyName": "AI Agent Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1691099314254262272",
+        "parentSkillUid": null,
+        "prefLabel": "AI Development",
+        "prettyName": "AI Development",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "996364628025274383",
+        "parentSkillUid": null,
+        "prefLabel": "JavaScript",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626728807055360",
+        "parentSkillUid": null,
+        "prefLabel": "CSS 3",
+        "prettyName": "CSS 3",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626751737315328",
+        "parentSkillUid": null,
+        "prefLabel": "jQuery",
+        "prettyName": "jQuery",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580737240190976",
+        "parentSkillUid": null,
+        "prefLabel": "Web Application",
+        "prettyName": "Web Application",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628025274386",
+        "parentSkillUid": null,
+        "prefLabel": "Python",
+        "prettyName": "Python",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "996364628012691471",
+        "parentSkillUid": null,
+        "prefLabel": "Amazon Web Services",
+        "prettyName": "Amazon Web Services",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580482566246400",
+        "parentSkillUid": null,
+        "prefLabel": "API Integration",
+        "prettyName": "API Integration",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T14:05:04.857Z",
+        "publishTime": "2026-07-19T14:06:51.934Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": null,
+        "contractorTier": "INTERMEDIATE",
+        "description": "We are seeking an experienced Full Stack Developer to build and maintain an AI-powered aviation SaaS platform. The ideal candidate should have strong expertise in React or Next.js, Node.js, TypeScript, REST APIs, SQL/NoSQL databases, and cloud platforms such as AWS, Azure, or Google Cloud. You will be responsible for developing scalable frontend and backend applications, integrating aviation data sources and AI/LLM services, building secure APIs, optimizing system performance, and implementing features such as flight operations, aircraft management, maintenance tracking, crew scheduling, and real-time dashboards. Experience with aviation software, flight data integration, GIS/maps, real-time data processing, and modern DevOps practices is a strong advantage. We are looking for someone who writes clean, maintainable code, communicates effectively, and can deliver high-quality solutions for mission-critical aviation applications. Please share your portfolio, GitHub profile, relevant aviation or SaaS project experience, and your availability when applying.",
+        "info": {
+          "ciphertext": "~022078843568388946683",
+          "id": "2078843568388946683",
+          "type": "FIXED",
+          "access": "PUBLIC_INDEX",
+          "title": "Full Stack Developer Needed for AI-Powered SaaS Platform",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T14:05:04.857Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "1031626728807055360",
+              "freeText": null,
+              "prefLabel": "CSS 3",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": "1110580578586447872",
+              "id": "1031626751737315328",
+              "freeText": null,
+              "prefLabel": "jQuery",
+              "groupPrefLabel": "Full Stack Development Skills",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1110580737240190976",
+              "freeText": null,
+              "prefLabel": "Web Application",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314245873665",
+              "freeText": null,
+              "prefLabel": "AI Agent Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580578754220032",
+              "id": "1691099314254262272",
+              "freeText": null,
+              "prefLabel": "AI Development",
+              "groupPrefLabel": "Full Stack Development Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "996364628025274386",
+              "freeText": null,
+              "prefLabel": "Python",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628012691471",
+              "freeText": null,
+              "prefLabel": "Amazon Web Services",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 1200,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T14:06:51.934Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "jpgV2Prompt": "Full Stack Developer Needed for AI-Powered SaaS Platform",
+            "generatedInputsAIv2": "{\"title\":\"Full Stack Developer for AI SaaS\",\"skills\":[],\"scope\":{\"duration\":\"474250516458926080\",\"segmentation\":\"1136971402914283520\",\"expertise\":1},\"budget\":{\"hourlyBudgetMin\":15,\"hourlyBudgetMax\":35}}",
+            "generate_prompt": "Full Stack Developer Needed for AI-Powered SaaS Platform",
+            "browser": "Chrome",
+            "device": "Macintosh",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784469729619",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":9,\"description\":\"Join our team to develop an AI-powered SaaS platform for the real estate industry. You'll work on the front-end and back-end, integrating AI models and ensuring seamless user experiences. Collaborate with our team to design, develop, and deploy scalable solutions. Experience with cloud platforms and DevOps is essential.\",\"editedDescription\":\"Join our team to develop an AI-powered SaaS platform for the real estate industry. You'll work on the front-end and back-end, integrating AI models and ensuring seamless user experiences. Collaborate with our team to design, develop, and deploy scalable solutions. Experience with cloud platforms and DevOps is essential.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "More than 6 months",
+          "weeks": 52
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": null
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-20T01:24:36.636Z",
+          "totalApplicants": 66,
+          "totalHired": 0,
+          "totalInvitedToInterview": 22,
+          "unansweredInvites": 11,
+          "invitationsSent": 34,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "California",
+          "country": "United States"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2078097611993901157",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-17T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 2,
+          "postedCount": 2,
+          "openJobs": [
+            {
+              "id": "2078099608600291093",
+              "uid": "2078099608600291093",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078099608600291093",
+              "title": "AI Agent Developer Needed for Long-Term Generative AI & Machine Learning Projects",
+              "type": "FIXED"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 1294.0709504685408,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 50,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 5000,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

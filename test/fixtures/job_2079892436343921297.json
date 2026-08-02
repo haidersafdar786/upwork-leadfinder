@@ -1,0 +1,560 @@
+{
+  "uid": "2079892436343921297",
+  "ciphertext": "~022079892436343921297",
+  "title": "Expert NestJS Developer for API Design",
+  "url": "https://www.upwork.com/jobs/~022079892436343921297",
+  "scrapedAt": "2026-07-22T13:02:59.921Z",
+  "feed": {
+    "id": "2079892436343921297",
+    "uid": "2079892436343921297",
+    "title": "Expert NestJS Developer for API Design",
+    "ciphertext": "~022079892436343921297",
+    "description": "Senior Backend Engineer (NestJS/PostgreSQL) – Premium Security & IoT PlatformJob Description:\n\nWe are a global technology brand building a safety wearable and a security platform. We are moving away from traditional, boring GPS tracking interfaces to build an intelligent, sci-fi-inspired security companion (think Jarvis/Iron Man aesthetics).We have finalized our core architecture and are utilizing an enterprise third-party telematics engine. We are not building a tracking backend or device management from scratch. Instead, your focus will be building a high-performance, premium backend application that consumes robust upstream APIs and processes real-time webhooks.🛠️ Our Tech Stack:Framework: Node.js / NestJS (TypeScript)Database: PostgreSQLCaching & Session: RedisMessage Broker: Kafka or RabbitMQ (for ingestion of real-time telemetry streams)🚀 Key Responsibilities & Features to Build:API & Webhook Integration: Ingest and process high-throughput real-time location data, device status (battery, connectivity), and alerts from our telematics provider.Core App Services: Build scalable APIs for user onboarding, Guardian Pin registration, geofence management, emergency contact systems, and a family dashboard.Real-time Event Engine: Power an instant SOS trigger interface, real-time push notifications, and a chronological history/event timeline.    What We Are Looking For:Expert-level experience with NestJS, TypeScript, and designing clean architectural patterns.Deep understanding of PostgreSQL (query optimization, spatial data indexing/PostGIS is a massive plus).Hands-on experience handling high-volume webhooks and message queues (Kafka or RabbitMQ).Previous experience integrating with heavy IoT, hardware, or telematics third-party APIs.Ability to write clean, highly secure code for sensitive user safety data.",
+    "type": 2,
+    "recno": "1026052894",
+    "freelancersToHire": 2,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0
+    },
+    "createdOn": "2026-07-22T11:32:54.392Z",
+    "publishedOn": "2026-07-22T11:34:55.992Z",
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 3,
+      "totalSpent": 1862.08,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "Nigeria"
+      },
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "",
+      "proposalReviewedAt": ""
+    },
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTs": "1784720096782",
+    "attrs": [
+      {
+        "id": "996364628025274383",
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "996364628025274385",
+        "uid": "996364628025274385",
+        "prettyName": "PHP",
+        "prefLabel": "PHP"
+      },
+      {
+        "id": "1031626745118703616",
+        "uid": "1031626745118703616",
+        "prettyName": "HTML5",
+        "prefLabel": "HTML5"
+      },
+      {
+        "id": "1031626728794472448",
+        "uid": "1031626728794472448",
+        "prettyName": "CSS",
+        "prefLabel": "CSS"
+      },
+      {
+        "id": "1110580482566246400",
+        "uid": "1110580482566246400",
+        "prettyName": "API Integration",
+        "prefLabel": "API Integration"
+      },
+      {
+        "id": "1110580682663907328",
+        "uid": "1110580682663907328",
+        "prettyName": "RESTful API",
+        "prefLabel": "RESTful API"
+      }
+    ],
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "isApplied": false,
+    "annotations": {
+      "tags": [
+        "reimagined",
+        "jpgV2Generated",
+        "searchable"
+      ]
+    },
+    "relevanceEncoded": "{}",
+    "position": 8
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T11:32:54.392Z",
+        "publishTime": "2026-07-22T11:34:55.992Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "Senior Backend Engineer (NestJS/PostgreSQL) – Premium Security & IoT PlatformJob Description:\n\nWe are a global technology brand building a safety wearable and a security platform. We are moving away from traditional, boring GPS tracking interfaces to build an intelligent, sci-fi-inspired security companion (think Jarvis/Iron Man aesthetics).We have finalized our core architecture and are utilizing an enterprise third-party telematics engine. We are not building a tracking backend or device management from scratch. Instead, your focus will be building a high-performance, premium backend application that consumes robust upstream APIs and processes real-time webhooks.🛠️ Our Tech Stack:Framework: Node.js / NestJS (TypeScript)Database: PostgreSQLCaching & Session: RedisMessage Broker: Kafka or RabbitMQ (for ingestion of real-time telemetry streams)🚀 Key Responsibilities & Features to Build:API & Webhook Integration: Ingest and process high-throughput real-time location data, device status (battery, connectivity), and alerts from our telematics provider.Core App Services: Build scalable APIs for user onboarding, Guardian Pin registration, geofence management, emergency contact systems, and a family dashboard.Real-time Event Engine: Power an instant SOS trigger interface, real-time push notifications, and a chronological history/event timeline.    What We Are Looking For:Expert-level experience with NestJS, TypeScript, and designing clean architectural patterns.Deep understanding of PostgreSQL (query optimization, spatial data indexing/PostGIS is a massive plus).Hands-on experience handling high-volume webhooks and message queues (Kafka or RabbitMQ).Previous experience integrating with heavy IoT, hardware, or telematics third-party APIs.Ability to write clean, highly secure code for sensitive user safety data.",
+        "info": {
+          "ciphertext": "~022079892436343921297",
+          "id": "2079892436343921297",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Expert NestJS Developer for API Design",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T11:32:54.392Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "996364628025274385",
+              "freeText": null,
+              "prefLabel": "PHP",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "1031626745118703616",
+              "freeText": null,
+              "prefLabel": "HTML5",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "NICE_TO_HAVE"
+            },
+            {
+              "groupId": "1204836457510977536",
+              "id": "1031626728794472448",
+              "freeText": null,
+              "prefLabel": "CSS",
+              "groupPrefLabel": "Full Stack Development Languages",
+              "relevance": "NICE_TO_HAVE"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580682663907328",
+              "freeText": null,
+              "prefLabel": "RESTful API",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "ios_client_rjp",
+            "publishTime": "2026-07-22T11:34:55.992Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "yes",
+            "urgency": "0",
+            "jpgV2Prompt": "What We Are Looking For:Expert-level experience with NestJS, TypeScript, and designing clean architectural patterns.Deep understanding of PostgreSQL (query optimization, spatial data indexing/PostGIS is a massive plus).Hands-on experience handling high-volume webhooks and message queues (Kafka or RabbitMQ).Previous experience integrating with heavy IoT, hardware, or telematics third-party APIs.Ability to write clean, highly secure code for sensitive user safety data.  ",
+            "generatedInputsAIv2": "{\"title\":\"Expert NestJS Developer for API Design\",\"skills\":[],\"scope\":{\"duration\":\"474250516458926082\",\"segmentation\":\"535795054385852416\",\"expertise\":2},\"budget\":{\"hourlyBudgetMin\":25,\"hourlyBudgetMax\":47}}",
+            "generate_prompt": "What We Are Looking For:Expert-level experience with NestJS, TypeScript, and designing clean architectural patterns.Deep understanding of PostgreSQL (",
+            "browser": "AppleWebKit",
+            "device": "iPhone",
+            "retriesAIv2": "1",
+            "startTimeJobPostFlowAIv2": "1784719647618",
+            "flowType": "RJP",
+            "generatedDescriptionHistoryAIV2": "[{\"tag\":\"AI Prompt\",\"timeSpent\":10,\"description\":\"We are seeking an expert-level developer with extensive experience in NestJS, TypeScript, and PostgreSQL. The ideal candidate will have a deep understanding of designing clean architectural patterns and a strong grasp of PostgreSQL. Responsibilities include developing and maintaining RESTful APIs, ensuring high performance and scalability, and collaborating with our team to integrate new features. If you have a passion for delivering high-quality solutions and a keen eye for detail, we would love to hear from you.\",\"editedDescription\":\"We are seeking an expert-level developer with extensive experience in NestJS, TypeScript, and PostgreSQL. The ideal candidate will have a deep understanding of designing clean architectural patterns and a strong grasp of PostgreSQL. Responsibilities include developing and maintaining RESTful APIs, ensuring high performance and scalability, and collaborating with our team to integrate new features. If you have a passion for delivering high-quality solutions and a keen eye for detail, we would love to hear from you.\",\"similarityScore\":1}]"
+          },
+          "tags": [
+            "reimagined",
+            "jpgV2Generated",
+            "searchable"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T11:32:54.363Z",
+          "totalApplicants": 33,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 2
+        },
+        "deliverables": "",
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 90,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "CONVERSATIONAL",
+        "regions": null,
+        "risingTalent": true,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 0
+        },
+        {
+          "question": "What frameworks have you worked with?",
+          "position": 1
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Africa/Algiers (UTC+01:00)",
+          "city": "Ibadan",
+          "country": "Nigeria"
+        },
+        "stats": {
+          "totalAssignments": 3,
+          "activeAssignmentsCount": 1,
+          "hoursCount": 1,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 3,
+          "totalCharges": {
+            "amount": 1862.08
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1949502065195915468",
+          "isEDCReplicated": null,
+          "contractDate": "2025-07-27T00:00:00.000Z",
+          "profile": {
+            "industry": "Tech & IT",
+            "size": 10
+          }
+        },
+        "jobs": {
+          "openCount": 4,
+          "postedCount": 21,
+          "openJobs": [
+            {
+              "id": "2077045464773213168",
+              "uid": "2077045464773213168",
+              "isPtcPrivate": false,
+              "ciphertext": "~022077045464773213168",
+              "title": "Senior Product Designer for Safety Tech",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2074382982555001904",
+              "uid": "2074382982555001904",
+              "isPtcPrivate": false,
+              "ciphertext": "~022074382982555001904",
+              "title": "Industrial/Product Designer for Safety Device",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2073302927778238796",
+              "uid": "2073302927778238796",
+              "isPtcPrivate": false,
+              "ciphertext": "~022073302927778238796",
+              "title": "Industrial/Product Designer for Safety Device",
+              "type": "HOURLY"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 25
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-22T06:44:15.362Z",
+          "endDate": null,
+          "totalCharge": 25,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Demo system development contract",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Vaibhav S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0185136b31757c773e"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-05-18T04:32:59.302Z",
+          "endDate": "2026-05-22T06:20:18.403Z",
+          "totalCharge": 0,
+          "totalHours": 1,
+          "jobInfo": {
+            "title": "Web Developer Needed for Demo Page & Twilio Integration",
+            "id": "2043723664321043835",
+            "uid": "2043723664321043835",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022043723664321043835"
+          },
+          "contractorInfo": {
+            "contractorName": "Vaibhav S.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0185136b31757c773e"
+          },
+          "rate": {
+            "amount": 25
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent developer to work with. Very patient, professional, and responsive throughout the project. He communicated clearly, understood the requirements well, and was willing to adapt to changes and new ideas during development.\n\nHe also showed good problem solving ability while working on our emergency infrastructure demo system, including backend setup, integrations, and workflow implementation.\n\nOverall, a reliable and respectful developer, and I would definitely recommend him for future projects."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-08-19T15:19:37.893Z",
+          "endDate": "2025-12-02T09:56:10.440Z",
+          "totalCharge": 1400,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "EUTOPIA ID MVP DEVELOPMENT",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "FIXED",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Haris R.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01fee9f097c07499a9"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "90",
+              "clientPreferredLabel": "At least 90%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "2",
+              "clientPreferredLabel": "Conversational",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "AT_LEAST_10000",
+              "clientPreferredLabel": "At Least 10000",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 24.88562091503268,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 125,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Senior Product Designer for Safety Tech",
+      "ciphertext": "~022077045464773213168",
+      "description": "We are building the next generation of intelligent safety technology. We need a Senior Product Designer with expertise in sci-fi UI and AI experience design to create innovative and user-friendly interfaces. Everything should feel like technology from the future—beautiful, intelligent, cinematic, yet simple enough for everyday people. If your dream is to design interfaces that look like they belong in a sci-fi movie, you’ll love this role. ⸻ What We’re Looking For We are searching for an exceptional Product Designer who can create futuristic interfaces that feel intelligent, premium and alive. We want someone who understands how to design experiences—not just screens. Our ideal designer is inspired by: * Apple Vision Pro * Tesla UI * Nothing OS * Iron Man (Jarvis) * Minority Report * Black Mirror * Sci-fi holographic displays * Advanced AI systems ⸻ You’ll Design * AI assistant experiences * Emergency response interfaces * Live tracking dashboards * Holographic notification systems * Command center experiences Design Style We’re looking for someone experienced with: * Glassmorphism * Liquid Glass UI * Frosted Glass Interfaces * Holographic Displays * Sci-Fi UI * Spatial Interfaces * Motion-first UX * AI Interaction Design * Cyan Lighting Systems * Futuristic Microinteractions * Dynamic Lighting * Animated Data Visualizations * Premium Minimalism ⸻ Required Skills * Figma (Expert) * Auto Layout * Design Systems * Interactive Components * Prototyping * Motion Design * User Experience Design * Product Thinking * Mobile Design * Dashboard Design Bonus: * Rive * Lottie * Spline * After Effects * Principle * ProtoPie * Blender * VisionOS experience ⸻ What Success Looks Like Users should open the app and immediately feel: “I’ve never seen an app like this before.” The interface should feel intelligent before a single AI response appears. Every interaction should communicate trust, protection and futuristic technology. ⸻ We Want Someone Who Can * Design interfaces that feel cinematic * Build premium design systems * Think beyond traditional mobile apps * Create immersive AI experiences * Balance beauty with usability * Design for emotional trust * Create interfaces people remember ⸻ Portfolio Requirements Please include work that demonstrates any of this: * Futuristic UI * Glassmorphism * Motion Design * AI Interfaces * Dashboard Design * Premium Mobile Applications * Holographic Concepts * Advanced Interaction Design Applications without a portfolio will not be considered. The ideal candidate will have a strong portfolio showcasing their ability to design intuitive and visually appealing products. Experience with Glassmorphism and AI-driven design tools is essential."
+    },
+    {
+      "title": "Industrial/Product Designer for Safety Device",
+      "ciphertext": "~022074382982555001904",
+      "description": "We are seeking an experienced Industrial/Product Designer to create the enclosure for the EUTOPIA Guardian Pin, a discreet AI-powered personal safety device. The design should be user-friendly and aesthetically pleasing, ensuring a seamless user experience. The ideal candidate will have a strong portfolio in industrial and product design, with a focus on creating innovative and practical solutions."
+    },
+    {
+      "title": "Industrial/Product Designer for Safety Device",
+      "ciphertext": "~022073302927778238796",
+      "description": "We are seeking an experienced Industrial/Product Designer to create the enclosure for a discreet AI-powered personal safety device for children. The design should be user-friendly and appealing to children, ensuring it is both functional and aesthetically pleasing. The ideal candidate will have a strong portfolio in industrial and product design, with a focus on creating innovative and practical solutions."
+    }
+  ]
+}

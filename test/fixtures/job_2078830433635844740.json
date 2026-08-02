@@ -1,0 +1,595 @@
+{
+  "uid": "2078830433635844740",
+  "ciphertext": "~022078830433635844740",
+  "title": "Virtual Assistant",
+  "url": "https://www.upwork.com/jobs/~022078830433635844740",
+  "scrapedAt": "2026-07-21T04:19:52.773Z",
+  "feed": {
+    "uid": "2078830433635844740",
+    "ciphertext": "~022078830433635844740",
+    "title": "<span class=\"highlight\">Virtual</span> <span class=\"highlight\">Assistant</span>",
+    "description": "About us\n\nWe are a UK-registered EdTech SaaS company providing school operations management software to international and private schools across Europe, the Middle East, Africa, and the Americas. We operate across multiple legal entities (UK and Netherlands) and have a lean, distributed team. The Founder/MD handles business development and strategy personally — which means he needs a reliable, proactive <span class=\"highlight\">virtual</span> <span class=\"highlight\">assistant</span> who can own the operational and administrative side of the business without hand-holding.\n\nWhat you'll own\n\nMonthly bank reconciliation — reconciling accounts across UK and EU entities, flagging discrepancies, liaising with our accountants where needed\nInvoicing — raising, sending, and tracking client invoices; following up on overdue payments; maintaining clean records in Zoho Books\nRegulatory compliance — monitoring and managing filing deadlines for HMRC (VAT, PAYE), Companies House (confirmation statements, director changes), and equivalent Dutch obligations; ensuring nothing slips\nMeeting & task management — scheduling, preparing agendas, taking notes, tracking action items and following up with stakeholders to ensure delivery\nBusiness continuity planning — helping document processes, maintain operational runbooks, and identify gaps that could create risk if key personnel are unavailable\nGeneral business administration — contract register maintenance, document management, supplier correspondence, and ad hoc operational support\nWhat we're looking for\n\nProven experience as a VA or EA supporting a founder, MD, or senior executive in a small business or startup environment\nSolid understanding of UK company administration — HMRC, Companies House, VAT — and ideally some exposure to EU (Dutch/Netherlands) requirements\nComfortable with financial admin: reconciliation, invoicing, bookkeeping basics; experience with Zoho Books is a strong plus\nHighly organised, deadline-driven, and comfortable working autonomously across time zones\nExcellent written English; you will represent the business in correspondence\nReliable, discreet, and trustworthy — you will have access to sensitive financial and legal information\nExperience with Microsoft 365 (Outlook, Teams, SharePoint) and Google Workspace\nNice to have\n\nBackground in SaaS, tech, or professional services\nExperience supporting multi-entity or multi-jurisdiction companies\nFamiliarity with contract management and NDA handling\nKnowledge of Dutch VAT / OSS filings\nEngagement details\n\nCommitment\tPart-time, ongoing (est. 10–20 hrs/week to start)\nContract type\tHourly, with potential to move to a fixed retainer\nTimezone\tEuropean timezone preferred (CET / GMT overlap)\nCommunication\tMicrosoft Teams + email; weekly check-in call\nTo apply, please include\n\nA brief overview of your experience with UK company compliance and financial admin\nAny relevant software or tools you work with regularly\nOne example of how you've proactively prevented an administrative problem for a previous client\nApplications that do not address the above will not be considered. We are looking for a long-term partner, not a task executor.",
+    "createdOn": "2026-07-19T13:12:53.248Z",
+    "publishedOn": "2026-07-19T13:14:29.365Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "3 to 6 months",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "GBR"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "4564.26",
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 1,
+    "relevanceEncoded": "{\"position\":\"4\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.20to50",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1110580732286717952",
+        "parentSkillUid": null,
+        "prefLabel": "Virtual Assistance",
+        "prettyName": "Virtual Assistance",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1052162208999198724",
+        "parentSkillUid": null,
+        "prefLabel": "WordPress",
+        "prettyName": "WordPress",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580571342884864",
+        "parentSkillUid": null,
+        "prefLabel": "File Management",
+        "prettyName": "File Management",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580619455746048",
+        "parentSkillUid": null,
+        "prefLabel": "Light Bookkeeping",
+        "prettyName": "Light Bookkeeping",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580708786032640",
+        "parentSkillUid": null,
+        "prefLabel": "Task Coordination",
+        "prettyName": "Task Coordination",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580629035536384",
+        "parentSkillUid": null,
+        "prefLabel": "Meeting Agendas",
+        "prettyName": "Meeting Agendas",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1110580688930197504",
+        "parentSkillUid": null,
+        "prefLabel": "Scheduling",
+        "prettyName": "Scheduling",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626709379039232",
+        "parentSkillUid": null,
+        "prefLabel": "Administrative Support",
+        "prettyName": "Administrative Support",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1045317674387668992",
+        "parentSkillUid": null,
+        "prefLabel": "Personal Administration",
+        "prettyName": "Personal Administration",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 15,
+      "max": 25
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T13:12:53.248Z",
+        "publishTime": "2026-07-19T13:14:29.365Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "About us\n\nWe are a UK-registered EdTech SaaS company providing school operations management software to international and private schools across Europe, the Middle East, Africa, and the Americas. We operate across multiple legal entities (UK and Netherlands) and have a lean, distributed team. The Founder/MD handles business development and strategy personally — which means he needs a reliable, proactive virtual assistant who can own the operational and administrative side of the business without hand-holding.\n\nWhat you'll own\n\nMonthly bank reconciliation — reconciling accounts across UK and EU entities, flagging discrepancies, liaising with our accountants where needed\nInvoicing — raising, sending, and tracking client invoices; following up on overdue payments; maintaining clean records in Zoho Books\nRegulatory compliance — monitoring and managing filing deadlines for HMRC (VAT, PAYE), Companies House (confirmation statements, director changes), and equivalent Dutch obligations; ensuring nothing slips\nMeeting & task management — scheduling, preparing agendas, taking notes, tracking action items and following up with stakeholders to ensure delivery\nBusiness continuity planning — helping document processes, maintain operational runbooks, and identify gaps that could create risk if key personnel are unavailable\nGeneral business administration — contract register maintenance, document management, supplier correspondence, and ad hoc operational support\nWhat we're looking for\n\nProven experience as a VA or EA supporting a founder, MD, or senior executive in a small business or startup environment\nSolid understanding of UK company administration — HMRC, Companies House, VAT — and ideally some exposure to EU (Dutch/Netherlands) requirements\nComfortable with financial admin: reconciliation, invoicing, bookkeeping basics; experience with Zoho Books is a strong plus\nHighly organised, deadline-driven, and comfortable working autonomously across time zones\nExcellent written English; you will represent the business in correspondence\nReliable, discreet, and trustworthy — you will have access to sensitive financial and legal information\nExperience with Microsoft 365 (Outlook, Teams, SharePoint) and Google Workspace\nNice to have\n\nBackground in SaaS, tech, or professional services\nExperience supporting multi-entity or multi-jurisdiction companies\nFamiliarity with contract management and NDA handling\nKnowledge of Dutch VAT / OSS filings\nEngagement details\n\nCommitment\tPart-time, ongoing (est. 10–20 hrs/week to start)\nContract type\tHourly, with potential to move to a fixed retainer\nTimezone\tEuropean timezone preferred (CET / GMT overlap)\nCommunication\tMicrosoft Teams + email; weekly check-in call\nTo apply, please include\n\nA brief overview of your experience with UK company compliance and financial admin\nAny relevant software or tools you work with regularly\nOne example of how you've proactively prevented an administrative problem for a previous client\nApplications that do not address the above will not be considered. We are looking for a long-term partner, not a task executor.",
+        "info": {
+          "ciphertext": "~022078830433635844740",
+          "id": "2078830433635844740",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Virtual Assistant",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T13:12:53.248Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Ongoing project",
+            "name": "Employment",
+            "sortOrder": 1,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_POSITION",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:virtualadministrativeassistantservice",
+            "prefLabel": "General Virtual Assistance",
+            "id": "1110580768370315264",
+            "uid": "1110580768370315264"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1737190622750224391",
+              "id": "1052162208999198724",
+              "freeText": null,
+              "prefLabel": "WordPress",
+              "groupPrefLabel": "General Virtual Assistance Tools",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580732303495168",
+              "id": "1110580571342884864",
+              "freeText": null,
+              "prefLabel": "File Management",
+              "groupPrefLabel": "General Virtual Assistance Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580732303495168",
+              "id": "1110580619455746048",
+              "freeText": null,
+              "prefLabel": "Light Bookkeeping",
+              "groupPrefLabel": "General Virtual Assistance Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580732303495168",
+              "id": "1110580708786032640",
+              "freeText": null,
+              "prefLabel": "Task Coordination",
+              "groupPrefLabel": "General Virtual Assistance Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580732303495168",
+              "id": "1110580629035536384",
+              "freeText": null,
+              "prefLabel": "Meeting Agendas",
+              "groupPrefLabel": "General Virtual Assistance Skills",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580732404158464",
+              "id": "1110580688930197504",
+              "freeText": null,
+              "prefLabel": "Scheduling",
+              "groupPrefLabel": "General Virtual Assistance Services",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1031626709379039232",
+              "freeText": null,
+              "prefLabel": "Administrative Support",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1045317674387668992",
+              "freeText": null,
+              "prefLabel": "Personal Administration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580732286717952",
+              "freeText": null,
+              "prefLabel": "Virtual Assistance",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Virtual Assistance",
+          "urlSlug": "virtual-assistance"
+        },
+        "categoryGroup": {
+          "name": "Admin Support",
+          "urlSlug": "admin-support"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-19T13:14:29.365Z",
+            "reuse": "2042559127996195201",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "cjp_v1",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "3 to 6 months",
+          "weeks": 18
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 15,
+          "hourlyBudgetMax": 25,
+          "hourlyBudgetType": "MANUAL"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T16:35:43.996Z",
+          "totalApplicants": 21,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": [
+          "India",
+          "Kenya"
+        ],
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "CONVERSATIONAL",
+        "regions": [
+          "Europe",
+          "Africa"
+        ],
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "INDEPENDENT",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": {
+          "city": null,
+          "country": null,
+          "countryTimezone": null,
+          "offsetFromUtcMillis": null,
+          "state": null,
+          "worldRegion": "Europe"
+        },
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": [
+        {
+          "question": "What office applications are you most familiar with?",
+          "position": 0
+        },
+        {
+          "question": "Describe your recent experience with similar projects",
+          "position": 1
+        }
+      ]
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 3600000,
+          "countryTimezone": "Africa/Casablanca (UTC+01:00)",
+          "city": "London",
+          "country": "GBR"
+        },
+        "stats": {
+          "totalAssignments": 3,
+          "activeAssignmentsCount": 1,
+          "hoursCount": 141.5,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 3,
+          "totalCharges": {
+            "amount": 4564.26
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "1882810947649083240",
+          "isEDCReplicated": null,
+          "contractDate": "2025-01-24T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 6,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 22.933144876325088
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-06-12T00:00:00.000Z",
+          "endDate": null,
+          "totalCharge": 1375.27,
+          "totalHours": 41.5,
+          "jobInfo": {
+            "title": "Microsoft 365 & Windows 365 Specialist — SME Deployment",
+            "id": "2064280755505490551",
+            "uid": "2064280755505490551",
+            "access": "PUBLIC",
+            "type": "HOURLY",
+            "ciphertext": "~022064280755505490551"
+          },
+          "contractorInfo": {
+            "contractorName": "Till V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01c932f45bd4b8b534"
+          },
+          "rate": {
+            "amount": 30
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-11-24T00:00:00.000Z",
+          "endDate": "2026-04-10T10:37:43.657Z",
+          "totalCharge": 2190.43,
+          "totalHours": 99.999997,
+          "jobInfo": {
+            "title": "Administrative and Operational Support - Part-time",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Angela P.",
+            "accessType": "PUBLIC",
+            "ciphertext": "~0197e772b8908e3498"
+          },
+          "rate": {
+            "amount": 20
+          },
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2025-05-23T19:28:48.237Z",
+          "endDate": "2025-06-17T15:36:19.608Z",
+          "totalCharge": 998.56,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Power BI Expert Needed – Visualize Unassigned Students for Transport Routing",
+            "id": "1925512690633519818",
+            "uid": "1925512690633519818",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~021925512690633519818"
+          },
+          "contractorInfo": {
+            "contractorName": "Hrishi V.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~0113c47c4c7d394b73"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Excellent work, really understood the assigment and were able to bring unique insights to creating solutions."
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": "Great client, great communication, and we are happy to have worked with them."
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "individuals",
+              "clientPreferredLabel": "Freelancers only",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "2",
+              "clientPreferredLabel": "Conversational",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "region=(Europe,Africa),country=(India,Kenya)",
+              "clientPreferredLabel": "Europe, Africa, India, Kenya",
+              "freelancerValue": "Asia,Pakistan",
+              "freelancerValueLabel": "Asia, Pakistan",
+              "qualification": "Location",
+              "qualified": false
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 17.371428571428574,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 25,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580768370315264",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}

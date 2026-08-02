@@ -1,0 +1,581 @@
+{
+  "uid": "2078831197574511355",
+  "ciphertext": "~022078831197574511355",
+  "title": "Backend Developer Needed — Real-Time Multi-User App (Supabase)",
+  "url": "https://www.upwork.com/jobs/~022078831197574511355",
+  "scrapedAt": "2026-07-19T21:10:14.294Z",
+  "feed": {
+    "uid": "2078831197574511355",
+    "title": "Backend Developer Needed — Real-Time Multi-User App (Supabase)",
+    "ciphertext": "~022078831197574511355",
+    "description": "I'm building a social app where friends create private rooms, queue music together, and can pull in a live DJ. There's already a working front-end prototype built (rooms, YouTube-link queue, DJ profiles, user profiles) — I'll share the file and full technical spec with selected candidates.\n\nWhat I need for this first phase:\n- A real backend (Supabase preferred) so multiple people, each on their own device, can join the same room and see the same synced queue update live\n- Basic user accounts (email/password or magic link is enough)\n- Deployed somewhere reliable\n\nNot needed yet: payments, native live video streaming, or a mobile app.\n\nTo apply, please tell me:\n1. Have you built real-time, multi-user apps before — specifically things where multiple people see live updates together?\n2. A link to something similar you've actually shipped.\n3. Have you worked with Supabase specifically for real-time syncing between users?\n\nI'd like to start with a small, paid trial task before committing to the full scope.",
+    "type": 2,
+    "recno": "1026015871",
+    "freelancersToHire": 0,
+    "duration": "Less than 1 week",
+    "durationLabel": "Less than 1 week",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-19T13:15:55.382Z",
+    "publishedOn": "2026-07-19T13:17:56.606Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 0,
+      "totalSpent": null,
+      "paymentVerificationStatus": 2,
+      "location": {
+        "country": "United Arab Emirates",
+        "city": null,
+        "state": null,
+        "countryTimezone": "Asia/Tbilisi",
+        "worldRegion": "Asia"
+      },
+      "totalReviews": 0,
+      "totalFeedback": null,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-19T17:23:41.740Z",
+      "proposalReviewedAt": "2026-07-19T17:23:41.749Z"
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784467091400",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1484275089215770624",
+        "prefLabel": "Full-Stack Development"
+      },
+      {
+        "id": "1031626773660942336",
+        "prefLabel": "React"
+      },
+      {
+        "id": "1031626762999021568",
+        "prefLabel": "Node.js"
+      },
+      {
+        "id": "1031626737090805760",
+        "prefLabel": "ExpressJS"
+      },
+      {
+        "id": "1031626795211276288",
+        "prefLabel": "Web Development"
+      },
+      {
+        "id": "1484275081036877824",
+        "prefLabel": "MERN Stack"
+      },
+      {
+        "id": "1031626762688643072",
+        "prefLabel": "Next.js"
+      },
+      {
+        "id": "996364628025274383",
+        "prefLabel": "JavaScript"
+      },
+      {
+        "id": "996364628025274389",
+        "prefLabel": "TypeScript"
+      },
+      {
+        "id": "1031626740031012864",
+        "prefLabel": "Front-End Development"
+      },
+      {
+        "id": "1484275089232547840",
+        "prefLabel": "Back-End Development"
+      },
+      {
+        "id": "1110580482566246400",
+        "prefLabel": "API Integration"
+      },
+      {
+        "id": "996364627995914245",
+        "prefLabel": "MongoDB"
+      },
+      {
+        "id": "996364628000108546",
+        "prefLabel": "PostgreSQL"
+      },
+      {
+        "id": "1691099315067957248",
+        "prefLabel": "Supabase"
+      }
+    ],
+    "tierText": "Intermediate",
+    "tier": "Intermediate",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "20 to 50",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "NotProvided",
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"3\"}",
+    "attrs": [
+      {
+        "uid": "1484275089215770624",
+        "prettyName": "Full-Stack Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626773660942336",
+        "prettyName": "React",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762999021568",
+        "prettyName": "Node.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626737090805760",
+        "prettyName": "ExpressJS",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626795211276288",
+        "prettyName": "Web Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275081036877824",
+        "prettyName": "MERN Stack",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626762688643072",
+        "prettyName": "Next.js",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274383",
+        "prettyName": "JavaScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628025274389",
+        "prettyName": "TypeScript",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1031626740031012864",
+        "prettyName": "Front-End Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1484275089232547840",
+        "prettyName": "Back-End Development",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1110580482566246400",
+        "prettyName": "API Integration",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364627995914245",
+        "prettyName": "MongoDB",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "996364628000108546",
+        "prettyName": "PostgreSQL",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1691099315067957248",
+        "prettyName": "Supabase",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "firstJobPost"
+      ]
+    },
+    "position": 4
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-19T13:15:55.382Z",
+        "publishTime": "2026-07-19T13:17:56.606Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "I'm building a social app where friends create private rooms, queue music together, and can pull in a live DJ. There's already a working front-end prototype built (rooms, YouTube-link queue, DJ profiles, user profiles) — I'll share the file and full technical spec with selected candidates.\n\nWhat I need for this first phase:\n- A real backend (Supabase preferred) so multiple people, each on their own device, can join the same room and see the same synced queue update live\n- Basic user accounts (email/password or magic link is enough)\n- Deployed somewhere reliable\n\nNot needed yet: payments, native live video streaming, or a mobile app.\n\nTo apply, please tell me:\n1. Have you built real-time, multi-user apps before — specifically things where multiple people see live updates together?\n2. A link to something similar you've actually shipped.\n3. Have you worked with Supabase specifically for real-time syncing between users?\n\nI'd like to start with a small, paid trial task before committing to the full scope.",
+        "info": {
+          "ciphertext": "~022078831197574511355",
+          "id": "2078831197574511355",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Backend Developer Needed — Real-Time Multi-User App (Supabase)",
+          "hideBudget": false,
+          "createdOn": "2026-07-19T13:15:55.382Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:fullstackdevelopment",
+            "prefLabel": "Full Stack Development",
+            "id": "1110580755107926016",
+            "uid": "1110580755107926016"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1484275089215770624",
+              "freeText": null,
+              "prefLabel": "Full-Stack Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626773660942336",
+              "freeText": null,
+              "prefLabel": "React",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762999021568",
+              "freeText": null,
+              "prefLabel": "Node.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626737090805760",
+              "freeText": null,
+              "prefLabel": "ExpressJS",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626795211276288",
+              "freeText": null,
+              "prefLabel": "Web Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275081036877824",
+              "freeText": null,
+              "prefLabel": "MERN Stack",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626762688643072",
+              "freeText": null,
+              "prefLabel": "Next.js",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274383",
+              "freeText": null,
+              "prefLabel": "JavaScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628025274389",
+              "freeText": null,
+              "prefLabel": "TypeScript",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626740031012864",
+              "freeText": null,
+              "prefLabel": "Front-End Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1484275089232547840",
+              "freeText": null,
+              "prefLabel": "Back-End Development",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1110580482566246400",
+              "freeText": null,
+              "prefLabel": "API Integration",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364627995914245",
+              "freeText": null,
+              "prefLabel": "MongoDB",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "996364628000108546",
+              "freeText": null,
+              "prefLabel": "PostgreSQL",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099315067957248",
+              "freeText": null,
+              "prefLabel": "Supabase",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Web Development",
+          "urlSlug": "web-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-19T13:17:56.606Z",
+            "sourcingUpdateCount": "0",
+            "browser": "AppleWebKit",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "iPhone",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "firstJobPost"
+          ]
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-19T17:23:41.733Z",
+          "totalApplicants": 33,
+          "totalHired": 0,
+          "totalInvitedToInterview": 6,
+          "unansweredInvites": 0,
+          "invitationsSent": 6,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": false,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": false,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": 14400000,
+          "countryTimezone": "Asia/Tbilisi (UTC+04:00)",
+          "city": null,
+          "country": "United Arab Emirates"
+        },
+        "stats": {
+          "totalAssignments": 0,
+          "activeAssignmentsCount": 0,
+          "hoursCount": 0,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 0,
+          "totalCharges": null
+        },
+        "company": {
+          "name": null,
+          "companyId": "2078827012294661223",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-19T00:00:00.000Z",
+          "profile": {
+            "industry": null,
+            "size": null
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 1,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": null
+      },
+      "workHistory": []
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 15
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 23.20952380952381,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 3.333333333333333,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 70,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": null,
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  }
+}

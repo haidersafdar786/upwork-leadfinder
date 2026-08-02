@@ -1,0 +1,613 @@
+{
+  "uid": "2079476854617318923",
+  "ciphertext": "~022079476854617318923",
+  "title": "Ai image specialist",
+  "url": "https://www.upwork.com/jobs/~022079476854617318923",
+  "scrapedAt": "2026-07-21T08:06:31.261Z",
+  "feed": {
+    "uid": "2079476854617318923",
+    "ciphertext": "~022079476854617318923",
+    "title": "Ai image specialist",
+    "description": "Starstruck is a fast-growing luxury fashion <span class=\"highlight\">brand</span> creating premium tracksuits, shorts sets, outerwear, suits, and lifestyle apparel. We’re looking for a highly skilled AI <span class=\"highlight\">designer</span> who can help us produce world-class product imagery that rivals <span class=\"highlight\">brands</span> like Kith, Fear of God, Dior, and Louis Vuitton.\n\nThis is long-term work. We release new products regularly and need someone who can become part of our creative team.\n\n⸻\n\nWhat You’ll Do\n\nFor every product, create a complete image package including:\n\nStudio Product Images\n\n* Front view\n* 45° front angle\n* Side view\n* Back view\n\nDetail Images\n\n* Logo close-up\n* Fabric texture close-up\n* Zipper & hardware close-up\n* Pocket/detail close-up\n\nLifestyle Images\n\n* Standing pose\n* Walking pose\n* Sitting pose\n* Luxury campaign image\n\nDeliverables\n\n* Shopify-ready images\n* High-resolution files\n* White background product shots\n* Luxury lifestyle images\n* Consistent collage layout similar to premium fashion <span class=\"highlight\">brands</span>\n\n⸻\n\nRequirements\n\nYou must have experience with:\n\n* ChatGPT Image Generation\n* Adobe Photoshop\n* Midjourney (preferred)\n* Flux (preferred)\n* ComfyUI (preferred)\n* AI image editing\n* Luxury fashion retouching\n* Product image compositing\n\nYou should understand:\n\n* High-end fashion photography\n* Luxury lighting\n* Fabric realism\n* Consistent <span class=\"highlight\">branding</span>\n* Premium e-commerce <span class=\"highlight\">design</span>\n\n⸻\n\nWhat Success Looks Like\n\nEvery product should have:\n\n* Identical lighting\n* Identical camera angles\n* Identical model proportions\n* Consistent backgrounds\n* Premium luxury aesthetic\n* Website-ready quality\n\nThe goal is for our website to look as polished as <span class=\"highlight\">brands</span> like Kith, Aimé Leon Dore, and Fear of God.",
+    "createdOn": "2026-07-21T08:01:31.964Z",
+    "publishedOn": "2026-07-21T08:03:31.861Z",
+    "renewedOn": null,
+    "type": 2,
+    "durationLabel": "Less than 1 month",
+    "engagement": "usnuxt_Engagement_421.partTime",
+    "amount": {
+      "amount": 0
+    },
+    "client": {
+      "location": {
+        "country": "USA"
+      },
+      "isPaymentVerified": true,
+      "totalSpent": "331.99",
+      "totalReviews": 0,
+      "totalFeedback": 0,
+      "hasFinancialPrivacy": false
+    },
+    "clientRelation": null,
+    "freelancersToHire": 0,
+    "relevanceEncoded": "{\"position\":\"0\"}",
+    "enterpriseJob": false,
+    "tierText": "jsn_Intermediate_206",
+    "isApplied": false,
+    "proposalsTier": "usnuxt_JobProposalTier_418.lessThan5",
+    "premium": false,
+    "attrs": [
+      {
+        "uid": "1031626770678792192",
+        "parentSkillUid": null,
+        "prefLabel": "Print Design",
+        "prettyName": "Print Design",
+        "freeText": null,
+        "highlighted": true
+      },
+      {
+        "uid": "1052162208852398098",
+        "parentSkillUid": null,
+        "prefLabel": "Adobe Photoshop",
+        "prettyName": "Adobe Photoshop",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099107328274432",
+        "parentSkillUid": null,
+        "prefLabel": "AI Image Generation",
+        "prettyName": "AI Image Generation",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626768858464256",
+        "parentSkillUid": null,
+        "prefLabel": "Photo Retouching",
+        "prettyName": "Photo Retouching",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1192876986741571584",
+        "parentSkillUid": null,
+        "prefLabel": "Photo Color Correction",
+        "prettyName": "Photo Color Correction",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1356688508727857152",
+        "parentSkillUid": null,
+        "prefLabel": "Retouching & Enhancement",
+        "prettyName": "Retouching & Enhancement",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626768761995264",
+        "parentSkillUid": null,
+        "prefLabel": "Photo Editing",
+        "prettyName": "Photo Editing",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1356688472333881344",
+        "parentSkillUid": null,
+        "prefLabel": "Manipulation & Compositing",
+        "prettyName": "Manipulation & Compositing",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626737636065280",
+        "parentSkillUid": null,
+        "prefLabel": "Fashion Retouch",
+        "prettyName": "Fashion Retouch",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099107332468736",
+        "parentSkillUid": null,
+        "prefLabel": "AI Image Editing",
+        "prettyName": "AI Image Editing",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1691099314191347712",
+        "parentSkillUid": null,
+        "prefLabel": "AI Image Generator",
+        "prettyName": "AI Image Generator",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626747350073344",
+        "parentSkillUid": null,
+        "prefLabel": "Image Editing",
+        "prettyName": "Image Editing",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1623716864329125888",
+        "parentSkillUid": null,
+        "prefLabel": "AI Text-to-Image",
+        "prettyName": "AI Text-to-Image",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1031626770947227648",
+        "parentSkillUid": null,
+        "prefLabel": "Product Photography",
+        "prettyName": "Product Photography",
+        "freeText": null,
+        "highlighted": false
+      },
+      {
+        "uid": "1623716864287182848",
+        "parentSkillUid": null,
+        "prefLabel": "Stable Diffusion",
+        "prettyName": "Stable Diffusion",
+        "freeText": null,
+        "highlighted": false
+      }
+    ],
+    "hourlyBudget": {
+      "min": 0,
+      "max": 0
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "isSTSVectorSearchResult": null,
+    "upworkNowJob": null,
+    "upworkNowJobExpiresAt": null
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-21T08:01:31.964Z",
+        "publishTime": "2026-07-21T08:03:31.861Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "INTERMEDIATE",
+        "description": "Starstruck is a fast-growing luxury fashion brand creating premium tracksuits, shorts sets, outerwear, suits, and lifestyle apparel. We’re looking for a highly skilled AI designer who can help us produce world-class product imagery that rivals brands like Kith, Fear of God, Dior, and Louis Vuitton.\n\nThis is long-term work. We release new products regularly and need someone who can become part of our creative team.\n\n⸻\n\nWhat You’ll Do\n\nFor every product, create a complete image package including:\n\nStudio Product Images\n\n* Front view\n* 45° front angle\n* Side view\n* Back view\n\nDetail Images\n\n* Logo close-up\n* Fabric texture close-up\n* Zipper & hardware close-up\n* Pocket/detail close-up\n\nLifestyle Images\n\n* Standing pose\n* Walking pose\n* Sitting pose\n* Luxury campaign image\n\nDeliverables\n\n* Shopify-ready images\n* High-resolution files\n* White background product shots\n* Luxury lifestyle images\n* Consistent collage layout similar to premium fashion brands\n\n⸻\n\nRequirements\n\nYou must have experience with:\n\n* ChatGPT Image Generation\n* Adobe Photoshop\n* Midjourney (preferred)\n* Flux (preferred)\n* ComfyUI (preferred)\n* AI image editing\n* Luxury fashion retouching\n* Product image compositing\n\nYou should understand:\n\n* High-end fashion photography\n* Luxury lighting\n* Fabric realism\n* Consistent branding\n* Premium e-commerce design\n\n⸻\n\nWhat Success Looks Like\n\nEvery product should have:\n\n* Identical lighting\n* Identical camera angles\n* Identical model proportions\n* Consistent backgrounds\n* Premium luxury aesthetic\n* Website-ready quality\n\nThe goal is for our website to look as polished as brands like Kith, Aimé Leon Dore, and Fear of God.",
+        "info": {
+          "ciphertext": "~022079476854617318923",
+          "id": "2079476854617318923",
+          "type": "HOURLY",
+          "access": "PUBLIC",
+          "title": "Ai image specialist",
+          "hideBudget": false,
+          "createdOn": "2026-07-21T08:01:31.964Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "One-time project",
+            "name": "Employment",
+            "sortOrder": 0,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:imageeditingretouching",
+            "prefLabel": "Image Editing",
+            "id": "1044578476142100517",
+            "uid": "1044578476142100517"
+          },
+          "ontologySkills": null,
+          "additionalSkills": [
+            {
+              "groupId": null,
+              "id": "1052162208852398098",
+              "freeText": null,
+              "prefLabel": "Adobe Photoshop",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626770678792192",
+              "freeText": null,
+              "prefLabel": "Print Design",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099107328274432",
+              "freeText": null,
+              "prefLabel": "AI Image Generation",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626768858464256",
+              "freeText": null,
+              "prefLabel": "Photo Retouching",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1192876986741571584",
+              "freeText": null,
+              "prefLabel": "Photo Color Correction",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1356688508727857152",
+              "freeText": null,
+              "prefLabel": "Retouching & Enhancement",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626768761995264",
+              "freeText": null,
+              "prefLabel": "Photo Editing",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1356688472333881344",
+              "freeText": null,
+              "prefLabel": "Manipulation & Compositing",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626737636065280",
+              "freeText": null,
+              "prefLabel": "Fashion Retouch",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099107332468736",
+              "freeText": null,
+              "prefLabel": "AI Image Editing",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1691099314191347712",
+              "freeText": null,
+              "prefLabel": "AI Image Generator",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626747350073344",
+              "freeText": null,
+              "prefLabel": "Image Editing",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1623716864329125888",
+              "freeText": null,
+              "prefLabel": "AI Text-to-Image",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1031626770947227648",
+              "freeText": null,
+              "prefLabel": "Product Photography",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": null,
+              "id": "1623716864287182848",
+              "freeText": null,
+              "prefLabel": "Stable Diffusion",
+              "relevance": "MANDATORY"
+            }
+          ]
+        },
+        "category": {
+          "name": "Graphic, Editorial & Presentation Design",
+          "urlSlug": "graphic-editorial-presentation-design"
+        },
+        "categoryGroup": {
+          "name": "Design & Creative",
+          "urlSlug": "design-creative"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_invite_rjp",
+            "publishTime": "2026-07-21T08:03:31.861Z",
+            "sourcingUpdateCount": "0",
+            "browser": "AppleWebKit",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "device": "iPhone",
+            "flowType": "RJP"
+          },
+          "tags": []
+        },
+        "engagementDuration": {
+          "label": "Less than 1 month",
+          "weeks": 3
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": null,
+          "hourlyBudgetMax": null,
+          "hourlyBudgetType": "NOT_PROVIDED"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-21T08:01:32.464Z",
+          "totalApplicants": 0,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 0,
+          "invitationsSent": 0,
+          "numberOfPositionsToHire": 0
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": null,
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": null,
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "Nashville ",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 2,
+          "activeAssignmentsCount": 2,
+          "hoursCount": 23,
+          "feedbackCount": 0,
+          "score": 0,
+          "totalJobsWithHires": 2,
+          "totalCharges": {
+            "amount": 331.99
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "2076865653114182041",
+          "isEDCReplicated": null,
+          "contractDate": "2026-07-14T00:00:00.000Z",
+          "profile": {
+            "industry": "Fashion & Beauty",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 3,
+          "postedCount": 2,
+          "openJobs": [
+            {
+              "id": "2078944364647858820",
+              "uid": "2078944364647858820",
+              "isPtcPrivate": false,
+              "ciphertext": "~022078944364647858820",
+              "title": "Ads manager",
+              "type": "HOURLY"
+            },
+            {
+              "id": "2076873001925938511",
+              "uid": "2076873001925938511",
+              "isPtcPrivate": false,
+              "ciphertext": "~022076873001925938511",
+              "title": "Personal assistant for clothing brand",
+              "type": "FIXED"
+            }
+          ]
+        },
+        "avgHourlyJobsRate": {
+          "amount": 7
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": null,
+          "status": null,
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-15T19:00:31.446Z",
+          "endDate": null,
+          "totalCharge": 0,
+          "totalHours": 20,
+          "jobInfo": {
+            "title": "Engagement for social media",
+            "id": null,
+            "uid": null,
+            "access": "PRIVATE",
+            "type": "HOURLY",
+            "ciphertext": null
+          },
+          "contractorInfo": {
+            "contractorName": "Ferdous A.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~014a4539137339f889"
+          },
+          "rate": {
+            "amount": 7
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-07-15T18:55:49.041Z",
+          "endDate": null,
+          "totalCharge": 175,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Personal assistant for clothing brand",
+            "id": "2076873001925938511",
+            "uid": "2076873001925938511",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022076873001925938511"
+          },
+          "contractorInfo": {
+            "contractorName": "Ritik M.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~01e761ea2134c4ba0a"
+          },
+          "rate": null,
+          "feedback": null,
+          "feedbackToClient": null
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": null,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": null,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": null,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1044578476142100517",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": [
+    {
+      "title": "Ads manager",
+      "ciphertext": "~022078944364647858820",
+      "description": "We’re looking for an experienced Meta Ads Manager to help scale our luxury fashion brand, Starstruck Collection, on Shopify. Our goal is to build a premium apparel brand with consistent, profitable growth through Facebook and Instagram advertising. We need someone who is data-driven, proactive, and experienced with scaling Shopify e-commerce brands. Responsibilities: * Create, launch, and manage Meta (Facebook & Instagram) ad campaigns * Build prospecting, retargeting, and lookalike audience campaigns * Analyze performance and optimize for ROAS, CPA, CTR, and conversion rate * Test new creatives, audiences, and offers weekly * Scale winning campaigns while maintaining profitability * Set up and optimize Meta Pixel and Conversion API * Coordinate with our Shopify and Klaviyo team to maximize customer lifetime value * Provide weekly reports and recommendations Requirements: * Proven success managing Meta Ads for Shopify e-commerce brands * Experience scaling fashion or apparel brands is highly preferred * Strong understanding of Meta Ads Manager * Experience with Pixel, Conversion API, and attribution * Ability to interpret data and make strategic recommendations * Excellent communication and availability for weekly strategy calls What I’d like to see when applying: * Examples of Shopify brands you’ve scaled * ROAS, CPA, and revenue results you’ve achieved * Monthly ad budgets you’ve managed * Your approach to scaling a new luxury fashion brand About Us Starstruck Collection is a fast-growing luxury streetwear and lifestyle brand based in the United States. We’re building a long-term team of specialists and are looking for someone who wants to grow with the brand. Please answer these questions when applying: 1. Have you managed Meta Ads for a Shopify fashion or apparel brand? 2. What was the highest monthly revenue you’ve helped generate? 3. What average ROAS do you typically target? 4. If you joined today, what would your first 30-day plan be for Starstruck Collection? 5. Can you share screenshots or case studies of your results?"
+    },
+    {
+      "title": "Personal assistant for clothing brand",
+      "ciphertext": "~022076873001925938511",
+      "description": "Executive Ecommerce Virtual Assistant (Shopify) – Long-Term We are a fast-growing luxury fashion brand looking for a reliable, detail-oriented Executive Ecommerce Virtual Assistant to become a long-term member of our team. This is not just a customer service position. We need someone who can help manage daily business operations and keep our brand running efficiently. Responsibilities * Manage our Shopify store * Upload new products, collections, and variants * Update inventory and product descriptions * Respond to customer emails and inquiries * Process orders, returns, and exchanges * Coordinate with manufacturers and suppliers * Communicate with freelancers and team members * Organize projects and help keep the business on schedule * Perform internet research and administrative tasks * Assist with email marketing (Klaviyo experience is a plus) * Support social media and marketing projects when needed Requirements * Proven Shopify experience * Excellent written and spoken English * Strong organizational and communication skills * Ability to work independently and solve problems * Experience with Google Workspace * Experience with Klaviyo, GoHighLevel, Canva, or Meta Ads is a plus * Reliable internet connection * Available 30–40 hours per week What We’re Looking For We’re looking for someone who takes ownership, communicates proactively, and wants to grow with our company for the long term. We value honesty, attention to detail, and someone who can help us build a world-class fashion brand."
+    }
+  ]
+}

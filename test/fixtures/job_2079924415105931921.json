@@ -1,0 +1,489 @@
+{
+  "uid": "2079924415105931921",
+  "ciphertext": "~022079924415105931921",
+  "title": "Company Operating System Development",
+  "url": "https://www.upwork.com/jobs/~022079924415105931921",
+  "scrapedAt": "2026-07-22T14:08:19.622Z",
+  "feed": {
+    "uid": "2079924415105931921",
+    "title": "Company Operating System Development",
+    "ciphertext": "~022079924415105931921",
+    "description": "Greenville Home Exteriors — Operations App\nDeveloper Brief / Handoff Overview\nWhat it is\n\nA custom operations and job-costing platform for Greenville Home Exteriors (GHE), a turnkey siding subcontractor that installs for production homebuilders. It runs the full job lifecycle — pricing catalog, builder price books, takeoffs, purchase orders (material and labor), supplier invoice matching, and profit tracking — for multi-unit residential work (single homes and townhouse buildings). QuickBooks Online is the accounting system of record; this app handles operations and job costing, not general ledger.\n\nTech stack\nFrontend: React + TypeScript, built in Lovable. Tailwind CSS for styling, TanStack Router for routing. Components talk to the database directly through the Supabase JS client.\nBackend: Supabase — Postgres (with Row Level Security), Auth, Storage (file buckets), and Edge Functions. There is no separate API server; the React app queries Postgres via supabase-js and calls a few Postgres RPCs and SQL views.\nIntegrations: QuickBooks Online (system of record). Google Calendar for install scheduling (event fields on jobs).\nFile handling: Client-side Excel/zip parsing with SheetJS (xlsx) and jszip; PDFs/images stored in Supabase Storage.\nCore data model (Postgres, ~35 tables)\nCatalog & pricing: products (permanent catalog, SKU is the shared key across suppliers), supplier_prices (net cost per SKU per supplier), suppliers (ABC, Lansing, QXO, Yoders), item_crosswalk (maps supplier/takeoff item names → catalog SKU).\nBuilders & plans: customers (builders), house_plans, scope_sheets + scope_sheet_lines (spec sheets), neighborhoods + neighborhood_pricing (per-neighborhood price books with margins).\nTakeoffs: takeoff_templates + takeoff_template_lines (materials) + takeoff_template_labor (labor), one template per plan/elevation/option. Imported from Excel.\nJobs & costing: jobs, job_templates (which takeoffs a job was built from), purchase_orders + purchase_order_lines, labor_entries (labor POs), expenses, vpos (variation/change orders), invoices + invoice_lines, financial_accounts, tax_rates.\nCosting rolls up through SQL views (e.g. v_job_material_suggested, v_supplier_ap, v_invoices, v_vpo_pnl).\nKey flows\nPricing catalog: normalized product + per-supplier cost database, maintained/synced from an Excel workbook.\nBuilder price books (neighborhoods): per-plan and per-option margins, a lock / margin-float / re-quote (\"ratchet\") engine, and manufacturer price-increase tracking.\nExcel importers: upload a zip of takeoff files (one per unit) and it imports each unit's materials, labor, and quote breakdown; the scope sheet and plan PDFs in the same zip attach to the job.\nOrdering: from a job, pick a unit (elevation) + options and a single supplier → drafts a material PO and a labor PO for that unit (one supplier per material order). Supports variation POs (VPOs), extra expenses, and supplier invoice/confirmation matching.\nFinancials: dashboard for AR/AP, invoiced MTD/YTD, open invoices and aging; per-job COGS and profit-vs-quote variance.\nDomain rules a developer should know\nPricing/margin math: margins are stored as decimals. Total Quoted Price (TQP) = materialCost*(1+taxRate)/(1-materialMargin) + labor/(1-laborMargin) + adder. Margins are set per job by the salesperson, not auto-applied.\nOne supplier per material order (POs are single-supplier).\nSKU-centric: everything orderable resolves to a catalog SKU; takeoffs that name items by description are matched to SKUs via item_crosswalk.\nLumber nomenclature: 4/4 = ¾\" board (supply-house term for a carpenter's \"1x\"); 5/4 = 1\" board.\nJames Hardie ColorPlus rebate tiers (Primed → ColorPlus → ColorPlus IV → Super IV → Hyper IV, plus the premium Dream Collection) with builder-specific pricing (e.g. a builder gets special \"Royal\" vinyl pricing).\nTownhouses: a building has multiple units; each unit gets its own material PO and labor PO. End units carry extra exposed elevation vs. shared-wall interior units.\nCurrent state\n\nWorking MVP running live on its first real jobs. Actively in progress: takeoff item-name → catalog-SKU matching (so takeoffs auto-fill orders), per-unit ordering for townhouses, and a normalized pricing-database sync/rename migration. The whole thing is built and iterated inside Lovable against a Supabase project; a professional developer would take over that same repo/database rather than starting fresh.",
+    "type": 2,
+    "recno": "1026054146",
+    "freelancersToHire": 1,
+    "duration": "Less than 1 month",
+    "durationLabel": "Less than 1 month",
+    "engagement": "Less than 30 hrs/week",
+    "amount": {
+      "amount": 0,
+      "currencyCode": "USD"
+    },
+    "createdOn": "2026-07-22T13:39:58.730Z",
+    "publishedOn": "2026-07-22T13:41:17.502Z",
+    "renewedOn": null,
+    "prefFreelancerLocation": null,
+    "prefFreelancerLocationMandatory": false,
+    "connectPrice": null,
+    "client": {
+      "totalHires": 2,
+      "totalSpent": 6085.74,
+      "paymentVerificationStatus": 1,
+      "location": {
+        "country": "USA",
+        "city": "Mauldin",
+        "state": "SC",
+        "countryTimezone": "America/Chicago",
+        "worldRegion": "Americas"
+      },
+      "totalReviews": 1,
+      "totalFeedback": 5,
+      "hasFinancialPrivacy": false,
+      "topClient": false,
+      "lastRecruitingActivity": "2026-07-22T13:40:31.936Z",
+      "proposalReviewedAt": ""
+    },
+    "enterpriseJob": false,
+    "premium": false,
+    "jobTime": "1784727688281",
+    "isStillHiringJob": false,
+    "skills": [
+      {
+        "id": "1031626729578807296",
+        "prefLabel": "Database Design"
+      },
+      {
+        "id": "1225465929670037504",
+        "prefLabel": "Application Audit"
+      },
+      {
+        "id": "1225465929703591936",
+        "prefLabel": "Application Improvement"
+      }
+    ],
+    "tierText": "Expert",
+    "tier": "Expert",
+    "tierLabel": "Experience Level",
+    "proposalsTier": "50+",
+    "isApplied": false,
+    "hourlyBudget": {
+      "type": "Default",
+      "min": 30,
+      "max": 50
+    },
+    "weeklyBudget": {
+      "amount": 0
+    },
+    "clientRelation": null,
+    "relevanceEncoded": "{\"position\":\"0\"}",
+    "attrs": [
+      {
+        "uid": "1031626729578807296",
+        "prettyName": "Database Design",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1225465929670037504",
+        "prettyName": "Application Audit",
+        "freeText": null,
+        "skillType": 3
+      },
+      {
+        "uid": "1225465929703591936",
+        "prettyName": "Application Improvement",
+        "freeText": null,
+        "skillType": 3
+      }
+    ],
+    "originalIndex": null,
+    "annotations": {
+      "tags": [
+        "jsi_contractToHire",
+        "contractToHireSet",
+        "searchable",
+        "C2HJobsOptInEducation"
+      ]
+    },
+    "position": 1
+  },
+  "details": {
+    "hiredApplicantNames": null,
+    "topClient": false,
+    "opening": {
+      "job": {
+        "status": "ACTIVE",
+        "postedOn": "2026-07-22T13:39:58.730Z",
+        "publishTime": "2026-07-22T13:41:17.502Z",
+        "sourcingTime": null,
+        "startDate": null,
+        "deliveryDate": null,
+        "workload": "Less than 30 hrs/week",
+        "contractorTier": "EXPERT",
+        "description": "Greenville Home Exteriors — Operations App\nDeveloper Brief / Handoff Overview\nWhat it is\n\nA custom operations and job-costing platform for Greenville Home Exteriors (GHE), a turnkey siding subcontractor that installs for production homebuilders. It runs the full job lifecycle — pricing catalog, builder price books, takeoffs, purchase orders (material and labor), supplier invoice matching, and profit tracking — for multi-unit residential work (single homes and townhouse buildings). QuickBooks Online is the accounting system of record; this app handles operations and job costing, not general ledger.\n\nTech stack\nFrontend: React + TypeScript, built in Lovable. Tailwind CSS for styling, TanStack Router for routing. Components talk to the database directly through the Supabase JS client.\nBackend: Supabase — Postgres (with Row Level Security), Auth, Storage (file buckets), and Edge Functions. There is no separate API server; the React app queries Postgres via supabase-js and calls a few Postgres RPCs and SQL views.\nIntegrations: QuickBooks Online (system of record). Google Calendar for install scheduling (event fields on jobs).\nFile handling: Client-side Excel/zip parsing with SheetJS (xlsx) and jszip; PDFs/images stored in Supabase Storage.\nCore data model (Postgres, ~35 tables)\nCatalog & pricing: products (permanent catalog, SKU is the shared key across suppliers), supplier_prices (net cost per SKU per supplier), suppliers (ABC, Lansing, QXO, Yoders), item_crosswalk (maps supplier/takeoff item names → catalog SKU).\nBuilders & plans: customers (builders), house_plans, scope_sheets + scope_sheet_lines (spec sheets), neighborhoods + neighborhood_pricing (per-neighborhood price books with margins).\nTakeoffs: takeoff_templates + takeoff_template_lines (materials) + takeoff_template_labor (labor), one template per plan/elevation/option. Imported from Excel.\nJobs & costing: jobs, job_templates (which takeoffs a job was built from), purchase_orders + purchase_order_lines, labor_entries (labor POs), expenses, vpos (variation/change orders), invoices + invoice_lines, financial_accounts, tax_rates.\nCosting rolls up through SQL views (e.g. v_job_material_suggested, v_supplier_ap, v_invoices, v_vpo_pnl).\nKey flows\nPricing catalog: normalized product + per-supplier cost database, maintained/synced from an Excel workbook.\nBuilder price books (neighborhoods): per-plan and per-option margins, a lock / margin-float / re-quote (\"ratchet\") engine, and manufacturer price-increase tracking.\nExcel importers: upload a zip of takeoff files (one per unit) and it imports each unit's materials, labor, and quote breakdown; the scope sheet and plan PDFs in the same zip attach to the job.\nOrdering: from a job, pick a unit (elevation) + options and a single supplier → drafts a material PO and a labor PO for that unit (one supplier per material order). Supports variation POs (VPOs), extra expenses, and supplier invoice/confirmation matching.\nFinancials: dashboard for AR/AP, invoiced MTD/YTD, open invoices and aging; per-job COGS and profit-vs-quote variance.\nDomain rules a developer should know\nPricing/margin math: margins are stored as decimals. Total Quoted Price (TQP) = materialCost*(1+taxRate)/(1-materialMargin) + labor/(1-laborMargin) + adder. Margins are set per job by the salesperson, not auto-applied.\nOne supplier per material order (POs are single-supplier).\nSKU-centric: everything orderable resolves to a catalog SKU; takeoffs that name items by description are matched to SKUs via item_crosswalk.\nLumber nomenclature: 4/4 = ¾\" board (supply-house term for a carpenter's \"1x\"); 5/4 = 1\" board.\nJames Hardie ColorPlus rebate tiers (Primed → ColorPlus → ColorPlus IV → Super IV → Hyper IV, plus the premium Dream Collection) with builder-specific pricing (e.g. a builder gets special \"Royal\" vinyl pricing).\nTownhouses: a building has multiple units; each unit gets its own material PO and labor PO. End units carry extra exposed elevation vs. shared-wall interior units.\nCurrent state\n\nWorking MVP running live on its first real jobs. Actively in progress: takeoff item-name → catalog-SKU matching (so takeoffs auto-fill orders), per-unit ordering for townhouses, and a normalized pricing-database sync/rename migration. The whole thing is built and iterated inside Lovable against a Supabase project; a professional developer would take over that same repo/database rather than starting fresh.",
+        "info": {
+          "ciphertext": "~022079924415105931921",
+          "id": "2079924415105931921",
+          "type": "HOURLY",
+          "access": "PUBLIC_INDEX",
+          "title": "Company Operating System Development",
+          "hideBudget": false,
+          "createdOn": "2026-07-22T13:39:58.730Z",
+          "notSureProjectDuration": false,
+          "notSureFreelancersToHire": false,
+          "notSureExperienceLevel": false,
+          "notSureLocationPreference": false,
+          "premium": false
+        },
+        "segmentationData": [
+          {
+            "customValue": null,
+            "label": "Complex project",
+            "name": "Employment",
+            "sortOrder": 2,
+            "type": "EMPLOYMENT",
+            "value": "EMPLOYMENT_COMPLEX_PROJECT",
+            "skill": null
+          }
+        ],
+        "sandsData": {
+          "occupation": {
+            "freeText": null,
+            "ontologyId": "upworkOccupation:desktopsoftwaredevelopmentservice",
+            "prefLabel": "Desktop Software Development",
+            "id": "1110580753069494272",
+            "uid": "1110580753069494272"
+          },
+          "ontologySkills": [
+            {
+              "groupId": "1110580546852343808",
+              "id": "1031626729578807296",
+              "freeText": null,
+              "prefLabel": "Database Design",
+              "groupPrefLabel": "Desktop Software Dev Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580546852343808",
+              "id": "1225465929670037504",
+              "freeText": null,
+              "prefLabel": "Application Audit",
+              "groupPrefLabel": "Desktop Software Dev Deliverables",
+              "relevance": "MANDATORY"
+            },
+            {
+              "groupId": "1110580546852343808",
+              "id": "1225465929703591936",
+              "freeText": null,
+              "prefLabel": "Application Improvement",
+              "groupPrefLabel": "Desktop Software Dev Deliverables",
+              "relevance": "MANDATORY"
+            }
+          ],
+          "additionalSkills": null
+        },
+        "category": {
+          "name": "Desktop Application Development",
+          "urlSlug": "desktop-application-development"
+        },
+        "categoryGroup": {
+          "name": "Web, Mobile & Software Dev",
+          "urlSlug": "web-mobile-software-dev"
+        },
+        "budget": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "annotations": {
+          "customFields": {
+            "siteSource": "desktop_rjp",
+            "publishTime": "2026-07-22T13:41:17.502Z",
+            "sourcingUpdateCount": "0",
+            "sourcingUpdateForbidden": "false",
+            "type": "RJP",
+            "optInDescriptionAIv2": "no",
+            "browser": "Chrome",
+            "device": "Windows",
+            "flowType": "RJP"
+          },
+          "tags": [
+            "jsi_contractToHire",
+            "contractToHireSet",
+            "searchable",
+            "C2HJobsOptInEducation"
+          ]
+        },
+        "engagementDuration": {
+          "label": "1 to 3 months",
+          "weeks": 9
+        },
+        "extendedBudgetInfo": {
+          "hourlyBudgetMin": 30,
+          "hourlyBudgetMax": 50,
+          "hourlyBudgetType": "DEFAULT"
+        },
+        "attachments": [],
+        "clientActivity": {
+          "lastBuyerActivity": "2026-07-22T13:40:31.928Z",
+          "totalApplicants": 95,
+          "totalHired": 0,
+          "totalInvitedToInterview": 0,
+          "unansweredInvites": 1,
+          "invitationsSent": 1,
+          "numberOfPositionsToHire": 1
+        },
+        "deliverables": null,
+        "deadline": null,
+        "tools": []
+      },
+      "qualifications": {
+        "countries": null,
+        "earnings": null,
+        "groupRecno": null,
+        "languages": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "localMarket": true,
+        "minJobSuccessScore": 0,
+        "minOdeskHours": 0,
+        "onSiteType": null,
+        "prefEnglishSkill": "ANY",
+        "regions": [
+          "Asia"
+        ],
+        "risingTalent": false,
+        "shouldHavePortfolio": false,
+        "states": null,
+        "tests": null,
+        "timezones": null,
+        "type": "ANY",
+        "locationCheckRequired": false,
+        "group": null,
+        "location": {
+          "city": null,
+          "country": null,
+          "countryTimezone": null,
+          "offsetFromUtcMillis": null,
+          "state": null,
+          "worldRegion": "Asia"
+        },
+        "locations": null,
+        "readyToStartToday": null
+      },
+      "questions": []
+    },
+    "buyer": {
+      "enterprise": false,
+      "isPaymentMethodVerified": true,
+      "info": {
+        "location": {
+          "offsetFromUtcMillis": -18000000,
+          "countryTimezone": "America/Chicago (UTC-05:00)",
+          "city": "Mauldin",
+          "country": "USA"
+        },
+        "stats": {
+          "totalAssignments": 2,
+          "activeAssignmentsCount": 1,
+          "hoursCount": 228.33,
+          "feedbackCount": 1,
+          "score": 5,
+          "totalJobsWithHires": 2,
+          "totalCharges": {
+            "amount": 6085.74
+          }
+        },
+        "company": {
+          "name": null,
+          "companyId": "2038794613667512776",
+          "isEDCReplicated": null,
+          "contractDate": "2026-03-31T00:00:00.000Z",
+          "profile": {
+            "industry": "Manufacturing & Construction",
+            "size": 2
+          }
+        },
+        "jobs": {
+          "openCount": 1,
+          "postedCount": 3,
+          "openJobs": []
+        },
+        "avgHourlyJobsRate": {
+          "amount": 17.000175185039197
+        }
+      },
+      "workHistory": [
+        {
+          "isPtcJob": false,
+          "status": "ACTIVE",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-07T00:31:29.969Z",
+          "endDate": null,
+          "totalCharge": 4085.74,
+          "totalHours": 228.333334,
+          "jobInfo": {
+            "title": "Siding Estimator",
+            "id": "2039338059655171296",
+            "uid": "2039338059655171296",
+            "access": "PUBLIC_INDEX",
+            "type": "HOURLY",
+            "ciphertext": "~022039338059655171296"
+          },
+          "contractorInfo": {
+            "contractorName": "Donna Crizza R.",
+            "accessType": "PRIVATE",
+            "ciphertext": "~0182a42a5d2c718151"
+          },
+          "rate": {
+            "amount": 17
+          },
+          "feedback": null,
+          "feedbackToClient": null
+        },
+        {
+          "isPtcJob": false,
+          "status": "CLOSED",
+          "isEDCReplicated": null,
+          "isPtcPrivate": false,
+          "startDate": "2026-04-05T23:47:21.158Z",
+          "endDate": "2026-04-27T23:47:04.149Z",
+          "totalCharge": 2000,
+          "totalHours": 0,
+          "jobInfo": {
+            "title": "Workbook Development for Siding & Pricing Management",
+            "id": "2040815467154310036",
+            "uid": "2040815467154310036",
+            "access": "PUBLIC_INDEX",
+            "type": "FIXED",
+            "ciphertext": "~022040815467154310036"
+          },
+          "contractorInfo": {
+            "contractorName": "Adnan G.",
+            "accessType": "PUBLIC_INDEX",
+            "ciphertext": "~017f2fa00fac535433"
+          },
+          "rate": null,
+          "feedback": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          },
+          "feedbackToClient": {
+            "feedbackSuppressed": false,
+            "score": 5,
+            "comment": ""
+          }
+        }
+      ]
+    },
+    "currentUserInfo": {
+      "owner": false,
+      "freelancerInfo": {
+        "profileState": "AUTO_ACCEPTED",
+        "applied": null,
+        "devProfileCiphertext": "~01b1e7454fc2647b14",
+        "hired": null,
+        "application": null,
+        "pendingInvite": null,
+        "contract": null,
+        "hourlyRate": {
+          "amount": 35
+        },
+        "qualificationsMatches": {
+          "matches": [
+            {
+              "clientPreferred": "all",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "IC",
+              "freelancerValueLabel": "Not Specified",
+              "qualification": "FreelancerType",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0%",
+              "freelancerValue": "100",
+              "freelancerValueLabel": "100%",
+              "qualification": "MinimumJobSuccessScore",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "3",
+              "freelancerValueLabel": "Fluent",
+              "qualification": "EnglishLevel",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "0",
+              "clientPreferredLabel": "At least 0 hours",
+              "freelancerValue": "944",
+              "freelancerValueLabel": "944",
+              "qualification": "HoursBilled",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "region=(Asia)",
+              "clientPreferredLabel": "Asia",
+              "freelancerValue": "Asia",
+              "freelancerValueLabel": "Asia",
+              "qualification": "Location",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "ANY",
+              "clientPreferredLabel": "Any",
+              "freelancerValue": "45223.64",
+              "freelancerValueLabel": "45223.64",
+              "qualification": "Earnings",
+              "qualified": true
+            },
+            {
+              "clientPreferred": "Any",
+              "clientPreferredLabel": null,
+              "freelancerValue": "en",
+              "freelancerValueLabel": "English",
+              "qualification": "Language",
+              "qualified": true
+            }
+          ]
+        }
+      }
+    },
+    "similarJobs": [],
+    "workLocation": {
+      "onSiteCity": null,
+      "onSiteCountry": null,
+      "onSiteReason": null,
+      "onSiteReasonFlexible": null,
+      "onSiteState": null,
+      "onSiteType": null
+    },
+    "phoneVerificationStatus": {
+      "status": "VERIFIED"
+    },
+    "applicantsBidsStats": {
+      "avgRateBid": {
+        "amount": 31.205135135135134,
+        "currencyCode": "USD"
+      },
+      "minRateBid": {
+        "amount": 8.5,
+        "currencyCode": "USD"
+      },
+      "maxRateBid": {
+        "amount": 53,
+        "currencyCode": "USD"
+      }
+    },
+    "specializedProfileOccupationId": "1110580753069494272",
+    "applicationContext": {
+      "freelancerAllowed": true,
+      "clientAllowed": true
+    }
+  },
+  "attachmentsText": [],
+  "siblingJobs": []
+}
