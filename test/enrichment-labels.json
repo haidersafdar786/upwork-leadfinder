@@ -1,0 +1,9 @@
+{
+  "_comment": "Expected web presence per captured fixture. A string means the resolved URL must contain it (squished); null means we must assert NOTHING for that field (precision-first: don't guess). Only labeled fields are scored. Fixtures + results are frozen captures under test/enrichment-fixtures/, so scoring is deterministic + offline.",
+  "adrian_magnus": { "companyLinkedin": "adrian-magnus", "website": "adrianmagnus" },
+  "skylarai":      { "companyLinkedin": "skylar-ai" },
+  "syllaby":       { "companyLinkedin": "trysyllaby", "personLinkedin": "ehsan-gharadjedaghi", "website": "syllaby" },
+  "movatech":      { "companyLinkedin": null },
+  "goodboypetey":  { "companyLinkedin": null, "website": "goodboypetey" },
+  "lantern":       { "companyLinkedin": null, "note": "common word -> many Lantern companies; must NOT guess one" }
+}

@@ -1,0 +1,88 @@
+{
+  "known": {
+    "name": "David",
+    "company": "Lantern",
+    "people": [
+      "David",
+      "Ady"
+    ]
+  },
+  "queries": [
+    "David Lantern linkedin",
+    "Lantern linkedin",
+    "Lantern",
+    "Ady Lantern linkedin"
+  ],
+  "results": [
+    {
+      "title": "David Rozen - Founder and CFO at Lantern Partners | LinkedIn",
+      "url": "https://www.linkedin.com/in/davidvrozen",
+      "snippet": "· Experience: Lantern Partners AI · Education: Boston University · Location: Warwick · 500+ connections on LinkedIn. View David Rozen's profile on LinkedIn, a professional community of 1 ..."
+    },
+    {
+      "title": "Lantern - LinkedIn",
+      "url": "https://www.linkedin.com/company/lanternglobal",
+      "snippet": "Lantern | 180 followers on LinkedIn. Empowering businesses with responsible AI | LanternBRP™ - the core offering of the parent company, Lantern Global - is an AI-native, SaaS Business Resource ..."
+    },
+    {
+      "title": "Lantern - LinkedIn",
+      "url": "https://www.linkedin.com/company/withlantern",
+      "snippet": "Lantern | 3,935 followers on LinkedIn. Your all-in-one platform to track job changes, automatically route leads, and drive growth in your customer base. | Lantern is a next-gen AI revenue platform ..."
+    },
+    {
+      "title": "David Bromberg - Founder at Lantern - LinkedIn",
+      "url": "https://www.linkedin.com/in/david-bromberg",
+      "snippet": "David Bromberg 🏮 Founder at Lantern New York, New York, United States 4K followers 500+ connections See your mutual connections"
+    },
+    {
+      "title": "David Gerrelli - Lantern | LinkedIn",
+      "url": "https://www.linkedin.com/in/davidgerrelli",
+      "snippet": "View David Gerrelli's profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "title": "David Jitendranath - Lantern | LinkedIn",
+      "url": "https://www.linkedin.com/in/djitendranath",
+      "snippet": "· Experience: Lantern · Location: Denver · 500+ connections on LinkedIn. View David Jitendranath's profile on LinkedIn, a professional community of 1 billion members."
+    },
+    {
+      "title": "David Cronin - Accelerating Digital Leadership @ Lantern | LinkedIn",
+      "url": "https://ca.linkedin.com/in/devfactodavidcronin",
+      "snippet": "Accelerating Digital Leadership @ Lantern · David has worked in the software development industry since 1994. He co-founded DevFacto (now operating as Lantern), a consulting firm that specializes in Enterprise Mobile Apps, .NET Development, Analytics, SharePoint Solutions, and User Experience Design. David has worked with companies ranging from small start-ups to large consulting firms in the ..."
+    },
+    {
+      "title": "David Wu - Director, Solutions Consulting @ Lantern | LinkedIn",
+      "url": "https://www.linkedin.com/in/wu-yang",
+      "snippet": "Director, Solutions Consulting @ Lantern · employer-sponsored healthcare &amp; benefits professional · Experience: Lantern · Education: University of Pittsburgh · Location: Greater Seattle ..."
+    },
+    {
+      "title": "Lantern - LinkedIn",
+      "url": "https://www.linkedin.com/company/lanternstudios",
+      "snippet": "Lantern | 6,705 followers on LinkedIn. In the digital economy, success belongs to those who can harness the power of AI to drive innovation, efficiency, and growth. Lantern is here to guide you ..."
+    },
+    {
+      "title": "Lantern | LinkedIn",
+      "url": "https://gg.linkedin.com/company/lanternlimited",
+      "snippet": "Lantern | 2,370 followers on LinkedIn. Unlock the power of private equity data and accelerate your route to insight. | Trusted data, without the stress. The only fund and portfolio platform to validate data at source. Connect, verify, and surface quality data you can trust."
+    },
+    {
+      "title": "Lantern AI - LinkedIn",
+      "url": "https://hk.linkedin.com/company/ai-lantern",
+      "snippet": "Lantern AI | 879 followers on LinkedIn. Agent Team for Hiring Ops | Lantern is an AI recruiter that does interactive interviews in a immersive conversation. It replaces phone screening, automates candidate scoring and interviews candidates 24/7. Perfect for volume hiring, frontline recruitment, structured programs (internship / management trainees) and recruiting agencies."
+    },
+    {
+      "title": "Lantern - LinkedIn",
+      "url": "https://uk.linkedin.com/company/lanternuk",
+      "snippet": "Lantern | 5,286 followers on LinkedIn. Empathy Powered by Expertise | Lantern Group is a growing family of specialist businesses united by a shared purpose: to create brighter financial outcomes for customers, clients and communities. Since 2008, Lantern has helped over 4 million people clear their debt in a way that is sympathetic and flexible. Proactively working with customers to help them ..."
+    },
+    {
+      "title": "Lantern - LinkedIn",
+      "url": "https://uk.linkedin.com/company/lanternlimited",
+      "snippet": "Lantern | 2,759 followers on LinkedIn. Unlock the power of private equity data and accelerate your route to insight. | Trusted data, without the stress. The only fund and portfolio platform to validate data at source. Connect, verify, and surface quality data you can trust."
+    },
+    {
+      "title": "Lantern - LinkedIn",
+      "url": "https://ca.linkedin.com/company/lanternio",
+      "snippet": "Lantern | 5,094 followers on LinkedIn. Open &amp; Uncensored Internet For All | Over the past decade, Lantern has become one of the most trusted and effective internet censorship circumvention tools on the planet—with over 150 million downloads worldwide. We&#39;ve provided free access to the open internet during some of the most sensitive world events, and severe internet blocking episodes ..."
+    }
+  ]
+}

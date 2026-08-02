@@ -7,7 +7,8 @@
     "check:types": "tsc -p tsconfig.json",
     "check:runtime": "node --experimental-strip-types src/job-replay.ts",
     "test:identity": "node --experimental-strip-types test/identity.mjs",
-    "test:reviews": "node --experimental-strip-types test/reviews.mjs"
+    "test:reviews": "node --experimental-strip-types test/reviews.mjs",
+    "test:enrichment": "node --experimental-strip-types test/enrichment.mjs"
   },
   "engines": {
     "node": ">=24"
