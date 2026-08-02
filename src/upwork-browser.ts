@@ -526,7 +526,7 @@ export async function fetchJobDetails(session: FeedSession, ciphertext: string):
         },
         body: JSON.stringify({
           query,
-          variables: { id: jobCiphertext, isFreelancerOrAgency: true, isLoggedIn: true },
+          variables: { id: jobCiphertext },
         }),
       });
       return { status: result.status, text: await result.text() };
