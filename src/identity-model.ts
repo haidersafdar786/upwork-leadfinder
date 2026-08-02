@@ -74,6 +74,14 @@ function candidateMatches(value: string | null, candidate: string): boolean {
 }
 
 const ORG_SUFFIX = /\b(?:inc|llc|ltd|corp|co|gmbh|plc|group|university|college|institute|foundation|technologies|technology|international|innovations|solutions|systems|enterprises|academy|school|hospital|labs?|studios?|ventures|partners|holdings)\b/i;
+const ROLE_WORDS = new Set(["architect", "assistant", "analyst", "actor", "consultant", "coordinator", "designer", "developer", "editor", "engineer", "expert", "manager", "marketer", "owner", "producer", "recruiter", "specialist", "tester", "writer"]);
+const ROLE_MODIFIERS = new Set(["a", "an", "and", "back", "end", "front", "full", "junior", "lead", "mobile", "part", "product", "senior", "software", "stack", "staff", "technical", "the", "ui", "ux", "web"]);
+const GENERIC_LABELS = new Set(["ai", "api", "b2b", "b2c", "crm", "d2c", "erp", "esop", "kpi", "mvp", "ppc", "qa", "saas", "seo", "ugc", "ui", "ux"]);
+
+function isRoleOnly(value: string): boolean {
+  const parts = value.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+  return parts.length > 0 && parts.some((part) => ROLE_WORDS.has(part)) && parts.every((part) => ROLE_WORDS.has(part) || ROLE_MODIFIERS.has(part));
+}
 
 function isLikelyReviewPerson(candidate: IdentitySignals["candidates"][number], signals: IdentitySignals): boolean {
   if (candidate.source !== "review" || ORG_SUFFIX.test(candidate.value)) return false;
@@ -86,6 +94,8 @@ function isLikelyReviewPerson(candidate: IdentitySignals["candidates"][number], 
 }
 
 function isStrongCandidate(candidate: IdentitySignals["candidates"][number], signals: IdentitySignals): boolean {
+  if (GENERIC_LABELS.has(squish(candidate.value))) return false;
+  if (isRoleOnly(candidate.value)) return false;
   if (isLikelyReviewPerson(candidate, signals)) return false;
   if (candidate.source === "past-title") {
     // A bare all-caps product/brand such as PRDXN can be present only in a
@@ -162,7 +172,7 @@ function normalizeModel(output: IdentityModelOutput, signals: IdentitySignals): 
     safeCompany = company;
     safeProduct = product;
   }
-  const safeName = name && evidenceContains(signals, name) ? name : null;
+  const safeName = name && signals.names.some((known) => candidateMatches(name, known)) ? name : null;
   const website = safeWebsite(output.website, signals);
   const evidenceQuote = clean(output.evidenceQuote);
   const hasIdentity = Boolean(safeCompany || safeProduct || safeName || website);

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upwho</title>
+    <style>
+      :root { color-scheme: light; --ink:#17221f; --muted:#66716d; --line:#dce4df; --paper:#f6f8f5; --card:#fff; --accent:#087f63; --accent-dark:#05634e; --warn:#9b5710; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.45 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+      main { max-width:1440px; margin:0 auto; padding:32px 24px 56px; }
+      header { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:24px; }
+      h1 { margin:0; letter-spacing:-.05em; font-size:38px; line-height:1; }
+      h2 { margin:0; font-size:18px; letter-spacing:-.02em; }
+      .eyebrow { margin:0 0 8px; color:var(--accent); font-size:12px; font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
+      .subtle { color:var(--muted); }
+      .card { border:1px solid var(--line); border-radius:16px; background:var(--card); box-shadow:0 8px 24px #18382a0b; }
+      .controls { display:grid; grid-template-columns:1.1fr 1.4fr 2fr auto auto; align-items:end; gap:12px; padding:16px; }
+      label { display:grid; gap:6px; color:var(--muted); font-size:12px; font-weight:700; }
+      input, select, button { min-height:40px; border:1px solid #cbd7d1; border-radius:9px; background:#fff; color:var(--ink); font:inherit; }
+      input, select { width:100%; padding:0 11px; }
+      input:focus, select:focus, button:focus-visible { outline:3px solid #65c9a544; outline-offset:1px; border-color:var(--accent); }
+      button { padding:0 15px; cursor:pointer; font-weight:750; }
+      button.primary { border-color:var(--accent); background:var(--accent); color:white; }
+      button.primary:hover { background:var(--accent-dark); }
+      button:active { transform:translateY(1px); }
+      button:disabled { cursor:wait; opacity:.55; }
+      .check { display:flex; align-items:center; gap:8px; min-height:40px; white-space:nowrap; }
+      .check input { width:16px; min-height:16px; }
+      .toolbar { margin:12px 0 24px; }
+      .history { display:flex; align-items:center; gap:12px; padding:12px 16px; }
+      .history label { min-width:280px; flex:1; }
+      .status { display:flex; align-items:center; gap:10px; min-height:44px; margin:16px 0; }
+      .dot { width:9px; height:9px; border-radius:50%; background:#aab6b0; }
+      .dot.live { background:var(--accent); box-shadow:0 0 0 5px #087f6320; }
+      .dot.error { background:#bd4d42; }
+      .progress { max-height:180px; overflow:auto; margin:0 0 24px; padding:12px 16px; color:var(--muted); font:12px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace; white-space:pre-wrap; }
+      .progress:empty { display:none; }
+      .results { overflow:hidden; }
+      .results-head { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 18px 14px; }
+      .count { color:var(--muted); font-size:13px; }
+      .table-wrap { overflow:auto; }
+      table { width:100%; border-collapse:collapse; min-width:980px; }
+      th, td { padding:13px 16px; border-top:1px solid var(--line); text-align:left; vertical-align:top; }
+      th { color:var(--muted); font-size:11px; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap; }
+      th button { min-height:0; padding:0; border:0; color:inherit; background:none; font-size:inherit; letter-spacing:inherit; text-transform:inherit; }
+      th button:hover { color:var(--accent); }
+      td strong { display:block; margin-bottom:2px; }
+      td small { color:var(--muted); }
+      .confidence { display:inline-flex; border-radius:999px; padding:3px 8px; background:#e9f3ee; color:var(--accent-dark); font-size:12px; font-weight:750; text-transform:capitalize; }
+      .confidence.unknown { background:#eef0ed; color:var(--muted); }
+      .links { display:flex; flex-wrap:wrap; gap:5px 10px; max-width:250px; }
+      a { color:var(--accent-dark); text-decoration:none; }
+      a:hover { text-decoration:underline; }
+      .quote { display:block; max-width:360px; color:#35443e; font-size:13px; }
+      .quote::before { content:"“"; color:var(--accent); font-size:22px; vertical-align:-3px; margin-right:2px; }
+      .empty { padding:44px 18px; color:var(--muted); text-align:center; }
+      @media (max-width:900px) { main { padding:24px 14px 40px; } header { display:block; } .controls { grid-template-columns:1fr 1fr; } .controls label:nth-child(2) { grid-column:span 2; } .controls .primary { grid-column:span 2; } .history { display:block; } .history label { display:grid; margin-bottom:10px; } }
+      @media (prefers-reduced-motion:reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div><p class="eyebrow">Upwork client identity</p><h1>Upwho</h1></div>
+        <p class="subtle">One buyer, one answer, with the evidence that earned it.</p>
+      </header>
+
+      <section class="card controls" aria-label="Run controls">
+        <label>Feed<select id="feed"><option value="best-matches">Best Matches</option><option value="most-recent">Most Recent</option><option value="my-feed">My Feed</option><option value="saved">Saved</option><option value="search">Search</option></select></label>
+        <label id="query-wrap" hidden>Search query<input id="query" placeholder="e.g. Shopify app"></label>
+        <label>Skip countries<input id="countries" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine" aria-label="Countries to skip"></label>
+        <label class="check"><input id="force" type="checkbox"> Process again</label>
+        <button id="start" class="primary">Start run</button>
+      </section>
+
+      <section class="card history">
+        <label>Past run<select id="runs"><option value="">Choose a saved run</option></select></label>
+        <button id="refresh">Refresh</button>
+        <span id="run-meta" class="subtle"></span>
+      </section>
+
+      <div class="status"><span id="dot" class="dot"></span><strong id="status">Ready</strong></div>
+      <pre id="progress" class="card progress" aria-live="polite"></pre>
+
+      <section class="card results">
+        <div class="results-head"><div><p class="eyebrow">Results</p><h2 id="result-title">No run selected</h2></div><span id="count" class="count"></span></div>
+        <div class="table-wrap">
+          <table><thead><tr><th><button data-sort="identity">Identity</button></th><th><button data-sort="confidence">Confidence</button></th><th><button data-sort="jobs">Jobs</button></th><th>Web presence</th><th>Evidence</th><th>Action</th></tr></thead><tbody id="results-body"></tbody></table>
+        </div>
+        <div id="empty" class="empty">Run a feed to see one row per buyer.</div>
+      </section>
+    </main>
+    <script>
+      const defaultCountries = "India, Israel, Pakistan, Bangladesh, Philippines, Ukraine";
+      let selectedRunId = "";
+      let currentResult = null;
+      let sortKey = "identity";
+      let sortDirection = 1;
+      let source = null;
+      const $ = (id) => document.getElementById(id);
+      const escapeHtml = (value) => String(value ?? "").replace(/[&<>\"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[character]));
+      const identityLabel = (client) => {
+        if (client.identity.kind === "unknown") return "Unknown client";
+        return [client.identity.name, client.identity.company || client.identity.product].filter(Boolean).join(" / ") || "Identified client";
+      };
+      const confidence = (client) => client.identity.confidence || "unknown";
+      const link = (label, url) => url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>` : "";
+      const setStatus = (text, kind = "") => { $("status").textContent = text; $("dot").className = `dot ${kind}`; };
+      const log = (line) => { const node = $("progress"); node.textContent += (node.textContent ? "\n" : "") + line; node.scrollTop = node.scrollHeight; };
+      const lineForEvent = (event) => {
+        if (event.kind === "feed-loaded") return `Feed loaded: ${event.feed.kind} · ${event.jobCount} jobs`;
+        if (event.kind === "job-skipped") return `Skipped ${event.jobId} · ${event.reason}`;
+        if (event.kind === "client-progress") return `${event.buyerId} · ${event.phase} · ${event.completedClients}/${event.totalClients}`;
+        if (event.kind === "client-completed") return `Completed ${event.client.buyerId}`;
+        if (event.kind === "client-failed") return `Failed ${event.buyerId} · ${event.message}`;
+        if (event.kind === "run-completed") return `Run complete · ${event.result.clients.length} clients`;
+        return `Run failed · ${event.message}`;
+      };
+      function render(result) {
+        currentResult = result;
+        $("result-title").textContent = result ? `${result.feed.kind} · ${new Date(result.completedAt).toLocaleString()}` : "No run selected";
+        $("count").textContent = result ? `${result.clients.length} buyer${result.clients.length === 1 ? "" : "s"}` : "";
+        const clients = result ? [...result.clients] : [];
+        clients.sort((left, right) => {
+          if (sortKey === "jobs") return (right.jobs.length - left.jobs.length) * sortDirection;
+          if (sortKey === "confidence") return ({unknown:0,low:1,medium:2,high:3}[confidence(right)] - ({unknown:0,low:1,medium:2,high:3}[confidence(left)])) * sortDirection;
+          return identityLabel(left).localeCompare(identityLabel(right)) * sortDirection;
+        });
+        $("results-body").innerHTML = clients.map((client) => {
+          const web = [link("site", client.webPresence.verifiedSite), link("person", client.webPresence.personLinkedIn), link("company", client.webPresence.companyLinkedIn), ...client.webPresence.socials.map((url, index) => link(`social ${index + 1}`, url))].filter(Boolean).join("");
+          const quote = client.identity.evidenceQuote ? `<span class="quote">${escapeHtml(client.identity.evidenceQuote)}</span>` : `<small>No quoted identity evidence</small>`;
+          return `<tr><td><strong>${escapeHtml(identityLabel(client))}</strong><small>${escapeHtml(client.buyerId)}</small></td><td><span class="confidence ${confidence(client) === "unknown" ? "unknown" : ""}">${escapeHtml(confidence(client))}</span></td><td>${client.jobs.length}</td><td><div class="links">${web || "<small>No verified links</small>"}</div></td><td>${quote}<small>${client.evidence.length} evidence item${client.evidence.length === 1 ? "" : "s"}</small></td><td><button data-rerun="${escapeHtml(client.buyerId)}">Rerun</button></td></tr>`;
+        }).join("");
+        $("empty").hidden = clients.length > 0;
+        document.querySelectorAll("[data-rerun]").forEach((button) => button.addEventListener("click", () => rerunClient(button.dataset.rerun)));
+      }
+      async function loadRuns() {
+        const response = await fetch("/api/runs");
+        if (!response.ok) throw new Error("Could not load run history");
+        const runs = await response.json();
+        $("runs").innerHTML = `<option value="">Choose a saved run</option>` + runs.map((run) => `<option value="${escapeHtml(run.id)}">${escapeHtml(run.id)} · ${run.clients} buyers</option>`).join("");
+        if (selectedRunId) $("runs").value = selectedRunId;
+      }
+      async function selectRun(id) {
+        if (!id) { selectedRunId = ""; render(null); $("run-meta").textContent = ""; return; }
+        const response = await fetch(`/api/runs/${encodeURIComponent(id)}`);
+        if (!response.ok) throw new Error("Could not load that run");
+        selectedRunId = id;
+        const result = await response.json();
+        $("run-meta").textContent = result.runId;
+        render(result);
+      }
+      function watchRun(id) {
+        if (source) source.close();
+        source = new EventSource(`/api/runs/${encodeURIComponent(id)}/events`);
+        source.onmessage = (message) => {
+          const event = JSON.parse(message.data);
+          log(lineForEvent(event));
+          if (event.kind === "run-completed") { source.close(); selectedRunId = event.result.runId; render(event.result); loadRuns().catch((error) => log(error.message)); setStatus("Run complete"); $("start").disabled = false; }
+          if (event.kind === "run-failed") { source.close(); setStatus("Run failed", "error"); $("start").disabled = false; }
+        };
+        source.onerror = () => { if ($("start").disabled) setStatus("Waiting for run events", "live"); };
+      }
+      async function startRun(payload) {
+        $("start").disabled = true; $("progress").textContent = ""; setStatus("Starting", "live");
+        try {
+          const response = await fetch("/api/run", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload) });
+          const body = await response.json();
+          if (!response.ok) throw new Error(body.error || "Could not start run");
+          watchRun(body.id); setStatus("Running", "live");
+        } catch (error) { setStatus(error.message, "error"); $("start").disabled = false; log(error.message); }
+      }
+      async function rerunClient(buyerId) {
+        if (!selectedRunId) return setStatus("Choose a saved run first", "error");
+        try {
+          const response = await fetch("/api/rerun-client", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({runId:selectedRunId,buyerId}) });
+          const body = await response.json();
+          if (!response.ok) throw new Error(body.error || "Could not start client rerun");
+          $("progress").textContent = ""; $("start").disabled = true; watchRun(body.id); setStatus(`Rerunning ${buyerId}`, "live");
+        } catch (error) { setStatus(error.message, "error"); log(error.message); }
+      }
+      $("feed").addEventListener("change", () => { $("query-wrap").hidden = $("feed").value !== "search"; });
+      $("start").addEventListener("click", () => startRun({ feed:$("feed").value, query:$("query").value, countries:$("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force:$("force").checked }));
+      $("runs").addEventListener("change", () => selectRun($("runs").value).catch((error) => { setStatus(error.message, "error"); log(error.message); }));
+      $("refresh").addEventListener("click", () => loadRuns().catch((error) => { setStatus(error.message, "error"); log(error.message); }));
+      document.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => { const key = button.dataset.sort; sortDirection = sortKey === key ? -sortDirection : 1; sortKey = key; render(currentResult); }));
+      loadRuns().catch((error) => { setStatus(error.message, "error"); log(error.message); });
+    </script>
+  </body>
+</html>

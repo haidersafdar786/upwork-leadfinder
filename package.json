@@ -6,6 +6,9 @@
     "check": "npm run check:types && npm run check:runtime",
     "check:types": "tsc -p tsconfig.json",
     "check:runtime": "node --experimental-strip-types src/job-replay.ts",
+    "cli": "node --experimental-strip-types src/cli.ts",
+    "start": "npm run cli -- run",
+    "dashboard": "npm run cli -- dashboard",
     "test:identity": "node --experimental-strip-types test/identity.mjs",
     "test:reviews": "node --experimental-strip-types test/reviews.mjs",
     "test:enrichment": "node --experimental-strip-types test/enrichment.mjs"

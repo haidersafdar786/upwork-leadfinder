@@ -1,6 +1,6 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { FeedJob, FeedSelection } from "./types.ts";
+import type { FeedJob, FeedSelection, RunResult } from "./types.ts";
 import type { AttachmentFailureRecord, AttachmentTextRecord } from "./attachments.ts";
 
 export interface RawJobRecord {
@@ -71,4 +71,19 @@ export async function writeRawJobRecord(
   const path = join(runDirectory, "data", `${job.id}.json`);
   await writeFile(path, `${JSON.stringify(record, null, 2)}\n`, "utf8");
   return path;
+}
+
+export async function writeRunResult(runDirectory: string, result: RunResult): Promise<string> {
+  const path = join(runDirectory, "result.json");
+  await writeFile(path, `${JSON.stringify(result, null, 2)}\n`, "utf8");
+  return path;
+}
+
+export async function readRunResult(runDirectory: string): Promise<RunResult | null> {
+  try {
+    return JSON.parse(await readFile(join(runDirectory, "result.json"), "utf8")) as RunResult;
+  } catch (error) {
+    if (typeof error === "object" && error !== null && "code" in error && error.code === "ENOENT") return null;
+    throw error;
+  }
 }

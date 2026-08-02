@@ -301,10 +301,13 @@ function extractDomains(text: IdentityText, candidates: IdentityCandidate[]): st
 
 function extractNames(texts: IdentityText[]): string[] {
   const names = new Set<string>();
+  const add = (value: string) => {
+    if (isAllowedIdentityCandidate(value)) names.add(value);
+  };
   for (const text of texts.filter((item) => item.source === "review")) {
-    for (const match of text.text.matchAll(/\b(?:Mr|Mrs|Ms|Dr)\.?\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,}(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,})?)/g)) names.add(match[1]);
-    for (const match of text.text.matchAll(/\bwith\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,}(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,})?)/g)) names.add(match[1]);
-    for (const match of text.text.matchAll(/\b([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,}(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,})?)\s+(?:was|is|has been)\b/g)) names.add(match[1]);
+    for (const match of text.text.matchAll(/\b(?:Mr|Mrs|Ms|Dr)\.?\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,}(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,})?)/g)) add(match[1]);
+    for (const match of text.text.matchAll(/\bwith\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,}(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,})?)/g)) add(match[1]);
+    for (const match of text.text.matchAll(/\b([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,}(?:\s+[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'-]{2,})?)\s+(?:was|is|has been)\b/g)) add(match[1]);
   }
   return [...names];
 }
