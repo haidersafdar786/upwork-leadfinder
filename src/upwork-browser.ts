@@ -1,9 +1,10 @@
 import { execFile, spawn } from "node:child_process";
+import { randomUUID } from "node:crypto";
 import { existsSync, readFileSync } from "node:fs";
 import { homedir, platform as osPlatform } from "node:os";
 import { delimiter, join } from "node:path";
 import { promisify } from "node:util";
-import { chromium, type Browser, type Page } from "playwright";
+import { chromium, type Browser, type BrowserContext, type Page } from "playwright";
 import type { FeedJob, FeedSelection, HttpUrl, IsoDate, JobId } from "./types.ts";
 
 const execFileAsync = promisify(execFile);
@@ -13,6 +14,7 @@ const DETAIL_QUERY = readFileSync(new URL("./graphql/detail-query.graphql", impo
 export const UPWORK_TENANT_ID = "1538018989781975041";
 const DEFAULT_CDP_URL = "http://127.0.0.1:9222";
 const FEED_WAIT_MS = 45_000;
+const BACKGROUND_TAB_READY_TIMEOUT_MS = 5_000;
 
 export type FeedKey = "best-matches" | "most-recent" | "my-feed" | "saved" | "search";
 
@@ -298,7 +300,6 @@ function bearerFromHeaders(headers: Record<string, string>): string | null {
 }
 
 async function clickTilesUntilToken(page: Page, token: () => string | null): Promise<void> {
-  await page.bringToFront().catch(() => {});
   const links = page.locator("h3.job-tile-title a");
   const count = Math.min(await links.count(), 6);
   for (let index = 0; index < count && !token(); index++) {
@@ -453,6 +454,25 @@ async function cdpAvailable(cdpUrl: string): Promise<boolean> {
   }
 }
 
+export async function newBackgroundPage(browser: Browser, context: BrowserContext): Promise<Page> {
+  const markerUrl = `about:blank#upwho-${randomUUID()}`;
+  const pagePromise = context.waitForEvent("page", {
+    predicate: (page) => page.url() === markerUrl,
+    timeout: BACKGROUND_TAB_READY_TIMEOUT_MS,
+  });
+  const cdp = await browser.newBrowserCDPSession();
+
+  try {
+    await cdp.send("Target.createTarget", { url: markerUrl, background: true });
+    return context.pages().find((page) => page.url() === markerUrl) ?? await pagePromise;
+  } catch (error) {
+    void pagePromise.catch(() => {});
+    throw error;
+  } finally {
+    await cdp.detach().catch(() => {});
+  }
+}
+
 export async function openFeed(feedKey: FeedKey = "best-matches", query?: string, { cdpUrl = process.env.UPWHO_CDP_URL || DEFAULT_CDP_URL } = {}): Promise<FeedSession> {
   const selection = selectionFor(feedKey, query);
   await ensureCdp(cdpUrl);
@@ -463,7 +483,7 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     await browser.close();
     throw new Error("The CDP browser has no usable browser context");
   }
-  const page = await context.newPage();
+  const page = await newBackgroundPage(browser, context);
   let detailToken: string | null = null;
   const pendingHeaderReads = new Set<Promise<void>>();
   const captureRequest = (request: { url(): string; headers(): Record<string, string>; allHeaders(): Promise<Record<string, string>> }) => {

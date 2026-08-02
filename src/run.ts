@@ -27,6 +27,7 @@ import {
 import {
   closeFeed,
   fetchJobDetails,
+  newBackgroundPage,
   openFeed,
   type FeedKey,
   type FeedSession,
@@ -407,7 +408,7 @@ async function processRecords(
       const item = entries[itemIndex];
       if (!item) return;
       const [buyer, clientRecords] = item;
-      const page = await session.page.context().newPage();
+      const page = await newBackgroundPage(session.browser, session.page.context());
       try {
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
         const aggregate = aggregateRecord(clientRecords, []);
