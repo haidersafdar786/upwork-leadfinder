@@ -3,6 +3,7 @@ import { mkdtemp, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { promisify } from "node:util";
+import { cancellationReason, checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
 
 const execFileAsync = promisify(execFile);
 export const DEFAULT_OPENCODE_MODEL = "opencode/deepseek-v4-flash-free";
@@ -132,8 +133,9 @@ function parseEvents(stdout: string): OpenCodeRun {
   return { text, tools };
 }
 
-function runProcess(command: string, args: string[], cwd: string, timeoutMs: number, web: boolean): Promise<string> {
+function runProcess(command: string, args: string[], cwd: string, timeoutMs: number, web: boolean, signal?: AbortSignal): Promise<string> {
   return new Promise((resolve, reject) => {
+    checkpoint(signal);
     const child = spawn(command, args, {
       cwd,
       env: childEnvironment(cwd, web),
@@ -143,19 +145,39 @@ function runProcess(command: string, args: string[], cwd: string, timeoutMs: num
     let stdout = "";
     let stderr = "";
     let settled = false;
+    const stop = () => {
+      const pid = child.pid;
+      if (pid && process.platform !== "win32") {
+        try {
+          process.kill(-pid, "SIGTERM");
+          setTimeout(() => {
+            try { process.kill(-pid, "SIGKILL"); } catch {}
+          }, 500).unref();
+          return;
+        } catch {}
+      }
+      child.kill("SIGTERM");
+      setTimeout(() => child.kill("SIGKILL"), 500).unref();
+    };
     const finish = (callback: () => void) => {
       if (settled) return;
       settled = true;
       clearTimeout(timer);
+      signal?.removeEventListener("abort", onAbort);
       callback();
     };
+    const onAbort = () => finish(() => {
+      stop();
+      reject(signal ? cancellationReason(signal) : new Error("Run cancelled"));
+    });
     const timer = setTimeout(() => {
       finish(() => {
-        child.kill("SIGTERM");
-        setTimeout(() => child.kill("SIGKILL"), 500).unref();
+        stop();
         reject(new Error(`OpenCode timed out after ${timeoutMs}ms`));
       });
     }, timeoutMs);
+    signal?.addEventListener("abort", onAbort, { once: true });
+    if (signal?.aborted) onAbort();
     child.stdout.setEncoding("utf8");
     child.stderr.setEncoding("utf8");
     child.stdout.on("data", (chunk: string) => (stdout += chunk));
@@ -170,8 +192,25 @@ function runProcess(command: string, args: string[], cwd: string, timeoutMs: num
   });
 }
 
-async function withPermit<T>(work: () => Promise<T>): Promise<T> {
-  if (activeCalls >= MAX_CONCURRENCY) await new Promise<void>((resolve) => waitingCalls.push(resolve));
+async function withPermit<T>(work: () => Promise<T>, signal?: AbortSignal): Promise<T> {
+  checkpoint(signal);
+  if (activeCalls >= MAX_CONCURRENCY) {
+    await new Promise<void>((resolve, reject) => {
+      const ready = () => {
+        signal?.removeEventListener("abort", cancel);
+        resolve();
+      };
+      const cancel = () => {
+        const index = waitingCalls.indexOf(ready);
+        if (index >= 0) waitingCalls.splice(index, 1);
+        reject(signal ? cancellationReason(signal) : new Error("Run cancelled"));
+      };
+      waitingCalls.push(ready);
+      signal?.addEventListener("abort", cancel, { once: true });
+      if (signal?.aborted) cancel();
+    });
+  }
+  checkpoint(signal);
   activeCalls++;
   try {
     return await work();
@@ -187,13 +226,16 @@ async function runOpenCodeOnce({
   files,
   timeoutMs,
   web,
+  signal,
 }: {
   prompt: string;
   model: string;
   files: OpenCodeFile[];
   timeoutMs: number;
   web: boolean;
+  signal?: AbortSignal;
 }): Promise<OpenCodeRun> {
+  checkpoint(signal);
   const workDir = await mkdtemp(join(tmpdir(), "upwho-opencode-"));
   try {
     const config: Record<string, unknown> = {
@@ -234,7 +276,7 @@ async function runOpenCodeOnce({
     ];
     const command = process.platform === "darwin" ? "script" : "opencode";
     const args = process.platform === "darwin" ? ["-q", "/dev/null", "opencode", ...opencodeArgs] : opencodeArgs;
-    const run = parseEvents(await runProcess(command, args, workDir, timeoutMs, web));
+    const run = parseEvents(await runProcess(command, args, workDir, timeoutMs, web, signal));
     const allowed = new Set(web ? ["websearch", "webfetch"] : []);
     for (const tool of run.tools) {
       if (!allowed.has(tool.tool)) throw new Error(`OpenCode used forbidden tool: ${tool.tool}`);
@@ -263,6 +305,7 @@ async function runOpenCodeBudget({
   retries = 1,
   web,
 }: OpenCodeOptions & { web: boolean }): Promise<OpenCodeRun> {
+  const signal = currentCancellationSignal();
   return withPermit(async () => {
     const deadline = Date.now() + timeoutMs;
     let lastError: unknown;
@@ -271,13 +314,14 @@ async function runOpenCodeBudget({
       const budget = Math.min(attemptTimeoutMs, remaining);
       if (budget < 3_000) break;
       try {
-        return await runOpenCodeOnce({ prompt, model, files, timeoutMs: budget, web });
+        return await runOpenCodeOnce({ prompt, model, files, timeoutMs: budget, web, signal });
       } catch (error) {
+        rethrowCancellation(error, signal);
         lastError = error;
       }
     }
     throw lastError instanceof Error ? lastError : new Error("OpenCode budget expired");
-  });
+  }, signal);
 }
 
 export async function runOpenCode(options: OpenCodeOptions): Promise<string> {

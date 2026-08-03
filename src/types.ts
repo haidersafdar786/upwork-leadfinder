@@ -208,6 +208,7 @@ export type ProgressEvent =
   | { kind: "client-completed"; client: Client }
   | { kind: "client-failed"; buyerId: BuyerId; message: string }
   | { kind: "run-completed"; result: RunResult }
+  | { kind: "run-cancelled" }
   | { kind: "run-failed"; message: string };
 
 export type ProgressCallback = (event: ProgressEvent) => void | Promise<void>;

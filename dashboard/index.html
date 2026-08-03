@@ -114,6 +114,18 @@
       }
       .primary-action:hover { background: var(--accent-strong); }
       .primary-action:disabled { cursor: wait; background: #7aaa91; }
+      .cancel-action {
+        height: 40px;
+        padding: 0 13px;
+        border: 1px solid color-mix(in srgb, var(--danger) 45%, var(--surface));
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--danger);
+        cursor: pointer;
+        font-weight: 700;
+      }
+      .cancel-action:hover { border-color: var(--danger); background: color-mix(in srgb, var(--danger) 5%, var(--surface)); }
+      .cancel-action:disabled { cursor: wait; opacity: .55; }
       .status-cluster {
         display: flex;
         min-width: 0;
@@ -571,6 +583,7 @@
           <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-play"></use></svg>
           <span>Run</span>
         </button>
+        <button id="cancel" class="cancel-action" type="button" hidden>Cancel</button>
         <div class="status-cluster" role="status" aria-live="polite">
           <span id="dot" class="status-dot"></span>
           <span id="status">Ready</span>
@@ -663,6 +676,8 @@
       let source = null;
       let runFeed = null;
       let activeRun = false;
+      let activeRunId = "";
+      let activeRunKind = "run";
       let runHadFailures = false;
       let runFailures = [];
       const expandedBuyers = new Set();
@@ -783,7 +798,7 @@
         if (history.totalReviews !== null) facts.push(`${formatCount(history.totalReviews)} review${history.totalReviews === 1 ? "" : "s"}`);
         if (history.rating !== null && history.totalReviews !== 0) facts.push(`${icon("star", "history-star")}${history.rating.toFixed(2).replace(/\.00$/, "")}`);
         if (history.totalSpent === null && !facts.length) return `<span class="empty-cell">—</span>`;
-        const spend = history.totalSpent === null ? "Spend unavailable" : `${formatSpend(history.totalSpent)} spent`;
+        const spend = history.totalSpent === null ? "-" : `${formatSpend(history.totalSpent)} spent`;
         const title = history.totalSpent === null ? spend : `${formatSpend(history.totalSpent, false)} spent`;
         return `<div class="client-history"><span class="history-spend" title="${escapeAttribute(title)}">${escapeHtml(spend)}</span><span class="history-facts">${facts.map((fact) => `<span class="history-fact">${fact}</span>`).join("")}</span></div>`;
       }
@@ -929,7 +944,7 @@
             <td>${historyCell(client)}</td>
             <td>${confidenceCell(client)}</td>
             <td><button class="evidence-toggle" type="button" data-evidence="${buyer}" aria-expanded="${expanded}" aria-label="${expanded ? "Collapse" : "Expand"} evidence for ${escapeAttribute(identityPrimary(client))}"><span class="evidence-preview${evidence.startsWith("No supporting") ? " empty" : ""}">${escapeHtml(evidence)}</span><svg class="icon icon-sm chevron" aria-hidden="true"><use href="#icon-chevron"></use></svg></button></td>
-            <td><div class="cell-actions"><button class="icon-button" type="button" data-rerun="${buyer}" aria-label="Rerun ${escapeAttribute(identityPrimary(client))}" data-tooltip="Rerun client">${icon("rerun")}</button></div></td>
+            <td><div class="cell-actions"><button class="icon-button" type="button" data-rerun="${buyer}" aria-label="Rerun ${escapeAttribute(identityPrimary(client))}" data-tooltip="Rerun client"${activeRun ? " disabled" : ""}>${icon("rerun")}</button></div></td>
           </tr>${expanded ? evidencePanel(client) : ""}`;
         }).join("");
         $("table-wrap").hidden = clients.length === 0;
@@ -985,6 +1000,7 @@
       }
 
       async function selectRun(id) {
+        if (activeRun) return;
         const response = await fetch(`/api/runs/${encodeURIComponent(id)}`);
         if (!response.ok) throw new Error("Could not load that run");
         selectedRunId = id;
@@ -1000,6 +1016,19 @@
       function setStatus(text, kind = "") {
         $("status").textContent = text;
         $("dot").className = `status-dot ${kind}`;
+      }
+
+      function setRunControls(running, id = "") {
+        activeRun = running;
+        activeRunId = running ? id : "";
+        $("start").disabled = running;
+        $("feed").disabled = running;
+        $("query").disabled = running;
+        $("history-button").disabled = running;
+        $("settings-button").disabled = running;
+        $("cancel").hidden = !running;
+        $("cancel").disabled = !running || !activeRunId;
+        document.querySelectorAll("[data-rerun]").forEach((button) => { button.disabled = running; });
       }
 
       function setProgress(completed, total) {
@@ -1022,6 +1051,7 @@
         if (event.kind === "client-completed") return `Completed ${identityPrimary(event.client)}`;
         if (event.kind === "client-failed") return `Failed ${event.buyerId} · ${event.message}`;
         if (event.kind === "run-completed") return `Run complete · ${event.result.clients.length} clients`;
+        if (event.kind === "run-cancelled") return "Run cancelled";
         return `Run failed · ${event.message}`;
       }
 
@@ -1047,41 +1077,47 @@
           }
           if (event.kind === "run-completed") {
             source.close();
-            activeRun = false;
+            setRunControls(false);
             selectedRunId = event.result.runId;
             expandedBuyers.clear();
             render(event.result);
             setProgress(event.result.clients.length, event.result.clients.length);
-            setStatus(runHadFailures ? "Run complete with errors" : "Run complete", runHadFailures ? "error" : "");
+            const completedStatus = activeRunKind === "rerun" ? "Client updated" : "Run complete";
+            setStatus(runHadFailures ? `${completedStatus} with errors` : completedStatus, runHadFailures ? "error" : "");
             $("run-meta").textContent = `${feedLabel(event.result.feed.kind)} · ${event.result.clients.length} clients`;
-            $("start").disabled = false;
-            $("feed").disabled = false;
             $("progress-summary").textContent = runHadFailures ? `${runFailures.length} client${runFailures.length === 1 ? "" : "s"} failed · details` : "Run details";
             $("failure-recovery").hidden = !runHadFailures;
             $("run-progress").hidden = !runHadFailures;
             loadRuns().catch((error) => log(error.message));
           }
+          if (event.kind === "run-cancelled") {
+            source.close();
+            setRunControls(false);
+            setStatus("Run cancelled");
+            $("progress-summary").textContent = "Run cancelled · details";
+            $("failure-recovery").hidden = true;
+            $("run-progress").hidden = false;
+            render(currentResult);
+            if (!currentResult?.clients?.length) $("empty-message").textContent = "Run cancelled before any clients finished.";
+          }
           if (event.kind === "run-failed") {
             source.close();
-            activeRun = false;
+            setRunControls(false);
             setStatus(event.message || "Run failed", "error");
             $("progress-summary").textContent = "Run failed · details";
             $("failure-recovery").hidden = false;
             render(currentResult);
-            $("start").disabled = false;
-            $("feed").disabled = false;
             $("run-progress").hidden = false;
           }
         };
-        source.onerror = () => { if ($("start").disabled) setStatus("Waiting for run updates", "live"); };
+        source.onerror = () => { if (activeRun) setStatus("Waiting for run updates", "live"); };
       }
 
       async function startRun(payload) {
-        activeRun = true;
+        activeRunKind = "run";
+        setRunControls(true);
         runHadFailures = false;
         runFailures = [];
-        $("start").disabled = true;
-        $("feed").disabled = true;
         $("progress").textContent = "";
         $("progress-summary").textContent = "Run details";
         $("failure-recovery").hidden = true;
@@ -1097,17 +1133,16 @@
           const response = await fetch("/api/run", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
           const body = await response.json();
           if (!response.ok) throw new Error(body.error || "Could not start run");
+          setRunControls(true, body.id);
           watchRun(body.id);
           setStatus("Running", "live");
         } catch (error) {
-          activeRun = false;
+          setRunControls(false);
           setStatus(error.message, "error");
           $("progress-summary").textContent = "Run failed · details";
           $("failure-recovery").hidden = false;
           $("run-progress").hidden = false;
           render(currentResult);
-          $("start").disabled = false;
-          $("feed").disabled = false;
           log(error.message);
         }
       }
@@ -1115,7 +1150,8 @@
       async function rerunClient(buyerId) {
         if (!selectedRunId) return setStatus("Open a saved or completed run first", "error");
         try {
-          activeRun = true;
+          activeRunKind = "rerun";
+          setRunControls(true);
           runHadFailures = false;
           runFailures = [];
           const response = await fetch("/api/rerun-client", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ runId: selectedRunId, buyerId }) });
@@ -1125,18 +1161,32 @@
           $("progress-summary").textContent = "Run details";
           $("failure-recovery").hidden = true;
           $("run-progress").hidden = false;
-          $("start").disabled = true;
-          $("feed").disabled = true;
           setProgress(0, 1);
           setStatus("Rerunning client", "live");
           runFeed = currentResult?.feed || { kind: "best-matches" };
+          setRunControls(true, body.id);
           watchRun(body.id);
         } catch (error) {
-          activeRun = false;
+          setRunControls(false);
           setStatus(error.message, "error");
           $("progress-summary").textContent = "Rerun failed · details";
           $("failure-recovery").hidden = false;
           $("run-progress").hidden = false;
+          log(error.message);
+        }
+      }
+
+      async function cancelRun() {
+        if (!activeRunId) return;
+        $("cancel").disabled = true;
+        setStatus("Cancelling", "live");
+        try {
+          const response = await fetch(`/api/runs/${encodeURIComponent(activeRunId)}/cancel`, { method: "POST" });
+          const body = await response.json();
+          if (!response.ok) throw new Error(body.error || "Could not cancel run");
+        } catch (error) {
+          $("cancel").disabled = false;
+          setStatus(error.message, "error");
           log(error.message);
         }
       }
@@ -1148,6 +1198,7 @@
         if (feed === "search" && !query) { setStatus("Enter a search query", "error"); $("query").focus(); return; }
         startRun({ feed, query: feed === "search" ? query : undefined, countries: $("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force: $("force").checked });
       });
+      $("cancel").addEventListener("click", cancelRun);
       $("history-button").addEventListener("click", () => loadRuns().catch((error) => setStatus(error.message, "error")));
       $("refresh").addEventListener("click", () => loadRuns().catch((error) => setStatus(error.message, "error")));
       $("runs-list").addEventListener("click", (event) => {

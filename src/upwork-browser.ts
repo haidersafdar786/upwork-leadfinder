@@ -5,6 +5,7 @@ import { homedir, platform as osPlatform } from "node:os";
 import { delimiter, join } from "node:path";
 import { promisify } from "node:util";
 import { chromium, type Browser, type BrowserContext, type Page } from "playwright";
+import { checkpoint, currentCancellationSignal } from "./cancellation.ts";
 import type { FeedJob, FeedSelection, HttpUrl, IsoDate, JobId } from "./types.ts";
 
 const execFileAsync = promisify(execFile);
@@ -476,16 +477,17 @@ export async function newBackgroundPage(browser: Browser, context: BrowserContex
 }
 
 export async function openFeed(feedKey: FeedKey = "best-matches", query?: string, { cdpUrl = process.env.UPWHO_CDP_URL || DEFAULT_CDP_URL } = {}): Promise<FeedSession> {
+  const signal = currentCancellationSignal();
+  checkpoint(signal);
   const selection = selectionFor(feedKey, query);
   await ensureCdp(cdpUrl);
+  checkpoint(signal);
 
   const browser = await chromium.connectOverCDP(cdpUrl, { timeout: 15_000 });
-  const context = browser.contexts()[0];
-  if (!context) {
-    await browser.close();
-    throw new Error("The CDP browser has no usable browser context");
-  }
-  const page = await newBackgroundPage(browser, context, selection.url);
+  let page: Page | null = null;
+  const cancel = () => { void browser.close().catch(() => {}); };
+  signal?.addEventListener("abort", cancel, { once: true });
+  if (signal?.aborted) cancel();
   let detailToken: string | null = null;
   const pendingHeaderReads = new Set<Promise<void>>();
   const captureRequest = (request: { url(): string; headers(): Record<string, string>; allHeaders(): Promise<Record<string, string>> }) => {
@@ -498,9 +500,13 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     pendingHeaderReads.add(read);
     void read.finally(() => pendingHeaderReads.delete(read));
   };
-  page.on("request", captureRequest);
 
   try {
+    checkpoint(signal);
+    const context = browser.contexts()[0];
+    if (!context) throw new Error("The CDP browser has no usable browser context");
+    page = await newBackgroundPage(browser, context, selection.url);
+    page.on("request", captureRequest);
     const loaded = await loadFeed(page, feedKey, selection);
     await clickTilesUntilToken(page, () => detailToken);
     if (!detailToken && feedKey !== "best-matches") {
@@ -512,9 +518,11 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     if (!detailToken) throw new Error("The feed loaded, but Upwork did not expose a job-details bearer token through the clicked job tile");
     return { browser, page, browserName: await browserName(), selection, ...loaded, token: detailToken };
   } catch (error) {
-    await page.close().catch(() => {});
+    await page?.close().catch(() => {});
     await browser.close().catch(() => {});
     throw error;
+  } finally {
+    signal?.removeEventListener("abort", cancel);
   }
 }
 

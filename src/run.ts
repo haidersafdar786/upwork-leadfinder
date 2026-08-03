@@ -10,6 +10,7 @@ import {
 } from "./attachments.ts";
 import { emailsMatchingWebsite, mergeContactDetails } from "./contacts.ts";
 import { clientHistoryFromRecord } from "./client-history.ts";
+import { checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
 import { enrichClient, emptyWebPresence } from "./enrichment.ts";
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
@@ -357,6 +358,7 @@ async function fetchRecords(session: FeedSession, jobs: readonly FeedJob[], runD
   let next = 0;
   const worker = async () => {
     while (true) {
+      checkpoint();
       const recordIndex = next++;
       const job = jobs[recordIndex];
       if (!job) return;
@@ -371,6 +373,7 @@ async function fetchRecords(session: FeedSession, jobs: readonly FeedJob[], runD
         await writeRawJobRecord(runDirectory, job, rawFeed, details, attachments.items, attachments.failures);
         records.push({ job, rawFeed, details, attachmentsText: attachments.items, attachmentFailures: attachments.failures, buyerId: buyerId(details, job.id) });
       } catch (error) {
+        rethrowCancellation(error);
         failures.push({ jobId: job.id, message: error instanceof Error ? error.message : String(error) });
       }
     }
@@ -391,7 +394,9 @@ async function processRecords(
   records: readonly LoadedRecord[],
   options: RunOptions,
   progress: ProgressCallback,
+  { publishClients = true }: { publishClients?: boolean } = {},
 ): Promise<{ clients: Client[]; failures: RunFailure[] }> {
+  const signal = currentCancellationSignal();
   const grouped = new Map<BuyerId, LoadedRecord[]>();
   for (const record of records) {
     const id = record.buyerId || buyerId(record.details, record.job.id);
@@ -406,11 +411,14 @@ async function processRecords(
   let completed = 0;
   const worker = async () => {
     while (true) {
+      checkpoint();
       const itemIndex = next++;
       const item = entries[itemIndex];
       if (!item) return;
       const [buyer, clientRecords] = item;
       const page = await newBackgroundPage(session.browser, session.page.context(), session.selection.url);
+      const cancelPage = () => { void page.close().catch(() => {}); };
+      signal?.addEventListener("abort", cancelPage, { once: true });
       try {
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
         const aggregate = aggregateRecord(clientRecords, []);
@@ -418,6 +426,7 @@ async function processRecords(
         try {
           past = await gatherPastJobs(page, aggregate);
         } catch (error) {
+          rethrowCancellation(error);
           past.failures.push(error instanceof Error ? error.message : String(error));
         }
         const recordForIdentity = aggregateRecord(clientRecords, past.items);
@@ -432,6 +441,7 @@ async function processRecords(
           recovery = (await recoverClientName(page, workHistoryFromRecord(recordForIdentity))).match;
           if (recovery) identity = applyRecoveredName(identity, recovery);
         } catch (error) {
+          rethrowCancellation(error);
           past.failures.push(error instanceof Error ? error.message : String(error));
         }
 
@@ -451,6 +461,7 @@ async function processRecords(
           });
           client.webPresence = { ...presence, ...contacts, verifiedSite };
         } catch (error) {
+          rethrowCancellation(error);
           past.failures.push(error instanceof Error ? error.message : String(error));
           const contacts = mergeContactDetails(client.webPresence, {
             emails: emailsMatchingWebsite(identified.signals.emails, evidenceBackedWebsite),
@@ -459,15 +470,18 @@ async function processRecords(
           });
           client.webPresence = { ...client.webPresence, ...contacts, verifiedSite: evidenceBackedWebsite };
         }
+        checkpoint();
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
         clients.push(client);
         completed++;
-        await report(progress, { kind: "client-completed", client });
+        if (publishClients) await report(progress, { kind: "client-completed", client });
       } catch (error) {
+        rethrowCancellation(error);
         const message = error instanceof Error ? error.message : String(error);
         failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
         await report(progress, { kind: "client-failed", buyerId: buyer, message });
       } finally {
+        signal?.removeEventListener("abort", cancelPage);
         await page.close().catch(() => {});
       }
     }
@@ -515,9 +529,13 @@ export async function runOnce(
 ): Promise<RunExecution> {
   const startedAt = new Date().toISOString() as IsoDate;
   const root = options.root || "runs";
+  const signal = currentCancellationSignal();
   let session: FeedSession | null = null;
+  const cancelSession = () => { if (session) void closeFeed(session); };
   try {
+    checkpoint();
     session = await openFeed(feed, query);
+    signal?.addEventListener("abort", cancelSession, { once: true });
     await report(progress, { kind: "feed-loaded", feed: session.selection, jobCount: session.jobs.length });
     const runDirectory = await createRunFolder(session.selection, root);
     const skippedCountries = normalizedSet(options.countries === undefined ? DEFAULT_COUNTRY_SKIP : options.countries);
@@ -548,22 +566,36 @@ export async function runOnce(
       completedAt,
       clients: processedClients.clients,
     };
+    checkpoint();
     await writeRunResult(runDirectory, result);
     const failures = [...fetched.failures, ...processedClients.failures];
     await report(progress, { kind: "run-completed", result });
     return { runDirectory, result, failures };
   } catch (error) {
-    await report(progress, { kind: "run-failed", message: error instanceof Error ? error.message : String(error) });
+    if (signal?.aborted) await report(progress, { kind: "run-cancelled" });
+    else await report(progress, { kind: "run-failed", message: error instanceof Error ? error.message : String(error) });
     throw error;
   } finally {
+    signal?.removeEventListener("abort", cancelSession);
     if (session) await closeFeed(session);
   }
+}
+
+export function mergeRerunResult(previous: RunResult, updatedClient: Client, completedAt: IsoDate): RunResult {
+  if (!previous.clients.some((client) => client.buyerId === updatedClient.buyerId)) {
+    throw new Error(`Buyer ${updatedClient.buyerId} was not found in run ${previous.runId}`);
+  }
+  return {
+    ...previous,
+    completedAt,
+    clients: previous.clients.map((client) => client.buyerId === updatedClient.buyerId ? updatedClient : client),
+  };
 }
 
 export async function rerunClient(
   sourceRunDirectory: string,
   buyer: string,
-  options: Omit<RunOptions, "onlyBuyerId" | "onlyJobIds"> = {},
+  options: Omit<RunOptions, "root" | "onlyBuyerId" | "onlyJobIds"> = {},
   progress: ProgressCallback = noopProgress,
 ): Promise<RunExecution> {
   const previous = await readRunResult(sourceRunDirectory);
@@ -571,13 +603,14 @@ export async function rerunClient(
   const client = previous.clients.find((item) => item.buyerId === buyer);
   if (!client) throw new Error(`Buyer ${buyer} was not found in ${sourceRunDirectory}`);
   const { feed, query } = feedKeyFor(previous.feed);
-  const startedAt = new Date().toISOString() as IsoDate;
+  const signal = currentCancellationSignal();
   let session: FeedSession | null = null;
+  const cancelSession = () => { if (session) void closeFeed(session); };
   try {
+    checkpoint();
     session = await openFeed(feed, query);
+    signal?.addEventListener("abort", cancelSession, { once: true });
     await report(progress, { kind: "feed-loaded", feed: session.selection, jobCount: session.jobs.length });
-    const root = options.root || "runs";
-    const runDirectory = await createRunFolder(previous.feed, root);
     const storedRecords = await loadStoredRecords(sourceRunDirectory, client);
     const records: LoadedRecord[] = [];
     for (const stored of storedRecords) {
@@ -590,18 +623,26 @@ export async function rerunClient(
       });
       const record = { ...stored, attachmentsText, attachmentFailures: refreshed.failures };
       records.push(record);
-      await writeRawJobRecord(runDirectory, record.job, record.rawFeed, record.details, record.attachmentsText, record.attachmentFailures);
     }
-    const processed = await processRecords(session, runDirectory, records, { ...options, onlyBuyerId: buyer }, progress);
+    const processed = await processRecords(session, sourceRunDirectory, records, { ...options, onlyBuyerId: buyer }, progress, { publishClients: false });
+    const updatedClient = processed.clients[0];
+    if (!updatedClient) throw new Error(`Buyer ${buyer} could not be rerun`);
+    checkpoint();
+    for (const record of records) {
+      await writeRawJobRecord(sourceRunDirectory, record.job, record.rawFeed, record.details, record.attachmentsText, record.attachmentFailures);
+    }
+    checkpoint();
     const completedAt = new Date().toISOString() as IsoDate;
-    const result: RunResult = { runId: basename(runDirectory) as RunId, feed: previous.feed, startedAt, completedAt, clients: processed.clients };
-    await writeRunResult(runDirectory, result);
+    const result = mergeRerunResult(previous, updatedClient, completedAt);
+    await writeRunResult(sourceRunDirectory, result);
     await report(progress, { kind: "run-completed", result });
-    return { runDirectory, result, failures: processed.failures };
+    return { runDirectory: sourceRunDirectory, result, failures: processed.failures };
   } catch (error) {
-    await report(progress, { kind: "run-failed", message: error instanceof Error ? error.message : String(error) });
+    if (signal?.aborted) await report(progress, { kind: "run-cancelled" });
+    else await report(progress, { kind: "run-failed", message: error instanceof Error ? error.message : String(error) });
     throw error;
   } finally {
+    signal?.removeEventListener("abort", cancelSession);
     if (session) await closeFeed(session);
   }
 }

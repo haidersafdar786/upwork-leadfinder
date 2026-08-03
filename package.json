@@ -8,7 +8,8 @@
     "check:runtime": "node --experimental-strip-types src/job-replay.ts",
     "cli": "node --experimental-strip-types src/cli.ts",
     "start": "npm run cli -- run",
-    "dashboard": "npm run cli -- dashboard",
+    "dashboard": "nodemon --watch src --watch dashboard --ext ts,html --exec \"node --experimental-strip-types src/cli.ts dashboard\"",
+    "dashboard:once": "npm run cli -- dashboard",
     "test:identity": "node --experimental-strip-types test/identity.mjs",
     "test:reviews": "node --experimental-strip-types test/reviews.mjs",
     "test:enrichment": "node --experimental-strip-types test/enrichment.mjs",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.1.2",
+    "nodemon": "^3.1.14",
     "typescript": "^7.0.2"
   }
 }

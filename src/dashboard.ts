@@ -2,6 +2,7 @@ import { createServer, type IncomingMessage, type Server, type ServerResponse } 
 import { randomUUID } from "node:crypto";
 import { readFile, readdir } from "node:fs/promises";
 import { basename, resolve, sep } from "node:path";
+import { withCancellation } from "./cancellation.ts";
 import { clientHistoryFromContracts, clientHistoryFromRecord } from "./client-history.ts";
 import { rerunClient, runOnce, type RunExecution } from "./run.ts";
 import { readRunResult } from "./run-files.ts";
@@ -11,14 +12,18 @@ import type { Client, ClientHistory, ProgressCallback, ProgressEvent, RunResult 
 export interface DashboardOptions {
   root?: string;
   port?: number;
+  runOnce?: typeof runOnce;
+  rerunClient?: typeof rerunClient;
 }
+
+type RunStatus = "running" | "cancelling" | "completed" | "failed" | "cancelled";
 
 interface RunState {
   id: string;
+  controller: AbortController;
+  status: RunStatus;
   events: ProgressEvent[];
   subscribers: Set<ServerResponse>;
-  result: RunResult | null;
-  error: string | null;
 }
 
 interface DashboardBody {
@@ -133,16 +138,24 @@ function publish(state: RunState, event: ProgressEvent): void {
 }
 
 function startState(states: Map<string, RunState>): RunState {
-  const state: RunState = { id: randomUUID(), events: [], subscribers: new Set(), result: null, error: null };
+  const state: RunState = {
+    id: randomUUID(),
+    controller: new AbortController(),
+    status: "running",
+    events: [],
+    subscribers: new Set(),
+  };
   states.set(state.id, state);
   return state;
 }
 
 async function execute(state: RunState, task: (progress: ProgressCallback) => Promise<RunExecution>): Promise<void> {
   try {
-    state.result = (await task((event) => publish(state, event))).result;
-  } catch (error) {
-    state.error = error instanceof Error ? error.message : String(error);
+    await withCancellation(state.controller.signal, () => task((event) => publish(state, event)));
+    state.status = "completed";
+  } catch {
+    if (state.controller.signal.aborted) state.status = "cancelled";
+    else state.status = "failed";
   }
 }
 
@@ -152,8 +165,10 @@ async function dashboardHtml(): Promise<string> {
 
 export function createDashboardServer(options: DashboardOptions = {}): Server {
   const root = options.root || "runs";
+  const executeRunOnce = options.runOnce || runOnce;
+  const executeRerunClient = options.rerunClient || rerunClient;
   const states = new Map<string, RunState>();
-  let active = false;
+  let activeRunId: string | null = null;
   const serveRun = async (response: ServerResponse, id: string) => {
     const runDirectory = safeRunDirectory(root, id);
     const result = await readRunResult(runDirectory);
@@ -182,8 +197,18 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
         request.on("close", () => state.subscribers.delete(response));
         return;
       }
+      const cancelMatch = url.pathname.match(/^\/api\/runs\/([^/]+)\/cancel$/);
+      if (request.method === "POST" && cancelMatch) {
+        const state = states.get(decodeURIComponent(cancelMatch[1]));
+        if (!state) return json(response, 404, { error: "Active run not found" });
+        if (state.status === "cancelling" || state.status === "cancelled") return json(response, 200, { status: state.status });
+        if (state.status !== "running") return json(response, 409, { error: "Run is no longer active" });
+        state.status = "cancelling";
+        state.controller.abort(new Error("Run cancelled"));
+        return json(response, 202, { status: state.status });
+      }
       if (request.method === "POST" && (url.pathname === "/api/run" || url.pathname === "/api/rerun-client")) {
-        if (active) return json(response, 409, { error: "A run is already in progress" });
+        if (activeRunId) return json(response, 409, { error: "A run is already in progress" });
         const body = await requestBody(request);
         if (url.pathname === "/api/run") {
           const selectedFeed = feed(body.feed);
@@ -191,9 +216,15 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
           if (selectedFeed === "search" && !query) throw new Error("Search feed requires a query");
           if (selectedFeed !== "search" && query) throw new Error("query is only valid for search feeds");
           const state = startState(states);
-          active = true;
+          activeRunId = state.id;
           json(response, 202, { id: state.id });
-          void execute(state, (progress) => runOnce(selectedFeed, query, { root, countries: countryList(body.countries), force: body.force === true }, progress)).finally(() => { active = false; });
+          void execute(state, (progress) => executeRunOnce(selectedFeed, query, {
+            root,
+            countries: countryList(body.countries),
+            force: body.force === true,
+          }, progress)).finally(() => {
+            if (activeRunId === state.id) activeRunId = null;
+          });
           return;
         }
         const runId = text(body.runId);
@@ -201,9 +232,11 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
         if (!runId || !buyerId) throw new Error("rerun-client requires runId and buyerId");
         const sourceRunDirectory = safeRunDirectory(root, runId);
         const state = startState(states);
-        active = true;
+        activeRunId = state.id;
         json(response, 202, { id: state.id });
-        void execute(state, (progress) => rerunClient(sourceRunDirectory, buyerId, { root }, progress)).finally(() => { active = false; });
+        void execute(state, (progress) => executeRerunClient(sourceRunDirectory, buyerId, {}, progress)).finally(() => {
+          if (activeRunId === state.id) activeRunId = null;
+        });
         return;
       }
       json(response, 404, { error: "Not found" });

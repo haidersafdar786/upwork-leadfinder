@@ -103,6 +103,7 @@ function progressLine(event: ProgressEvent): string | null {
   if (event.kind === "client-completed") return `done: ${event.client.buyerId}`;
   if (event.kind === "client-failed") return `failed: ${event.buyerId}: ${event.message}`;
   if (event.kind === "run-completed") return `run: ${event.result.runId} (${event.result.clients.length} clients)`;
+  if (event.kind === "run-cancelled") return "run cancelled";
   return `run failed: ${event.message}`;
 }
 
@@ -156,7 +157,7 @@ async function main(): Promise<void> {
   const source = value(args, "run");
   const buyer = value(args, "buyer-id");
   if (!source || !buyer) throw new Error("client requires --run and --buyer-id");
-  const execution = await rerunClient(source, buyer, { root: value(args, "root"), useModel: !args.booleans.has("no-model") }, progress());
+  const execution = await rerunClient(source, buyer, { useModel: !args.booleans.has("no-model") }, progress());
   if (args.booleans.has("json")) process.stdout.write(JSON.stringify(execution.result, null, 2) + "\n");
   else printResult(execution.runDirectory, execution.result);
 }
