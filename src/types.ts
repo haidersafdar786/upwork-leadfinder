@@ -172,9 +172,17 @@ export interface WebPresence extends ContactDetails {
 export interface Client {
   buyerId: BuyerId;
   jobs: Job[];
+  history: ClientHistory;
   evidence: Evidence[];
   identity: Identity;
   webPresence: WebPresence;
+}
+
+export interface ClientHistory {
+  totalSpent: number | null;
+  totalHires: number | null;
+  totalReviews: number | null;
+  rating: number | null;
 }
 
 export interface RunResult {

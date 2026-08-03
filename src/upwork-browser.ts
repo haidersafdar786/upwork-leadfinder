@@ -454,8 +454,10 @@ async function cdpAvailable(cdpUrl: string): Promise<boolean> {
   }
 }
 
-export async function newBackgroundPage(browser: Browser, context: BrowserContext): Promise<Page> {
-  const markerUrl = `about:blank#upwho-${randomUUID()}`;
+export async function newBackgroundPage(browser: Browser, context: BrowserContext, initialUrl: HttpUrl): Promise<Page> {
+  const marker = new URL(initialUrl);
+  marker.hash = `upwho-${randomUUID()}`;
+  const markerUrl = marker.toString();
   const pagePromise = context.waitForEvent("page", {
     predicate: (page) => page.url() === markerUrl,
     timeout: BACKGROUND_TAB_READY_TIMEOUT_MS,
@@ -483,7 +485,7 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     await browser.close();
     throw new Error("The CDP browser has no usable browser context");
   }
-  const page = await newBackgroundPage(browser, context);
+  const page = await newBackgroundPage(browser, context, selection.url);
   let detailToken: string | null = null;
   const pendingHeaderReads = new Set<Promise<void>>();
   const captureRequest = (request: { url(): string; headers(): Record<string, string>; allHeaders(): Promise<Record<string, string>> }) => {

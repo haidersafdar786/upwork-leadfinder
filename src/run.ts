@@ -9,6 +9,7 @@ import {
   type AttachmentTextRecord,
 } from "./attachments.ts";
 import { emailsMatchingWebsite, mergeContactDetails } from "./contacts.ts";
+import { clientHistoryFromRecord } from "./client-history.ts";
 import { enrichClient, emptyWebPresence } from "./enrichment.ts";
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
@@ -409,7 +410,7 @@ async function processRecords(
       const item = entries[itemIndex];
       if (!item) return;
       const [buyer, clientRecords] = item;
-      const page = await newBackgroundPage(session.browser, session.page.context());
+      const page = await newBackgroundPage(session.browser, session.page.context(), session.selection.url);
       try {
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
         const aggregate = aggregateRecord(clientRecords, []);
@@ -436,7 +437,8 @@ async function processRecords(
 
         const jobs = clientRecords.map((record) => jobModel(record, past.items));
         const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
-        const client: Client = { buyerId: buyer, jobs, evidence, identity, webPresence: emptyWebPresence() };
+        const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
+        const client: Client = { buyerId: buyer, jobs, history, evidence, identity, webPresence: emptyWebPresence() };
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
         const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
         try {

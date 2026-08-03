@@ -54,11 +54,11 @@
 
       .icon {
         display: block;
-        width: 18px;
-        height: 18px;
+        width: 19px;
+        height: 19px;
         flex: 0 0 auto;
       }
-      .icon-sm { width: 15px; height: 15px; }
+      .icon-sm { width: 16px; height: 16px; }
 
       .app-shell { min-height: 100vh; }
       .command-bar {
@@ -146,7 +146,7 @@
         text-overflow: ellipsis;
         white-space: nowrap;
       }
-      .command-tools { display: flex; align-items: center; gap: 2px; margin-left: auto; }
+      .command-tools { display: flex; align-items: center; gap: 4px; margin-left: auto; }
       .icon-button, .link-icon, .sort-button, .evidence-toggle {
         position: relative;
         border: 0;
@@ -164,6 +164,7 @@
       }
       .icon-button:hover, .icon-button[aria-expanded="true"] { background: #eef1f2; color: var(--ink); }
       .icon-button:disabled { cursor: wait; opacity: .45; }
+      .command-tools .icon-button .icon { width: 20px; height: 20px; }
 
       :is(button, a, input, select, summary):focus-visible {
         outline: 3px solid var(--focus);
@@ -236,7 +237,7 @@
       .table-region { position: relative; }
       .table-wrap { width: 100%; height: calc(100vh - var(--bar-height)); overflow: auto; background: var(--surface); }
       .app-shell:has(#run-progress:not([hidden])) .table-wrap { height: calc(100vh - var(--bar-height) - 39px); }
-      table { width: 100%; min-width: 1220px; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
+      table { width: 100%; min-width: 1470px; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
       caption { caption-side: top; }
       th, td {
         border-right: 1px solid var(--line);
@@ -265,6 +266,7 @@
       .linkedin-column { width: 108px; }
       .social-column { width: 140px; }
       .contact-column { width: 220px; }
+      .history-column { width: 190px; }
       .confidence-column { width: 122px; }
       .evidence-column { width: auto; min-width: 260px; }
       .action-column { width: 62px; text-align: center; }
@@ -344,10 +346,35 @@
       .link-icon.instagram { color: #9b316f; }
       .link-icon.whatsapp { color: #128c4b; }
       .link-icon.x { color: #17191b; }
-      .contact-stack { display: grid; width: 100%; min-width: 0; gap: 6px; }
+      .contact-stack { display: grid; width: 100%; min-width: 0; gap: 5px; }
       .contact-link { width: 100%; min-width: 0; overflow: hidden; font-size: 12px; }
       .contact-link .link-label { min-width: 0; flex: 1; }
+      .contact-more summary {
+        width: max-content;
+        color: #24527a;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 650;
+        list-style: none;
+      }
+      .contact-more summary::-webkit-details-marker { display: none; }
+      .contact-more summary:hover { color: var(--accent-strong); text-decoration: underline; }
+      .contact-more[open] summary { margin-bottom: 6px; }
+      .contact-more-list { display: grid; gap: 5px; }
       .empty-cell { color: #68737c; }
+
+      .client-history { display: grid; min-width: 0; gap: 5px; }
+      .history-spend {
+        overflow: hidden;
+        font-size: 15px;
+        font-weight: 720;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .history-facts { display: flex; min-width: 0; align-items: center; color: var(--muted); font-size: 12px; white-space: nowrap; }
+      .history-fact { display: inline-flex; align-items: center; }
+      .history-fact + .history-fact::before { margin: 0 6px; color: var(--line-strong); content: "·"; }
+      .history-star { width: 13px; height: 13px; margin-right: 3px; color: var(--muted); }
 
       .confidence { display: grid; gap: 5px; }
       .confidence-dots { display: flex; gap: 4px; }
@@ -501,10 +528,10 @@
     <svg class="sr-only" aria-hidden="true">
       <defs>
         <symbol id="icon-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13l10-6.5z"/></symbol>
-        <symbol id="icon-history" viewBox="0 0 24 24"><path d="M4 7v5h5M5.2 17a8 8 0 1 0 .5-10.6L4 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8v4l2.7 1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
-        <symbol id="icon-settings" viewBox="0 0 24 24"><path d="M4 7h9m4 0h3M4 17h3m4 0h9M13 4v6M7 14v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="15" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
-        <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M6.1 8a7 7 0 0 1 11.8-1.2L20 9M4 15l2.1 2.2A7 7 0 0 0 18 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-        <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3.8 12h16.4M12 3.5c2.2 2.4 3.3 5.2 3.3 8.5S14.2 18.1 12 20.5M12 3.5C9.8 5.9 8.7 8.7 8.7 12s1.1 6.1 3.3 8.5" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+        <symbol id="icon-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8m0-5v5h5M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-settings" viewBox="0 0 24 24"><path d="M12.2 2h-.4a2 2 0 0 0-2 2v.2a2 2 0 0 1-1 1.7l-.4.3a2 2 0 0 1-2 0l-.2-.1a2 2 0 0 0-2.7.7l-.2.4a2 2 0 0 0 .7 2.7l.2.1a2 2 0 0 1 1 1.7v.5a2 2 0 0 1-1 1.8l-.2.1a2 2 0 0 0-.7 2.7l.2.4a2 2 0 0 0 2.7.7l.2-.1a2 2 0 0 1 2 0l.4.3a2 2 0 0 1 1 1.7v.2a2 2 0 0 0 2 2h.4a2 2 0 0 0 2-2v-.2a2 2 0 0 1 1-1.7l.4-.3a2 2 0 0 1 2 0l.2.1a2 2 0 0 0 2.7-.7l.2-.4a2 2 0 0 0-.7-2.7l-.2-.1a2 2 0 0 1-1-1.8v-.5a2 2 0 0 1 1-1.7l.2-.1a2 2 0 0 0 .7-2.7l-.2-.4a2 2 0 0 0-2.7-.7l-.2.1a2 2 0 0 1-2 0l-.4-.3a2 2 0 0 1-1-1.7V4a2 2 0 0 0-2-2Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+        <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16m0 5v-5h5M3 12A9 9 0 0 1 18.5 5.8L21 8m0-5v5h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3a14.8 14.8 0 0 1 4 9 14.8 14.8 0 0 1-4 9 14.8 14.8 0 0 1-4-9 14.8 14.8 0 0 1 4-9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
         <symbol id="icon-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2.5" fill="currentColor"/><circle cx="7.2" cy="8" r="1.3" fill="white"/><path d="M6 10.5h2.4V18H6zm4.2 0h2.3v1c.8-1.2 3.9-1.8 5.1.7.3.6.4 1.4.4 2.4V18h-2.4v-3.1c0-1.4-.4-2.3-1.5-2.3-1.2 0-1.5.9-1.5 2.3V18h-2.4z" fill="white"/></symbol>
         <symbol id="icon-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.6 21v-8h2.8l.4-3.1h-3.2v-2c0-.9.3-1.5 1.6-1.5H17V3.6c-.7-.1-1.5-.2-2.3-.2-2.3 0-3.9 1.4-3.9 4.1v2.3H8.2V13h2.6v8z"/></symbol>
         <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.8" r="1.1" fill="currentColor"/></symbol>
@@ -517,7 +544,8 @@
         <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
         <symbol id="icon-sort" viewBox="0 0 24 24"><path d="m7 14 5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
         <symbol id="icon-file" viewBox="0 0 24 24"><path d="M6 3.5h8l4 4V20H6zM14 3.5V8h4M9 12h6M9 15h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-        <symbol id="icon-rerun" viewBox="0 0 24 24"><path d="M19 8V4l-1.8 1.8A8 8 0 1 0 20 12M19 4h-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-rerun" viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16m0 5v-5h5M3 12A9 9 0 0 1 18.5 5.8L21 8m0-5v5h-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z" fill="currentColor"/></symbol>
       </defs>
     </svg>
 
@@ -580,6 +608,7 @@
                 <th class="linkedin-column" scope="col">LinkedIn</th>
                 <th class="social-column" scope="col">Socials</th>
                 <th class="contact-column" scope="col"><button class="sort-button" data-sort="contacts" type="button">Contact<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
+                <th class="history-column" scope="col" aria-sort="none"><button class="sort-button" data-sort="history" type="button">Client history<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
                 <th class="confidence-column" scope="col" aria-sort="none"><button class="sort-button" data-sort="confidence" type="button">Confidence<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
                 <th class="evidence-column" scope="col">Evidence</th>
                 <th class="action-column" scope="col"><span class="sr-only">Rerun</span></th>
@@ -624,6 +653,9 @@
 
     <script>
       const defaultCountries = "India, Israel, Pakistan, Bangladesh, Philippines, Ukraine";
+      const countFormatter = new Intl.NumberFormat("en-US");
+      const compactSpendFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", maximumFractionDigits: 1 });
+      const exactSpendFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 2 });
       let selectedRunId = "";
       let currentResult = null;
       let sortKey = "identity";
@@ -724,7 +756,36 @@
         const phoneLinks = values.phones.map((phone) => `<a class="contact-link" href="tel:${escapeAttribute(phone.replace(/[^+\d]/g, ""))}" target="_blank" rel="noreferrer" title="${escapeAttribute(phone)}">${icon("phone", "icon-sm")}<span class="link-label">${escapeHtml(phone)}</span></a>`);
         const whatsAppLinks = values.whatsApp.map((url) => `<a class="contact-link" href="${escapeAttribute(url)}" target="_blank" rel="noreferrer">${icon("whatsapp", "icon-sm")}<span class="link-label">WhatsApp</span></a>`);
         const links = [...emailLinks, ...phoneLinks, ...whatsAppLinks];
-        return links.length ? `<div class="contact-stack">${links.join("")}</div>` : `<span class="empty-cell">—</span>`;
+        if (!links.length) return `<span class="empty-cell">—</span>`;
+        const visible = links.slice(0, 2);
+        const hidden = links.slice(2);
+        const more = hidden.length ? `<details class="contact-more"><summary>+${hidden.length} more</summary><div class="contact-more-list">${hidden.join("")}</div></details>` : "";
+        return `<div class="contact-stack">${visible.join("")}${more}</div>`;
+      }
+
+      function formatCount(value) {
+        return countFormatter.format(value);
+      }
+
+      function formatSpend(value, compact = true) {
+        return (compact ? compactSpendFormatter : exactSpendFormatter).format(value);
+      }
+
+      function historyScore(client) {
+        return client.history?.totalSpent ?? -1;
+      }
+
+      function historyCell(client) {
+        const history = client.history;
+        if (!history) return `<span class="empty-cell">—</span>`;
+        const facts = [];
+        if (history.totalHires !== null) facts.push(`${formatCount(history.totalHires)} hire${history.totalHires === 1 ? "" : "s"}`);
+        if (history.totalReviews !== null) facts.push(`${formatCount(history.totalReviews)} review${history.totalReviews === 1 ? "" : "s"}`);
+        if (history.rating !== null && history.totalReviews !== 0) facts.push(`${icon("star", "history-star")}${history.rating.toFixed(2).replace(/\.00$/, "")}`);
+        if (history.totalSpent === null && !facts.length) return `<span class="empty-cell">—</span>`;
+        const spend = history.totalSpent === null ? "Spend unavailable" : `${formatSpend(history.totalSpent)} spent`;
+        const title = history.totalSpent === null ? spend : `${formatSpend(history.totalSpent, false)} spent`;
+        return `<div class="client-history"><span class="history-spend" title="${escapeAttribute(title)}">${escapeHtml(spend)}</span><span class="history-facts">${facts.map((fact) => `<span class="history-fact">${fact}</span>`).join("")}</span></div>`;
       }
 
       function confidenceCell(client) {
@@ -842,7 +903,7 @@
           if (sourceUrl) return `<a class="evidence-item evidence-item-link" href="${escapeAttribute(sourceUrl)}" target="_blank" rel="noreferrer" aria-label="Open source evidence on Upwork: ${escapeAttribute(label)}"><span class="evidence-source">${escapeHtml(label)}</span><p class="evidence-text">${escapeHtml(text)}</p>${icon("external", "icon-sm source-link-icon")}</a>`;
           return `<article class="evidence-item"><span class="evidence-source">${escapeHtml(label)}</span><p class="evidence-text">${escapeHtml(text)}</p></article>`;
         }).join("") : `<p class="evidence-text">No identity evidence found.</p>`;
-        return `<tr class="evidence-row"><td colspan="8"><div class="evidence-panel"><div class="evidence-panel-head"><h2>Evidence for ${escapeHtml(identityPrimary(client))}</h2><span class="evidence-count">${items.length} source${items.length === 1 ? "" : "s"}</span></div><div class="evidence-list">${body}</div></div></td></tr>`;
+        return `<tr class="evidence-row"><td colspan="9"><div class="evidence-panel"><div class="evidence-panel-head"><h2>Evidence for ${escapeHtml(identityPrimary(client))}</h2><span class="evidence-count">${items.length} source${items.length === 1 ? "" : "s"}</span></div><div class="evidence-list">${body}</div></div></td></tr>`;
       }
 
       function render(result) {
@@ -851,6 +912,7 @@
         clients.sort((left, right) => {
           if (sortKey === "confidence") return (confidenceScore(left) - confidenceScore(right)) * sortDirection;
           if (sortKey === "contacts") return (contactCount(left) - contactCount(right)) * sortDirection;
+          if (sortKey === "history") return (historyScore(left) - historyScore(right)) * sortDirection;
           return identityPrimary(left).localeCompare(identityPrimary(right)) * sortDirection;
         });
         $("result-title").textContent = result ? `${result.feed.kind} client contacts` : "No run selected";
@@ -864,6 +926,7 @@
             <td>${linkedInCell(client)}</td>
             <td>${socialCell(client)}</td>
             <td>${contactCell(client)}</td>
+            <td>${historyCell(client)}</td>
             <td>${confidenceCell(client)}</td>
             <td><button class="evidence-toggle" type="button" data-evidence="${buyer}" aria-expanded="${expanded}" aria-label="${expanded ? "Collapse" : "Expand"} evidence for ${escapeAttribute(identityPrimary(client))}"><span class="evidence-preview${evidence.startsWith("No supporting") ? " empty" : ""}">${escapeHtml(evidence)}</span><svg class="icon icon-sm chevron" aria-hidden="true"><use href="#icon-chevron"></use></svg></button></td>
             <td><div class="cell-actions"><button class="icon-button" type="button" data-rerun="${buyer}" aria-label="Rerun ${escapeAttribute(identityPrimary(client))}" data-tooltip="Rerun client">${icon("rerun")}</button></div></td>

@@ -17,6 +17,14 @@ query JobAuthDetailsQuery($id: ID!) {
         location {
           country
         }
+        stats {
+          totalAssignments
+          feedbackCount
+          score
+          totalCharges {
+            amount
+          }
+        }
         company {
           companyId
           profile {

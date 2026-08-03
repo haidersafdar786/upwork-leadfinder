@@ -2,10 +2,11 @@ import { createServer, type IncomingMessage, type Server, type ServerResponse } 
 import { randomUUID } from "node:crypto";
 import { readFile, readdir } from "node:fs/promises";
 import { basename, resolve, sep } from "node:path";
+import { clientHistoryFromContracts, clientHistoryFromRecord } from "./client-history.ts";
 import { rerunClient, runOnce, type RunExecution } from "./run.ts";
 import { readRunResult } from "./run-files.ts";
 import type { FeedKey } from "./upwork-browser.ts";
-import type { ProgressCallback, ProgressEvent, RunResult } from "./types.ts";
+import type { Client, ClientHistory, ProgressCallback, ProgressEvent, RunResult } from "./types.ts";
 
 export interface DashboardOptions {
   root?: string;
@@ -28,6 +29,8 @@ interface DashboardBody {
   runId?: unknown;
   buyerId?: unknown;
 }
+
+type StoredClient = Omit<Client, "history"> & { history?: ClientHistory };
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -92,6 +95,27 @@ async function listRuns(root: string): Promise<Array<{ id: string; feed: string;
   return runs;
 }
 
+async function storedClientHistory(runDirectory: string, client: StoredClient): Promise<ClientHistory> {
+  if (client.history) return client.history;
+  for (const job of client.jobs) {
+    try {
+      const raw: unknown = JSON.parse(await readFile(resolve(runDirectory, "data", `${job.feed.id}.json`), "utf8"));
+      return clientHistoryFromRecord(raw);
+    } catch (error) {
+      if (!isRecord(error) || error.code !== "ENOENT") throw error;
+    }
+  }
+  return clientHistoryFromContracts(client.jobs.flatMap((job) => job.details.workHistory));
+}
+
+async function withClientHistory(runDirectory: string, result: RunResult): Promise<RunResult> {
+  const clients = await Promise.all(result.clients.map(async (client) => ({
+    ...client,
+    history: await storedClientHistory(runDirectory, client),
+  })));
+  return { ...result, clients };
+}
+
 function sendEvent(response: ServerResponse, event: ProgressEvent): void {
   if (!response.writableEnded) response.write(`data: ${JSON.stringify(event)}\n\n`);
 }
@@ -134,7 +158,7 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
     const runDirectory = safeRunDirectory(root, id);
     const result = await readRunResult(runDirectory);
     if (!result) return json(response, 404, { error: "Run not found" });
-    return json(response, 200, result);
+    return json(response, 200, await withClientHistory(runDirectory, result));
   };
   return createServer(async (request, response) => {
     try {

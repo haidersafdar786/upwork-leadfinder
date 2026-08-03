@@ -11,7 +11,8 @@
     "dashboard": "npm run cli -- dashboard",
     "test:identity": "node --experimental-strip-types test/identity.mjs",
     "test:reviews": "node --experimental-strip-types test/reviews.mjs",
-    "test:enrichment": "node --experimental-strip-types test/enrichment.mjs"
+    "test:enrichment": "node --experimental-strip-types test/enrichment.mjs",
+    "test:dashboard": "node --experimental-strip-types test/dashboard.mjs"
   },
   "engines": {
     "node": ">=24"
