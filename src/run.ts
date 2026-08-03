@@ -8,6 +8,7 @@ import {
   type AttachmentFailureRecord,
   type AttachmentTextRecord,
 } from "./attachments.ts";
+import { emailsMatchingWebsite, mergeContactDetails } from "./contacts.ts";
 import { enrichClient, emptyWebPresence } from "./enrichment.ts";
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
@@ -289,7 +290,7 @@ function evidenceFor(
     jobId: null,
     freelancerId: freelancerId(recovery.freelancerId),
     title: recovery.reviewTitle,
-    text: [recovery.clientName, recovery.reviewText].filter(Boolean).join(" — "),
+    text: recovery.clientName,
   });
   return evidence;
 }
@@ -440,10 +441,21 @@ async function processRecords(
         const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
         try {
           const presence = (await enrichClient(client)).presence;
-          client.webPresence = { ...presence, verifiedSite: presence.verifiedSite || evidenceBackedWebsite };
+          const verifiedSite = presence.verifiedSite || evidenceBackedWebsite;
+          const contacts = mergeContactDetails(presence, {
+            emails: emailsMatchingWebsite(identified.signals.emails, verifiedSite),
+            phones: [],
+            whatsApp: identified.signals.whatsApp,
+          });
+          client.webPresence = { ...presence, ...contacts, verifiedSite };
         } catch (error) {
           past.failures.push(error instanceof Error ? error.message : String(error));
-          if (evidenceBackedWebsite) client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
+          const contacts = mergeContactDetails(client.webPresence, {
+            emails: emailsMatchingWebsite(identified.signals.emails, evidenceBackedWebsite),
+            phones: [],
+            whatsApp: identified.signals.whatsApp,
+          });
+          client.webPresence = { ...client.webPresence, ...contacts, verifiedSite: evidenceBackedWebsite };
         }
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
         clients.push(client);

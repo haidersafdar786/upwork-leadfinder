@@ -5,92 +5,623 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Upwho</title>
     <style>
-      :root { color-scheme: light; --ink:#17221f; --muted:#66716d; --line:#dce4df; --paper:#f6f8f5; --card:#fff; --accent:#087f63; --accent-dark:#05634e; --warn:#9b5710; }
-      * { box-sizing:border-box; }
-      body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.45 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-      main { max-width:1440px; margin:0 auto; padding:32px 24px 56px; }
-      header { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:24px; }
-      h1 { margin:0; letter-spacing:-.05em; font-size:38px; line-height:1; }
-      h2 { margin:0; font-size:18px; letter-spacing:-.02em; }
-      .eyebrow { margin:0 0 8px; color:var(--accent); font-size:12px; font-weight:750; letter-spacing:.12em; text-transform:uppercase; }
-      .subtle { color:var(--muted); }
-      .card { border:1px solid var(--line); border-radius:16px; background:var(--card); box-shadow:0 8px 24px #18382a0b; }
-      .controls { display:grid; grid-template-columns:1.1fr 1.4fr 2fr auto auto; align-items:end; gap:12px; padding:16px; }
-      label { display:grid; gap:6px; color:var(--muted); font-size:12px; font-weight:700; }
-      input, select, button { min-height:40px; border:1px solid #cbd7d1; border-radius:9px; background:#fff; color:var(--ink); font:inherit; }
-      input, select { width:100%; padding:0 11px; }
-      input:focus, select:focus, button:focus-visible { outline:3px solid #65c9a544; outline-offset:1px; border-color:var(--accent); }
-      button { padding:0 15px; cursor:pointer; font-weight:750; }
-      button.primary { border-color:var(--accent); background:var(--accent); color:white; }
-      button.primary:hover { background:var(--accent-dark); }
-      button:active { transform:translateY(1px); }
-      button:disabled { cursor:wait; opacity:.55; }
-      .check { display:flex; align-items:center; gap:8px; min-height:40px; white-space:nowrap; }
-      .check input { width:16px; min-height:16px; }
-      .toolbar { margin:12px 0 24px; }
-      .history { display:flex; align-items:center; gap:12px; padding:12px 16px; }
-      .history label { min-width:280px; flex:1; }
-      .status { display:flex; align-items:center; gap:10px; min-height:44px; margin:16px 0; }
-      .dot { width:9px; height:9px; border-radius:50%; background:#aab6b0; }
-      .dot.live { background:var(--accent); box-shadow:0 0 0 5px #087f6320; }
-      .dot.error { background:#bd4d42; }
-      .progress { max-height:180px; overflow:auto; margin:0 0 24px; padding:12px 16px; color:var(--muted); font:12px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace; white-space:pre-wrap; }
-      .progress:empty { display:none; }
-      .results { overflow:hidden; }
-      .results-head { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 18px 14px; }
-      .count { color:var(--muted); font-size:13px; }
-      .table-wrap { overflow:auto; }
-      table { width:100%; border-collapse:collapse; min-width:980px; }
-      th, td { padding:13px 16px; border-top:1px solid var(--line); text-align:left; vertical-align:top; }
-      th { color:var(--muted); font-size:11px; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap; }
-      th button { min-height:0; padding:0; border:0; color:inherit; background:none; font-size:inherit; letter-spacing:inherit; text-transform:inherit; }
-      th button:hover { color:var(--accent); }
-      td strong { display:block; margin-bottom:2px; }
-      td small { color:var(--muted); }
-      .confidence { display:inline-flex; border-radius:999px; padding:3px 8px; background:#e9f3ee; color:var(--accent-dark); font-size:12px; font-weight:750; text-transform:capitalize; }
-      .confidence.unknown { background:#eef0ed; color:var(--muted); }
-      .links { display:flex; flex-wrap:wrap; gap:5px 10px; max-width:250px; }
-      a { color:var(--accent-dark); text-decoration:none; }
-      a:hover { text-decoration:underline; }
-      .quote { display:block; max-width:360px; color:#35443e; font-size:13px; }
-      .quote::before { content:"“"; color:var(--accent); font-size:22px; vertical-align:-3px; margin-right:2px; }
-      .empty { padding:44px 18px; color:var(--muted); text-align:center; }
-      @media (max-width:900px) { main { padding:24px 14px 40px; } header { display:block; } .controls { grid-template-columns:1fr 1fr; } .controls label:nth-child(2) { grid-column:span 2; } .controls .primary { grid-column:span 2; } .history { display:block; } .history label { display:grid; margin-bottom:10px; } }
-      @media (prefers-reduced-motion:reduce) { * { scroll-behavior:auto !important; transition:none !important; } }
+      :root {
+        color-scheme: light;
+        --ink: #20252b;
+        --muted: #626b74;
+        --faint: #66717a;
+        --line: #e2e6e9;
+        --line-strong: #cfd5da;
+        --canvas: #f7f8f8;
+        --surface: #ffffff;
+        --surface-selected: #f5f9f7;
+        --accent: #168755;
+        --accent-strong: #0d6f43;
+        --danger: #b33c32;
+        --focus: #1769aa;
+        --bar-height: 58px;
+        --person-width: 250px;
+      }
+
+      * { box-sizing: border-box; }
+      html { background: var(--canvas); }
+      body {
+        margin: 0;
+        min-width: 320px;
+        overflow-x: clip;
+        background: var(--canvas);
+        color: var(--ink);
+        font: 15px/1.45 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      button, input, select { font: inherit; }
+      button, select, input, a { -webkit-tap-highlight-color: transparent; }
+      button { color: inherit; }
+      a { color: inherit; }
+      [hidden] { display: none !important; }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .icon {
+        display: block;
+        width: 18px;
+        height: 18px;
+        flex: 0 0 auto;
+      }
+      .icon-sm { width: 15px; height: 15px; }
+
+      .app-shell { min-height: 100vh; }
+      .command-bar {
+        position: sticky;
+        z-index: 30;
+        top: 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-height: var(--bar-height);
+        padding: 8px 14px;
+        border-bottom: 1px solid var(--line-strong);
+        background: var(--surface);
+      }
+      .wordmark {
+        margin: 0 10px 0 2px;
+        font-size: 20px;
+        font-weight: 760;
+        letter-spacing: -.025em;
+      }
+      .field-inline { position: relative; display: flex; align-items: center; }
+      .select-control, .query-control {
+        height: 40px;
+        border: 1px solid var(--line-strong);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--ink);
+      }
+      .select-control {
+        min-width: 154px;
+        padding: 0 34px 0 12px;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23626b74' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m7 10 5 5 5-5'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+      }
+      .query-control { width: min(280px, 22vw); padding: 0 11px; }
+      .query-control::placeholder { color: var(--faint); }
+      .primary-action {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-width: 92px;
+        height: 40px;
+        padding: 0 16px;
+        border: 0;
+        border-radius: 8px;
+        background: var(--accent);
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+      }
+      .primary-action:hover { background: var(--accent-strong); }
+      .primary-action:disabled { cursor: wait; background: #7aaa91; }
+      .status-cluster {
+        display: flex;
+        min-width: 0;
+        align-items: center;
+        gap: 9px;
+        margin-left: 4px;
+        color: var(--muted);
+      }
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        flex: 0 0 auto;
+        border-radius: 50%;
+        background: var(--line-strong);
+      }
+      .status-dot.live { background: var(--accent); }
+      .status-dot.error { background: var(--danger); }
+      #status {
+        max-width: 34vw;
+        overflow: hidden;
+        color: var(--ink);
+        font-weight: 650;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .status-separator { width: 1px; height: 16px; background: var(--line); }
+      #run-meta {
+        max-width: 260px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .command-tools { display: flex; align-items: center; gap: 2px; margin-left: auto; }
+      .icon-button, .link-icon, .sort-button, .evidence-toggle {
+        position: relative;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+      }
+      .icon-button {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        color: #44505b;
+      }
+      .icon-button:hover, .icon-button[aria-expanded="true"] { background: #eef1f2; color: var(--ink); }
+      .icon-button:disabled { cursor: wait; opacity: .45; }
+
+      :is(button, a, input, select, summary):focus-visible {
+        outline: 3px solid var(--focus);
+        outline-offset: 2px;
+      }
+      [data-tooltip]::after {
+        position: absolute;
+        z-index: 80;
+        top: calc(100% + 7px);
+        left: 50%;
+        width: max-content;
+        max-width: 210px;
+        padding: 5px 7px;
+        border-radius: 5px;
+        background: #20252b;
+        color: white;
+        content: attr(data-tooltip);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.2;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(-50%);
+      }
+      [data-tooltip]:is(:hover, :focus-visible)::after { opacity: 1; }
+      .command-tools [data-tooltip]::after { right: 0; left: auto; transform: none; }
+      .cell-actions [data-tooltip]::after, .contact-link[data-tooltip]::after { top: auto; bottom: calc(100% + 6px); }
+
+      .run-progress {
+        display: grid;
+        grid-template-columns: minmax(160px, 320px) auto;
+        align-items: center;
+        gap: 12px;
+        min-height: 39px;
+        padding: 6px 16px;
+        border-bottom: 1px solid var(--line);
+        background: #fbfcfb;
+      }
+      progress {
+        width: 100%;
+        height: 4px;
+        border: 0;
+        border-radius: 0;
+        background: var(--line);
+        color: var(--accent);
+      }
+      progress::-webkit-progress-bar { background: var(--line); }
+      progress::-webkit-progress-value { background: var(--accent); }
+      progress::-moz-progress-bar { background: var(--accent); }
+      .progress-details { justify-self: end; color: var(--muted); font-size: 12px; }
+      .progress-details summary { cursor: pointer; font-weight: 650; }
+      .progress-log {
+        position: absolute;
+        z-index: 25;
+        right: 14px;
+        width: min(620px, calc(100vw - 28px));
+        max-height: 260px;
+        margin: 9px 0 0;
+        overflow: auto;
+        padding: 12px 14px;
+        border: 1px solid var(--line-strong);
+        border-radius: 8px;
+        background: var(--surface);
+        color: #4d5862;
+        font: 12px/1.65 ui-monospace, SFMono-Regular, Menlo, monospace;
+        white-space: pre-wrap;
+      }
+      .failure-recovery { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+
+      .table-region { position: relative; }
+      .table-wrap { width: 100%; height: calc(100vh - var(--bar-height)); overflow: auto; background: var(--surface); }
+      .app-shell:has(#run-progress:not([hidden])) .table-wrap { height: calc(100vh - var(--bar-height) - 39px); }
+      table { width: 100%; min-width: 1220px; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
+      caption { caption-side: top; }
+      th, td {
+        border-right: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: middle;
+      }
+      th:last-child, td:last-child { border-right: 0; }
+      thead th {
+        position: sticky;
+        z-index: 15;
+        top: 0;
+        height: 44px;
+        padding: 0 13px;
+        background: #fafbfb;
+        color: #4e5963;
+        font-size: 12px;
+        font-weight: 700;
+      }
+      tbody > tr:not(.evidence-row) > td { height: 76px; padding: 11px 13px; background: var(--surface); }
+      .client-row, .evidence-toggle, .cell-actions .icon-button { scroll-margin-top: calc(var(--bar-height) + 52px); }
+      tbody > tr.client-row:hover > td { background: #fafcfb; }
+      tbody > tr.client-row.expanded > td { background: var(--surface-selected); border-bottom-color: #cddbd3; }
+      .person-column { width: var(--person-width); }
+      .website-column { width: 150px; }
+      .linkedin-column { width: 108px; }
+      .social-column { width: 140px; }
+      .contact-column { width: 220px; }
+      .confidence-column { width: 122px; }
+      .evidence-column { width: auto; min-width: 260px; }
+      .action-column { width: 62px; text-align: center; }
+      thead .person-column, tbody .person-cell {
+        position: sticky;
+        left: 0;
+        border-right-color: var(--line-strong);
+      }
+      thead .person-column { z-index: 17; background: #fafbfb; }
+      tbody .person-cell { z-index: 13; background: var(--surface); }
+      tbody > tr.client-row:hover > .person-cell { background: #fafcfb; }
+      tbody > tr.client-row.expanded > .person-cell { background: var(--surface-selected); }
+      .sort-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 0;
+        color: inherit;
+        font-weight: inherit;
+      }
+      .sort-button:hover { color: var(--ink); }
+      .sort-button .sort-icon { color: #a1a8ae; }
+      .sort-button.active .sort-icon { color: var(--accent-strong); }
+      .sort-button.desc .sort-icon { transform: rotate(180deg); }
+
+      .person-primary {
+        display: block;
+        overflow: hidden;
+        font-size: 15px;
+        font-weight: 720;
+        line-height: 1.3;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .person-secondary {
+        display: block;
+        max-width: 100%;
+        overflow: hidden;
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 12px;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      a.person-secondary { color: #24527a; }
+      a.person-secondary:hover { color: var(--accent-strong); text-decoration: underline; }
+      .link-with-label, .contact-link {
+        position: relative;
+        display: inline-flex;
+        max-width: 100%;
+        align-items: center;
+        gap: 7px;
+        color: #24527a;
+        text-decoration: none;
+      }
+      .link-with-label:hover, .contact-link:hover { color: var(--accent-strong); text-decoration: underline; }
+      .link-label {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .contact-icons { display: flex; flex-wrap: wrap; gap: 5px; }
+      .link-icon {
+        display: inline-flex;
+        width: 32px;
+        height: 32px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        color: #45515c;
+        text-decoration: none;
+      }
+      .link-icon:hover { background: #eef2f3; color: #1769aa; }
+      .link-icon.linkedin { color: #0a66c2; }
+      .link-icon.facebook { color: #1877f2; }
+      .link-icon.instagram { color: #9b316f; }
+      .link-icon.whatsapp { color: #128c4b; }
+      .link-icon.x { color: #17191b; }
+      .contact-stack { display: grid; width: 100%; min-width: 0; gap: 6px; }
+      .contact-link { width: 100%; min-width: 0; overflow: hidden; font-size: 12px; }
+      .contact-link .link-label { min-width: 0; flex: 1; }
+      .empty-cell { color: #68737c; }
+
+      .confidence { display: grid; gap: 5px; }
+      .confidence-dots { display: flex; gap: 4px; }
+      .confidence-dot { width: 6px; height: 6px; border-radius: 50%; background: #d8dde0; }
+      .confidence-dot.active { background: var(--accent); }
+      .confidence-label { color: var(--muted); font-size: 12px; text-transform: capitalize; }
+
+      .evidence-toggle {
+        display: grid;
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr) 20px;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+        text-align: left;
+      }
+      .evidence-preview {
+        display: -webkit-box;
+        overflow: hidden;
+        color: #46515a;
+        font-size: 12px;
+        line-height: 1.45;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .evidence-preview.empty { color: var(--faint); }
+      .evidence-toggle:hover .evidence-preview { color: var(--ink); }
+      .evidence-toggle .chevron { color: #7a838b; }
+      .evidence-toggle[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+      .evidence-row td { padding: 0; background: var(--surface-selected); border-bottom-color: #cddbd3; }
+      .evidence-panel { position: sticky; left: 0; width: calc(100vw - 12px); max-width: 100%; padding: 18px 22px 22px; }
+      .evidence-panel-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 13px;
+      }
+      .evidence-panel h2 { margin: 0; font-size: 15px; letter-spacing: -.01em; }
+      .evidence-count { color: var(--muted); font-size: 12px; }
+      .evidence-list {
+        display: grid;
+        max-height: 430px;
+        margin: 0;
+        overflow: auto;
+        border-top: 1px solid #d8e0db;
+      }
+      .evidence-item {
+        display: grid;
+        grid-template-columns: 150px minmax(0, 1fr);
+        gap: 16px;
+        padding: 12px 0;
+        border-bottom: 1px solid #dfe5e1;
+      }
+      .evidence-item-link {
+        grid-template-columns: 150px minmax(0, 1fr) 18px;
+        color: inherit;
+        text-decoration: none;
+      }
+      .evidence-item-link:hover .evidence-text { color: #24527a; text-decoration: underline; }
+      .evidence-item-link .source-link-icon { align-self: start; color: #6f7a83; }
+      .evidence-source { color: #536159; font-size: 12px; font-weight: 700; }
+      .evidence-text { margin: 0; color: #36413b; font-size: 12px; white-space: pre-wrap; }
+      .cell-actions { display: flex; justify-content: center; }
+
+      .empty-state {
+        display: grid;
+        min-height: calc(100vh - var(--bar-height) - 45px);
+        place-items: center;
+        border-bottom: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--muted);
+        text-align: center;
+      }
+      .empty-state-inner { display: grid; justify-items: center; gap: 13px; }
+      .empty-state .icon { width: 26px; height: 26px; color: #7c8780; }
+      .empty-state p { margin: 0; }
+
+      [popover] {
+        inset: var(--bar-height) 12px auto auto;
+        width: min(390px, calc(100vw - 24px));
+        max-height: calc(100vh - var(--bar-height) - 12px);
+        margin: 0;
+        overflow: auto;
+        border: 1px solid var(--line-strong);
+        border-radius: 12px;
+        background: var(--surface);
+        color: var(--ink);
+      }
+      [popover]::backdrop { background: transparent; }
+      .popover-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 15px 16px 10px;
+      }
+      .popover-head h2 { margin: 0; font-size: 15px; letter-spacing: -.015em; }
+      .popover-body { padding: 7px 16px 17px; }
+      .settings-grid { display: grid; gap: 17px; }
+      .field { display: grid; gap: 6px; }
+      .field > span { color: #4f5962; font-size: 12px; font-weight: 700; }
+      .text-control {
+        width: 100%;
+        min-height: 40px;
+        padding: 8px 10px;
+        border: 1px solid var(--line-strong);
+        border-radius: 7px;
+        background: var(--surface);
+        color: var(--ink);
+      }
+      .check-control { display: flex; align-items: flex-start; gap: 9px; color: #414a52; cursor: pointer; }
+      .check-control input { width: 16px; height: 16px; margin-top: 2px; accent-color: var(--accent); }
+      .check-control small { display: block; margin-top: 2px; color: var(--muted); }
+      .history-list { display: grid; margin: 0; padding: 0; list-style: none; }
+      .history-item {
+        display: grid;
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 12px;
+        padding: 12px 16px;
+        border: 0;
+        border-top: 1px solid var(--line);
+        background: transparent;
+        text-align: left;
+        cursor: pointer;
+      }
+      .history-item:hover { background: #f6f8f7; }
+      .history-title { overflow: hidden; font-weight: 680; text-overflow: ellipsis; white-space: nowrap; }
+      .history-meta { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
+      .history-count { align-self: center; color: var(--muted); font-size: 12px; }
+      .history-empty { padding: 26px 16px; color: var(--muted); text-align: center; }
+
+      @media (max-width: 760px) {
+        :root { --bar-height: 104px; --person-width: 210px; }
+        .command-bar { flex-wrap: wrap; align-content: center; gap: 7px; padding: 8px 10px; }
+        .wordmark { margin-right: 4px; }
+        .select-control { min-width: 135px; }
+        .query-control { width: 170px; }
+        .status-cluster { order: 5; width: calc(100% - 90px); margin: 0; }
+        #status { max-width: 48vw; }
+        #run-meta { max-width: 32vw; }
+        .command-tools { order: 6; }
+        .run-progress { grid-template-columns: 1fr auto; }
+        .evidence-item { grid-template-columns: 105px minmax(0, 1fr); }
+        .evidence-item-link { grid-template-columns: 105px minmax(0, 1fr) 18px; }
+      }
     </style>
   </head>
   <body>
-    <main>
-      <header>
-        <div><p class="eyebrow">Upwork client identity</p><h1>Upwho</h1></div>
-        <p class="subtle">One buyer, one answer, with the evidence that earned it.</p>
-      </header>
+    <svg class="sr-only" aria-hidden="true">
+      <defs>
+        <symbol id="icon-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13l10-6.5z"/></symbol>
+        <symbol id="icon-history" viewBox="0 0 24 24"><path d="M4 7v5h5M5.2 17a8 8 0 1 0 .5-10.6L4 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 8v4l2.7 1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+        <symbol id="icon-settings" viewBox="0 0 24 24"><path d="M4 7h9m4 0h3M4 17h3m4 0h9M13 4v6M7 14v6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="15" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+        <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5M6.1 8a7 7 0 0 1 11.8-1.2L20 9M4 15l2.1 2.2A7 7 0 0 0 18 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3.8 12h16.4M12 3.5c2.2 2.4 3.3 5.2 3.3 8.5S14.2 18.1 12 20.5M12 3.5C9.8 5.9 8.7 8.7 8.7 12s1.1 6.1 3.3 8.5" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2.5" fill="currentColor"/><circle cx="7.2" cy="8" r="1.3" fill="white"/><path d="M6 10.5h2.4V18H6zm4.2 0h2.3v1c.8-1.2 3.9-1.8 5.1.7.3.6.4 1.4.4 2.4V18h-2.4v-3.1c0-1.4-.4-2.3-1.5-2.3-1.2 0-1.5.9-1.5 2.3V18h-2.4z" fill="white"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.6 21v-8h2.8l.4-3.1h-3.2v-2c0-.9.3-1.5 1.6-1.5H17V3.6c-.7-.1-1.5-.2-2.3-.2-2.3 0-3.9 1.4-3.9 4.1v2.3H8.2V13h2.6v8z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+        <symbol id="icon-x" viewBox="0 0 24 24"><path d="m5 4 14 16M19 4 5 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+        <symbol id="icon-tiktok" viewBox="0 0 24 24"><path d="M14 4v10.2a4.2 4.2 0 1 1-3.1-4.1M14 4c.8 2.3 2.3 3.7 4.5 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M19.6 11.7a7.6 7.6 0 0 1-11.2 6.7L4 19.7l1.3-4.2a7.6 7.6 0 1 1 14.3-3.8Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8.1c.3-.5.6-.5.9-.1l1 1.8c.2.3.1.6-.2.9l-.5.5c.7 1.3 1.7 2.3 3 2.9l.5-.6c.3-.3.6-.3.9-.1l1.8.9c.4.2.4.6.2.9-.5.9-1.3 1.4-2.3 1.3-3.9-.5-6.9-3.5-7.3-7.3-.1-.5.2-.9.6-1.1" fill="currentColor"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m4.5 7 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M7.2 3.8 10 7.6 8.3 9.4c1.2 2.7 3.3 4.8 6 6l1.8-1.7 3.9 2.8c.5.4.6 1.1.3 1.6-.9 1.5-2.5 2.3-4.2 1.8A17.3 17.3 0 0 1 4.1 8c-.5-1.6.2-3.3 1.7-4.2.5-.3 1.1-.3 1.4 0Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-external" viewBox="0 0 24 24"><path d="M14 5h5v5M19 5l-8 8M18 13v5a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-sort" viewBox="0 0 24 24"><path d="m7 14 5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-file" viewBox="0 0 24 24"><path d="M6 3.5h8l4 4V20H6zM14 3.5V8h4M9 12h6M9 15h6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="icon-rerun" viewBox="0 0 24 24"><path d="M19 8V4l-1.8 1.8A8 8 0 1 0 20 12M19 4h-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      </defs>
+    </svg>
 
-      <section class="card controls" aria-label="Run controls">
-        <label>Feed<select id="feed"><option value="best-matches">Best Matches</option><option value="most-recent">Most Recent</option><option value="my-feed">My Feed</option><option value="saved">Saved</option><option value="search">Search</option></select></label>
-        <label id="query-wrap" hidden>Search query<input id="query" placeholder="e.g. Shopify app"></label>
-        <label>Skip countries<input id="countries" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine" aria-label="Countries to skip"></label>
-        <label class="check"><input id="force" type="checkbox"> Process again</label>
-        <button id="start" class="primary">Start run</button>
-      </section>
-
-      <section class="card history">
-        <label>Past run<select id="runs"><option value="">Choose a saved run</option></select></label>
-        <button id="refresh">Refresh</button>
-        <span id="run-meta" class="subtle"></span>
-      </section>
-
-      <div class="status"><span id="dot" class="dot"></span><strong id="status">Ready</strong></div>
-      <pre id="progress" class="card progress" aria-live="polite"></pre>
-
-      <section class="card results">
-        <div class="results-head"><div><p class="eyebrow">Results</p><h2 id="result-title">No run selected</h2></div><span id="count" class="count"></span></div>
-        <div class="table-wrap">
-          <table><thead><tr><th><button data-sort="identity">Identity</button></th><th><button data-sort="confidence">Confidence</button></th><th><button data-sort="jobs">Jobs</button></th><th>Web presence</th><th>Evidence</th><th>Action</th></tr></thead><tbody id="results-body"></tbody></table>
+    <main class="app-shell">
+      <h1 class="sr-only">Upwho client results</h1>
+      <section class="command-bar" aria-label="Run controls">
+        <p class="wordmark" aria-hidden="true">Upwho</p>
+        <label class="field-inline">
+          <span class="sr-only">Feed</span>
+          <select id="feed" class="select-control">
+            <option value="best-matches">Best Matches</option>
+            <option value="most-recent">Most Recent</option>
+            <option value="my-feed">My Feed</option>
+            <option value="saved">Saved</option>
+            <option value="search">Search</option>
+          </select>
+        </label>
+        <label id="query-wrap" class="field-inline" hidden>
+          <span class="sr-only">Search query</span>
+          <input id="query" class="query-control" placeholder="Search Upwork jobs" autocomplete="off">
+        </label>
+        <button id="start" class="primary-action" type="button">
+          <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-play"></use></svg>
+          <span>Run</span>
+        </button>
+        <div class="status-cluster" role="status" aria-live="polite">
+          <span id="dot" class="status-dot"></span>
+          <span id="status">Ready</span>
+          <span class="status-separator" aria-hidden="true"></span>
+          <span id="run-meta">No run selected</span>
         </div>
-        <div id="empty" class="empty">Run a feed to see one row per buyer.</div>
+        <div class="command-tools">
+          <button id="history-button" class="icon-button" type="button" popovertarget="history-panel" aria-label="Run history" data-tooltip="Run history">
+            <svg class="icon" aria-hidden="true"><use href="#icon-history"></use></svg>
+          </button>
+          <button id="settings-button" class="icon-button" type="button" popovertarget="settings-panel" aria-label="Run settings" data-tooltip="Run settings">
+            <svg class="icon" aria-hidden="true"><use href="#icon-settings"></use></svg>
+          </button>
+        </div>
+      </section>
+
+      <div id="run-progress" class="run-progress" hidden>
+        <progress id="progress-bar" max="1" value="0"><span id="progress-fallback">0%</span></progress>
+        <details class="progress-details">
+          <summary id="progress-summary">Run details</summary>
+          <p id="failure-recovery" class="failure-recovery" hidden>Use Run to try again. Enable “Process jobs seen in past runs” if the failed jobs are skipped.</p>
+          <pre id="progress" class="progress-log"></pre>
+        </details>
+      </div>
+
+      <section class="table-region" aria-labelledby="result-title">
+        <h2 id="result-title" class="sr-only">No run selected</h2>
+        <div id="table-wrap" class="table-wrap" hidden>
+          <table>
+            <caption class="sr-only">Identified Upwork clients and their public contact information</caption>
+            <thead>
+              <tr>
+                <th class="person-column" scope="col" aria-sort="ascending"><button class="sort-button active" data-sort="identity" type="button">Person<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
+                <th class="website-column" scope="col">Website</th>
+                <th class="linkedin-column" scope="col">LinkedIn</th>
+                <th class="social-column" scope="col">Socials</th>
+                <th class="contact-column" scope="col"><button class="sort-button" data-sort="contacts" type="button">Contact<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
+                <th class="confidence-column" scope="col" aria-sort="none"><button class="sort-button" data-sort="confidence" type="button">Confidence<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
+                <th class="evidence-column" scope="col">Evidence</th>
+                <th class="action-column" scope="col"><span class="sr-only">Rerun</span></th>
+              </tr>
+            </thead>
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+        <div id="empty" class="empty-state">
+          <div class="empty-state-inner">
+            <svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg>
+            <p id="empty-message">Run Best Matches to find client contact details.</p>
+          </div>
+        </div>
       </section>
     </main>
+
+    <section id="history-panel" popover aria-labelledby="history-title">
+      <div class="popover-head">
+        <h2 id="history-title">Run history</h2>
+        <button id="refresh" class="icon-button" type="button" aria-label="Refresh run history" data-tooltip="Refresh">
+          <svg class="icon" aria-hidden="true"><use href="#icon-refresh"></use></svg>
+        </button>
+      </div>
+      <ul id="runs-list" class="history-list"><li class="history-empty">Loading runs…</li></ul>
+    </section>
+
+    <section id="settings-panel" popover aria-labelledby="settings-title">
+      <div class="popover-head"><h2 id="settings-title">Run settings</h2></div>
+      <div class="popover-body settings-grid">
+        <label class="field">
+          <span>Skip countries</span>
+          <input id="countries" class="text-control" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine" aria-describedby="countries-help">
+          <small id="countries-help">Comma-separated. Leave blank to include every country.</small>
+        </label>
+        <label class="check-control">
+          <input id="force" type="checkbox">
+          <span>Process jobs seen in past runs<small>Use this when you want a completely fresh result.</small></span>
+        </label>
+      </div>
+    </section>
+
     <script>
       const defaultCountries = "India, Israel, Pakistan, Bangladesh, Philippines, Ukraine";
       let selectedRunId = "";
@@ -98,94 +629,487 @@
       let sortKey = "identity";
       let sortDirection = 1;
       let source = null;
+      let runFeed = null;
+      let activeRun = false;
+      let runHadFailures = false;
+      let runFailures = [];
+      const expandedBuyers = new Set();
       const $ = (id) => document.getElementById(id);
       const escapeHtml = (value) => String(value ?? "").replace(/[&<>\"']/g, (character) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[character]));
-      const identityLabel = (client) => {
+      const escapeAttribute = escapeHtml;
+      const icon = (name, className = "") => `<svg class="icon ${className}" aria-hidden="true"><use href="#icon-${name}"></use></svg>`;
+
+      function identityPrimary(client) {
         if (client.identity.kind === "unknown") return "Unknown client";
-        return [client.identity.name, client.identity.company || client.identity.product].filter(Boolean).join(" / ") || "Identified client";
-      };
-      const confidence = (client) => client.identity.confidence || "unknown";
-      const link = (label, url) => url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>` : "";
-      const setStatus = (text, kind = "") => { $("status").textContent = text; $("dot").className = `dot ${kind}`; };
-      const log = (line) => { const node = $("progress"); node.textContent += (node.textContent ? "\n" : "") + line; node.scrollTop = node.scrollHeight; };
-      const lineForEvent = (event) => {
-        if (event.kind === "feed-loaded") return `Feed loaded: ${event.feed.kind} · ${event.jobCount} jobs`;
-        if (event.kind === "job-skipped") return `Skipped ${event.jobId} · ${event.reason}`;
-        if (event.kind === "client-progress") return `${event.buyerId} · ${event.phase} · ${event.completedClients}/${event.totalClients}`;
-        if (event.kind === "client-completed") return `Completed ${event.client.buyerId}`;
-        if (event.kind === "client-failed") return `Failed ${event.buyerId} · ${event.message}`;
-        if (event.kind === "run-completed") return `Run complete · ${event.result.clients.length} clients`;
-        return `Run failed · ${event.message}`;
-      };
+        return client.identity.name || client.identity.people?.[0] || client.identity.company || client.identity.product || "Identified client";
+      }
+
+      function jobTitleLink(client) {
+        const job = client.jobs?.[0]?.feed;
+        if (!job?.title) return `<span class="person-secondary" title="${escapeAttribute(client.buyerId)}">${escapeHtml(client.buyerId)}</span>`;
+        if (!job.url) return `<span class="person-secondary" title="${escapeAttribute(job.title)}">${escapeHtml(job.title)}</span>`;
+        return `<a class="person-secondary" href="${escapeAttribute(job.url)}" target="_blank" rel="noreferrer" title="${escapeAttribute(job.title)}" aria-label="Open job: ${escapeAttribute(job.title)}">${escapeHtml(job.title)}</a>`;
+      }
+
+      function confidence(client) {
+        return client.identity.confidence || "unknown";
+      }
+
+      function confidenceScore(client) {
+        return ({ unknown: 0, low: 1, medium: 2, high: 4 })[confidence(client)] || 0;
+      }
+
+      function hostLabel(url) {
+        try { return new URL(url).hostname.replace(/^www\./, ""); }
+        catch { return url; }
+      }
+
+      function socialKind(url) {
+        const host = hostLabel(url).toLowerCase();
+        if (host.includes("facebook.com") || host === "fb.com") return { name: "facebook", label: "Facebook" };
+        if (host.includes("instagram.com")) return { name: "instagram", label: "Instagram" };
+        if (host.includes("tiktok.com")) return { name: "tiktok", label: "TikTok" };
+        if (host.includes("twitter.com") || host === "x.com") return { name: "x", label: "X" };
+        if (host.includes("wa.me") || host.includes("whatsapp.com")) return { name: "whatsapp", label: "WhatsApp" };
+        return { name: "external", label: hostLabel(url) };
+      }
+
+      function externalIconLink({ url, iconName, label, className = "" }) {
+        if (!url) return "";
+        return `<a class="link-icon ${escapeAttribute(className)}" href="${escapeAttribute(url)}" target="_blank" rel="noreferrer" aria-label="${escapeAttribute(label)}" data-tooltip="${escapeAttribute(label)}">${icon(iconName)}</a>`;
+      }
+
+      function websiteCell(client) {
+        const url = client.webPresence?.verifiedSite || (client.identity.kind === "identified" ? client.identity.website : null);
+        if (!url) return `<span class="empty-cell">—</span>`;
+        return `<a class="link-with-label" href="${escapeAttribute(url)}" target="_blank" rel="noreferrer" aria-label="Open ${escapeAttribute(hostLabel(url))}">${icon("globe")}<span class="link-label">${escapeHtml(hostLabel(url))}</span></a>`;
+      }
+
+      function linkedInCell(client) {
+        const links = [
+          externalIconLink({ url: client.webPresence?.personLinkedIn, iconName: "linkedin", label: "Open person LinkedIn", className: "linkedin" }),
+          externalIconLink({ url: client.webPresence?.companyLinkedIn, iconName: "linkedin", label: "Open company LinkedIn", className: "linkedin" }),
+        ].filter(Boolean);
+        return links.length ? `<div class="contact-icons">${links.join("")}</div>` : `<span class="empty-cell">—</span>`;
+      }
+
+      function socialCell(client) {
+        const whatsApp = new Set(client.webPresence?.whatsApp || []);
+        const urls = [...new Set(client.webPresence?.socials || [])].filter((url) => !whatsApp.has(url));
+        const links = urls.map((url) => {
+          const kind = socialKind(url);
+          return externalIconLink({ url, iconName: kind.name, label: `Open ${kind.label}`, className: kind.name });
+        });
+        return links.length ? `<div class="contact-icons">${links.join("")}</div>` : `<span class="empty-cell">—</span>`;
+      }
+
+      function contactValues(client) {
+        const presence = client.webPresence || {};
+        return {
+          emails: [...new Set(presence.emails || [])],
+          phones: [...new Set(presence.phones || [])],
+          whatsApp: [...new Set(presence.whatsApp || [])],
+        };
+      }
+
+      function contactCount(client) {
+        const values = contactValues(client);
+        const site = client.webPresence?.verifiedSite || (client.identity.kind === "identified" ? client.identity.website : null);
+        return values.emails.length + values.phones.length + values.whatsApp.length + (site ? 1 : 0) + (client.webPresence?.personLinkedIn ? 1 : 0) + (client.webPresence?.companyLinkedIn ? 1 : 0) + (client.webPresence?.socials?.length || 0);
+      }
+
+      function contactCell(client) {
+        const values = contactValues(client);
+        const emailLinks = values.emails.map((email) => `<a class="contact-link" href="mailto:${escapeAttribute(email)}" target="_blank" rel="noreferrer" title="${escapeAttribute(email)}">${icon("mail", "icon-sm")}<span class="link-label">${escapeHtml(email)}</span></a>`);
+        const phoneLinks = values.phones.map((phone) => `<a class="contact-link" href="tel:${escapeAttribute(phone.replace(/[^+\d]/g, ""))}" target="_blank" rel="noreferrer" title="${escapeAttribute(phone)}">${icon("phone", "icon-sm")}<span class="link-label">${escapeHtml(phone)}</span></a>`);
+        const whatsAppLinks = values.whatsApp.map((url) => `<a class="contact-link" href="${escapeAttribute(url)}" target="_blank" rel="noreferrer">${icon("whatsapp", "icon-sm")}<span class="link-label">WhatsApp</span></a>`);
+        const links = [...emailLinks, ...phoneLinks, ...whatsAppLinks];
+        return links.length ? `<div class="contact-stack">${links.join("")}</div>` : `<span class="empty-cell">—</span>`;
+      }
+
+      function confidenceCell(client) {
+        const value = confidence(client);
+        const score = confidenceScore(client);
+        const dots = Array.from({ length: 4 }, (_, index) => `<span class="confidence-dot${index < score ? " active" : ""}"></span>`).join("");
+        return `<div class="confidence" aria-label="${escapeAttribute(value)} confidence"><span class="confidence-dots" aria-hidden="true">${dots}</span><span class="confidence-label">${escapeHtml(value)}</span></div>`;
+      }
+
+      function strongestEvidence(client) {
+        const quote = cleanEvidenceText(client.identity.evidenceQuote);
+        return quote ? shortenEvidence(quote, 160) : evidenceItems(client)[0]?.text || "No supporting evidence found";
+      }
+
+      function evidenceLabel(item) {
+        if (item.source === "attachment") return item.fileName;
+        if (item.source === "client-review") return `Review of client · ${item.contractTitle}`;
+        if (item.source === "past-job") return `Past job · ${item.title}`;
+        if (item.source === "freelancer-side-review") return `Client name · ${item.title}`;
+        return "Job description";
+      }
+
+      function cleanEvidenceText(value) {
+        return String(value || "").replace(/\s+/g, " ").trim();
+      }
+
+      function shortenEvidence(value, maxLength = 220) {
+        const text = cleanEvidenceText(value);
+        if (text.length <= maxLength) return text;
+        const prefix = text.slice(0, maxLength - 1);
+        const boundary = prefix.lastIndexOf(" ");
+        return `${prefix.slice(0, boundary > maxLength * .7 ? boundary : prefix.length).trimEnd()}…`;
+      }
+
+      function evidenceWindow(value, match, maxLength = 220) {
+        const text = cleanEvidenceText(value);
+        const needle = cleanEvidenceText(match);
+        const matchIndex = text.toLowerCase().indexOf(needle.toLowerCase());
+        if (!needle || matchIndex < 0) return null;
+        const previousBoundary = Math.max(text.lastIndexOf(". ", matchIndex), text.lastIndexOf("! ", matchIndex), text.lastIndexOf("? ", matchIndex));
+        const sentenceStart = previousBoundary < 0 ? 0 : previousBoundary + 2;
+        const endings = [text.indexOf(". ", matchIndex + needle.length), text.indexOf("! ", matchIndex + needle.length), text.indexOf("? ", matchIndex + needle.length)]
+          .filter((index) => index >= 0);
+        const sentenceEnd = endings.length ? Math.min(...endings) + 1 : text.length;
+        const sentence = text.slice(sentenceStart, sentenceEnd).trim();
+        if (sentence && sentence.length <= maxLength) return sentence;
+        if (text.length <= maxLength) return text;
+        const contextLength = Math.max(0, maxLength - needle.length);
+        let start = Math.max(0, matchIndex - Math.floor(contextLength * .45));
+        let end = Math.min(text.length, start + maxLength);
+        if (end - start < maxLength) start = Math.max(0, end - maxLength);
+        if (start > 0) {
+          const nextSpace = text.indexOf(" ", start);
+          if (nextSpace >= 0 && nextSpace < matchIndex) start = nextSpace + 1;
+        }
+        if (end < text.length) {
+          const previousSpace = text.lastIndexOf(" ", end);
+          if (previousSpace > matchIndex + needle.length) end = previousSpace;
+        }
+        return `${start > 0 ? "…" : ""}${text.slice(start, end).trim()}${end < text.length ? "…" : ""}`;
+      }
+
+      function evidenceExcerpt(client, item) {
+        const text = cleanEvidenceText(item.text);
+        if (!text) return null;
+        if (item.source === "freelancer-side-review") {
+          const recoveredName = client.identity.kind === "identified" ? cleanEvidenceText(client.identity.name) : "";
+          if (recoveredName && text.toLowerCase().includes(recoveredName.toLowerCase())) return recoveredName;
+          return shortenEvidence(text.split(/\s+[—–-]\s+/)[0] || text, 100);
+        }
+        if (client.identity.kind === "unknown") return shortenEvidence(text);
+        const exactQuote = cleanEvidenceText(client.identity.evidenceQuote);
+        if (exactQuote && text.toLowerCase().includes(exactQuote.toLowerCase())) return shortenEvidence(exactQuote);
+        const anchors = [client.identity.name, ...client.identity.people, client.identity.company, client.identity.product, client.identity.website]
+          .map(cleanEvidenceText)
+          .filter((value, index, values) => value.length > 1 && values.indexOf(value) === index);
+        for (const anchor of anchors) {
+          const excerpt = evidenceWindow(text, anchor);
+          if (excerpt) return excerpt;
+        }
+        return null;
+      }
+
+      function evidenceItems(client) {
+        return (client.evidence || []).flatMap((item) => {
+          const text = evidenceExcerpt(client, item);
+          return text ? [{ item, text }] : [];
+        });
+      }
+
+      function evidenceSourceUrl(client, item) {
+        const jobs = client.jobs || [];
+        const currentJob = item.jobId ? jobs.find((job) => job.feed?.id === item.jobId) : null;
+        if (currentJob?.feed?.url) return currentJob.feed.url;
+        const contracts = jobs.flatMap((job) => job.details?.workHistory || []);
+        if (item.source === "freelancer-side-review") {
+          const contract = contracts.find((entry) => entry.title === item.title && entry.freelancer?.profileCiphertext);
+          return contract ? `https://www.upwork.com/freelancers/${contract.freelancer.profileCiphertext}` : null;
+        }
+        const contractTitle = item.source === "client-review" ? item.contractTitle : item.source === "past-job" ? item.title : null;
+        const contract = contracts.find((entry) => (item.jobId && entry.jobId === item.jobId) || (contractTitle && entry.title === contractTitle));
+        if (contract?.ciphertext) return `https://www.upwork.com/jobs/${contract.ciphertext}`;
+        if (item.source === "past-job") {
+          const pastJob = jobs.flatMap((job) => job.details?.pastJobs || []).find((entry) => entry.title === item.title && entry.ciphertext);
+          if (pastJob) return `https://www.upwork.com/jobs/${pastJob.ciphertext}`;
+        }
+        return null;
+      }
+
+      function evidencePanel(client) {
+        const items = evidenceItems(client);
+        const body = items.length ? items.map(({ item, text }) => {
+          const label = evidenceLabel(item);
+          const sourceUrl = evidenceSourceUrl(client, item);
+          if (sourceUrl) return `<a class="evidence-item evidence-item-link" href="${escapeAttribute(sourceUrl)}" target="_blank" rel="noreferrer" aria-label="Open source evidence on Upwork: ${escapeAttribute(label)}"><span class="evidence-source">${escapeHtml(label)}</span><p class="evidence-text">${escapeHtml(text)}</p>${icon("external", "icon-sm source-link-icon")}</a>`;
+          return `<article class="evidence-item"><span class="evidence-source">${escapeHtml(label)}</span><p class="evidence-text">${escapeHtml(text)}</p></article>`;
+        }).join("") : `<p class="evidence-text">No identity evidence found.</p>`;
+        return `<tr class="evidence-row"><td colspan="8"><div class="evidence-panel"><div class="evidence-panel-head"><h2>Evidence for ${escapeHtml(identityPrimary(client))}</h2><span class="evidence-count">${items.length} source${items.length === 1 ? "" : "s"}</span></div><div class="evidence-list">${body}</div></div></td></tr>`;
+      }
+
       function render(result) {
         currentResult = result;
-        $("result-title").textContent = result ? `${result.feed.kind} · ${new Date(result.completedAt).toLocaleString()}` : "No run selected";
-        $("count").textContent = result ? `${result.clients.length} buyer${result.clients.length === 1 ? "" : "s"}` : "";
         const clients = result ? [...result.clients] : [];
         clients.sort((left, right) => {
-          if (sortKey === "jobs") return (right.jobs.length - left.jobs.length) * sortDirection;
-          if (sortKey === "confidence") return ({unknown:0,low:1,medium:2,high:3}[confidence(right)] - ({unknown:0,low:1,medium:2,high:3}[confidence(left)])) * sortDirection;
-          return identityLabel(left).localeCompare(identityLabel(right)) * sortDirection;
+          if (sortKey === "confidence") return (confidenceScore(left) - confidenceScore(right)) * sortDirection;
+          if (sortKey === "contacts") return (contactCount(left) - contactCount(right)) * sortDirection;
+          return identityPrimary(left).localeCompare(identityPrimary(right)) * sortDirection;
         });
+        $("result-title").textContent = result ? `${result.feed.kind} client contacts` : "No run selected";
         $("results-body").innerHTML = clients.map((client) => {
-          const web = [link("site", client.webPresence.verifiedSite), link("person", client.webPresence.personLinkedIn), link("company", client.webPresence.companyLinkedIn), ...client.webPresence.socials.map((url, index) => link(`social ${index + 1}`, url))].filter(Boolean).join("");
-          const quote = client.identity.evidenceQuote ? `<span class="quote">${escapeHtml(client.identity.evidenceQuote)}</span>` : `<small>No quoted identity evidence</small>`;
-          return `<tr><td><strong>${escapeHtml(identityLabel(client))}</strong><small>${escapeHtml(client.buyerId)}</small></td><td><span class="confidence ${confidence(client) === "unknown" ? "unknown" : ""}">${escapeHtml(confidence(client))}</span></td><td>${client.jobs.length}</td><td><div class="links">${web || "<small>No verified links</small>"}</div></td><td>${quote}<small>${client.evidence.length} evidence item${client.evidence.length === 1 ? "" : "s"}</small></td><td><button data-rerun="${escapeHtml(client.buyerId)}">Rerun</button></td></tr>`;
+          const buyer = escapeAttribute(client.buyerId);
+          const expanded = expandedBuyers.has(client.buyerId);
+          const evidence = strongestEvidence(client);
+          return `<tr class="client-row${expanded ? " expanded" : ""}">
+            <td class="person-cell"><strong class="person-primary">${escapeHtml(identityPrimary(client))}</strong>${jobTitleLink(client)}</td>
+            <td>${websiteCell(client)}</td>
+            <td>${linkedInCell(client)}</td>
+            <td>${socialCell(client)}</td>
+            <td>${contactCell(client)}</td>
+            <td>${confidenceCell(client)}</td>
+            <td><button class="evidence-toggle" type="button" data-evidence="${buyer}" aria-expanded="${expanded}" aria-label="${expanded ? "Collapse" : "Expand"} evidence for ${escapeAttribute(identityPrimary(client))}"><span class="evidence-preview${evidence.startsWith("No supporting") ? " empty" : ""}">${escapeHtml(evidence)}</span><svg class="icon icon-sm chevron" aria-hidden="true"><use href="#icon-chevron"></use></svg></button></td>
+            <td><div class="cell-actions"><button class="icon-button" type="button" data-rerun="${buyer}" aria-label="Rerun ${escapeAttribute(identityPrimary(client))}" data-tooltip="Rerun client">${icon("rerun")}</button></div></td>
+          </tr>${expanded ? evidencePanel(client) : ""}`;
         }).join("");
+        $("table-wrap").hidden = clients.length === 0;
         $("empty").hidden = clients.length > 0;
-        document.querySelectorAll("[data-rerun]").forEach((button) => button.addEventListener("click", () => rerunClient(button.dataset.rerun)));
+        if (!clients.length) {
+          $("empty-message").textContent = activeRun ? "Clients will appear here as they finish." : result ? "No client contacts were found in this run." : "Run Best Matches to find client contact details.";
+        }
+        updateSortHeaders();
       }
-      async function loadRuns() {
-        const response = await fetch("/api/runs");
-        if (!response.ok) throw new Error("Could not load run history");
-        const runs = await response.json();
-        $("runs").innerHTML = `<option value="">Choose a saved run</option>` + runs.map((run) => `<option value="${escapeHtml(run.id)}">${escapeHtml(run.id)} · ${run.clients} buyers</option>`).join("");
-        if (selectedRunId) $("runs").value = selectedRunId;
+
+      function updateSortHeaders() {
+        document.querySelectorAll("[data-sort]").forEach((button) => {
+          const active = button.dataset.sort === sortKey;
+          button.classList.toggle("active", active);
+          button.classList.toggle("desc", active && sortDirection < 0);
+          const header = button.closest("th");
+          if (header) header.setAttribute("aria-sort", active ? (sortDirection < 0 ? "descending" : "ascending") : "none");
+        });
       }
+
+      function feedLabel(value) {
+        return ({ "best-matches": "Best Matches", "most-recent": "Most Recent", "my-feed": "My Feed", saved: "Saved", search: "Search" })[value] || value;
+      }
+
+      function formatDate(value) {
+        const date = new Date(value);
+        return Number.isFinite(date.valueOf()) ? date.toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) : value;
+      }
+
+      function renderRuns(runs) {
+        $("runs-list").innerHTML = runs.length ? runs.map((run) => `<li><button class="history-item" type="button" data-run-id="${escapeAttribute(run.id)}"><span><span class="history-title">${escapeHtml(feedLabel(run.feed))}</span><span class="history-meta">${escapeHtml(formatDate(run.startedAt))}</span></span><span class="history-count">${run.clients} client${run.clients === 1 ? "" : "s"}</span></button></li>`).join("") : `<li class="history-empty">No saved runs yet.</li>`;
+      }
+
+      function runTimestamp(run) {
+        const timestamp = Date.parse(run.startedAt);
+        return Number.isFinite(timestamp) ? timestamp : 0;
+      }
+
+      async function loadRuns({ selectNewest = false } = {}) {
+        $("refresh").disabled = true;
+        try {
+          const response = await fetch("/api/runs");
+          if (!response.ok) throw new Error("Could not load run history");
+          const runs = await response.json();
+          renderRuns(runs);
+          if (selectNewest && !selectedRunId && !activeRun && runs.length) {
+            const newest = runs.reduce((latest, run) => runTimestamp(run) > runTimestamp(latest) ? run : latest);
+            await selectRun(newest.id);
+          }
+        } finally {
+          $("refresh").disabled = false;
+        }
+      }
+
       async function selectRun(id) {
-        if (!id) { selectedRunId = ""; render(null); $("run-meta").textContent = ""; return; }
         const response = await fetch(`/api/runs/${encodeURIComponent(id)}`);
         if (!response.ok) throw new Error("Could not load that run");
         selectedRunId = id;
+        activeRun = false;
+        expandedBuyers.clear();
         const result = await response.json();
-        $("run-meta").textContent = result.runId;
         render(result);
+        setStatus("Saved run", "");
+        $("run-meta").textContent = `${feedLabel(result.feed.kind)} · ${formatDate(result.completedAt)} · ${result.clients.length} clients`;
+        $("history-panel").hidePopover?.();
       }
+
+      function setStatus(text, kind = "") {
+        $("status").textContent = text;
+        $("dot").className = `status-dot ${kind}`;
+      }
+
+      function setProgress(completed, total) {
+        const maximum = Math.max(total || 1, 1);
+        $("progress-bar").max = maximum;
+        $("progress-bar").value = Math.min(completed || 0, maximum);
+        $("progress-fallback").textContent = `${Math.round(((completed || 0) / maximum) * 100)}%`;
+      }
+
+      function log(line) {
+        const node = $("progress");
+        node.textContent += (node.textContent ? "\n" : "") + line;
+        node.scrollTop = node.scrollHeight;
+      }
+
+      function lineForEvent(event) {
+        if (event.kind === "feed-loaded") return `Feed loaded · ${event.jobCount} jobs`;
+        if (event.kind === "job-skipped") return `Skipped ${event.jobId} · ${event.reason}`;
+        if (event.kind === "client-progress") return `${event.phase} · ${event.completedClients}/${event.totalClients}`;
+        if (event.kind === "client-completed") return `Completed ${identityPrimary(event.client)}`;
+        if (event.kind === "client-failed") return `Failed ${event.buyerId} · ${event.message}`;
+        if (event.kind === "run-completed") return `Run complete · ${event.result.clients.length} clients`;
+        return `Run failed · ${event.message}`;
+      }
+
       function watchRun(id) {
         if (source) source.close();
         source = new EventSource(`/api/runs/${encodeURIComponent(id)}/events`);
         source.onmessage = (message) => {
           const event = JSON.parse(message.data);
           log(lineForEvent(event));
-          if (event.kind === "run-completed") { source.close(); selectedRunId = event.result.runId; render(event.result); loadRuns().catch((error) => log(error.message)); setStatus("Run complete"); $("start").disabled = false; }
-          if (event.kind === "run-failed") { source.close(); setStatus("Run failed", "error"); $("start").disabled = false; }
+          if (event.kind === "client-progress") {
+            setProgress(event.completedClients, event.totalClients);
+            setStatus(runHadFailures ? `Running with errors · ${event.completedClients}/${event.totalClients}` : `${event.phase.replaceAll("-", " ")} · ${event.completedClients}/${event.totalClients}`, runHadFailures ? "error" : "live");
+          }
+          if (event.kind === "client-completed") {
+            const clients = currentResult?.clients ? currentResult.clients.filter((client) => client.buyerId !== event.client.buyerId) : [];
+            clients.push(event.client);
+            render({ ...(currentResult || {}), feed: runFeed || { kind: $("feed").value }, clients });
+          }
+          if (event.kind === "client-failed") {
+            runHadFailures = true;
+            runFailures.push(`${event.buyerId} · ${event.message}`);
+            setStatus("Run continuing with an error", "error");
+          }
+          if (event.kind === "run-completed") {
+            source.close();
+            activeRun = false;
+            selectedRunId = event.result.runId;
+            expandedBuyers.clear();
+            render(event.result);
+            setProgress(event.result.clients.length, event.result.clients.length);
+            setStatus(runHadFailures ? "Run complete with errors" : "Run complete", runHadFailures ? "error" : "");
+            $("run-meta").textContent = `${feedLabel(event.result.feed.kind)} · ${event.result.clients.length} clients`;
+            $("start").disabled = false;
+            $("feed").disabled = false;
+            $("progress-summary").textContent = runHadFailures ? `${runFailures.length} client${runFailures.length === 1 ? "" : "s"} failed · details` : "Run details";
+            $("failure-recovery").hidden = !runHadFailures;
+            $("run-progress").hidden = !runHadFailures;
+            loadRuns().catch((error) => log(error.message));
+          }
+          if (event.kind === "run-failed") {
+            source.close();
+            activeRun = false;
+            setStatus(event.message || "Run failed", "error");
+            $("progress-summary").textContent = "Run failed · details";
+            $("failure-recovery").hidden = false;
+            render(currentResult);
+            $("start").disabled = false;
+            $("feed").disabled = false;
+            $("run-progress").hidden = false;
+          }
         };
-        source.onerror = () => { if ($("start").disabled) setStatus("Waiting for run events", "live"); };
+        source.onerror = () => { if ($("start").disabled) setStatus("Waiting for run updates", "live"); };
       }
+
       async function startRun(payload) {
-        $("start").disabled = true; $("progress").textContent = ""; setStatus("Starting", "live");
+        activeRun = true;
+        runHadFailures = false;
+        runFailures = [];
+        $("start").disabled = true;
+        $("feed").disabled = true;
+        $("progress").textContent = "";
+        $("progress-summary").textContent = "Run details";
+        $("failure-recovery").hidden = true;
+        $("run-progress").hidden = false;
+        setProgress(0, 1);
+        setStatus("Starting", "live");
+        $("run-meta").textContent = feedLabel(payload.feed);
+        selectedRunId = "";
+        expandedBuyers.clear();
+        runFeed = payload.feed === "search" ? { kind: "search", query: payload.query || "" } : { kind: payload.feed };
+        render({ feed: runFeed, clients: [] });
         try {
-          const response = await fetch("/api/run", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify(payload) });
+          const response = await fetch("/api/run", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
           const body = await response.json();
           if (!response.ok) throw new Error(body.error || "Could not start run");
-          watchRun(body.id); setStatus("Running", "live");
-        } catch (error) { setStatus(error.message, "error"); $("start").disabled = false; log(error.message); }
+          watchRun(body.id);
+          setStatus("Running", "live");
+        } catch (error) {
+          activeRun = false;
+          setStatus(error.message, "error");
+          $("progress-summary").textContent = "Run failed · details";
+          $("failure-recovery").hidden = false;
+          $("run-progress").hidden = false;
+          render(currentResult);
+          $("start").disabled = false;
+          $("feed").disabled = false;
+          log(error.message);
+        }
       }
+
       async function rerunClient(buyerId) {
-        if (!selectedRunId) return setStatus("Choose a saved run first", "error");
+        if (!selectedRunId) return setStatus("Open a saved or completed run first", "error");
         try {
-          const response = await fetch("/api/rerun-client", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({runId:selectedRunId,buyerId}) });
+          activeRun = true;
+          runHadFailures = false;
+          runFailures = [];
+          const response = await fetch("/api/rerun-client", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ runId: selectedRunId, buyerId }) });
           const body = await response.json();
-          if (!response.ok) throw new Error(body.error || "Could not start client rerun");
-          $("progress").textContent = ""; $("start").disabled = true; watchRun(body.id); setStatus(`Rerunning ${buyerId}`, "live");
-        } catch (error) { setStatus(error.message, "error"); log(error.message); }
+          if (!response.ok) throw new Error(body.error || "Could not rerun that client");
+          $("progress").textContent = "";
+          $("progress-summary").textContent = "Run details";
+          $("failure-recovery").hidden = true;
+          $("run-progress").hidden = false;
+          $("start").disabled = true;
+          $("feed").disabled = true;
+          setProgress(0, 1);
+          setStatus("Rerunning client", "live");
+          runFeed = currentResult?.feed || { kind: "best-matches" };
+          watchRun(body.id);
+        } catch (error) {
+          activeRun = false;
+          setStatus(error.message, "error");
+          $("progress-summary").textContent = "Rerun failed · details";
+          $("failure-recovery").hidden = false;
+          $("run-progress").hidden = false;
+          log(error.message);
+        }
       }
+
       $("feed").addEventListener("change", () => { $("query-wrap").hidden = $("feed").value !== "search"; });
-      $("start").addEventListener("click", () => startRun({ feed:$("feed").value, query:$("query").value, countries:$("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force:$("force").checked }));
-      $("runs").addEventListener("change", () => selectRun($("runs").value).catch((error) => { setStatus(error.message, "error"); log(error.message); }));
-      $("refresh").addEventListener("click", () => loadRuns().catch((error) => { setStatus(error.message, "error"); log(error.message); }));
-      document.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => { const key = button.dataset.sort; sortDirection = sortKey === key ? -sortDirection : 1; sortKey = key; render(currentResult); }));
-      loadRuns().catch((error) => { setStatus(error.message, "error"); log(error.message); });
+      $("start").addEventListener("click", () => {
+        const feed = $("feed").value;
+        const query = $("query").value.trim();
+        if (feed === "search" && !query) { setStatus("Enter a search query", "error"); $("query").focus(); return; }
+        startRun({ feed, query: feed === "search" ? query : undefined, countries: $("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force: $("force").checked });
+      });
+      $("history-button").addEventListener("click", () => loadRuns().catch((error) => setStatus(error.message, "error")));
+      $("refresh").addEventListener("click", () => loadRuns().catch((error) => setStatus(error.message, "error")));
+      $("runs-list").addEventListener("click", (event) => {
+        const button = event.target.closest("[data-run-id]");
+        if (button) selectRun(button.dataset.runId).catch((error) => setStatus(error.message, "error"));
+      });
+      $("results-body").addEventListener("click", (event) => {
+        const evidenceButton = event.target.closest("[data-evidence]");
+        if (evidenceButton) {
+          const buyer = evidenceButton.dataset.evidence;
+          if (expandedBuyers.has(buyer)) expandedBuyers.delete(buyer); else expandedBuyers.add(buyer);
+          render(currentResult);
+          return;
+        }
+        const rerunButton = event.target.closest("[data-rerun]");
+        if (rerunButton) rerunClient(rerunButton.dataset.rerun);
+      });
+      document.querySelectorAll("[data-sort]").forEach((button) => button.addEventListener("click", () => {
+        const key = button.dataset.sort;
+        sortDirection = sortKey === key ? -sortDirection : (key === "identity" ? 1 : -1);
+        sortKey = key;
+        render(currentResult);
+      }));
+      $("countries").value = defaultCountries;
+      loadRuns({ selectNewest: true }).catch((error) => setStatus(error.message, "error"));
     </script>
   </body>
 </html>

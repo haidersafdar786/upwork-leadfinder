@@ -38,7 +38,6 @@ export interface RecoveredName {
   reviewTitle: string;
   freelancerId: string;
   score: number | null;
-  reviewText: string;
   otherNames: Array<{ name: string; count: number }>;
 }
 
@@ -130,10 +129,6 @@ export function pickMatchingReview(
 function reviewName(review: FreelancerReviewRecord): string | null {
   const name = [review.clientFirstName, review.clientLastName].filter((value): value is string => Boolean(value)).join(" ").trim();
   return name || null;
-}
-
-function squish(value: string): string {
-  return value.toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
 function parseReview(value: unknown): FreelancerReviewRecord | null {
@@ -313,7 +308,6 @@ export async function recoverClientName(
       reviewTitle: leader.hit.review.assignmentTitle,
       freelancerId: leader.hit.freelancerId,
       score: leader.hit.review.score,
-      reviewText: leader.hit.review.text,
       otherNames: [...votes.values()].filter((vote) => vote.name !== leader.name).map((vote) => ({ name: vote.name, count: vote.count })),
     },
     attempted,
@@ -324,10 +318,8 @@ export async function recoverClientName(
 
 export function applyRecoveredName(identity: Identity, match: RecoveredName): Identity {
   const people = [...new Set([match.clientName, ...identity.people])];
-  const reviewSupportsName = Boolean(match.reviewText && squish(match.reviewText).includes(squish(match.clientName)));
-  const evidenceQuote = reviewSupportsName ? match.reviewText : match.clientName;
   if (identity.kind === "identified") {
-    return { ...identity, name: match.clientName, people, evidenceQuote: evidenceQuote || identity.evidenceQuote || match.clientName };
+    return { ...identity, name: match.clientName, people, evidenceQuote: match.clientName };
   }
   return {
     kind: "identified",
@@ -338,6 +330,6 @@ export function applyRecoveredName(identity: Identity, match: RecoveredName): Id
     website: null,
     industry: null,
     confidence: "medium",
-    evidenceQuote,
+    evidenceQuote: match.clientName,
   };
 }

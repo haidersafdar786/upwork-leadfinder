@@ -6,6 +6,8 @@ export type FreelancerId = Brand<string, "FreelancerId">;
 export type RunId = Brand<string, "RunId">;
 export type HttpUrl = Brand<string, "HttpUrl">;
 export type IsoDate = Brand<string, "IsoDate">;
+export type EmailAddress = Brand<string, "EmailAddress">;
+export type PhoneNumber = Brand<string, "PhoneNumber">;
 
 export type FeedSelection =
   | { kind: "best-matches"; url: HttpUrl }
@@ -153,7 +155,13 @@ export interface SupportingLink {
   title: string;
 }
 
-export interface WebPresence {
+export interface ContactDetails {
+  emails: EmailAddress[];
+  phones: PhoneNumber[];
+  whatsApp: HttpUrl[];
+}
+
+export interface WebPresence extends ContactDetails {
   personLinkedIn: HttpUrl | null;
   companyLinkedIn: HttpUrl | null;
   socials: HttpUrl[];

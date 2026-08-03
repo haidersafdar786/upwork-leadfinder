@@ -1,5 +1,6 @@
 import { z } from "zod";
-import type { Client, HttpUrl, Identity, WebPresence } from "./types.ts";
+import { emptyContactDetails, extractEmailAddresses, extractPhoneNumbers, extractWhatsAppUrls } from "./contacts.ts";
+import type { Client, EmailAddress, HttpUrl, Identity, PhoneNumber, WebPresence } from "./types.ts";
 import { runOpenCodeWeb, type OpenCodeTool } from "./opencode.ts";
 
 const EnrichmentModelSchema = z.object({
@@ -50,6 +51,9 @@ export interface WebPresenceResolution {
   companyLinkedIn: string | null;
   verifiedSite: string | null;
   socials: string[];
+  emails: EmailAddress[];
+  phones: PhoneNumber[];
+  whatsApp: string[];
   supportingLinks: Array<{ url: string; title: string }>;
   confidence: "low" | "medium";
 }
@@ -182,7 +186,7 @@ export function evidenceFromOpenCodeTools(tools: readonly OpenCodeTool[]): WebEv
 
 function researchPrompt(known: KnownClient, queries: string[]): string {
   return "You are researching one client's public web presence.\n" +
-    "Use websearch once for every query below. You may webfetch at most one URL, and only a URL returned by websearch or the known client website. Never guess a domain. Do not use shell, filesystem, task, or other tools. Copy URLs exactly from observed tool results; never invent or normalize them.\n\n" +
+    "Use websearch once for every query below. For a contact query, prefer an official contact page and include any public email, phone, or WhatsApp details in the observed tool evidence. You may webfetch at most one URL, and only a URL returned by websearch or the known client website. Never guess a domain or contact detail. Do not use shell, filesystem, task, or other tools. Copy URLs exactly from observed tool results; never invent or normalize them.\n\n" +
     "KNOWN CLIENT:\n" + JSON.stringify(known) + "\n\n" +
     "QUERIES:\n" + queries.map((query, index) => (index + 1) + ". " + query).join("\n") + "\n\n" +
     "Return exactly one JSON object with these keys: personLinkedin, companyLinkedin, website, socials, summary, confidence. Use null or [] when no public match is supported.";
@@ -280,11 +284,11 @@ function supportingLinks(known: KnownClient, results: WebSearchResult[]): Array<
 }
 
 export function emptyWebPresence(): WebPresence {
-  return { personLinkedIn: null, companyLinkedIn: null, socials: [], verifiedSite: null, supportingLinks: [] };
+  return { personLinkedIn: null, companyLinkedIn: null, socials: [], verifiedSite: null, supportingLinks: [], ...emptyContactDetails() };
 }
 
 function emptyResolution(): WebPresenceResolution {
-  return { personLinkedIn: null, companyLinkedIn: null, verifiedSite: null, socials: [], supportingLinks: [], confidence: "low" };
+  return { personLinkedIn: null, companyLinkedIn: null, verifiedSite: null, socials: [], emails: [], phones: [], whatsApp: [], supportingLinks: [], confidence: "low" };
 }
 
 export function knownFromIdentity(identity: Identity, location: string | null = null): KnownClient {
@@ -300,8 +304,42 @@ export function knownFromClient(client: Client): KnownClient {
 export function buildEnrichmentQueries(known: KnownClient): string[] {
   const org = known.company || known.product;
   const site = known.website ? hostOf(known.website) : null;
-  const queries = [site, known.name && org ? known.name + " " + org + " linkedin" : null, org ? org + " linkedin" : null, org || null, known.name && !org ? known.name + " " + (known.location || "") + " linkedin" : null];
-  return [...new Set(queries.filter((query): query is string => Boolean(query && query.trim())).map((query) => query.replace(/[®™©]/g, "").replace(/\s+/g, " ").trim()))].slice(0, 3);
+  const contact = site ? site + " contact" : org ? org + " contact" : known.name ? known.name + " " + (known.location || "") + " contact" : null;
+  const queries = [site, known.name && org ? known.name + " " + org + " linkedin" : null, org ? org + " linkedin" : null, contact, org || null, known.name && !org ? known.name + " " + (known.location || "") + " linkedin" : null];
+  return [...new Set(queries.filter((query): query is string => Boolean(query && query.trim())).map((query) => query.replace(/[®™©]/g, "").replace(/\s+/g, " ").trim()))].slice(0, 4);
+}
+
+function sameSite(left: string, right: string): boolean {
+  const leftHost = hostOf(left);
+  const rightHost = hostOf(right);
+  return leftHost === rightHost || leftHost.endsWith("." + rightHost) || rightHost.endsWith("." + leftHost);
+}
+
+function identityAppearsInHost(url: string, known: KnownClient): boolean {
+  const host = squish(hostOf(url));
+  if (/alternatives?|compar(?:e|ison)|competitors?|directory|marketplace|reviews?/.test(host)) return false;
+  const organizationKeys = [known.company, known.product]
+    .flatMap((value) => [squish(value), ...words(value).map(squish)])
+    .filter((key) => key.length >= 4);
+  if (organizationKeys.length) return organizationKeys.some((key) => host.includes(key));
+  const nameWords = words(known.name);
+  return nameWords.length >= 2 && host.includes(squish(nameWords.join("")));
+}
+
+function trustedContactSite(known: KnownClient, verifiedSite: string | null): string | null {
+  const candidate = known.website || verifiedSite;
+  return candidate && identityAppearsInHost(candidate, known) ? candidate : null;
+}
+
+function resolveContacts(known: KnownClient, results: readonly WebSearchResult[], verifiedSite: string | null): Pick<WebPresenceResolution, "emails" | "phones" | "whatsApp"> {
+  const site = trustedContactSite(known, verifiedSite);
+  const relevant = site ? results.filter((result) => sameSite(result.url, site)) : [];
+  const text = relevant.map((result) => result.title + "\n" + result.snippet + "\n" + result.url).join("\n");
+  return {
+    emails: extractEmailAddresses(text),
+    phones: extractPhoneNumbers(text),
+    whatsApp: extractWhatsAppUrls(text),
+  };
 }
 
 export function resolveWebPresence(known: KnownClient, rawResults: readonly WebSearchResult[], model: Partial<EnrichmentModelOutput> = {}): WebPresenceResolution {
@@ -366,8 +404,12 @@ export function resolveWebPresence(known: KnownClient, rawResults: readonly WebS
       }
     }
   }
+  const contacts = resolveContacts(known, results, resolved.verifiedSite);
+  resolved.emails = contacts.emails;
+  resolved.phones = contacts.phones;
+  resolved.whatsApp = contacts.whatsApp;
   resolved.supportingLinks = supportingLinks(known, results);
-  if (resolved.personLinkedIn || resolved.companyLinkedIn || resolved.verifiedSite || resolved.socials.length || resolved.supportingLinks.length) resolved.confidence = "medium";
+  if (resolved.personLinkedIn || resolved.companyLinkedIn || resolved.verifiedSite || resolved.socials.length || resolved.emails.length || resolved.phones.length || resolved.whatsApp.length || resolved.supportingLinks.length) resolved.confidence = "medium";
   return resolved;
 }
 
@@ -380,6 +422,9 @@ export function toWebPresence(resolution: WebPresenceResolution): WebPresence {
     personLinkedIn: toHttpUrl(resolution.personLinkedIn),
     companyLinkedIn: toHttpUrl(resolution.companyLinkedIn),
     socials: resolution.socials.flatMap((url) => toHttpUrl(url) || []),
+    emails: resolution.emails,
+    phones: resolution.phones,
+    whatsApp: resolution.whatsApp.flatMap((url) => toHttpUrl(url) || []),
     verifiedSite: toHttpUrl(resolution.verifiedSite),
     supportingLinks: resolution.supportingLinks.flatMap((link) => {
       const url = toHttpUrl(link.url);
@@ -394,6 +439,7 @@ export function selectedEnrichmentUrls(enrichment: WebPresenceResolution | WebPr
     enrichment.companyLinkedIn,
     "verifiedSite" in enrichment ? enrichment.verifiedSite : null,
     ...enrichment.socials,
+    ...(enrichment.whatsApp || []),
     ...enrichment.supportingLinks.map((link) => link.url),
   ].filter((url): url is string => typeof url === "string" && url.length > 0);
   return [...new Set(candidates)];

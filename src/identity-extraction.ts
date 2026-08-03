@@ -1,3 +1,6 @@
+import { extractEmailAddresses, extractPhoneNumbers, extractWhatsAppUrls } from "./contacts.ts";
+import type { EmailAddress, HttpUrl, PhoneNumber } from "./types.ts";
+
 export type IdentitySource = "description" | "attachment" | "sibling-job" | "past-job" | "review" | "past-title" | "job-title";
 
 export interface IdentityText {
@@ -24,7 +27,9 @@ export interface IdentitySignals {
   location: string | null;
   texts: IdentityText[];
   urls: string[];
-  emails: string[];
+  emails: EmailAddress[];
+  phones: PhoneNumber[];
+  whatsApp: HttpUrl[];
   candidates: IdentityCandidate[];
   names: string[];
 }
@@ -418,7 +423,10 @@ export function extractIdentitySignals(input: unknown): IdentitySignals {
     .flatMap(extractCandidates)
     .filter((candidate) => !(candidate.source === "review" && words(candidate.value).length === 1 && nameKeys.has(normalized(candidate.value))));
   const urls = [...new Set(collected.texts.flatMap((text) => extractDomains(text, [])))];
-  const emails = [...new Set(collected.texts.flatMap((text) => text.text.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g) || []).map((email) => email.toLowerCase()))];
+  const contactText = collected.texts.filter((text) => text.source === "description").map((text) => text.text).join("\n");
+  const emails = extractEmailAddresses(contactText);
+  const phones = extractPhoneNumbers(contactText);
+  const whatsApp = extractWhatsAppUrls(contactText);
   const details = isRecord(record.details) ? record.details : {};
   const buyer = isRecord(details.buyer) ? details.buyer : {};
   const info = isRecord(buyer.info) ? buyer.info : {};
@@ -434,6 +442,8 @@ export function extractIdentitySignals(input: unknown): IdentitySignals {
     texts: collected.texts,
     urls,
     emails,
+    phones,
+    whatsApp,
     candidates: selectCandidates(candidates),
     names,
   };

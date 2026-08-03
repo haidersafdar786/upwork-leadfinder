@@ -39,12 +39,11 @@ const identity = applyRecoveredName(
     reviewTitle: "Reviewed",
     freelancerId: "123",
     score: 5,
-    reviewText: "A. Client was excellent to work with.",
     otherNames: [],
   }
 );
 assert.equal(identity.kind, "identified");
 assert.equal(identity.name, "A. Client");
-assert.equal(identity.evidenceQuote, "A. Client was excellent to work with.");
+assert.equal(identity.evidenceQuote, "A. Client");
 
 console.log("review checks passed");
