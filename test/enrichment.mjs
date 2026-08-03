@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { buildEnrichmentQueries, evidenceFromOpenCodeTools, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
+import { buildEnrichmentQueries, completeSelectionFromEvidence, evidenceFromOpenCodeTools, removeDefinitivelyDeadLinks, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
 
 const labels = JSON.parse(readFileSync(new URL("./enrichment-labels.json", import.meta.url), "utf8"));
 const squish = (value) => (value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -10,7 +10,7 @@ const valueFor = (presence, field) => ({
   website: presence.verifiedSite,
 })[field] || null;
 const matches = (actual, expected) => expected === null ? !actual : Boolean(actual && squish(actual).includes(squish(expected)));
-const verification = (values = {}) => ({ personLinkedin: false, companyLinkedin: false, website: false, socials: [], emails: [], phones: [], whatsApp: [], reason: "fixture", ...values });
+const verification = (values = {}) => ({ personLinkedin: false, companyLinkedin: false, website: false, socials: [], emails: [], phones: [], whatsApp: [], supportingLinks: [], reason: "fixture", ...values });
 const verifiedTwice = (values = {}) => [verification(values), verification(values)];
 
 let pass = 0;
@@ -99,6 +99,86 @@ assert.deepEqual(publicContacts.emails, ["hello@acme.example"]);
 assert.deepEqual(publicContacts.phones, ["+1 (415) 555-0199"]);
 assert.deepEqual(publicContacts.whatsApp, ["https://wa.me/14155550199"]);
 
+const omittedOfficialContacts = resolveWebPresence(
+  { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
+  [{ url: "https://acme.example/", title: "Acme", snippet: "Contact media@acme.example or call +1 808-400-5055." }],
+  { website: "https://acme.example/", emails: [], phones: [], whatsApp: [], confidence: "high" },
+  verifiedTwice({ website: true, emails: ["media@acme.example"], phones: ["+1 808-400-5055"] })
+);
+assert.deepEqual(omittedOfficialContacts.emails, ["media@acme.example"]);
+assert.deepEqual(omittedOfficialContacts.phones, ["+1 808-400-5055"]);
+
+const searchOnlyContact = resolveWebPresence(
+  { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
+  [
+    { url: "https://acme.example/", title: "Acme", snippet: "Official Acme website.", source: "webfetch", fetchedFrom: "https://acme.example/" },
+    { url: "https://acme.example/contact", title: "Search result", snippet: "A search index lists stale@acme.example.", source: "websearch", fetchedFrom: null },
+  ],
+  { website: "https://acme.example/", emails: ["stale@acme.example"], phones: [], whatsApp: [], confidence: "high" },
+  verifiedTwice({ website: true, emails: ["stale@acme.example"] })
+);
+assert.deepEqual(searchOnlyContact.emails, []);
+
+const multipleOrganizationProfiles = resolveWebPresence(
+  { name: "Ada Person", people: ["Ada Person"], company: "Acme Labs", product: "Acme Cloud", website: "https://cloud.acme.example", industry: null, location: null, evidence: "Acme Cloud by Acme Labs" },
+  [
+    { url: "https://cloud.acme.example", title: "Acme Cloud", snippet: "Acme Cloud by Acme Labs" },
+    { url: "https://www.linkedin.com/company/acme-labs", title: "Acme Labs", snippet: "Acme Cloud by Acme Labs" },
+    { url: "https://www.linkedin.com/company/acme-cloud", title: "Acme Cloud", snippet: "Official Acme Cloud LinkedIn" },
+  ],
+  {
+    website: "https://cloud.acme.example",
+    companyLinkedin: "https://www.linkedin.com/company/acme-labs",
+    supportingLinks: [{ url: "https://www.linkedin.com/company/acme-cloud", title: "Acme Cloud on LinkedIn" }],
+    confidence: "high",
+  },
+  verifiedTwice({ website: true, companyLinkedin: true, supportingLinks: ["https://www.linkedin.com/company/acme-cloud"] })
+);
+assert.deepEqual(multipleOrganizationProfiles.supportingLinks, [{ url: "https://www.linkedin.com/company/acme-cloud", title: "Acme Cloud on LinkedIn" }]);
+
+const completedOfficialSelection = completeSelectionFromEvidence(
+  { name: "Ada Person", people: ["Ada Person"], company: "Acme Labs", product: "Acme Cloud", website: "https://cloud.acme.example", industry: null, location: null, evidence: "Acme Cloud by Acme Labs" },
+  {
+    personLinkedin: "https://www.linkedin.com/in/ada-person",
+    companyLinkedin: "https://www.linkedin.com/company/acme-labs",
+    website: "https://cloud.acme.example",
+    socials: [],
+    emails: [],
+    phones: [],
+    whatsApp: [],
+    supportingLinks: [],
+    summary: null,
+    confidence: "high",
+  },
+  [
+    { title: "Acme Cloud", url: "https://cloud.acme.example", snippet: "Contact media@cloud.acme.example or +1 808-400-5055.", source: "webfetch", query: null, callID: "fetch-cloud", fetchedFrom: "https://cloud.acme.example" },
+    { title: "Acme Cloud directory result", url: "https://cloud.acme.example/contact", snippet: "A search index lists stale@cloud.acme.example.", source: "websearch", query: "cloud.acme.example contact", callID: "search-contact", fetchedFrom: null },
+    { title: "Linked from Acme Cloud", url: "https://www.linkedin.com/company/acme-cloud", snippet: "Official Acme Cloud LinkedIn", source: "webfetch", query: null, callID: "fetch-cloud", fetchedFrom: "https://cloud.acme.example" },
+    { title: "Linked from Acme Cloud", url: "https://www.facebook.com/acme-cloud", snippet: "Official Acme Cloud Facebook", source: "webfetch", query: null, callID: "fetch-cloud", fetchedFrom: "https://cloud.acme.example" },
+    { title: "Acme Labs", url: "https://www.linkedin.com/company/acme-labs", snippet: "Acme Cloud by Acme Labs", source: "websearch", query: "Acme Labs linkedin", callID: "search-labs", fetchedFrom: null },
+    { title: "Ada Person", url: "https://www.linkedin.com/in/ada-person", snippet: "Founder of Acme Cloud", source: "websearch", query: "Ada Person cloud.acme.example linkedin", callID: "search-ada", fetchedFrom: null },
+  ],
+);
+assert.deepEqual(completedOfficialSelection.emails, ["media@cloud.acme.example"]);
+assert.deepEqual(completedOfficialSelection.phones, ["+1 808-400-5055"]);
+assert.deepEqual(completedOfficialSelection.socials, ["https://www.facebook.com/acme-cloud"]);
+assert.deepEqual(completedOfficialSelection.supportingLinks, [{ url: "https://www.linkedin.com/company/acme-cloud", title: "cloud.acme.example LinkedIn" }]);
+
+const withoutDeadLinks = removeDefinitivelyDeadLinks({
+  ...multipleOrganizationProfiles,
+  socials: ["https://x.example/acme", "https://x.example/old-acme"],
+  supportingLinks: [
+    ...multipleOrganizationProfiles.supportingLinks,
+    { url: "https://social.example/retired", title: "Retired profile" },
+  ],
+}, new Map([
+  ["https://x.example/acme", 200],
+  ["https://x.example/old-acme", 404],
+  ["https://social.example/retired", 410],
+]));
+assert.deepEqual(withoutDeadLinks.socials, ["https://x.example/acme"]);
+assert.deepEqual(withoutDeadLinks.supportingLinks, [{ url: "https://www.linkedin.com/company/acme-cloud", title: "Acme Cloud on LinkedIn" }]);
+
 const disputedContacts = resolveWebPresence(
   { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
   [{ url: "https://acme.example/contact", title: "Contact Acme", snippet: "Email hello@acme.example or call +1 (415) 555-0199." }],
@@ -141,6 +221,11 @@ assert.deepEqual(genericOrganization.emails, []);
 assert.deepEqual(genericOrganization.phones, []);
 assert.deepEqual(buildEnrichmentQueries({ name: "Jacob J", people: ["Jacob J"], company: null, product: null, website: null, industry: null, location: "USA", evidence: null }), []);
 assert.ok(buildEnrichmentQueries({ name: null, people: [], company: "Sole Sister Ramblers", product: null, website: null, industry: null, location: "USA", evidence: null }).length > 0);
+const multiAnchorQueries = buildEnrichmentQueries({ name: "Ada Person", people: ["Ada Person"], company: "Acme Labs", product: "Acme Cloud", website: "https://cloud.acme.example", industry: null, location: null, evidence: null });
+assert.equal(multiAnchorQueries.some((query) => query === "Ada Person cloud.acme.example linkedin"), true);
+assert.equal(multiAnchorQueries.some((query) => query === "Acme Labs linkedin"), true);
+assert.equal(multiAnchorQueries.some((query) => query === "Acme Cloud linkedin"), true);
+assert.equal(multiAnchorQueries.some((query) => query === "cloud.acme.example contact"), true);
 
 const crossDomainEmail = resolveWebPresence(
   { name: null, people: [], company: "Acme Instruments", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme Instruments" },
@@ -165,6 +250,44 @@ assert.deepEqual(fetchedEvidence.map((item) => item.url), [
   "https://unrelated.example/directory",
 ]);
 assert.equal(fetchedEvidence[1].fetchedFrom, "https://acme.example/contact");
+
+const lateContactEvidence = evidenceFromOpenCodeTools([{
+  tool: "webfetch",
+  callID: "fetch-late-contact",
+  state: {
+    status: "completed",
+    input: { url: "https://acme.example" },
+    output: `${"About Acme. ".repeat(100)} Contact media@acme.example or +1 808-400-5055.`,
+  },
+}]);
+assert.equal(lateContactEvidence[0].snippet.includes("media@acme.example"), true);
+assert.equal(lateContactEvidence[0].snippet.includes("+1 808-400-5055"), true);
+
+const duplicateOfficialSiteEvidence = evidenceFromOpenCodeTools([
+  {
+    tool: "websearch",
+    callID: "search-official",
+    state: {
+      status: "completed",
+      input: { query: "acme.example" },
+      output: "Title: Acme\nURL: https://acme.example/\nHighlights:\nA directory lists help@acme.example.",
+    },
+  },
+  {
+    tool: "webfetch",
+    callID: "fetch-official",
+    state: {
+      status: "completed",
+      input: { url: "https://acme.example/" },
+      output: "Official Acme website. Contact media@acme.example or +1 808-400-5055.",
+    },
+  },
+]);
+const retainedOfficialSite = duplicateOfficialSiteEvidence.find((item) => item.url === "https://acme.example/");
+assert.equal(retainedOfficialSite?.source, "webfetch");
+assert.equal(retainedOfficialSite?.snippet.includes("media@acme.example"), true);
+assert.equal(retainedOfficialSite?.snippet.includes("+1 808-400-5055"), true);
+assert.equal(retainedOfficialSite?.snippet.includes("help@acme.example"), false);
 
 const linkedSearchEvidence = evidenceFromOpenCodeTools([{
   tool: "websearch",

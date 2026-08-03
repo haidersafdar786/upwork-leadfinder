@@ -8,6 +8,11 @@ const StringArraySchema = z.preprocess(
   z.array(z.string()),
 );
 
+const SupportingLinksSchema = z.preprocess(
+  (value) => value === null || value === undefined ? [] : value,
+  z.array(z.object({ url: z.string(), title: z.string() }).strict()),
+);
+
 const EnrichmentModelSchema = z.object({
   personLinkedin: z.string().nullable(),
   companyLinkedin: z.string().nullable(),
@@ -16,6 +21,7 @@ const EnrichmentModelSchema = z.object({
   emails: StringArraySchema,
   phones: StringArraySchema,
   whatsApp: StringArraySchema,
+  supportingLinks: SupportingLinksSchema,
   summary: z.string().nullable(),
   confidence: z.preprocess((value) => {
     if (typeof value !== "string") return value;
@@ -34,6 +40,7 @@ const WebVerificationSchema = z.object({
   emails: StringArraySchema,
   phones: StringArraySchema,
   whatsApp: StringArraySchema,
+  supportingLinks: StringArraySchema,
   reason: z.string(),
 }).strict();
 
@@ -55,6 +62,8 @@ export interface WebSearchResult {
   title: string;
   url: string;
   snippet: string;
+  fetchedFrom?: string | null;
+  source?: "websearch" | "webfetch";
 }
 
 export interface WebEvidence extends WebSearchResult {
@@ -141,7 +150,8 @@ function resultFrom(value: unknown): WebSearchResult | null {
   if (!isRecord(value)) return null;
   const url = validUrl(value.url);
   if (!url) return null;
-  return { title: clean(value.title), url, snippet: clean(value.snippet) };
+  const source = value.source === "websearch" || value.source === "webfetch" ? value.source : undefined;
+  return { title: clean(value.title), url, snippet: clean(value.snippet), fetchedFrom: textValue(value.fetchedFrom), source };
 }
 
 function normalizeResults(results: readonly WebSearchResult[]): WebSearchResult[] {
@@ -210,6 +220,23 @@ function parseSearchOutput(output: string, query: string | null, callID: string 
   });
 }
 
+function excerptAround(value: string, needle: string, radius = 180): string {
+  const index = value.toLowerCase().indexOf(needle.toLowerCase());
+  if (index < 0) return needle;
+  return value.slice(Math.max(0, index - radius), index + needle.length + radius);
+}
+
+function fetchedEvidenceSnippet(output: string): string {
+  const text = clean(output);
+  const contacts = [
+    ...extractEmailAddresses(text),
+    ...extractPhoneNumbers(text),
+    ...extractWhatsAppUrls(text),
+  ];
+  const excerpts = [...new Set(contacts.map((contact) => clean(excerptAround(text, contact))))];
+  return truncate([truncate(text, 350), ...excerpts].filter(Boolean).join(" ... "), 1_200);
+}
+
 function parseFetchedOutput(tool: OpenCodeTool): WebEvidence[] {
   const inputUrl = textValue(tool.state.input.url) || textValue(tool.state.input.URL);
   const url = validUrl(inputUrl);
@@ -217,7 +244,7 @@ function parseFetchedOutput(tool: OpenCodeTool): WebEvidence[] {
   const parent: WebEvidence = {
     title: `(from ${hostOf(url)})`,
     url,
-    snippet: truncate(clean(tool.state.output), 500),
+    snippet: fetchedEvidenceSnippet(tool.state.output),
     source: "webfetch",
     query: null,
     callID: tool.callID,
@@ -233,13 +260,26 @@ export function evidenceFromOpenCodeTools(tools: readonly OpenCodeTool[]): WebEv
     if (tool.tool === "webfetch") return parseFetchedOutput(tool);
     return [];
   });
-  const seen = new Set<string>();
-  return evidence.filter((item) => {
+  const byUrl = new Map<string, WebEvidence>();
+  for (const item of evidence) {
     const key = urlKey(item.url);
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+    const existing = byUrl.get(key);
+    if (!existing) {
+      byUrl.set(key, item);
+      continue;
+    }
+    const preferred = item.source === "webfetch" && existing.source !== "webfetch" ? item : existing;
+    const sameSource = existing.source === item.source;
+    byUrl.set(key, {
+      ...preferred,
+      title: existing.title.startsWith("(") && !item.title.startsWith("(") ? item.title : existing.title,
+      snippet: sameSource
+        ? truncate([...new Set([existing.snippet, item.snippet])].filter(Boolean).join(" ... "), 1_200)
+        : preferred.snippet,
+      query: existing.query || item.query,
+    });
+  }
+  return [...byUrl.values()];
 }
 
 function researchPrompt(known: KnownClient, queries: string[]): string {
@@ -255,7 +295,9 @@ ${JSON.stringify(known)}
 QUERIES:
 ${queries.map((query, index) => `${index + 1}. ${query}`).join("\n")}
 
-Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, summary, confidence. Copy selected URLs and contact strings exactly from observed tool results. Include a contact only when the observed result explicitly presents it as contact information for the selected official site; otherwise omit it. socials, emails, phones, and whatsApp must always be arrays, using [] when empty. confidence must be exactly "high", "medium", or "low"; use "low" when no URL is selected.`;
+Before answering, audit every result and the entire fetched official page for omissions. Include every first-party social profile, email, phone number, and WhatsApp link that the accepted official site presents as its own. Put the best-supported organization LinkedIn in companyLinkedin. Put any additional explicitly connected organization profile in supportingLinks instead of discarding it.
+
+Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, confidence. supportingLinks must be an array of objects with string keys url and title. Copy selected URLs and contact strings exactly from observed tool results. Include a contact only when the observed result explicitly presents it as contact information for the selected official site; otherwise omit it. socials, emails, phones, whatsApp, and supportingLinks must always be arrays, using [] when empty. confidence must be exactly "high", "medium", or "low"; use "low" when no URL is selected.`;
 }
 
 function selectionReviewPrompt(known: KnownClient, selection: EnrichmentModelOutput, evidence: readonly WebEvidence[]): string {
@@ -268,7 +310,17 @@ KNOWN CLIENT: ${JSON.stringify(known)}
 FIRST SELECTION: ${JSON.stringify(selection)}
 OBSERVED WEB EVIDENCE: ${JSON.stringify(sources)}
 
-Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, summary, confidence. Copy every selected value exactly from the evidence. The four list fields must be arrays. confidence must be exactly "high", "medium", or "low".`;
+Treat completeness as a required check. Compare the proposed selection against every observed candidate. Do not silently drop an accepted value from the first selection.
+
+Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, confidence. supportingLinks must be an array of objects with string keys url and title. Copy every selected value exactly from the evidence. All list fields must be arrays. confidence must be exactly "high", "medium", or "low".`;
+}
+
+function mergeSupportingLinks(...groups: ReadonlyArray<ReadonlyArray<{ url: string; title: string }>>): Array<{ url: string; title: string }> {
+  const links = new Map<string, { url: string; title: string }>();
+  for (const link of groups.flat()) {
+    if (!links.has(urlKey(link.url))) links.set(urlKey(link.url), link);
+  }
+  return [...links.values()];
 }
 
 function mergeSelections(first: EnrichmentModelOutput, review: EnrichmentModelOutput): EnrichmentModelOutput {
@@ -283,9 +335,77 @@ function mergeSelections(first: EnrichmentModelOutput, review: EnrichmentModelOu
     emails: [...new Set([...first.emails, ...review.emails])],
     phones: [...new Set([...first.phones, ...review.phones])],
     whatsApp: [...new Set([...first.whatsApp, ...review.whatsApp])],
+    supportingLinks: mergeSupportingLinks(first.supportingLinks, review.supportingLinks),
     summary: review.summary || first.summary,
     confidence,
   };
+}
+
+function officialSiteResults(
+  website: string,
+  results: readonly WebSearchResult[],
+): WebSearchResult[] {
+  return results.filter((result) => {
+    const belongsToSite = sameSite(result.url, website) || Boolean(result.fetchedFrom && sameSite(result.fetchedFrom, website));
+    return belongsToSite && (result.source === undefined || result.source === "webfetch");
+  });
+}
+
+function withObservedOfficialContacts(
+  selection: EnrichmentModelOutput,
+  results: readonly WebSearchResult[],
+): EnrichmentModelOutput {
+  if (!selection.website) return selection;
+  const siteText = officialSiteResults(selection.website, results)
+    .map((result) => `${result.title}\n${result.snippet}\n${result.url}`)
+    .join("\n");
+  return {
+    ...selection,
+    emails: [...new Set([...selection.emails, ...emailsMatchingWebsite(extractEmailAddresses(siteText), selection.website)])],
+    phones: [...new Set([...selection.phones, ...extractPhoneNumbers(siteText)])],
+    whatsApp: [...new Set([...selection.whatsApp, ...extractWhatsAppUrls(siteText)])],
+  };
+}
+
+export function completeSelectionFromEvidence(
+  known: KnownClient,
+  selection: EnrichmentModelOutput,
+  evidence: readonly WebEvidence[],
+): EnrichmentModelOutput {
+  const knownWebsite = known.website;
+  const knownSite = knownWebsite
+    ? evidence.find((item) => sameSite(item.url, knownWebsite))?.url || null
+    : null;
+  const website = selection.website || knownSite;
+  const withWebsite = { ...selection, website };
+  if (!website) return withWebsite;
+
+  const outboundSocials = evidence.filter((item) => {
+    return Boolean(item.fetchedFrom && sameSite(item.fetchedFrom, website) && isSocialUrl(item.url));
+  });
+  const knownOrganizations = [known.company, known.product].filter((value): value is string => Boolean(value));
+  const namedOrganizationLinkedIns = evidence.filter((item) => {
+    if (!/linkedin\.com\/company\//i.test(item.url)) return false;
+    const description = `${item.title}\n${item.snippet}`.toLowerCase();
+    return knownOrganizations.some((organization) => description.includes(organization.toLowerCase()));
+  });
+  const companyLinkedIns = [...new Map([...outboundSocials, ...namedOrganizationLinkedIns]
+    .filter((item) => /linkedin\.com\/company\//i.test(item.url))
+    .map((item) => [urlKey(item.url), item])).values()];
+  const companyLinkedin = withWebsite.companyLinkedin || companyLinkedIns[0]?.url || null;
+  const supportingLinks = companyLinkedIns
+    .filter((item) => urlKey(item.url) !== (companyLinkedin ? urlKey(companyLinkedin) : null))
+    .map((item) => ({ url: item.url, title: `${hostOf(website)} LinkedIn` }));
+  const socials = outboundSocials
+    .filter((item) => !/linkedin\.com/i.test(item.url))
+    .map((item) => item.url);
+
+  return withObservedOfficialContacts({
+    ...withWebsite,
+    companyLinkedin,
+    socials: [...new Set([...withWebsite.socials, ...socials])],
+    supportingLinks: mergeSupportingLinks(withWebsite.supportingLinks, supportingLinks),
+  }, evidence);
 }
 
 function verificationPrompt(known: KnownClient, selection: EnrichmentModelOutput, evidence: readonly WebEvidence[], pass: number): string {
@@ -299,12 +419,12 @@ KNOWN CLIENT: ${JSON.stringify(known)}
 PROPOSED SELECTION: ${JSON.stringify(selection)}
 OBSERVED WEB EVIDENCE: ${JSON.stringify(sources)}
 
-Return exactly one JSON object with boolean keys personLinkedin, companyLinkedin, website; socials, emails, phones, and whatsApp arrays containing only accepted proposed values; and a short reason string. Those four fields must always be arrays, using [] when empty. Copy accepted values exactly. Use false for null URL proposals.`;
+Return exactly one JSON object with boolean keys personLinkedin, companyLinkedin, website; socials, emails, phones, whatsApp, and supportingLinks arrays containing only accepted proposed values; and a short reason string. All list fields must always be arrays, using [] when empty. supportingLinks contains accepted proposed URLs, not objects. Copy accepted values exactly. Use false for null URL proposals.`;
 }
 
 export async function researchWebPresence(
   known: KnownClient,
-  options: { timeoutMs?: number; attemptTimeoutMs?: number; verificationPasses?: number } = {},
+  options: { timeoutMs?: number; attemptTimeoutMs?: number; verificationPasses?: number; linkCheckTimeoutMs?: number } = {},
 ): Promise<WebResearch> {
   const queries = buildEnrichmentQueries(known);
   if (!queries.length) return emptyResearch(queries);
@@ -316,12 +436,14 @@ export async function researchWebPresence(
   });
   const firstSelection = parseModelOutput(run.text);
   const evidence = evidenceFromOpenCodeTools(run.tools);
-  const results = evidence.map(({ title, url, snippet }) => ({ title, url, snippet }));
-  let selection = firstSelection;
+  const results = evidence.map(({ title, url, snippet, fetchedFrom, source }) => ({ title, url, snippet, fetchedFrom, source }));
+  const completeFirstSelection = completeSelectionFromEvidence(known, observedModelSelection(firstSelection, results), evidence);
+  let selection = completeFirstSelection;
   try {
-    selection = mergeSelections(firstSelection, parseModelOutput(await runOpenCode({ prompt: selectionReviewPrompt(known, firstSelection, evidence) })));
+    const review = parseModelOutput(await runOpenCode({ prompt: selectionReviewPrompt(known, completeFirstSelection, evidence) }));
+    selection = completeSelectionFromEvidence(known, mergeSelections(completeFirstSelection, review), evidence);
   } catch {
-    selection = firstSelection;
+    selection = completeFirstSelection;
   }
   const observedSelection = observedModelSelection(selection, results);
   const verificationEvidence = retainSelectedEvidence(evidence, selectionForEvidence(observedSelection), 40);
@@ -329,7 +451,10 @@ export async function researchWebPresence(
   const verifications = await Promise.all(Array.from({ length: passes }, async (_, index) => {
     return parseVerification(await runOpenCode({ prompt: verificationPrompt(known, observedSelection, verificationEvidence, index + 1) }));
   }));
-  const resolution = resolveWebPresence(known, results, observedSelection, verifications);
+  const resolution = await verifyPublicLinks(
+    resolveWebPresence(known, results, observedSelection, verifications),
+    Math.max(1_000, options.linkCheckTimeoutMs ?? 8_000),
+  );
   const completedQueries = new Set(run.tools
     .filter((tool) => tool.tool === "websearch" && tool.state.status === "completed")
     .map((tool) => textValue(tool.state.input.query)?.toLowerCase()));
@@ -349,7 +474,7 @@ function emptyResearch(queries: string[]): WebResearch {
 
 export async function enrichClient(
   client: Client,
-  options: { timeoutMs?: number; attemptTimeoutMs?: number; verificationPasses?: number; attempts?: number } = {},
+  options: { timeoutMs?: number; attemptTimeoutMs?: number; verificationPasses?: number; attempts?: number; linkCheckTimeoutMs?: number } = {},
 ): Promise<WebResearch> {
   const attempts = Math.max(1, Math.min(3, options.attempts ?? 2));
   let lastError: unknown;
@@ -382,16 +507,23 @@ export function knownFromClient(client: Client): KnownClient {
 }
 
 export function buildEnrichmentQueries(known: KnownClient): string[] {
-  const organization = textValue(known.company) || textValue(known.product);
+  const organizations = [...new Set(
+    [textValue(known.company), textValue(known.product)]
+      .filter((value): value is string => Boolean(value)),
+  )];
   const site = known.website ? hostOf(known.website) : null;
-  if (!organization && !site) return [];
+  const personAnchor = site || organizations[0] || null;
+  if (!personAnchor && !organizations.length) return [];
   const queries = [
     site,
-    known.name && organization ? `${known.name} ${organization} linkedin` : null,
-    organization ? `${organization} linkedin` : null,
-    site ? `${site} contact` : organization ? `${organization} contact` : null,
+    known.name && personAnchor ? `${known.name} ${personAnchor} linkedin` : null,
+    ...organizations.map((organization) => `${organization} linkedin`),
+    site ? `${site} contact` : organizations[0] ? `${organizations[0]} contact` : null,
   ];
-  return [...new Set(queries.filter((query): query is string => Boolean(query)).map((query) => query.replace(/[®™©]/g, "").replace(/\s+/g, " ").trim()))].slice(0, 4);
+  const normalized = queries
+    .filter((query): query is string => Boolean(query))
+    .map((query) => query.replace(/[®™©]/g, "").replace(/\s+/g, " ").trim());
+  return [...new Set(normalized)].slice(0, 6);
 }
 
 function sameSite(left: string, right: string): boolean {
@@ -417,6 +549,10 @@ function observedModelSelection(model: EnrichmentModelOutput, results: readonly 
     emails: model.emails.filter((value) => observedText(value, results)),
     phones: model.phones.filter((value) => observedText(value, results)),
     whatsApp: model.whatsApp.filter((value) => observedText(value, results)),
+    supportingLinks: model.supportingLinks.flatMap((link) => {
+      const url = observed(link.url);
+      return url ? [{ ...link, url }] : [];
+    }),
   };
 }
 
@@ -427,7 +563,7 @@ function acceptedByEvery(verifications: readonly WebVerification[], field: "pers
 function acceptedValueByEvery(
   value: string,
   verifications: readonly WebVerification[],
-  field: "socials" | "emails" | "phones" | "whatsApp",
+  field: "socials" | "emails" | "phones" | "whatsApp" | "supportingLinks",
   key: (candidate: string) => string,
 ): boolean {
   const expected = key(value);
@@ -474,7 +610,7 @@ export function resolveWebPresence(
   verifications: readonly WebVerification[] = [],
 ): WebPresenceResolution {
   const results = normalizeResults(rawResults);
-  const selection = observedModelSelection({
+  const observedSelection = observedModelSelection({
     personLinkedin: model.personLinkedin || null,
     companyLinkedin: model.companyLinkedin || null,
     website: model.website || null,
@@ -482,9 +618,11 @@ export function resolveWebPresence(
     emails: model.emails || [],
     phones: model.phones || [],
     whatsApp: model.whatsApp || [],
+    supportingLinks: model.supportingLinks || [],
     summary: model.summary || null,
     confidence: model.confidence || "low",
   }, results);
+  const selection = withObservedOfficialContacts(observedSelection, results);
   const resolved = emptyResolution();
   if (selection.personLinkedin && /linkedin\.com\/in\//i.test(selection.personLinkedin) && acceptedByEvery(verifications, "personLinkedin")) {
     resolved.personLinkedIn = selection.personLinkedin;
@@ -498,8 +636,11 @@ export function resolveWebPresence(
   resolved.socials = selection.socials.filter((url) => {
     return isSocialUrl(url) && !/linkedin\.com/i.test(url) && acceptedValueByEvery(url, verifications, "socials", urlKey);
   });
+  resolved.supportingLinks = selection.supportingLinks.filter((link) => {
+    return acceptedValueByEvery(link.url, verifications, "supportingLinks", urlKey);
+  });
   const verifiedSite = resolved.verifiedSite;
-  const siteResults = verifiedSite ? results.filter((result) => sameSite(result.url, verifiedSite)) : [];
+  const siteResults = verifiedSite ? officialSiteResults(verifiedSite, results) : [];
   const siteText = siteResults.map((result) => `${result.title}\n${result.snippet}\n${result.url}`).join("\n");
   const observedEmails = new Set(extractEmailAddresses(siteText));
   const observedPhones = new Set(extractPhoneNumbers(siteText).map((phone) => phone.replace(/\D/g, "")));
@@ -512,10 +653,60 @@ export function resolveWebPresence(
   resolved.emails = contacts.emails;
   resolved.phones = contacts.phones;
   resolved.whatsApp = contacts.whatsApp;
-  if (resolved.personLinkedIn || resolved.companyLinkedIn || resolved.verifiedSite || resolved.socials.length || resolved.emails.length || resolved.phones.length || resolved.whatsApp.length) {
+  if (resolved.personLinkedIn || resolved.companyLinkedIn || resolved.verifiedSite || resolved.socials.length || resolved.emails.length || resolved.phones.length || resolved.whatsApp.length || resolved.supportingLinks.length) {
     resolved.confidence = "medium";
   }
   return resolved;
+}
+
+export function removeDefinitivelyDeadLinks(
+  resolution: WebPresenceResolution,
+  statuses: ReadonlyMap<string, number | null>,
+): WebPresenceResolution {
+  const byUrl = new Map([...statuses].map(([url, status]) => [urlKey(url), status]));
+  const isDead = (url: string | null): boolean => {
+    if (!url) return false;
+    const status = byUrl.get(urlKey(url));
+    return status === 404 || status === 410;
+  };
+  return {
+    ...resolution,
+    personLinkedIn: isDead(resolution.personLinkedIn) ? null : resolution.personLinkedIn,
+    companyLinkedIn: isDead(resolution.companyLinkedIn) ? null : resolution.companyLinkedIn,
+    socials: resolution.socials.filter((url) => !isDead(url)),
+    whatsApp: resolution.whatsApp.filter((url) => !isDead(url)),
+    supportingLinks: resolution.supportingLinks.filter((link) => !isDead(link.url)),
+  };
+}
+
+async function publicLinkStatus(url: string, timeoutMs: number): Promise<number | null> {
+  try {
+    const response = await fetch(url, {
+      headers: { "user-agent": "Mozilla/5.0 (compatible; Upwho link verification)" },
+      redirect: "follow",
+      signal: AbortSignal.timeout(timeoutMs),
+    });
+    await response.body?.cancel();
+    return response.status;
+  } catch {
+    return null;
+  }
+}
+
+async function verifyPublicLinks(
+  resolution: WebPresenceResolution,
+  timeoutMs: number,
+): Promise<WebPresenceResolution> {
+  const urls = [
+    resolution.personLinkedIn,
+    resolution.companyLinkedIn,
+    ...resolution.socials,
+    ...resolution.whatsApp,
+    ...resolution.supportingLinks.map((link) => link.url),
+  ].filter((url): url is string => Boolean(url && isSocialUrl(url)));
+  const uniqueUrls = [...new Set(urls)];
+  const statuses = await Promise.all(uniqueUrls.map(async (url) => ({ url, status: await publicLinkStatus(url, timeoutMs) })));
+  return removeDefinitivelyDeadLinks(resolution, new Map(statuses.map(({ url, status }) => [url, status])));
 }
 
 function toHttpUrl(value: string | null): HttpUrl | null {
@@ -547,7 +738,7 @@ function selectionForEvidence(selection: EnrichmentModelOutput): WebPresenceReso
     emails: [],
     phones: [],
     whatsApp: [],
-    supportingLinks: [],
+    supportingLinks: selection.supportingLinks,
     confidence: "low",
   };
 }

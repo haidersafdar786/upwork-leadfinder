@@ -736,16 +736,30 @@
       }
 
       function linkedInCell(client) {
-        const links = [
-          externalIconLink({ url: client.webPresence?.personLinkedIn, iconName: "linkedin", label: "Open person LinkedIn", className: "linkedin" }),
-          externalIconLink({ url: client.webPresence?.companyLinkedIn, iconName: "linkedin", label: "Open company LinkedIn", className: "linkedin" }),
-        ].filter(Boolean);
+        const candidates = [
+          { url: client.webPresence?.personLinkedIn, label: "Open person LinkedIn" },
+          { url: client.webPresence?.companyLinkedIn, label: "Open company LinkedIn" },
+          ...(client.webPresence?.supportingLinks || [])
+            .filter((link) => hostLabel(link.url).toLowerCase().includes("linkedin.com"))
+            .map((link) => ({ url: link.url, label: link.title || "Open LinkedIn" })),
+        ];
+        const seen = new Set();
+        const links = candidates
+          .filter(({ url }) => {
+            if (!url || seen.has(url)) return false;
+            seen.add(url);
+            return true;
+          })
+          .map(({ url, label }) => externalIconLink({ url, iconName: "linkedin", label, className: "linkedin" }));
         return links.length ? `<div class="contact-icons">${links.join("")}</div>` : `<span class="empty-cell">—</span>`;
       }
 
       function socialCell(client) {
         const whatsApp = new Set(client.webPresence?.whatsApp || []);
-        const urls = [...new Set(client.webPresence?.socials || [])].filter((url) => !whatsApp.has(url));
+        const supporting = (client.webPresence?.supportingLinks || [])
+          .map((link) => link.url)
+          .filter((url) => !hostLabel(url).toLowerCase().includes("linkedin.com"));
+        const urls = [...new Set([...(client.webPresence?.socials || []), ...supporting])].filter((url) => !whatsApp.has(url));
         const links = urls.map((url) => {
           const kind = socialKind(url);
           return externalIconLink({ url, iconName: kind.name, label: `Open ${kind.label}`, className: kind.name });
@@ -765,7 +779,13 @@
       function contactCount(client) {
         const values = contactValues(client);
         const site = client.webPresence?.verifiedSite || (client.identity.kind === "identified" ? client.identity.website : null);
-        return values.emails.length + values.phones.length + values.whatsApp.length + (site ? 1 : 0) + (client.webPresence?.personLinkedIn ? 1 : 0) + (client.webPresence?.companyLinkedIn ? 1 : 0) + (client.webPresence?.socials?.length || 0);
+        const linkedUrls = new Set([
+          client.webPresence?.personLinkedIn,
+          client.webPresence?.companyLinkedIn,
+          ...(client.webPresence?.socials || []),
+          ...(client.webPresence?.supportingLinks || []).map((link) => link.url),
+        ].filter((url) => url && !values.whatsApp.includes(url)));
+        return values.emails.length + values.phones.length + values.whatsApp.length + (site ? 1 : 0) + linkedUrls.size;
       }
 
       function contactCell(client) {

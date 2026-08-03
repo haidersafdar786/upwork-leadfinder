@@ -67,7 +67,10 @@ Each run is `runs/<timestamp>_<feed>/`:
 Accepted public-web results retain their search or fetch evidence in each
 client's `webEvidence` array. Contact details must appear in accepted official-site
 evidence and pass both adversarial verifiers; email domains must also match that
-site. The dashboard shows these web sources alongside Upwork identity evidence.
+site. Company, product, person, and website anchors are searched independently.
+Additional verified organization profiles are retained as supporting links, and
+social URLs that return a definitive 404 or 410 are discarded. The dashboard
+shows these web sources alongside Upwork identity evidence.
 
 There are no locks, resume stages, migrations, or versioned artifacts. A failed
 run starts over.

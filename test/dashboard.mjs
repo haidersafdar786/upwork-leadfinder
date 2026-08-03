@@ -10,6 +10,7 @@ import { graphqlBearerCandidate, newBackgroundPage, selectJobDetailsBearer } fro
 const dashboardHtml = readFileSync(new URL("../dashboard/index.html", import.meta.url), "utf8");
 assert.ok(dashboardHtml.includes('id="icon-youtube"'), "the dashboard should define a YouTube icon");
 assert.ok(dashboardHtml.includes('return { name: "youtube", label: "YouTube" }'), "YouTube links should use the YouTube icon and label");
+assert.ok(dashboardHtml.includes("client.webPresence?.supportingLinks || []"), "the dashboard should render additional verified organization links");
 
 const bearerHeaders = { Authorization: "Bearer scoped-token" };
 assert.equal(graphqlBearerCandidate("https://www.upwork.com/api/graphql/v1?alias=search", bearerHeaders), "Bearer scoped-token");
