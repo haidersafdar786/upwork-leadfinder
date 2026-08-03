@@ -1,5 +1,8 @@
 import assert from "node:assert/strict";
-import { normalizeReviewTitle, pickMatchingReview, reviewTitlesMatch, workHistoryFromRecord } from "../src/reviews.ts";
+import { selectedPublicJobs } from "../src/past-jobs.ts";
+import { applyRecoveredName, normalizeReviewTitle, pickMatchingReview, reviewTitlesMatch, workHistoryFromRecord } from "../src/reviews.ts";
+import { wellFormedJson } from "../src/run-files.ts";
+import { parsePublicJobHtml } from "../src/upwork-browser.ts";
 
 assert.equal(normalizeReviewTitle("Logo + Full Brand Kit"), "logo full brand kit");
 assert.equal(reviewTitlesMatch("Packaging Design", "Packaging Design"), true);
@@ -28,5 +31,50 @@ assert.equal(history[0].reviewed, true);
 assert.equal(history[1].reviewed, false);
 assert.equal(history[0].jobCiphertext, "~01a");
 assert.equal(history[0].freelancerCiphertext, "~01profile");
+
+const recovered = applyRecoveredName(
+  { kind: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, confidence: "unknown", evidenceQuote: null },
+  {
+    clientName: "Alex E.",
+    agreement: 1,
+    viaFreelancer: "Freelancer A",
+    matchedJob: "Reviewed",
+    reviewTitle: "Reviewed",
+    freelancerId: "123",
+    score: 5,
+    otherNames: [],
+  }
+);
+assert.equal(recovered.kind, "identified");
+assert.equal(recovered.name, "Alex E.");
+
+const unsortedPublicHistory = [
+  { ...history[0], title: "Old", jobCiphertext: "~old", access: "PUBLIC_INDEX", startDate: "2023-01-01", endDate: "2023-02-01" },
+  { ...history[0], title: "Latest", jobCiphertext: "~latest", access: "PUBLIC_INDEX", startDate: "2026-01-01", endDate: "2026-02-01" },
+  { ...history[0], title: "Middle", jobCiphertext: "~middle", access: "PUBLIC_INDEX", startDate: "2025-01-01", endDate: "2025-02-01" },
+  { ...history[0], title: "Latest duplicate", jobCiphertext: "~latest", access: "PUBLIC_INDEX", startDate: "2024-01-01", endDate: "2024-02-01" },
+];
+assert.deepEqual(selectedPublicJobs(unsortedPublicHistory, 50).map((job) => job.jobCiphertext), ["~latest", "~middle", "~old"]);
+
+const nuxtValues = [
+  ["ShallowReactive", 1],
+  { vuex: 2 },
+  ["Reactive", 3],
+  { jobDetails: 4 },
+  { job: 5, workHistory: 8 },
+  { description: 6, attachments: 10 },
+  "The real public job description.",
+  "A much longer but unrelated string that must never be selected as the job description.",
+  [9],
+  { feedbackToClient: 7 },
+  [11],
+  { fileName: 12, uri: 13 },
+  "brief.pdf",
+  "/att/download/openings/123/attachments/456/download",
+];
+const publicHtml = `<script type="application/json" id="__NUXT_DATA__">${JSON.stringify(nuxtValues)}</script>`;
+assert.equal(parsePublicJobHtml(publicHtml)?.description, "The real public job description.");
+assert.deepEqual(parsePublicJobHtml(publicHtml)?.attachments, [{ fileName: "brief.pdf", uri: "/att/download/openings/123/attachments/456/download" }]);
+assert.equal(wellFormedJson({ text: `${"x".repeat(20)}\uD83D` }).includes("\\ud83d"), false);
 
 console.log("review checks passed");

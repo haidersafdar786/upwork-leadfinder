@@ -14,6 +14,7 @@ import { enrichClient, emptyWebPresence, evidenceSupportingPresence } from "./en
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
 import {
+  applyRecoveredName,
   recoverClientName,
   workHistoryFromRecord,
   type RecoveredName,
@@ -436,10 +437,10 @@ async function processRecords(
           past.failures.push(error instanceof Error ? error.message : String(error));
         }
 
-        const recordForIdentity = { ...aggregateRecord(clientRecords, past.items), recoveredClientName: recovery?.clientName || null };
+        const recordForIdentity = aggregateRecord(clientRecords, past.items);
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
         const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
-        const identity = identified.identity;
+        const identity = recovery ? applyRecoveredName(identified.identity, recovery) : identified.identity;
 
         const jobs = clientRecords.map((record) => jobModel(record, past.items));
         const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
@@ -461,6 +462,7 @@ async function processRecords(
         checkpoint();
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
         clients.push(client);
+        for (const message of past.failures) failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
         completed++;
         if (publishClients) await report(progress, { kind: "client-completed", client });
       } catch (error) {

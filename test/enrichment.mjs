@@ -159,7 +159,38 @@ const fetchedEvidence = evidenceFromOpenCodeTools([{
     output: "Contact Acme at sales@acme.example. Follow https://social.example/acme and see https://unrelated.example/directory.",
   },
 }]);
-assert.deepEqual(fetchedEvidence.map((item) => item.url), ["https://acme.example/contact"]);
+assert.deepEqual(fetchedEvidence.map((item) => item.url), [
+  "https://acme.example/contact",
+  "https://social.example/acme",
+  "https://unrelated.example/directory",
+]);
+assert.equal(fetchedEvidence[1].fetchedFrom, "https://acme.example/contact");
+
+const linkedSearchEvidence = evidenceFromOpenCodeTools([{
+  tool: "websearch",
+  callID: "search-1",
+  state: {
+    status: "completed",
+    input: { query: "Alex Example Acme Labs linkedin" },
+    output: "Title: Alex Example\nURL: https://www.linkedin.com/in/alex-example\nHighlights:\nFounder - [Acme Labs](https://www.linkedin.com/company/acme-labs)",
+  },
+}]);
+assert.deepEqual(linkedSearchEvidence.map((item) => item.url), [
+  "https://www.linkedin.com/in/alex-example",
+  "https://www.linkedin.com/company/acme-labs",
+]);
+assert.equal(linkedSearchEvidence[1].fetchedFrom, "https://www.linkedin.com/in/alex-example");
+
+const unicodeEvidence = evidenceFromOpenCodeTools([{
+  tool: "websearch",
+  callID: "search-unicode",
+  state: {
+    status: "completed",
+    input: { query: "unicode" },
+    output: `Title: Unicode\nURL: https://example.com/unicode\nHighlights:\n${"x".repeat(499)}🧘`,
+  },
+}]);
+assert.equal(/[\uD800-\uDBFF]$/.test(unicodeEvidence[0].snippet), false);
 
 const evidence = Array.from({ length: 65 }, (_, index) => ({
   title: "Evidence " + index,

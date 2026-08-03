@@ -31,6 +31,10 @@ function timestamp(date: Date): string {
   return `${iso.slice(0, 10)}_${iso.slice(11, 19).replaceAll(":", "")}${iso.slice(20, 23)}`;
 }
 
+export function wellFormedJson(value: unknown): string {
+  return JSON.stringify(value, (_key, item) => typeof item === "string" ? item.toWellFormed() : item, 2);
+}
+
 export async function createRunFolder(selection: FeedSelection, root = "runs", now = new Date()): Promise<string> {
   await mkdir(root, { recursive: true });
   const base = join(root, `${timestamp(now)}_${feedLabel(selection)}`);
@@ -69,13 +73,13 @@ export async function writeRawJobRecord(
     ...(attachmentFailures.length ? { attachmentFailures } : {}),
   };
   const path = join(runDirectory, "data", `${job.id}.json`);
-  await writeFile(path, `${JSON.stringify(record, null, 2)}\n`, "utf8");
+  await writeFile(path, `${wellFormedJson(record)}\n`, "utf8");
   return path;
 }
 
 export async function writeRunResult(runDirectory: string, result: RunResult): Promise<string> {
   const path = join(runDirectory, "result.json");
-  await writeFile(path, `${JSON.stringify(result, null, 2)}\n`, "utf8");
+  await writeFile(path, `${wellFormedJson(result)}\n`, "utf8");
   return path;
 }
 

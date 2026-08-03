@@ -18,30 +18,31 @@ export interface PastJobResearch {
   attempted: number;
 }
 
-function selectedPublicJobs(workHistory: readonly WorkHistoryEntry[], head: number, tail: number): WorkHistoryEntry[] {
+function jobTimestamp(work: WorkHistoryEntry): number {
+  const parsed = Date.parse(work.endDate || work.startDate || "");
+  return Number.isFinite(parsed) ? parsed : Number.NEGATIVE_INFINITY;
+}
+
+export function selectedPublicJobs(workHistory: readonly WorkHistoryEntry[], limit = 50): WorkHistoryEntry[] {
   const seen = new Set<string>();
-  const unique = workHistory.filter((work) => {
+  return [...workHistory].sort((left, right) => jobTimestamp(right) - jobTimestamp(left)).filter((work) => {
     if (work.access !== "PUBLIC_INDEX" || !work.jobCiphertext || seen.has(work.jobCiphertext)) return false;
     seen.add(work.jobCiphertext);
     return true;
-  });
-  const selected = [...unique.slice(0, head), ...unique.slice(-tail)];
-  const picked = new Set<string>();
-  return selected.filter((work) => Boolean(work.jobCiphertext) && !picked.has(work.jobCiphertext || "") && picked.add(work.jobCiphertext || ""));
+  }).slice(0, Math.max(0, limit));
 }
 
 export async function gatherPastJobs(
   page: Page,
   record: unknown,
-  { head = 4, tail = 4, keep = 6, ocrModel = process.env.OPENCODE_OCR_MODEL || null }: { head?: number; tail?: number; keep?: number; ocrModel?: string | null } = {}
+  { limit = 50, ocrModel = process.env.OPENCODE_OCR_MODEL || null }: { limit?: number; ocrModel?: string | null } = {}
 ): Promise<PastJobResearch> {
-  const candidates = selectedPublicJobs(workHistoryFromRecord(record), head, tail);
+  const candidates = selectedPublicJobs(workHistoryFromRecord(record), limit);
   const items: PastJobTextRecord[] = [];
   const failures: string[] = [];
   let attempted = 0;
 
   for (const job of candidates) {
-    if (items.length >= keep) break;
     attempted++;
     const ciphertext = job.jobCiphertext;
     if (!ciphertext) continue;

@@ -40,6 +40,8 @@ export type IdentityModelRunner = (prompt: string) => Promise<string>;
 
 const ANALYST_SYSTEM = `You identify the buyer behind an anonymized Upwork job from supplied evidence.
 
+Read every supplied source before answering. Do not stop after finding one field in the current job: a past job may contain an explicit buyer self-introduction, company, product, or official website that complements the current job.
+
 First classify every apparent name or organization by its relationship to the buyer: buyer-owned identity, buyer person, third party or competitor, technology/vendor, or generic project description. Return claims only from the first two classes.
 
 A job title, product category, industry, role, technology, example, comparison, competitor, inspiration, freelancer name, and search instruction is not the buyer's identity. A named product is valid only when the evidence explicitly says the buyer owns, runs, or is building that named product. A website is valid only when the evidence explicitly presents it as the buyer's own site. If ownership is ambiguous, return null.
@@ -68,12 +70,18 @@ function parseVerification(text: string): IdentityVerification {
   return IdentityVerificationSchema.parse(parseJson(text));
 }
 
-function sourceRecords(signals: IdentitySignals): Array<{ sourceId: string; source: string; label: string; text: string }> {
-  const records: Array<{ sourceId: string; source: string; label: string; text: string }> = [];
-  let remaining = 18_000;
+type ModelSource = { sourceId: string; source: string; label: string; text: string };
+
+function truncate(value: string, limit: number): string {
+  return Array.from(value).slice(0, limit).join("");
+}
+
+function sourceRecords(signals: IdentitySignals): ModelSource[] {
+  const records: ModelSource[] = [];
+  let remaining = 120_000;
   for (const [index, source] of signals.texts.entries()) {
     if (remaining <= 0) break;
-    const text = source.text.slice(0, Math.min(2_500, remaining));
+    const text = truncate(source.text, Math.min(5_000, remaining));
     if (!text) continue;
     records.push({ sourceId: `source-${index + 1}`, source: source.source, label: source.label, text });
     remaining -= text.length;
@@ -118,10 +126,19 @@ SOURCES: ${JSON.stringify(sources)}
 Return exactly one JSON object with boolean keys name, company, product, website, industry, plus a short reason string.`;
 }
 
+function citedSources(proposal: IdentityProposal, sources: readonly ModelSource[]): ModelSource[] {
+  const sourceIds = new Set(Object.values(proposal).flatMap((claim) => {
+    return typeof claim === "object" && claim && "sourceId" in claim ? [claim.sourceId] : [];
+  }));
+  return sources.filter((source) => sourceIds.has(source.sourceId));
+}
+
 function httpUrl(value: string): HttpUrl | null {
   try {
-    const url = new URL(value);
-    return url.protocol === "http:" || url.protocol === "https:" ? value as HttpUrl : null;
+    const candidate = /^https?:\/\//i.test(value) ? value : `https://${value}`;
+    const url = new URL(candidate);
+    if ((url.protocol !== "http:" && url.protocol !== "https:") || !url.hostname || url.username || url.password) return null;
+    return candidate as HttpUrl;
   } catch {
     return null;
   }
@@ -165,38 +182,74 @@ function unknownIdentity(): Identity {
   return { kind: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, confidence: "unknown", evidenceQuote: null };
 }
 
+function mergeIdentities(identities: readonly Extract<Identity, { kind: "identified" }>[]): Identity {
+  if (!identities.length) return unknownIdentity();
+  const agreedValue = <Key extends "name" | "company" | "product" | "website" | "industry">(key: Key): Extract<Identity, { kind: "identified" }>[Key] => {
+    const values = identities.map((identity) => identity[key]).filter(Boolean);
+    const normalized = new Set(values.map((value) => {
+      const text = String(value).trim().toLocaleLowerCase();
+      return key === "website" ? text.replace(/\/+$/, "") : text;
+    }));
+    return (normalized.size === 1 ? values[0] : null) as Extract<Identity, { kind: "identified" }>[Key];
+  };
+  const confidenceRank = { low: 0, medium: 1, high: 2 } as const;
+  const confidence = identities.map((identity) => identity.confidence).sort((left, right) => confidenceRank[right] - confidenceRank[left])[0] || "low";
+  const merged: Extract<Identity, { kind: "identified" }> = {
+    kind: "identified",
+    name: agreedValue("name"),
+    people: [...new Set(identities.flatMap((identity) => identity.people))],
+    company: agreedValue("company"),
+    product: agreedValue("product"),
+    website: agreedValue("website"),
+    industry: agreedValue("industry"),
+    confidence,
+    evidenceQuote: identities.map((identity) => identity.evidenceQuote).find(Boolean) || "",
+  };
+  return merged.name || merged.company || merged.product || merged.website ? merged : unknownIdentity();
+}
+
 async function defaultRunner(prompt: string): Promise<string> {
   return runOpenCode({ prompt });
 }
 
 export async function identifyRecord(
   record: unknown,
-  { useModel = true, runModel = defaultRunner, verificationPasses = 2 }: { useModel?: boolean; runModel?: IdentityModelRunner; verificationPasses?: number } = {},
+  { useModel = true, runModel = defaultRunner, verificationPasses = 2, analystAttempts = 3 }: { useModel?: boolean; runModel?: IdentityModelRunner; verificationPasses?: number; analystAttempts?: number } = {},
 ): Promise<{ identity: Identity; signals: IdentitySignals; error?: string }> {
   const signals = extractIdentitySignals(record);
   if (!useModel) return { identity: unknownIdentity(), signals };
   const sources = sourceRecords(signals);
   if (!sources.length) return { identity: unknownIdentity(), signals };
-  try {
-    const proposal = parseProposal(await runModel(analystPrompt(signals, sources)));
-    const observedProposal: IdentityProposal = {
-      ...proposal,
-      name: claimIsObserved(proposal.name, sources) ? proposal.name : null,
-      company: claimIsObserved(proposal.company, sources) ? proposal.company : null,
-      product: claimIsObserved(proposal.product, sources) ? proposal.product : null,
-      website: claimIsObserved(proposal.website, sources) ? proposal.website : null,
-      industry: claimIsObserved(proposal.industry, sources) ? proposal.industry : null,
-    };
-    if (!observedProposal.name && !observedProposal.company && !observedProposal.product && !observedProposal.website) {
-      return { identity: unknownIdentity(), signals };
+  const attempts = Math.max(1, Math.min(3, analystAttempts));
+  const runAttempt = async (): Promise<{ identity: Extract<Identity, { kind: "identified" }> | null; error?: string }> => {
+    try {
+      const proposal = parseProposal(await runModel(analystPrompt(signals, sources)));
+      const observedProposal: IdentityProposal = {
+        ...proposal,
+        name: claimIsObserved(proposal.name, sources) ? proposal.name : null,
+        company: claimIsObserved(proposal.company, sources) ? proposal.company : null,
+        product: claimIsObserved(proposal.product, sources) ? proposal.product : null,
+        website: claimIsObserved(proposal.website, sources) ? proposal.website : null,
+        industry: claimIsObserved(proposal.industry, sources) ? proposal.industry : null,
+      };
+      if (!observedProposal.name && !observedProposal.company && !observedProposal.product && !observedProposal.website) return { identity: null };
+
+      const passes = Math.max(1, Math.min(3, verificationPasses));
+      const verificationSources = citedSources(observedProposal, sources);
+      const verifications = await Promise.all(Array.from({ length: passes }, async (_, index) => {
+        return parseVerification(await runModel(verifierPrompt(signals, verificationSources, observedProposal, index + 1)));
+      }));
+      const identity = toIdentity(observedProposal, verifications, sources);
+      return { identity: identity.kind === "identified" ? identity : null };
+    } catch (error) {
+      return { identity: null, error: error instanceof Error ? error.message : String(error) };
     }
-    const passes = Math.max(1, Math.min(3, verificationPasses));
-    const verifications: IdentityVerification[] = [];
-    for (let pass = 1; pass <= passes; pass++) {
-      verifications.push(parseVerification(await runModel(verifierPrompt(signals, sources, observedProposal, pass))));
-    }
-    return { identity: toIdentity(observedProposal, verifications, sources), signals };
-  } catch (error) {
-    return { identity: unknownIdentity(), signals, error: error instanceof Error ? error.message : String(error) };
-  }
+  };
+  const outcomes: Awaited<ReturnType<typeof runAttempt>>[] = [];
+  if (runModel === defaultRunner) outcomes.push(...await Promise.all(Array.from({ length: attempts }, runAttempt)));
+  else for (let attempt = 0; attempt < attempts; attempt++) outcomes.push(await runAttempt());
+  const acceptedIdentities = outcomes.flatMap((outcome) => outcome.identity ? [outcome.identity] : []);
+  if (acceptedIdentities.length) return { identity: mergeIdentities(acceptedIdentities), signals };
+  const lastError = outcomes.findLast((outcome) => outcome.error)?.error;
+  return { identity: unknownIdentity(), signals, ...(lastError ? { error: lastError } : {}) };
 }

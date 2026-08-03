@@ -1,4 +1,4 @@
-export type IdentitySource = "description" | "attachment" | "sibling-job" | "past-job" | "review" | "past-title" | "job-title" | "account-name";
+export type IdentitySource = "description" | "attachment" | "sibling-job" | "past-job" | "review" | "past-title" | "job-title";
 
 export interface IdentityText {
   source: IdentitySource;
@@ -63,8 +63,6 @@ function collectTexts(record: Record<string, unknown>): { title: string; descrip
   const description = stringValue(job.description) || stringValue(record.description);
   add(sourceText("job-title", "current job title", title));
   add(sourceText("description", "current job description", description));
-  add(sourceText("account-name", "matched Upwork client account name", record.recoveredClientName));
-
   for (const attachment of arrayRecords(record.attachmentsText)) {
     add(sourceText("attachment", stringValue(attachment.fileName) || "attachment", attachment.text));
   }

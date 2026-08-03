@@ -1,10 +1,15 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { chromium } from "playwright";
 import { currentCancellationSignal } from "../src/cancellation.ts";
 import { clientHistoryFromRecord } from "../src/client-history.ts";
 import { createDashboardServer } from "../src/dashboard.ts";
 import { mergeRerunResult } from "../src/run.ts";
 import { newBackgroundPage } from "../src/upwork-browser.ts";
+
+const dashboardHtml = readFileSync(new URL("../dashboard/index.html", import.meta.url), "utf8");
+assert.ok(dashboardHtml.includes('id="icon-youtube"'), "the dashboard should define a YouTube icon");
+assert.ok(dashboardHtml.includes('return { name: "youtube", label: "YouTube" }'), "YouTube links should use the YouTube icon and label");
 
 const previousRun = {
   runId: "source-run",

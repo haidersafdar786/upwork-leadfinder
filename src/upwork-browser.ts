@@ -10,7 +10,7 @@ import type { FeedJob, FeedSelection, HttpUrl, IsoDate, JobId } from "./types.ts
 
 const execFileAsync = promisify(execFile);
 const UPWORK_ORIGINS = new Set(["upwork.com", "www.upwork.com"]);
-const DETAIL_REQUEST = "get-auth-job-details-v2";
+const GRAPHQL_REQUEST = "/api/graphql/";
 const DETAIL_QUERY = readFileSync(new URL("./graphql/detail-query.graphql", import.meta.url), "utf8");
 export const UPWORK_TENANT_ID = "1538018989781975041";
 const DEFAULT_CDP_URL = "http://127.0.0.1:9222";
@@ -300,13 +300,10 @@ function bearerFromHeaders(headers: Record<string, string>): string | null {
   return /^bearer\s+\S+$/i.test(authorization) ? authorization : null;
 }
 
-async function clickTilesUntilToken(page: Page, token: () => string | null): Promise<void> {
-  const links = page.locator("h3.job-tile-title a");
-  const count = Math.min(await links.count(), 6);
-  for (let index = 0; index < count && !token(); index++) {
-    const link = links.nth(index);
-    await link.evaluate((element) => element.setAttribute("target", "_self")).catch(() => {});
-    await link.click({ timeout: 5_000 }).catch(() => {});
+async function navigateUntilDetailToken(page: Page, jobs: readonly FeedJob[], token: () => string | null): Promise<void> {
+  for (const job of jobs.slice(0, 3)) {
+    if (token()) return;
+    await page.goto(job.url, { waitUntil: "domcontentloaded", timeout: FEED_WAIT_MS }).catch(() => {});
     for (let attempt = 0; attempt < 32 && !token(); attempt++) await page.waitForTimeout(250);
   }
 }
@@ -491,7 +488,7 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
   let detailToken: string | null = null;
   const pendingHeaderReads = new Set<Promise<void>>();
   const captureRequest = (request: { url(): string; headers(): Record<string, string>; allHeaders(): Promise<Record<string, string>> }) => {
-    if (!request.url().includes(DETAIL_REQUEST) || detailToken) return;
+    if (!request.url().includes(GRAPHQL_REQUEST) || detailToken) return;
     detailToken = bearerFromHeaders(request.headers());
     if (detailToken) return;
     const read = request.allHeaders().then((headers) => {
@@ -508,14 +505,9 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     page = await newBackgroundPage(browser, context, selection.url);
     page.on("request", captureRequest);
     const loaded = await loadFeed(page, feedKey, selection);
-    await clickTilesUntilToken(page, () => detailToken);
-    if (!detailToken && feedKey !== "best-matches") {
-      const fallbackSelection = selectionFor("best-matches", undefined);
-      await loadFeed(page, "best-matches", fallbackSelection);
-      await clickTilesUntilToken(page, () => detailToken);
-    }
+    await navigateUntilDetailToken(page, loaded.jobs, () => detailToken);
     await Promise.allSettled([...pendingHeaderReads]);
-    if (!detailToken) throw new Error("The feed loaded, but Upwork did not expose a job-details bearer token through the clicked job tile");
+    if (!detailToken) throw new Error("The feed loaded, but Upwork did not expose a GraphQL bearer token in the background tab");
     return { browser, page, browserName: await browserName(), selection, ...loaded, token: detailToken };
   } catch (error) {
     await page?.close().catch(() => {});
@@ -591,16 +583,24 @@ export interface PublicJob {
   attachments: PublicJobAttachment[];
 }
 
-function parsePublicJobHtml(html: string): PublicJob | null {
-  if (!html.includes("__NUXT_DATA__")) return null;
-  const attachments: PublicJobAttachment[] = [];
-  const attachmentPattern = /href="(\/att\/download\/[^\"]+)"[^>]*>(?:<!--[^>]*-->)*\s*([^<(]{1,140}?)\s*\(/g;
-  for (const match of html.matchAll(attachmentPattern)) {
-    const uri = match[1]?.trim();
-    const fileName = match[2]?.trim();
-    if (uri && fileName) attachments.push({ uri, fileName });
+function dereferenceNuxt(values: unknown[], reference: unknown): unknown {
+  let value = reference;
+  const visited = new Set<number>();
+  while (typeof value === "number" && Number.isInteger(value) && value >= 0 && value < values.length && !visited.has(value)) {
+    visited.add(value);
+    value = values[value];
+    if (Array.isArray(value) && (value[0] === "Reactive" || value[0] === "ShallowReactive")) value = value[1];
   }
+  return value;
+}
 
+function nuxtProperty(values: unknown[], value: unknown, key: string): unknown {
+  const object = objectValue(dereferenceNuxt(values, value));
+  return object ? dereferenceNuxt(values, object[key]) : null;
+}
+
+export function parsePublicJobHtml(html: string): PublicJob | null {
+  if (!html.includes("__NUXT_DATA__")) return null;
   const script = html.match(/id="__NUXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
   if (!script?.[1]) return null;
   let values: unknown;
@@ -609,10 +609,21 @@ function parsePublicJobHtml(html: string): PublicJob | null {
   } catch (error) {
     throw new Error("Public job Nuxt state was not valid JSON", { cause: error });
   }
-  const description = Array.isArray(values)
-    ? values.filter((value): value is string => typeof value === "string" && /\s/.test(value)).sort((left, right) => right.length - left.length)[0] || ""
-    : "";
-  return { description: description.slice(0, 5_000), attachments };
+  if (!Array.isArray(values)) return null;
+  const root = dereferenceNuxt(values, 0);
+  const vuex = nuxtProperty(values, root, "vuex");
+  const jobDetails = nuxtProperty(values, vuex, "jobDetails");
+  const job = nuxtProperty(values, jobDetails, "job");
+  const description = nuxtProperty(values, job, "description");
+  if (typeof description !== "string") return null;
+  const rawAttachments = nuxtProperty(values, job, "attachments");
+  const attachments = Array.isArray(rawAttachments) ? rawAttachments.flatMap((reference): PublicJobAttachment[] => {
+    const attachment = dereferenceNuxt(values, reference);
+    const fileName = textValue(nuxtProperty(values, attachment, "fileName"));
+    const uri = textValue(nuxtProperty(values, attachment, "uri"));
+    return fileName && uri ? [{ fileName, uri }] : [];
+  }) : [];
+  return { description: Array.from(description).slice(0, 5_000).join(""), attachments };
 }
 
 export async function fetchPublicJob(page: Page, ciphertext: string): Promise<PublicJob | null> {

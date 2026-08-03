@@ -35,6 +35,68 @@ assert.equal(accepted.identity.kind, "identified");
 assert.equal(accepted.identity.company, "Newlane University");
 assert.equal(accepted.identity.industry, "online university");
 
+const bareDomain = await identifyRecord({
+  title: "CRM developer",
+  description: "Our company, Northstar Advisory, helps homeowners. Visit northstar-advisory.example to understand our business.",
+}, {
+  runModel: runner([
+    {
+      name: null,
+      company: { value: "Northstar Advisory", sourceId: "source-2", quote: "Our company, Northstar Advisory, helps homeowners" },
+      product: null,
+      website: { value: "northstar-advisory.example", sourceId: "source-2", quote: "Visit northstar-advisory.example to understand our business" },
+      industry: null,
+      confidence: "high",
+    },
+    { name: false, company: true, product: false, website: true, industry: false, reason: "Explicit company and business website." },
+    { name: false, company: true, product: false, website: true, industry: false, reason: "Both claims are explicit." },
+  ]),
+});
+assert.equal(bareDomain.identity.kind, "identified");
+assert.equal(bareDomain.identity.website, "https://northstar-advisory.example");
+
+const retriedAnalyst = await identifyRecord(namedRecord, {
+  analystAttempts: 2,
+  runModel: runner([
+    { name: null, company: null, product: null, website: null, industry: null, confidence: "low" },
+    {
+      name: null,
+      company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      product: null,
+      website: null,
+      industry: null,
+      confidence: "high",
+    },
+    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
+    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
+  ]),
+});
+assert.equal(retriedAnalyst.identity.company, "Newlane University");
+
+const complementaryAnalysts = await identifyRecord({
+  title: "Platform engineer",
+  description: "I am Alex Example, founder of Acme Labs.",
+}, {
+  analystAttempts: 2,
+  runModel: runner([
+    {
+      name: { value: "Alex Example", sourceId: "source-2", quote: "I am Alex Example" },
+      company: null, product: null, website: null, industry: null, confidence: "high",
+    },
+    { name: true, company: false, product: false, website: false, industry: false, reason: "Explicit person." },
+    { name: true, company: false, product: false, website: false, industry: false, reason: "Explicit person." },
+    {
+      name: null,
+      company: { value: "Acme Labs", sourceId: "source-2", quote: "founder of Acme Labs" },
+      product: null, website: null, industry: null, confidence: "high",
+    },
+    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
+    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
+  ]),
+});
+assert.equal(complementaryAnalysts.identity.name, "Alex Example");
+assert.equal(complementaryAnalysts.identity.company, "Acme Labs");
+
 const genericRecord = {
   title: "Full-Stack AI Developer for Document Intelligence Web App",
   description: "Project brief for an AI assistant for solar and electrical installers.",
