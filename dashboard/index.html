@@ -912,13 +912,17 @@
 
       function evidencePanel(client) {
         const items = evidenceItems(client);
-        const body = items.length ? items.map(({ item, text }) => {
+        const identityBody = items.map(({ item, text }) => {
           const label = evidenceLabel(item);
           const sourceUrl = evidenceSourceUrl(client, item);
           if (sourceUrl) return `<a class="evidence-item evidence-item-link" href="${escapeAttribute(sourceUrl)}" target="_blank" rel="noreferrer" aria-label="Open source evidence on Upwork: ${escapeAttribute(label)}"><span class="evidence-source">${escapeHtml(label)}</span><p class="evidence-text">${escapeHtml(text)}</p>${icon("external", "icon-sm source-link-icon")}</a>`;
           return `<article class="evidence-item"><span class="evidence-source">${escapeHtml(label)}</span><p class="evidence-text">${escapeHtml(text)}</p></article>`;
-        }).join("") : `<p class="evidence-text">No identity evidence found.</p>`;
-        return `<tr class="evidence-row"><td colspan="9"><div class="evidence-panel"><div class="evidence-panel-head"><h2>Evidence for ${escapeHtml(identityPrimary(client))}</h2><span class="evidence-count">${items.length} source${items.length === 1 ? "" : "s"}</span></div><div class="evidence-list">${body}</div></div></td></tr>`;
+        }).join("");
+        const webItems = client.webEvidence || [];
+        const webBody = webItems.map((item) => `<a class="evidence-item evidence-item-link" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer" aria-label="Open public web evidence from ${escapeAttribute(hostLabel(item.url))}"><span class="evidence-source">Web · ${escapeHtml(hostLabel(item.url))}</span><p class="evidence-text">${escapeHtml(shortenEvidence(item.snippet || item.title))}</p>${icon("external", "icon-sm source-link-icon")}</a>`).join("");
+        const count = items.length + webItems.length;
+        const body = identityBody + webBody || `<p class="evidence-text">No identity or web evidence found.</p>`;
+        return `<tr class="evidence-row"><td colspan="9"><div class="evidence-panel"><div class="evidence-panel-head"><h2>Evidence for ${escapeHtml(identityPrimary(client))}</h2><span class="evidence-count">${count} source${count === 1 ? "" : "s"}</span></div><div class="evidence-list">${body}</div></div></td></tr>`;
       }
 
       function render(result) {

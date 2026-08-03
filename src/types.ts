@@ -155,6 +155,15 @@ export interface SupportingLink {
   title: string;
 }
 
+export interface PublicWebEvidence {
+  title: string;
+  url: HttpUrl;
+  snippet: string;
+  source: "websearch" | "webfetch";
+  query: string | null;
+  fetchedFrom: HttpUrl | null;
+}
+
 export interface ContactDetails {
   emails: EmailAddress[];
   phones: PhoneNumber[];
@@ -176,6 +185,7 @@ export interface Client {
   evidence: Evidence[];
   identity: Identity;
   webPresence: WebPresence;
+  webEvidence: PublicWebEvidence[];
 }
 
 export interface ClientHistory {

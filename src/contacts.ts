@@ -35,21 +35,25 @@ function isDateOrNumberSequence(value: string): boolean {
   return groups.length >= 5 && groups.every((group) => /^\d{1,2}$/.test(group));
 }
 
-function hasPhoneContext(value: string, start: number, length: number): boolean {
-  const nearby = value.slice(Math.max(0, start - 32), Math.min(value.length, start + length + 20));
-  return /\b(?:call|cell|contact|mobile|phone|tel(?:ephone)?|whats\s*app)\b/i.test(nearby);
+function hasLocalPhoneSyntax(value: string): boolean {
+  return /\(\d{2,4}\)/.test(value) || /(?:\d{2,4}[.-]){2,3}\d{2,4}/.test(value);
 }
 
 export function extractPhoneNumbers(value: string): PhoneNumber[] {
   const withoutUrls = value.replace(/https?:\/\/\S+/gi, " ");
   const valid = [...withoutUrls.matchAll(PHONE_PATTERN)].flatMap((match) => {
     const candidate = match[0];
-    const cleaned = candidate.trim().replace(/\s+/g, " ");
+    let cleaned = candidate.trim().replace(/\s+/g, " ");
+    const opening = (cleaned.match(/\(/g) || []).length;
+    const closing = (cleaned.match(/\)/g) || []).length;
+    if (opening !== closing) return [];
+    const parenthesis = cleaned.indexOf("(");
+    if (parenthesis > 0 && /^\d{2,6}\s+$/.test(cleaned.slice(0, parenthesis))) cleaned = cleaned.slice(parenthesis);
+    cleaned = cleaned.replace(/^((?:\d{3}[.-]){2}\d{4})\s+\d{2,5}$/, "$1");
     const digits = cleaned.replace(/\D/g, "");
-    const hasDialingSyntax = cleaned.startsWith("+") || cleaned.includes("(");
-    const start = match.index || 0;
+    const hasDialingSyntax = cleaned.startsWith("+");
     if (digits.length < 7 || digits.length > 15 || isDateOrNumberSequence(cleaned)) return [];
-    if (!hasDialingSyntax && (digits.length < 10 || !hasPhoneContext(withoutUrls, start, candidate.length))) return [];
+    if (!hasDialingSyntax && (digits.length < 10 || !hasLocalPhoneSyntax(cleaned))) return [];
     return [cleaned as PhoneNumber];
   });
   return uniqueBy(valid, (phone) => phone.replace(/\D/g, ""));
@@ -84,9 +88,14 @@ export function mergeContactDetails(...details: readonly ContactDetails[]): Cont
   };
 }
 
-export function emailsMatchingWebsite(emails: readonly EmailAddress[], website: HttpUrl | null): EmailAddress[] {
+export function emailsMatchingWebsite(emails: readonly EmailAddress[], website: string | null): EmailAddress[] {
   if (!website) return [];
-  const siteHost = new URL(website).hostname.replace(/^www\./, "").toLowerCase();
+  let siteHost: string;
+  try {
+    siteHost = new URL(website.startsWith("http://") || website.startsWith("https://") ? website : `https://${website}`).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return [];
+  }
   return emails.filter((email) => {
     const domain = email.split("@")[1]?.toLowerCase();
     return Boolean(domain && (domain === siteHost || domain.endsWith("." + siteHost) || siteHost.endsWith("." + domain)));

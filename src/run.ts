@@ -8,14 +8,12 @@ import {
   type AttachmentFailureRecord,
   type AttachmentTextRecord,
 } from "./attachments.ts";
-import { emailsMatchingWebsite, mergeContactDetails } from "./contacts.ts";
 import { clientHistoryFromRecord } from "./client-history.ts";
 import { checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
-import { enrichClient, emptyWebPresence } from "./enrichment.ts";
+import { enrichClient, emptyWebPresence, evidenceSupportingPresence } from "./enrichment.ts";
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
 import {
-  applyRecoveredName,
   recoverClientName,
   workHistoryFromRecord,
   type RecoveredName,
@@ -429,46 +427,36 @@ async function processRecords(
           rethrowCancellation(error);
           past.failures.push(error instanceof Error ? error.message : String(error));
         }
-        const recordForIdentity = aggregateRecord(clientRecords, past.items);
-
-        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
-        const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
-        let identity = identified.identity;
-
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
         let recovery: RecoveredName | null = null;
         try {
-          recovery = (await recoverClientName(page, workHistoryFromRecord(recordForIdentity))).match;
-          if (recovery) identity = applyRecoveredName(identity, recovery);
+          recovery = (await recoverClientName(page, workHistoryFromRecord(aggregate))).match;
         } catch (error) {
           rethrowCancellation(error);
           past.failures.push(error instanceof Error ? error.message : String(error));
         }
 
+        const recordForIdentity = { ...aggregateRecord(clientRecords, past.items), recoveredClientName: recovery?.clientName || null };
+        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
+        const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
+        const identity = identified.identity;
+
         const jobs = clientRecords.map((record) => jobModel(record, past.items));
         const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
         const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
-        const client: Client = { buyerId: buyer, jobs, history, evidence, identity, webPresence: emptyWebPresence() };
+        const client: Client = { buyerId: buyer, jobs, history, evidence, identity, webPresence: emptyWebPresence(), webEvidence: [] };
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
         const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
         try {
-          const presence = (await enrichClient(client)).presence;
+          const research = await enrichClient(client);
+          const presence = research.presence;
           const verifiedSite = presence.verifiedSite || evidenceBackedWebsite;
-          const contacts = mergeContactDetails(presence, {
-            emails: emailsMatchingWebsite(identified.signals.emails, verifiedSite),
-            phones: [],
-            whatsApp: identified.signals.whatsApp,
-          });
-          client.webPresence = { ...presence, ...contacts, verifiedSite };
+          client.webPresence = { ...presence, verifiedSite };
+          client.webEvidence = evidenceSupportingPresence(research.evidence, client.webPresence);
         } catch (error) {
           rethrowCancellation(error);
           past.failures.push(error instanceof Error ? error.message : String(error));
-          const contacts = mergeContactDetails(client.webPresence, {
-            emails: emailsMatchingWebsite(identified.signals.emails, evidenceBackedWebsite),
-            phones: [],
-            whatsApp: identified.signals.whatsApp,
-          });
-          client.webPresence = { ...client.webPresence, ...contacts, verifiedSite: evidenceBackedWebsite };
+          client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
         }
         checkpoint();
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });

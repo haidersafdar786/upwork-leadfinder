@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { applyRecoveredName, normalizeReviewTitle, pickMatchingReview, reviewTitlesMatch, workHistoryFromRecord } from "../src/reviews.ts";
+import { normalizeReviewTitle, pickMatchingReview, reviewTitlesMatch, workHistoryFromRecord } from "../src/reviews.ts";
 
 assert.equal(normalizeReviewTitle("Logo + Full Brand Kit"), "logo full brand kit");
 assert.equal(reviewTitlesMatch("Packaging Design", "Packaging Design"), true);
@@ -28,22 +28,5 @@ assert.equal(history[0].reviewed, true);
 assert.equal(history[1].reviewed, false);
 assert.equal(history[0].jobCiphertext, "~01a");
 assert.equal(history[0].freelancerCiphertext, "~01profile");
-
-const identity = applyRecoveredName(
-  { kind: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, confidence: "unknown", evidenceQuote: null },
-  {
-    clientName: "A. Client",
-    agreement: 2,
-    viaFreelancer: "Freelancer A",
-    matchedJob: "Reviewed",
-    reviewTitle: "Reviewed",
-    freelancerId: "123",
-    score: 5,
-    otherNames: [],
-  }
-);
-assert.equal(identity.kind, "identified");
-assert.equal(identity.name, "A. Client");
-assert.equal(identity.evidenceQuote, "A. Client");
 
 console.log("review checks passed");

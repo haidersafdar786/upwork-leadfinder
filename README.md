@@ -33,11 +33,16 @@ Philippines, and Ukraine. Override it with a comma-separated `--countries`
 value; pass an empty value to disable it. Existing job IDs are skipped across
 runs unless `--force` is supplied.
 
-`--no-model` keeps identity extraction deterministic for a local diagnostic.
-Normal runs use the OpenCode identity and web-research calls. Model calls have a
-per-attempt timeout, an overall budget, one retry, and a shared concurrency
-permit. They run in disposable directories with shell, filesystem, and task
-tools denied.
+`--no-model` skips identity claims and web enrichment for a safe collection-only
+diagnostic. Normal runs use an OpenCode analyst followed by two separate
+adversarial verification passes for identity and public-web matches. A claim is
+stored only when every verifier accepts it and its exact quote or URL exists in
+the observed source data. Disagreement, invalid output, and model failure produce
+an empty field instead of a deterministic guess.
+
+Model calls have a per-attempt timeout, an overall budget, one retry, and a
+shared concurrency permit. They run in disposable directories with shell,
+filesystem, and task tools denied.
 
 ## Dashboard
 
@@ -58,26 +63,30 @@ Each run is `runs/<timestamp>_<feed>/`:
   attachment text, and attachment failures.
 - `result.json` contains the final client-level result.
 
+Accepted public-web results retain their search or fetch evidence in each
+client's `webEvidence` array. Contact details must appear in accepted official-site
+evidence and pass both adversarial verifiers; email domains must also match that
+site. The dashboard shows these web sources alongside Upwork identity evidence.
+
 There are no locks, resume stages, migrations, or versioned artifacts. A failed
 run starts over.
 
 ## Checks
 
 ```sh
-npm run check
-npm run test:identity
-npm run test:reviews
-npm run test:enrichment
+npm test
 npm run cli -- --help
 ```
 
 The saved fixtures include the old implementation's 100 identity records and
-six web-enrichment cases. The old repository remains read-only reference data;
-its implementation is not imported.
+six web-enrichment cases. Regression tests exercise analyst/verifier agreement,
+exact evidence provenance, ambiguous matches, competitor references, and contact
+source restrictions. The old repository remains read-only reference data; its
+implementation is not imported.
 
 ## Dependencies
 
 Playwright pays for cross-platform Chromium CDP control and page-context HTTP.
-Zod is used only at the two untrusted model-output boundaries: identity and
+Zod validates every untrusted analyst and verifier response for identity and
 enrichment. Node's standard library handles the CLI, server, persistence,
 attachment parsing, and concurrency.

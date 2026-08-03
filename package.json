@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "npm run check && npm run test:identity && npm run test:reviews && npm run test:enrichment && npm run test:dashboard",
     "check": "npm run check:types && npm run check:runtime",
     "check:types": "tsc -p tsconfig.json",
     "check:runtime": "node --experimental-strip-types src/job-replay.ts",

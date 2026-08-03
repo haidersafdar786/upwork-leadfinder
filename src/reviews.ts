@@ -1,6 +1,5 @@
 import { readFileSync } from "node:fs";
 import type { Page, Request } from "playwright";
-import type { Identity } from "./types.ts";
 import { UPWORK_TENANT_ID } from "./upwork-browser.ts";
 
 const FEEDBACKS_QUERY = readFileSync(new URL("./graphql/feedbacks-query.graphql", import.meta.url), "utf8");
@@ -313,23 +312,5 @@ export async function recoverClientName(
     attempted,
     succeeded,
     failures,
-  };
-}
-
-export function applyRecoveredName(identity: Identity, match: RecoveredName): Identity {
-  const people = [...new Set([match.clientName, ...identity.people])];
-  if (identity.kind === "identified") {
-    return { ...identity, name: match.clientName, people, evidenceQuote: match.clientName };
-  }
-  return {
-    kind: "identified",
-    name: match.clientName,
-    people,
-    company: null,
-    product: null,
-    website: null,
-    industry: null,
-    confidence: "medium",
-    evidenceQuote: match.clientName,
   };
 }
