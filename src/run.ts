@@ -75,6 +75,24 @@ export interface RunFailure {
   message: string;
 }
 
+interface JobFetchFailure extends RunFailure {
+  jobId: JobId;
+}
+
+export function detailFetchFailure({
+  selectedJobs,
+  fetchedRecords,
+  failures,
+}: {
+  selectedJobs: number;
+  fetchedRecords: number;
+  failures: readonly RunFailure[];
+}): Error | null {
+  if (selectedJobs === 0 || fetchedRecords > 0) return null;
+  const firstError = failures[0]?.message;
+  return new Error(`All ${selectedJobs} selected job detail requests failed.${firstError ? ` First error: ${firstError}` : ""}`);
+}
+
 export interface RunExecution {
   runDirectory: string;
   result: RunResult;
@@ -350,10 +368,10 @@ async function processedJobIds(root: string): Promise<Set<string>> {
   return ids;
 }
 
-async function fetchRecords(session: FeedSession, jobs: readonly FeedJob[], runDirectory: string, concurrency: number): Promise<{ records: LoadedRecord[]; failures: RunFailure[] }> {
+async function fetchRecords(session: FeedSession, jobs: readonly FeedJob[], runDirectory: string, concurrency: number): Promise<{ records: LoadedRecord[]; failures: JobFetchFailure[] }> {
   const rawById = new Map(session.jobs.map((job, index) => [job.id, session.rawJobs[index]]));
   const records: LoadedRecord[] = [];
-  const failures: RunFailure[] = [];
+  const failures: JobFetchFailure[] = [];
   let next = 0;
   const worker = async () => {
     while (true) {
@@ -546,6 +564,11 @@ export async function runOnce(
     }
     if (requested && !selected.length) throw new Error("None of the requested job IDs were present and eligible in the feed");
     const fetched = await fetchRecords(session, selected, runDirectory, options.detailConcurrency || 4);
+    for (const failure of fetched.failures) {
+      await report(progress, { kind: "job-failed", jobId: failure.jobId, message: failure.message });
+    }
+    const fetchFailure = detailFetchFailure({ selectedJobs: selected.length, fetchedRecords: fetched.records.length, failures: fetched.failures });
+    if (fetchFailure) throw fetchFailure;
     const processedClients = await processRecords(session, runDirectory, fetched.records, options, progress);
     if (options.onlyBuyerId && !processedClients.clients.length) throw new Error(`Buyer ${options.onlyBuyerId} was not found in the selected feed`);
     const completedAt = new Date().toISOString() as IsoDate;

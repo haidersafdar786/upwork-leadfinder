@@ -208,6 +208,7 @@ export type ClientPhase = "gather-evidence" | "identify" | "recover-name" | "enr
 export type ProgressEvent =
   | { kind: "feed-loaded"; feed: FeedSelection; jobCount: number }
   | { kind: "job-skipped"; jobId: JobId; reason: "country" | "processed" }
+  | { kind: "job-failed"; jobId: JobId; message: string }
   | {
       kind: "client-progress";
       buyerId: BuyerId;

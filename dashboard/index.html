@@ -1054,6 +1054,7 @@
       function lineForEvent(event) {
         if (event.kind === "feed-loaded") return `Feed loaded · ${event.jobCount} jobs`;
         if (event.kind === "job-skipped") return `Skipped ${event.jobId} · ${event.reason}`;
+        if (event.kind === "job-failed") return `Failed ${event.jobId} · ${event.message}`;
         if (event.kind === "client-progress") return `${event.phase} · ${event.completedClients}/${event.totalClients}`;
         if (event.kind === "client-completed") return `Completed ${identityPrimary(event.client)}`;
         if (event.kind === "client-failed") return `Failed ${event.buyerId} · ${event.message}`;
@@ -1077,9 +1078,9 @@
             clients.push(event.client);
             render({ ...(currentResult || {}), feed: runFeed || { kind: $("feed").value }, clients });
           }
-          if (event.kind === "client-failed") {
+          if (event.kind === "job-failed" || event.kind === "client-failed") {
             runHadFailures = true;
-            runFailures.push(`${event.buyerId} · ${event.message}`);
+            runFailures.push(`${event.kind === "job-failed" ? event.jobId : event.buyerId} · ${event.message}`);
             setStatus("Run continuing with an error", "error");
           }
           if (event.kind === "run-completed") {
@@ -1092,7 +1093,7 @@
             const completedStatus = activeRunKind === "rerun" ? "Client updated" : "Run complete";
             setStatus(runHadFailures ? `${completedStatus} with errors` : completedStatus, runHadFailures ? "error" : "");
             $("run-meta").textContent = `${feedLabel(event.result.feed.kind)} · ${event.result.clients.length} clients`;
-            $("progress-summary").textContent = runHadFailures ? `${runFailures.length} client${runFailures.length === 1 ? "" : "s"} failed · details` : "Run details";
+            $("progress-summary").textContent = runHadFailures ? `${runFailures.length} failure${runFailures.length === 1 ? "" : "s"} · details` : "Run details";
             $("failure-recovery").hidden = !runHadFailures;
             $("run-progress").hidden = !runHadFailures;
             loadRuns().catch((error) => log(error.message));

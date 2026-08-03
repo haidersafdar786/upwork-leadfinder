@@ -10,7 +10,7 @@ import type { FeedJob, FeedSelection, HttpUrl, IsoDate, JobId } from "./types.ts
 
 const execFileAsync = promisify(execFile);
 const UPWORK_ORIGINS = new Set(["upwork.com", "www.upwork.com"]);
-const GRAPHQL_REQUEST = "/api/graphql/";
+const DETAIL_QUERY_ALIAS = "gql-query-get-auth-job-details-v2";
 const DETAIL_QUERY = readFileSync(new URL("./graphql/detail-query.graphql", import.meta.url), "utf8");
 export const UPWORK_TENANT_ID = "1538018989781975041";
 const DEFAULT_CDP_URL = "http://127.0.0.1:9222";
@@ -300,12 +300,27 @@ function bearerFromHeaders(headers: Record<string, string>): string | null {
   return /^bearer\s+\S+$/i.test(authorization) ? authorization : null;
 }
 
-async function navigateUntilDetailToken(page: Page, jobs: readonly FeedJob[], token: () => string | null): Promise<void> {
-  for (const job of jobs.slice(0, 3)) {
-    if (token()) return;
-    await page.goto(job.url, { waitUntil: "domcontentloaded", timeout: FEED_WAIT_MS }).catch(() => {});
-    for (let attempt = 0; attempt < 32 && !token(); attempt++) await page.waitForTimeout(250);
+function isUpworkGraphqlRequest(url: string): boolean {
+  try {
+    const requestUrl = new URL(url);
+    return UPWORK_ORIGINS.has(requestUrl.hostname) && requestUrl.pathname.startsWith("/api/graphql/");
+  } catch {
+    return false;
   }
+}
+
+export function graphqlBearerCandidate(url: string, headers: Record<string, string>): string | null {
+  return isUpworkGraphqlRequest(url) ? bearerFromHeaders(headers) : null;
+}
+
+export async function selectJobDetailsBearer(
+  candidates: readonly string[],
+  canFetchDetails: (candidate: string) => Promise<boolean>,
+): Promise<string | null> {
+  for (const candidate of candidates) {
+    if (await canFetchDetails(candidate)) return candidate;
+  }
+  return null;
 }
 
 async function defaultBrowser(platform: ReturnType<typeof osPlatform> = osPlatform()): Promise<{ id: string | null; name: string; chromium: boolean }> {
@@ -485,14 +500,18 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
   const cancel = () => { void browser.close().catch(() => {}); };
   signal?.addEventListener("abort", cancel, { once: true });
   if (signal?.aborted) cancel();
-  let detailToken: string | null = null;
+  const candidateTokens = new Set<string>();
   const pendingHeaderReads = new Set<Promise<void>>();
   const captureRequest = (request: { url(): string; headers(): Record<string, string>; allHeaders(): Promise<Record<string, string>> }) => {
-    if (!request.url().includes(GRAPHQL_REQUEST) || detailToken) return;
-    detailToken = bearerFromHeaders(request.headers());
-    if (detailToken) return;
+    if (!isUpworkGraphqlRequest(request.url())) return;
+    const candidate = graphqlBearerCandidate(request.url(), request.headers());
+    if (candidate) {
+      candidateTokens.add(candidate);
+      return;
+    }
     const read = request.allHeaders().then((headers) => {
-      detailToken ||= bearerFromHeaders(headers);
+      const token = graphqlBearerCandidate(request.url(), headers);
+      if (token) candidateTokens.add(token);
     }).catch(() => {});
     pendingHeaderReads.add(read);
     void read.finally(() => pendingHeaderReads.delete(read));
@@ -502,13 +521,30 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     checkpoint(signal);
     const context = browser.contexts()[0];
     if (!context) throw new Error("The CDP browser has no usable browser context");
-    page = await newBackgroundPage(browser, context, selection.url);
-    page.on("request", captureRequest);
-    const loaded = await loadFeed(page, feedKey, selection);
-    await navigateUntilDetailToken(page, loaded.jobs, () => detailToken);
-    await Promise.allSettled([...pendingHeaderReads]);
-    if (!detailToken) throw new Error("The feed loaded, but Upwork did not expose a GraphQL bearer token in the background tab");
-    return { browser, page, browserName: await browserName(), selection, ...loaded, token: detailToken };
+    const feedPage = await newBackgroundPage(browser, context, selection.url);
+    page = feedPage;
+    feedPage.on("request", captureRequest);
+    const loaded = await loadFeed(feedPage, feedKey, selection);
+    const firstJob = loaded.jobs[0];
+    if (!firstJob) throw new Error("The feed loaded without any jobs");
+    const testedTokens = new Set<string>();
+    let detailToken: string | null = null;
+    for (let attempt = 0; attempt < 40 && !detailToken; attempt++) {
+      await Promise.allSettled([...pendingHeaderReads]);
+      const untestedTokens = [...candidateTokens].filter((token) => !testedTokens.has(token));
+      for (const token of untestedTokens) testedTokens.add(token);
+      detailToken = await selectJobDetailsBearer(untestedTokens, async (token) => {
+        try {
+          await requestJobDetails(feedPage, token, firstJob.ciphertext);
+          return true;
+        } catch {
+          return false;
+        }
+      });
+      if (!detailToken) await feedPage.waitForTimeout(250);
+    }
+    if (!detailToken) throw new Error(`The feed exposed ${candidateTokens.size} bearer token candidates, but none could fetch authenticated job details`);
+    return { browser, page: feedPage, browserName: await browserName(), selection, ...loaded, token: detailToken };
   } catch (error) {
     await page?.close().catch(() => {});
     await browser.close().catch(() => {});
@@ -534,15 +570,15 @@ function parsedObject(value: unknown, label: string): Record<string, unknown> {
   return object;
 }
 
-export async function fetchJobDetails(session: FeedSession, ciphertext: string): Promise<unknown> {
-  const response = await session.page.evaluate(
-    async ({ query, token, ciphertext: jobCiphertext, tenantId }): Promise<DetailFetchResult> => {
-      const result = await fetch("/api/graphql/v1?alias=gql-query-get-auth-job-details-v2", {
+async function requestJobDetails(page: Page, token: string, ciphertext: string): Promise<unknown> {
+  const response = await page.evaluate(
+    async ({ alias, query, token: authorization, ciphertext: jobCiphertext, tenantId }): Promise<DetailFetchResult> => {
+      const result = await fetch(`/api/graphql/v1?alias=${encodeURIComponent(alias)}`, {
         method: "POST",
         credentials: "include",
         headers: {
           "Content-Type": "application/json",
-          Authorization: token,
+          Authorization: authorization,
           "X-Upwork-API-TenantId": tenantId,
           "X-Upwork-Accept-Language": "en-US",
         },
@@ -553,7 +589,7 @@ export async function fetchJobDetails(session: FeedSession, ciphertext: string):
       });
       return { status: result.status, text: await result.text() };
     },
-    { query: DETAIL_QUERY, token: session.token, ciphertext, tenantId: UPWORK_TENANT_ID }
+    { alias: DETAIL_QUERY_ALIAS, query: DETAIL_QUERY, token, ciphertext, tenantId: UPWORK_TENANT_ID }
   );
 
   if (response.status !== 200) throw new Error(`Job details request failed with HTTP ${response.status}`);
@@ -571,6 +607,10 @@ export async function fetchJobDetails(session: FeedSession, ciphertext: string):
   }
   const data = parsedObject(body.data, "Job details response data");
   return data.jobAuthDetails ?? null;
+}
+
+export async function fetchJobDetails(session: FeedSession, ciphertext: string): Promise<unknown> {
+  return requestJobDetails(session.page, session.token, ciphertext);
 }
 
 export interface PublicJobAttachment {

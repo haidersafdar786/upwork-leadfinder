@@ -4,12 +4,26 @@ import { chromium } from "playwright";
 import { currentCancellationSignal } from "../src/cancellation.ts";
 import { clientHistoryFromRecord } from "../src/client-history.ts";
 import { createDashboardServer } from "../src/dashboard.ts";
-import { mergeRerunResult } from "../src/run.ts";
-import { newBackgroundPage } from "../src/upwork-browser.ts";
+import { detailFetchFailure, mergeRerunResult } from "../src/run.ts";
+import { graphqlBearerCandidate, newBackgroundPage, selectJobDetailsBearer } from "../src/upwork-browser.ts";
 
 const dashboardHtml = readFileSync(new URL("../dashboard/index.html", import.meta.url), "utf8");
 assert.ok(dashboardHtml.includes('id="icon-youtube"'), "the dashboard should define a YouTube icon");
 assert.ok(dashboardHtml.includes('return { name: "youtube", label: "YouTube" }'), "YouTube links should use the YouTube icon and label");
+
+const bearerHeaders = { Authorization: "Bearer scoped-token" };
+assert.equal(graphqlBearerCandidate("https://www.upwork.com/api/graphql/v1?alias=search", bearerHeaders), "Bearer scoped-token");
+assert.equal(graphqlBearerCandidate("https://example.com/api/graphql/v1?alias=search", bearerHeaders), null);
+const selectedBearer = await selectJobDetailsBearer(["Bearer restricted-token", "Bearer scoped-token"], async (candidate) => candidate === "Bearer scoped-token");
+assert.equal(selectedBearer, "Bearer scoped-token", "token selection must test capability instead of accepting the first bearer");
+
+const totalFetchFailure = detailFetchFailure({
+  selectedJobs: 28,
+  fetchedRecords: 0,
+  failures: [{ jobId: "job-1", message: "token lacks job-details scopes" }],
+});
+assert.match(totalFetchFailure?.message || "", /All 28 selected job detail requests failed/);
+assert.equal(detailFetchFailure({ selectedJobs: 28, fetchedRecords: 1, failures: [] }), null, "a partial fetch must remain usable");
 
 const previousRun = {
   runId: "source-run",

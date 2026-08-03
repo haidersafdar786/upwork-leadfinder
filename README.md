@@ -18,7 +18,8 @@ stores runs as ordinary folders under `runs/`.
 - `npm install`.
 
 Direct HTTP requests to Upwork are not used. The browser loads a normal feed,
-exposes the app's own bearer token, and performs same-origin GraphQL calls.
+observes the bearer tokens already used by the app, selects one by proving it
+can fetch job details, and performs same-origin GraphQL calls.
 
 ## Run a feed
 

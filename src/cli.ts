@@ -99,6 +99,7 @@ function port(args: ParsedArgs): number {
 function progressLine(event: ProgressEvent): string | null {
   if (event.kind === "feed-loaded") return `feed: ${event.feed.kind}, ${event.jobCount} jobs`;
   if (event.kind === "job-skipped") return `skip: ${event.jobId} (${event.reason})`;
+  if (event.kind === "job-failed") return `failed: ${event.jobId}: ${event.message}`;
   if (event.kind === "client-progress") return `client ${event.buyerId}: ${event.phase} (${event.completedClients}/${event.totalClients})`;
   if (event.kind === "client-completed") return `done: ${event.client.buyerId}`;
   if (event.kind === "client-failed") return `failed: ${event.buyerId}: ${event.message}`;
