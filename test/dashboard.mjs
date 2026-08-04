@@ -4,7 +4,8 @@ import { chromium } from "playwright";
 import { currentCancellationSignal } from "../src/cancellation.ts";
 import { clientHistoryFromRecord } from "../src/client-history.ts";
 import { createDashboardServer } from "../src/dashboard.ts";
-import { clientWorkerCount, detailFetchFailure, mergeRerunResult } from "../src/run.ts";
+import { browserResearchNeeded, clientWorkerCount, detailFetchFailure, mergeRerunResult, researchPageCount } from "../src/run.ts";
+import { ResearchPagePool } from "../src/research-pages.ts";
 import { graphqlBearerCandidate, newBackgroundPage, selectJobDetailsBearer } from "../src/upwork-browser.ts";
 
 const dashboardHtml = readFileSync(new URL("../dashboard/index.html", import.meta.url), "utf8");
@@ -28,6 +29,12 @@ assert.equal(detailFetchFailure({ selectedJobs: 28, fetchedRecords: 1, failures:
 assert.equal(clientWorkerCount(undefined, 25), 8, "aggressive runs should use all eight client workers");
 assert.equal(clientWorkerCount(20, 25), 8, "client workers should stay under the global model-call cap");
 assert.equal(clientWorkerCount(6, 3), 3, "small runs should not create idle workers");
+assert.equal(researchPageCount(undefined, 25), 3, "browser research should use a small default page pool");
+assert.equal(researchPageCount(8, 2), 2, "browser research should not create more pages than clients");
+assert.equal(browserResearchNeeded([]), false, "clients without public research should not need a browser page");
+assert.equal(browserResearchNeeded([{ title: "Private", jobCiphertext: null, freelancerCiphertext: null, access: "PRIVATE" }]), false);
+assert.equal(browserResearchNeeded([{ title: "Public", jobCiphertext: "~public", freelancerCiphertext: null, access: "PUBLIC_INDEX" }]), true);
+assert.equal(browserResearchNeeded([{ title: "Reviewed", jobCiphertext: null, freelancerCiphertext: "~freelancer", access: "PRIVATE" }]), true);
 
 const previousRun = {
   runId: "source-run",
@@ -93,6 +100,33 @@ try {
   assert.equal(backgroundPages.some((page) => page.url().startsWith("about:blank")), false, "new background pages should open on their destination");
   await Promise.all(backgroundPages.map((page) => page.close()));
   assert.equal(context.pages().some((page) => page.url().includes("#upwho-")), false, "closed background pages should not leave marker tabs behind");
+
+  const researchPages = new ResearchPagePool({ browser, context, initialUrl: "https://example.com", capacity: 2 });
+  let activeResearch = 0;
+  let peakResearch = 0;
+  let releaseFirstBatch;
+  let firstBatchTimer;
+  const firstBatch = new Promise((resolve, reject) => {
+    firstBatchTimer = setTimeout(() => reject(new Error("research page pool did not acquire two leases")), 2_000);
+    releaseFirstBatch = () => {
+      clearTimeout(firstBatchTimer);
+      resolve();
+    };
+  });
+  let acquiredResearch = 0;
+  await Promise.all(Array.from({ length: 6 }, async () => {
+    const lease = await researchPages.acquire();
+    activeResearch++;
+    peakResearch = Math.max(peakResearch, activeResearch);
+    acquiredResearch++;
+    if (acquiredResearch === 2) releaseFirstBatch();
+    await firstBatch;
+    activeResearch--;
+    await lease.release();
+  }));
+  assert.equal(peakResearch, 2, "the research page pool should bound concurrent browser work");
+  await researchPages.close();
+  assert.equal(context.pages().some((page) => page.url().includes("#upwho-")), false, "the research page pool should close its pages");
 } finally {
   await new Promise((resolve, reject) => dashboardServer.close((error) => error ? reject(error) : resolve()));
   await context.close();

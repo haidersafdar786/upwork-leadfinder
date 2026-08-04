@@ -1,6 +1,5 @@
 import { readdir, readFile } from "node:fs/promises";
 import { basename, join } from "node:path";
-import type { Page } from "playwright";
 import {
   attachmentMetadata,
   attachmentUrl,
@@ -12,13 +11,14 @@ import { clientHistoryFromRecord } from "./client-history.ts";
 import { checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
 import { enrichClient, emptyWebPresence, evidenceSupportingPresence } from "./enrichment.ts";
 import { identifyRecord } from "./identity-model.ts";
-import { gatherPastJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
+import { gatherPastJobs, selectedPublicJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
 import {
   applyRecoveredName,
   recoverClientName,
   workHistoryFromRecord,
   type NameRecoveryResult,
   type RecoveredName,
+  type WorkHistoryEntry,
 } from "./reviews.ts";
 import {
   createRunFolder,
@@ -27,10 +27,10 @@ import {
   writeRunResult,
   type RawJobRecord,
 } from "./run-files.ts";
+import { ResearchPagePool } from "./research-pages.ts";
 import {
   closeFeed,
   fetchJobDetails,
-  newBackgroundPage,
   openFeed,
   type FeedKey,
   type FeedSession,
@@ -61,6 +61,7 @@ import type {
 
 export const DEFAULT_COUNTRY_SKIP = ["India", "Israel", "Pakistan", "Bangladesh", "Philippines", "Ukraine", "Kenya", "Nigeria"] as const;
 export const DEFAULT_CLIENT_CONCURRENCY = 8;
+export const DEFAULT_RESEARCH_CONCURRENCY = 3;
 const MAX_CLIENT_CONCURRENCY = 8;
 
 export interface RunOptions {
@@ -70,6 +71,7 @@ export interface RunOptions {
   useModel?: boolean;
   detailConcurrency?: number;
   clientConcurrency?: number;
+  researchConcurrency?: number;
   onlyJobIds?: readonly string[];
   onlyBuyerId?: string;
 }
@@ -327,6 +329,16 @@ export function clientWorkerCount(requested: number | undefined, totalClients: n
   return Math.min(Math.max(1, concurrency), MAX_CLIENT_CONCURRENCY, totalClients || 1);
 }
 
+export function researchPageCount(requested: number | undefined, totalClients: number): number {
+  const concurrency = requested ?? DEFAULT_RESEARCH_CONCURRENCY;
+  return Math.min(Math.max(1, concurrency), MAX_CLIENT_CONCURRENCY, totalClients || 1);
+}
+
+export function browserResearchNeeded(workHistory: readonly WorkHistoryEntry[]): boolean {
+  return selectedPublicJobs(workHistory).length > 0
+    || workHistory.some((work) => Boolean(work.freelancerCiphertext));
+}
+
 function nameRecoveryDiagnostics(result: NameRecoveryResult): NameRecoveryDiagnostics {
   const shared = { attempted: result.attempted, succeeded: result.succeeded, failures: result.failures };
   if (!result.match) return { kind: "not-found", ...shared };
@@ -435,7 +447,6 @@ async function processRecords(
   progress: ProgressCallback,
   { publishClients = true }: { publishClients?: boolean } = {},
 ): Promise<{ clients: Client[]; failures: RunFailure[] }> {
-  const signal = currentCancellationSignal();
   const grouped = new Map<BuyerId, LoadedRecord[]>();
   for (const record of records) {
     const id = record.buyerId || buyerId(record.details, record.job.id);
@@ -448,87 +459,94 @@ async function processRecords(
   const failures: RunFailure[] = [];
   let next = 0;
   let completed = 0;
+  const researchPages = new ResearchPagePool({
+    browser: session.browser,
+    context: session.context,
+    initialUrl: session.selection.url,
+    capacity: researchPageCount(options.researchConcurrency, entries.length),
+  });
   const worker = async () => {
-    let page: Page | null = null;
-    const closeWorkerPage = async () => {
-      const activePage = page;
-      page = null;
-      await activePage?.close().catch(() => {});
-    };
-    const cancelPage = () => { void closeWorkerPage(); };
-    signal?.addEventListener("abort", cancelPage, { once: true });
-    try {
-      while (true) {
-        checkpoint();
-        const itemIndex = next++;
-        const item = entries[itemIndex];
-        if (!item) return;
-        const [buyer, clientRecords] = item;
-        try {
-          if (!page || page.isClosed()) page = await newBackgroundPage(session.browser, session.context, session.selection.url);
-          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
-          const aggregate = aggregateRecord(clientRecords, []);
-          let past: PastJobResearch = { items: [], failures: [], attempted: 0 };
+    while (true) {
+      checkpoint();
+      const itemIndex = next++;
+      const item = entries[itemIndex];
+      if (!item) return;
+      const [buyer, clientRecords] = item;
+      try {
+        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
+        const aggregate = aggregateRecord(clientRecords, []);
+        const workHistory = workHistoryFromRecord(aggregate);
+        const needsBrowserResearch = browserResearchNeeded(workHistory);
+        let past: PastJobResearch = { items: [], failures: [], attempted: 0 };
+        let recoveryResult: NameRecoveryResult = { match: null, attempted: 0, succeeded: 0, failures: [] };
+        if (needsBrowserResearch) {
+          const lease = await researchPages.acquire();
           try {
-            past = await gatherPastJobs(page, aggregate);
-          } catch (error) {
-            rethrowCancellation(error);
-            past.failures.push(error instanceof Error ? error.message : String(error));
+            try {
+              past = await gatherPastJobs(lease.page, aggregate);
+            } catch (error) {
+              rethrowCancellation(error);
+              past.failures.push(error instanceof Error ? error.message : String(error));
+            }
+            await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
+            try {
+              recoveryResult = await recoverClientName(lease.page, workHistory);
+            } catch (error) {
+              rethrowCancellation(error);
+              recoveryResult.failures.push(error instanceof Error ? error.message : String(error));
+            }
+          } finally {
+            await lease.release();
           }
+        } else {
           await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
-          let recoveryResult: NameRecoveryResult = { match: null, attempted: 0, succeeded: 0, failures: [] };
-          try {
-            recoveryResult = await recoverClientName(page, workHistoryFromRecord(aggregate));
-          } catch (error) {
-            rethrowCancellation(error);
-            recoveryResult.failures.push(error instanceof Error ? error.message : String(error));
-          }
-          const recovery = recoveryResult.match;
-          const nameRecovery = nameRecoveryDiagnostics(recoveryResult);
+        }
+        const recovery = recoveryResult.match;
+        const nameRecovery = nameRecoveryDiagnostics(recoveryResult);
 
-          const recordForIdentity = aggregateRecord(clientRecords, past.items);
-          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
-          const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
-          if (identified.error) throw new Error(`Identity analysis failed: ${identified.error}`);
-          const identity = recovery ? applyRecoveredName(identified.identity, recovery) : identified.identity;
+        const recordForIdentity = aggregateRecord(clientRecords, past.items);
+        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
+        const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
+        if (identified.error) throw new Error(`Identity analysis failed: ${identified.error}`);
+        const identity = recovery ? applyRecoveredName(identified.identity, recovery) : identified.identity;
 
-          const jobs = clientRecords.map((record) => jobModel(record, past.items));
-          const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
-          const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
-          const client: Client = { buyerId: buyer, jobs, history, evidence, identity, nameRecovery, webPresence: emptyWebPresence(), webEvidence: [] };
-          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
-          const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
-          try {
-            const research = await enrichClient(client);
-            const presence = research.presence;
-            const verifiedSite = presence.verifiedSite || evidenceBackedWebsite;
-            client.webPresence = { ...presence, verifiedSite };
-            client.webEvidence = evidenceSupportingPresence(research.evidence, client.webPresence);
-          } catch (error) {
-            rethrowCancellation(error);
-            past.failures.push(error instanceof Error ? error.message : String(error));
-            client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
-          }
-          checkpoint();
-          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
-          clients.push(client);
-          for (const message of past.failures) failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
-          completed++;
-          if (publishClients) await report(progress, { kind: "client-completed", client });
+        const jobs = clientRecords.map((record) => jobModel(record, past.items));
+        const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
+        const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
+        const client: Client = { buyerId: buyer, jobs, history, evidence, identity, nameRecovery, webPresence: emptyWebPresence(), webEvidence: [] };
+        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
+        const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
+        try {
+          const research = await enrichClient(client);
+          const presence = research.presence;
+          const verifiedSite = presence.verifiedSite || evidenceBackedWebsite;
+          client.webPresence = { ...presence, verifiedSite };
+          client.webEvidence = evidenceSupportingPresence(research.evidence, client.webPresence);
         } catch (error) {
           rethrowCancellation(error);
-          const message = error instanceof Error ? error.message : String(error);
-          failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
-          await report(progress, { kind: "client-failed", buyerId: buyer, message });
+          past.failures.push(error instanceof Error ? error.message : String(error));
+          client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
         }
+        checkpoint();
+        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
+        clients.push(client);
+        for (const message of past.failures) failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
+        completed++;
+        if (publishClients) await report(progress, { kind: "client-completed", client });
+      } catch (error) {
+        rethrowCancellation(error);
+        const message = error instanceof Error ? error.message : String(error);
+        failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
+        await report(progress, { kind: "client-failed", buyerId: buyer, message });
       }
-    } finally {
-      signal?.removeEventListener("abort", cancelPage);
-      await closeWorkerPage();
     }
   };
   const concurrency = clientWorkerCount(options.clientConcurrency, entries.length);
-  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  try {
+    await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  } finally {
+    await researchPages.close();
+  }
   clients.sort((left, right) => left.buyerId.localeCompare(right.buyerId));
   return { clients, failures };
 }
