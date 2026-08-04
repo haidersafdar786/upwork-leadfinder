@@ -31,7 +31,7 @@ npm run cli -- run --feed search --query "shopify app"
 ```
 
 The default country skip list is India, Israel, Pakistan, Bangladesh,
-Philippines, and Ukraine. Override it with a comma-separated `--countries`
+Philippines, Ukraine, Kenya, and Nigeria. Override it with a comma-separated `--countries`
 value; pass an empty value to disable it. Existing job IDs are skipped across
 runs unless `--force` is supplied.
 

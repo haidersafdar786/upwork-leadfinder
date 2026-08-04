@@ -59,7 +59,7 @@ import type {
   ProgressEvent,
 } from "./types.ts";
 
-export const DEFAULT_COUNTRY_SKIP = ["India", "Israel", "Pakistan", "Bangladesh", "Philippines", "Ukraine"] as const;
+export const DEFAULT_COUNTRY_SKIP = ["India", "Israel", "Pakistan", "Bangladesh", "Philippines", "Ukraine", "Kenya", "Nigeria"] as const;
 export const DEFAULT_CLIENT_CONCURRENCY = 8;
 const MAX_CLIENT_CONCURRENCY = 8;
 

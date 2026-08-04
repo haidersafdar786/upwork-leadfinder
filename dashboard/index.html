@@ -656,7 +656,7 @@
       <div class="popover-body settings-grid">
         <label class="field">
           <span>Skip countries</span>
-          <input id="countries" class="text-control" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine" aria-describedby="countries-help">
+          <input id="countries" class="text-control" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine, Kenya, Nigeria" aria-describedby="countries-help">
           <small id="countries-help">Comma-separated. Leave blank to include every country.</small>
         </label>
         <label class="check-control">
@@ -667,7 +667,7 @@
     </section>
 
     <script>
-      const defaultCountries = "India, Israel, Pakistan, Bangladesh, Philippines, Ukraine";
+      const defaultCountries = "India, Israel, Pakistan, Bangladesh, Philippines, Ukraine, Kenya, Nigeria";
       const countFormatter = new Intl.NumberFormat("en-US");
       const compactSpendFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", maximumFractionDigits: 1 });
       const exactSpendFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 2 });
