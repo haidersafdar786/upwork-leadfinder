@@ -15,7 +15,7 @@ const DETAIL_QUERY = readFileSync(new URL("./graphql/detail-query.graphql", impo
 export const UPWORK_TENANT_ID = "1538018989781975041";
 const DEFAULT_CDP_URL = "http://127.0.0.1:9222";
 const FEED_WAIT_MS = 45_000;
-const BACKGROUND_TAB_READY_TIMEOUT_MS = 5_000;
+const BACKGROUND_TAB_READY_TIMEOUT_MS = 10_000;
 
 export type FeedKey = "best-matches" | "most-recent" | "my-feed" | "saved" | "search";
 
@@ -146,12 +146,24 @@ declare global {
 
 export interface FeedSession {
   browser: Browser;
+  context: BrowserContext;
   page: Page;
   browserName: string;
   selection: FeedSelection;
   jobs: FeedJob[];
   rawJobs: Record<string, unknown>[];
   token: string;
+}
+
+let backgroundPageCreationTail = Promise.resolve();
+
+async function queueBackgroundPageCreation<T>(create: () => Promise<T>): Promise<T> {
+  const creation = backgroundPageCreationTail.then(() => {
+    checkpoint();
+    return create();
+  });
+  backgroundPageCreationTail = creation.then(() => undefined, () => undefined);
+  return creation;
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -468,24 +480,31 @@ async function cdpAvailable(cdpUrl: string): Promise<boolean> {
 }
 
 export async function newBackgroundPage(browser: Browser, context: BrowserContext, initialUrl: HttpUrl): Promise<Page> {
-  const marker = new URL(initialUrl);
-  marker.hash = `upwho-${randomUUID()}`;
-  const markerUrl = marker.toString();
-  const pagePromise = context.waitForEvent("page", {
-    predicate: (page) => page.url() === markerUrl,
-    timeout: BACKGROUND_TAB_READY_TIMEOUT_MS,
-  });
-  const cdp = await browser.newBrowserCDPSession();
+  return queueBackgroundPageCreation(async () => {
+    const marker = new URL(initialUrl);
+    marker.hash = `upwho-${randomUUID()}`;
+    const markerUrl = marker.toString();
+    const cdp = await browser.newBrowserCDPSession();
+    let targetId: string | null = null;
 
-  try {
-    await cdp.send("Target.createTarget", { url: markerUrl, background: true });
-    return context.pages().find((page) => page.url() === markerUrl) ?? await pagePromise;
-  } catch (error) {
-    void pagePromise.catch(() => {});
-    throw error;
-  } finally {
-    await cdp.detach().catch(() => {});
-  }
+    try {
+      const target = await cdp.send("Target.createTarget", { url: markerUrl, background: true });
+      targetId = target.targetId;
+      const deadline = Date.now() + BACKGROUND_TAB_READY_TIMEOUT_MS;
+      while (Date.now() < deadline) {
+        checkpoint();
+        const page = context.pages().find((candidate) => candidate.url() === markerUrl);
+        if (page) return page;
+        await new Promise((resolve) => setTimeout(resolve, 25));
+      }
+      throw new Error(`Background tab did not become ready within ${BACKGROUND_TAB_READY_TIMEOUT_MS}ms`);
+    } catch (error) {
+      if (targetId) await cdp.send("Target.closeTarget", { targetId }).catch(() => {});
+      throw error;
+    } finally {
+      await cdp.detach().catch(() => {});
+    }
+  });
 }
 
 export async function openFeed(feedKey: FeedKey = "best-matches", query?: string, { cdpUrl = process.env.UPWHO_CDP_URL || DEFAULT_CDP_URL } = {}): Promise<FeedSession> {
@@ -544,7 +563,7 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
       if (!detailToken) await feedPage.waitForTimeout(250);
     }
     if (!detailToken) throw new Error(`The feed exposed ${candidateTokens.size} bearer token candidates, but none could fetch authenticated job details`);
-    return { browser, page: feedPage, browserName: await browserName(), selection, ...loaded, token: detailToken };
+    return { browser, context, page: feedPage, browserName: await browserName(), selection, ...loaded, token: detailToken };
   } catch (error) {
     await page?.close().catch(() => {});
     await browser.close().catch(() => {});

@@ -1,10 +1,18 @@
-export type IdentitySource = "description" | "attachment" | "sibling-job" | "past-job" | "review" | "past-title" | "job-title";
+export type IdentitySource = "description" | "attachment" | "sibling-job" | "past-job" | "review-to-client" | "past-title" | "job-title";
 
-export interface IdentityText {
-  source: IdentitySource;
-  label: string;
-  text: string;
-}
+export type IdentityText =
+  | {
+      source: Exclude<IdentitySource, "review-to-client">;
+      label: string;
+      text: string;
+    }
+  | {
+      source: "review-to-client";
+      label: "review written by freelancer about Upwork client";
+      authorRole: "freelancer";
+      subjectRole: "upwork-client";
+      text: string;
+    };
 
 export interface IdentitySignals {
   uid: string;
@@ -42,9 +50,20 @@ function cleanText(value: string): string {
     .trim();
 }
 
-function sourceText(source: IdentitySource, label: string, value: unknown): IdentityText | null {
+function sourceText(source: Exclude<IdentitySource, "review-to-client">, label: string, value: unknown): IdentityText | null {
   const text = cleanText(stringValue(value));
   return text ? { source, label, text } : null;
+}
+
+function reviewToClientText(value: unknown): IdentityText | null {
+  const text = cleanText(stringValue(value));
+  return text ? {
+    source: "review-to-client",
+    label: "review written by freelancer about Upwork client",
+    authorRole: "freelancer",
+    subjectRole: "upwork-client",
+    text,
+  } : null;
 }
 
 function arrayRecords(value: unknown): Record<string, unknown>[] {
@@ -83,7 +102,7 @@ function collectTexts(record: Record<string, unknown>): { title: string; descrip
     const jobInfo = recordValue(work, "jobInfo");
     const workTitle = stringValue(recordValue(jobInfo, "title"));
     add(sourceText("past-title", "past job title", workTitle));
-    add(sourceText("review", "freelancer review", recordValue(recordValue(work, "feedbackToClient"), "comment")));
+    add(reviewToClientText(recordValue(recordValue(work, "feedbackToClient"), "comment")));
   }
   return { title, description, texts };
 }

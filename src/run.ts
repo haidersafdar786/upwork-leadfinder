@@ -17,6 +17,7 @@ import {
   applyRecoveredName,
   recoverClientName,
   workHistoryFromRecord,
+  type NameRecoveryResult,
   type RecoveredName,
 } from "./reviews.ts";
 import {
@@ -49,6 +50,7 @@ import type {
   Job,
   JobDetails,
   JobId,
+  NameRecoveryDiagnostics,
   PastContract,
   Review,
   RunId,
@@ -58,6 +60,8 @@ import type {
 } from "./types.ts";
 
 export const DEFAULT_COUNTRY_SKIP = ["India", "Israel", "Pakistan", "Bangladesh", "Philippines", "Ukraine"] as const;
+export const DEFAULT_CLIENT_CONCURRENCY = 8;
+const MAX_CLIENT_CONCURRENCY = 8;
 
 export interface RunOptions {
   root?: string;
@@ -318,6 +322,24 @@ function unknownIdentity(): Identity {
   return { kind: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, confidence: "unknown", evidenceQuote: null };
 }
 
+export function clientWorkerCount(requested: number | undefined, totalClients: number): number {
+  const concurrency = requested ?? DEFAULT_CLIENT_CONCURRENCY;
+  return Math.min(Math.max(1, concurrency), MAX_CLIENT_CONCURRENCY, totalClients || 1);
+}
+
+function nameRecoveryDiagnostics(result: NameRecoveryResult): NameRecoveryDiagnostics {
+  const shared = { attempted: result.attempted, succeeded: result.succeeded, failures: result.failures };
+  if (!result.match) return { kind: "not-found", ...shared };
+  return {
+    kind: "matched",
+    ...shared,
+    clientName: result.match.clientName,
+    agreement: result.match.agreement,
+    matchedJob: result.match.matchedJob,
+    reviewTitle: result.match.reviewTitle,
+  };
+}
+
 function normalizedSet(values: readonly string[]): Set<string> {
   return new Set(values.map((value) => value.trim().toLowerCase()).filter(Boolean));
 }
@@ -427,74 +449,85 @@ async function processRecords(
   let next = 0;
   let completed = 0;
   const worker = async () => {
-    while (true) {
-      checkpoint();
-      const itemIndex = next++;
-      const item = entries[itemIndex];
-      if (!item) return;
-      const [buyer, clientRecords] = item;
-      const page = await newBackgroundPage(session.browser, session.page.context(), session.selection.url);
-      const cancelPage = () => { void page.close().catch(() => {}); };
-      signal?.addEventListener("abort", cancelPage, { once: true });
-      try {
-        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
-        const aggregate = aggregateRecord(clientRecords, []);
-        let past: PastJobResearch = { items: [], failures: [], attempted: 0 };
-        try {
-          past = await gatherPastJobs(page, aggregate);
-        } catch (error) {
-          rethrowCancellation(error);
-          past.failures.push(error instanceof Error ? error.message : String(error));
-        }
-        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
-        let recovery: RecoveredName | null = null;
-        try {
-          recovery = (await recoverClientName(page, workHistoryFromRecord(aggregate))).match;
-        } catch (error) {
-          rethrowCancellation(error);
-          past.failures.push(error instanceof Error ? error.message : String(error));
-        }
-
-        const recordForIdentity = aggregateRecord(clientRecords, past.items);
-        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
-        const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
-        const identity = recovery ? applyRecoveredName(identified.identity, recovery) : identified.identity;
-
-        const jobs = clientRecords.map((record) => jobModel(record, past.items));
-        const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
-        const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
-        const client: Client = { buyerId: buyer, jobs, history, evidence, identity, webPresence: emptyWebPresence(), webEvidence: [] };
-        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
-        const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
-        try {
-          const research = await enrichClient(client);
-          const presence = research.presence;
-          const verifiedSite = presence.verifiedSite || evidenceBackedWebsite;
-          client.webPresence = { ...presence, verifiedSite };
-          client.webEvidence = evidenceSupportingPresence(research.evidence, client.webPresence);
-        } catch (error) {
-          rethrowCancellation(error);
-          past.failures.push(error instanceof Error ? error.message : String(error));
-          client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
-        }
+    let page: Page | null = null;
+    const closeWorkerPage = async () => {
+      const activePage = page;
+      page = null;
+      await activePage?.close().catch(() => {});
+    };
+    const cancelPage = () => { void closeWorkerPage(); };
+    signal?.addEventListener("abort", cancelPage, { once: true });
+    try {
+      while (true) {
         checkpoint();
-        await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
-        clients.push(client);
-        for (const message of past.failures) failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
-        completed++;
-        if (publishClients) await report(progress, { kind: "client-completed", client });
-      } catch (error) {
-        rethrowCancellation(error);
-        const message = error instanceof Error ? error.message : String(error);
-        failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
-        await report(progress, { kind: "client-failed", buyerId: buyer, message });
-      } finally {
-        signal?.removeEventListener("abort", cancelPage);
-        await page.close().catch(() => {});
+        const itemIndex = next++;
+        const item = entries[itemIndex];
+        if (!item) return;
+        const [buyer, clientRecords] = item;
+        try {
+          if (!page || page.isClosed()) page = await newBackgroundPage(session.browser, session.context, session.selection.url);
+          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "gather-evidence", completedClients: completed, totalClients: entries.length });
+          const aggregate = aggregateRecord(clientRecords, []);
+          let past: PastJobResearch = { items: [], failures: [], attempted: 0 };
+          try {
+            past = await gatherPastJobs(page, aggregate);
+          } catch (error) {
+            rethrowCancellation(error);
+            past.failures.push(error instanceof Error ? error.message : String(error));
+          }
+          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
+          let recoveryResult: NameRecoveryResult = { match: null, attempted: 0, succeeded: 0, failures: [] };
+          try {
+            recoveryResult = await recoverClientName(page, workHistoryFromRecord(aggregate));
+          } catch (error) {
+            rethrowCancellation(error);
+            recoveryResult.failures.push(error instanceof Error ? error.message : String(error));
+          }
+          const recovery = recoveryResult.match;
+          const nameRecovery = nameRecoveryDiagnostics(recoveryResult);
+
+          const recordForIdentity = aggregateRecord(clientRecords, past.items);
+          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
+          const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
+          if (identified.error) throw new Error(`Identity analysis failed: ${identified.error}`);
+          const identity = recovery ? applyRecoveredName(identified.identity, recovery) : identified.identity;
+
+          const jobs = clientRecords.map((record) => jobModel(record, past.items));
+          const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
+          const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
+          const client: Client = { buyerId: buyer, jobs, history, evidence, identity, nameRecovery, webPresence: emptyWebPresence(), webEvidence: [] };
+          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
+          const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
+          try {
+            const research = await enrichClient(client);
+            const presence = research.presence;
+            const verifiedSite = presence.verifiedSite || evidenceBackedWebsite;
+            client.webPresence = { ...presence, verifiedSite };
+            client.webEvidence = evidenceSupportingPresence(research.evidence, client.webPresence);
+          } catch (error) {
+            rethrowCancellation(error);
+            past.failures.push(error instanceof Error ? error.message : String(error));
+            client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
+          }
+          checkpoint();
+          await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
+          clients.push(client);
+          for (const message of past.failures) failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
+          completed++;
+          if (publishClients) await report(progress, { kind: "client-completed", client });
+        } catch (error) {
+          rethrowCancellation(error);
+          const message = error instanceof Error ? error.message : String(error);
+          failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
+          await report(progress, { kind: "client-failed", buyerId: buyer, message });
+        }
       }
+    } finally {
+      signal?.removeEventListener("abort", cancelPage);
+      await closeWorkerPage();
     }
   };
-  const concurrency = Math.min(Math.max(1, options.clientConcurrency || 2), entries.length || 1);
+  const concurrency = clientWorkerCount(options.clientConcurrency, entries.length);
   await Promise.all(Array.from({ length: concurrency }, () => worker()));
   clients.sort((left, right) => left.buyerId.localeCompare(right.buyerId));
   return { clients, failures };
@@ -569,7 +602,11 @@ export async function runOnce(
     }
     const fetchFailure = detailFetchFailure({ selectedJobs: selected.length, fetchedRecords: fetched.records.length, failures: fetched.failures });
     if (fetchFailure) throw fetchFailure;
+    await session.page.close().catch(() => {});
     const processedClients = await processRecords(session, runDirectory, fetched.records, options, progress);
+    if (fetched.records.length && !processedClients.clients.length) {
+      throw new Error(`All client processing failed (${processedClients.failures.length} recorded failures)`);
+    }
     if (options.onlyBuyerId && !processedClients.clients.length) throw new Error(`Buyer ${options.onlyBuyerId} was not found in the selected feed`);
     const completedAt = new Date().toISOString() as IsoDate;
     const result: RunResult = {
@@ -637,6 +674,7 @@ export async function rerunClient(
       const record = { ...stored, attachmentsText, attachmentFailures: refreshed.failures };
       records.push(record);
     }
+    await session.page.close().catch(() => {});
     const processed = await processRecords(session, sourceRunDirectory, records, { ...options, onlyBuyerId: buyer }, progress, { publishClients: false });
     const updatedClient = processed.clients[0];
     if (!updatedClient) throw new Error(`Buyer ${buyer} could not be rerun`);

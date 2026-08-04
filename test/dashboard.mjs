@@ -4,7 +4,7 @@ import { chromium } from "playwright";
 import { currentCancellationSignal } from "../src/cancellation.ts";
 import { clientHistoryFromRecord } from "../src/client-history.ts";
 import { createDashboardServer } from "../src/dashboard.ts";
-import { detailFetchFailure, mergeRerunResult } from "../src/run.ts";
+import { clientWorkerCount, detailFetchFailure, mergeRerunResult } from "../src/run.ts";
 import { graphqlBearerCandidate, newBackgroundPage, selectJobDetailsBearer } from "../src/upwork-browser.ts";
 
 const dashboardHtml = readFileSync(new URL("../dashboard/index.html", import.meta.url), "utf8");
@@ -25,6 +25,9 @@ const totalFetchFailure = detailFetchFailure({
 });
 assert.match(totalFetchFailure?.message || "", /All 28 selected job detail requests failed/);
 assert.equal(detailFetchFailure({ selectedJobs: 28, fetchedRecords: 1, failures: [] }), null, "a partial fetch must remain usable");
+assert.equal(clientWorkerCount(undefined, 25), 8, "aggressive runs should use all eight client workers");
+assert.equal(clientWorkerCount(20, 25), 8, "client workers should stay under the global model-call cap");
+assert.equal(clientWorkerCount(6, 3), 3, "small runs should not create idle workers");
 
 const previousRun = {
   runId: "source-run",
@@ -83,8 +86,13 @@ try {
     await dashboardPage.close();
   }
 
-  const backgroundPage = await newBackgroundPage(browser, context, "https://example.com");
-  assert.equal(backgroundPage.url().startsWith("about:blank"), false, "new background pages should open on their destination");
+  const backgroundPages = await Promise.all(Array.from({ length: 6 }, () => {
+    return newBackgroundPage(browser, context, "https://example.com");
+  }));
+  assert.equal(backgroundPages.length, 6, "aggressive runs should tolerate a six-tab creation burst");
+  assert.equal(backgroundPages.some((page) => page.url().startsWith("about:blank")), false, "new background pages should open on their destination");
+  await Promise.all(backgroundPages.map((page) => page.close()));
+  assert.equal(context.pages().some((page) => page.url().includes("#upwho-")), false, "closed background pages should not leave marker tabs behind");
 } finally {
   await new Promise((resolve, reject) => dashboardServer.close((error) => error ? reject(error) : resolve()));
   await context.close();

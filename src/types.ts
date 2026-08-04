@@ -184,9 +184,28 @@ export interface Client {
   history: ClientHistory;
   evidence: Evidence[];
   identity: Identity;
+  nameRecovery: NameRecoveryDiagnostics;
   webPresence: WebPresence;
   webEvidence: PublicWebEvidence[];
 }
+
+interface NameRecoveryAttempt {
+  attempted: number;
+  succeeded: number;
+  failures: string[];
+}
+
+export type NameRecoveryDiagnostics =
+  | NameRecoveryAttempt & {
+      kind: "matched";
+      clientName: string;
+      agreement: number;
+      matchedJob: string;
+      reviewTitle: string;
+    }
+  | NameRecoveryAttempt & {
+      kind: "not-found";
+    };
 
 export interface ClientHistory {
   totalSpent: number | null;

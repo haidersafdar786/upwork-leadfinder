@@ -6,7 +6,7 @@ import { promisify } from "node:util";
 import { cancellationReason, checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
 
 const execFileAsync = promisify(execFile);
-export const DEFAULT_OPENCODE_MODEL = "opencode/deepseek-v4-flash-free";
+export const DEFAULT_OPENCODE_MODEL = "opencode-go/deepseek-v4-flash";
 const DEFAULT_ATTEMPT_TIMEOUT_MS = 60_000;
 const DEFAULT_BUDGET_MS = 120_000;
 const MAX_CONCURRENCY = Math.max(1, Number.parseInt(process.env.OPENCODE_CONCURRENCY || "8", 10) || 8);

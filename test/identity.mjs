@@ -8,7 +8,7 @@ function runner(responses) {
   return async () => {
     const response = queue.shift();
     if (response === undefined) throw new Error("Unexpected model call");
-    return JSON.stringify(response);
+    return typeof response === "string" ? response : JSON.stringify(response);
   };
 }
 
@@ -17,6 +17,7 @@ const namedRecord = {
   description: "About us: Newlane University is a licensed online university for working adults.",
 };
 const accepted = await identifyRecord(namedRecord, {
+  analystAttempts: 1,
   verificationPasses: 2,
   runModel: runner([
     {
@@ -27,18 +28,42 @@ const accepted = await identifyRecord(namedRecord, {
       industry: { value: "online university", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
       confidence: "high",
     },
-    { name: false, company: true, product: false, website: false, industry: true, reason: "Explicit About us ownership." },
-    { name: false, company: true, product: false, website: false, industry: true, reason: "The source identifies the buyer organization." },
+    { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit About us ownership." },
+    { acceptedClaimIds: ["claim-1", "claim-2"], reason: "The source identifies the buyer organization." },
   ]),
 });
 assert.equal(accepted.identity.kind, "identified");
 assert.equal(accepted.identity.company, "Newlane University");
 assert.equal(accepted.identity.industry, "online university");
 
+let analystCalls = 0;
+let verifierCalls = 0;
+const sharedVerification = await identifyRecord(namedRecord, {
+  runModel: async (prompt) => {
+    if (prompt.includes("VERIFICATION PASS")) {
+      verifierCalls++;
+      return JSON.stringify({ acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit buyer organization." });
+    }
+    analystCalls++;
+    return JSON.stringify({
+      name: null,
+      company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      product: null,
+      website: null,
+      industry: { value: "online university", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      confidence: "high",
+    });
+  },
+});
+assert.equal(sharedVerification.identity.company, "Newlane University");
+assert.equal(analystCalls, 3, "identity extraction should retain three independent analysts");
+assert.equal(verifierCalls, 2, "the agreed analyst proposal should need only two shared verifier passes");
+
 const bareDomain = await identifyRecord({
   title: "CRM developer",
   description: "Our company, Northstar Advisory, helps homeowners. Visit northstar-advisory.example to understand our business.",
 }, {
+  analystAttempts: 1,
   runModel: runner([
     {
       name: null,
@@ -48,8 +73,8 @@ const bareDomain = await identifyRecord({
       industry: null,
       confidence: "high",
     },
-    { name: false, company: true, product: false, website: true, industry: false, reason: "Explicit company and business website." },
-    { name: false, company: true, product: false, website: true, industry: false, reason: "Both claims are explicit." },
+    { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit company and business website." },
+    { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Both claims are explicit." },
   ]),
 });
 assert.equal(bareDomain.identity.kind, "identified");
@@ -67,8 +92,8 @@ const retriedAnalyst = await identifyRecord(namedRecord, {
       industry: null,
       confidence: "high",
     },
-    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
-    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
+    { acceptedClaimIds: ["claim-1"], reason: "Explicit company." },
+    { acceptedClaimIds: ["claim-1"], reason: "Explicit company." },
   ]),
 });
 assert.equal(retriedAnalyst.identity.company, "Newlane University");
@@ -83,25 +108,44 @@ const complementaryAnalysts = await identifyRecord({
       name: { value: "Alex Example", sourceId: "source-2", quote: "I am Alex Example" },
       company: null, product: null, website: null, industry: null, confidence: "high",
     },
-    { name: true, company: false, product: false, website: false, industry: false, reason: "Explicit person." },
-    { name: true, company: false, product: false, website: false, industry: false, reason: "Explicit person." },
     {
       name: null,
       company: { value: "Acme Labs", sourceId: "source-2", quote: "founder of Acme Labs" },
       product: null, website: null, industry: null, confidence: "high",
     },
-    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
-    { name: false, company: true, product: false, website: false, industry: false, reason: "Explicit company." },
+    { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit person and company." },
+    { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Both claims are explicit." },
   ]),
 });
 assert.equal(complementaryAnalysts.identity.name, "Alex Example");
 assert.equal(complementaryAnalysts.identity.company, "Acme Labs");
+
+const conflictingAnalysts = await identifyRecord(namedRecord, {
+  analystAttempts: 2,
+  runModel: runner([
+    {
+      name: null,
+      company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      product: null, website: null, industry: null, confidence: "low",
+    },
+    {
+      name: null,
+      company: { value: "Online University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      product: null, website: null, industry: null, confidence: "high",
+    },
+    { acceptedClaimIds: ["claim-1"], reason: "Only the proper company name is explicit." },
+    { acceptedClaimIds: ["claim-1"], reason: "The other candidate is a generic description." },
+  ]),
+});
+assert.equal(conflictingAnalysts.identity.company, "Newlane University");
+assert.equal(conflictingAnalysts.identity.confidence, "low", "rejected analysts must not inflate identity confidence");
 
 const genericRecord = {
   title: "Full-Stack AI Developer for Document Intelligence Web App",
   description: "Project brief for an AI assistant for solar and electrical installers.",
 };
 const rejectedGeneric = await identifyRecord(genericRecord, {
+  analystAttempts: 1,
   verificationPasses: 2,
   runModel: runner([
     {
@@ -112,8 +156,8 @@ const rejectedGeneric = await identifyRecord(genericRecord, {
       industry: null,
       confidence: "high",
     },
-    { name: false, company: false, product: false, website: false, industry: false, reason: "Solar is an industry reference." },
-    { name: false, company: false, product: false, website: false, industry: false, reason: "No owned company is named." },
+    { acceptedClaimIds: [], reason: "Solar is an industry reference." },
+    { acceptedClaimIds: [], reason: "No owned company is named." },
   ]),
 });
 assert.equal(rejectedGeneric.identity.kind, "unknown");
@@ -123,6 +167,7 @@ const competitorRecord = {
   description: "Existing products include Can You RUN It (systemrequirementslab.com). RigScore combines these ideas into a new product.",
 };
 const rejectedCompetitor = await identifyRecord(competitorRecord, {
+  analystAttempts: 1,
   verificationPasses: 2,
   runModel: runner([
     {
@@ -133,13 +178,14 @@ const rejectedCompetitor = await identifyRecord(competitorRecord, {
       industry: null,
       confidence: "medium",
     },
-    { name: false, company: false, product: false, website: false, industry: false, reason: "The site is a referenced competitor." },
-    { name: false, company: false, product: false, website: false, industry: false, reason: "The buyer does not own this site." },
+    { acceptedClaimIds: [], reason: "The site is a referenced competitor." },
+    { acceptedClaimIds: [], reason: "The buyer does not own this site." },
   ]),
 });
 assert.equal(rejectedCompetitor.identity.kind, "unknown");
 
 const disagreement = await identifyRecord(namedRecord, {
+  analystAttempts: 1,
   verificationPasses: 2,
   runModel: runner([
     {
@@ -150,13 +196,14 @@ const disagreement = await identifyRecord(namedRecord, {
       industry: null,
       confidence: "high",
     },
-    { name: false, company: true, product: false, website: false, industry: false, reason: "Accepted." },
-    { name: false, company: false, product: false, website: false, industry: false, reason: "Ambiguous." },
+    { acceptedClaimIds: ["claim-1"], reason: "Accepted." },
+    { acceptedClaimIds: [], reason: "Ambiguous." },
   ]),
 });
 assert.equal(disagreement.identity.kind, "unknown");
 
 const inventedQuote = await identifyRecord(namedRecord, {
+  analystAttempts: 1,
   runModel: runner([{
     name: null,
     company: { value: "Newlane University", sourceId: "source-2", quote: "We own Newlane University" },
@@ -168,7 +215,147 @@ const inventedQuote = await identifyRecord(namedRecord, {
 });
 assert.equal(inventedQuote.identity.kind, "unknown");
 
+const invalidOptionalIndustry = await identifyRecord(namedRecord, {
+  analystAttempts: 1,
+  runModel: runner([
+    {
+      name: null,
+      company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      product: null,
+      website: null,
+      industry: "online education",
+      confidence: "high",
+    },
+    { acceptedClaimIds: ["claim-1"] },
+    { acceptedClaimIds: ["claim-1"] },
+  ]),
+});
+assert.equal(invalidOptionalIndustry.identity.company, "Newlane University", "one malformed optional field must not discard valid claims");
+assert.equal(invalidOptionalIndustry.identity.industry, null);
+
+const validAbstentionWithBadSample = await identifyRecord(genericRecord, {
+  analystAttempts: 3,
+  runModel: runner([
+    { name: null, company: null, product: null, website: null, industry: null, confidence: "low" },
+    { name: null, company: null, product: null, website: null, industry: "solar", confidence: "low" },
+    { name: null, company: null, product: null, website: null, industry: null, confidence: "low" },
+  ]),
+});
+assert.equal(validAbstentionWithBadSample.identity.kind, "unknown");
+assert.equal(validAbstentionWithBadSample.error, undefined, "a bad sample must not override valid abstentions");
+
+const malformedVerifierRetry = await identifyRecord(namedRecord, {
+  analystAttempts: 1,
+  verificationPasses: 2,
+  runModel: runner([
+    {
+      name: null,
+      company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
+      product: null,
+      website: null,
+      industry: null,
+      confidence: "high",
+    },
+    { acceptedClaimIds: ["claim-1"] },
+    `{"acceptedClaimIds":["claim-1"],"reason":"The buyer said "hello"."}`,
+    { acceptedClaimIds: ["claim-1"] },
+  ]),
+});
+assert.equal(malformedVerifierRetry.identity.company, "Newlane University", "a malformed verifier response should be retried once");
+
+const modelOutage = await identifyRecord(namedRecord, {
+  analystAttempts: 2,
+  runModel: async () => { throw new Error("provider returned no text"); },
+});
+assert.equal(modelOutage.identity.kind, "unknown");
+assert.match(modelOutage.error || "", /provider returned no text/, "model outages must not look like valid unknown identities");
+
 assert.equal((await identifyRecord(namedRecord, { useModel: false })).identity.kind, "unknown");
+
+const buyerReviewRecord = {
+  title: "Platform engineer",
+  details: {
+    buyer: {
+      workHistory: [{
+        jobInfo: { title: "Previous platform work" },
+        feedbackToClient: { comment: "Samuel was clear, responsive, and provided everything needed." },
+      }],
+    },
+  },
+};
+const buyerReviewSource = extractIdentitySignals(buyerReviewRecord).texts.find((source) => source.source === "review-to-client");
+assert.deepEqual(buyerReviewSource && {
+  source: buyerReviewSource.source,
+  authorRole: buyerReviewSource.authorRole,
+  subjectRole: buyerReviewSource.subjectRole,
+}, {
+  source: "review-to-client",
+  authorRole: "freelancer",
+  subjectRole: "upwork-client",
+});
+
+let reviewAnalystCalls = 0;
+let reviewVerifierCalls = 0;
+const identifiedFromBuyerReview = await identifyRecord(buyerReviewRecord, {
+  analystAttempts: 3,
+  verificationPasses: 2,
+  runModel: async (prompt) => {
+    assert.match(prompt, /"source":"review-to-client"/);
+    assert.match(prompt, /"authorRole":"freelancer"/);
+    assert.match(prompt, /"subjectRole":"upwork-client"/);
+    if (prompt.includes("VERIFICATION PASS")) {
+      reviewVerifierCalls++;
+      return JSON.stringify({ acceptedClaimIds: ["claim-1"], reason: "The source identifies the buyer being reviewed." });
+    }
+    reviewAnalystCalls++;
+    return JSON.stringify({
+      name: { value: "Samuel", sourceId: "source-3", quote: "Samuel was clear, responsive" },
+      company: null,
+      product: null,
+      website: null,
+      industry: null,
+      confidence: "medium",
+    });
+  },
+});
+assert.equal(identifiedFromBuyerReview.identity.kind, "identified");
+assert.equal(identifiedFromBuyerReview.identity.name, "Samuel");
+assert.equal(reviewAnalystCalls, 3);
+assert.equal(reviewVerifierCalls, 2);
+
+const representativeReviewRecord = {
+  title: "Application developer",
+  details: {
+    buyer: {
+      workHistory: [{
+        jobInfo: { title: "Prototype application" },
+        feedbackToClient: {
+          comment: "Philip explained the goal, provided the assets, and gave feedback. He wanted the best result for his client.",
+        },
+      }],
+    },
+  },
+};
+const identifiedRepresentative = await identifyRecord(representativeReviewRecord, {
+  analystAttempts: 1,
+  verificationPasses: 2,
+  runModel: async (prompt) => {
+    assert.match(prompt, /hired them through the Upwork client account/i);
+    assert.match(prompt, /end customer/i);
+    if (prompt.includes("VERIFICATION PASS")) {
+      return JSON.stringify({ acceptedClaimIds: ["claim-1"], reason: "Philip is the Upwork contracting counterpart." });
+    }
+    return JSON.stringify({
+      name: { value: "Philip", sourceId: "source-3", quote: "Philip explained the goal, provided the assets, and gave feedback" },
+      company: null,
+      product: null,
+      website: null,
+      industry: null,
+      confidence: "high",
+    });
+  },
+});
+assert.equal(identifiedRepresentative.identity.name, "Philip");
 
 const directContacts = "Contact studio@acme.example or +1 (415) 555-0199. WhatsApp https://wa.me/14155550199. Updated 2026-07-19.";
 assert.deepEqual(extractEmailAddresses(directContacts), ["studio@acme.example"]);

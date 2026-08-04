@@ -13,8 +13,9 @@ stores runs as ordinary folders under `runs/`.
 - A logged-in Chrome, Brave, Edge, Vivaldi, Opera, Arc, or Chromium browser.
   Upwho starts or attaches to it through Playwright `connectOverCDP`. Safari and
   Firefox are detected and an installed Chromium browser is used instead.
-- The `opencode` CLI on `PATH`, configured with a free model. The default is
-  `opencode/deepseek-v4-flash-free`; set `OPENCODE_MODEL` to change it.
+- The `opencode` CLI on `PATH`, connected to OpenCode Go. The default is
+  `opencode-go/deepseek-v4-flash`; set `OPENCODE_MODEL` to use another
+  configured provider and model.
 - `npm install`.
 
 Direct HTTP requests to Upwork are not used. The browser loads a normal feed,
@@ -35,11 +36,12 @@ value; pass an empty value to disable it. Existing job IDs are skipped across
 runs unless `--force` is supplied.
 
 `--no-model` skips identity claims and web enrichment for a safe collection-only
-diagnostic. Normal runs use an OpenCode analyst followed by two separate
-adversarial verification passes for identity and public-web matches. A claim is
-stored only when every verifier accepts it and its exact quote or URL exists in
-the observed source data. Disagreement, invalid output, and model failure produce
-an empty field instead of a deterministic guess.
+diagnostic. Identity analysis uses three independent OpenCode analysts followed
+by two shared adversarial verification passes. Public-web matches also require
+two verifier passes. A claim is stored only when every verifier accepts it and
+its exact quote or URL exists in the observed source data. Disagreement produces
+an empty field. A model failure fails that client, and a total provider outage
+fails the run without publishing an inaccurate result.
 
 Model calls have a per-attempt timeout, an overall budget, one retry, and a
 shared concurrency permit. They run in disposable directories with shell,

@@ -1,5 +1,6 @@
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
+import { withCancellation } from "./cancellation.ts";
 import { startDashboard } from "./dashboard.ts";
 import { rerunClient, runOnce } from "./run.ts";
 import type { FeedKey } from "./upwork-browser.ts";
@@ -165,8 +166,25 @@ async function main(): Promise<void> {
 
 const entry = process.argv[1] ? pathToFileURL(resolve(process.argv[1])).href : "";
 if (import.meta.url === entry) {
-  main().catch((error) => {
-    process.stderr.write(`error: ${error instanceof Error ? error.message : String(error)}\n`);
-    process.exitCode = 1;
-  });
+  const controller = new AbortController();
+  let interrupted = false;
+  const cancel = () => {
+    interrupted = true;
+    controller.abort(new Error("Run cancelled"));
+  };
+  const dashboardCommand = process.argv[2] === "dashboard";
+  if (!dashboardCommand) {
+    process.once("SIGINT", cancel);
+    process.once("SIGTERM", cancel);
+  }
+  const execution = dashboardCommand ? main() : withCancellation(controller.signal, main);
+  execution
+    .catch((error) => {
+      process.stderr.write(`error: ${error instanceof Error ? error.message : String(error)}\n`);
+      process.exitCode = interrupted ? 130 : 1;
+    })
+    .finally(() => {
+      process.removeListener("SIGINT", cancel);
+      process.removeListener("SIGTERM", cancel);
+    });
 }
