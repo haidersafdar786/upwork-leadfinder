@@ -1,5 +1,6 @@
 import type { FeedJob } from "./types.ts";
 import { collectAttachmentTexts } from "./attachments.ts";
+import { isOpenCodeProviderStopped } from "./opencode.ts";
 import { closeFeed, fetchJobDetails, type FeedSession } from "./upwork-browser.ts";
 import { createRunFolder, writeRawJobRecord } from "./run-files.ts";
 
@@ -39,6 +40,7 @@ export async function replayFeed(
         await writeRawJobRecord(runDirectory, job, rawFeed, details, attachments.items, attachments.failures);
         written++;
       } catch (error) {
+        if (isOpenCodeProviderStopped(error)) throw error;
         failures.push({ jobId: job.id, message: error instanceof Error ? error.message : String(error) });
       }
     }

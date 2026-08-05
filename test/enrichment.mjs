@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { buildEnrichmentQueries, completeSelectionFromEvidence, evidenceFromOpenCodeTools, removeDefinitivelyDeadLinks, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
+import { buildEnrichmentQueries, completeSelectionFromEvidence, evidenceFromOpenCodeTools, parseVerification, removeDefinitivelyDeadLinks, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
 
 const labels = JSON.parse(readFileSync(new URL("./enrichment-labels.json", import.meta.url), "utf8"));
 const squish = (value) => (value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -12,6 +12,31 @@ const valueFor = (presence, field) => ({
 const matches = (actual, expected) => expected === null ? !actual : Boolean(actual && squish(actual).includes(squish(expected)));
 const verification = (values = {}) => ({ personLinkedin: false, companyLinkedin: false, website: false, socials: [], emails: [], phones: [], whatsApp: [], supportingLinks: [], reason: "fixture", ...values });
 const verifiedTwice = (values = {}) => [verification(values), verification(values)];
+
+// Models sometimes echo the selected URL instead of the verifier's requested boolean. The boundary
+// parser should accept that equivalent answer rather than failing an otherwise complete enrichment run.
+const stringFlagVerification = parseVerification(JSON.stringify({
+  personLinkedin: "false",
+  companyLinkedin: "https://www.linkedin.com/company/acme",
+  website: "https://acme.example/",
+  socials: [],
+  emails: [],
+  phones: [],
+  whatsApp: [],
+  supportingLinks: [],
+  reason: "observed evidence supports the selected links",
+}));
+assert.deepEqual(stringFlagVerification, {
+  personLinkedin: false,
+  companyLinkedin: true,
+  website: true,
+  socials: [],
+  emails: [],
+  phones: [],
+  whatsApp: [],
+  supportingLinks: [],
+  reason: "observed evidence supports the selected links",
+});
 
 let pass = 0;
 let total = 0;

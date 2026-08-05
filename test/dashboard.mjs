@@ -26,8 +26,8 @@ const totalFetchFailure = detailFetchFailure({
 });
 assert.match(totalFetchFailure?.message || "", /All 28 selected job detail requests failed/);
 assert.equal(detailFetchFailure({ selectedJobs: 28, fetchedRecords: 1, failures: [] }), null, "a partial fetch must remain usable");
-assert.equal(clientWorkerCount(undefined, 25), 8, "aggressive runs should use all eight client workers");
-assert.equal(clientWorkerCount(20, 25), 8, "client workers should stay under the global model-call cap");
+assert.equal(clientWorkerCount(undefined, 25), 3, "client workers should use the safe default");
+assert.equal(clientWorkerCount(20, 25), 3, "client workers should stay under the safe concurrency cap");
 assert.equal(clientWorkerCount(6, 3), 3, "small runs should not create idle workers");
 assert.equal(researchPageCount(undefined, 25), 3, "browser research should use a small default page pool");
 assert.equal(researchPageCount(8, 2), 2, "browser research should not create more pages than clients");

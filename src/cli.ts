@@ -31,6 +31,9 @@ Run options:
   --no-model             Use deterministic identity extraction only
   --json                 Print the result JSON to stdout
   --root <directory>     Run folder root (default: runs)
+  --clients <number>     Clients analysed at once (maximum and default: 3)
+  --research-tabs <n>    Browser tabs used for past-job research (default: 3)
+  --details <number>     Job detail requests in flight at once (default: 4)
 
 Dashboard options:
   --port <number>        Loopback port (default: 4040)
@@ -89,6 +92,14 @@ function feed(args: ParsedArgs): FeedKey {
   const selected = value(args, "feed") || "best-matches";
   if (!FEEDS.has(selected as FeedKey)) throw new Error(`Unknown feed: ${selected}`);
   return selected as FeedKey;
+}
+
+function count(args: ParsedArgs, key: string): number | undefined {
+  const raw = value(args, key);
+  if (raw === undefined) return undefined;
+  const parsed = Number(raw);
+  if (!Number.isInteger(parsed) || parsed < 1) throw new Error(`--${key} must be a positive integer`);
+  return parsed;
 }
 
 function port(args: ParsedArgs): number {
@@ -150,6 +161,9 @@ async function main(): Promise<void> {
       countries: countries(args),
       force: args.booleans.has("force"),
       useModel: !args.booleans.has("no-model"),
+      clientConcurrency: count(args, "clients"),
+      researchConcurrency: count(args, "research-tabs"),
+      detailConcurrency: count(args, "details"),
     }, progress());
     if (args.booleans.has("json")) process.stdout.write(JSON.stringify(execution.result, null, 2) + "\n");
     else printResult(execution.runDirectory, execution.result);

@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { emailsMatchingWebsite, extractEmailAddresses, extractPhoneNumbers, extractWhatsAppUrls } from "../src/contacts.ts";
 import { extractIdentitySignals } from "../src/identity-extraction.ts";
 import { identifyRecord } from "../src/identity-model.ts";
+import { OpenCodeProviderStoppedError } from "../src/opencode.ts";
 
 function runner(responses) {
   const queue = [...responses];
@@ -269,6 +270,13 @@ const modelOutage = await identifyRecord(namedRecord, {
 });
 assert.equal(modelOutage.identity.kind, "unknown");
 assert.match(modelOutage.error || "", /provider returned no text/, "model outages must not look like valid unknown identities");
+
+const providerStopped = new OpenCodeProviderStoppedError("test-model", 4);
+await assert.rejects(
+  () => identifyRecord(namedRecord, { analystAttempts: 2, runModel: async () => { throw providerStopped; } }),
+  (error) => error === providerStopped,
+  "a stopped provider must abort identity analysis instead of becoming a client error",
+);
 
 assert.equal((await identifyRecord(namedRecord, { useModel: false })).identity.kind, "unknown");
 

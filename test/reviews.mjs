@@ -54,7 +54,7 @@ const unsortedPublicHistory = [
   { ...history[0], title: "Middle", jobCiphertext: "~middle", access: "PUBLIC_INDEX", startDate: "2025-01-01", endDate: "2025-02-01" },
   { ...history[0], title: "Latest duplicate", jobCiphertext: "~latest", access: "PUBLIC_INDEX", startDate: "2024-01-01", endDate: "2024-02-01" },
 ];
-assert.deepEqual(selectedPublicJobs(unsortedPublicHistory, 50).map((job) => job.jobCiphertext), ["~latest", "~middle", "~old"]);
+assert.deepEqual(selectedPublicJobs(unsortedPublicHistory).map((job) => job.jobCiphertext), ["~latest", "~middle", "~old"]);
 
 const nuxtValues = [
   ["ShallowReactive", 1],

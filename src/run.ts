@@ -10,6 +10,7 @@ import {
 import { clientHistoryFromRecord } from "./client-history.ts";
 import { checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
 import { enrichClient, emptyWebPresence, evidenceSupportingPresence } from "./enrichment.ts";
+import { isOpenCodeProviderStopped, resetOpenCodeProviderState } from "./opencode.ts";
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, selectedPublicJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
 import {
@@ -60,9 +61,11 @@ import type {
 } from "./types.ts";
 
 export const DEFAULT_COUNTRY_SKIP = ["India", "Israel", "Pakistan", "Bangladesh", "Philippines", "Ukraine", "Kenya", "Nigeria"] as const;
-export const DEFAULT_CLIENT_CONCURRENCY = 8;
+// A client worker holds both browser-research and model-call state. Three workers keep the provider
+// and browser research pool bounded for reliable live runs.
+export const DEFAULT_CLIENT_CONCURRENCY = 3;
 export const DEFAULT_RESEARCH_CONCURRENCY = 3;
-const MAX_CLIENT_CONCURRENCY = 8;
+const MAX_CLIENT_CONCURRENCY = 3;
 
 export interface RunOptions {
   root?: string;
@@ -425,6 +428,7 @@ async function fetchRecords(session: FeedSession, jobs: readonly FeedJob[], runD
         records.push({ job, rawFeed, details, attachmentsText: attachments.items, attachmentFailures: attachments.failures, buyerId: buyerId(details, job.id) });
       } catch (error) {
         rethrowCancellation(error);
+        if (isOpenCodeProviderStopped(error)) throw error;
         failures.push({ jobId: job.id, message: error instanceof Error ? error.message : String(error) });
       }
     }
@@ -486,6 +490,7 @@ async function processRecords(
               past = await gatherPastJobs(lease.page, aggregate);
             } catch (error) {
               rethrowCancellation(error);
+              if (isOpenCodeProviderStopped(error)) throw error;
               past.failures.push(error instanceof Error ? error.message : String(error));
             }
             await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
@@ -493,6 +498,7 @@ async function processRecords(
               recoveryResult = await recoverClientName(lease.page, workHistory);
             } catch (error) {
               rethrowCancellation(error);
+              if (isOpenCodeProviderStopped(error)) throw error;
               recoveryResult.failures.push(error instanceof Error ? error.message : String(error));
             }
           } finally {
@@ -524,6 +530,7 @@ async function processRecords(
           client.webEvidence = evidenceSupportingPresence(research.evidence, client.webPresence);
         } catch (error) {
           rethrowCancellation(error);
+          if (isOpenCodeProviderStopped(error)) throw error;
           past.failures.push(error instanceof Error ? error.message : String(error));
           client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
         }
@@ -535,6 +542,7 @@ async function processRecords(
         if (publishClients) await report(progress, { kind: "client-completed", client });
       } catch (error) {
         rethrowCancellation(error);
+        if (isOpenCodeProviderStopped(error)) throw error;
         const message = error instanceof Error ? error.message : String(error);
         failures.push({ jobId: clientRecords[0]?.job.id || String(buyer), message });
         await report(progress, { kind: "client-failed", buyerId: buyer, message });
@@ -587,6 +595,7 @@ export async function runOnce(
   progress: ProgressCallback = noopProgress,
 ): Promise<RunExecution> {
   const startedAt = new Date().toISOString() as IsoDate;
+  resetOpenCodeProviderState();
   const root = options.root || "runs";
   const signal = currentCancellationSignal();
   let session: FeedSession | null = null;
@@ -666,6 +675,7 @@ export async function rerunClient(
   options: Omit<RunOptions, "root" | "onlyBuyerId" | "onlyJobIds"> = {},
   progress: ProgressCallback = noopProgress,
 ): Promise<RunExecution> {
+  resetOpenCodeProviderState();
   const previous = await readRunResult(sourceRunDirectory);
   if (!previous) throw new Error(`Run ${sourceRunDirectory} has no result.json`);
   const client = previous.clients.find((item) => item.buyerId === buyer);

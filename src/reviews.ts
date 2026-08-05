@@ -1,5 +1,5 @@
 import { readFileSync } from "node:fs";
-import type { Page, Request } from "playwright";
+import type { BrowserContext, Page, Request } from "playwright";
 import { UPWORK_TENANT_ID } from "./upwork-browser.ts";
 import type { Identity } from "./types.ts";
 
@@ -187,6 +187,28 @@ async function captureProfileToken(page: Page, seeds: string[]): Promise<string 
   }
 }
 
+// The bearer belongs to the signed-in account rather than to any one buyer, so every client in a run can
+// share the first one captured instead of navigating to a profile and waiting for the header again.
+const profileTokens = new WeakMap<BrowserContext, Promise<string | null>>();
+
+async function profileToken(page: Page, seeds: string[], refresh: boolean): Promise<string | null> {
+  const context = page.context();
+  const cached = profileTokens.get(context);
+  if (cached && !refresh) {
+    const token = await cached;
+    if (token) return token;
+  }
+  const capture = captureProfileToken(page, seeds);
+  profileTokens.set(context, capture);
+  const token = await capture;
+  if (!token) profileTokens.delete(context);
+  return token;
+}
+
+function unauthorized(error: unknown): boolean {
+  return error instanceof Error && /HTTP (401|403)/.test(error.message);
+}
+
 async function resolveFreelancerId(page: Page, ciphertext: string, token: string): Promise<string | null> {
   const response = await page.evaluate(async ({ query, profileUrl, authorization, tenantId }) => {
     const result = await fetch("/api/graphql/v1?alias=getDetails", {
@@ -271,43 +293,81 @@ export async function recoverClientName(
   const fallback = uniqueCandidates([...workHistory], false, maxFallback);
   const seeds = [...reviewed, ...fallback].flatMap((work) => work.freelancerCiphertext ? [work.freelancerCiphertext] : []);
   if (!seeds.length) return { match: null, attempted: 0, succeeded: 0, failures: [] };
-  const token = await captureProfileToken(page, seeds);
-  if (!token) return { match: null, attempted: 0, succeeded: 0, failures: ["Could not capture a freelancer profile bearer token"] };
+  const captured = await profileToken(page, seeds, false);
+  if (!captured) return { match: null, attempted: 0, succeeded: 0, failures: ["Could not capture a freelancer profile bearer token"] };
+  let token = captured;
 
   const votes = new Map<string, { name: string; count: number; hit: { work: WorkHistoryEntry; review: FreelancerReviewRecord; freelancerId: string } }>();
   const failures: string[] = [];
   let attempted = 0;
   let succeeded = 0;
+  let refreshed = false;
 
-  const probe = async (work: WorkHistoryEntry): Promise<boolean> => {
-    attempted++;
+  // A shared bearer can outlive its session, so one rejection re-captures it before the run gives up.
+  const withToken = async <Value>(work: (bearer: string) => Promise<Value>): Promise<Value> => {
     try {
-      const freelancerId = await resolveFreelancerId(page, work.freelancerCiphertext || "", token);
-      if (!freelancerId) {
-        succeeded++;
-        return false;
-      }
-      const reviews = await fetchFreelancerReviews(page, token, freelancerId, work.title);
-      const review = pickMatchingReview(reviews, work.title, work.endDate || work.startDate);
-      const name = review && reviewName(review);
-      succeeded++;
-      if (!review || !name) return false;
-      const key = name.toLowerCase();
-      const previous = votes.get(key);
-      if (previous) previous.count++;
-      else votes.set(key, { name, count: 1, hit: { work, review, freelancerId } });
-      return true;
+      return await work(token);
     } catch (error) {
-      failures.push(error instanceof Error ? error.message : String(error));
-      return false;
+      if (refreshed || !unauthorized(error)) throw error;
+      refreshed = true;
+      const fresh = await profileToken(page, seeds, true);
+      if (!fresh) throw error;
+      token = fresh;
+      return work(fresh);
     }
   };
 
+  // A probe reports what it found rather than recording it, so results can be merged in candidate order
+  // whatever order they arrive in. That keeps a tie between two names resolving the same way every time.
+  interface ProbeOutcome {
+    vote: { name: string; work: WorkHistoryEntry; review: FreelancerReviewRecord; freelancerId: string } | null;
+    succeeded: boolean;
+    failure: string | null;
+  }
+
+  const probe = async (work: WorkHistoryEntry): Promise<ProbeOutcome> => {
+    attempted++;
+    try {
+      const freelancerId = await withToken((bearer) => resolveFreelancerId(page, work.freelancerCiphertext || "", bearer));
+      if (!freelancerId) return { vote: null, succeeded: true, failure: null };
+      const reviews = await withToken((bearer) => fetchFreelancerReviews(page, bearer, freelancerId, work.title));
+      const review = pickMatchingReview(reviews, work.title, work.endDate || work.startDate);
+      const name = review && reviewName(review);
+      if (!review || !name) return { vote: null, succeeded: true, failure: null };
+      return { vote: { name, work, review, freelancerId }, succeeded: true, failure: null };
+    } catch (error) {
+      return { vote: null, succeeded: false, failure: error instanceof Error ? error.message : String(error) };
+    }
+  };
+
+  const record = (outcome: ProbeOutcome): void => {
+    if (outcome.succeeded) succeeded++;
+    if (outcome.failure) failures.push(outcome.failure);
+    if (!outcome.vote) return;
+    const { name, work, review, freelancerId } = outcome.vote;
+    const key = name.toLowerCase();
+    const previous = votes.get(key);
+    if (previous) previous.count++;
+    else votes.set(key, { name, count: 1, hit: { work, review, freelancerId } });
+  };
+
+  const settled = (): boolean => {
+    const leader = [...votes.values()].sort((left, right) => right.count - left.count)[0];
+    return Boolean(leader?.count && leader.count >= 2);
+  };
+
   const probeList = async (candidates: WorkHistoryEntry[]) => {
-    for (const work of candidates) {
-      await probe(work);
-      const leader = [...votes.values()].sort((left, right) => right.count - left.count)[0];
-      if (leader?.count && leader.count >= 2) return;
+    // Two agreeing votes are needed to stop early, so the first two candidates are always both probed.
+    // Running that pair together costs one round trip instead of two and cannot change the outcome.
+    const opening = candidates.slice(0, 2);
+    const rest = candidates.slice(2);
+    if (opening.length) {
+      for (const outcome of await Promise.all(opening.map(probe))) record(outcome);
+      if (settled()) return;
+    }
+    for (const work of rest) {
+      record(await probe(work));
+      if (settled()) return;
     }
   };
 

@@ -45,7 +45,34 @@ fails the run without publishing an inaccurate result.
 
 Model calls have a per-attempt timeout, an overall budget, one retry, and a
 shared concurrency permit. They run in disposable directories with shell,
-filesystem, and task tools denied.
+filesystem, and task tools denied, and with any MCP server from the global
+OpenCode config switched off so no foreign tool reaches a run.
+
+When a model returns nothing at all — its attempt deadline passes without a
+single streamed event — a run of such attempts stops the run with a message naming
+the model, rather than spending every remaining call to learn the same thing. The
+threshold defaults to half of `OPENCODE_CONCURRENCY` (minimum 3), because calls in
+flight together fail together; override it with `OPENCODE_MUTE_TIMEOUT_LIMIT`. Any
+response at all, including an error or a slow partial answer, clears the streak, so
+a provider that is merely saturated does not doom the clients that follow.
+
+Past-job research reads a buyer's four newest and four oldest public past jobs —
+the newest say what they want now, and the oldest are where a client still new to
+the platform tends to have spelled out who they are — through concurrent in-page
+requests. Whatever those cannot produce falls back to a rendered page, one at a
+time. Because a rendered page can also clear a bot challenge, the first fallback
+is followed by another round of cheap reads instead of a navigation per remaining
+job. Every past job still gets its own rendered attempt if it needs one, so a
+challenged buyer is slow rather than silently less complete; cap that with
+`UPWHO_PAST_JOB_NAVIGATIONS` (default `-1`, meaning no cap), which trades past-job
+completeness for time and records the reason against each job it skips.
+
+Tune throughput with `--clients` (buyers analysed at once, maximum and default 3),
+`--research-tabs` (browser tabs for past-job research, default 3), and
+`--details` (job detail requests in flight, default 4). Each research tab reads
+`UPWHO_PAST_JOB_CONCURRENCY` past jobs at once (default 4), so the two multiply;
+raising them past what Upwork tolerates earns challenge pages instead of speed.
+`OPENCODE_CONCURRENCY` bounds model calls across the whole run (default 8).
 
 ## Dashboard
 

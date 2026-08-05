@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { emailsMatchingWebsite, emptyContactDetails, extractEmailAddresses, extractPhoneNumbers, extractWhatsAppUrls, mergeContactDetails } from "./contacts.ts";
 import type { Client, EmailAddress, HttpUrl, Identity, PhoneNumber, PublicWebEvidence, WebPresence } from "./types.ts";
-import { runOpenCode, runOpenCodeWeb, type OpenCodeTool } from "./opencode.ts";
+import { isOpenCodeProviderStopped, runOpenCode, runOpenCodeWeb, type OpenCodeTool } from "./opencode.ts";
 
 const StringArraySchema = z.preprocess(
   (value) => value === null || value === undefined ? [] : value,
@@ -12,6 +12,14 @@ const SupportingLinksSchema = z.preprocess(
   (value) => value === null || value === undefined ? [] : value,
   z.array(z.object({ url: z.string(), title: z.string() }).strict()),
 );
+
+const VerificationFlagSchema = z.preprocess((value) => {
+  if (typeof value !== "string") return value;
+  const normalized = value.trim().toLowerCase();
+  if (["", "false", "no", "none", "null", "n/a", "0"].includes(normalized)) return false;
+  if (["true", "yes", "1"].includes(normalized) || /^https?:\/\//i.test(value.trim())) return true;
+  return value;
+}, z.boolean());
 
 const EnrichmentModelSchema = z.object({
   personLinkedin: z.string().nullable(),
@@ -33,9 +41,9 @@ const EnrichmentModelSchema = z.object({
 }).strict();
 
 const WebVerificationSchema = z.object({
-  personLinkedin: z.boolean(),
-  companyLinkedin: z.boolean(),
-  website: z.boolean(),
+  personLinkedin: VerificationFlagSchema,
+  companyLinkedin: VerificationFlagSchema,
+  website: VerificationFlagSchema,
   socials: StringArraySchema,
   emails: StringArraySchema,
   phones: StringArraySchema,
@@ -173,7 +181,7 @@ function parseModelOutput(text: string): EnrichmentModelOutput {
   return EnrichmentModelSchema.parse(parseJson(text));
 }
 
-function parseVerification(text: string): WebVerification {
+export function parseVerification(text: string): WebVerification {
   return WebVerificationSchema.parse(parseJson(text));
 }
 
@@ -442,7 +450,8 @@ export async function researchWebPresence(
   try {
     const review = parseModelOutput(await runOpenCode({ prompt: selectionReviewPrompt(known, completeFirstSelection, evidence) }));
     selection = completeSelectionFromEvidence(known, mergeSelections(completeFirstSelection, review), evidence);
-  } catch {
+  } catch (error) {
+    if (isOpenCodeProviderStopped(error)) throw error;
     selection = completeFirstSelection;
   }
   const observedSelection = observedModelSelection(selection, results);
@@ -482,6 +491,7 @@ export async function enrichClient(
     try {
       return await researchWebPresence(knownFromClient(client), options);
     } catch (error) {
+      if (isOpenCodeProviderStopped(error)) throw error;
       lastError = error;
     }
   }

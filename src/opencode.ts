@@ -1,6 +1,7 @@
 import { execFile, spawn } from "node:child_process";
+import { readFileSync } from "node:fs";
 import { mkdtemp, rm, writeFile } from "node:fs/promises";
-import { tmpdir } from "node:os";
+import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import { promisify } from "node:util";
 import { cancellationReason, checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
@@ -37,6 +38,21 @@ export interface OpenCodeTool {
 export interface OpenCodeRun {
   text: string;
   tools: OpenCodeTool[];
+}
+
+export class OpenCodeProviderStoppedError extends Error {
+  readonly code = "OPENCODE_PROVIDER_STOPPED";
+
+  constructor(model: string, attempts: number) {
+    super(
+      `Model ${model} returned nothing on ${attempts} consecutive attempts, so the run stopped instead of waiting out the remaining calls. Check the provider, lower OPENCODE_CONCURRENCY, or set OPENCODE_MODEL to a model that responds.`,
+    );
+    this.name = "OpenCodeProviderStoppedError";
+  }
+}
+
+export function isOpenCodeProviderStopped(error: unknown): error is OpenCodeProviderStoppedError {
+  return error instanceof OpenCodeProviderStoppedError;
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -89,6 +105,87 @@ function permissions(web: boolean) {
     question: "deny",
     doom_loop: "deny",
   };
+}
+
+function stripJsonComments(text: string): string {
+  let result = "";
+  let inString = false;
+  let escaped = false;
+  for (let index = 0; index < text.length; index++) {
+    const character = text[index];
+    if (inString) {
+      result += character;
+      if (escaped) escaped = false;
+      else if (character === "\\") escaped = true;
+      else if (character === '"') inString = false;
+      continue;
+    }
+    if (character === '"') {
+      inString = true;
+      result += character;
+      continue;
+    }
+    if (character === "/" && text[index + 1] === "/") {
+      while (index < text.length && text[index] !== "\n") index++;
+      result += "\n";
+      continue;
+    }
+    if (character === "/" && text[index + 1] === "*") {
+      const end = text.indexOf("*/", index + 2);
+      index = end < 0 ? text.length : end + 1;
+      result += " ";
+      continue;
+    }
+    result += character;
+  }
+  return result.replace(/,(\s*[}\]])/g, "$1");
+}
+
+export function globalConfigPaths(): string[] {
+  const base = process.env.XDG_CONFIG_HOME || join(homedir(), ".config");
+  const paths = [
+    join(base, "opencode", "config.json"),
+    join(base, "opencode", "opencode.json"),
+    join(base, "opencode", "opencode.jsonc"),
+    join(homedir(), ".opencode", "opencode.json"),
+    join(homedir(), ".opencode", "opencode.jsonc"),
+  ];
+  const explicit = process.env.OPENCODE_CONFIG;
+  return [...new Set(explicit ? [...paths, explicit] : paths)];
+}
+
+// Disable globally configured MCP servers for isolated OpenCode runs.
+export function disabledMcpServers(configText: string): Record<string, unknown> {
+  const disabled: Record<string, unknown> = {};
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(stripJsonComments(configText));
+  } catch {
+    return disabled;
+  }
+  const servers = isRecord(parsed) && isRecord(parsed.mcp) ? parsed.mcp : null;
+  for (const [name, definition] of Object.entries(servers || {})) {
+    disabled[name] = { ...(isRecord(definition) ? definition : {}), enabled: false };
+  }
+  return disabled;
+}
+
+let cachedDisabledServers: Record<string, unknown> | null = null;
+
+function disabledGlobalMcpServers(): Record<string, unknown> {
+  if (cachedDisabledServers) return cachedDisabledServers;
+  const disabled: Record<string, unknown> = {};
+  for (const path of globalConfigPaths()) {
+    let text: string;
+    try {
+      text = readFileSync(path, "utf8");
+    } catch {
+      continue;
+    }
+    Object.assign(disabled, disabledMcpServers(text));
+  }
+  cachedDisabledServers = disabled;
+  return disabled;
 }
 
 function childEnvironment(workDir: string, web: boolean): NodeJS.ProcessEnv {
@@ -173,7 +270,7 @@ function runProcess(command: string, args: string[], cwd: string, timeoutMs: num
     const timer = setTimeout(() => {
       finish(() => {
         stop();
-        reject(new Error(`OpenCode timed out after ${timeoutMs}ms`));
+        reject(Object.assign(new Error(`OpenCode timed out after ${timeoutMs}ms`), { partialOutput: stdout }));
       });
     }, timeoutMs);
     signal?.addEventListener("abort", onAbort, { once: true });
@@ -243,6 +340,8 @@ async function runOpenCodeOnce({
       share: "disabled",
       permission: permissions(web),
     };
+    const disabledServers = disabledGlobalMcpServers();
+    if (Object.keys(disabledServers).length) config.mcp = disabledServers;
     if (web) {
       config.agent = {
         "upwho-web-research": {
@@ -296,6 +395,51 @@ interface OpenCodeOptions {
   retries?: number;
 }
 
+// A mute timeout is distinct from a slow response because no event was streamed.
+export function isMuteTimeout(error: unknown): boolean {
+  if (!(error instanceof Error) || !/OpenCode timed out after/.test(error.message)) return false;
+  const output = isRecord(error) ? error.partialOutput : undefined;
+  return typeof output === "string" && !/"type"\s*:/.test(output);
+}
+
+// Provider failures arrive in bursts, so scale the stopping threshold with in-flight calls.
+export function defaultMuteTimeoutLimit(concurrency: number): number {
+  return Math.max(3, Math.ceil(Math.max(1, concurrency) / 2));
+}
+
+const MUTE_TIMEOUT_LIMIT = Math.max(
+  1,
+  Number.parseInt(process.env.OPENCODE_MUTE_TIMEOUT_LIMIT || "", 10) || defaultMuteTimeoutLimit(MAX_CONCURRENCY),
+);
+let muteTimeouts = 0;
+
+export function resetOpenCodeProviderState(): void {
+  muteTimeouts = 0;
+}
+
+// Any streamed response clears the mute streak.
+function providerFailure(model: string): Error | null {
+  if (muteTimeouts < MUTE_TIMEOUT_LIMIT) return null;
+  return new OpenCodeProviderStoppedError(model, muteTimeouts);
+}
+
+function recordAttemptOutcome(error: unknown): void {
+  if (isMuteTimeout(error)) muteTimeouts++;
+  else muteTimeouts = 0;
+}
+
+export function muteStreakState(): { streak: number; stopping: boolean } {
+  return { streak: muteTimeouts, stopping: Boolean(providerFailure("test-model")) };
+}
+
+export function recordAttemptForTest(error: unknown): void {
+  recordAttemptOutcome(error);
+}
+
+export function clearMuteStreakForTest(): void {
+  muteTimeouts = 0;
+}
+
 async function runOpenCodeBudget({
   prompt,
   model = process.env.OPENCODE_MODEL || DEFAULT_OPENCODE_MODEL,
@@ -306,18 +450,27 @@ async function runOpenCodeBudget({
   web,
 }: OpenCodeOptions & { web: boolean }): Promise<OpenCodeRun> {
   const signal = currentCancellationSignal();
+  const failedBefore = providerFailure(model);
+  if (failedBefore) throw failedBefore;
   return withPermit(async () => {
     const deadline = Date.now() + timeoutMs;
     let lastError: unknown;
     for (let attempt = 0; attempt <= retries && Date.now() < deadline; attempt++) {
+      const failed = providerFailure(model);
+      if (failed) throw failed;
       const remaining = deadline - Date.now();
       const budget = Math.min(attemptTimeoutMs, remaining);
       if (budget < 3_000) break;
       try {
-        return await runOpenCodeOnce({ prompt, model, files, timeoutMs: budget, web, signal });
+        const run = await runOpenCodeOnce({ prompt, model, files, timeoutMs: budget, web, signal });
+        muteTimeouts = 0;
+        return run;
       } catch (error) {
         rethrowCancellation(error, signal);
+        recordAttemptOutcome(error);
         lastError = error;
+        const failedNow = providerFailure(model);
+        if (failedNow) throw failedNow;
       }
     }
     throw lastError instanceof Error ? lastError : new Error("OpenCode budget expired");

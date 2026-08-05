@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { HttpUrl, Identity } from "./types.ts";
 import { extractIdentitySignals, type IdentitySignals, type IdentityText } from "./identity-extraction.ts";
-import { runOpenCode } from "./opencode.ts";
+import { isOpenCodeProviderStopped, runOpenCode } from "./opencode.ts";
 
 const EvidenceClaimSchema = z.object({
   value: z.string().min(1),
@@ -149,7 +149,8 @@ async function verifiedClaims(
 ): Promise<IdentityVerification> {
   try {
     return parseVerification(await runModel(prompt));
-  } catch {
+  } catch (error) {
+    if (isOpenCodeProviderStopped(error)) throw error;
     const retry = `${prompt}\n\nYour previous response could not be parsed. Return one JSON object only, such as {"acceptedClaimIds":["claim-1"]}, using the IDs you accept or [] when you accept none.`;
     return parseVerification(await runModel(retry));
   }
@@ -269,6 +270,7 @@ export async function identifyRecord(
       };
       return { proposal: observedProposal };
     } catch (error) {
+      if (isOpenCodeProviderStopped(error)) throw error;
       return { proposal: null, error: error instanceof Error ? error.message : String(error) };
     }
   };
@@ -289,6 +291,7 @@ export async function identifyRecord(
     }));
     return { identity: toIdentity(candidates, verifications), signals };
   } catch (error) {
+    if (isOpenCodeProviderStopped(error)) throw error;
     const message = error instanceof Error ? error.message : String(error);
     return { identity: unknownIdentity(), signals, error: message };
   }

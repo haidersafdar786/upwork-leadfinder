@@ -6,7 +6,7 @@ import { promisify } from "node:util";
 import { inflateRawSync, inflateSync } from "node:zlib";
 import type { Page } from "playwright";
 import type { HttpUrl } from "./types.ts";
-import { transcribeImage } from "./opencode.ts";
+import { isOpenCodeProviderStopped, transcribeImage } from "./opencode.ts";
 
 const execFileAsync = promisify(execFile);
 const MAX_ATTACHMENT_BYTES = 32 << 20;
@@ -261,6 +261,7 @@ async function ocrPdfFirstPage(bytes: Buffer, model: string): Promise<string | n
     await execFileAsync("sips", ["-s", "format", "png", source, "--out", image]);
     return await transcribeImage(await readFile(image), "image/png", model);
   } catch (error) {
+    if (isOpenCodeProviderStopped(error)) throw error;
     if (missingTool(error)) return null;
     throw error;
   } finally {
@@ -298,6 +299,7 @@ export async function collectAttachmentTexts(
       if (!text) continue;
       items.push({ fileName: attachment.fileName, chars: text.length, text: text.slice(0, MAX_STORED_TEXT_CHARS) });
     } catch (error) {
+      if (isOpenCodeProviderStopped(error)) throw error;
       const message = error instanceof Error ? error.message : String(error);
       const failure = { fileName: attachment.fileName, error: message };
       failures.push(failure);

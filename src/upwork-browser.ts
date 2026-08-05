@@ -482,7 +482,8 @@ async function cdpAvailable(cdpUrl: string): Promise<boolean> {
 export async function newBackgroundPage(browser: Browser, context: BrowserContext, initialUrl: HttpUrl): Promise<Page> {
   return queueBackgroundPageCreation(async () => {
     const marker = new URL(initialUrl);
-    marker.hash = `upwho-${randomUUID()}`;
+    const markerHash = `#upwho-${randomUUID()}`;
+    marker.hash = markerHash;
     const markerUrl = marker.toString();
     const cdp = await browser.newBrowserCDPSession();
     let targetId: string | null = null;
@@ -493,7 +494,8 @@ export async function newBackgroundPage(browser: Browser, context: BrowserContex
       const deadline = Date.now() + BACKGROUND_TAB_READY_TIMEOUT_MS;
       while (Date.now() < deadline) {
         checkpoint();
-        const page = context.pages().find((candidate) => candidate.url() === markerUrl);
+        // The fragment survives the redirects Upwork applies to a feed URL, so the tab stays findable.
+        const page = context.pages().find((candidate) => candidate.url().endsWith(markerHash));
         if (page) return page;
         await new Promise((resolve) => setTimeout(resolve, 25));
       }
@@ -685,37 +687,102 @@ export function parsePublicJobHtml(html: string): PublicJob | null {
   return { description: Array.from(description).slice(0, 5_000).join(""), attachments };
 }
 
-export async function fetchPublicJob(page: Page, ciphertext: string): Promise<PublicJob | null> {
-  const path = `/jobs/${ciphertext}`;
-  const htmlResponse = await page.evaluate(async (requestPath) => {
-    const response = await fetch(requestPath, { credentials: "include" });
-    return { status: response.status, html: await response.text() };
-  }, path);
-  if (htmlResponse.status === 200) {
-    const parsed = parsePublicJobHtml(htmlResponse.html);
-    if (parsed) return parsed;
-  }
+const CHALLENGE_PATTERN = /__cf_chl|cf[-_]challenge|<title>[^<]*challenge[^<]*<\/title>|\bcaptcha\b/i;
 
+export function isChallengeResponse(status: number, body: string): boolean {
+  return status === 403 && CHALLENGE_PATTERN.test(body.slice(0, 4_000));
+}
+
+export function isChallengeUrl(url: string): boolean {
+  return /__cf_chl|login|signup|challenge|captcha/i.test(url);
+}
+
+export type PublicJobRead =
+  | { kind: "job"; job: PublicJob }
+  | { kind: "challenged" }
+  | { kind: "unavailable" };
+
+export const PUBLIC_JOB_READ_TIMEOUT_MS = 20_000;
+
+async function withTimeout<Value>(work: Promise<Value>, timeoutMs: number, message: string): Promise<Value> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  try {
+    return await Promise.race([
+      work,
+      new Promise<never>((_resolve, reject) => {
+        timer = setTimeout(() => reject(new Error(message)), timeoutMs);
+      }),
+    ]);
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
+}
+
+export async function fetchPublicJobState(
+  page: Page,
+  ciphertext: string,
+  timeoutMs = PUBLIC_JOB_READ_TIMEOUT_MS,
+): Promise<PublicJobRead> {
+  const read = await withTimeout(
+    page.evaluate(async ({ requestPath, budgetMs }) => {
+      const response = await fetch(requestPath, { credentials: "include", signal: AbortSignal.timeout(budgetMs) });
+      const html = await response.text();
+      return {
+        status: response.status,
+        head: html.slice(0, 4_000),
+        state: response.status === 200 ? html.match(/id="__NUXT_DATA__"[^>]*>([\s\S]*?)<\/script>/)?.[1] || null : null,
+      };
+    }, { requestPath: `/jobs/${ciphertext}`, budgetMs: timeoutMs }),
+    timeoutMs + 5_000,
+    `Public job ${ciphertext} read did not finish within ${timeoutMs + 5_000}ms`,
+  );
+  if (isChallengeResponse(read.status, read.head)) return { kind: "challenged" };
+  if (!read.state) return { kind: "unavailable" };
+  const job = parsePublicJobHtml(`<script id="__NUXT_DATA__" type="application/json">${read.state}</script>`);
+  return job ? { kind: "job", job } : { kind: "unavailable" };
+}
+
+export async function fetchRenderedPublicJob(page: Page, ciphertext: string): Promise<PublicJob | null> {
+  const path = `/jobs/${ciphertext}`;
   await page.goto(`https://www.upwork.com${path}`, { waitUntil: "domcontentloaded", timeout: FEED_WAIT_MS });
+  let sawChallenge = false;
   for (let attempt = 0; attempt < 40; attempt++) {
-    await page.waitForTimeout(400);
-    const rendered = await page.evaluate(() => {
+    if (isChallengeUrl(page.url())) {
+      // Give an in-place Cloudflare challenge time to redirect back to the job.
+      sawChallenge = true;
+      await page.waitForTimeout(400);
+      continue;
+    }
+    const read = page.evaluate(() => {
       const job = window.__NUXT__?.vuex?.jobDetails?.job;
       if (!job || typeof job.description !== "string") return null;
       const attachments = Array.isArray(job.attachments)
         ? job.attachments.flatMap((value) => {
-            const item = objectValue(value);
-            const fileName = textValue(item?.fileName);
-            const uri = textValue(item?.uri);
+            const fileName = typeof value === "object" && value !== null && "fileName" in value && typeof value.fileName === "string" ? value.fileName : null;
+            const uri = typeof value === "object" && value !== null && "uri" in value && typeof value.uri === "string" ? value.uri : null;
             return fileName && uri ? [{ fileName, uri }] : [];
           })
         : [];
       return { description: job.description.slice(0, 5_000), attachments };
     });
+    const rendered = await withTimeout(read, PUBLIC_JOB_READ_TIMEOUT_MS, `Public job ${ciphertext} did not answer within ${PUBLIC_JOB_READ_TIMEOUT_MS}ms`)
+      .catch((error: unknown) => {
+        if (isChallengeUrl(page.url())) {
+          sawChallenge = true;
+          return null;
+        }
+        throw error;
+      });
     if (rendered) return rendered;
     const location = page.url();
-    if (/login|signup|challenge|captcha/i.test(location)) throw new Error(`Upwork login or challenge blocked public job ${ciphertext}`);
+    if (isChallengeUrl(location)) {
+      sawChallenge = true;
+      await page.waitForTimeout(400);
+      continue;
+    }
     if (/page-not-found|sorry/i.test(location)) return null;
+    await page.waitForTimeout(400);
   }
+  if (sawChallenge) throw new Error(`Upwork login or challenge blocked public job ${ciphertext}`);
   throw new Error(`Public job ${ciphertext} did not hydrate before timeout`);
 }
