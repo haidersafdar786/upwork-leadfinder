@@ -347,7 +347,7 @@ async function runOpenCodeOnce({
         "upwho-web-research": {
           mode: "primary",
           description: "Bounded public-web research for one isolated client",
-          steps: 8,
+          steps: 16,
         },
       };
     }

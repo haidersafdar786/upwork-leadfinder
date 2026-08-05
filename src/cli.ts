@@ -167,7 +167,10 @@ async function main(): Promise<void> {
     }, progress());
     if (args.booleans.has("json")) process.stdout.write(JSON.stringify(execution.result, null, 2) + "\n");
     else printResult(execution.runDirectory, execution.result);
-    if (execution.failures.length) process.stderr.write(`${execution.failures.length} job/client operations failed; see the run output above.\n`);
+    if (execution.failures.length) {
+      for (const failure of execution.failures) process.stderr.write(`failed: ${failure.jobId}: ${failure.message}\n`);
+      process.stderr.write(`${execution.failures.length} job/client operations failed.\n`);
+    }
     return;
   }
   const source = value(args, "run");
@@ -176,6 +179,10 @@ async function main(): Promise<void> {
   const execution = await rerunClient(source, buyer, { useModel: !args.booleans.has("no-model") }, progress());
   if (args.booleans.has("json")) process.stdout.write(JSON.stringify(execution.result, null, 2) + "\n");
   else printResult(execution.runDirectory, execution.result);
+  if (execution.failures.length) {
+    for (const failure of execution.failures) process.stderr.write(`failed: ${failure.jobId}: ${failure.message}\n`);
+    process.stderr.write(`${execution.failures.length} job/client operations failed.\n`);
+  }
 }
 
 const entry = process.argv[1] ? pathToFileURL(resolve(process.argv[1])).href : "";

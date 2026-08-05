@@ -163,6 +163,43 @@ const rejectedGeneric = await identifyRecord(genericRecord, {
 });
 assert.equal(rejectedGeneric.identity.kind, "unknown");
 
+const genericCompanyRecord = {
+  title: "Senior Full-Stack Software Engineer",
+  description: "I run a software and AI consulting firm building custom software, AI automations, internal tools, and AI-powered products.",
+  details: {
+    buyer: {
+      workHistory: [{
+        jobInfo: { title: "AI Software Research & Testing" },
+        feedbackToClient: { comment: "Jacob provided clear instructions and was easy to work with." },
+      }],
+    },
+  },
+};
+const genericCompanyClaim = await identifyRecord(genericCompanyRecord, {
+  analystAttempts: 1,
+  verificationPasses: 2,
+  runModel: async (prompt) => {
+    if (prompt.includes("CANDIDATE CLAIMS")) {
+      assert.equal(prompt.toLowerCase().includes("generic noun phrase"), true);
+      return JSON.stringify({ acceptedClaimIds: ["claim-1", "claim-2"], reason: "The personal name and descriptive industry are supported." });
+    }
+    assert.equal(prompt.includes("software and AI consulting firm"), true);
+    assert.equal(prompt.includes("description, not a company name"), true);
+    assert.equal(prompt.includes("Industry is separate from company identity"), true);
+    return JSON.stringify({
+      name: { value: "Jacob", sourceId: "source-4", quote: "Jacob provided clear instructions" },
+      company: null,
+      product: null,
+      website: null,
+      industry: { value: "software and AI consulting", sourceId: "source-2", quote: "I run a software and AI consulting firm" },
+      confidence: "high",
+    });
+  },
+});
+assert.equal(genericCompanyClaim.identity.name, "Jacob");
+assert.equal(genericCompanyClaim.identity.company, null, "a generic business description must not become a company identity");
+assert.equal(genericCompanyClaim.identity.industry, "software and AI consulting");
+
 const competitorRecord = {
   title: "Build RigScore",
   description: "Existing products include Can You RUN It (systemrequirementslab.com). RigScore combines these ideas into a new product.",

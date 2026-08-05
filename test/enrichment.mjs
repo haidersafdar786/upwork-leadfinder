@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { buildEnrichmentQueries, completeSelectionFromEvidence, evidenceFromOpenCodeTools, parseVerification, removeDefinitivelyDeadLinks, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
+import { buildEnrichmentQueries, completeSelectionFromEvidence, evidenceFromOpenCodeTools, parseVerification, removeDefinitivelyDeadLinks, researchWebPresence, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
 
 const labels = JSON.parse(readFileSync(new URL("./enrichment-labels.json", import.meta.url), "utf8"));
 const squish = (value) => (value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -82,6 +82,81 @@ const unrelated = resolveWebPresence(
 );
 assert.equal(unrelated.verifiedSite, null);
 
+const organizationBuyerDoesNotBecomeEmployee = resolveWebPresence(
+  { name: null, people: [], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme" },
+  [
+    { url: "https://acme.example", title: "Acme", snippet: "Official Acme website" },
+    { url: "https://linkedin.com/in/employee", title: "Acme employee", snippet: "Employee at Acme" },
+    { url: "https://linkedin.com/company/acme", title: "Acme", snippet: "Acme company page" },
+  ],
+  { personLinkedin: "https://linkedin.com/in/employee", companyLinkedin: "https://linkedin.com/company/acme", website: "https://acme.example", confidence: "high" },
+  verifiedTwice({ personLinkedin: true, companyLinkedin: true, website: true }),
+);
+assert.equal(organizationBuyerDoesNotBecomeEmployee.personLinkedIn, null);
+assert.equal(organizationBuyerDoesNotBecomeEmployee.companyLinkedIn, "https://linkedin.com/company/acme");
+
+const nameOnlyBuyerDoesNotBecomeWebIdentity = resolveWebPresence(
+  { name: "Sim P", people: ["Sim P"], company: null, product: null, website: null, industry: null, location: "Canada", evidence: "Sim P" },
+  [{ url: "https://linkedin.com/in/sim-p", title: "Sim P", snippet: "Sim P in Canada" }],
+  { personLinkedin: "https://linkedin.com/in/sim-p", confidence: "high" },
+  verifiedTwice({ personLinkedin: true }),
+);
+assert.equal(nameOnlyBuyerDoesNotBecomeWebIdentity.personLinkedIn, null);
+
+const personEmployerLinksAreNotBuyerLinks = resolveWebPresence(
+  { name: "Keira S", people: ["Keira S"], company: null, product: null, website: null, industry: "ecommerce", location: "United Kingdom", evidence: "ecommerce buyer" },
+  [
+    { url: "https://linkedin.com/in/keira-s", title: "Keira S.", snippet: "Sales & Social Media Manager in ecommerce" },
+    { url: "https://linkedin.com/company/former-employer", title: "Former Employer", snippet: "Keira S. worked here" },
+  ],
+  { personLinkedin: "https://linkedin.com/in/keira-s", supportingLinks: [{ url: "https://linkedin.com/company/former-employer", title: "Former Employer" }], confidence: "high" },
+  verifiedTwice({ personLinkedin: true, supportingLinks: ["https://linkedin.com/company/former-employer"] }),
+);
+assert.equal(personEmployerLinksAreNotBuyerLinks.personLinkedIn, "https://linkedin.com/in/keira-s");
+assert.deepEqual(personEmployerLinksAreNotBuyerLinks.supportingLinks, []);
+
+const personEmployerCompanyIsNotBuyerCompany = resolveWebPresence(
+  { name: "Josh B", people: ["Josh B"], company: null, product: null, website: null, industry: "automation platform", location: "USA", evidence: "automation platform" },
+  [
+    { url: "https://linkedin.com/in/josh-bacon", title: "Josh B.", snippet: "VP of Automation & Integration" },
+    { url: "https://www.linkedin.com/company/madwire", title: "Marketing 360 / Madwire", snippet: "Josh B. works at Madwire" },
+  ],
+  { personLinkedin: "https://linkedin.com/in/josh-bacon", companyLinkedin: "https://www.linkedin.com/company/madwire", confidence: "high" },
+  verifiedTwice({ personLinkedin: true, companyLinkedin: true }),
+);
+assert.equal(personEmployerCompanyIsNotBuyerCompany.personLinkedIn, "https://linkedin.com/in/josh-bacon");
+assert.equal(personEmployerCompanyIsNotBuyerCompany.companyLinkedIn, null);
+
+const personPostsAreNotOrganizationLinks = resolveWebPresence(
+  { name: "Erica C", people: ["Erica C"], company: "Longevity Lab Systems", product: null, website: null, industry: "wellness", location: "USA", evidence: "Longevity Lab Systems" },
+  [{ url: "https://www.linkedin.com/posts/erica-canzler_example", title: "Erica Canzler", snippet: "Founder at Longevity Lab Systems" }],
+  { supportingLinks: [{ url: "https://www.linkedin.com/posts/erica-canzler_example", title: "Erica Canzler" }], confidence: "high" },
+  verifiedTwice({ supportingLinks: ["https://www.linkedin.com/posts/erica-canzler_example"] }),
+);
+assert.deepEqual(personPostsAreNotOrganizationLinks.supportingLinks, []);
+
+const buyerOwnedExternalProductLink = resolveWebPresence(
+  { name: "Ada Person", people: ["Ada Person"], company: "Acme Labs", product: "Acme Assessment", website: "https://acme.example", industry: "wellness", location: "USA", evidence: "Acme Assessment" },
+  [
+    { url: "https://acme.example/", title: "Acme Labs", snippet: "Official Acme Labs website" },
+    { url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment", snippet: "Acme Assessment by Acme Labs", fetchedFrom: "https://acme.example/" },
+  ],
+  { website: "https://acme.example/", supportingLinks: [{ url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment" }], confidence: "high" },
+  verifiedTwice({ website: true, supportingLinks: ["https://acme-assessment.scoreapp.com/"] }),
+);
+assert.deepEqual(buyerOwnedExternalProductLink.supportingLinks, [{ url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment" }]);
+
+const unconnectedDirectoryIsNotBuyerLink = resolveWebPresence(
+  { name: "Ada Person", people: ["Ada Person"], company: "Acme Labs", product: null, website: "https://acme.example", industry: "software", location: "USA", evidence: "Acme Labs" },
+  [
+    { url: "https://acme.example/", title: "Acme Labs", snippet: "Official Acme Labs website" },
+    { url: "https://directory.example/acme", title: "Business directory", snippet: "Third-party directory listing", source: "websearch" },
+  ],
+  { website: "https://acme.example/", supportingLinks: [{ url: "https://directory.example/acme", title: "Business directory" }], confidence: "high" },
+  verifiedTwice({ website: true, supportingLinks: ["https://directory.example/acme"] }),
+);
+assert.deepEqual(unconnectedDirectoryIsNotBuyerLink.supportingLinks, []);
+
 const sameNameDomain = resolveWebPresence(
   { name: "Alpay", people: ["Alpay"], company: "SecurApp", product: "SecurApp", website: null, industry: "privacy rights SaaS", location: "Germany", evidence: "GDPR access, deletion, correction and objection" },
   [{ url: "https://securapp.securapp.co/", title: "Secur App - Login", snippet: "Aplicación colombiana de gestión de riesgos" }],
@@ -123,6 +198,14 @@ const publicContacts = resolveWebPresence(
 assert.deepEqual(publicContacts.emails, ["hello@acme.example"]);
 assert.deepEqual(publicContacts.phones, ["+1 (415) 555-0199"]);
 assert.deepEqual(publicContacts.whatsApp, ["https://wa.me/14155550199"]);
+
+const personalMailbox = resolveWebPresence(
+  { name: "Jacob R", people: ["Jacob R"], company: null, product: null, website: "https://jacobrafiy.com", industry: "software and AI consulting", location: "USA", evidence: "Jacob Rafiy" },
+  [{ url: "https://jacobrafiy.com", title: "Jacob Rafiy", snippet: "Contact jhrafiy@gmail.com or visit https://linkedin.com/in/jacob-rafiy" }],
+  { website: "https://jacobrafiy.com", emails: ["jhrafiy@gmail.com"], phones: [], whatsApp: [], confidence: "high" },
+  verifiedTwice({ website: true, emails: ["jhrafiy@gmail.com"] })
+);
+assert.deepEqual(personalMailbox.emails, ["jhrafiy@gmail.com"]);
 
 const omittedOfficialContacts = resolveWebPresence(
   { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
@@ -244,7 +327,11 @@ const genericOrganization = resolveWebPresence(
 assert.equal(genericOrganization.verifiedSite, null);
 assert.deepEqual(genericOrganization.emails, []);
 assert.deepEqual(genericOrganization.phones, []);
-assert.deepEqual(buildEnrichmentQueries({ name: "Jacob J", people: ["Jacob J"], company: null, product: null, website: null, industry: null, location: "USA", evidence: null }), []);
+const nameOnlyQueries = buildEnrichmentQueries({ name: "Jacob J", people: ["Jacob J"], company: null, product: null, website: null, industry: null, location: "USA", evidence: null });
+assert.equal(nameOnlyQueries.includes("Jacob J USA linkedin"), true);
+assert.equal(nameOnlyQueries.includes("Jacob J USA website"), true);
+const contextualPersonQueries = buildEnrichmentQueries({ name: "Jacob", people: ["Jacob"], company: null, product: null, website: null, industry: "software and AI consulting", location: "United States", evidence: null });
+assert.equal(contextualPersonQueries.includes("Jacob software and AI consulting linkedin"), true);
 assert.ok(buildEnrichmentQueries({ name: null, people: [], company: "Sole Sister Ramblers", product: null, website: null, industry: null, location: "USA", evidence: null }).length > 0);
 const multiAnchorQueries = buildEnrichmentQueries({ name: "Ada Person", people: ["Ada Person"], company: "Acme Labs", product: "Acme Cloud", website: "https://cloud.acme.example", industry: null, location: null, evidence: null });
 assert.equal(multiAnchorQueries.some((query) => query === "Ada Person cloud.acme.example linkedin"), true);
@@ -252,11 +339,89 @@ assert.equal(multiAnchorQueries.some((query) => query === "Acme Labs linkedin"),
 assert.equal(multiAnchorQueries.some((query) => query === "Acme Cloud linkedin"), true);
 assert.equal(multiAnchorQueries.some((query) => query === "cloud.acme.example contact"), true);
 
+const emptyEnrichmentModel = (values = {}) => ({
+  personLinkedin: null,
+  companyLinkedin: null,
+  website: null,
+  socials: [],
+  emails: [],
+  phones: [],
+  whatsApp: [],
+  supportingLinks: [],
+  summary: null,
+  confidence: "low",
+  ...values,
+});
+const searchTool = (query, url, title = query) => ({
+  tool: "websearch",
+  callID: `search-${query}`,
+  state: {
+    status: "completed",
+    input: { query },
+    output: `Title: ${title}\nURL: ${url}\nHighlights:\nAcme official result`,
+  },
+});
+const continuationPrompts = [];
+const textPrompts = [];
+const continuationResponses = [
+  JSON.stringify(emptyEnrichmentModel()),
+  JSON.stringify(emptyEnrichmentModel({ website: "https://acme.example", confidence: "high" })),
+  "{malformed verifier response}",
+  JSON.stringify(verification({ website: true })),
+];
+const continuedResearch = await researchWebPresence(
+  { name: null, people: [], company: "Acme", product: null, website: null, industry: null, location: null, evidence: null },
+  {
+    runWeb: async ({ prompt }) => {
+      continuationPrompts.push(prompt);
+      if (continuationPrompts.length === 1) {
+        return { text: JSON.stringify(emptyEnrichmentModel({ socials: [{ url: "https://social.example/acme" }] })), tools: [searchTool("Acme linkedin", "https://linkedin.com/company/acme", "Acme on LinkedIn")] };
+      }
+      if (continuationPrompts.length === 2) {
+        return { text: JSON.stringify(emptyEnrichmentModel()), tools: [searchTool("Acme contact", "https://acme.example/contact", "Contact Acme")] };
+      }
+      return {
+        text: JSON.stringify(emptyEnrichmentModel({ website: "https://acme.example", confidence: "high" })),
+        tools: [searchTool("Acme website", "https://acme.example", "Acme official website")],
+      };
+    },
+    runText: async ({ prompt }) => {
+      textPrompts.push(prompt);
+      return continuationResponses.shift();
+    },
+    verificationPasses: 2,
+  },
+);
+assert.equal(continuationPrompts.length, 3);
+assert.equal(continuationPrompts[0].includes("Acme contact"), true);
+assert.equal(continuationPrompts[0].includes("Acme website"), true);
+assert.equal(continuationPrompts[0].includes("If KNOWN CLIENT.name is null, personLinkedin must be null"), true);
+assert.equal(continuationPrompts[0].includes("Exact name plus location alone is never enough"), true);
+assert.equal(continuationPrompts[0].includes("current or former employer"), true);
+assert.equal(continuationPrompts[1].includes("This is a required continuation pass"), true);
+assert.equal(continuationPrompts[1].includes("Acme contact"), true);
+assert.equal(continuationPrompts[1].includes("Acme website"), false);
+assert.equal(continuationPrompts[2].includes("Acme website"), true);
+assert.equal(textPrompts[0].includes("structurally invalid"), true);
+assert.deepEqual(continuedResearch.queryCoverage, { completed: 3, total: 3, missing: [] });
+assert.equal(continuedResearch.presence.verifiedSite, "https://acme.example");
+
+await assert.rejects(
+  researchWebPresence(
+    { name: null, people: [], company: "Acme", product: null, website: null, industry: null, location: null, evidence: null },
+    {
+      runWeb: async () => ({ text: JSON.stringify(emptyEnrichmentModel()), tools: [] }),
+      runText: async () => JSON.stringify(emptyEnrichmentModel()),
+    },
+  ),
+  /Public-web research incomplete/,
+);
+
 const crossDomainEmail = resolveWebPresence(
   { name: null, people: [], company: "Acme Instruments", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme Instruments" },
   [{ url: "https://acme.example/contact", title: "Contact Acme Instruments", snippet: "Email sales@acme.example. Our distributor is partner@unrelated.example." }],
   { website: "https://acme.example/contact", emails: ["sales@acme.example", "partner@unrelated.example"], phones: [], whatsApp: [], confidence: "high" },
-  verifiedTwice({ website: true, emails: ["sales@acme.example", "partner@unrelated.example"] })
+  verifiedTwice({ website: true, emails: ["sales@acme.example"] })
 );
 assert.deepEqual(crossDomainEmail.emails, ["sales@acme.example"]);
 

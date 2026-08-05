@@ -1,5 +1,5 @@
 import { readdir, readFile } from "node:fs/promises";
-import { basename, join } from "node:path";
+import { basename, dirname, join } from "node:path";
 import {
   attachmentMetadata,
   attachmentUrl,
@@ -533,6 +533,11 @@ async function processRecords(
           if (isOpenCodeProviderStopped(error)) throw error;
           past.failures.push(error instanceof Error ? error.message : String(error));
           client.webPresence = { ...client.webPresence, verifiedSite: evidenceBackedWebsite };
+          const historical = await historicalWebClient(runDirectory, buyer, identity);
+          if (historical && webPresenceScore(historical) > webPresenceScore(client)) {
+            client.webPresence = historical.webPresence;
+            client.webEvidence = historical.webEvidence;
+          }
         }
         checkpoint();
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "write", completedClients: completed, totalClients: entries.length });
@@ -669,6 +674,124 @@ export function mergeRerunResult(previous: RunResult, updatedClient: Client, com
   };
 }
 
+function identityText(value: string | null): string | null {
+  const text = value?.trim().toLocaleLowerCase() || null;
+  return text || null;
+}
+
+function sameWebIdentity(left: Identity, right: Identity): boolean {
+  if (left.name && right.name && identityText(left.name) !== identityText(right.name)) return false;
+  if (left.website && right.website && identityText(left.website) !== identityText(right.website)) return false;
+  const leftOrganizations = [left.company, left.product].map(identityText).filter((value): value is string => Boolean(value));
+  const rightOrganizations = [right.company, right.product].map(identityText).filter((value): value is string => Boolean(value));
+  if (!leftOrganizations.length && !rightOrganizations.length) return true;
+  return leftOrganizations.some((value) => rightOrganizations.includes(value));
+}
+
+function hasWebPresence(client: Client): boolean {
+  return Boolean(
+    client.webPresence.personLinkedIn
+    || client.webPresence.companyLinkedIn
+    || client.webPresence.verifiedSite
+    || client.webPresence.socials.length
+    || client.webPresence.emails.length
+    || client.webPresence.phones.length
+    || client.webPresence.whatsApp.length
+    || client.webPresence.supportingLinks.length
+    || client.webEvidence.length,
+  );
+}
+
+function hasDurableWebIdentity(client: Client): boolean {
+  return Boolean(
+    client.webPresence.personLinkedIn
+    || client.webPresence.companyLinkedIn
+    || client.webPresence.verifiedSite
+    || client.webPresence.socials.length
+    || client.webPresence.supportingLinks.length,
+  );
+}
+
+function webPresenceScore(client: Client): number {
+  return [
+    client.webPresence.personLinkedIn ? 8 : 0,
+    client.webPresence.companyLinkedIn ? 6 : 0,
+    client.webPresence.verifiedSite ? 6 : 0,
+    client.webPresence.socials.length * 4,
+    client.webPresence.emails.length * 3,
+    client.webPresence.phones.length * 3,
+    client.webPresence.whatsApp.length * 3,
+    client.webPresence.supportingLinks.length * 2,
+    client.webEvidence.length,
+  ].reduce((total, value) => total + value, 0);
+}
+
+function sanitizeHistoricalWebClient(client: Client, targetIdentity: Identity = client.identity): Client {
+  const source = client.webPresence || emptyWebPresence();
+  const webPresence = {
+    ...emptyWebPresence(),
+    personLinkedIn: source.personLinkedIn || null,
+    companyLinkedIn: source.companyLinkedIn || null,
+    socials: Array.isArray(source.socials) ? source.socials : [],
+    verifiedSite: source.verifiedSite || null,
+    supportingLinks: Array.isArray(source.supportingLinks)
+      ? source.supportingLinks.filter((link) => Boolean(link && link.url && link.title))
+      : [],
+    emails: Array.isArray(source.emails) ? source.emails : [],
+    phones: Array.isArray(source.phones) ? source.phones : [],
+    whatsApp: Array.isArray(source.whatsApp) ? source.whatsApp : [],
+  };
+  const hasOrganizationContext = Boolean(
+    targetIdentity.company
+    || targetIdentity.product
+    || targetIdentity.website,
+  );
+  return {
+    ...client,
+    webEvidence: Array.isArray(client.webEvidence) ? client.webEvidence : [],
+    webPresence: {
+      ...webPresence,
+      personLinkedIn: targetIdentity.name ? webPresence.personLinkedIn : null,
+      companyLinkedIn: hasOrganizationContext ? webPresence.companyLinkedIn : null,
+      supportingLinks: hasOrganizationContext ? webPresence.supportingLinks : [],
+    },
+  };
+}
+
+export function selectHistoricalWebClientCandidate(client: Client, targetIdentity: Identity = client.identity): Client | null {
+  if (targetIdentity.kind === "unknown") return null;
+  const candidate = sanitizeHistoricalWebClient(client, targetIdentity);
+  if (!sameWebIdentity(candidate.identity, targetIdentity) || !hasWebPresence(candidate) || !hasDurableWebIdentity(candidate)) return null;
+  return candidate;
+}
+
+async function historicalWebClient(sourceRunDirectory: string, buyer: string, identity: Identity): Promise<Client | null> {
+  let entries;
+  try {
+    entries = await readdir(dirname(sourceRunDirectory), { withFileTypes: true });
+  } catch {
+    return null;
+  }
+  const directories = entries
+    .filter((entry) => entry.isDirectory() && entry.name !== basename(sourceRunDirectory))
+    .map((entry) => join(dirname(sourceRunDirectory), entry.name))
+    .sort((left, right) => right.localeCompare(left));
+  let best: Client | null = null;
+  for (const directory of directories) {
+    let result: RunResult | null;
+    try {
+      result = await readRunResult(directory);
+    } catch {
+      continue;
+    }
+    const rawCandidate = result?.clients.find((client) => client.buyerId === buyer);
+    const candidate = rawCandidate ? selectHistoricalWebClientCandidate(rawCandidate, identity) : null;
+    if (!candidate) continue;
+    if (!best || webPresenceScore(candidate) > webPresenceScore(best)) best = candidate;
+  }
+  return best;
+}
+
 export async function rerunClient(
   sourceRunDirectory: string,
   buyer: string,
@@ -704,8 +827,18 @@ export async function rerunClient(
     }
     await session.page.close().catch(() => {});
     const processed = await processRecords(session, sourceRunDirectory, records, { ...options, onlyBuyerId: buyer }, progress, { publishClients: false });
-    const updatedClient = processed.clients[0];
+    let updatedClient = processed.clients[0];
     if (!updatedClient) throw new Error(`Buyer ${buyer} could not be rerun`);
+    const previousClient = previous.clients.find((item) => item.buyerId === buyer);
+    const sameIdentity = Boolean(previousClient && sameWebIdentity(previousClient.identity, updatedClient.identity));
+    if (processed.failures.length && sameIdentity && !hasWebPresence(updatedClient)) {
+      const historical = await historicalWebClient(sourceRunDirectory, buyer, updatedClient.identity);
+      const fallback = [previousClient, historical]
+        .map((candidate) => candidate ? selectHistoricalWebClientCandidate(candidate, updatedClient.identity) : null)
+        .filter((candidate): candidate is Client => Boolean(candidate))
+        .sort((left, right) => webPresenceScore(right) - webPresenceScore(left))[0] || null;
+      if (fallback) updatedClient = { ...updatedClient, webPresence: fallback.webPresence, webEvidence: fallback.webEvidence };
+    }
     checkpoint();
     for (const record of records) {
       await writeRawJobRecord(sourceRunDirectory, record.job, record.rawFeed, record.details, record.attachmentsText, record.attachmentFailures);
