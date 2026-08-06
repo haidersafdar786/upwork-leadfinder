@@ -1,11 +1,16 @@
 # Upwho
 
 Upwho recovers the public identity behind an anonymized Upwork job. The result
-is one row per `buyerId`, with all matching jobs, quoted evidence, confidence,
-and cautiously verified web presence.
+is one row per `buyerId`, with all matching jobs, quoted evidence, evidence
+strength, and explicit verified/possible/unknown identity status, alongside
+cautiously verified web presence.
 
 This is a local tool for one freelancer. It binds the dashboard to loopback and
 stores runs as ordinary folders under `runs/`.
+
+Use Upwho at your own risk. It is not affiliated with Upwork or OpenCode. Review
+every result before relying on it, especially possible matches and public-web
+contact details.
 
 ## Requirements
 
@@ -13,8 +18,8 @@ stores runs as ordinary folders under `runs/`.
 - A logged-in Chrome, Brave, Edge, Vivaldi, Opera, Arc, or Chromium browser.
   Upwho starts or attaches to it through Playwright `connectOverCDP`. Safari and
   Firefox are detected and an installed Chromium browser is used instead.
-- The `opencode` CLI on `PATH`, connected to OpenCode Go. The default is
-  `opencode-go/deepseek-v4-flash`; set `OPENCODE_MODEL` to use another
+- The `opencode` CLI on `PATH`. By default Upwho uses the free open model
+  `opencode/deepseek-v4-flash-free`; set `OPENCODE_MODEL` to use another
   configured provider and model.
 - `npm install`.
 
@@ -28,7 +33,15 @@ can fetch job details, and performs same-origin GraphQL calls.
 npm run cli -- run --feed best-matches
 npm run cli -- run --feed most-recent --force
 npm run cli -- run --feed search --query "shopify app"
+npm run cli -- run --feed search --query "shopify app" --search-filters '{"jobTypes":["hourly"],"experienceLevels":["expert"],"daysPosted":7}'
+npm run cli -- run --job-url "https://www.upwork.com/jobs/~0123456789abcdef"
 ```
+
+Search accepts a complete Upwork search URL as `--query`, preserving filters
+created in Upwork. The dashboard also exposes common multi-select filters for
+advanced search: words and phrases, excluded words, title, skills, contract
+type, experience, client hires, workload, duration, proposals, locations, days
+posted, payment verification, enterprise-only, and sort order.
 
 The default country skip list is India, Israel, Pakistan, Bangladesh,
 Philippines, Ukraine, Kenya, and Nigeria. Override it with a comma-separated `--countries`
@@ -81,9 +94,12 @@ npm run dashboard
 # open http://127.0.0.1:4040
 ```
 
-The dashboard can start every supported feed, stream progress over SSE, sort the
-buyer table, open saved runs, and rerun a single saved client. The server binds
-only to `127.0.0.1` and allows one run at a time.
+The dashboard can start every supported feed, run one job URL, apply multiple
+search filters, stream progress over SSE, sort the buyer table, open saved runs,
+and rerun a single saved client. It labels identity as verified, possible match,
+or unknown, shows evidence strength rather than calibrated confidence, and keeps
+recovered review names separate from verified identity. The server binds only to
+`127.0.0.1` and allows one run at a time.
 
 ## Run folders
 
@@ -92,6 +108,12 @@ Each run is `runs/<timestamp>_<feed>/`:
 - `data/<job-id>.json` contains the preserved feed state, authenticated detail,
   attachment text, and attachment failures.
 - `result.json` contains the final client-level result.
+- `manifest.json` is written only after the result and raw records are complete;
+  incomplete run folders are ignored by deduplication and the dashboard.
+
+Older result-only runs are recognized at the read boundary and treated as
+possible, legacy evidence so their history and job IDs remain available. A
+new-format `result.json` without its manifest is still treated as incomplete.
 
 Accepted public-web results retain their search or fetch evidence in each
 client's `webEvidence` array. Contact details must appear in accepted official-site
@@ -101,21 +123,35 @@ Additional verified organization profiles are retained as supporting links, and
 social URLs that return a definitive 404 or 410 are discarded. The dashboard
 shows these web sources alongside Upwork identity evidence.
 
-There are no locks, resume stages, migrations, or versioned artifacts. A failed
-run starts over.
+Writes use same-directory temporary files followed by atomic renames. A lock in
+the configured run root prevents two processes from writing the same run set at
+once. A failed run can leave an incomplete folder, but it will not mark its raw
+job IDs as processed.
+
+Configuration is parsed centrally. Numeric values fail fast when malformed; the
+supported settings are `UPWHO_CDP_URL`, `OPENCODE_MODEL`,
+`OPENCODE_OCR_MODEL`, `OPENCODE_CONCURRENCY`, `OPENCODE_MUTE_TIMEOUT_LIMIT`,
+`OPENCODE_BUDGET_MS`, `OPENCODE_ATTEMPT_MS`, `UPWHO_PAST_JOB_CONCURRENCY`,
+`UPWHO_PAST_JOB_NAVIGATIONS`, `OPENCODE_CONFIG`, and `XDG_CONFIG_HOME`.
 
 ## Checks
 
 ```sh
 npm test
+npm run test:accuracy
 npm run cli -- --help
 ```
 
-The saved fixtures include the old implementation's 100 identity records and
-six web-enrichment cases. Regression tests exercise analyst/verifier agreement,
-exact evidence provenance, ambiguous matches, competitor references, and contact
-source restrictions. The old repository remains read-only reference data; its
-implementation is not imported.
+The regular regression suite uses small synthetic records and exercises
+analyst/verifier agreement, exact evidence provenance, ambiguous matches,
+competitor references, search-filter serialization, atomic run manifests,
+locking, and contact-source restrictions. The repository also retains the
+labeled captured corpus under `test/fixtures/`, the corresponding labels in
+`test/labels.json`, and captured web-enrichment cases under
+`test/enrichment-fixtures/`. Run `npm run test:accuracy` to evaluate the
+identity corpus with the configured model; it reports precision, recall,
+false-positive rate, and abstention rate separately from the fast deterministic
+suite.
 
 ## Dependencies
 

@@ -2,7 +2,7 @@ import type { FeedJob } from "./types.ts";
 import { collectAttachmentTexts } from "./attachments.ts";
 import { isOpenCodeProviderStopped } from "./opencode.ts";
 import { closeFeed, fetchJobDetails, type FeedSession } from "./upwork-browser.ts";
-import { createRunFolder, writeRawJobRecord } from "./run-files.ts";
+import { acquireRunRootLock, createRunFolder, writeRawJobRecord } from "./run-files.ts";
 
 export interface ReplayFailure {
   jobId: string;
@@ -19,7 +19,14 @@ export async function replayFeed(
   session: FeedSession,
   { jobs = session.jobs, root = "runs", concurrency = 4 }: { jobs?: FeedJob[]; root?: string; concurrency?: number } = {}
 ): Promise<ReplayResult> {
-  const runDirectory = await createRunFolder(session.selection, root);
+  const lock = await acquireRunRootLock(root);
+  let runDirectory: string;
+  try {
+    runDirectory = await createRunFolder(session.selection, root);
+  } catch (error) {
+    await lock.release();
+    throw error;
+  }
   const rawByJobId = new Map(session.jobs.map((job, index) => [job.id, session.rawJobs[index]]));
   const failures: ReplayFailure[] = [];
   let next = 0;
@@ -45,8 +52,12 @@ export async function replayFeed(
       }
     }
   };
-  await Promise.all(Array.from({ length: Math.min(Math.max(1, concurrency), jobs.length || 1) }, () => worker()));
-  return { runDirectory, written, failures };
+  try {
+    await Promise.all(Array.from({ length: Math.min(Math.max(1, concurrency), jobs.length || 1) }, () => worker()));
+    return { runDirectory, written, failures };
+  } finally {
+    await lock.release();
+  }
 }
 
 export async function replayAndClose(

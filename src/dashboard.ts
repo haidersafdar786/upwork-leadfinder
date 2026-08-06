@@ -4,9 +4,10 @@ import { readFile, readdir } from "node:fs/promises";
 import { basename, resolve, sep } from "node:path";
 import { withCancellation } from "./cancellation.ts";
 import { clientHistoryFromContracts, clientHistoryFromRecord } from "./client-history.ts";
+import { parseConfig } from "./config.ts";
 import { rerunClient, runOnce, type RunExecution } from "./run.ts";
 import { readRunResult } from "./run-files.ts";
-import type { FeedKey } from "./upwork-browser.ts";
+import { parseSearchFilters, type FeedKey } from "./upwork-browser.ts";
 import type { Client, ClientHistory, ProgressCallback, ProgressEvent, RunResult } from "./types.ts";
 
 export interface DashboardOptions {
@@ -29,6 +30,8 @@ interface RunState {
 interface DashboardBody {
   feed?: unknown;
   query?: unknown;
+  jobUrl?: unknown;
+  searchFilters?: unknown;
   countries?: unknown;
   force?: unknown;
   runId?: unknown;
@@ -211,10 +214,14 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
         if (activeRunId) return json(response, 409, { error: "A run is already in progress" });
         const body = await requestBody(request);
         if (url.pathname === "/api/run") {
-          const selectedFeed = feed(body.feed);
+          const jobUrl = text(body.jobUrl);
+          const selectedFeed = jobUrl ? "best-matches" : feed(body.feed);
           const query = text(body.query) || undefined;
-          if (selectedFeed === "search" && !query) throw new Error("Search feed requires a query");
-          if (selectedFeed !== "search" && query) throw new Error("query is only valid for search feeds");
+          const searchFilters = parseSearchFilters(body.searchFilters);
+          if (!jobUrl && selectedFeed === "search" && !query) throw new Error("Search feed requires a query");
+          if (!jobUrl && selectedFeed !== "search" && query) throw new Error("query is only valid for search feeds");
+          if (!jobUrl && selectedFeed !== "search" && Object.keys(searchFilters).length) throw new Error("searchFilters is only valid for search feeds");
+          if (jobUrl && (query || Object.keys(searchFilters).length)) throw new Error("jobUrl cannot be combined with query or searchFilters");
           const state = startState(states);
           activeRunId = state.id;
           json(response, 202, { id: state.id });
@@ -222,6 +229,8 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
             root,
             countries: countryList(body.countries),
             force: body.force === true,
+            jobUrl: jobUrl || undefined,
+            searchFilters,
           }, progress)).finally(() => {
             if (activeRunId === state.id) activeRunId = null;
           });
@@ -247,6 +256,7 @@ export function createDashboardServer(options: DashboardOptions = {}): Server {
 }
 
 export async function startDashboard(options: DashboardOptions = {}): Promise<void> {
+  parseConfig();
   const server = createDashboardServer(options);
   const port = options.port || 4040;
   await new Promise<void>((resolveListen, reject) => {

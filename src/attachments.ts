@@ -6,6 +6,7 @@ import { promisify } from "node:util";
 import { inflateRawSync, inflateSync } from "node:zlib";
 import type { Page } from "playwright";
 import type { HttpUrl } from "./types.ts";
+import { parseConfig } from "./config.ts";
 import { isOpenCodeProviderStopped, transcribeImage } from "./opencode.ts";
 
 const execFileAsync = promisify(execFile);
@@ -269,7 +270,7 @@ async function ocrPdfFirstPage(bytes: Buffer, model: string): Promise<string | n
   }
 }
 
-export async function extractText(bytes: Buffer, fileName: string, ocrModel = process.env.OPENCODE_OCR_MODEL || null): Promise<string> {
+export async function extractText(bytes: Buffer, fileName: string, ocrModel = parseConfig().opencodeOcrModel): Promise<string> {
   const extension = fileName.toLowerCase().match(/\.([a-z0-9]+)$/)?.[1] || "";
   if (["html", "htm", "txt", "md", "csv"].includes(extension)) return htmlToText(bytes);
   if (["doc", "docx", "rtf", "odt", "pages"].includes(extension)) return textutilToText(bytes, extension);
@@ -289,7 +290,7 @@ export async function extractText(bytes: Buffer, fileName: string, ocrModel = pr
 export async function collectAttachmentTexts(
   page: Page,
   details: unknown,
-  ocrModel = process.env.OPENCODE_OCR_MODEL || null
+  ocrModel = parseConfig().opencodeOcrModel
 ): Promise<AttachmentCollection> {
   const items: AttachmentTextRecord[] = [];
   const failures: AttachmentFailureRecord[] = [];

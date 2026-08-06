@@ -5,12 +5,12 @@ import { homedir, tmpdir } from "node:os";
 import { join } from "node:path";
 import { promisify } from "node:util";
 import { cancellationReason, checkpoint, currentCancellationSignal, rethrowCancellation } from "./cancellation.ts";
+import { DEFAULT_OPENCODE_MODEL, parseConfig, processEnvironment } from "./config.ts";
 
 const execFileAsync = promisify(execFile);
-export const DEFAULT_OPENCODE_MODEL = "opencode-go/deepseek-v4-flash";
+export { DEFAULT_OPENCODE_MODEL } from "./config.ts";
 const DEFAULT_ATTEMPT_TIMEOUT_MS = 60_000;
 const DEFAULT_BUDGET_MS = 120_000;
-const MAX_CONCURRENCY = Math.max(1, Number.parseInt(process.env.OPENCODE_CONCURRENCY || "8", 10) || 8);
 let activeCalls = 0;
 const waitingCalls: (() => void)[] = [];
 
@@ -142,7 +142,8 @@ function stripJsonComments(text: string): string {
 }
 
 export function globalConfigPaths(): string[] {
-  const base = process.env.XDG_CONFIG_HOME || join(homedir(), ".config");
+  const config = parseConfig();
+  const base = config.xdgConfigHome || join(homedir(), ".config");
   const paths = [
     join(base, "opencode", "config.json"),
     join(base, "opencode", "opencode.json"),
@@ -150,7 +151,7 @@ export function globalConfigPaths(): string[] {
     join(homedir(), ".opencode", "opencode.json"),
     join(homedir(), ".opencode", "opencode.jsonc"),
   ];
-  const explicit = process.env.OPENCODE_CONFIG;
+  const explicit = config.opencodeConfig;
   return [...new Set(explicit ? [...paths, explicit] : paths)];
 }
 
@@ -191,8 +192,9 @@ function disabledGlobalMcpServers(): Record<string, unknown> {
 function childEnvironment(workDir: string, web: boolean): NodeJS.ProcessEnv {
   const names = ["HOME", "PATH", "USER", "LOGNAME", "SHELL", "TMPDIR", "LANG", "LC_ALL", "TERM"];
   const environment: NodeJS.ProcessEnv = { PWD: workDir };
+  const source = processEnvironment();
   for (const name of names) {
-    const value = process.env[name];
+    const value = source[name];
     if (value !== undefined) environment[name] = value;
   }
   if (web) environment.OPENCODE_ENABLE_EXA = "1";
@@ -291,7 +293,7 @@ function runProcess(command: string, args: string[], cwd: string, timeoutMs: num
 
 async function withPermit<T>(work: () => Promise<T>, signal?: AbortSignal): Promise<T> {
   checkpoint(signal);
-  if (activeCalls >= MAX_CONCURRENCY) {
+  if (activeCalls >= parseConfig().opencodeConcurrency) {
     await new Promise<void>((resolve, reject) => {
       const ready = () => {
         signal?.removeEventListener("abort", cancel);
@@ -407,10 +409,6 @@ export function defaultMuteTimeoutLimit(concurrency: number): number {
   return Math.max(3, Math.ceil(Math.max(1, concurrency) / 2));
 }
 
-const MUTE_TIMEOUT_LIMIT = Math.max(
-  1,
-  Number.parseInt(process.env.OPENCODE_MUTE_TIMEOUT_LIMIT || "", 10) || defaultMuteTimeoutLimit(MAX_CONCURRENCY),
-);
 let muteTimeouts = 0;
 
 export function resetOpenCodeProviderState(): void {
@@ -419,7 +417,7 @@ export function resetOpenCodeProviderState(): void {
 
 // Any streamed response clears the mute streak.
 function providerFailure(model: string): Error | null {
-  if (muteTimeouts < MUTE_TIMEOUT_LIMIT) return null;
+  if (muteTimeouts < parseConfig().opencodeMuteTimeoutLimit) return null;
   return new OpenCodeProviderStoppedError(model, muteTimeouts);
 }
 
@@ -442,34 +440,40 @@ export function clearMuteStreakForTest(): void {
 
 async function runOpenCodeBudget({
   prompt,
-  model = process.env.OPENCODE_MODEL || DEFAULT_OPENCODE_MODEL,
-  files = [],
-  timeoutMs = Number.parseInt(process.env.OPENCODE_BUDGET_MS || String(DEFAULT_BUDGET_MS), 10),
-  attemptTimeoutMs = Number.parseInt(process.env.OPENCODE_ATTEMPT_MS || String(DEFAULT_ATTEMPT_TIMEOUT_MS), 10),
-  retries = 1,
+  model,
+  files,
+  timeoutMs,
+  attemptTimeoutMs,
+  retries,
   web,
 }: OpenCodeOptions & { web: boolean }): Promise<OpenCodeRun> {
+  const config = parseConfig();
+  const selectedModel = model || config.opencodeModel || DEFAULT_OPENCODE_MODEL;
+  const selectedFiles = files || [];
+  const selectedTimeoutMs = timeoutMs || config.opencodeBudgetMs || DEFAULT_BUDGET_MS;
+  const selectedAttemptTimeoutMs = attemptTimeoutMs || config.opencodeAttemptMs || DEFAULT_ATTEMPT_TIMEOUT_MS;
+  const selectedRetries = retries ?? 1;
   const signal = currentCancellationSignal();
-  const failedBefore = providerFailure(model);
+  const failedBefore = providerFailure(selectedModel);
   if (failedBefore) throw failedBefore;
   return withPermit(async () => {
-    const deadline = Date.now() + timeoutMs;
+    const deadline = Date.now() + selectedTimeoutMs;
     let lastError: unknown;
-    for (let attempt = 0; attempt <= retries && Date.now() < deadline; attempt++) {
-      const failed = providerFailure(model);
+    for (let attempt = 0; attempt <= selectedRetries && Date.now() < deadline; attempt++) {
+      const failed = providerFailure(selectedModel);
       if (failed) throw failed;
       const remaining = deadline - Date.now();
-      const budget = Math.min(attemptTimeoutMs, remaining);
+      const budget = Math.min(selectedAttemptTimeoutMs, remaining);
       if (budget < 3_000) break;
       try {
-        const run = await runOpenCodeOnce({ prompt, model, files, timeoutMs: budget, web, signal });
+        const run = await runOpenCodeOnce({ prompt, model: selectedModel, files: selectedFiles, timeoutMs: budget, web, signal });
         muteTimeouts = 0;
         return run;
       } catch (error) {
         rethrowCancellation(error, signal);
         recordAttemptOutcome(error);
         lastError = error;
-        const failedNow = providerFailure(model);
+        const failedNow = providerFailure(selectedModel);
         if (failedNow) throw failedNow;
       }
     }
@@ -488,7 +492,7 @@ export async function runOpenCodeWeb(options: OpenCodeOptions): Promise<OpenCode
 export async function transcribeImage(
   bytes: Buffer,
   mime: string,
-  model = process.env.OPENCODE_OCR_MODEL || null
+  model = parseConfig().opencodeOcrModel
 ): Promise<string | null> {
   if (!model) return null;
   const extension = mime === "image/jpeg" ? "jpg" : mime.split("/")[1] || "bin";

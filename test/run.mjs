@@ -3,26 +3,34 @@ import { selectHistoricalWebClientCandidate } from "../src/run.ts";
 
 const identity = ({ name = null, company = null, product = null, website = null } = {}) => ({
   kind: "identified",
+  status: "verified",
   name,
   people: name ? [name] : [],
   company,
   product,
   website,
   industry: null,
-  confidence: "high",
+  evidenceStrength: "high",
   evidenceQuote: name || company || product || "fixture",
+  evidenceSource: "description",
+  evidenceSourceId: "fixture",
+  claimEvidence: { name: null, company: null, product: null, website: null, industry: null },
 });
 
 const unknownIdentity = {
   kind: "unknown",
+  status: "unknown",
   name: null,
   people: [],
   company: null,
   product: null,
   website: null,
   industry: null,
-  confidence: "unknown",
+  evidenceStrength: "none",
   evidenceQuote: null,
+  evidenceSource: null,
+  evidenceSourceId: null,
+  claimEvidence: { name: null, company: null, product: null, website: null, industry: null },
 };
 
 const client = ({ candidateIdentity, webPresence, webEvidence = [] }) => ({

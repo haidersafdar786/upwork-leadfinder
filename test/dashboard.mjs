@@ -78,6 +78,18 @@ try {
   const dashboardPage = await context.newPage();
   try {
     await dashboardPage.goto(baseUrl);
+    const recoveredNameLabels = await dashboardPage.evaluate(() => ({
+      duplicate: window.recoveredNameLabel({
+        identity: { name: "Jack W", status: "possible" },
+        nameRecovery: { kind: "matched", clientName: "Jack W" },
+      }),
+      distinct: window.recoveredNameLabel({
+        identity: { name: "Jack W", status: "possible" },
+        nameRecovery: { kind: "matched", clientName: "Jack White" },
+      }),
+    }));
+    assert.equal(recoveredNameLabels.duplicate, "", "a recovered name matching the visible identity should not repeat");
+    assert.equal(recoveredNameLabels.distinct, "Jack White", "a distinct recovered name should remain visible");
     const cancelButton = dashboardPage.locator("#cancel");
     assert.equal(await cancelButton.isVisible(), false, "Cancel should stay out of the idle command bar");
     await dashboardPage.getByRole("button", { name: "Run", exact: true }).click();

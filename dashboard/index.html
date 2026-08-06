@@ -279,7 +279,7 @@
       .social-column { width: 140px; }
       .contact-column { width: 220px; }
       .history-column { width: 190px; }
-      .confidence-column { width: 122px; }
+      .evidence-strength-column { width: 122px; }
       .evidence-column { width: auto; min-width: 260px; }
       .action-column { width: 62px; text-align: center; }
       thead .person-column, tbody .person-cell {
@@ -389,11 +389,11 @@
       .history-fact + .history-fact::before { margin: 0 1px; color: var(--line-strong); content: "·"; }
       .history-star { width: 13px; height: 13px; margin-right: 3px; color: var(--muted); }
 
-      .confidence { display: grid; gap: 5px; }
-      .confidence-dots { display: flex; gap: 4px; }
-      .confidence-dot { width: 6px; height: 6px; border-radius: 50%; background: #d8dde0; }
-      .confidence-dot.active { background: var(--accent); }
-      .confidence-label { color: var(--muted); font-size: 12px; text-transform: capitalize; }
+      .evidence-strength { display: grid; gap: 5px; }
+      .evidence-strength-dots { display: flex; gap: 4px; }
+      .evidence-strength-dot { width: 6px; height: 6px; border-radius: 50%; background: #d8dde0; }
+      .evidence-strength-dot.active { background: var(--accent); }
+      .evidence-strength-label { color: var(--muted); font-size: 12px; text-transform: capitalize; }
 
       .evidence-toggle {
         display: grid;
@@ -488,6 +488,11 @@
       .popover-head h2 { margin: 0; font-size: 15px; letter-spacing: -.015em; }
       .popover-body { padding: 7px 16px 17px; }
       .settings-grid { display: grid; gap: 17px; }
+      .filter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+      .filter-grid .wide { grid-column: 1 / -1; }
+      .filter-select { width: 100%; min-height: 40px; padding: 7px 9px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--surface); color: var(--ink); }
+      .filter-select[multiple] { min-height: 78px; }
+      .settings-divider { margin: 2px 0 -2px; border: 0; border-top: 1px solid var(--line); }
       .field { display: grid; gap: 6px; }
       .field > span { color: #4f5962; font-size: 12px; font-weight: 700; }
       .text-control {
@@ -575,11 +580,16 @@
             <option value="my-feed">My Feed</option>
             <option value="saved">Saved</option>
             <option value="search">Search</option>
+            <option value="job">Single job URL</option>
           </select>
         </label>
         <label id="query-wrap" class="field-inline" hidden>
           <span class="sr-only">Search query</span>
           <input id="query" class="query-control" placeholder="Search Upwork jobs" autocomplete="off">
+        </label>
+        <label id="job-url-wrap" class="field-inline" hidden>
+          <span class="sr-only">Single job URL</span>
+          <input id="job-url" class="query-control" placeholder="https://www.upwork.com/jobs/..." autocomplete="off" inputmode="url">
         </label>
         <button id="start" class="primary-action" type="button">
           <svg class="icon icon-sm" aria-hidden="true"><use href="#icon-play"></use></svg>
@@ -624,7 +634,7 @@
                 <th class="social-column" scope="col">Socials</th>
                 <th class="contact-column" scope="col"><button class="sort-button" data-sort="contacts" type="button">Contact<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
                 <th class="history-column" scope="col" aria-sort="none"><button class="sort-button" data-sort="history" type="button">Client history<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
-                <th class="confidence-column" scope="col" aria-sort="none"><button class="sort-button" data-sort="confidence" type="button">Confidence<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
+                <th class="evidence-strength-column" scope="col" aria-sort="none"><button class="sort-button" data-sort="evidence" type="button">Evidence strength<svg class="icon icon-sm sort-icon" aria-hidden="true"><use href="#icon-sort"></use></svg></button></th>
                 <th class="evidence-column" scope="col">Evidence</th>
                 <th class="action-column" scope="col"><span class="sr-only">Rerun</span></th>
               </tr>
@@ -663,6 +673,29 @@
           <input id="force" type="checkbox">
           <span>Process jobs seen in past runs<small>Use this when you want a completely fresh result.</small></span>
         </label>
+        <div id="search-filters" hidden>
+          <hr class="settings-divider">
+          <div class="filter-grid">
+            <label class="field wide"><span>All words</span><input id="all-words" class="text-control" placeholder="every word must appear"></label>
+            <label class="field"><span>Any words</span><input id="any-words" class="text-control" placeholder="one or more words"></label>
+            <label class="field"><span>Exact phrase</span><input id="exact-phrase" class="text-control" placeholder="quoted phrase"></label>
+            <label class="field"><span>Exclude words</span><input id="exclude-words" class="text-control" placeholder="words to exclude"></label>
+            <label class="field"><span>Title contains</span><input id="title-filter" class="text-control" placeholder="job title"></label>
+            <label class="field"><span>Skills</span><input id="skills-filter" class="text-control" placeholder="comma-separated skills"></label>
+            <label class="field"><span>Contract type</span><select id="job-types" class="filter-select" multiple><option value="hourly">Hourly</option><option value="fixed-price">Fixed price</option></select></label>
+            <label class="field"><span>Experience</span><select id="experience-levels" class="filter-select" multiple><option value="entry-level">Entry</option><option value="intermediate">Intermediate</option><option value="expert">Expert</option></select></label>
+            <label class="field"><span>Client hires</span><select id="client-hires" class="filter-select" multiple><option value="0-1">0–1</option><option value="1-9">1–9</option><option value="10+">10+</option></select></label>
+            <label class="field"><span>Workload</span><select id="workloads" class="filter-select" multiple><option value="as-needed">As needed</option><option value="part-time">Part time</option><option value="full-time">Full time</option></select></label>
+            <label class="field"><span>Duration</span><select id="durations" class="filter-select" multiple><option value="less-than-1-month">Less than 1 month</option><option value="1-to-3-months">1–3 months</option><option value="3-to-6-months">3–6 months</option><option value="more-than-6-months">More than 6 months</option></select></label>
+            <label class="field"><span>Proposals</span><select id="proposals" class="filter-select" multiple><option value="0-4">0–4</option><option value="5-9">5–9</option><option value="10-15">10–15</option><option value="15-20">15–20</option><option value="20-50">20–50</option><option value="50+">50+</option></select></label>
+            <label class="field wide"><span>Locations</span><input id="locations" class="text-control" placeholder="comma-separated countries or regions"></label>
+            <label class="field"><span>Posted within</span><select id="days-posted" class="filter-select"><option value="">Any time</option><option value="1">1 day</option><option value="3">3 days</option><option value="7">7 days</option><option value="14">14 days</option><option value="30">30 days</option></select></label>
+            <label class="field"><span>Sort</span><select id="sort-filter" class="filter-select"><option value="relevance+desc">Relevance</option><option value="recency+desc">Newest</option><option value="client_total_charge+desc">Client spend</option><option value="client_rating+desc">Client rating</option></select></label>
+            <label class="check-control wide"><input id="payment-verified" type="checkbox" checked><span>Verified payment only<small>Keep the default Upwork payment-verification filter.</small></span></label>
+            <label class="check-control wide"><input id="enterprise-only" type="checkbox"><span>Enterprise clients only</span></label>
+          </div>
+          <small>Filters are copied into the Upwork search URL. A full Upwork search URL can also be pasted into the query field.</small>
+        </div>
       </div>
     </section>
 
@@ -688,9 +721,28 @@
       const escapeAttribute = escapeHtml;
       const icon = (name, className = "") => `<svg class="icon ${className}" aria-hidden="true"><use href="#icon-${name}"></use></svg>`;
 
+      function identityValue(client) {
+        return client.identity?.name || client.identity?.people?.[0] || client.identity?.company || client.identity?.product || "";
+      }
+
       function identityPrimary(client) {
-        if (client.identity.kind === "unknown") return "Unknown client";
-        return client.identity.name || client.identity.people?.[0] || client.identity.company || client.identity.product || "Identified client";
+        const status = identityStatus(client);
+        if (status === "unknown") return "Unknown client";
+        const value = identityValue(client) || "Unresolved identity";
+        return status === "possible" ? `Possible match · ${value}` : value;
+      }
+
+      function identityStatus(client) {
+        if (client.identity?.kind === "unknown") return "unknown";
+        return client.identity?.status || "verified";
+      }
+
+      function recoveredNameLabel(client) {
+        if (client.nameRecovery?.kind !== "matched") return "";
+        const recovered = cleanEvidenceText(client.nameRecovery.clientName);
+        const visibleIdentity = identityValue(client);
+        const normalizeIdentity = (value) => cleanEvidenceText(value).toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
+        return visibleIdentity && normalizeIdentity(visibleIdentity) === normalizeIdentity(recovered) ? "" : recovered;
       }
 
       function jobTitleLink(client) {
@@ -700,12 +752,13 @@
         return `<a class="person-secondary" href="${escapeAttribute(job.url)}" target="_blank" rel="noreferrer" title="${escapeAttribute(job.title)}" aria-label="Open job: ${escapeAttribute(job.title)}">${escapeHtml(job.title)}</a>`;
       }
 
-      function confidence(client) {
-        return client.identity.confidence || "unknown";
+      function evidenceStrength(client) {
+        return client.identity?.evidenceStrength || "none";
       }
 
-      function confidenceScore(client) {
-        return ({ unknown: 0, low: 1, medium: 2, high: 4 })[confidence(client)] || 0;
+      function evidenceScore(client) {
+        const score = ({ none: 0, low: 1, medium: 2, high: 4 })[evidenceStrength(client)] || 0;
+        return identityStatus(client) === "possible" ? Math.min(score, 2) : score;
       }
 
       function hostLabel(url) {
@@ -730,7 +783,7 @@
       }
 
       function websiteCell(client) {
-        const url = client.webPresence?.verifiedSite || (client.identity.kind === "identified" ? client.identity.website : null);
+        const url = client.webPresence?.verifiedSite || (identityStatus(client) === "verified" ? client.identity.website : null);
         if (!url) return `<span class="empty-cell">—</span>`;
         return `<a class="link-with-label" href="${escapeAttribute(url)}" target="_blank" rel="noreferrer" aria-label="Open ${escapeAttribute(hostLabel(url))}">${icon("globe")}<span class="link-label">${escapeHtml(hostLabel(url))}</span></a>`;
       }
@@ -778,7 +831,7 @@
 
       function contactCount(client) {
         const values = contactValues(client);
-        const site = client.webPresence?.verifiedSite || (client.identity.kind === "identified" ? client.identity.website : null);
+        const site = client.webPresence?.verifiedSite || (identityStatus(client) === "verified" ? client.identity.website : null);
         const linkedUrls = new Set([
           client.webPresence?.personLinkedIn,
           client.webPresence?.companyLinkedIn,
@@ -826,11 +879,13 @@
         return `<div class="client-history"><span class="history-spend" title="${escapeAttribute(title)}">${escapeHtml(spend)}</span><span class="history-facts">${facts.map((fact) => `<span class="history-fact">${fact}</span>`).join("")}</span></div>`;
       }
 
-      function confidenceCell(client) {
-        const value = confidence(client);
-        const score = confidenceScore(client);
-        const dots = Array.from({ length: 4 }, (_, index) => `<span class="confidence-dot${index < score ? " active" : ""}"></span>`).join("");
-        return `<div class="confidence" aria-label="${escapeAttribute(value)} confidence"><span class="confidence-dots" aria-hidden="true">${dots}</span><span class="confidence-label">${escapeHtml(value)}</span></div>`;
+      function evidenceStrengthCell(client) {
+        const status = identityStatus(client);
+        const strength = evidenceStrength(client);
+        const value = status === "verified" ? strength : status === "possible" ? `possible · ${strength}` : "unknown";
+        const score = evidenceScore(client);
+        const dots = Array.from({ length: 4 }, (_, index) => `<span class="evidence-strength-dot${index < score ? " active" : ""}"></span>`).join("");
+        return `<div class="evidence-strength" aria-label="Evidence strength: ${escapeAttribute(value)}"><span class="evidence-strength-dots" aria-hidden="true">${dots}</span><span class="evidence-strength-label">${escapeHtml(value)}</span></div>`;
       }
 
       function strongestEvidence(client) {
@@ -890,11 +945,11 @@
         const text = cleanEvidenceText(item.text);
         if (!text) return null;
         if (item.source === "freelancer-side-review") {
-          const recoveredName = client.identity.kind === "identified" ? cleanEvidenceText(client.identity.name) : "";
+          const recoveredName = recoveredNameLabel(client);
           if (recoveredName && text.toLowerCase().includes(recoveredName.toLowerCase())) return recoveredName;
           return shortenEvidence(text.split(/\s+[—–-]\s+/)[0] || text, 100);
         }
-        if (client.identity.kind === "unknown") return shortenEvidence(text);
+        if (identityStatus(client) === "unknown") return shortenEvidence(text);
         const exactQuote = cleanEvidenceText(client.identity.evidenceQuote);
         if (exactQuote && text.toLowerCase().includes(exactQuote.toLowerCase())) return shortenEvidence(exactQuote);
         const anchors = [client.identity.name, ...client.identity.people, client.identity.company, client.identity.product, client.identity.website]
@@ -912,6 +967,15 @@
           const text = evidenceExcerpt(client, item);
           return text ? [{ item, text }] : [];
         });
+      }
+
+      function identityClaimEvidence(client) {
+        const claims = client.identity?.claimEvidence || {};
+        const status = identityStatus(client) === "verified" ? "Verified claim" : "Possible claim";
+        return Object.entries(claims).flatMap(([field, claim]) => {
+          if (!claim?.quote || !claim.sourceId) return [];
+          return [`<article class="evidence-item"><span class="evidence-source">${escapeHtml(status)} · ${escapeHtml(field)} · ${escapeHtml(claim.source)} · ${escapeHtml(claim.sourceId)}</span><p class="evidence-text">${escapeHtml(shortenEvidence(claim.quote))}</p></article>`];
+        }).join("");
       }
 
       function evidenceSourceUrl(client, item) {
@@ -935,6 +999,7 @@
 
       function evidencePanel(client) {
         const items = evidenceItems(client);
+        const claimBody = identityClaimEvidence(client);
         const identityBody = items.map(({ item, text }) => {
           const label = evidenceLabel(item);
           const sourceUrl = evidenceSourceUrl(client, item);
@@ -943,8 +1008,9 @@
         }).join("");
         const webItems = client.webEvidence || [];
         const webBody = webItems.map((item) => `<a class="evidence-item evidence-item-link" href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer" aria-label="Open public web evidence from ${escapeAttribute(hostLabel(item.url))}"><span class="evidence-source">Web · ${escapeHtml(hostLabel(item.url))}</span><p class="evidence-text">${escapeHtml(shortenEvidence(item.snippet || item.title))}</p>${icon("external", "icon-sm source-link-icon")}</a>`).join("");
-        const count = items.length + webItems.length;
-        const body = identityBody + webBody || `<p class="evidence-text">No identity or web evidence found.</p>`;
+        const claimCount = Object.values(client.identity?.claimEvidence || {}).filter((claim) => claim?.quote).length;
+        const count = claimCount + items.length + webItems.length;
+        const body = claimBody + identityBody + webBody || `<p class="evidence-text">No identity or web evidence found.</p>`;
         return `<tr class="evidence-row"><td colspan="9"><div class="evidence-panel"><div class="evidence-panel-head"><h2>Evidence for ${escapeHtml(identityPrimary(client))}</h2><span class="evidence-count">${count} source${count === 1 ? "" : "s"}</span></div><div class="evidence-list">${body}</div></div></td></tr>`;
       }
 
@@ -952,7 +1018,7 @@
         currentResult = result;
         const clients = result ? [...result.clients] : [];
         clients.sort((left, right) => {
-          if (sortKey === "confidence") return (confidenceScore(left) - confidenceScore(right)) * sortDirection;
+          if (sortKey === "evidence") return (evidenceScore(left) - evidenceScore(right)) * sortDirection;
           if (sortKey === "contacts") return (contactCount(left) - contactCount(right)) * sortDirection;
           if (sortKey === "history") return (historyScore(left) - historyScore(right)) * sortDirection;
           return identityPrimary(left).localeCompare(identityPrimary(right)) * sortDirection;
@@ -962,14 +1028,15 @@
           const buyer = escapeAttribute(client.buyerId);
           const expanded = expandedBuyers.has(client.buyerId);
           const evidence = strongestEvidence(client);
+          const recovered = recoveredNameLabel(client);
           return `<tr class="client-row${expanded ? " expanded" : ""}">
-            <td class="person-cell"><strong class="person-primary">${escapeHtml(identityPrimary(client))}</strong>${jobTitleLink(client)}</td>
+            <td class="person-cell"><strong class="person-primary">${escapeHtml(identityPrimary(client))}</strong>${recovered ? `<span class="person-secondary">Recovered name · ${escapeHtml(recovered)}</span>` : ""}${jobTitleLink(client)}</td>
             <td>${websiteCell(client)}</td>
             <td>${linkedInCell(client)}</td>
             <td>${socialCell(client)}</td>
             <td>${contactCell(client)}</td>
             <td>${historyCell(client)}</td>
-            <td>${confidenceCell(client)}</td>
+            <td>${evidenceStrengthCell(client)}</td>
             <td><button class="evidence-toggle" type="button" data-evidence="${buyer}" aria-expanded="${expanded}" aria-label="${expanded ? "Collapse" : "Expand"} evidence for ${escapeAttribute(identityPrimary(client))}"><span class="evidence-preview${evidence.startsWith("No supporting") ? " empty" : ""}">${escapeHtml(evidence)}</span><svg class="icon icon-sm chevron" aria-hidden="true"><use href="#icon-chevron"></use></svg></button></td>
             <td><div class="cell-actions"><button class="icon-button" type="button" data-rerun="${buyer}" aria-label="Rerun ${escapeAttribute(identityPrimary(client))}" data-tooltip="Rerun client"${activeRun ? " disabled" : ""}>${icon("rerun")}</button></div></td>
           </tr>${expanded ? evidencePanel(client) : ""}`;
@@ -993,7 +1060,7 @@
       }
 
       function feedLabel(value) {
-        return ({ "best-matches": "Best Matches", "most-recent": "Most Recent", "my-feed": "My Feed", saved: "Saved", search: "Search" })[value] || value;
+        return ({ "best-matches": "Best Matches", "most-recent": "Most Recent", "my-feed": "My Feed", saved: "Saved", search: "Search", job: "Single job" })[value] || value;
       }
 
       function formatDate(value) {
@@ -1051,6 +1118,8 @@
         $("start").disabled = running;
         $("feed").disabled = running;
         $("query").disabled = running;
+        $("job-url").disabled = running;
+        document.querySelectorAll("#search-filters input, #search-filters select").forEach((control) => { control.disabled = running; });
         $("history-button").disabled = running;
         $("settings-button").disabled = running;
         $("cancel").hidden = !running;
@@ -1155,7 +1224,7 @@
         $("run-meta").textContent = feedLabel(payload.feed);
         selectedRunId = "";
         expandedBuyers.clear();
-        runFeed = payload.feed === "search" ? { kind: "search", query: payload.query || "" } : { kind: payload.feed };
+        runFeed = payload.jobUrl ? { kind: "job", url: payload.jobUrl, jobUrl: payload.jobUrl } : payload.feed === "search" ? { kind: "search", query: payload.query || "", filters: payload.searchFilters || {} } : { kind: payload.feed };
         render({ feed: runFeed, clients: [] });
         try {
           const response = await fetch("/api/run", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
@@ -1219,12 +1288,47 @@
         }
       }
 
-      $("feed").addEventListener("change", () => { $("query-wrap").hidden = $("feed").value !== "search"; });
+      function selectedValues(id) {
+        return [...$(id).selectedOptions].map((option) => option.value);
+      }
+
+      function searchFilters() {
+        const filters = {};
+        const textFields = [["all-words", "allWords"], ["any-words", "anyWords"], ["exact-phrase", "exactPhrase"], ["exclude-words", "excludeWords"], ["title-filter", "title"], ["skills-filter", "skills"]];
+        for (const [id, key] of textFields) {
+          const value = $(id).value.trim();
+          if (value) filters[key] = value;
+        }
+        const multiFields = [["job-types", "jobTypes"], ["experience-levels", "experienceLevels"], ["client-hires", "clientHires"], ["workloads", "workloads"], ["durations", "durations"], ["proposals", "proposals"]];
+        for (const [id, key] of multiFields) {
+          const values = selectedValues(id);
+          if (values.length) filters[key] = values;
+        }
+        const locations = $("locations").value.split(",").map((value) => value.trim()).filter(Boolean);
+        if (locations.length) filters.locations = locations;
+        const daysPosted = $("days-posted").value;
+        if (daysPosted) filters.daysPosted = Number(daysPosted);
+        if ($("sort-filter").value !== "relevance+desc") filters.sort = $("sort-filter").value;
+        if (!$("payment-verified").checked) filters.paymentVerified = false;
+        if ($("enterprise-only").checked) filters.enterpriseOnly = true;
+        return filters;
+      }
+
+      function updateRunMode() {
+        const selected = $("feed").value;
+        $("query-wrap").hidden = selected !== "search";
+        $("job-url-wrap").hidden = selected !== "job";
+        $("search-filters").hidden = selected !== "search";
+      }
+
+      $("feed").addEventListener("change", updateRunMode);
       $("start").addEventListener("click", () => {
         const feed = $("feed").value;
         const query = $("query").value.trim();
-        if (feed === "search" && !query) { setStatus("Enter a search query", "error"); $("query").focus(); return; }
-        startRun({ feed, query: feed === "search" ? query : undefined, countries: $("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force: $("force").checked });
+        const jobUrl = $("job-url").value.trim();
+        if (feed === "search" && !query) { setStatus("Enter a search query or full search URL", "error"); $("query").focus(); return; }
+        if (feed === "job" && !jobUrl) { setStatus("Enter one Upwork job URL", "error"); $("job-url").focus(); return; }
+        startRun({ feed: feed === "job" ? "best-matches" : feed, query: feed === "search" ? query : undefined, jobUrl: feed === "job" ? jobUrl : undefined, searchFilters: feed === "search" ? searchFilters() : undefined, countries: $("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force: $("force").checked });
       });
       $("cancel").addEventListener("click", cancelRun);
       $("history-button").addEventListener("click", () => loadRuns().catch((error) => setStatus(error.message, "error")));
@@ -1251,6 +1355,7 @@
         render(currentResult);
       }));
       $("countries").value = defaultCountries;
+      updateRunMode();
       loadRuns({ selectNewest: true }).catch((error) => setStatus(error.message, "error"));
     </script>
   </body>

@@ -20,7 +20,7 @@ Upwho connects an anonymized Upwork buyer to a cautiously verified public identi
 
 ## Operating Context
 
-The user normally starts a Best Matches run, waits while Upwho gathers and enriches client records, then scans the completed result for a person's name and public contact paths. Person name, website, LinkedIn, other social profiles, email, and other contact details matter most. Confidence and evidence help the user judge whether the match is reliable.
+The user normally starts a Best Matches run, waits while Upwho gathers and enriches client records, then scans the completed result for a person's name and public contact paths. Person name, website, LinkedIn, other social profiles, email, and other contact details matter most. Verified, possible, and unknown status plus source evidence help the user judge whether a match is reliable.
 
 The dashboard also supports other Upwork feeds, skipped-country settings, forced reprocessing, saved-run history, sorting, and rerunning a single client. These are needed but secondary to the main Best Matches workflow.
 
@@ -49,7 +49,10 @@ The product name is Upwho. Product copy should be direct and restrained. The int
 ## Product Principles
 
 - Put the fastest path to a trustworthy contact method first.
-- Make identity confidence inspectable through source evidence.
+- Make identity status and evidence strength inspectable through source provenance.
+- Allow a run to target one Upwork job URL directly.
+- Let search runs apply multiple Upwork filters from the dashboard.
+- Keep recovered names visibly separate from verified identity claims and abstain from web enrichment for possible matches.
 - Keep the common Best Matches workflow immediate and move occasional controls out of the way.
 - Prefer dense, readable results over card-heavy presentation or extra navigation.
 - Show only public contact data that the system actually found. Never invent missing details.

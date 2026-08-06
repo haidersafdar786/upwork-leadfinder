@@ -27,7 +27,7 @@ const accepted = await identifyRecord(namedRecord, {
       product: null,
       website: null,
       industry: { value: "online university", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit About us ownership." },
     { acceptedClaimIds: ["claim-1", "claim-2"], reason: "The source identifies the buyer organization." },
@@ -52,7 +52,7 @@ const sharedVerification = await identifyRecord(namedRecord, {
       product: null,
       website: null,
       industry: { value: "online university", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
-      confidence: "high",
+      evidenceStrength: "high",
     });
   },
 });
@@ -72,7 +72,7 @@ const bareDomain = await identifyRecord({
       product: null,
       website: { value: "northstar-advisory.example", sourceId: "source-2", quote: "Visit northstar-advisory.example to understand our business" },
       industry: null,
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit company and business website." },
     { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Both claims are explicit." },
@@ -84,14 +84,14 @@ assert.equal(bareDomain.identity.website, "https://northstar-advisory.example");
 const retriedAnalyst = await identifyRecord(namedRecord, {
   analystAttempts: 2,
   runModel: runner([
-    { name: null, company: null, product: null, website: null, industry: null, confidence: "low" },
+    { name: null, company: null, product: null, website: null, industry: null, evidenceStrength: "low" },
     {
       name: null,
       company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
       product: null,
       website: null,
       industry: null,
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1"], reason: "Explicit company." },
     { acceptedClaimIds: ["claim-1"], reason: "Explicit company." },
@@ -107,12 +107,12 @@ const complementaryAnalysts = await identifyRecord({
   runModel: runner([
     {
       name: { value: "Alex Example", sourceId: "source-2", quote: "I am Alex Example" },
-      company: null, product: null, website: null, industry: null, confidence: "high",
+      company: null, product: null, website: null, industry: null, evidenceStrength: "high",
     },
     {
       name: null,
       company: { value: "Acme Labs", sourceId: "source-2", quote: "founder of Acme Labs" },
-      product: null, website: null, industry: null, confidence: "high",
+      product: null, website: null, industry: null, evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Explicit person and company." },
     { acceptedClaimIds: ["claim-1", "claim-2"], reason: "Both claims are explicit." },
@@ -127,19 +127,19 @@ const conflictingAnalysts = await identifyRecord(namedRecord, {
     {
       name: null,
       company: { value: "Newlane University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
-      product: null, website: null, industry: null, confidence: "low",
+      product: null, website: null, industry: null, evidenceStrength: "low",
     },
     {
       name: null,
       company: { value: "Online University", sourceId: "source-2", quote: "Newlane University is a licensed online university" },
-      product: null, website: null, industry: null, confidence: "high",
+      product: null, website: null, industry: null, evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1"], reason: "Only the proper company name is explicit." },
     { acceptedClaimIds: ["claim-1"], reason: "The other candidate is a generic description." },
   ]),
 });
 assert.equal(conflictingAnalysts.identity.company, "Newlane University");
-assert.equal(conflictingAnalysts.identity.confidence, "low", "rejected analysts must not inflate identity confidence");
+assert.equal(conflictingAnalysts.identity.evidenceStrength, "low", "rejected analysts must not inflate evidence strength");
 
 const genericRecord = {
   title: "Full-Stack AI Developer for Document Intelligence Web App",
@@ -155,13 +155,13 @@ const rejectedGeneric = await identifyRecord(genericRecord, {
       product: null,
       website: null,
       industry: null,
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: [], reason: "Solar is an industry reference." },
     { acceptedClaimIds: [], reason: "No owned company is named." },
   ]),
 });
-assert.equal(rejectedGeneric.identity.kind, "unknown");
+assert.equal(rejectedGeneric.identity.status, "unknown");
 
 const genericCompanyRecord = {
   title: "Senior Full-Stack Software Engineer",
@@ -192,7 +192,7 @@ const genericCompanyClaim = await identifyRecord(genericCompanyRecord, {
       product: null,
       website: null,
       industry: { value: "software and AI consulting", sourceId: "source-2", quote: "I run a software and AI consulting firm" },
-      confidence: "high",
+      evidenceStrength: "high",
     });
   },
 });
@@ -214,13 +214,13 @@ const rejectedCompetitor = await identifyRecord(competitorRecord, {
       product: null,
       website: { value: "https://systemrequirementslab.com", sourceId: "source-2", quote: "Existing products include Can You RUN It (systemrequirementslab.com)" },
       industry: null,
-      confidence: "medium",
+      evidenceStrength: "medium",
     },
     { acceptedClaimIds: [], reason: "The site is a referenced competitor." },
     { acceptedClaimIds: [], reason: "The buyer does not own this site." },
   ]),
 });
-assert.equal(rejectedCompetitor.identity.kind, "unknown");
+assert.equal(rejectedCompetitor.identity.status, "unknown");
 
 const disagreement = await identifyRecord(namedRecord, {
   analystAttempts: 1,
@@ -232,13 +232,13 @@ const disagreement = await identifyRecord(namedRecord, {
       product: null,
       website: null,
       industry: null,
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1"], reason: "Accepted." },
     { acceptedClaimIds: [], reason: "Ambiguous." },
   ]),
 });
-assert.equal(disagreement.identity.kind, "unknown");
+assert.equal(disagreement.identity.status, "possible");
 
 const inventedQuote = await identifyRecord(namedRecord, {
   analystAttempts: 1,
@@ -248,7 +248,7 @@ const inventedQuote = await identifyRecord(namedRecord, {
     product: null,
     website: null,
     industry: null,
-    confidence: "high",
+    evidenceStrength: "high",
   }]),
 });
 assert.equal(inventedQuote.identity.kind, "unknown");
@@ -262,7 +262,7 @@ const invalidOptionalIndustry = await identifyRecord(namedRecord, {
       product: null,
       website: null,
       industry: "online education",
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1"] },
     { acceptedClaimIds: ["claim-1"] },
@@ -274,9 +274,9 @@ assert.equal(invalidOptionalIndustry.identity.industry, null);
 const validAbstentionWithBadSample = await identifyRecord(genericRecord, {
   analystAttempts: 3,
   runModel: runner([
-    { name: null, company: null, product: null, website: null, industry: null, confidence: "low" },
-    { name: null, company: null, product: null, website: null, industry: "solar", confidence: "low" },
-    { name: null, company: null, product: null, website: null, industry: null, confidence: "low" },
+    { name: null, company: null, product: null, website: null, industry: null, evidenceStrength: "low" },
+    { name: null, company: null, product: null, website: null, industry: "solar", evidenceStrength: "low" },
+    { name: null, company: null, product: null, website: null, industry: null, evidenceStrength: "low" },
   ]),
 });
 assert.equal(validAbstentionWithBadSample.identity.kind, "unknown");
@@ -292,7 +292,7 @@ const malformedVerifierRetry = await identifyRecord(namedRecord, {
       product: null,
       website: null,
       industry: null,
-      confidence: "high",
+      evidenceStrength: "high",
     },
     { acceptedClaimIds: ["claim-1"] },
     `{"acceptedClaimIds":["claim-1"],"reason":"The buyer said "hello"."}`,
@@ -359,7 +359,7 @@ const identifiedFromBuyerReview = await identifyRecord(buyerReviewRecord, {
       product: null,
       website: null,
       industry: null,
-      confidence: "medium",
+      evidenceStrength: "medium",
     });
   },
 });
@@ -396,7 +396,7 @@ const identifiedRepresentative = await identifyRecord(representativeReviewRecord
       product: null,
       website: null,
       industry: null,
-      confidence: "high",
+      evidenceStrength: "high",
     });
   },
 });

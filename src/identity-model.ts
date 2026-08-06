@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { HttpUrl, Identity } from "./types.ts";
+import type { HttpUrl, Identity, IdentityClaimEvidence, IdentityClaimEvidenceSet, IdentityEvidenceSource } from "./types.ts";
 import { extractIdentitySignals, type IdentitySignals, type IdentityText } from "./identity-extraction.ts";
 import { isOpenCodeProviderStopped, runOpenCode } from "./opencode.ts";
 
@@ -17,7 +17,7 @@ const IdentityProposalSchema = z.object({
   product: EvidenceClaimOrNullSchema,
   website: EvidenceClaimOrNullSchema,
   industry: EvidenceClaimOrNullSchema,
-  confidence: z.preprocess((value) => {
+  evidenceStrength: z.preprocess((value) => {
     if (typeof value !== "string") return value;
     const normalized = value.toLowerCase();
     if (normalized.includes("high")) return "high";
@@ -43,10 +43,10 @@ interface IdentityCandidate {
   id: string;
   field: IdentityField;
   claim: EvidenceClaim;
-  confidence: IdentityProposal["confidence"];
+  evidenceStrength: IdentityProposal["evidenceStrength"];
 }
 
-const CONFIDENCE_RANK = { low: 0, medium: 1, high: 2 } as const;
+const EVIDENCE_STRENGTH_RANK = { low: 0, medium: 1, high: 2 } as const;
 
 const REVIEW_SOURCE_GUIDANCE = `Use each source's structured provenance. A review-to-client source has authorRole "freelancer" and subjectRole "upwork-client": Upwork records it as feedbackToClient, written by the freelancer about the person or organization that hired them through the Upwork client account. That party may be a recruiter, consultant, employee, or agency representative acting for an end customer. They remain a valid buyer identity even when the review distinguishes them from their own client. Do not mistake them for the freelancer author.`;
 
@@ -133,7 +133,7 @@ CLIENT LOCATION: ${signals.location || "(unknown)"}
 SOURCES:
 ${JSON.stringify(sources)}
 
-Return exactly one JSON object with keys name, company, product, website, industry, confidence. Each claim is null or {"value": string, "sourceId": string, "quote": string}. confidence must be exactly "high", "medium", or "low"; use "low" when every identity claim is null.`;
+Return exactly one JSON object with keys name, company, product, website, industry, evidenceStrength. Each claim is null or {"value": string, "sourceId": string, "quote": string}. evidenceStrength must be exactly "high", "medium", or "low"; use "low" when every identity claim is null.`;
 }
 
 function verifierPrompt(signals: IdentitySignals, sources: ReturnType<typeof sourceRecords>, candidates: readonly IdentityCandidate[], pass: number): string {
@@ -193,10 +193,10 @@ function identityCandidates(proposals: readonly IdentityProposal[], sources: rea
       const key = `${field}\n${normalizedClaimValue(field, claim)}\n${claim.sourceId}\n${compact(claim.quote)}`;
       const existing = byClaim.get(key);
       if (existing) {
-        if (CONFIDENCE_RANK[proposal.confidence] > CONFIDENCE_RANK[existing.confidence]) existing.confidence = proposal.confidence;
+        if (EVIDENCE_STRENGTH_RANK[proposal.evidenceStrength] > EVIDENCE_STRENGTH_RANK[existing.evidenceStrength]) existing.evidenceStrength = proposal.evidenceStrength;
         continue;
       }
-      const candidate = { id: `claim-${candidates.length + 1}`, field, claim, confidence: proposal.confidence };
+      const candidate = { id: `claim-${candidates.length + 1}`, field, claim, evidenceStrength: proposal.evidenceStrength };
       byClaim.set(key, candidate);
       candidates.push(candidate);
     }
@@ -220,6 +220,7 @@ function acceptedCandidate(
 function toIdentity(
   candidates: readonly IdentityCandidate[],
   verifications: readonly IdentityVerification[],
+  sources: readonly ModelSource[],
 ): Identity {
   const name = acceptedCandidate("name", candidates, verifications);
   const company = acceptedCandidate("company", candidates, verifications);
@@ -227,27 +228,83 @@ function toIdentity(
   const websiteCandidate = acceptedCandidate("website", candidates, verifications);
   const website = websiteCandidate ? httpUrl(websiteCandidate.claim.value) : null;
   const hasCoreIdentity = Boolean(name || company || product || website);
-  if (!hasCoreIdentity) return unknownIdentity();
+  const verifierSupportedCandidates = candidates.filter((candidate) => verifications.some((verification) => verification.acceptedClaimIds.includes(candidate.id)));
+  const strongest = [...verifierSupportedCandidates]
+    .filter((candidate) => candidate.field !== "industry")
+    .sort((left, right) => EVIDENCE_STRENGTH_RANK[right.evidenceStrength] - EVIDENCE_STRENGTH_RANK[left.evidenceStrength])[0] || null;
+  const possible = strongest && (strongest.field !== "website" || httpUrl(strongest.claim.value)) ? strongest : null;
+  if (!hasCoreIdentity && !possible) return unknownIdentity();
+  if (!hasCoreIdentity && possible) {
+    const source = sources.find((item) => item.sourceId === possible.claim.sourceId);
+    if (!source) return unknownIdentity();
+    const possibleWebsite = possible.field === "website" ? httpUrl(possible.claim.value) : null;
+    return {
+      kind: "identified",
+      status: "possible",
+      name: possible.field === "name" ? possible.claim.value : null,
+      people: possible.field === "name" ? [possible.claim.value] : [],
+      company: possible.field === "company" ? possible.claim.value : null,
+      product: possible.field === "product" ? possible.claim.value : null,
+      website: possibleWebsite,
+      industry: null,
+      evidenceStrength: possible.evidenceStrength,
+      evidenceQuote: possible.claim.quote,
+      evidenceSource: source.source as IdentityEvidenceSource,
+      evidenceSourceId: source.sourceId,
+      claimEvidence: claimEvidenceSet(possible, sources),
+    };
+  }
   const industry = acceptedCandidate("industry", candidates, verifications);
   const evidence = company || product || websiteCandidate || name;
-  const confidence = [name, company, product, websiteCandidate]
-    .flatMap((candidate) => candidate ? [candidate.confidence] : [])
-    .sort((left, right) => CONFIDENCE_RANK[right] - CONFIDENCE_RANK[left])[0] || "low";
+  const evidenceStrength = [name, company, product, websiteCandidate]
+    .flatMap((candidate) => candidate ? [candidate.evidenceStrength] : [])
+    .sort((left, right) => EVIDENCE_STRENGTH_RANK[right] - EVIDENCE_STRENGTH_RANK[left])[0] || "low";
+  const evidenceSource = evidence ? sources.find((source) => source.sourceId === evidence.claim.sourceId) : null;
+  if (!evidence || !evidenceSource) return unknownIdentity();
   return {
     kind: "identified",
+    status: "verified",
     name: name?.claim.value || null,
     people: name ? [name.claim.value] : [],
     company: company?.claim.value || null,
     product: product?.claim.value || null,
     website,
     industry: industry?.claim.value || null,
-    confidence,
-    evidenceQuote: evidence?.claim.quote || "",
+    evidenceStrength,
+    evidenceQuote: evidence.claim.quote,
+    evidenceSource: evidenceSource.source as IdentityEvidenceSource,
+    evidenceSourceId: evidenceSource.sourceId,
+    claimEvidence: claimEvidenceSet({ name, company, product, website: website ? websiteCandidate : null, industry }, sources),
+  };
+}
+
+function claimEvidence(candidate: IdentityCandidate | null, sources: readonly ModelSource[]): IdentityClaimEvidence | null {
+  if (!candidate) return null;
+  const source = sources.find((item) => item.sourceId === candidate.claim.sourceId);
+  if (!source) return null;
+  return { value: candidate.claim.value, quote: candidate.claim.quote, source: source.source as IdentityEvidenceSource, sourceId: source.sourceId };
+}
+
+function claimEvidenceSet(candidate: IdentityCandidate | null, sources: readonly ModelSource[]): IdentityClaimEvidenceSet;
+function claimEvidenceSet(candidates: { name: IdentityCandidate | null; company: IdentityCandidate | null; product: IdentityCandidate | null; website: IdentityCandidate | null; industry: IdentityCandidate | null }, sources: readonly ModelSource[]): IdentityClaimEvidenceSet;
+function claimEvidenceSet(
+  candidates: IdentityCandidate | { name: IdentityCandidate | null; company: IdentityCandidate | null; product: IdentityCandidate | null; website: IdentityCandidate | null; industry: IdentityCandidate | null } | null,
+  sources: readonly ModelSource[],
+): IdentityClaimEvidenceSet {
+  const selected = candidates && "field" in candidates
+    ? { name: candidates.field === "name" ? candidates : null, company: candidates.field === "company" ? candidates : null, product: candidates.field === "product" ? candidates : null, website: candidates.field === "website" ? candidates : null, industry: candidates.field === "industry" ? candidates : null }
+    : candidates || { name: null, company: null, product: null, website: null, industry: null };
+  return {
+    name: claimEvidence(selected.name, sources),
+    company: claimEvidence(selected.company, sources),
+    product: claimEvidence(selected.product, sources),
+    website: claimEvidence(selected.website, sources),
+    industry: claimEvidence(selected.industry, sources),
   };
 }
 
 function unknownIdentity(): Identity {
-  return { kind: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, confidence: "unknown", evidenceQuote: null };
+  return { kind: "unknown", status: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, evidenceStrength: "none", evidenceQuote: null, evidenceSource: null, evidenceSourceId: null, claimEvidence: { name: null, company: null, product: null, website: null, industry: null } };
 }
 
 async function defaultRunner(prompt: string): Promise<string> {
@@ -295,7 +352,7 @@ export async function identifyRecord(
     const verifications = await Promise.all(Array.from({ length: passes }, async (_, index) => {
       return verifiedClaims(verifierPrompt(signals, verificationSources, candidates, index + 1), runModel);
     }));
-    return { identity: toIdentity(candidates, verifications), signals };
+    return { identity: toIdentity(candidates, verifications, sources), signals };
   } catch (error) {
     if (isOpenCodeProviderStopped(error)) throw error;
     const message = error instanceof Error ? error.message : String(error);

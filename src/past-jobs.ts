@@ -3,12 +3,10 @@ import { attachmentUrl, downloadAttachment, extractText, type AttachmentTextReco
 import { fetchPublicJobState, fetchRenderedPublicJob, type PublicJob, type PublicJobRead } from "./upwork-browser.ts";
 import { workHistoryFromRecord, type WorkHistoryEntry } from "./reviews.ts";
 import { checkpoint, rethrowCancellation } from "./cancellation.ts";
+import { parseConfig } from "./config.ts";
 import { isOpenCodeProviderStopped } from "./opencode.ts";
 
 const MAX_PAST_JOB_TEXT = 12_000;
-// Keep per-tab reads modest because the research pool multiplies this value.
-const DEFAULT_PAST_JOB_CONCURRENCY = Math.max(1, Number.parseInt(process.env.UPWHO_PAST_JOB_CONCURRENCY || "4", 10) || 4);
-
 export interface PastJobTextRecord {
   ciphertext: string;
   title: string;
@@ -51,15 +49,13 @@ export const CHALLENGE_FAILURE = "Upwork served a bot challenge and rendering th
 export const NAVIGATION_LIMIT_FAILURE = "not read: this run's rendered-page budget for past jobs was spent";
 
 // -1 keeps every rendered fallback; nonnegative values bound the slow path.
-export function navigationLimitFromEnvironment(raw = process.env.UPWHO_PAST_JOB_NAVIGATIONS): number {
+export function navigationLimitFromEnvironment(raw: string | number | undefined = parseConfig().pastJobNavigations): number {
   if (raw === undefined) return -1;
-  const trimmed = raw.trim();
+  const trimmed = String(raw).trim();
   if (!trimmed) return -1;
   const parsed = Number(trimmed);
   return Number.isInteger(parsed) && parsed >= -1 ? parsed : -1;
 }
-
-const DEFAULT_NAVIGATION_LIMIT = navigationLimitFromEnvironment();
 
 interface FetchOutcome {
   job: PublicJob | null;
@@ -108,9 +104,9 @@ export async function gatherPastJobs(
   {
     newest = DEFAULT_NEWEST_PAST_JOBS,
     oldest = DEFAULT_OLDEST_PAST_JOBS,
-    ocrModel = process.env.OPENCODE_OCR_MODEL || null,
-    concurrency = DEFAULT_PAST_JOB_CONCURRENCY,
-    navigationLimit = DEFAULT_NAVIGATION_LIMIT,
+    ocrModel = parseConfig().opencodeOcrModel,
+    concurrency = parseConfig().pastJobConcurrency,
+    navigationLimit = navigationLimitFromEnvironment(),
   }: { newest?: number; oldest?: number; ocrModel?: string | null; concurrency?: number; navigationLimit?: number } = {}
 ): Promise<PastJobResearch> {
   const candidates = selectedPublicJobs(workHistoryFromRecord(record), { newest, oldest })

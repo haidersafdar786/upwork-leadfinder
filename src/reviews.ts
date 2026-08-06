@@ -1,7 +1,6 @@
 import { readFileSync } from "node:fs";
 import type { BrowserContext, Page, Request } from "playwright";
 import { UPWORK_TENANT_ID } from "./upwork-browser.ts";
-import type { Identity } from "./types.ts";
 
 const FEEDBACKS_QUERY = readFileSync(new URL("./graphql/feedbacks-query.graphql", import.meta.url), "utf8");
 const PAGE_SIZE = 50;
@@ -46,22 +45,6 @@ export interface NameRecoveryResult {
   attempted: number;
   succeeded: number;
   failures: string[];
-}
-
-export function applyRecoveredName(identity: Identity, recovery: RecoveredName): Identity {
-  const people = [...new Set([recovery.clientName, ...identity.people])];
-  if (identity.kind === "identified") return { ...identity, name: recovery.clientName, people };
-  return {
-    kind: "identified",
-    name: recovery.clientName,
-    people,
-    company: null,
-    product: null,
-    website: null,
-    industry: null,
-    confidence: "medium",
-    evidenceQuote: recovery.clientName,
-  };
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {

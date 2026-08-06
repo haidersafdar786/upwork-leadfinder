@@ -1,13 +1,15 @@
 import { resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { withCancellation } from "./cancellation.ts";
+import { parseConfig } from "./config.ts";
 import { startDashboard } from "./dashboard.ts";
 import { rerunClient, runOnce } from "./run.ts";
-import type { FeedKey } from "./upwork-browser.ts";
+import { parseSearchFilters, type FeedKey } from "./upwork-browser.ts";
 import type { Client, ProgressEvent, RunResult } from "./types.ts";
 
 const FEEDS = new Set<FeedKey>(["best-matches", "most-recent", "my-feed", "saved", "search"]);
 const BOOLEAN_FLAGS = new Set(["force", "json", "no-model", "help"]);
+const VALUE_FLAGS = new Set(["feed", "query", "job-url", "search-filters", "countries", "root", "clients", "research-tabs", "details", "port", "run", "buyer-id"]);
 
 interface ParsedArgs {
   command: "run" | "client" | "dashboard" | "help";
@@ -26,9 +28,11 @@ Commands:
 Run options:
   --feed <name>          best-matches, most-recent, my-feed, saved, search
   --query <text|url>     Required for --feed search
+  --job-url <url>        Process one Upwork job URL
+  --search-filters <json>  Apply multiple Upwork search filters as JSON
   --countries <list>     Override the country skip list; empty disables it
   --force                Process job IDs already present in another run
-  --no-model             Use deterministic identity extraction only
+  --no-model             Skip model-backed identity and web enrichment
   --json                 Print the result JSON to stdout
   --root <directory>     Run folder root (default: runs)
   --clients <number>     Clients analysed at once (maximum and default: 3)
@@ -72,6 +76,7 @@ function parseArgs(argv: readonly string[]): ParsedArgs {
       booleans.add(key);
       continue;
     }
+    if (!VALUE_FLAGS.has(key)) throw new Error(`Unknown option --${key}`);
     const value = equals >= 0 ? body.slice(equals + 1) : argv[++index];
     if (value === undefined || value.startsWith("--")) throw new Error(`Option --${key} needs a value`);
     values.set(key, value);
@@ -132,12 +137,14 @@ function clientLine(client: Client): string {
     ? "unknown"
     : [client.identity.name, client.identity.company || client.identity.product].filter(Boolean).join(" / ") || "identified";
   const links = [client.webPresence.verifiedSite, client.webPresence.personLinkedIn, client.webPresence.companyLinkedIn].filter(Boolean).join(", ") || "-";
-  return `${client.buyerId}\t${identity}\t${client.identity.confidence}\t${client.jobs.length}\t${links}`;
+  const status = client.identity.status;
+  const evidence = client.identity.evidenceStrength;
+  return `${client.buyerId}\t${status === "possible" ? `possible: ${identity}` : identity}\t${evidence}\t${client.jobs.length}\t${links}`;
 }
 
 function printResult(directory: string, result: RunResult): void {
   process.stdout.write(`run directory: ${directory}\n`);
-  process.stdout.write(`buyerId\tidentity\tconfidence\tjobs\tweb\n`);
+  process.stdout.write(`buyerId\tidentity\tevidence-strength\tjobs\tweb\n`);
   for (const client of result.clients) process.stdout.write(clientLine(client) + "\n");
 }
 
@@ -147,6 +154,7 @@ async function main(): Promise<void> {
     process.stdout.write(help());
     return;
   }
+  parseConfig();
   if (args.command === "dashboard") {
     await startDashboard({ root: value(args, "root"), port: port(args) });
     return;
@@ -154,8 +162,12 @@ async function main(): Promise<void> {
   if (args.command === "run") {
     const selectedFeed = feed(args);
     const query = value(args, "query");
-    if (selectedFeed === "search" && !query) throw new Error("--feed search requires --query");
-    if (selectedFeed !== "search" && query) throw new Error("--query is only valid with --feed search");
+    const jobUrl = value(args, "job-url");
+    if (jobUrl && (query || value(args, "search-filters") || value(args, "feed"))) throw new Error("--job-url cannot be combined with --feed, --query, or --search-filters");
+    if (!jobUrl && selectedFeed === "search" && !query) throw new Error("--feed search requires --query");
+    if (!jobUrl && selectedFeed !== "search" && query) throw new Error("--query is only valid with --feed search");
+    const searchFilters = parseSearchFilters(value(args, "search-filters"));
+    if (!jobUrl && selectedFeed !== "search" && Object.keys(searchFilters).length) throw new Error("--search-filters is only valid with --feed search");
     const execution = await runOnce(selectedFeed, query, {
       root: value(args, "root"),
       countries: countries(args),
@@ -164,6 +176,8 @@ async function main(): Promise<void> {
       clientConcurrency: count(args, "clients"),
       researchConcurrency: count(args, "research-tabs"),
       detailConcurrency: count(args, "details"),
+      jobUrl,
+      searchFilters,
     }, progress());
     if (args.booleans.has("json")) process.stdout.write(JSON.stringify(execution.result, null, 2) + "\n");
     else printResult(execution.runDirectory, execution.result);

@@ -14,7 +14,6 @@ import { isOpenCodeProviderStopped, resetOpenCodeProviderState } from "./opencod
 import { identifyRecord } from "./identity-model.ts";
 import { gatherPastJobs, selectedPublicJobs, type PastJobResearch, type PastJobTextRecord } from "./past-jobs.ts";
 import {
-  applyRecoveredName,
   recoverClientName,
   workHistoryFromRecord,
   type NameRecoveryResult,
@@ -23,6 +22,7 @@ import {
 } from "./reviews.ts";
 import {
   createRunFolder,
+  acquireRunRootLock,
   readRunResult,
   writeRawJobRecord,
   writeRunResult,
@@ -33,9 +33,11 @@ import {
   closeFeed,
   fetchJobDetails,
   openFeed,
+  openJobUrl,
   type FeedKey,
   type FeedSession,
 } from "./upwork-browser.ts";
+import { identityStatus } from "./types.ts";
 import type {
   Attachment,
   BuyerId,
@@ -56,6 +58,7 @@ import type {
   Review,
   RunId,
   RunResult,
+  SearchFilters,
   ProgressCallback,
   ProgressEvent,
 } from "./types.ts";
@@ -77,6 +80,8 @@ export interface RunOptions {
   researchConcurrency?: number;
   onlyJobIds?: readonly string[];
   onlyBuyerId?: string;
+  jobUrl?: string;
+  searchFilters?: SearchFilters;
 }
 
 export interface RunFailure {
@@ -324,7 +329,7 @@ function evidenceFor(
 }
 
 function unknownIdentity(): Identity {
-  return { kind: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, confidence: "unknown", evidenceQuote: null };
+  return { kind: "unknown", status: "unknown", name: null, people: [], company: null, product: null, website: null, industry: null, evidenceStrength: "none", evidenceQuote: null, evidenceSource: null, evidenceSourceId: null, claimEvidence: { name: null, company: null, product: null, website: null, industry: null } };
 }
 
 export function clientWorkerCount(requested: number | undefined, totalClients: number): number {
@@ -376,7 +381,7 @@ function rawFailureRecords(value: unknown): AttachmentFailureRecord[] {
   });
 }
 
-async function processedJobIds(root: string): Promise<Set<string>> {
+export async function processedJobIds(root: string): Promise<Set<string>> {
   const ids = new Set<string>();
   let directories;
   try {
@@ -386,6 +391,13 @@ async function processedJobIds(root: string): Promise<Set<string>> {
     throw error;
   }
   for (const directory of directories.filter((entry) => entry.isDirectory())) {
+    let result;
+    try {
+      result = await readRunResult(join(root, directory.name));
+    } catch {
+      continue;
+    }
+    if (!result) continue;
     let files;
     try {
       files = await readdir(join(root, directory.name, "data"), { withFileTypes: true });
@@ -508,20 +520,22 @@ async function processRecords(
           await report(progress, { kind: "client-progress", buyerId: buyer, phase: "recover-name", completedClients: completed, totalClients: entries.length });
         }
         const recovery = recoveryResult.match;
+        // A name recovered from a freelancer-side review is kept as separate
+        // recovery evidence, never promoted into the buyer identity.
         const nameRecovery = nameRecoveryDiagnostics(recoveryResult);
 
         const recordForIdentity = aggregateRecord(clientRecords, past.items);
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "identify", completedClients: completed, totalClients: entries.length });
         const identified = await identifyRecord(recordForIdentity, { useModel: options.useModel !== false });
         if (identified.error) throw new Error(`Identity analysis failed: ${identified.error}`);
-        const identity = recovery ? applyRecoveredName(identified.identity, recovery) : identified.identity;
+        const identity = identified.identity;
 
         const jobs = clientRecords.map((record) => jobModel(record, past.items));
         const evidence = evidenceFor(buyer, clientRecords, past.items, recovery);
         const history = clientHistoryFromRecord({ feed: clientRecords[0]?.rawFeed, details: clientRecords[0]?.details });
         const client: Client = { buyerId: buyer, jobs, history, evidence, identity, nameRecovery, webPresence: emptyWebPresence(), webEvidence: [] };
         await report(progress, { kind: "client-progress", buyerId: buyer, phase: "enrich", completedClients: completed, totalClients: entries.length });
-        const evidenceBackedWebsite = identity.kind === "identified" ? identity.website : null;
+        const evidenceBackedWebsite = identityStatus(identity) === "verified" ? identity.website : null;
         try {
           const research = await enrichClient(client);
           const presence = research.presence;
@@ -564,8 +578,9 @@ async function processRecords(
   return { clients, failures };
 }
 
-function feedKeyFor(selection: FeedSelection): { feed: FeedKey; query?: string } {
-  if (selection.kind === "search") return { feed: "search", query: selection.query };
+function feedKeyFor(selection: FeedSelection): { feed: FeedKey; query?: string; jobUrl?: string; searchFilters?: SearchFilters } {
+  if (selection.kind === "search") return { feed: "search", query: selection.query, searchFilters: selection.filters };
+  if (selection.kind === "job") return { feed: "best-matches", jobUrl: selection.jobUrl };
   return { feed: selection.kind };
 }
 
@@ -604,10 +619,14 @@ export async function runOnce(
   const root = options.root || "runs";
   const signal = currentCancellationSignal();
   let session: FeedSession | null = null;
+  let lock: Awaited<ReturnType<typeof acquireRunRootLock>> | null = null;
   const cancelSession = () => { if (session) void closeFeed(session); };
   try {
     checkpoint();
-    session = await openFeed(feed, query);
+    lock = await acquireRunRootLock(root);
+    session = options.jobUrl
+      ? await openJobUrl(options.jobUrl)
+      : await openFeed(feed, query, { searchFilters: options.searchFilters });
     signal?.addEventListener("abort", cancelSession, { once: true });
     await report(progress, { kind: "feed-loaded", feed: session.selection, jobCount: session.jobs.length });
     const runDirectory = await createRunFolder(session.selection, root);
@@ -660,6 +679,7 @@ export async function runOnce(
   } finally {
     signal?.removeEventListener("abort", cancelSession);
     if (session) await closeFeed(session);
+    await lock?.release();
   }
 }
 
@@ -680,6 +700,7 @@ function identityText(value: string | null): string | null {
 }
 
 function sameWebIdentity(left: Identity, right: Identity): boolean {
+  if (identityStatus(left) !== "verified" || identityStatus(right) !== "verified") return false;
   if (left.name && right.name && identityText(left.name) !== identityText(right.name)) return false;
   if (left.website && right.website && identityText(left.website) !== identityText(right.website)) return false;
   const leftOrganizations = [left.company, left.product].map(identityText).filter((value): value is string => Boolean(value));
@@ -759,7 +780,7 @@ function sanitizeHistoricalWebClient(client: Client, targetIdentity: Identity = 
 }
 
 export function selectHistoricalWebClientCandidate(client: Client, targetIdentity: Identity = client.identity): Client | null {
-  if (targetIdentity.kind === "unknown") return null;
+  if (identityStatus(targetIdentity) !== "verified") return null;
   const candidate = sanitizeHistoricalWebClient(client, targetIdentity);
   if (!sameWebIdentity(candidate.identity, targetIdentity) || !hasWebPresence(candidate) || !hasDurableWebIdentity(candidate)) return null;
   return candidate;
@@ -799,17 +820,19 @@ export async function rerunClient(
   progress: ProgressCallback = noopProgress,
 ): Promise<RunExecution> {
   resetOpenCodeProviderState();
-  const previous = await readRunResult(sourceRunDirectory);
-  if (!previous) throw new Error(`Run ${sourceRunDirectory} has no result.json`);
-  const client = previous.clients.find((item) => item.buyerId === buyer);
-  if (!client) throw new Error(`Buyer ${buyer} was not found in ${sourceRunDirectory}`);
-  const { feed, query } = feedKeyFor(previous.feed);
   const signal = currentCancellationSignal();
   let session: FeedSession | null = null;
+  let lock: Awaited<ReturnType<typeof acquireRunRootLock>> | null = null;
   const cancelSession = () => { if (session) void closeFeed(session); };
   try {
     checkpoint();
-    session = await openFeed(feed, query);
+    lock = await acquireRunRootLock(dirname(sourceRunDirectory));
+    const previous = await readRunResult(sourceRunDirectory);
+    if (!previous) throw new Error(`Run ${sourceRunDirectory} has no result.json`);
+    const client = previous.clients.find((item) => item.buyerId === buyer);
+    if (!client) throw new Error(`Buyer ${buyer} was not found in ${sourceRunDirectory}`);
+    const { feed, query, jobUrl, searchFilters } = feedKeyFor(previous.feed);
+    session = jobUrl ? await openJobUrl(jobUrl) : await openFeed(feed, query, { searchFilters });
     signal?.addEventListener("abort", cancelSession, { once: true });
     await report(progress, { kind: "feed-loaded", feed: session.selection, jobCount: session.jobs.length });
     const storedRecords = await loadStoredRecords(sourceRunDirectory, client);
@@ -856,5 +879,6 @@ export async function rerunClient(
   } finally {
     signal?.removeEventListener("abort", cancelSession);
     if (session) await closeFeed(session);
+    await lock?.release();
   }
 }

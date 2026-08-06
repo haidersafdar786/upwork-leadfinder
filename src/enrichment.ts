@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { emptyContactDetails, extractEmailAddresses, extractPhoneNumbers, extractWhatsAppUrls, mergeContactDetails } from "./contacts.ts";
-import type { Client, EmailAddress, HttpUrl, Identity, PhoneNumber, PublicWebEvidence, WebPresence } from "./types.ts";
+import { identityStatus, type Client, type EmailAddress, type HttpUrl, type Identity, type PhoneNumber, type PublicWebEvidence, type WebPresence } from "./types.ts";
 import { isOpenCodeProviderStopped, runOpenCode, runOpenCodeWeb, type OpenCodeTool } from "./opencode.ts";
 
 interface WebResearchRun {
@@ -51,7 +51,7 @@ const EnrichmentModelSchema = z.object({
   whatsApp: StringArraySchema,
   supportingLinks: SupportingLinksSchema,
   summary: z.string().nullable(),
-  confidence: z.preprocess((value) => {
+  evidenceStrength: z.preprocess((value) => {
     if (typeof value !== "string") return value;
     const normalized = value.toLowerCase();
     if (normalized.includes("high")) return "high";
@@ -110,7 +110,7 @@ export interface WebPresenceResolution {
   phones: PhoneNumber[];
   whatsApp: string[];
   supportingLinks: Array<{ url: string; title: string }>;
-  confidence: "low" | "medium";
+  evidenceStrength: "low" | "medium";
 }
 
 export interface WebResearch {
@@ -212,14 +212,14 @@ function emptyEnrichmentModel(): EnrichmentModelOutput {
     whatsApp: [],
     supportingLinks: [],
     summary: null,
-    confidence: "low",
+    evidenceStrength: "low",
   };
 }
 
 function modelOutputRepairPrompt(text: string): string {
-  return `The previous public-web selection response was structurally invalid. Return exactly one valid JSON object with these keys: personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, confidence.
+  return `The previous public-web selection response was structurally invalid. Return exactly one valid JSON object with these keys: personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, evidenceStrength.
 
-Preserve only values present in the previous response. Do not search, infer, add, repair, or normalize any value. socials, emails, phones, and whatsApp must be arrays of JSON strings. supportingLinks must be an array of objects with string keys url and title. Use null for missing scalar URLs, [] for missing lists, and confidence exactly "high", "medium", or "low".
+Preserve only values present in the previous response. Do not search, infer, add, repair, or normalize any value. socials, emails, phones, and whatsApp must be arrays of JSON strings. supportingLinks must be an array of objects with string keys url and title. Use null for missing scalar URLs, [] for missing lists, and evidenceStrength exactly "high", "medium", or "low".
 
 PREVIOUS RESPONSE:
 ${text}`;
@@ -376,7 +376,7 @@ ${queries.map((query, index) => `${index + 1}. ${query}`).join("\n")}
 
 Before answering, audit every search result and the complete output of every fetched official page for omissions. Include every first-party social profile, email, phone number, and WhatsApp link that an accepted official site presents as its own. Put the best-supported organization LinkedIn in companyLinkedin. Put any additional explicitly connected buyer-owned organization or product profile in supportingLinks instead of discarding it. Never put a person's employer, former employer, education, colleague, or other profile-linked organization in supportingLinks unless the known client explicitly identifies that organization as the buyer. A generic description such as "an AI platform" is not an organization or product identity unless the source also provides its name.
 
-Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, confidence. supportingLinks must be an array of objects with string keys url and title. socials, emails, phones, and whatsApp must be arrays of JSON strings, never objects. Copy selected URLs and contact strings exactly from observed tool results. Include a contact only when the observed result explicitly presents it as contact information for the selected official site; an explicitly presented personal mailbox may be accepted even when its domain differs from the site. Reject third-party, directory, distributor, or unrelated addresses. A person's current or former employer is not the buyer's companyLinkedin by default; when the known client has no company, product, or website anchor, leave companyLinkedin null unless the evidence explicitly identifies that organization as the buyer's own organization. All list fields must always be arrays, using [] when empty. confidence must be exactly "high", "medium", or "low"; use "low" when no URL is selected.`;
+Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, evidenceStrength. supportingLinks must be an array of objects with string keys url and title. socials, emails, phones, and whatsApp must be arrays of JSON strings, never objects. Copy selected URLs and contact strings exactly from observed tool results. Include a contact only when the observed result explicitly presents it as contact information for the selected official site; an explicitly presented personal mailbox may be accepted even when its domain differs from the site. Reject third-party, directory, distributor, or unrelated addresses. A person's current or former employer is not the buyer's companyLinkedin by default; when the known client has no company, product, or website anchor, leave companyLinkedin null unless the evidence explicitly identifies that organization as the buyer's own organization. All list fields must always be arrays, using [] when empty. evidenceStrength must be exactly "high", "medium", or "low"; use "low" when no URL is selected.`;
 }
 
 function selectionReviewPrompt(known: KnownClient, selection: EnrichmentModelOutput, evidence: readonly WebEvidence[]): string {
@@ -391,7 +391,7 @@ OBSERVED WEB EVIDENCE: ${JSON.stringify(sources)}
 
 Treat completeness as a required check. Compare the proposed selection against every observed candidate and every fetched page. Add all explicitly connected buyer-owned first-party socials and all explicitly labeled official contact details. Do not silently drop an accepted value from the first selection. Do not promote a person's employers or prior workplaces to buyer-owned links.
 
-Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, confidence. supportingLinks must be an array of objects with string keys url and title; all other list fields must be arrays of JSON strings. Copy every selected value exactly from the evidence. All list fields must be arrays. confidence must be exactly "high", "medium", or "low".`;
+Return exactly one JSON object with keys personLinkedin, companyLinkedin, website, socials, emails, phones, whatsApp, supportingLinks, summary, evidenceStrength. supportingLinks must be an array of objects with string keys url and title; all other list fields must be arrays of JSON strings. Copy every selected value exactly from the evidence. All list fields must be arrays. evidenceStrength must be exactly "high", "medium", or "low".`;
 }
 
 function mergeSupportingLinks(...groups: ReadonlyArray<ReadonlyArray<{ url: string; title: string }>>): Array<{ url: string; title: string }> {
@@ -403,9 +403,9 @@ function mergeSupportingLinks(...groups: ReadonlyArray<ReadonlyArray<{ url: stri
 }
 
 function mergeSelections(first: EnrichmentModelOutput, review: EnrichmentModelOutput): EnrichmentModelOutput {
-  const confidence = [first.confidence, review.confidence].includes("high")
+  const evidenceStrength = [first.evidenceStrength, review.evidenceStrength].includes("high")
     ? "high"
-    : [first.confidence, review.confidence].includes("medium") ? "medium" : "low";
+    : [first.evidenceStrength, review.evidenceStrength].includes("medium") ? "medium" : "low";
   return {
     personLinkedin: review.personLinkedin || first.personLinkedin,
     companyLinkedin: review.companyLinkedin || first.companyLinkedin,
@@ -416,7 +416,7 @@ function mergeSelections(first: EnrichmentModelOutput, review: EnrichmentModelOu
     whatsApp: [...new Set([...first.whatsApp, ...review.whatsApp])],
     supportingLinks: mergeSupportingLinks(first.supportingLinks, review.supportingLinks),
     summary: review.summary || first.summary,
-    confidence,
+    evidenceStrength,
   };
 }
 
@@ -640,11 +640,11 @@ export function emptyWebPresence(): WebPresence {
 }
 
 function emptyResolution(): WebPresenceResolution {
-  return { personLinkedIn: null, companyLinkedIn: null, verifiedSite: null, socials: [], emails: [], phones: [], whatsApp: [], supportingLinks: [], confidence: "low" };
+  return { personLinkedIn: null, companyLinkedIn: null, verifiedSite: null, socials: [], emails: [], phones: [], whatsApp: [], supportingLinks: [], evidenceStrength: "low" };
 }
 
 export function knownFromIdentity(identity: Identity, location: string | null = null): KnownClient {
-  if (identity.kind === "unknown") return { name: null, people: [], company: null, product: null, website: null, industry: null, location, evidence: null };
+  if (identityStatus(identity) !== "verified") return { name: null, people: [], company: null, product: null, website: null, industry: null, location, evidence: null };
   return { name: identity.name, people: identity.people, company: identity.company, product: identity.product, website: identity.website, industry: identity.industry, location, evidence: identity.evidenceQuote };
 }
 
@@ -771,7 +771,7 @@ export function resolveWebPresence(
     whatsApp: model.whatsApp || [],
     supportingLinks: model.supportingLinks || [],
     summary: model.summary || null,
-    confidence: model.confidence || "low",
+    evidenceStrength: model.evidenceStrength || "low",
   }, results);
   const selection = withObservedOfficialContacts(observedSelection, results);
   const hasPersonContext = Boolean(known.company || known.product || known.website || known.industry);
@@ -827,7 +827,7 @@ export function resolveWebPresence(
   resolved.phones = contacts.phones;
   resolved.whatsApp = contacts.whatsApp;
   if (resolved.personLinkedIn || resolved.companyLinkedIn || resolved.verifiedSite || resolved.socials.length || resolved.emails.length || resolved.phones.length || resolved.whatsApp.length || resolved.supportingLinks.length) {
-    resolved.confidence = "medium";
+    resolved.evidenceStrength = "medium";
   }
   return resolved;
 }
@@ -912,7 +912,7 @@ function selectionForEvidence(selection: EnrichmentModelOutput): WebPresenceReso
     phones: [],
     whatsApp: [],
     supportingLinks: selection.supportingLinks,
-    confidence: "low",
+    evidenceStrength: "low",
   };
 }
 

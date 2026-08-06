@@ -1,8 +1,30 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { buildEnrichmentQueries, completeSelectionFromEvidence, evidenceFromOpenCodeTools, parseVerification, removeDefinitivelyDeadLinks, researchWebPresence, resolveWebPresence, retainSelectedEvidence } from "../src/enrichment.ts";
 
-const labels = JSON.parse(readFileSync(new URL("./enrichment-labels.json", import.meta.url), "utf8"));
+const syntheticFixtures = [
+  {
+    name: "acme-labs",
+    known: { name: "Ada Example", people: ["Ada Example"], company: "Acme Labs", product: "Acme Cloud", website: "https://acme.example", industry: "software", location: "USA", evidence: "Acme Labs" },
+    results: [
+      { url: "https://www.linkedin.com/in/ada-example", title: "Ada Example", snippet: "Ada Example, founder of Acme Labs" },
+      { url: "https://www.linkedin.com/company/acme-labs", title: "Acme Labs", snippet: "Acme Labs official organization profile" },
+      { url: "https://acme.example/", title: "Acme Labs", snippet: "Acme Labs official website" },
+    ],
+    expected: { personLinkedin: "ada-example", companyLinkedin: "acme-labs", website: "acme.example" },
+  },
+  {
+    name: "possible-person",
+    known: { name: "Bea Example", people: ["Bea Example"], company: null, product: null, website: null, industry: "design", location: "Canada", evidence: "Bea Example" },
+    results: [{ url: "https://www.linkedin.com/in/bea-example", title: "Bea Example", snippet: "Bea Example" }],
+    expected: { personLinkedin: null, companyLinkedin: null, website: null },
+  },
+  {
+    name: "unknown-buyer",
+    known: { name: null, people: [], company: null, product: null, website: null, industry: null, location: null, evidence: null },
+    results: [{ url: "https://unrelated.example/", title: "Unrelated result", snippet: "No buyer evidence" }],
+    expected: { personLinkedin: null, companyLinkedin: null, website: null },
+  },
+];
 const squish = (value) => (value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 const valueFor = (presence, field) => ({
   personLinkedin: presence.personLinkedIn,
@@ -40,9 +62,8 @@ assert.deepEqual(stringFlagVerification, {
 
 let pass = 0;
 let total = 0;
-for (const name of Object.keys(labels).filter((key) => !key.startsWith("_"))) {
-  const fixture = JSON.parse(readFileSync(new URL(`./enrichment-fixtures/${name}.json`, import.meta.url), "utf8"));
-  const expected = labels[name];
+for (const fixture of syntheticFixtures) {
+  const { name, expected } = fixture;
   const selected = (field) => {
     const value = expected[field];
     if (typeof value !== "string") return null;
@@ -61,16 +82,16 @@ for (const name of Object.keys(labels).filter((key) => !key.startsWith("_"))) {
     emails: [],
     phones: [],
     whatsApp: [],
-    confidence: "high",
+    evidenceStrength: "high",
   };
   const presence = resolveWebPresence(fixture.known, fixture.results, model, verifiedTwice({
     personLinkedin: Boolean(model.personLinkedin),
     companyLinkedin: Boolean(model.companyLinkedin),
     website: Boolean(model.website),
   }));
-  for (const field of Object.keys(labels[name]).filter((key) => key !== "note")) {
+  for (const field of Object.keys(expected)) {
     total++;
-    assert.equal(matches(valueFor(presence, field), labels[name][field]), true, `${name} ${field}`);
+    assert.equal(matches(valueFor(presence, field), expected[field]), true, `${name} ${field}`);
     pass++;
   }
 }
@@ -78,7 +99,7 @@ for (const name of Object.keys(labels).filter((key) => !key.startsWith("_"))) {
 const unrelated = resolveWebPresence(
   { name: null, people: [], company: "Acme", product: null, website: null, industry: null, location: null, evidence: null },
   [{ url: "https://example.com", title: "Unrelated result", snippet: "Nothing relevant" }],
-  { website: "https://example.com", confidence: "high" }
+  { website: "https://example.com", evidenceStrength: "high" }
 );
 assert.equal(unrelated.verifiedSite, null);
 
@@ -89,7 +110,7 @@ const organizationBuyerDoesNotBecomeEmployee = resolveWebPresence(
     { url: "https://linkedin.com/in/employee", title: "Acme employee", snippet: "Employee at Acme" },
     { url: "https://linkedin.com/company/acme", title: "Acme", snippet: "Acme company page" },
   ],
-  { personLinkedin: "https://linkedin.com/in/employee", companyLinkedin: "https://linkedin.com/company/acme", website: "https://acme.example", confidence: "high" },
+  { personLinkedin: "https://linkedin.com/in/employee", companyLinkedin: "https://linkedin.com/company/acme", website: "https://acme.example", evidenceStrength: "high" },
   verifiedTwice({ personLinkedin: true, companyLinkedin: true, website: true }),
 );
 assert.equal(organizationBuyerDoesNotBecomeEmployee.personLinkedIn, null);
@@ -98,7 +119,7 @@ assert.equal(organizationBuyerDoesNotBecomeEmployee.companyLinkedIn, "https://li
 const nameOnlyBuyerDoesNotBecomeWebIdentity = resolveWebPresence(
   { name: "Sim P", people: ["Sim P"], company: null, product: null, website: null, industry: null, location: "Canada", evidence: "Sim P" },
   [{ url: "https://linkedin.com/in/sim-p", title: "Sim P", snippet: "Sim P in Canada" }],
-  { personLinkedin: "https://linkedin.com/in/sim-p", confidence: "high" },
+  { personLinkedin: "https://linkedin.com/in/sim-p", evidenceStrength: "high" },
   verifiedTwice({ personLinkedin: true }),
 );
 assert.equal(nameOnlyBuyerDoesNotBecomeWebIdentity.personLinkedIn, null);
@@ -109,7 +130,7 @@ const personEmployerLinksAreNotBuyerLinks = resolveWebPresence(
     { url: "https://linkedin.com/in/keira-s", title: "Keira S.", snippet: "Sales & Social Media Manager in ecommerce" },
     { url: "https://linkedin.com/company/former-employer", title: "Former Employer", snippet: "Keira S. worked here" },
   ],
-  { personLinkedin: "https://linkedin.com/in/keira-s", supportingLinks: [{ url: "https://linkedin.com/company/former-employer", title: "Former Employer" }], confidence: "high" },
+  { personLinkedin: "https://linkedin.com/in/keira-s", supportingLinks: [{ url: "https://linkedin.com/company/former-employer", title: "Former Employer" }], evidenceStrength: "high" },
   verifiedTwice({ personLinkedin: true, supportingLinks: ["https://linkedin.com/company/former-employer"] }),
 );
 assert.equal(personEmployerLinksAreNotBuyerLinks.personLinkedIn, "https://linkedin.com/in/keira-s");
@@ -121,7 +142,7 @@ const personEmployerCompanyIsNotBuyerCompany = resolveWebPresence(
     { url: "https://linkedin.com/in/josh-bacon", title: "Josh B.", snippet: "VP of Automation & Integration" },
     { url: "https://www.linkedin.com/company/madwire", title: "Marketing 360 / Madwire", snippet: "Josh B. works at Madwire" },
   ],
-  { personLinkedin: "https://linkedin.com/in/josh-bacon", companyLinkedin: "https://www.linkedin.com/company/madwire", confidence: "high" },
+  { personLinkedin: "https://linkedin.com/in/josh-bacon", companyLinkedin: "https://www.linkedin.com/company/madwire", evidenceStrength: "high" },
   verifiedTwice({ personLinkedin: true, companyLinkedin: true }),
 );
 assert.equal(personEmployerCompanyIsNotBuyerCompany.personLinkedIn, "https://linkedin.com/in/josh-bacon");
@@ -130,7 +151,7 @@ assert.equal(personEmployerCompanyIsNotBuyerCompany.companyLinkedIn, null);
 const personPostsAreNotOrganizationLinks = resolveWebPresence(
   { name: "Erica C", people: ["Erica C"], company: "Longevity Lab Systems", product: null, website: null, industry: "wellness", location: "USA", evidence: "Longevity Lab Systems" },
   [{ url: "https://www.linkedin.com/posts/erica-canzler_example", title: "Erica Canzler", snippet: "Founder at Longevity Lab Systems" }],
-  { supportingLinks: [{ url: "https://www.linkedin.com/posts/erica-canzler_example", title: "Erica Canzler" }], confidence: "high" },
+  { supportingLinks: [{ url: "https://www.linkedin.com/posts/erica-canzler_example", title: "Erica Canzler" }], evidenceStrength: "high" },
   verifiedTwice({ supportingLinks: ["https://www.linkedin.com/posts/erica-canzler_example"] }),
 );
 assert.deepEqual(personPostsAreNotOrganizationLinks.supportingLinks, []);
@@ -141,7 +162,7 @@ const buyerOwnedExternalProductLink = resolveWebPresence(
     { url: "https://acme.example/", title: "Acme Labs", snippet: "Official Acme Labs website" },
     { url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment", snippet: "Acme Assessment by Acme Labs", fetchedFrom: "https://acme.example/" },
   ],
-  { website: "https://acme.example/", supportingLinks: [{ url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment" }], confidence: "high" },
+  { website: "https://acme.example/", supportingLinks: [{ url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment" }], evidenceStrength: "high" },
   verifiedTwice({ website: true, supportingLinks: ["https://acme-assessment.scoreapp.com/"] }),
 );
 assert.deepEqual(buyerOwnedExternalProductLink.supportingLinks, [{ url: "https://acme-assessment.scoreapp.com/", title: "Acme Assessment" }]);
@@ -152,7 +173,7 @@ const unconnectedDirectoryIsNotBuyerLink = resolveWebPresence(
     { url: "https://acme.example/", title: "Acme Labs", snippet: "Official Acme Labs website" },
     { url: "https://directory.example/acme", title: "Business directory", snippet: "Third-party directory listing", source: "websearch" },
   ],
-  { website: "https://acme.example/", supportingLinks: [{ url: "https://directory.example/acme", title: "Business directory" }], confidence: "high" },
+  { website: "https://acme.example/", supportingLinks: [{ url: "https://directory.example/acme", title: "Business directory" }], evidenceStrength: "high" },
   verifiedTwice({ website: true, supportingLinks: ["https://directory.example/acme"] }),
 );
 assert.deepEqual(unconnectedDirectoryIsNotBuyerLink.supportingLinks, []);
@@ -160,7 +181,7 @@ assert.deepEqual(unconnectedDirectoryIsNotBuyerLink.supportingLinks, []);
 const sameNameDomain = resolveWebPresence(
   { name: "Alpay", people: ["Alpay"], company: "SecurApp", product: "SecurApp", website: null, industry: "privacy rights SaaS", location: "Germany", evidence: "GDPR access, deletion, correction and objection" },
   [{ url: "https://securapp.securapp.co/", title: "Secur App - Login", snippet: "Aplicación colombiana de gestión de riesgos" }],
-  { website: "https://securapp.securapp.co/", confidence: "high" }
+  { website: "https://securapp.securapp.co/", evidenceStrength: "high" }
 );
 assert.equal(sameNameDomain.verifiedSite, null);
 
@@ -176,7 +197,7 @@ assert.equal(ambiguous.companyLinkedIn, null);
 const exactObserved = resolveWebPresence(
   { name: null, people: [], company: "Case Path", product: null, website: "example.com", industry: null, location: null, evidence: null },
   [{ url: "https://example.com/CasePath/", title: "Case Path", snippet: "Official company website" }],
-  { website: "https://example.com/CasePath/", confidence: "high" },
+  { website: "https://example.com/CasePath/", evidenceStrength: "high" },
   verifiedTwice({ website: true })
 );
 assert.equal(exactObserved.verifiedSite, "https://example.com/CasePath/");
@@ -184,7 +205,7 @@ assert.equal(exactObserved.verifiedSite, "https://example.com/CasePath/");
 const normalizedInsteadOfCopied = resolveWebPresence(
   { name: null, people: [], company: "Case Path", product: null, website: "example.com", industry: null, location: null, evidence: null },
   [{ url: "https://example.com/CasePath/", title: "Case Path", snippet: "Official company website" }],
-  { website: "http://example.com/casepath", confidence: "high" },
+  { website: "http://example.com/casepath", evidenceStrength: "high" },
   verifiedTwice({ website: true })
 );
 assert.equal(normalizedInsteadOfCopied.verifiedSite, null);
@@ -192,7 +213,7 @@ assert.equal(normalizedInsteadOfCopied.verifiedSite, null);
 const publicContacts = resolveWebPresence(
   { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
   [{ url: "https://acme.example/contact", title: "Contact Acme", snippet: "Email hello@acme.example or call +1 (415) 555-0199. WhatsApp https://wa.me/14155550199" }],
-  { website: "https://acme.example/contact", emails: ["hello@acme.example"], phones: ["+1 (415) 555-0199"], whatsApp: ["https://wa.me/14155550199"], confidence: "high" },
+  { website: "https://acme.example/contact", emails: ["hello@acme.example"], phones: ["+1 (415) 555-0199"], whatsApp: ["https://wa.me/14155550199"], evidenceStrength: "high" },
   verifiedTwice({ website: true, emails: ["hello@acme.example"], phones: ["+1 (415) 555-0199"], whatsApp: ["https://wa.me/14155550199"] })
 );
 assert.deepEqual(publicContacts.emails, ["hello@acme.example"]);
@@ -202,7 +223,7 @@ assert.deepEqual(publicContacts.whatsApp, ["https://wa.me/14155550199"]);
 const personalMailbox = resolveWebPresence(
   { name: "Jacob R", people: ["Jacob R"], company: null, product: null, website: "https://jacobrafiy.com", industry: "software and AI consulting", location: "USA", evidence: "Jacob Rafiy" },
   [{ url: "https://jacobrafiy.com", title: "Jacob Rafiy", snippet: "Contact jhrafiy@gmail.com or visit https://linkedin.com/in/jacob-rafiy" }],
-  { website: "https://jacobrafiy.com", emails: ["jhrafiy@gmail.com"], phones: [], whatsApp: [], confidence: "high" },
+  { website: "https://jacobrafiy.com", emails: ["jhrafiy@gmail.com"], phones: [], whatsApp: [], evidenceStrength: "high" },
   verifiedTwice({ website: true, emails: ["jhrafiy@gmail.com"] })
 );
 assert.deepEqual(personalMailbox.emails, ["jhrafiy@gmail.com"]);
@@ -210,7 +231,7 @@ assert.deepEqual(personalMailbox.emails, ["jhrafiy@gmail.com"]);
 const omittedOfficialContacts = resolveWebPresence(
   { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
   [{ url: "https://acme.example/", title: "Acme", snippet: "Contact media@acme.example or call +1 808-400-5055." }],
-  { website: "https://acme.example/", emails: [], phones: [], whatsApp: [], confidence: "high" },
+  { website: "https://acme.example/", emails: [], phones: [], whatsApp: [], evidenceStrength: "high" },
   verifiedTwice({ website: true, emails: ["media@acme.example"], phones: ["+1 808-400-5055"] })
 );
 assert.deepEqual(omittedOfficialContacts.emails, ["media@acme.example"]);
@@ -222,7 +243,7 @@ const searchOnlyContact = resolveWebPresence(
     { url: "https://acme.example/", title: "Acme", snippet: "Official Acme website.", source: "webfetch", fetchedFrom: "https://acme.example/" },
     { url: "https://acme.example/contact", title: "Search result", snippet: "A search index lists stale@acme.example.", source: "websearch", fetchedFrom: null },
   ],
-  { website: "https://acme.example/", emails: ["stale@acme.example"], phones: [], whatsApp: [], confidence: "high" },
+  { website: "https://acme.example/", emails: ["stale@acme.example"], phones: [], whatsApp: [], evidenceStrength: "high" },
   verifiedTwice({ website: true, emails: ["stale@acme.example"] })
 );
 assert.deepEqual(searchOnlyContact.emails, []);
@@ -238,7 +259,7 @@ const multipleOrganizationProfiles = resolveWebPresence(
     website: "https://cloud.acme.example",
     companyLinkedin: "https://www.linkedin.com/company/acme-labs",
     supportingLinks: [{ url: "https://www.linkedin.com/company/acme-cloud", title: "Acme Cloud on LinkedIn" }],
-    confidence: "high",
+    evidenceStrength: "high",
   },
   verifiedTwice({ website: true, companyLinkedin: true, supportingLinks: ["https://www.linkedin.com/company/acme-cloud"] })
 );
@@ -256,7 +277,7 @@ const completedOfficialSelection = completeSelectionFromEvidence(
     whatsApp: [],
     supportingLinks: [],
     summary: null,
-    confidence: "high",
+    evidenceStrength: "high",
   },
   [
     { title: "Acme Cloud", url: "https://cloud.acme.example", snippet: "Contact media@cloud.acme.example or +1 808-400-5055.", source: "webfetch", query: null, callID: "fetch-cloud", fetchedFrom: "https://cloud.acme.example" },
@@ -290,7 +311,7 @@ assert.deepEqual(withoutDeadLinks.supportingLinks, [{ url: "https://www.linkedin
 const disputedContacts = resolveWebPresence(
   { name: "Ada Person", people: ["Ada Person"], company: "Acme", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme public contact details" },
   [{ url: "https://acme.example/contact", title: "Contact Acme", snippet: "Email hello@acme.example or call +1 (415) 555-0199." }],
-  { website: "https://acme.example/contact", emails: ["hello@acme.example"], phones: ["+1 (415) 555-0199"], whatsApp: [], confidence: "high" },
+  { website: "https://acme.example/contact", emails: ["hello@acme.example"], phones: ["+1 (415) 555-0199"], whatsApp: [], evidenceStrength: "high" },
   [
     verification({ website: true, emails: ["hello@acme.example"], phones: ["+1 (415) 555-0199"] }),
     verification({ website: true, emails: ["hello@acme.example"] }),
@@ -312,7 +333,7 @@ const directoryContacts = resolveWebPresence(
     { url: "https://acme.example/about", title: "Acme", snippet: "Official software company" },
     { url: "https://directory.example/acme-alternatives", title: "Acme alternatives", snippet: "Contact sales@directory.example or call +1 (212) 555-0100" },
   ],
-  { website: "https://acme.example/about", emails: ["sales@directory.example"], phones: ["+1 (212) 555-0100"], whatsApp: [], confidence: "high" },
+  { website: "https://acme.example/about", emails: ["sales@directory.example"], phones: ["+1 (212) 555-0100"], whatsApp: [], evidenceStrength: "high" },
   verifiedTwice({ website: true, emails: ["sales@directory.example"], phones: ["+1 (212) 555-0100"] })
 );
 assert.deepEqual(directoryContacts.emails, []);
@@ -321,7 +342,7 @@ assert.deepEqual(directoryContacts.phones, []);
 const genericOrganization = resolveWebPresence(
   { name: null, people: [], company: "Solar", product: null, website: null, industry: "solar software", location: "GBR", evidence: "AI assistant for solar and electrical installers" },
   [{ url: "https://solarconnect.solar/contact", title: "Solar Connect", snippet: "Software for solar installers. Email connect@solarconnect.co.in or call 1800 890 2450." }],
-  { website: "https://solarconnect.solar/contact", emails: ["connect@solarconnect.co.in"], phones: ["1800 890 2450"], whatsApp: [], confidence: "high" },
+  { website: "https://solarconnect.solar/contact", emails: ["connect@solarconnect.co.in"], phones: ["1800 890 2450"], whatsApp: [], evidenceStrength: "high" },
   verifiedTwice({ website: false, emails: ["connect@solarconnect.co.in"], phones: ["1800 890 2450"] })
 );
 assert.equal(genericOrganization.verifiedSite, null);
@@ -349,7 +370,7 @@ const emptyEnrichmentModel = (values = {}) => ({
   whatsApp: [],
   supportingLinks: [],
   summary: null,
-  confidence: "low",
+  evidenceStrength: "low",
   ...values,
 });
 const searchTool = (query, url, title = query) => ({
@@ -365,7 +386,7 @@ const continuationPrompts = [];
 const textPrompts = [];
 const continuationResponses = [
   JSON.stringify(emptyEnrichmentModel()),
-  JSON.stringify(emptyEnrichmentModel({ website: "https://acme.example", confidence: "high" })),
+  JSON.stringify(emptyEnrichmentModel({ website: "https://acme.example", evidenceStrength: "high" })),
   "{malformed verifier response}",
   JSON.stringify(verification({ website: true })),
 ];
@@ -381,7 +402,7 @@ const continuedResearch = await researchWebPresence(
         return { text: JSON.stringify(emptyEnrichmentModel()), tools: [searchTool("Acme contact", "https://acme.example/contact", "Contact Acme")] };
       }
       return {
-        text: JSON.stringify(emptyEnrichmentModel({ website: "https://acme.example", confidence: "high" })),
+        text: JSON.stringify(emptyEnrichmentModel({ website: "https://acme.example", evidenceStrength: "high" })),
         tools: [searchTool("Acme website", "https://acme.example", "Acme official website")],
       };
     },
@@ -420,7 +441,7 @@ await assert.rejects(
 const crossDomainEmail = resolveWebPresence(
   { name: null, people: [], company: "Acme Instruments", product: null, website: "https://acme.example", industry: null, location: null, evidence: "Acme Instruments" },
   [{ url: "https://acme.example/contact", title: "Contact Acme Instruments", snippet: "Email sales@acme.example. Our distributor is partner@unrelated.example." }],
-  { website: "https://acme.example/contact", emails: ["sales@acme.example", "partner@unrelated.example"], phones: [], whatsApp: [], confidence: "high" },
+  { website: "https://acme.example/contact", emails: ["sales@acme.example", "partner@unrelated.example"], phones: [], whatsApp: [], evidenceStrength: "high" },
   verifiedTwice({ website: true, emails: ["sales@acme.example"] })
 );
 assert.deepEqual(crossDomainEmail.emails, ["sales@acme.example"]);
@@ -514,11 +535,11 @@ const evidence = Array.from({ length: 65 }, (_, index) => ({
   callID: "call",
   fetchedFrom: null,
 }));
-const selected = { personLinkedIn: null, companyLinkedIn: evidence[63].url, verifiedSite: evidence[64].url, socials: [], supportingLinks: [], confidence: "medium" };
+const selected = { personLinkedIn: null, companyLinkedIn: evidence[63].url, verifiedSite: evidence[64].url, socials: [], supportingLinks: [], evidenceStrength: "medium" };
 const retained = retainSelectedEvidence(evidence, selected, 60);
 assert.equal(retained.length, 60);
 assert.equal(retained.some((item) => item.url === evidence[63].url), true);
 assert.equal(retained.some((item) => item.url === evidence[64].url), true);
 assert.throws(() => retainSelectedEvidence(evidence, { ...selected, verifiedSite: "https://missing.example" }));
 
-console.log(`enrichment checks passed: ${pass}/${total} fixture fields`);
+console.log(`enrichment checks passed: ${pass}/${total} synthetic fields`);

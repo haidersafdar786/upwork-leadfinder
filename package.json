@@ -1,9 +1,11 @@
 {
   "name": "upwho",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
+  "description": "Local Upwork client identity research with evidence-backed output",
   "scripts": {
-    "test": "npm run check && npm run test:identity && npm run test:reviews && npm run test:opencode && npm run test:past-jobs && npm run test:enrichment && npm run test:run && npm run test:dashboard",
+    "test": "npm run check && npm run test:config && npm run test:identity && npm run test:reviews && npm run test:opencode && npm run test:past-jobs && npm run test:enrichment && npm run test:run && npm run test:run-files && npm run test:search && npm run test:dashboard",
     "check": "npm run check:types && npm run check:runtime",
     "check:types": "tsc -p tsconfig.json",
     "check:runtime": "node --experimental-strip-types src/job-replay.ts",
@@ -11,16 +13,20 @@
     "start": "npm run cli -- run",
     "dashboard": "nodemon --watch src --watch dashboard --ext ts,html --exec \"node --experimental-strip-types src/cli.ts dashboard\"",
     "dashboard:once": "npm run cli -- dashboard",
+    "test:config": "node --experimental-strip-types test/config.mjs",
     "test:identity": "node --experimental-strip-types test/identity.mjs",
     "test:reviews": "node --experimental-strip-types test/reviews.mjs",
     "test:opencode": "node --experimental-strip-types test/opencode.mjs",
     "test:past-jobs": "node --experimental-strip-types test/past-jobs.mjs",
     "test:enrichment": "node --experimental-strip-types test/enrichment.mjs",
+    "test:accuracy": "node --experimental-strip-types test/accuracy-replacement.mjs",
     "test:run": "node --experimental-strip-types test/run.mjs",
+    "test:run-files": "node --experimental-strip-types test/run-files.mjs",
+    "test:search": "node --experimental-strip-types test/search.mjs",
     "test:dashboard": "node --experimental-strip-types test/dashboard.mjs"
   },
   "engines": {
-    "node": ">=24"
+    "node": ">=24.0.0"
   },
   "dependencies": {
     "playwright": "1.62.1",

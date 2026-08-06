@@ -126,7 +126,7 @@ components:
     typography: "{typography.body}"
     padding: "11px 13px"
     height: "76px"
-  confidence-dot:
+  evidence-strength-dot:
     backgroundColor: "{colors.accent}"
     rounded: "{rounded.round}"
     size: "6px"
@@ -142,15 +142,15 @@ components:
 
 **Creative North Star: "The Contact Matrix"**
 
-Upwho is a working contact ledger. A slim command bar gives the current run just enough control, then the ruled matrix takes over the viewport. Every visual choice supports fast left-to-right scanning from a person to public contact paths, confidence, and source evidence.
+Upwho is a working contact ledger. A slim command bar gives the current run just enough control, then the ruled matrix takes over the viewport. Every visual choice supports fast left-to-right scanning from a person to public contact paths, evidence strength, and source evidence.
 
-The system is light, flat, and restrained. Cool grays carry the structure, charcoal carries the information, and green appears only where the user acts or where a result earns confidence. The familiar prospecting-table language should feel polished without turning into a CRM, a marketing page, or a collage of dashboard cards.
+The system is light, flat, and restrained. Cool grays carry the structure, charcoal carries the information, and green appears only where the user acts or where a result has stronger evidence. The familiar prospecting-table language should feel polished without turning into a CRM, a marketing page, or a collage of dashboard cards.
 
 **Key Characteristics:**
 
 - Dense, aligned records with a pinned identity column
 - Hairline structure instead of containers or elevation
-- Restrained green for action, live state, and verified confidence
+- Restrained green for action, live state, and verified evidence
 - Inline evidence that keeps judgment inside the table
 - Direct labels and recognizable contact icons
 
@@ -160,7 +160,7 @@ The palette is a cool, quiet field of whites and blue-grays with a single operat
 
 ### Primary
 
-- **Upwho Green** (#168755): Marks the Run action, live progress, active confidence dots, and selected sort state.
+- **Upwho Green** (#168755): Marks the Run action, live progress, active evidence-strength dots, and selected sort state.
 - **Deep Green** (#0d6f43): Carries hover emphasis for the primary action and text links that confirm intent.
 
 ### Secondary
@@ -184,7 +184,7 @@ The palette is a cool, quiet field of whites and blue-grays with a single operat
 
 ### Named Rules
 
-**The One Green Rule.** Keep green scarce. It belongs to the primary action, live state, confidence, and direct hover confirmation, not to broad decoration.
+**The One Green Rule.** Keep green scarce. It belongs to the primary action, live state, stronger evidence, and direct hover confirmation, not to broad decoration.
 
 **The Hairline Rule.** Separate data with one-pixel cool-gray rules. Do not replace table structure with boxed cards.
 
@@ -253,10 +253,10 @@ The table is rectangular and edge-to-edge. It has no enclosing radius. Interacti
 - **Records:** White 76px rows hold a bold identity line and a muted secondary line. Hover adds only a near-white tint.
 - **Sorting:** Sortable headers use plain label-and-chevron buttons. The active chevron takes Deep Green; the column never becomes a pill or filled tab.
 
-### Confidence
+### Evidence strength
 
 - **Style:** Four 6px dots pair with a lowercase text label. Active dots use Upwho Green and inactive dots use a light gray.
-- **Accessibility:** Text carries the confidence meaning. Color never stands alone.
+- **Accessibility:** Text carries the evidence-strength and identity-status meaning. Color never stands alone.
 
 ### Evidence
 
@@ -283,6 +283,6 @@ The table is rectangular and edge-to-edge. It has no enclosing radius. Interacti
 
 - **Don't** add navigation chrome, a sidebar, a marketing header, or a dashboard card collage.
 - **Don't** add dark mode, shadows, gradients, glass, blur, or ornamental animation.
-- **Don't** turn confidence, sorting, or filters into chips or pills.
+- **Don't** turn evidence strength, sorting, or filters into chips or pills.
 - **Don't** add row-selection controls or CRM workflow states.
-- **Don't** invent contact values, confidence language, claims, or explanatory filler.
+- **Don't** invent contact values, evidence-strength language, claims, or explanatory filler.

@@ -9,12 +9,54 @@ export type IsoDate = Brand<string, "IsoDate">;
 export type EmailAddress = Brand<string, "EmailAddress">;
 export type PhoneNumber = Brand<string, "PhoneNumber">;
 
+export const SEARCH_JOB_TYPES = ["hourly", "fixed-price"] as const;
+export type SearchJobType = typeof SEARCH_JOB_TYPES[number];
+
+export const SEARCH_EXPERIENCE_LEVELS = ["entry-level", "intermediate", "expert"] as const;
+export type SearchExperienceLevel = typeof SEARCH_EXPERIENCE_LEVELS[number];
+
+export const SEARCH_CLIENT_HIRE_RANGES = ["0-1", "1-9", "10+"] as const;
+export type SearchClientHireRange = typeof SEARCH_CLIENT_HIRE_RANGES[number];
+
+export const SEARCH_WORKLOADS = ["as-needed", "part-time", "full-time"] as const;
+export type SearchWorkload = typeof SEARCH_WORKLOADS[number];
+
+export const SEARCH_DURATIONS = ["less-than-1-month", "1-to-3-months", "3-to-6-months", "more-than-6-months"] as const;
+export type SearchDuration = typeof SEARCH_DURATIONS[number];
+
+export const SEARCH_PROPOSAL_RANGES = ["0-4", "5-9", "10-15", "15-20", "20-50", "50+"] as const;
+export type SearchProposalRange = typeof SEARCH_PROPOSAL_RANGES[number];
+
+export const SEARCH_SORTS = ["relevance+desc", "recency+desc", "client_total_charge+desc", "client_rating+desc"] as const;
+export type SearchSort = typeof SEARCH_SORTS[number];
+
+export interface SearchFilters {
+  allWords?: string;
+  anyWords?: string;
+  exactPhrase?: string;
+  excludeWords?: string;
+  title?: string;
+  skills?: string;
+  jobTypes?: SearchJobType[];
+  experienceLevels?: SearchExperienceLevel[];
+  clientHires?: SearchClientHireRange[];
+  workloads?: SearchWorkload[];
+  durations?: SearchDuration[];
+  proposals?: SearchProposalRange[];
+  locations?: string[];
+  daysPosted?: number;
+  paymentVerified?: boolean;
+  enterpriseOnly?: boolean;
+  sort?: SearchSort;
+}
+
 export type FeedSelection =
   | { kind: "best-matches"; url: HttpUrl }
   | { kind: "most-recent"; url: HttpUrl }
   | { kind: "my-feed"; url: HttpUrl }
   | { kind: "saved"; url: HttpUrl }
-  | { kind: "search"; url: HttpUrl; query: string };
+  | { kind: "search"; url: HttpUrl; query: string; filters: SearchFilters }
+  | { kind: "job"; url: HttpUrl; jobUrl: HttpUrl };
 
 export interface FeedJob {
   selection: FeedSelection;
@@ -129,26 +171,57 @@ export type Evidence =
 export type Identity =
   | {
       kind: "identified";
+      status: "verified" | "possible";
       name: string | null;
       people: string[];
       company: string | null;
       product: string | null;
       website: HttpUrl | null;
       industry: string | null;
-      confidence: "high" | "medium" | "low";
+      evidenceStrength: "high" | "medium" | "low";
       evidenceQuote: string;
+      evidenceSource: IdentityEvidenceSource;
+      evidenceSourceId: string;
+      claimEvidence: IdentityClaimEvidenceSet;
     }
   | {
       kind: "unknown";
+      status: "unknown";
       name: null;
       people: string[];
       company: null;
       product: null;
       website: null;
       industry: null;
-      confidence: "unknown";
+      evidenceStrength: "none";
       evidenceQuote: null;
+      evidenceSource: null;
+      evidenceSourceId: null;
+      claimEvidence: IdentityClaimEvidenceSet;
     };
+
+export type IdentityEvidenceSource = "description" | "attachment" | "sibling-job" | "past-job" | "review-to-client" | "past-title" | "job-title";
+
+export interface IdentityClaimEvidence {
+  value: string;
+  quote: string;
+  source: IdentityEvidenceSource;
+  sourceId: string;
+}
+
+export interface IdentityClaimEvidenceSet {
+  name: IdentityClaimEvidence | null;
+  company: IdentityClaimEvidence | null;
+  product: IdentityClaimEvidence | null;
+  website: IdentityClaimEvidence | null;
+  industry: IdentityClaimEvidence | null;
+}
+
+export function identityStatus(identity: Identity): IdentityStatus {
+  return identity.status;
+}
+
+export type IdentityStatus = "verified" | "possible" | "unknown";
 
 export interface SupportingLink {
   url: HttpUrl;

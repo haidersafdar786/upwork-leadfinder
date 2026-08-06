@@ -5,15 +5,30 @@ import { homedir, platform as osPlatform } from "node:os";
 import { delimiter, join } from "node:path";
 import { promisify } from "node:util";
 import { chromium, type Browser, type BrowserContext, type Page } from "playwright";
+import { z } from "zod";
 import { checkpoint, currentCancellationSignal } from "./cancellation.ts";
-import type { FeedJob, FeedSelection, HttpUrl, IsoDate, JobId } from "./types.ts";
+import { parseConfig, processEnvironment } from "./config.ts";
+import {
+  SEARCH_CLIENT_HIRE_RANGES,
+  SEARCH_DURATIONS,
+  SEARCH_EXPERIENCE_LEVELS,
+  SEARCH_JOB_TYPES,
+  SEARCH_PROPOSAL_RANGES,
+  SEARCH_SORTS,
+  SEARCH_WORKLOADS,
+  type FeedJob,
+  type FeedSelection,
+  type HttpUrl,
+  type IsoDate,
+  type JobId,
+  type SearchFilters,
+} from "./types.ts";
 
 const execFileAsync = promisify(execFile);
 const UPWORK_ORIGINS = new Set(["upwork.com", "www.upwork.com"]);
 const DETAIL_QUERY_ALIAS = "gql-query-get-auth-job-details-v2";
 const DETAIL_QUERY = readFileSync(new URL("./graphql/detail-query.graphql", import.meta.url), "utf8");
 export const UPWORK_TENANT_ID = "1538018989781975041";
-const DEFAULT_CDP_URL = "http://127.0.0.1:9222";
 const FEED_WAIT_MS = 45_000;
 const BACKGROUND_TAB_READY_TIMEOUT_MS = 10_000;
 
@@ -135,6 +150,7 @@ declare global {
       vuex?: {
         jobDetails?: {
           job?: {
+            [key: string]: unknown;
             description?: unknown;
             attachments?: unknown[];
           };
@@ -181,7 +197,7 @@ function objectValue(value: unknown): Record<string, unknown> | null {
 }
 
 function toJobId(value: string): JobId {
-  if (!/^\d+$/.test(value)) throw new Error(`Feed job id is invalid: ${value}`);
+  if (value === "." || value === ".." || !/^[A-Za-z0-9_.~-]+$/.test(value)) throw new Error(`Feed job id is invalid: ${value}`);
   return value as JobId;
 }
 
@@ -198,11 +214,83 @@ function toUpworkUrl(value: string): HttpUrl {
   return value as HttpUrl;
 }
 
-function selectionFor(feedKey: FeedKey, query: string | undefined): FeedSelection {
+const StringList = <Value extends string>(schema: z.ZodType<Value>) => z.preprocess(
+  (value) => Array.isArray(value) ? value : typeof value === "string" ? value.split(",") : value,
+  z.array(schema),
+);
+
+const SearchFiltersSchema = z.object({
+  allWords: z.string().trim().min(1).optional(),
+  anyWords: z.string().trim().min(1).optional(),
+  exactPhrase: z.string().trim().min(1).optional(),
+  excludeWords: z.string().trim().min(1).optional(),
+  title: z.string().trim().min(1).optional(),
+  skills: z.string().trim().min(1).optional(),
+  jobTypes: StringList(z.enum(SEARCH_JOB_TYPES)).optional(),
+  experienceLevels: StringList(z.enum(SEARCH_EXPERIENCE_LEVELS)).optional(),
+  clientHires: StringList(z.enum(SEARCH_CLIENT_HIRE_RANGES)).optional(),
+  workloads: StringList(z.enum(SEARCH_WORKLOADS)).optional(),
+  durations: StringList(z.enum(SEARCH_DURATIONS)).optional(),
+  proposals: StringList(z.enum(SEARCH_PROPOSAL_RANGES)).optional(),
+  locations: StringList(z.string().trim().min(1)).optional(),
+  daysPosted: z.coerce.number().int().min(1).max(30).optional(),
+  paymentVerified: z.boolean().optional(),
+  enterpriseOnly: z.boolean().optional(),
+  sort: z.enum(SEARCH_SORTS).optional(),
+}).strict();
+
+export function parseSearchFilters(value: unknown): SearchFilters {
+  if (value === undefined || value === null || value === "") return {};
+  let input = value;
+  if (typeof value === "string") {
+    try {
+      input = JSON.parse(value);
+    } catch (error) {
+      throw new Error("search filters must be valid JSON", { cause: error });
+    }
+  }
+  return SearchFiltersSchema.parse(input);
+}
+
+function searchFilterParams(filters: SearchFilters): Record<string, string> {
+  const params: Record<string, string> = {};
+  const scalarFields: Array<[keyof SearchFilters, string]> = [
+    ["allWords", "all_words"],
+    ["anyWords", "any_words"],
+    ["exactPhrase", "exact_phrase"],
+    ["excludeWords", "exclude_words"],
+    ["title", "title"],
+    ["skills", "skills"],
+    ["sort", "sort"],
+  ];
+  for (const [field, name] of scalarFields) {
+    const value = filters[field];
+    if (typeof value === "string" && value) params[name] = value;
+  }
+  const lists: Array<[keyof SearchFilters, string]> = [
+    ["jobTypes", "job_type"],
+    ["experienceLevels", "experience_level"],
+    ["clientHires", "client_hires"],
+    ["workloads", "workload"],
+    ["durations", "duration"],
+    ["proposals", "proposals"],
+    ["locations", "location"],
+  ];
+  for (const [field, name] of lists) {
+    const value = filters[field];
+    if (Array.isArray(value)) params[name] = value.join(",");
+  }
+  if (filters.daysPosted !== undefined) params.days_posted = String(filters.daysPosted);
+  if (filters.paymentVerified !== undefined) params.payment_verified = filters.paymentVerified ? "1" : "0";
+  if (filters.enterpriseOnly !== undefined) params.enterprise = filters.enterpriseOnly ? "1" : "0";
+  return params;
+}
+
+function selectionFor(feedKey: FeedKey, query: string | undefined, filters: SearchFilters = {}): FeedSelection {
   const spec = FEEDS[feedKey];
   if (feedKey === "search") {
     if (!query?.trim()) throw new Error("Search feed requires a query or an Upwork search URL");
-    return { kind: "search", url: toUpworkSearchUrl(buildSearchUrl(query)), query };
+    return { kind: "search", url: toUpworkSearchUrl(buildSearchUrl(query, filters)), query, filters };
   }
   if (!spec.url) throw new Error(`Feed ${feedKey} has no URL`);
   return { kind: feedKey, url: toUpworkSearchUrl(spec.url) };
@@ -216,20 +304,35 @@ function toUpworkSearchUrl(value: string): HttpUrl {
   return value as HttpUrl;
 }
 
-export function buildSearchUrl(queryOrUrl: string, overrides: Record<string, string> = {}): string {
+export function buildSearchUrl(queryOrUrl: string, filters: SearchFilters = {}): string {
   if (/^https?:\/\//i.test(queryOrUrl)) {
     const url = new URL(queryOrUrl);
     if (url.protocol !== "https:" || !UPWORK_ORIGINS.has(url.hostname) || !url.pathname.startsWith("/nx/search/jobs/")) {
       throw new Error("Search URL must be an HTTPS Upwork job-search URL");
     }
-    return queryOrUrl;
+    if (Object.keys(filters).length === 0) return queryOrUrl;
+    for (const [key, value] of Object.entries(searchFilterParams(filters))) url.searchParams.set(key, value);
+    return url.toString();
   }
-  const params = { ...SEARCH_DEFAULTS, ...overrides, q: queryOrUrl };
-  const encoded = Object.entries(params)
-    .filter(([, value]) => value !== "")
-    .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
-    .join("&");
-  return `https://www.upwork.com/nx/search/jobs/?${encoded}`;
+  const params = new URLSearchParams({ ...SEARCH_DEFAULTS, ...searchFilterParams(filters), q: queryOrUrl });
+  return `https://www.upwork.com/nx/search/jobs/?${params.toString()}`;
+}
+
+function jobCiphertextFromUrl(value: string): string {
+  const url = new URL(value);
+  if (url.protocol !== "https:" || !UPWORK_ORIGINS.has(url.hostname) || !url.pathname.startsWith("/jobs/")) {
+    throw new Error(`URL is not an HTTPS Upwork job URL: ${value}`);
+  }
+  const segment = url.pathname.split("/").filter(Boolean).at(-1);
+  if (!segment) throw new Error(`Upwork job URL has no job identifier: ${value}`);
+  const ciphertext = decodeURIComponent(segment);
+  if (!/^[A-Za-z0-9_.~-]+$/.test(ciphertext)) throw new Error(`Upwork job URL has an invalid job identifier: ${value}`);
+  return ciphertext;
+}
+
+function jobSelection(jobUrl: string): Extract<FeedSelection, { kind: "job" }> {
+  const url = toUpworkUrl(jobUrl);
+  return { kind: "job", url, jobUrl: url };
 }
 
 function parseFeedJob(value: unknown, selection: FeedSelection): FeedJob {
@@ -305,6 +408,33 @@ async function loadFeed(page: Page, feedKey: FeedKey, selection: FeedSelection):
   if (!url) throw new Error(`Feed ${feedKey} has no URL`);
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: FEED_WAIT_MS });
   return readEmbeddedJobs(page, spec.statePath, selection);
+}
+
+async function loadJobPage(page: Page, selection: Extract<FeedSelection, { kind: "job" }>): Promise<EmbeddedFeed> {
+  const ciphertext = jobCiphertextFromUrl(selection.jobUrl);
+  await page.goto(selection.jobUrl, { waitUntil: "domcontentloaded", timeout: FEED_WAIT_MS });
+  const serialized = await page.evaluate(() => {
+    const job = window.__NUXT__?.vuex?.jobDetails?.job;
+    return job && typeof job === "object" ? JSON.stringify(job) : null;
+  });
+  let embedded: Record<string, unknown> = {};
+  if (serialized) {
+    try {
+      const parsed: unknown = JSON.parse(serialized);
+      embedded = objectValue(parsed) || {};
+    } catch (error) {
+      throw new Error(`Upwork job page state was not valid JSON: ${selection.jobUrl}`, { cause: error });
+    }
+  }
+  const raw: Record<string, unknown> = {
+    ...embedded,
+    uid: textValue(embedded.uid ?? embedded.id) || ciphertext,
+    ciphertext: textValue(embedded.ciphertext) || ciphertext,
+    url: selection.jobUrl,
+    title: textValue(embedded.title) || "",
+    description: textValue(embedded.description) || "",
+  };
+  return { rawJobs: [raw], jobs: [parseFeedJob(raw, selection)] };
 }
 
 function bearerFromHeaders(headers: Record<string, string>): string | null {
@@ -385,7 +515,7 @@ interface BrowserExecutable {
   app?: string;
 }
 
-function executableFor(browser: BrowserDefinition, platform: ReturnType<typeof osPlatform> = osPlatform(), env = process.env): BrowserExecutable | null {
+function executableFor(browser: BrowserDefinition, platform: ReturnType<typeof osPlatform> = osPlatform(), env = processEnvironment()): BrowserExecutable | null {
   if (platform === "darwin") {
     const locations = ["/Applications", join(env.HOME || homedir(), "Applications")];
     for (const directory of locations) {
@@ -509,10 +639,9 @@ export async function newBackgroundPage(browser: Browser, context: BrowserContex
   });
 }
 
-export async function openFeed(feedKey: FeedKey = "best-matches", query?: string, { cdpUrl = process.env.UPWHO_CDP_URL || DEFAULT_CDP_URL } = {}): Promise<FeedSession> {
+async function openSession(selection: FeedSelection, load: (page: Page) => Promise<EmbeddedFeed>, cdpUrl = parseConfig().cdpUrl): Promise<FeedSession> {
   const signal = currentCancellationSignal();
   checkpoint(signal);
-  const selection = selectionFor(feedKey, query);
   await ensureCdp(cdpUrl);
   checkpoint(signal);
 
@@ -545,7 +674,7 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
     const feedPage = await newBackgroundPage(browser, context, selection.url);
     page = feedPage;
     feedPage.on("request", captureRequest);
-    const loaded = await loadFeed(feedPage, feedKey, selection);
+    const loaded = await load(feedPage);
     const firstJob = loaded.jobs[0];
     if (!firstJob) throw new Error("The feed loaded without any jobs");
     const testedTokens = new Set<string>();
@@ -573,6 +702,20 @@ export async function openFeed(feedKey: FeedKey = "best-matches", query?: string
   } finally {
     signal?.removeEventListener("abort", cancel);
   }
+}
+
+export async function openFeed(
+  feedKey: FeedKey = "best-matches",
+  query?: string,
+  { cdpUrl = parseConfig().cdpUrl, searchFilters = {} }: { cdpUrl?: string; searchFilters?: SearchFilters } = {},
+): Promise<FeedSession> {
+  const selection = selectionFor(feedKey, query, searchFilters);
+  return openSession(selection, (page) => loadFeed(page, feedKey, selection), cdpUrl);
+}
+
+export async function openJobUrl(jobUrl: string, { cdpUrl = parseConfig().cdpUrl } = {}): Promise<FeedSession> {
+  const selection = jobSelection(jobUrl);
+  return openSession(selection, (page) => loadJobPage(page, selection), cdpUrl);
 }
 
 export async function closeFeed(session: FeedSession): Promise<void> {
