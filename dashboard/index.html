@@ -477,22 +477,34 @@
         background: var(--surface);
         color: var(--ink);
       }
+      #settings-panel { width: min(540px, calc(100vw - 24px)); }
       [popover]::backdrop { background: transparent; }
       .popover-head {
+        position: sticky;
+        z-index: 1;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 12px;
         padding: 15px 16px 10px;
+        border-bottom: 1px solid var(--line);
+        background: var(--surface);
       }
       .popover-head h2 { margin: 0; font-size: 15px; letter-spacing: -.015em; }
       .popover-body { padding: 7px 16px 17px; }
-      .settings-grid { display: grid; gap: 17px; }
+      .settings-grid { display: grid; gap: 0; }
+      .settings-section { display: grid; gap: 12px; }
+      .settings-section + .settings-section { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--line); }
+      .settings-section-heading { display: grid; gap: 2px; }
+      .settings-section-heading h3 { margin: 0; font-size: 15px; letter-spacing: -.01em; }
+      .settings-section-heading p { margin: 0; color: var(--muted); font-size: 12px; }
+      .filter-group { display: grid; gap: 10px; }
+      .filter-group + .filter-group { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+      .filter-group-title { margin: 0; color: #4f5962; font-size: 12px; font-weight: 760; letter-spacing: .015em; }
       .filter-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
       .filter-grid .wide { grid-column: 1 / -1; }
       .filter-select { width: 100%; min-height: 40px; padding: 7px 9px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--surface); color: var(--ink); }
-      .filter-select[multiple] { min-height: 78px; }
-      .settings-divider { margin: 2px 0 -2px; border: 0; border-top: 1px solid var(--line); }
       .field { display: grid; gap: 6px; }
       .field > span { color: #4f5962; font-size: 12px; font-weight: 700; }
       .text-control {
@@ -504,9 +516,30 @@
         background: var(--surface);
         color: var(--ink);
       }
-      .check-control { display: flex; align-items: flex-start; gap: 9px; color: #414a52; cursor: pointer; }
+      .filter-choice-group { min-width: 0; margin: 0; padding: 0; border: 0; }
+      .filter-choice-group legend { padding: 0; color: #4f5962; font-size: 12px; font-weight: 700; }
+      .choice-grid { display: grid; grid-template-columns: 1fr; gap: 4px; margin-top: 6px; }
+      #job-types .choice-grid, #proposals .choice-grid, #client-hires .choice-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .choice-control {
+        display: flex;
+        min-width: 0;
+        min-height: 32px;
+        align-items: center;
+        gap: 8px;
+        padding: 4px 6px;
+        border-radius: 6px;
+        color: #414a52;
+        cursor: pointer;
+      }
+      .choice-control:hover { background: #f4f7f5; }
+      .choice-control input { width: 15px; height: 15px; flex: 0 0 auto; margin: 0; accent-color: var(--accent); }
+      .choice-control span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .check-control { display: flex; align-items: flex-start; gap: 9px; min-height: 36px; padding: 8px; border: 1px solid var(--line); border-radius: 7px; background: #fbfcfb; color: #414a52; cursor: pointer; }
+      .check-control:hover { border-color: var(--line-strong); background: #f7faf8; }
       .check-control input { width: 16px; height: 16px; margin-top: 2px; accent-color: var(--accent); }
       .check-control small { display: block; margin-top: 2px; color: var(--muted); }
+      .filter-toggles { display: grid; gap: 6px; }
+      .settings-note { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
       .history-list { display: grid; margin: 0; padding: 0; list-style: none; }
       .history-item {
         display: grid;
@@ -539,6 +572,10 @@
         .run-progress { grid-template-columns: 1fr auto; }
         .evidence-item { grid-template-columns: 105px minmax(0, 1fr); }
         .evidence-item-link { grid-template-columns: 105px minmax(0, 1fr) 18px; }
+        #settings-panel { inset: var(--bar-height) 10px auto auto; width: calc(100vw - 20px); }
+        .popover-body { padding-inline: 12px; }
+        .filter-grid { grid-template-columns: 1fr; }
+        .filter-grid .wide { grid-column: auto; }
       }
     </style>
   </head>
@@ -664,37 +701,107 @@
     <section id="settings-panel" popover aria-labelledby="settings-title">
       <div class="popover-head"><h2 id="settings-title">Run settings</h2></div>
       <div class="popover-body settings-grid">
-        <label class="field">
-          <span>Skip countries</span>
-          <input id="countries" class="text-control" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine, Kenya, Nigeria" aria-describedby="countries-help">
-          <small id="countries-help">Comma-separated. Leave blank to include every country.</small>
-        </label>
-        <label class="check-control">
-          <input id="force" type="checkbox">
-          <span>Process jobs seen in past runs<small>Use this when you want a completely fresh result.</small></span>
-        </label>
-        <div id="search-filters" hidden>
-          <hr class="settings-divider">
-          <div class="filter-grid">
-            <label class="field wide"><span>All words</span><input id="all-words" class="text-control" placeholder="every word must appear"></label>
-            <label class="field"><span>Any words</span><input id="any-words" class="text-control" placeholder="one or more words"></label>
-            <label class="field"><span>Exact phrase</span><input id="exact-phrase" class="text-control" placeholder="quoted phrase"></label>
-            <label class="field"><span>Exclude words</span><input id="exclude-words" class="text-control" placeholder="words to exclude"></label>
-            <label class="field"><span>Title contains</span><input id="title-filter" class="text-control" placeholder="job title"></label>
-            <label class="field"><span>Skills</span><input id="skills-filter" class="text-control" placeholder="comma-separated skills"></label>
-            <label class="field"><span>Contract type</span><select id="job-types" class="filter-select" multiple><option value="hourly">Hourly</option><option value="fixed-price">Fixed price</option></select></label>
-            <label class="field"><span>Experience</span><select id="experience-levels" class="filter-select" multiple><option value="entry-level">Entry</option><option value="intermediate">Intermediate</option><option value="expert">Expert</option></select></label>
-            <label class="field"><span>Client hires</span><select id="client-hires" class="filter-select" multiple><option value="0-1">0–1</option><option value="1-9">1–9</option><option value="10+">10+</option></select></label>
-            <label class="field"><span>Workload</span><select id="workloads" class="filter-select" multiple><option value="as-needed">As needed</option><option value="part-time">Part time</option><option value="full-time">Full time</option></select></label>
-            <label class="field"><span>Duration</span><select id="durations" class="filter-select" multiple><option value="less-than-1-month">Less than 1 month</option><option value="1-to-3-months">1–3 months</option><option value="3-to-6-months">3–6 months</option><option value="more-than-6-months">More than 6 months</option></select></label>
-            <label class="field"><span>Proposals</span><select id="proposals" class="filter-select" multiple><option value="0-4">0–4</option><option value="5-9">5–9</option><option value="10-15">10–15</option><option value="15-20">15–20</option><option value="20-50">20–50</option><option value="50+">50+</option></select></label>
-            <label class="field wide"><span>Locations</span><input id="locations" class="text-control" placeholder="comma-separated countries or regions"></label>
-            <label class="field"><span>Posted within</span><select id="days-posted" class="filter-select"><option value="">Any time</option><option value="1">1 day</option><option value="3">3 days</option><option value="7">7 days</option><option value="14">14 days</option><option value="30">30 days</option></select></label>
-            <label class="field"><span>Sort</span><select id="sort-filter" class="filter-select"><option value="relevance+desc">Relevance</option><option value="recency+desc">Newest</option><option value="client_total_charge+desc">Client spend</option><option value="client_rating+desc">Client rating</option></select></label>
-            <label class="check-control wide"><input id="payment-verified" type="checkbox" checked><span>Verified payment only<small>Keep the default Upwork payment-verification filter.</small></span></label>
-            <label class="check-control wide"><input id="enterprise-only" type="checkbox"><span>Enterprise clients only</span></label>
+        <div class="settings-section">
+          <div class="settings-section-heading"><h3>Run behavior</h3><p>Choose what gets included before processing.</p></div>
+          <label class="field">
+            <span>Skip countries</span>
+            <input id="countries" class="text-control" value="India, Israel, Pakistan, Bangladesh, Philippines, Ukraine, Kenya, Nigeria" aria-describedby="countries-help">
+            <small id="countries-help">Comma-separated. Leave blank to include every country.</small>
+          </label>
+          <label class="check-control">
+            <input id="force" type="checkbox">
+            <span>Process jobs seen in past runs<small>Use this when you want a completely fresh result.</small></span>
+          </label>
+        </div>
+        <div id="search-filters" class="settings-section" hidden>
+          <div class="settings-section-heading"><h3>Search filters</h3><p>Refine jobs matched by your query.</p></div>
+          <div class="filter-group">
+            <h4 class="filter-group-title">Keywords</h4>
+            <div class="filter-grid">
+              <label class="field wide"><span>All words</span><input id="all-words" class="text-control" placeholder="every word must appear"></label>
+              <label class="field"><span>Any words</span><input id="any-words" class="text-control" placeholder="one or more words"></label>
+              <label class="field"><span>Exact phrase</span><input id="exact-phrase" class="text-control" placeholder="quoted phrase"></label>
+              <label class="field"><span>Exclude words</span><input id="exclude-words" class="text-control" placeholder="words to exclude"></label>
+              <label class="field"><span>Title contains</span><input id="title-filter" class="text-control" placeholder="job title"></label>
+              <label class="field wide"><span>Skills</span><input id="skills-filter" class="text-control" placeholder="comma-separated skills"></label>
+            </div>
           </div>
-          <small>Filters are copied into the Upwork search URL. A full Upwork search URL can also be pasted into the query field.</small>
+          <div class="filter-group">
+            <h4 class="filter-group-title">Job details</h4>
+            <div class="filter-grid">
+              <fieldset id="job-types" class="filter-choice-group">
+                <legend>Contract type</legend>
+                <div class="choice-grid">
+                  <label class="choice-control"><input type="checkbox" value="hourly"><span>Hourly</span></label>
+                  <label class="choice-control"><input type="checkbox" value="fixed-price"><span>Fixed price</span></label>
+                </div>
+              </fieldset>
+              <fieldset id="experience-levels" class="filter-choice-group">
+                <legend>Experience</legend>
+                <div class="choice-grid">
+                  <label class="choice-control"><input type="checkbox" value="entry-level"><span>Entry</span></label>
+                  <label class="choice-control"><input type="checkbox" value="intermediate"><span>Intermediate</span></label>
+                  <label class="choice-control"><input type="checkbox" value="expert"><span>Expert</span></label>
+                </div>
+              </fieldset>
+              <fieldset id="workloads" class="filter-choice-group">
+                <legend>Workload</legend>
+                <div class="choice-grid">
+                  <label class="choice-control"><input type="checkbox" value="as-needed"><span>As needed</span></label>
+                  <label class="choice-control"><input type="checkbox" value="part-time"><span>Part time</span></label>
+                  <label class="choice-control"><input type="checkbox" value="full-time"><span>Full time</span></label>
+                </div>
+              </fieldset>
+              <fieldset id="durations" class="filter-choice-group">
+                <legend>Duration</legend>
+                <div class="choice-grid">
+                  <label class="choice-control"><input type="checkbox" value="less-than-1-month"><span>Less than 1 month</span></label>
+                  <label class="choice-control"><input type="checkbox" value="1-to-3-months"><span>1–3 months</span></label>
+                  <label class="choice-control"><input type="checkbox" value="3-to-6-months"><span>3–6 months</span></label>
+                  <label class="choice-control"><input type="checkbox" value="more-than-6-months"><span>More than 6 months</span></label>
+                </div>
+              </fieldset>
+              <fieldset id="proposals" class="filter-choice-group">
+                <legend>Proposals</legend>
+                <div class="choice-grid">
+                  <label class="choice-control"><input type="checkbox" value="0-4"><span>0–4</span></label>
+                  <label class="choice-control"><input type="checkbox" value="5-9"><span>5–9</span></label>
+                  <label class="choice-control"><input type="checkbox" value="10-15"><span>10–15</span></label>
+                  <label class="choice-control"><input type="checkbox" value="15-20"><span>15–20</span></label>
+                  <label class="choice-control"><input type="checkbox" value="20-50"><span>20–50</span></label>
+                  <label class="choice-control"><input type="checkbox" value="50+"><span>50+</span></label>
+                </div>
+              </fieldset>
+              <label class="field"><span>Posted within</span><select id="days-posted" class="filter-select"><option value="">Any time</option><option value="1">1 day</option><option value="3">3 days</option><option value="7">7 days</option><option value="14">14 days</option><option value="30">30 days</select></label>
+              <label class="field"><span>Sort</span><select id="sort-filter" class="filter-select"><option value="relevance+desc">Relevance</option><option value="recency+desc">Newest</option><option value="client_total_charge+desc">Client spend</option><option value="client_rating+desc">Client rating</option></select></label>
+            </div>
+          </div>
+          <div class="filter-group">
+            <h4 class="filter-group-title">Client and location</h4>
+            <div class="filter-grid">
+              <fieldset id="client-hires" class="filter-choice-group">
+                <legend>Client hires</legend>
+                <div class="choice-grid">
+                  <label class="choice-control"><input type="checkbox" value="0-1"><span>0–1</span></label>
+                  <label class="choice-control"><input type="checkbox" value="1-9"><span>1–9</span></label>
+                  <label class="choice-control"><input type="checkbox" value="10+"><span>10+</span></label>
+                </div>
+              </fieldset>
+              <label class="field wide"><span>Locations</span><input id="locations" class="text-control" placeholder="comma-separated countries or regions"></label>
+            </div>
+          </div>
+          <div class="filter-group">
+            <h4 class="filter-group-title">Results</h4>
+            <div class="filter-grid">
+              <label class="field"><span>Page number</span><input id="search-page" class="text-control" type="number" min="1" max="1000" step="1" value="1" inputmode="numeric"></label>
+              <label class="field"><span>Items per page</span><select id="search-per-page" class="filter-select"><option value="10">10</option><option value="20">20</option><option value="50" selected>50</option></select></label>
+            </div>
+          </div>
+          <div class="filter-toggles">
+            <label class="check-control"><input id="payment-verified" type="checkbox" checked><span>Verified payment only<small>Keep the default Upwork payment-verification filter.</small></span></label>
+            <label class="check-control"><input id="enterprise-only" type="checkbox"><span>Enterprise clients only</span></label>
+          </div>
+          <p class="settings-note">Filters are copied into the Upwork search URL. You can also paste a full Upwork search URL into the query field.</p>
         </div>
       </div>
     </section>
@@ -1289,7 +1396,15 @@
       }
 
       function selectedValues(id) {
-        return [...$(id).selectedOptions].map((option) => option.value);
+        return [...document.querySelectorAll(`#${id} input:checked`)].map((input) => input.value);
+      }
+
+      function positiveIntegerFilter(id, label, maximum) {
+        const value = $(id).value.trim();
+        if (!value) return undefined;
+        const parsed = Number(value);
+        if (!Number.isInteger(parsed) || parsed < 1 || parsed > maximum) throw new Error(`${label} must be a whole number from 1 to ${maximum}`);
+        return parsed;
       }
 
       function searchFilters() {
@@ -1309,6 +1424,10 @@
         const daysPosted = $("days-posted").value;
         if (daysPosted) filters.daysPosted = Number(daysPosted);
         if ($("sort-filter").value !== "relevance+desc") filters.sort = $("sort-filter").value;
+        const page = positiveIntegerFilter("search-page", "Page number", 1000);
+        if (page !== undefined && page !== 1) filters.page = page;
+        const perPage = positiveIntegerFilter("search-per-page", "Items per page", 50);
+        if (perPage !== undefined && perPage !== 50) filters.perPage = perPage;
         if (!$("payment-verified").checked) filters.paymentVerified = false;
         if ($("enterprise-only").checked) filters.enterpriseOnly = true;
         return filters;
@@ -1328,7 +1447,12 @@
         const jobUrl = $("job-url").value.trim();
         if (feed === "search" && !query) { setStatus("Enter a search query or full search URL", "error"); $("query").focus(); return; }
         if (feed === "job" && !jobUrl) { setStatus("Enter one Upwork job URL", "error"); $("job-url").focus(); return; }
-        startRun({ feed: feed === "job" ? "best-matches" : feed, query: feed === "search" ? query : undefined, jobUrl: feed === "job" ? jobUrl : undefined, searchFilters: feed === "search" ? searchFilters() : undefined, countries: $("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force: $("force").checked });
+        let filters;
+        if (feed === "search") {
+          try { filters = searchFilters(); }
+          catch (error) { setStatus(error instanceof Error ? error.message : String(error), "error"); return; }
+        }
+        startRun({ feed: feed === "job" ? "best-matches" : feed, query: feed === "search" ? query : undefined, jobUrl: feed === "job" ? jobUrl : undefined, searchFilters: feed === "search" ? filters : undefined, countries: $("countries").value.split(",").map((value) => value.trim()).filter(Boolean), force: $("force").checked });
       });
       $("cancel").addEventListener("click", cancelRun);
       $("history-button").addEventListener("click", () => loadRuns().catch((error) => setStatus(error.message, "error")));

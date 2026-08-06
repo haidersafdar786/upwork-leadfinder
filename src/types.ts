@@ -44,6 +44,8 @@ export interface SearchFilters {
   durations?: SearchDuration[];
   proposals?: SearchProposalRange[];
   locations?: string[];
+  page?: number;
+  perPage?: number;
   daysPosted?: number;
   paymentVerified?: boolean;
   enterpriseOnly?: boolean;

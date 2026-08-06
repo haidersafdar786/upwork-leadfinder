@@ -78,6 +78,20 @@ try {
   const dashboardPage = await context.newPage();
   try {
     await dashboardPage.goto(baseUrl);
+    await dashboardPage.selectOption("#feed", "search");
+    await dashboardPage.click("#settings-button");
+    await dashboardPage.locator("#job-types input[value=hourly]").check();
+    await dashboardPage.locator("#experience-levels input[value=expert]").check();
+    await dashboardPage.locator("#search-page").fill("2");
+    await dashboardPage.selectOption("#search-per-page", "20");
+    assert.deepEqual(await dashboardPage.evaluate(() => window.searchFilters()), {
+      jobTypes: ["hourly"],
+      experienceLevels: ["expert"],
+      page: 2,
+      perPage: 20,
+    }, "search settings should serialize selected filters and pagination");
+    await dashboardPage.selectOption("#feed", "best-matches");
+    assert.equal(await dashboardPage.locator("#search-filters").isVisible(), false, "search-only filters should hide for non-search feeds");
     const recoveredNameLabels = await dashboardPage.evaluate(() => ({
       duplicate: window.recoveredNameLabel({
         identity: { name: "Jack W", status: "possible" },

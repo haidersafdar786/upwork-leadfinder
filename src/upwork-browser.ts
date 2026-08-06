@@ -233,6 +233,8 @@ const SearchFiltersSchema = z.object({
   durations: StringList(z.enum(SEARCH_DURATIONS)).optional(),
   proposals: StringList(z.enum(SEARCH_PROPOSAL_RANGES)).optional(),
   locations: StringList(z.string().trim().min(1)).optional(),
+  page: z.coerce.number().int().min(1).max(1_000).optional(),
+  perPage: z.coerce.number().int().min(1).max(50).optional(),
   daysPosted: z.coerce.number().int().min(1).max(30).optional(),
   paymentVerified: z.boolean().optional(),
   enterpriseOnly: z.boolean().optional(),
@@ -280,6 +282,8 @@ function searchFilterParams(filters: SearchFilters): Record<string, string> {
     const value = filters[field];
     if (Array.isArray(value)) params[name] = value.join(",");
   }
+  if (filters.page !== undefined) params.page = String(filters.page);
+  if (filters.perPage !== undefined) params.per_page = String(filters.perPage);
   if (filters.daysPosted !== undefined) params.days_posted = String(filters.daysPosted);
   if (filters.paymentVerified !== undefined) params.payment_verified = filters.paymentVerified ? "1" : "0";
   if (filters.enterpriseOnly !== undefined) params.enterprise = filters.enterpriseOnly ? "1" : "0";
