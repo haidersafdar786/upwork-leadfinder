@@ -1,4 +1,4 @@
-#Upwork Leadfinder
+Upwork Leadfinder
 
 Upwork Leadfinder finds the public identity behind anonymized Upwork jobs. It groups jobs by buyer, keeps the evidence used for each match, and links verified public websites and contact paths.
 
