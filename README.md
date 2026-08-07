@@ -6,8 +6,6 @@ It runs locally for one freelancer. The dashboard listens on `127.0.0.1` and run
 
 ![Upwho dashboard showing an evidence-backed client table](docs/dashboard.png)
 
-*The screenshot uses synthetic data.*
-
 ## How it works
 
 1. Upwho opens an Upwork feed or one job URL in a logged-in Chromium browser. It uses that browser session and same-origin requests, not direct HTTP requests to Upwork.
