@@ -1,4 +1,4 @@
-Upwork Leadfinder
+#Upwork Leadfinder
 
 Upwork Leadfinder finds the public identity behind anonymized Upwork jobs. It groups jobs by buyer, keeps the evidence used for each match, and links verified public websites and contact paths.
 
@@ -26,8 +26,8 @@ Set UPWORK_LEADFINDER_CDP_URL to use another endpoint.
 
 Quick start
 
-git clone https://github.com/NomanGul/upwho.git
-cd upwho
+git clone https://github.com/haidersafdar786/upwork-leadfinder.git
+cd upwork-leadfinder
 npm install
 opencode --version
 
@@ -36,9 +36,7 @@ Start the dashboard:
 npm run dashboard
 # open http://127.0.0.1:4040
 
-Choose a feed, add search filters if needed, and click Run.
-
-Open a saved result from Run history. Click an evidence row to inspect the source quotes and public web evidence.
+Choose a feed, add search filters if needed, and click Run. Open a saved result from Run history. Click an evidence row to inspect the source quotes and public web evidence.
 
 For the CLI, run one of these:
 
@@ -48,18 +46,13 @@ npm run cli -- run --job-url "https://www.upwork.com/jobs/~0123456789abcdef"
 
 Search queries can also be complete Upwork search URLs.
 
-Existing job IDs are skipped across runs; add --force to process them again.
-
-Add --no-model for collection-only runs without identity or web enrichment.
+Existing job IDs are skipped across runs; add --force to process them again. Add --no-model for collection-only runs without identity or web enrichment.
 
 Output
 
 Each run is stored in:
 
 runs/<timestamp>_<feed>/
-
-The structure is:
-
 data/<job-id>.json   raw feed and job data
 result.json          one result per buyer
 manifest.json        completion marker
@@ -78,3 +71,7 @@ npm run test:accuracy runs the model-backed identity corpus and is separate from
 Find the real people and companies behind Upwork opportunities — with evidence.
 
 Find the lead. Verify the identity. Win the client.
+
+Repository
+
+https://github.com/haidersafdar786/upwork-leadfinder
