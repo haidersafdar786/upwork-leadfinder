@@ -28,7 +28,7 @@ const execFileAsync = promisify(execFile);
 const UPWORK_ORIGINS = new Set(["upwork.com", "www.upwork.com"]);
 const DETAIL_QUERY_ALIAS = "gql-query-get-auth-job-details-v2";
 const DETAIL_QUERY = readFileSync(new URL("./graphql/detail-query.graphql", import.meta.url), "utf8");
-export const UPWORK_TENANT_ID = "1538018989781975041";
+export const UPWORK_TENANT_ID = "2000610765543417739";
 const FEED_WAIT_MS = 45_000;
 const BACKGROUND_TAB_READY_TIMEOUT_MS = 10_000;
 
